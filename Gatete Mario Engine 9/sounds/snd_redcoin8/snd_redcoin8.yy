@@ -14,7 +14,7 @@
   "duration": 0.651604,
   "parent": {
     "name": "Item",
-    "path": "folders/Sprites/Sonidos/Item.yy",
+    "path": "folders/Sonidos/Item.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_redcoin8",

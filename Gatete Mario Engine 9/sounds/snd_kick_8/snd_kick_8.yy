@@ -14,7 +14,7 @@
   "duration": 0.220312,
   "parent": {
     "name": "Kick",
-    "path": "folders/Sprites/Sonidos/Action/Kick.yy",
+    "path": "folders/Sonidos/Action/Kick.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_kick_8",

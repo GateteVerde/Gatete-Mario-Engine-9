@@ -14,7 +14,7 @@
   "duration": 3.011563,
   "parent": {
     "name": "Fanfares",
-    "path": "folders/Sprites/Sonidos/Fanfares.yy",
+    "path": "folders/Sonidos/Fanfares.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_starman",

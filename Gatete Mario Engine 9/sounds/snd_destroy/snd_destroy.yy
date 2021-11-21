@@ -14,7 +14,7 @@
   "duration": 0.794059,
   "parent": {
     "name": "Menu",
-    "path": "folders/Sprites/Sonidos/Menu.yy",
+    "path": "folders/Sonidos/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_destroy",
