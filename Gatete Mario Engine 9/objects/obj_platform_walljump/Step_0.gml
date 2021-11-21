@@ -1,0 +1,263 @@
+/// @description Platform and Track logic
+
+#region TRACK LOGIC
+
+	//Check for a track
+	var track = collision_rectangle(x+xorig, y+yorig-3, x+xorig, y+yorig+0.9, obj_trackparent, 1, 0);
+	
+	//If the platform is not moving
+	if (state = "IDLE") {
+		
+		//If Mario is inside the contraption
+		if (instance_exists(obj_mario))
+		&& (obj_mario.wallkick == 1)
+		&& (point_in_rectangle(obj_mario.x, obj_mario.y, x - ((width * 16) / 2) - 16, y + 12, x + ((width * 16) / 2) + 16, y + 12 + (height * 16)))
+			state = "IN_LINE";
+	}
+
+	//If the platform is on line
+	else if (state = "IN_LINE") {
+
+	    //Update steps
+	    step += spd;
+	    while (step >= 1) {
+    
+	        //Travel through tracks
+	        if (collision_point(x+xorig+cos(degtorad(direct)), y+yorig-sin(degtorad(direct)), obj_trackparent, 1, 0)) {
+        
+	            x += cos(degtorad(direct));
+	            y += -sin(degtorad(direct));
+	        }
+	        else if (collision_point(x+xorig+cos(degtorad(direct))-sin(degtorad(direct)), y+yorig-sin(degtorad(direct))-cos(degtorad(direct)), obj_trackparent, 1, 0)) {
+        
+	            x += cos(degtorad(direct))-sin(degtorad(direct));
+	            y += -sin(degtorad(direct))-cos(degtorad(direct));
+	        }
+	        else if (collision_point(x+xorig+cos(degtorad(direct))+sin(degtorad(direct)), y+yorig-sin(degtorad(direct))+cos(degtorad(direct)), obj_trackparent, 1, 0)) {
+        
+	            x += cos(degtorad(direct))+sin(degtorad(direct));
+	            y += -sin(degtorad(direct))+cos(degtorad(direct));
+	        }
+	        else if (collision_point(x+xorig-sin(degtorad(direct)), y+yorig-cos(degtorad(direct)), obj_trackparent, 1, 0)) {
+        
+	            x += -sin(degtorad(direct));
+	            y += -cos(degtorad(direct));
+	            direct += 90;
+	        }
+	        else if (collision_point(x+xorig+sin(degtorad(direct)), y+yorig+cos(degtorad(direct)), obj_trackparent, 1, 0)) {
+        
+	            x += sin(degtorad(direct));
+	            y += cos(degtorad(direct));
+	            direct -= 90;
+	        }
+	        else {
+        
+	            direct += 180;
+	        }
+            
+	        //Check for nodes / limits
+	        limit = collision_point(x+xorig, y+yorig, obj_track_limit, 1, 0);
+	        node = collision_point(x+xorig, y+yorig, obj_track_modifier, 1, 0);
+        
+	        //If there's a launch node
+	        if (node) {
+
+	            //Set 'Falling' state
+	            state = "FALLING";
+            
+	            //Reset step
+	            step = 0;             
+            
+	            //Apply gravity
+	            gravity = 0.1;
+            
+	            //Set direction
+	            direction = direct;
+            
+	            //If moving up, jump
+	            if (direction == 90) {
+            
+	                vspeed = -spd*3;
+	                if (node.hsp == true) {
+                
+	                    if (x > xprevious)
+	                        hspeed = spd;
+	                    else if (x < xprevious)
+	                        hspeed = -spd;
+	                }      
+	            }
+            
+	            //If moving to the right
+	            else if (direction == 0) {
+            
+	                //If this is a jump node
+	                if (node.jump == true) {
+                
+	                    vspeed = -spd*2.5;
+	                    hspeed = spd*2;
+	                }
+	                else
+	                    hspeed = spd;         
+	            }
+            
+	            //If moving to the left
+	            else if (direction == 180) {
+            
+	                //If this is a jump node
+	                if (node.jump == true) {
+                
+	                    vspeed = -spd*2.5;
+	                    hspeed = -spd*2;
+	                }
+	                else
+	                    hspeed = -spd;              
+	            }
+	            else
+	                speed = spd;
+	        }
+        
+	        //If there's a limit, reverse direction
+	        if (limit) then direct = -180;
+        
+	        //Update alarm 0
+	        alarm[0] = 8;
+        
+	        //Update step
+	        step--;
+        
+	        //Reset angles
+	        if (direct < 0)
+	            direct += 360;
+	        else if (direct >= 360)
+	            direct -= 360;
+	    }
+	}
+
+	//Otherwise if falling
+	else if (ready == 1) && (state == "FALLING") {
+    
+	    //If there's a track in position
+	    if (track) 
+	    && (vspeed > 0) {
+    
+	        //Set "In_Line" state
+	        state = "IN_LINE";
+        
+	        //Set direction and snap
+	        if (hspeed == 0) {
+        
+	            direct = 270;
+	            move_snap(1, 2);
+	        }
+	        else {
+
+	            //If the track is a circle one
+	            //"pls notice me gatete" -mack
+	            if ((track.object_index == obj_track_circle)
+	            || (track.object_index == obj_track_circle_2x)) {
+             
+	                direct = 270;
+	                move_snap(1, 2);   
+	            }
+        
+	            //If the track is a horizontal one
+	            else if (track.object_index == obj_track_h) {
+            
+	                move_snap(1, 8);
+	                if (hspeed > 0)
+	                    direct = 0;            
+	                else if (hspeed < 0)
+	                    direct = 180;
+	            }
+	            else {
+            
+	                direct = 270;
+	                move_snap(1, 2);
+	            }             
+	        }
+                             
+	        //Stop vertical movement
+	        hspeed = 0;
+	        vspeed = 0;
+	        gravity = 0;
+                
+	        //In line
+	        ready = 0;
+	    }
+    
+	    //Cap vertical speed
+	    if (vspeed > 3)
+	        vspeed = 3;
+	}
+
+	//If the platform is outside the view
+	if (x < camera_get_view_x(view_camera[0])-((width * 16) + 16) / 2)
+	|| (y < camera_get_view_y(view_camera[0])-(height * 16) + 16)
+	|| (x > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]))
+	|| (y > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])) {
+
+	    if (xstart < camera_get_view_x(view_camera[0])-((width * 16) + 16) / 2)
+	    || (ystart < camera_get_view_y(view_camera[0])-(height * 16) + 16)
+	    || (xstart > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]))
+	    || (ystart > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])) {
+		
+			//Reset state
+			state = "IDLE";
+		
+			//Go to start position
+			x = xstart;
+			y = ystart;
+		
+			//Stop movement
+			hspeed = 0;
+			vspeed = 0;
+			gravity = 0;
+		
+			//Set up direction based on modifier
+			if (place_meeting(x, y, obj_up)) {
+
+			    direct = 90;
+			    state = "IN_LINE";
+			}
+			else if (place_meeting(x, y, obj_down)) {
+
+			    direct = 270;
+			    state = "IN_LINE";
+			}
+			else if (place_meeting(x, y, obj_left)) {
+
+			    direct = 180;
+			    state = "IN_LINE";
+			}
+			else if (place_meeting(x, y, obj_right)) {
+
+			    direct = 0;
+			    state = "IN_LINE";
+			}
+			else
+				direct = 0;
+	    }        
+	}
+#endregion
+
+//Make collisions move along
+if (platform != noone) {
+
+	//Set the platform position
+	platform.x = x - ((width * 16) / 2) + 8;
+	platform.y = y + 12;
+	
+	//Set the left wall position
+	if (wall_l != noone) {
+		
+		wall_l.x = platform.bbox_left;
+		wall_l.y = y + 28;
+	}
+	
+	//Set the right wall position
+	if (wall_r != noone) {
+		
+		wall_r.x = platform.bbox_right - 15;
+		wall_r.y = y + 28;
+	}
+}
