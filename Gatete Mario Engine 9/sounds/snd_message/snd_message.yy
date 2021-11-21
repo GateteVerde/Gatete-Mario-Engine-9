@@ -14,7 +14,7 @@
   "duration": 0.796009,
   "parent": {
     "name": "Menu",
-    "path": "folders/Sonidos/Menu.yy",
+    "path": "folders/Sprites/Sonidos/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_message",

@@ -14,7 +14,7 @@
   "duration": 5.274989,
   "parent": {
     "name": "Menu",
-    "path": "folders/Sonidos/Menu.yy",
+    "path": "folders/Sprites/Sonidos/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_rain",

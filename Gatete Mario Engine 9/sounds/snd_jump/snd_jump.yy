@@ -14,7 +14,7 @@
   "duration": 0.3322,
   "parent": {
     "name": "Action",
-    "path": "folders/Sonidos/Action.yy",
+    "path": "folders/Sprites/Sonidos/Action.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_jump",

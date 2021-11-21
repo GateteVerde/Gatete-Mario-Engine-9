@@ -14,7 +14,7 @@
   "duration": 0.266259,
   "parent": {
     "name": "Item",
-    "path": "folders/Sonidos/Item.yy",
+    "path": "folders/Sprites/Sonidos/Item.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_switch",

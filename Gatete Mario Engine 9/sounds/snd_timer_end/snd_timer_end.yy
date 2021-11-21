@@ -14,7 +14,7 @@
   "duration": 2.795625,
   "parent": {
     "name": "Menu",
-    "path": "folders/Sonidos/Menu.yy",
+    "path": "folders/Sprites/Sonidos/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_timer_end",

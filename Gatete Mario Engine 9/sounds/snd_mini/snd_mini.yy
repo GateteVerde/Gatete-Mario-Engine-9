@@ -14,7 +14,7 @@
   "duration": 0.883813,
   "parent": {
     "name": "Item",
-    "path": "folders/Sonidos/Item.yy",
+    "path": "folders/Sprites/Sonidos/Item.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_mini",
