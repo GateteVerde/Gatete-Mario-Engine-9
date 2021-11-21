@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_lava",
-    "path": "sprites/spr_lava/spr_lava.yy",
+    "name": "spr_mask_explosion_gold",
+    "path": "sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,17 +22,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blockparent","path":"objects/obj_blockparent/obj_blockparent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lava",
-    "path": "folders/Objetos/Decoration/Liquids/Lava.yy",
+    "name": "Do Not Use!",
+    "path": "folders/Objetos/Special/Do Not Use!.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lava",
+  "name": "obj_explosion_gold",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -10,8 +10,9 @@ if (noscore == false) {
 //Create effect
 with (instance_create_depth(x, y+8, -6, obj_blend_ring)) beam = true;
 
-//If Mario does not have the mega powerup
-if (global.powerup != cs_mega) {
+//If Mario does not have the gold or mega powerups
+if (global.powerup != cs_gold)
+&& (global.powerup != cs_mega) {
 
 	/*/If the player is big and there's NOT an item on reserve.
 	if (global.powerup == cs_big) 
@@ -55,8 +56,9 @@ else {
 	//Play 'Reserve' sound
 	audio_play_sound(snd_reserve, 0, false);
 	
-	//Set it on the reserve box
-	global.reserve = sprite_get_macro(sprite_index);
+	//Set it on the reserve box if the held item is not a golden flower
+	if (global.reserve != cs_gold)
+		global.reserve = sprite_get_macro(sprite_index);
 }
 
 //Destroy

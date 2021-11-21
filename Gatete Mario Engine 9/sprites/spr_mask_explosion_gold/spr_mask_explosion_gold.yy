@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 0,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"98da39ca-984c-479e-a51e-b588d3c246a3","path":"sprites/spr_mask_explosion/spr_mask_explosion.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"98da39ca-984c-479e-a51e-b588d3c246a3","path":"sprites/spr_mask_explosion/spr_mask_explosion.yy",},"LayerId":{"name":"10c216b9-bff9-4b4d-a71a-1ae210c62560","path":"sprites/spr_mask_explosion/spr_mask_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mask_explosion","path":"sprites/spr_mask_explosion/spr_mask_explosion.yy",},"resourceVersion":"1.0","name":"98da39ca-984c-479e-a51e-b588d3c246a3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"98da39ca-984c-479e-a51e-b588d3c246a3","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"98da39ca-984c-479e-a51e-b588d3c246a3","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},"LayerId":{"name":"10c216b9-bff9-4b4d-a71a-1ae210c62560","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_mask_explosion_gold","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},"resourceVersion":"1.0","name":"98da39ca-984c-479e-a51e-b588d3c246a3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mask_explosion","path":"sprites/spr_mask_explosion/spr_mask_explosion.yy",},
+    "spriteId": {"name":"spr_mask_explosion_gold","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8f1448c9-9566-457b-9892-2a202c2590e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98da39ca-984c-479e-a51e-b588d3c246a3","path":"sprites/spr_mask_explosion/spr_mask_explosion.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"601818a5-7755-4f82-89a9-5644f6fce4df","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98da39ca-984c-479e-a51e-b588d3c246a3","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -55,12 +55,12 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 40,
-    "yorigin": 32,
+    "yorigin": 40,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mask_explosion","path":"sprites/spr_mask_explosion/spr_mask_explosion.yy",},
+    "parent": {"name":"spr_mask_explosion_gold","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_mask_explosion",
+    "name": "spr_mask_explosion_gold",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Masks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_mask_explosion",
+  "name": "spr_mask_explosion_gold",
   "tags": [],
   "resourceType": "GMSprite",
 }

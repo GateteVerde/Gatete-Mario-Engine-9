@@ -3,8 +3,9 @@
 //Create effect
 with (instance_create_depth(x, y+8, -6, obj_blend_ring)) beam = true;
 
-//If Mario does not have the 'Mega' powerup
-if (global.powerup != cs_mega) {
+//If Mario does not have the gold or mega powerups
+if (global.powerup != cs_gold)
+&& (global.powerup != cs_mega) {
 	
 	//If the reserve item is a tiny mushroom
 	if (sprite_index == spr_tinyshroom) {
@@ -123,7 +124,8 @@ else {
 	audio_play_sound(snd_reserve, 0, false);
 		
 	//Set this powerup as reserve
-	global.reserve = sprite_get_macro(sprite_index);
+	if (global.reserve != cs_gold)
+		global.reserve = sprite_get_macro(sprite_index);
 }
 
 //Destroy

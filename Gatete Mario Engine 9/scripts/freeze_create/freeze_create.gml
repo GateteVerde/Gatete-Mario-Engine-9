@@ -67,7 +67,7 @@ function freeze_create() {
 	}
 	
 	//Run _temp function
-	timer(_temp, 1, false);
+	timer(_temp, 0.1, false);
 }
 
 /// @function									freeze_render();                                 freeze_render()

@@ -16,5 +16,8 @@ repeat (32) {
 //Create ring effect
 effect_create_above(ef_ring, x, y+8, 0, make_colour_rgb(252, 224, 25));
 
+//Create shockwave
+instance_create_layer(x, y+8, "Main", obj_explosion_gold);
+
 //Destroy
 instance_destroy();
