@@ -74,6 +74,9 @@ function sprite_create_object() {
 		//1-UP
 		case (spr_1up): return instance_create_depth(argument[1], argument[2], argument[3], obj_1up);
 		
+		//3-UP
+		case (spr_3up): return instance_create_depth(argument[1], argument[2], argument[3], obj_3up);
+		
 		//Poison
 		case (spr_poison): return instance_create_depth(argument[1], argument[2], argument[3], obj_poison);
 		

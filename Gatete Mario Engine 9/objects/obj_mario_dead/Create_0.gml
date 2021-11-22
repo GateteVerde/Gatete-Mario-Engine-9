@@ -25,8 +25,8 @@ alarm[1] = 200;
 //Reset mount
 global.mount = 0;
 
-//Reset powerup
-global.powerup = cs_small;
+//Reset safeguard
+global.safeguard = 0;
 
 //Show 'Mario Start' again
 global.mariostart = 0;

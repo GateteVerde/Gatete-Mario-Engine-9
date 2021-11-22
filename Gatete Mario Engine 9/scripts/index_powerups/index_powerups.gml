@@ -36,8 +36,6 @@ function index_powerups() {
 		global.walk_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_walk");
 		global.walljump_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_walljump");
 		global.float_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_float");
-		global.attack_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_attack");
-		
-	}
-	
+		global.attack_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_attack");		
+	}	
 }
