@@ -22,12 +22,12 @@ else {
 	
 	//Set up gravity
 	if (swimming)
-		yadd = 0.03125;
+		yadd = 0.025;
 	else
-		yadd = 0.25; 
+		yadd = 0.2; 
 }
 
-//Handle position when on a slope
+//Handle position when in-ground
 if (yspeed >= 0) {
 	
 	//Conveyor collisions
@@ -63,6 +63,8 @@ if (yspeed >= 0) {
 		
 		//Bounce
 		bounces = (max(0, bounces - 1));
+		
+		//Set vertical speed
 		if (bounces < 2)
 			yspeed = -0.6 * bounces;
 		else
@@ -73,7 +75,7 @@ if (yspeed >= 0) {
 //Embed into the slope to ensure correct slope mechanics
 if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
 && (!collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom-4, obj_slopeparent, 1, 0))
-&& (yadd == 0)
+&& (yspeed == 0)
     y += 4;
 
 ///Handle slope collisions
@@ -88,6 +90,8 @@ if (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1
 		
 		//Bounce
 		bounces = (max(0, bounces - 1));
+		
+		//Set vertical speed
 		if (bounces < 2)
 			yspeed = -0.6 * bounces;
 		else

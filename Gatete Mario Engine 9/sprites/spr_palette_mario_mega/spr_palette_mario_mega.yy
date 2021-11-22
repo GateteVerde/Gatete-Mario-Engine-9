@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Palettes",
-    "path": "folders/Sprites/Mario/Extra/Palettes.yy",
+    "name": "Mario",
+    "path": "folders/Sprites/Special/System/Palettes/Mario.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_palette_mario_mega",
