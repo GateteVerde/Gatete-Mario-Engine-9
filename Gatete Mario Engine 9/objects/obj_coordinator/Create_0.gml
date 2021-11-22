@@ -34,6 +34,9 @@ global.flighttime = 4;
 //Climb time (In seconds, how much time allow Mario to climb walls as Cat Mario)
 global.cattime = 3;
 
+//Maximum amount of hearts
+global.safeguard_max = 3;
+
 //Allow reserve of items if enabled
 //0: Disabled
 //1: Enabled

@@ -4,7 +4,7 @@
 audio_play_sound(snd_powerup, 0, false);
 
 //Grant an extra hit
-if (global.safeguard < 3) {
+if (global.safeguard < global.safeguard_max) {
 	
 	global.safeguard++;
 }
