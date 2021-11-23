@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_platform_log",
-    "path": "sprites/spr_platform_log/spr_platform_log.yy",
+    "name": "spr_platform_carrot",
+    "path": "sprites/spr_platform_carrot/spr_platform_carrot.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,17 +26,17 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "SMB2",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/SMB2.yy",
+    "path": "folders/Objetos/Items/Platforms/SMB2.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_platform_log_gen",
+  "name": "obj_platform_carrot",
   "tags": [],
   "resourceType": "GMObject",
 }
