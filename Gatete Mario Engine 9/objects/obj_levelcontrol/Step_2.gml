@@ -260,7 +260,7 @@ if (shake_time > 0) {
 	shake_val = choose(-shake_val, shake_val);
 	
 	//Subtract shake time
-	shake_time --;	
+	shake_time--;	
 } 
 else {
 

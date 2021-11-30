@@ -70,11 +70,11 @@ if (yspeed > yspeed_max)
 //Set up the player's maximum horizontal speed.
 if (!flying || global.powerup == cs_cape) { //If the player is not flying
 	
-    // Run grace period of 2 frames (fireballs, etc)
+    //Run grace period of 2 frames (fireballs, etc)
 	if (input_check_released(input.action_1))			
 		run_cooldown = 2;
 			
-	// Subtract cooldown
+	//Subtract cooldown
 	if (run_cooldown > 0)		
 		run_cooldown --;
 
