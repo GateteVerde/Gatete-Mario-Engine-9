@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 95,
-  "bbox_top": 0,
-  "bbox_bottom": 79,
+  "bbox_top": 4,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 96,
-  "height": 80,
+  "height": 96,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"4667eeb3-4f6c-4126-b44c-8b79459c1541","path":"sprites/spr_castle/spr_castle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4667eeb3-4f6c-4126-b44c-8b79459c1541","path":"sprites/spr_castle/spr_castle.yy",},"LayerId":{"name":"b2261819-6e0e-4781-9b20-271c3ff06a11","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_castle","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","name":"4667eeb3-4f6c-4126-b44c-8b79459c1541","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"924c1ef9-cee7-40c8-9095-4c433db6ab2e","path":"sprites/spr_castle/spr_castle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"924c1ef9-cee7-40c8-9095-4c433db6ab2e","path":"sprites/spr_castle/spr_castle.yy",},"LayerId":{"name":"b2261819-6e0e-4781-9b20-271c3ff06a11","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_castle","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","name":"924c1ef9-cee7-40c8-9095-4c433db6ab2e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2d4bfe4e-76ed-4a7b-89d5-561adb5ab3a2","path":"sprites/spr_castle/spr_castle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2d4bfe4e-76ed-4a7b-89d5-561adb5ab3a2","path":"sprites/spr_castle/spr_castle.yy",},"LayerId":{"name":"b2261819-6e0e-4781-9b20-271c3ff06a11","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_castle","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","name":"2d4bfe4e-76ed-4a7b-89d5-561adb5ab3a2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_castle","path":"sprites/spr_castle/spr_castle.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"00eb0200-ce99-41b7-9d38-f5e80a078d48","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4667eeb3-4f6c-4126-b44c-8b79459c1541","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"88c78ea7-7ae3-4e2c-9813-a569e9f9824f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"924c1ef9-cee7-40c8-9095-4c433db6ab2e","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7f5cffad-c087-4601-8076-dcab71de887d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d4bfe4e-76ed-4a7b-89d5-561adb5ab3a2","path":"sprites/spr_castle/spr_castle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,8 +58,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 48,
-    "yorigin": 64,
+    "xorigin": 32,
+    "yorigin": 80,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_castle","path":"sprites/spr_castle/spr_castle.yy",},
