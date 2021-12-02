@@ -38,6 +38,6 @@ if (angle == 0) {
 //Hurt the player
 if ((angle == 0) && ((collision_rectangle(bbox_left,  bbox_top-1,  bbox_right,  bbox_top-1,  obj_mario,  0,  0)) && (global.mount == 0)))
 || ((angle > 30 && angle < 150) && (collision_rectangle(bbox_right+1, bbox_top, bbox_right+1, bbox_bottom, obj_mario, 0, 0)))
-|| ((angle == 180) && (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_mario, 0, 0)))
+|| ((angle == 180) && (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_mario, 0, 0)))
 || ((angle > 210 && angle < 330) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left-1, bbox_bottom, obj_mario, 0, 0)))
     with (obj_mario) event_user(0);

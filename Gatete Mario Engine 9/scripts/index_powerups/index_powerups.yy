@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Mario",
-    "path": "folders/Scripts/Main/Mario.yy",
+    "name": "System",
+    "path": "folders/Scripts/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "index_powerups",

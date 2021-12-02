@@ -286,3 +286,90 @@ throw_projectile = function() {
 	    }		
 	}	
 }
+
+//Throws projectiles to the left when spinning
+throw_projectile_spin = function() {
+	
+	//Only throw if doing a spin jump
+	if (jumpstyle == 1) {
+	
+		//Fireball
+		if (global.powerup == cs_fire) {
+				
+			//Play 'Fireball' sound
+			audio_play_sound(snd_fireball, 0, false);
+				
+			//Create Fireball
+		    with (instance_create_depth(x, y, -2, obj_fireball))
+		        xspeed = 3*sign(other.dir);
+		}
+	
+		//Iceball
+		else if ((global.powerup == cs_ice) || (global.powerup == cs_penguin) && (swimming == false)) {
+	
+			//Play 'Iceball' sound
+			audio_play_sound(snd_iceball, 0, false);
+		
+			//Create Snowball
+			with (instance_create_depth(x, y, -2, obj_iceball))
+				xspeed = 1.2*sign(other.dir);
+		}
+	
+		//Hammer
+		else if (global.powerup == cs_hammer) {
+	
+			//Play 'Hammer' sound
+			audio_play_sound(snd_fireball, 0, false);
+		
+			//Create Snowball
+			with (instance_create_depth(x, y, -2, obj_hammer)) {
+				
+				vspeed = -2.5;
+				hspeed = other.xspeed+(1.25*sign(other.dir));
+			}
+		}
+		
+		//Superball
+		else if (global.powerup == cs_superball) {
+				
+			//Play 'Superball' sound
+			audio_play_sound(snd_fireball, 0, false);
+				
+			//Create Superball
+		    with (instance_create_depth(x, y, -2, obj_superball)) {
+				
+		        xspeed = 3*sign(other.dir);
+				yspeed = 3;
+			}
+		}
+		
+		//Bolt
+		else if (global.powerup == cs_volt) {
+				
+			//Play 'Superball' sound
+			audio_play_sound(snd_fireball, 0, false);
+				
+			//Create Superball
+		    with (instance_create_depth(x, y, -2, obj_volt))
+		        xspeed = 6*sign(other.dir);
+		}
+		
+		//Gold Fireball
+		else if (global.powerup == cs_gold) {
+				
+			//Play 'Fireball' sound
+			audio_play_sound(snd_fireball_gold, 0, false);
+				
+			//Create Gold Fireball
+		    with (instance_create_depth(x, y, -2, obj_fireball_gold))
+		        xspeed = 3*sign(other.dir);
+		}
+		
+		//Change the facing direction
+	    dir = -dir;
+    
+	    //Set alarm based on direction
+	    if (dir == 1)
+	        timer(throw_projectile_spin, 15);
+	}
+}

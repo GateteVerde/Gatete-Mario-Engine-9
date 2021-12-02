@@ -187,6 +187,9 @@ if (wallkick == 1) {
         
             //Set spin jump mode
             jumpstyle = 1;
+			
+			//Execute 'throw_projectile_spin' function
+			timer(throw_projectile_spin, 15);
         }
         
         //Allow variable jump

@@ -198,7 +198,10 @@ if (inwall == 0)
                     xspeed = 1*(xscale*-1);
                 
                     //Set spin jump variable
-                    jumpstyle = 1;        
+                    jumpstyle = 1;
+					
+					//Execute 'throw_projectile_spin' function
+					timer(throw_projectile_spin, 15);
                 }
                 else {
                 
@@ -223,7 +226,10 @@ if (inwall == 0)
                     xspeed = 1*(xscale*-1);
                 
                     //Set spin jump variable
-                    jumpstyle = true;        
+                    jumpstyle = true;
+										
+					//Execute 'throw_projectile_spin' function
+					timer(throw_projectile_spin, 15);
                 }
                 else {
                 
@@ -236,6 +242,9 @@ if (inwall == 0)
             }
             
             else {
+									
+				//Execute 'throw_projectile_spin' function
+				timer(throw_projectile_spin, 15);
             
                 //Set spin jump variable
                 jumpstyle = 1;

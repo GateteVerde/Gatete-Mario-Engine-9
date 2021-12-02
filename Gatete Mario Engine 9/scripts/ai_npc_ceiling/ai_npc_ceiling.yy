@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Main",
-    "path": "folders/Scripts/Main.yy",
+    "name": "NPC",
+    "path": "folders/Scripts/NPC.yy",
   },
   "resourceVersion": "1.0",
-  "name": "npc_behavior",
+  "name": "ai_npc_ceiling",
   "tags": [],
   "resourceType": "GMScript",
 }

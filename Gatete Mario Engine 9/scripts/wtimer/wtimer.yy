@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Automation",
-    "path": "folders/Scripts/Main/Automation.yy",
+    "name": "System",
+    "path": "folders/Scripts/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "wtimer",

@@ -120,7 +120,7 @@ function init_globals() {
 	//G-Switch time limit
 	global.gswitch = 0;
 
-	//Star time limit
+	//Starman time limit
 	global.starman = 0;
 
 	//Star used in map?
@@ -137,10 +137,10 @@ function init_globals() {
 	//Data structure for opened doors
 	global.doors = ds_map_create();
 
-	//Data structure for collected ace coins
+	//Data structure for collected ace coins (Resets when end_level is called)
 	global.acecoins = ds_map_create();
 
-	//Data structure for collected red coin rings
+	//Data structure for collected red coin rings (Resets when end_level is called)
 	global.redrings = ds_map_create();
 
 	//Item that is being carried between rooms

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Item Blocks",
-    "path": "folders/Sprites/Blocks/Item Blocks.yy",
+    "name": "Hidden Blocks",
+    "path": "folders/Sprites/Blocks/Item Blocks/Hidden Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_qblock_triple_hidden",

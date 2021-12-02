@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Items",
-    "path": "folders/Scripts/Main/Items.yy",
+    "name": "System",
+    "path": "folders/Scripts/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "powerup_get_name",
