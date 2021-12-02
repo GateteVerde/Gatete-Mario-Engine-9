@@ -97,8 +97,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Platforms",
-    "path": "folders/Sprites/Items/Platforms.yy",
+    "name": "Donut",
+    "path": "folders/Sprites/Items/Platforms/SMB3/Donut.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_donut",

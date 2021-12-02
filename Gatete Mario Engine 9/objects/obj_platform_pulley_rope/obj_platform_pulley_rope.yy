@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_donut_red",
-    "path": "sprites/spr_donut_red/spr_donut_red.yy",
+    "name": "spr_platform_pulley_rope",
+    "path": "sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_donut",
-    "path": "objects/obj_donut/obj_donut.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Donut",
-    "path": "folders/Objetos/Items/Platforms/SMB3/Donut.yy",
+    "name": "Common",
+    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/Common.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_donut_red",
+  "name": "obj_platform_pulley_rope",
   "tags": [],
   "resourceType": "GMObject",
 }

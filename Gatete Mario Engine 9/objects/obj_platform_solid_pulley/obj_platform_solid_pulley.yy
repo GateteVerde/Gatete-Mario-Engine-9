@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_donut_red",
-    "path": "sprites/spr_donut_red/spr_donut_red.yy",
+    "name": "spr_platform_solid",
+    "path": "sprites/spr_platform_solid/spr_platform_solid.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_donut",
-    "path": "objects/obj_donut/obj_donut.yy",
+    "name": "obj_platform_pulley",
+    "path": "objects/obj_platform_pulley/obj_platform_pulley.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Donut",
-    "path": "folders/Objetos/Items/Platforms/SMB3/Donut.yy",
+    "name": "Solid",
+    "path": "folders/Objetos/Items/Platforms/Common/Solid.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_donut_red",
+  "name": "obj_platform_solid_pulley",
   "tags": [],
   "resourceType": "GMObject",
 }
