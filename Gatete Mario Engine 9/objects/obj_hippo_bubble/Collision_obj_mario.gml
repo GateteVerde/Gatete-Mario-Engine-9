@@ -1,6 +1,7 @@
 /// @description If Mario is not riding this bubble
 
-if (ison == 0) {
+if (ison == 0) 
+&& (delay == 0) {
 	
 	//If Mario does have the mega powerup, pop the bubble
 	if (global.powerup == cs_mega) {

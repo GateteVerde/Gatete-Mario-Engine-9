@@ -884,7 +884,8 @@ if (enable_gravity == 1) {
             yspeed = 0;
 			
 			//Create a splash effect
-			if (water.object_index != obj_waterfall) {
+			if (water.object_index != obj_waterfall) 
+			&& (water.object_index != obj_hippo_bubble) {
 				
 				with (instance_create_depth(x, water.y-15, -4, obj_smoke))
 					sprite_index = spr_splash;
@@ -894,7 +895,7 @@ if (enable_gravity == 1) {
     
     //Otherwise, if the player had enough swimming and wants to get out
     else if (swimming) 
-	&& (!water) 
+	&& (!water)
 	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
     
         //If there's not water above and there's not a solid on the way out

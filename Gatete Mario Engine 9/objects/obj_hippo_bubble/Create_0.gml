@@ -9,5 +9,8 @@ depth = -6;
 //Is Mario on this bubble
 ison = 0;
 
+//Delay
+delay = 4;
+
 //Set frame
 image_index = 2;

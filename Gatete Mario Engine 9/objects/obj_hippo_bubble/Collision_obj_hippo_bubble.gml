@@ -1,4 +1,4 @@
-/// @description If Mario is inside another bubble, destroy this one
+/// @description Destroy if Mario is inside a bubble already
 
-if (ison)
+if (ison == 1)
 	with (other) instance_destroy();

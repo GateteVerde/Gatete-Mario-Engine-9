@@ -28,7 +28,12 @@ else if (ison == 1) {
 	y = obj_mario.y+4;
 	
 	//If this bubble collides with water, destroy it
-	if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 0, 1))
-	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_hippo_bubble, 0, 0))
+	swim = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 0, 1);
+	if (swim)
+	&& (swim.object_index != obj_hippo_bubble)
 		event_user(0);
 }
+
+//Decrement delay
+if (delay > 0)
+	delay--;
