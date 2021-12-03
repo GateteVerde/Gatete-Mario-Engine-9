@@ -1,6 +1,42 @@
 /// @description Give the required amount of score
 
 switch (value) {
+	
+	//+ 50 Second
+	case (-6): {
+		
+		//Set sprite
+		sprite_index = spr_score_time_50;
+		
+		//Only increase if there's time left
+		if (obj_levelcontrol.leveltime > 0)
+		&& (global.timer > 0)
+			global.timer += 50;
+	} break;
+	
+	//+ 20 Second
+	case (-5): {
+		
+		//Set sprite
+		sprite_index = spr_score_time_20;
+		
+		//Only increase if there's time left
+		if (obj_levelcontrol.leveltime > 0)
+		&& (global.timer > 0)
+			global.timer += 20;
+	} break;
+	
+	//+ 10 Second
+	case (-4): {
+		
+		//Set sprite
+		sprite_index = spr_score_time_10;
+		
+		//Only increase if there's time left
+		if (obj_levelcontrol.leveltime > 0)
+		&& (global.timer > 0)
+			global.timer += 10;
+	} break;
 
 	//3-UP
 	case (-3): {

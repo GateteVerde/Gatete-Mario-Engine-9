@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_feather.wav",
-  "duration": 1.111312,
+  "duration": 1.035102,
   "parent": {
     "name": "Item",
     "path": "folders/Sonidos/Item.yy",

@@ -895,7 +895,7 @@ if (enable_gravity == 1) {
     //Otherwise, if the player had enough swimming and wants to get out
     else if (swimming) 
 	&& (!water) 
-	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_geyser, 0, 0)) {
+	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
     
         //If there's not water above and there's not a solid on the way out
         if (!collision_rectangle(bbox_left, y+swim_y, bbox_right, y+swim_y, obj_solid, 1, 0)) {

@@ -36,7 +36,7 @@ if (ready == 1) {
 	&& (parent.y > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 32) {
     
         ready = 2; 
-        alarm[2] = 180;
+        alarm[2] = 1;
     }
 }
 else

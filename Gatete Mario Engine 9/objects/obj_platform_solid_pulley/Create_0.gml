@@ -1,4 +1,4 @@
-/// @description Balance Platform
+/// @description Solid Balance Platform
 
 /*
 //  This item uses creation code.

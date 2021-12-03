@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_score",
+    "path": "sprites/spr_score/spr_score.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
