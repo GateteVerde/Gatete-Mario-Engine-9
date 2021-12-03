@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "SMW",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/SMW.yy",
+    "name": "Platforms",
+    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_pendulum_platform",

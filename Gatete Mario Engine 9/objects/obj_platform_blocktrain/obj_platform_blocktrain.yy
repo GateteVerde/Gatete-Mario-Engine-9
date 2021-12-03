@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_platform_ferris",
-    "path": "sprites/spr_platform_ferris/spr_platform_ferris.yy",
+    "name": "spr_platform_blocktrain",
+    "path": "sprites/spr_platform_blocktrain/spr_platform_blocktrain.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,17 +24,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Platforms",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms.yy",
+    "name": "SMW",
+    "path": "folders/Objetos/Items/Platforms/SMW.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_platform_ferris_platform",
+  "name": "obj_platform_blocktrain",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_platform_blocktrain",
-    "path": "sprites/spr_platform_blocktrain/spr_platform_blocktrain.yy",
+    "name": "spr_platform_piston",
+    "path": "sprites/spr_platform_piston/spr_platform_piston.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_platformparent",
-    "path": "objects/obj_platformparent/obj_platformparent.yy",
+    "name": "obj_platform_piston",
+    "path": "objects/obj_platform_piston/obj_platform_piston.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,17 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "SMW",
-    "path": "folders/Objetos/Items/Platforms/SMW.yy",
+    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/SMW.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_blocktrain",
+  "name": "obj_platform_piston_right",
   "tags": [],
   "resourceType": "GMObject",
 }

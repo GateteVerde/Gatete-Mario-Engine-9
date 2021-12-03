@@ -37,7 +37,7 @@
     "path": "folders/Objetos/Items/Platforms/SMW.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_accordion_v",
+  "name": "obj_platform_accordion_h",
   "tags": [],
   "resourceType": "GMObject",
 }
