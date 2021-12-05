@@ -10,6 +10,7 @@ Camtendo
 Del
 Gate
 Geoshi
+Hellfire
 Kopejo
 Random Talking Bush
 SuperSledgeBro
@@ -32,4 +33,5 @@ TheMushroomKingdom.net
 Vexxter
 
 - Special Thanks -
+Sharb
 Sobako

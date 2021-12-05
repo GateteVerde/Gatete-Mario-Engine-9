@@ -183,6 +183,7 @@ if (inwall == 0)
         && (crouch == 0)
 		&& (global.powerup != cs_tiny)
 		&& (global.powerup != cs_mega)
+		&& (global.powerup != cs_carrot)
         && ((holding == 0) || (holding == 4))) {
         
             //If a kuribo shoe is being ridden, dismount from it.
@@ -246,10 +247,10 @@ if (inwall == 0)
 				//Execute 'throw_projectile_spin' function
 				timer(throw_projectile_spin, 15);
             
-                //Set spin jump variable
-                jumpstyle = 1;
+	            //Set spin jump variable
+	            jumpstyle = 1;
 
-                //Play spin jump sound
+	            //Play spin jump sound
 				if (global.powerup == cs_propeller)
 					audio_play_sound(snd_propeller, 0, false);
 				else
@@ -293,7 +294,7 @@ if (inwall == 0)
         jumping = 1;
         
         //Jump high if you have the frog powerup, and you are not riding anything
-        if (global.powerup == cs_frog)        
+        if (global.powerup == cs_frog)    
             yspeed = -3.7675;
     
         //Jump depending of the horizontal speed.
@@ -319,8 +320,13 @@ if (inwall == 0)
 				}
 				
 				//If the player is not doing a spin-jump
-				else if (jumpstyle == 0)
-					yspeed = -3.4675+abs(xspeed)/7.5*-1;
+				else if (jumpstyle == 0) {
+					
+					if (global.powerup == cs_carrot)
+						yspeed = -3.7675+abs(xspeed)/7.5*-1;
+					else
+						yspeed = -3.4675+abs(xspeed)/7.5*-1;
+				}
 					
 				//If the player is doing a spin-jump
 				else {

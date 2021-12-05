@@ -62,14 +62,6 @@
 	}
 #endregion
 
-#region SLIPPERY SURFACE CHECK
-
-	if (collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+1, obj_slippery, 1, 0))
-		isslip = 1;
-	else
-		isslip = 0;
-#endregion
-
 #region CHECK IF IN AIR
 	
 	if (state == 2)
@@ -85,6 +77,9 @@
 		inairtime = 0;
 	}
 #endregion
+
+//Slippery surface check
+isslip = (collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+1, obj_slippery, 1, 0)) ? true : false;
 
 //If Mario is under the effects of a mega mushroom
 if (global.powerup == cs_mega) {

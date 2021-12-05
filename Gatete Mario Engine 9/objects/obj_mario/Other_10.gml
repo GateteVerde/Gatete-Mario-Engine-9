@@ -5,6 +5,9 @@ if (invulnerable == 0) {
 
 	//Give Mario temporary invulnerability
 	event_user(7);
+	
+	//Blow bubble
+	with (obj_hippo_bubble) event_user(1);
 
 	//If Mario is riding something
 	if (global.mount > 0) {

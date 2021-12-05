@@ -1,7 +1,7 @@
 /// @description Draw the block
 
 //Manage "?" mark position
-xx++;
+xx += 0.66;
 
 //Draw the block
 draw_sprite_ext(sprite_index, 0, screen_round(x), screen_round(y), 1, 1, 0, c_white, 1);
