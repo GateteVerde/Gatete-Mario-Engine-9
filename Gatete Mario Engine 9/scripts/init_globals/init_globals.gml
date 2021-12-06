@@ -23,7 +23,7 @@ function init_globals() {
 	global.skin = 0;
 
 	//Lives
-	lives = 1;
+	lives = 5;
 
 	//Score
 	score = 0;
@@ -78,6 +78,9 @@ function init_globals() {
 
 	//Checkpoint Room
 	global.checkpointroom = noone;
+	
+	//Level Beaten?
+	global.levelbeat = 0;
 
 	//Fireworks
 	global.fireworks = 0;

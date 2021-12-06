@@ -1,7 +1,7 @@
 /// @description Game over logic
 
 //Manage position of Mario
-if (y >= ystart) {
+if (y >= (global.gh / 2) - 8) {
 
 	//If the falling speed is greater than 0.01
 	if (vspeed < 0.5) {
@@ -11,7 +11,7 @@ if (y >= ystart) {
 	}
 	else {
 		
-		y--;
+		y = (global.gh / 2) - 8;
 		vspeed = -vspeed/2;
 	}
 }

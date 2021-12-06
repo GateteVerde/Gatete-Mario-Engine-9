@@ -62,7 +62,7 @@ else {
 					if (barrier == true) {
 	
 						//If Mario is at the left boundary
-						if (obj_mario.x < camera_get_view_x(view_camera[0]) + 5) {
+						if (obj_mario.x < camera_get_view_x(view_camera[0]) + sprite_get_xoffset(obj_mario.mask_index)) {
 			
 							//If Mario is flying with the cape
 							if (instance_exists(obj_fly)) {
@@ -72,11 +72,11 @@ else {
 									obj_fly.xspeed = 0;
 							}
 		
-							obj_mario.x = camera_get_view_x(view_camera[0]) + 5;
+							obj_mario.x = camera_get_view_x(view_camera[0]) + sprite_get_xoffset(obj_mario.mask_index);
 							if (obj_mario.xspeed < 0)
 								obj_mario.xspeed = 0;
 						}
-						else if (obj_mario.x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5) {
+						else if (obj_mario.x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(obj_mario.mask_index)) {
 			
 							//If Mario is flying with the cape
 							if (instance_exists(obj_fly)) {
@@ -86,7 +86,7 @@ else {
 									obj_fly.xspeed = 0;
 							}
 			
-							obj_mario.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
+							obj_mario.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(obj_mario.mask_index);
 							if (obj_mario.xspeed > 0)
 								obj_mario.xspeed = 0;			
 						}

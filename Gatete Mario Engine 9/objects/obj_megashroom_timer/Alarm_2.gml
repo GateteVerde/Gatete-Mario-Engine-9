@@ -17,6 +17,6 @@ if (instance_exists(obj_mario)) {
 
 //Repeat
 if (alarm[0] > 120)
-    alarm[2] = 4;
+    alarm[2] = 3;
 else
-    alarm[2] = 8;
+    alarm[2] = 6;

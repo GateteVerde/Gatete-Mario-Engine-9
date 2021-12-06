@@ -11,6 +11,11 @@ if (global.on_off_block == 1) {
 
 	image_index = 1;
 	mysolid = instance_create_layer(x, y, "Main", obj_solid);
+	with (mysolid) {
+	
+		image_xscale = other.image_xscale;
+		image_yscale = other.image_yscale;
+	}
 }
 else
 	image_index = 0;

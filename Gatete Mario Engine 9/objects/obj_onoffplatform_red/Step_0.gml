@@ -4,8 +4,15 @@
 if (global.on_off_block == 0) {
 
 	image_index = 0;
-	if (mysolid == -1)
+	if (mysolid == -1) {
+																
 		mysolid = instance_create_layer(x, y, "Main", obj_solid);
+		with (mysolid) {
+	
+			image_xscale = other.image_xscale;
+			image_yscale = other.image_yscale;
+		}
+	}
 }
 
 //Otherwise, if the on/off switch is off

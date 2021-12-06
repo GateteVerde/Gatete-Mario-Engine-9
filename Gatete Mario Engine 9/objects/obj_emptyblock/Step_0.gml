@@ -9,9 +9,21 @@ if (mario)
 
 	//Play 'Break' sound
 	audio_play_sound(snd_break, 0, false);
+	
+	//If this is a triple wide block
+	if (sprite_index == spr_qblock_double_empty) {
+
+		for (var i=0; i<2; i++) {
+	
+			shard_create(spr_shard_empty, x + 8 + (i * 16), y + sprite_height / 2, -2, 6, 45);
+			shard_create(spr_shard_empty, x + 8 + (i * 16), y + sprite_height / 2, -2, 6, 60);
+			shard_create(spr_shard_empty, x + 8 + (i * 16), y + sprite_height / 2, -2, 6, 120);
+			shard_create(spr_shard_empty, x + 8 + (i * 16), y + sprite_height / 2, -2, 6, 135);
+		}
+	}
 
 	//If this is a triple wide block
-	if (sprite_index == spr_qblock_triple_empty) {
+	else if (sprite_index == spr_qblock_triple_empty) {
 
 		for (var i=0; i<3; i++) {
 	

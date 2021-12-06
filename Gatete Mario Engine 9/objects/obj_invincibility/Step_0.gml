@@ -42,10 +42,14 @@ else {
 
 	    //Set object to follow
 	    event_user(15);
+		
+		//If there's other object using this
+		if (owner != noone) {
     
-	    //Snap into the following object position.
-	    x = owner.x;
-	    y = owner.y;    
+		    //Snap into the following object position.
+		    x = owner.x;
+		    y = owner.y;
+		}
 	}
 }
 

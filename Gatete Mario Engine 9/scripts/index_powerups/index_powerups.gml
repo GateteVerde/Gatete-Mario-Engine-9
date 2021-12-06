@@ -1,10 +1,11 @@
 /// @function index_powerups();
+
 function index_powerups() {
 
-	// How many power-ups to create (the "i" created will match the enum through powerup_get_name)
+	//How many power-ups to create (the "i" created will match the enum through powerup_get_name)
 	var powerup_count = 25;
 
-	// Loop through and get every asset
+	//Loop through and get every asset
 	for (var i = 0; i < powerup_count; i++) {
 
 		global.carry_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_carry");
