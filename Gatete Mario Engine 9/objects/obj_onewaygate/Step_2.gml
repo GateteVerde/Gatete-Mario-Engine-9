@@ -137,7 +137,7 @@ else {
 	}
 		
 	//Otherwise, if the angle is set to 180
-	else if (image_angle == 180) {
+	else if ((image_angle == 180) || (image_angle == -180)) {
 			
 		//With Mario
 		with (obj_mario) {

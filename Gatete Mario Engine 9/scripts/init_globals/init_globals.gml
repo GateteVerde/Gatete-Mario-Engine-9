@@ -23,7 +23,7 @@ function init_globals() {
 	global.skin = 0;
 
 	//Lives
-	lives = 5;
+	lives = 1;
 
 	//Score
 	score = 0;

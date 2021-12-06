@@ -28,33 +28,10 @@
 			instance_destroy();
 		}	
 	}
-	
-	//Embed into the slope to ensure correct slope mechanics
-	if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
-	&& (!collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom-4, obj_slopeparent, 1, 0))
-	&& (yadd == 0)
-	    y += 4;
 
-	///Handle slope collisions
-	if (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
-	&& (!collision_rectangle(x-1, bbox_bottom-8, x+1, bbox_bottom-8, obj_slopeparent, 1, 0)) {
-
-		//If Mario is moving down onto a slope
-		if (yspeed >= 0) {
-
-		    //Stop vertical movement
-		    yadd = 0;
-			yspeed = 0;
-		}
-
-		//Prevent NPC from getting embed inside a slope
-		if (yspeed > -0.85)
-		    while (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
-		        y--;
-	}
-	
-	//Destroy if Mario is swimming
+	///Destroy in contact with water or a slope
 	if (obj_mario.swimming == true)
+	|| (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
 		instance_destroy();
 
 #endregion
