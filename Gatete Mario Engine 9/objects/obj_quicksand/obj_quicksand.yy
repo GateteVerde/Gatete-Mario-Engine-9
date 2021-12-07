@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mario_dead",
-    "path": "sprites/spr_mario_dead/spr_mario_dead.yy",
+    "name": "spr_quicksand",
+    "path": "sprites/spr_quicksand/spr_quicksand.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,18 +22,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Mario",
-    "path": "folders/Objetos/Special/Do Not Use!/Mario.yy",
+    "name": "Liquids",
+    "path": "folders/Objetos/Decoration/Liquids.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_mario_dead",
+  "name": "obj_quicksand",
   "tags": [],
   "resourceType": "GMObject",
 }

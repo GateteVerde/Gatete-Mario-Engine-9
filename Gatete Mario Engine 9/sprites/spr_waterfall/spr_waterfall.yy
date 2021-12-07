@@ -14,7 +14,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
+  "width": 16,
   "height": 48,
   "textureGroupId": {
     "name": "Default",
@@ -80,7 +80,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"41e5f66f-963d-4cad-b2e9-9b9171a00482","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
-    "left": 16,
+    "left": 0,
     "top": 16,
     "right": 0,
     "bottom": 16,

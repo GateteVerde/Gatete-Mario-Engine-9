@@ -7,6 +7,10 @@
 **  leveltime       = The time limit in seconds (Opt.)
 **  camlock         = To lock the camera in position
 **	classicscroll   = To implement the classic scroll on the level
+**  lava_palette	= To set up the palette for all lava objects (Optional, pick from below)
+**		0: Normal	
+**		1: Poison
+**		2: Chocolate
 */
 
 //Default values
@@ -14,6 +18,7 @@ inisection = "Overworld";
 leveltime = 0;
 camlock = 0;
 classicscroll = false;
+lava_palette = 0;
 
 //Play music
 alarm[0] = 2;
