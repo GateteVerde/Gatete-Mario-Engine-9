@@ -9,7 +9,7 @@ draw_sprite_ext(sprite_index, anim, screen_round(x), screen_round(y), image_xsca
 //Reset palette
 pal_swap_reset();
 
-//Manage animation
+//Manage anim
 anim += 0.15;
-if (anim > 3.99)
+if (anim > 4)
 	anim = 1;

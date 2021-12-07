@@ -1,3 +1,3 @@
 inisection = "Overworld";
 leveltime = 500;
-lava_palette = 2;
+lava_palette = 1;

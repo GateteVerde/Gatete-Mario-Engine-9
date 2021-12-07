@@ -1,6 +1,6 @@
 /// @description Lava
 
-//Do not animate
+//Set initial frame
 image_speed = 0;
 image_index = 0;
 

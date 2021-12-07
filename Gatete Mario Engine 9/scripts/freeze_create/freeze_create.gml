@@ -1,7 +1,7 @@
 //Every object that will stay persistent during the freeze needs to be placed in this array
 global.keep_activated = [
 
-	obj_water_front,
+	obj_water_foreground,
 	obj_rainmaker,
 	obj_effectsparent	
 ]
@@ -52,7 +52,7 @@ function freeze_create() {
 		instance_activate_object(obj_coordinator);
 		
 		//Create a snapshot
-		snapshot = sprite_create_from_surface(_indexedSurfaceVariable, 0, 0, surface_get_width(_indexedSurfaceVariable), surface_get_height(_indexedSurfaceVariable), 0, 1, 0, 0);
+		snapshot = sprite_create_from_surface(_indexedSurfaceVariable, 0, 0, surface_get_width(_indexedSurfaceVariable), surface_get_height(_indexedSurfaceVariable), 0, 0, 0, 0);
 		
 		//Make objects visible
 		if (!_indexedFreezePersistentVariable) {

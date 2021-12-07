@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_water_foreground",
-    "path": "sprites/spr_water_foreground/spr_water_foreground.yy",
+    "name": "spr_lava_foreground",
+    "path": "sprites/spr_lava_foreground/spr_lava_foreground.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_lava",
+    "path": "objects/obj_lava/obj_lava.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Water",
-    "path": "folders/Objetos/Decoration/Liquids/Water.yy",
+    "name": "Lava",
+    "path": "folders/Objetos/Decoration/Liquids/Lava.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_water_front",
+  "name": "obj_lava_foreground",
   "tags": [],
   "resourceType": "GMObject",
 }
