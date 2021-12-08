@@ -10,5 +10,8 @@ showing = 0;
 //Scale
 scale = 0;
 
+//Depth
+depth = -10
+
 //Freeze the screen
 freeze_create(true);
