@@ -7,12 +7,6 @@ if (ready) {
         loop--;
 
     else {
-		
-		//Destroy the sprite
-		sprite_delete(snapshot);
-		
-		//Activate all instances
-		instance_activate_all();
         
         //With the player
         with (obj_mario) {

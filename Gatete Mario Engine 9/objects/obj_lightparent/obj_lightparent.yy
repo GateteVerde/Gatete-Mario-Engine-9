@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_light",
-    "path": "sprites/spr_light/spr_light.yy",
+    "name": "spr_light_mario",
+    "path": "sprites/spr_light_mario/spr_light_mario.yy",
   },
   "solid": false,
   "visible": true,

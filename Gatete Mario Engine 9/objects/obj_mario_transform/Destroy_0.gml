@@ -1,7 +1,7 @@
 /// @description Make the player visible
 
-//Restore foreground water depth
-with (obj_water_foreground) depth = -7;
+//Make all objects under obj_physicsparent resume movement
+with (obj_physicsparent) event_user(15);
 
 //If the player is not riding anything
 if (global.mount == 0) {
@@ -20,6 +20,10 @@ if (global.mount == 0) {
 	    //Otherwise, make the main player visible
 	    else {
 			
+			//Un-freeze
+			with (obj_mario) event_user(14)
+
+			//Set depth and alpha
 			obj_mario.depth = -5;
 	        obj_mario.image_alpha = 1;
 		}

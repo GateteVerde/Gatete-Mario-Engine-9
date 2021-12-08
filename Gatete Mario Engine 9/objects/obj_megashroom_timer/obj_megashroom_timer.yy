@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objetos/Special/Do Not Use!/Items.yy",
+    "name": "Powerups",
+    "path": "folders/Objetos/Special/Do Not Use!/Items/Collectibles/Powerups.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_megashroom_timer",

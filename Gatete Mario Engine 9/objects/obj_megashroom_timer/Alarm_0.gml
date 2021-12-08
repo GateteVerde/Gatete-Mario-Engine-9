@@ -21,7 +21,7 @@ if (instance_exists(obj_mario)) {
 	//Create transformation object
 	with (instance_create_depth(0, 0, -5, obj_mario_transform)) {
 	
-		scale = 4;
+		image_xscale = 4;
 		sequence = 6;
 	}
 	

@@ -3,6 +3,9 @@
 //Stay always in front
 depth = -5;
 
+//Is Mario frozen?
+freeze = 0;
+
 //Enable / disable gravity
 enable_gravity = true;
 
@@ -19,8 +22,11 @@ invulnerable = 0;
 xspeed = 0;
 yspeed = 0;
 xadd = 0;
-yadd = 0.3625;
-prevxspeed = 0;
+yadd = 0;
+save_ims = 0;
+save_xsp = 0;
+save_ysp = 0;
+save_grav = 0;
 
 //Check if inair
 inair = 0;
@@ -201,8 +207,8 @@ event_user(9);
 swim_y = 0;
 
 //Effects
-alarm[0] = 1;
 alarm[1] = 1;
+alarm[2] = 1;
 
 //Flags
 instance_create_layer(0, 0, "Main", obj_mario_marker_top);

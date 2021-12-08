@@ -22,5 +22,6 @@ else
 while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0)) y -= 4;
 
 //Destroy if horizontal speed is not the same as prevxspeed
-if (sign(xspeed) != sign(prevxspeed))
+if (freeze == false)
+&& (sign(xspeed) != sign(prevxspeed))
 	event_user(0);

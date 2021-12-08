@@ -171,10 +171,13 @@ else {
 if (enable_gravity == 1) {
 	
 	//Update position based on xspeed and yspeed values
-	x += xspeed;
-	y += yspeed;
-	xspeed += xadd;
-	yspeed += yadd;
+	if (freeze == false) {
+		
+		x += xspeed;
+		y += yspeed;
+		xspeed += xadd;
+		yspeed += yadd;
+	}
 	
 	// Memory y-speed for cape, added after speed check
 	if (memory_yspeed != 0)
@@ -450,7 +453,7 @@ if (enable_gravity == 1) {
 	                        }
                         
 	                        //If the player is on the ground and not running.
-	                        else if ((!run) && (pmeter > 0))
+	                        else if ((!run) && (freeze == false) && (pmeter > 0))
 	                            pmeter--;
 	                    }
                     
@@ -487,7 +490,8 @@ if (enable_gravity == 1) {
 	                            run = false;
                             
 	                            //Empty P-Meter.
-	                            if (pmeter > 0)       
+	                            if (pmeter > 0)
+								&& (freeze == false)
 	                                pmeter --;
 	                        }   
 	                    }
@@ -511,6 +515,7 @@ if (enable_gravity == 1) {
 					
 					//Decrement P-Meter
 					if (pmeter > 0)
+					&& (freeze == false)
 						pmeter--;					
 				}
             }
@@ -554,6 +559,7 @@ if (enable_gravity == 1) {
 					
 					//Decrement P-Meter
 					if (pmeter > 0)
+					&& (freeze == false)
 						pmeter--;
                 }
             }
@@ -579,6 +585,7 @@ if (enable_gravity == 1) {
 					
 				//Decrement P-Meter
 				if (pmeter > 0)
+				&& (freeze == false)
 					pmeter--;
             }
         }
@@ -604,8 +611,8 @@ if (enable_gravity == 1) {
 			
 			//Decrement P-Meter
 			if (pmeter > 0)
-				pmeter--;
-			
+			&& (freeze == false)
+				pmeter--;			
 		}
     }
 	

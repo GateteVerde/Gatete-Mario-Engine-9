@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_light",
-    "path": "sprites/spr_light/spr_light.yy",
+    "name": "spr_light_mario",
+    "path": "sprites/spr_light_mario/spr_light_mario.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,6 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

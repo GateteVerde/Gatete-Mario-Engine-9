@@ -1,9 +1,12 @@
 /// @description Logic for NPCs
 
 //Handle psuedo movement
-x += xspeed;
-y += yspeed;
-yspeed += yadd;
+if (freeze == false) {
+	
+	x += xspeed;
+	y += yspeed;
+	yspeed += yadd;
+}
 
 //NPC Wall & Ceiling
 ai_npc_wall(turn_toward);

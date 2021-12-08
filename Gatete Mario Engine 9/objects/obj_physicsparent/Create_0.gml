@@ -4,6 +4,12 @@
 xspeed = 0;
 yspeed = 0;
 yadd = 0;
+save_xsp = 0;
+save_ysp = 0;
+save_grav = 0;
+
+//Animation speed save
+save_ims = 0;
 
 //Facing directions
 xscale = 1;
@@ -18,6 +24,9 @@ bounces = 2;
 
 //Depth
 depth = -2;
+
+//Whether this object is frozen
+freeze = false;
 
 //Change gravity when in contact with water
 noswim = false;

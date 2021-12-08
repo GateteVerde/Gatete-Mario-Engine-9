@@ -1,13 +1,4 @@
-//Every object that will stay persistent during the freeze needs to be placed in this array
-global.keep_activated = [
-
-	obj_water_foreground,
-	obj_rainmaker,
-	obj_effectsparent	
-]
-
 /// @function									freeze_create(surface[OPTIONAL]);
-/// @param {bool} freeze_persistent[OPTIONAL]	If the objects from the keep_activated array should freeze anyway
 /// @param {surface} surface[OPTIONAL]			The surface to create the pre-freeze from
 function freeze_create() {
 	
@@ -15,18 +6,7 @@ function freeze_create() {
 	snapshot = -1;
 	
 	//Surface
-	_indexedSurfaceVariable = (argument_count > 1) ? argument[1] : application_surface;
-	_indexedFreezePersistentVariable = (argument_count > 0) ? argument[0] : false;
-	
-	//Make objects invisible
-	if (!_indexedFreezePersistentVariable) {
-		
-		for (var i = 0; i < array_length(global.keep_activated); i ++) {
-			
-			with (global.keep_activated[i])
-				visible = false;			
-		}
-	}
+	_indexedSurfaceVariable = (argument_count > 0) ? argument[0] : application_surface;
 		
 	//Create a snapshot
 	snapshot = sprite_create_from_surface(_indexedSurfaceVariable, 0, 0, surface_get_width(_indexedSurfaceVariable), surface_get_height(_indexedSurfaceVariable), 0, 1, 0, 0);
@@ -39,35 +19,6 @@ function freeze_create() {
 
 	//Activate coordinator object
 	instance_activate_object(obj_coordinator);
-		
-	//Make objects visible
-	if (!_indexedFreezePersistentVariable) {
-			
-		for (var i = 0; i < array_length(global.keep_activated); i ++) {
-			
-			instance_activate_object(global.keep_activated[i]);
-			with (global.keep_activated[i])
-				visible = true;			
-		}
-	}
-}
-
-/// @function freeze_activate();
-function freeze_activate() {
-
-	//Make objects visible
-	if (!_indexedFreezePersistentVariable) {
-			
-		for (var i = 0; i < array_length(global.keep_activated); i ++) {
-			
-			instance_activate_object(global.keep_activated[i]);
-			with (global.keep_activated[i]) {
-				
-				depth = -101;
-				visible = true;
-			}
-		}
-	}
 }
 
 /// @function freeze_render(); 

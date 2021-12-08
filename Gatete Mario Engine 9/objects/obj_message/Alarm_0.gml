@@ -1,4 +1,4 @@
 /// @description Create Snapshot
 
-freeze_create(true);
+freeze_create();
 ready = 1;

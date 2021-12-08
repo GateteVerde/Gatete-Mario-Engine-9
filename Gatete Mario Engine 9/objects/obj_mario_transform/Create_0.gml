@@ -9,19 +9,12 @@
 //5: Mega Mushroom Grow (DO NOT USE)
 //6: Mega Mushroom Shrink (DO NOT USE)
 sequence = 0;
-depth = -100;
-
-//Scale
-scale = 1;
 
 //Sets and starts the animation sequences.
 ready = 0;
 
 //How many times does the animation loop?
 loop = 0;
-
-//Snapshot variable
-snapshot = -1;
 
 //Facing direction
 direct = obj_mario.xscale;
@@ -46,9 +39,6 @@ if (instance_exists(obj_mario)) {
 	//Snap to position.
 	x = round(obj_mario.x);
 	y = round(obj_mario.y);
-    
-	//Set Mario's depth
-	obj_mario.depth = 10001;
 }
 
 //Begin animation and screen freeze
