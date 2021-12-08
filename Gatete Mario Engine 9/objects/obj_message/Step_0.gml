@@ -1,7 +1,7 @@
 /// @description Handle message display
 
 //If the message is not showing, make the box grow
-if (showing == 0 && ready == true) {
+if ((showing == 0) && (ready == true)) {
 
 	//Scale up
 	scale += 0.1;

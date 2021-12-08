@@ -1,5 +1,8 @@
 /// @description Make the player visible
 
+//Restore foreground water depth
+with (obj_water_foreground) depth = -7;
+
 //If the player is not riding anything
 if (global.mount == 0) {
 	

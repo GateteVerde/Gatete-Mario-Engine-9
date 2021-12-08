@@ -6,12 +6,13 @@ mute_sound = false;
 
 //Is the message showing
 showing = 0;
+ready = 0;
 
 //Scale
 scale = 0;
 
-//Depth
-depth = -10
+//Snapshot freeze
+snapshot = -1;
 
-//Freeze the screen
-freeze_create(true);
+//Delay creating the snapshot
+alarm[0] = 2; 

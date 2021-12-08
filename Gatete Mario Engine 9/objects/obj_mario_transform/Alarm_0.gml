@@ -1,16 +1,18 @@
 /// @description Freeze all objects and begin animation
 
-//Activate Mario, make him invisible and disable it's gravity
-
 //Freeze player
 freeze_create();
 
+//Activate Mario, make him invisible and disable it's gravity
 instance_activate_object(obj_mario);
 with (obj_mario) {
 	
 	visible = 0;
 	enable_gravity = 0;
 }
+
+//Activate array objects
+freeze_activate();
 
 #region SET SEQUENCE
 

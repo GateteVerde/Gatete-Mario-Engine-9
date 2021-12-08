@@ -3,8 +3,6 @@ global.keep_activated = [
 
 	obj_water_foreground,
 	obj_rainmaker,
-	obj_lightparent,
-	obj_lightcontrol,
 	obj_effectsparent	
 ]
 
@@ -19,20 +17,16 @@ function freeze_create() {
 	//Surface
 	_indexedSurfaceVariable = (argument_count > 1) ? argument[1] : application_surface;
 	_indexedFreezePersistentVariable = (argument_count > 0) ? argument[0] : false;
-
-	//Create pre-freeze
-	/*if (global.prefreeze == noone) {
+	
+	//Make objects invisible
+	if (!_indexedFreezePersistentVariable) {
 		
-		global.prefreeze = surface_create(surface_get_width(_indexedSurfaceVariable), surface_get_height(_indexedSurfaceVariable));
-		surface_copy(global.prefreeze, 0, 0, _indexedSurfaceVariable);
+		for (var i = 0; i < array_length(global.keep_activated); i ++) {
+			
+			with (global.keep_activated[i])
+				visible = false;			
+		}
 	}
-	
-	//Set up actual final surface
-	var _temp = function() {
-	
-	//Destroy pre-freeze
-	surface_free(global.prefreeze);
-	global.prefreeze = noone;*/
 		
 	//Create a snapshot
 	snapshot = sprite_create_from_surface(_indexedSurfaceVariable, 0, 0, surface_get_width(_indexedSurfaceVariable), surface_get_height(_indexedSurfaceVariable), 0, 1, 0, 0);
@@ -45,16 +39,6 @@ function freeze_create() {
 
 	//Activate coordinator object
 	instance_activate_object(obj_coordinator);
-	
-	//Make objects invisible
-	if (!_indexedFreezePersistentVariable) {
-		
-		for (var i = 0; i < array_length(global.keep_activated); i ++) {
-			
-			with (global.keep_activated[i])
-				visible = false;			
-		}
-	}
 		
 	//Make objects visible
 	if (!_indexedFreezePersistentVariable) {
@@ -66,20 +50,39 @@ function freeze_create() {
 				visible = true;			
 		}
 	}
-	
-	//Run _temp function
-	//timer(_temp, 1, false);
+}
+
+/// @function freeze_activate();
+function freeze_activate() {
+
+	//Make objects visible
+	if (!_indexedFreezePersistentVariable) {
+			
+		for (var i = 0; i < array_length(global.keep_activated); i ++) {
+			
+			instance_activate_object(global.keep_activated[i]);
+			with (global.keep_activated[i]) {
+				
+				depth = -101;
+				visible = true;
+			}
+		}
+	}
 }
 
 /// @function freeze_render(); 
 function freeze_render() {
 	
-	//Draw the screenshot.
+	//Draw the screenshot
 	if (sprite_exists(snapshot)) {
     
-	    //Draw the screenshot
+	    //Disable alpha blending
 	    gpu_set_blendenable(0);
+		
+		//Draw the snapshot
 		draw_sprite_ext(snapshot, 0, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), 1 / obj_coordinator.size, 1 / obj_coordinator.size, 0, c_white, 1);
+		
+		//Enable alpha blending
 		gpu_set_blendenable(1);
 	}
 }

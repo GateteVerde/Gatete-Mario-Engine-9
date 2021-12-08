@@ -12,6 +12,6 @@ if (showing == 1)
         audio_play_sound(snd_kick_3, 0, false)
 
         //Play the sound again later
-        alarm[1] = 7;
+        alarm[2] = 7;
     }
 }
