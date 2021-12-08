@@ -1,17 +1,16 @@
-/// @description Makes sounds play as the message is being displayed
+/// @description Prepare the text to be displayed
 
-//If the message is being displayed
-if (showing == 1) 
-&& (mute_sound == false) {
+//Set up the font
+draw_set_font(global.gui_font);
 
-    //If all of the characters have not been displayed yet
-    if (a <= string_length(text)) {
+//Set up the text
+text = string_make_width(varmsg, 200);
 
-        //Stop and Play 'Kick 3' sound
-        audio_stop_sound(snd_kick_3)
-        audio_play_sound(snd_kick_3, 0, false)
+//The text that should display next if it is too long
+new_text = "";
+	
+//Check if the message is too long
+event_user(0);
 
-        //Play the sound again later
-        alarm[1] = 7;
-    }
-}
+//The text should start displaying now
+showing = 1;
