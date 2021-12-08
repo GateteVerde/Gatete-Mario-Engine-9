@@ -1,5 +1,7 @@
 /// @description Check if the message is too long
 
+
+
 //Temporary variables
 var i = 0;
 var new_line = 0;
@@ -25,4 +27,4 @@ for (i=1; i<=string_length(text); i++) {
 a = 0;
 
 //Set the alarm for playing sound effects
-alarm[1] = 1;
+alarm[2] = 1;

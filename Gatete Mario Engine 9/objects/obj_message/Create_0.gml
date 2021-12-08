@@ -4,11 +4,15 @@
 varmsg = "No message set.";
 mute_sound = false;
 
-//Is the message showing
+//Is the message showing and can it show
 showing = 0;
+ready = 0;
 
 //Scale
 scale = 0;
 
-//Freeze the screen
-freeze_create(true);
+//Snapshot freeze
+snapshot = -1;
+
+//Delay creating the snapshot
+alarm[0] = 2;

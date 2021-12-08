@@ -1,7 +1,7 @@
 /// @description Handle message display
 
 //If the message is not showing, make the box grow
-if (showing == 0) {
+if (showing == 0 && ready == true) {
 
 	//Scale up
 	scale += 0.1;
@@ -13,7 +13,7 @@ if (showing == 0) {
 		scale = 1;
 	
 		//Prepare the text to be displayed
-		alarm[0] = 1;
+		alarm[1] = 1;
 	}
 }
 

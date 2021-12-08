@@ -1,6 +1,10 @@
 /// @description Freeze all objects and begin animation
 
 //Activate Mario, make him invisible and disable it's gravity
+
+//Freeze player
+freeze_create();
+
 instance_activate_object(obj_mario);
 with (obj_mario) {
 	
@@ -95,6 +99,4 @@ with (obj_mario) {
 
 //Animation has been set.
 ready = 1;
-
-//Delay visibility
-alarm[1] = 2;
+visible = 1;
