@@ -3,6 +3,8 @@ global.keep_activated = [
 
 	obj_water_foreground,
 	obj_rainmaker,
+	obj_lightparent,
+	obj_lightcontrol,
 	obj_effectsparent	
 ]
 
@@ -51,8 +53,12 @@ function freeze_create() {
 		//Activate coordinator object
 		instance_activate_object(obj_coordinator);
 		
+		//Activate light system objects
+		instance_activate_object(obj_lightparent);
+		instance_activate_object(obj_lightcontrol);
+		
 		//Create a snapshot
-		snapshot = sprite_create_from_surface(_indexedSurfaceVariable, 0, 0, surface_get_width(_indexedSurfaceVariable), surface_get_height(_indexedSurfaceVariable), 0, 0, 0, 0);
+		snapshot = sprite_create_from_surface(_indexedSurfaceVariable, 0, 0, surface_get_width(_indexedSurfaceVariable), surface_get_height(_indexedSurfaceVariable), 0, 1, 0, 0);
 		
 		//Make objects visible
 		if (!_indexedFreezePersistentVariable) {
@@ -67,7 +73,7 @@ function freeze_create() {
 	}
 	
 	//Run _temp function
-	timer(_temp, 0.1, false);
+	timer(_temp, 1, false);
 }
 
 /// @function									freeze_render();                                 freeze_render()

@@ -1,0 +1,45 @@
+/// @description SHS Lighting surface and drawing methods.
+
+//Set ambient light
+ambient_light = c_black + (c_white / 255) * intensity;
+
+//Prepare the surface
+if (!surface_exists(surf_light)) {
+
+	surf_light = surface_create(room_width, room_height);
+}
+
+//Set the surface target
+surface_set_target(surf_light);
+
+//Clear the white colour from the lights
+draw_clear(c_white - ambient_light);
+
+//Set the blending mode
+gpu_set_blendmode(bm_subtract);
+
+//Enable texture interpolation
+gpu_set_texfilter(true);
+
+//Draw all the lights
+for (var i=0; i<instance_count; i++;) {
+
+	if ((instance_exists(instance_id[i]))
+	&& (object_is_ancestor(instance_id[i].object_index, obj_lightparent))) {
+        
+	    with (instance_id[i]) {
+        
+	        //Draw each light, alpha does not work in subtractive mode
+	        draw_sprite_ext(sprite_index, image_index, x-camera_get_view_x(view_camera[0]), y-camera_get_view_y(view_camera[0]), image_xscale, image_yscale, image_angle, image_blend, 1);
+	    }
+	}
+}
+
+//Disable texture interpolation
+gpu_set_texfilter(false);
+
+//Set the blending mode to normal
+gpu_set_blendmode(bm_normal);
+
+//Reset the surface target
+surface_reset_target();

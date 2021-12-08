@@ -1,10 +1,13 @@
 /// @desc Stay always in front and update timers
 
+//Update Window Caption
+window_set_caption("Gatete Mario Engine 9 | FPS: " + string(fps) + " / 60")
+
 //Keep music looper active
 instance_activate_object(obj_audio_loop_sound);
 
-//Update Window Caption
-window_set_caption("Gatete Mario Engine 9 | FPS: " + string(fps) + " / 60")
+//Keep light control active
+instance_activate_object(obj_lightcontrol);
 
 //Update controller button graphics
 gui_buttons = gamepad_set_gui_sprite();
