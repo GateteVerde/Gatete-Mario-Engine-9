@@ -10,21 +10,8 @@ if (instance_exists(obj_mario)) {
 	//Do not change while there's a transformation object
 	if (!instance_exists(obj_mario_transform)) {
 		
-		//If Mario has the mega mushroom powerup
-		if (global.powerup != cs_mega) {
-	
-			//Set scale
-			image_xscale = lerp(image_xscale, 1, 0.0325);
-			image_yscale = lerp(image_xscale, 1, 0.0325);
-		}
-	
-		//Otherwise, if Mario does not have it
-		else {
-	
-			//Set scale
-			image_xscale = lerp(image_xscale, 3, 0.0325);
-			image_yscale = lerp(image_xscale, 3, 0.0325);
-		}
+		//Set radius
+		radius = (global.powerup == cs_mega) ? lerp(radius, 120, 0.0325) : lerp(radius, 40, 0.0325);
 	
 		//Set light position
 		x = obj_mario.x;

@@ -28,9 +28,14 @@ for (var i=0; i<instance_count; i++;) {
 	&& (object_is_ancestor(instance_id[i].object_index, obj_lightparent))) {
         
 	    with (instance_id[i]) {
-        
-	        //Draw each light, alpha does not work in subtractive mode
-	        draw_sprite_ext(sprite_index, image_index, x-camera_get_view_x(view_camera[0]), y-camera_get_view_y(view_camera[0]), image_xscale, image_yscale, image_angle, image_blend, 1);
+			
+			//If the light makes use of a sprite, draw the sprite
+			if (sprite_index != -1)
+				draw_sprite_ext(sprite_index, image_index, x-camera_get_view_x(view_camera[0]), y-camera_get_view_y(view_camera[0]), image_xscale, image_yscale, image_angle, image_blend, 1);
+				
+			//Otherwise, use the User Defined 15 event from said object
+			else
+				event_user(15);
 	    }
 	}
 }
