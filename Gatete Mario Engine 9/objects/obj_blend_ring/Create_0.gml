@@ -13,4 +13,4 @@ angle = random(360);
 //Scale
 scale = 0.1;
 for (i=0; i<6; i++)
-	scale2[i] = random_range(0.1, 0.75);
+	scale2[i] = random_range(0.1, 1);
