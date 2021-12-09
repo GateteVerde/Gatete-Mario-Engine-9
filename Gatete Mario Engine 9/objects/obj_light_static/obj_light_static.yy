@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_light_lava",
-    "path": "sprites/spr_light_lava/spr_light_lava.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -23,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +31,7 @@
     "path": "folders/Objetos/Main/Controllers/Lighting.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_light_lava",
+  "name": "obj_light_static",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,7 +4,7 @@
 depth = -9;
 
 //Intensity
-intensity = 40;
+intensity = 0;
 
 //Light surface global variable
 surf_light = surface_create(room_width, room_height);

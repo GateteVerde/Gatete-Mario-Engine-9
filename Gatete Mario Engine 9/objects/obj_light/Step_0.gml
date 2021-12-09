@@ -11,7 +11,7 @@ if (instance_exists(obj_mario)) {
 	if (!instance_exists(obj_mario_transform)) {
 		
 		//Set radius
-		radius = (global.powerup == cs_mega) ? lerp(radius, 120, 0.0325) : lerp(radius, 40, 0.0325);
+		radius = (global.powerup == cs_mega) ? lerp(radius, 84, 0.0325) : lerp(radius, 28 + (56 * instance_number(obj_invincibility)), 0.0325);
 	
 		//Set light position
 		x = obj_mario.x;
