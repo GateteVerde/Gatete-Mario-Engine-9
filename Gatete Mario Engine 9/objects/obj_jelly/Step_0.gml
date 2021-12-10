@@ -1,4 +1,4 @@
-/// @description Mushroom Jelly
+/// @description Mushroom Jelly logic
 
 //If the player is on this platform
 if (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario, 0, 0))

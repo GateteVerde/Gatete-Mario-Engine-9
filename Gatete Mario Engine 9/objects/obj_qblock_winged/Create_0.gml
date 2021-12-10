@@ -14,8 +14,11 @@
 sprout = cs_coin;
 backnforth = true;
 
-//Inherit event from parent
+//Makes the object fully solid
 issolid = true;
+
+//Makes the object not carry Mario or NPCs horizontally
+no_horiz = false;
 
 //Whether the block is ready
 ready = 0;
