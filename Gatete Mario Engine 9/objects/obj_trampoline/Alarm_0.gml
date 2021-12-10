@@ -1,3 +1,3 @@
-/// @description Allow the player to use the spring again
+/// @description Allow Mario to use the trampoline again
 
-s_ready = 0;
+ready2 = 0;

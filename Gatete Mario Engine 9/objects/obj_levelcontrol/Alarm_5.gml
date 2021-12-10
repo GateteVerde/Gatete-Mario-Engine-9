@@ -2,12 +2,15 @@
 
 //If the switch event is active
 if (pswitch_on == true) {
-
-	//Deactivate event
-	pswitch_event(true);
 	
 	//Stop P-Switch song
-	audio_stop_sound(snd_pswitch);
+	if (gswitch_on == false) {
+		
+		audio_stop_sound(snd_pswitch);
+	}
+	
+	//Deactivate event
+	pswitch_event(true);
 	
 	//Reset P-Switch warning
 	pswitch_warn = 0;
@@ -27,6 +30,6 @@ if (pswitch_on == true) {
     }
     
     //Otherwise, restart
-    else
+    else if (gswitch_on == false)
         alarm[0] = 2;
 }

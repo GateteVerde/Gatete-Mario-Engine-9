@@ -73,33 +73,27 @@ else {
     //If moving up...
     if (vspeed < 0) {
     
-        /*...and the sprite is one of the following, make it bounce.
+        //...and the sprite is one of the following, make it bounce.
         if (sprite_index == spr_pswitch)
         || (sprite_index == spr_gswitch)
         || (sprite_index == spr_trampoline)
-        || (sprite_index == spr_powblock_blue)
-        || (sprite_index == spr_detonator)
-        || (sprite_index == spr_key)
+        /*|| (sprite_index == spr_key)
         || (sprite_index == spr_egg)
         || (sprite_index == spr_egg_r)
         || (sprite_index == spr_egg_y)
-        || (sprite_index == spr_egg_b)  
-        || (sprite_index == spr_watermelon_fire)
-        || (sprite_index == spr_watermelon_ice)
-        || (sprite_index == spr_watermelon_bomb) {
+        || (sprite_index == spr_egg_b)
+		|| (sprite_index == spr_egg_t)
+		|| (sprite_index == spr_egg_p)*/ {
         
             //Set vertical speed
-            vspeed = -2.5;
-            gravity = 0;
+            vspeed = -2;
             
             //Deny solid check
-            ready = 1;
-            alarm[1] = -1;
+            readytogo = 1;
             
             //Make it bounce outside the block
             bouncy = 1;
         }
-		*/
     }
     
     //Exit

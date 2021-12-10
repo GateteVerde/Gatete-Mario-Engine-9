@@ -2,23 +2,20 @@
 
 if (sprite_index == spr_trampoline) {
 
-    //If the spring is about to launch the player upwards.
-    if (s_ready == 1) {
+    //If the trampoline is about to launch the player upwards.
+    if (ready2 == 1) {
     
-        //If Mario does exist.
+        //If the player does exist.
         if (instance_exists(obj_mario)) {
         
-            //Play 'Trampoline' sound
+            //Play 'Trampoline' sound.
             audio_play_sound(snd_trampoline, 0, false);
             
             //Set the player vertical speed
             obj_mario.yspeed = -5.425;
-                        
-            //Force player jump
-            obj_mario.state = playerstate.jump;
             
-            //Move up
-            obj_mario.y -= 8;
+            //Boost Jump
+            obj_mario.y--;
             
             //Check if 'Shift' is pressed.
             if (input_check(input.action_0))
@@ -32,19 +29,19 @@ if (sprite_index == spr_trampoline) {
     ready = 0;
     alarm[0] = 8;
     
-    //Set animation
+    //Restart animation
     image_speed = 1;
     image_index = 0;
     
-    //Set trampoline end sequence
+    //Set the end sprite
     sprite_index = spr_trampoline_end;
 }
 else if (sprite_index == spr_trampoline_end) {
 
-    //Set the sprite
-    sprite_index = spr_trampoline;
-
-    //Restart animation
+    //Do not animate
     image_speed = 0;
     image_index = 0;
+    
+    //Set the sprite
+    sprite_index = spr_trampoline;
 }

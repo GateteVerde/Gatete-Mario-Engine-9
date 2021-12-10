@@ -97,7 +97,7 @@ global.pmeter_limit = 144;
 	#macro cs_propellerblock -25
 	#macro cs_trampoline -24
 	#macro cs_key -23
-	#macro cs_sswitch -22
+	#macro cs_gswitch -22
 	#macro cs_pswitch -21
 	#macro cs_starman -20
 	#macro cs_poison -19

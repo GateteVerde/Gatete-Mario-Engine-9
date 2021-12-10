@@ -48,7 +48,7 @@ function sprite_get_macro() {
 		case (spr_poison): return cs_poison;
 		case (spr_starman): return cs_starman;
 		case (spr_pswitch): return cs_pswitch;
-		case (spr_sswitch): return cs_sswitch;
+		case (spr_gswitch): return cs_gswitch;
 		case (spr_key): return cs_key;
 		case (spr_trampoline): return cs_trampoline;
 		case (spr_propellerblock): return cs_propellerblock;

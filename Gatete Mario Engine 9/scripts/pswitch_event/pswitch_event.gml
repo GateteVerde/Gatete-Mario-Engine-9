@@ -43,6 +43,10 @@ function pswitch_event() {
 		//Turn off conveyors
 		with (obj_conveyor_r) image_speed = 0;
 		with (obj_conveyor_l) image_speed = 0;
+		
+		//Create blue trampolines
+		with (obj_trampoline_switch)		
+			instance_create_layer(x, y, "Main", obj_trampoline_switch_activated);
 	}
 	
 	//Otherwise
@@ -80,6 +84,9 @@ function pswitch_event() {
 		
 		//Turn off conveyors
 		with (obj_conveyor_r) image_speed = belt_power;
-		with (obj_conveyor_l) image_speed = -belt_power;		
+		with (obj_conveyor_l) image_speed = -belt_power;
+		
+		//Destroy all blue switches
+		with (obj_trampoline_switch_activated) instance_destroy();
 	}
 }

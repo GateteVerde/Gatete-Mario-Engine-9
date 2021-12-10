@@ -15,13 +15,13 @@
 	}
 
 	//Play a warning sound when the G-Switch effect is running out
-	if (sswitch_warn == 0) {
+	if (gswitch_warn == 0) {
 
 	    //Check ticks
 	    if ((alarm[6] > 0) && (alarm[6] < 120)) {
     
 	        audio_play_sound(snd_switch_timer, 0, false);
-	        sswitch_warn = 1;
+	        gswitch_warn = 1;
 	    }
 	}
 #endregion

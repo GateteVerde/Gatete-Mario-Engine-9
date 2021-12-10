@@ -19,7 +19,7 @@ if (readytogo == 1)
             
             //If the item is a holdable item or the item came out from a big block
             else if (other.bouncy == 1)
-                yspeed = -2.5;
+                yspeed = -2;
         }
             
         //Otherwise, stop it

@@ -44,8 +44,8 @@ pswitch_on = 0;
 pswitch_warn = 0;
 
 //Gray P-Switch warning
-sswitch_on = 0;
-sswitch_warn = 0;
+gswitch_on = 0;
+gswitch_warn = 0;
 
 //Reach last ground Y
 floorY = 0;

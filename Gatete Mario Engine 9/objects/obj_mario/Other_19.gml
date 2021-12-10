@@ -52,6 +52,12 @@ allow_climb = function() {
 	canturn = 0;
 }
 
+//End kicking
+kicking_end = function() {
+
+	kicking = 0;
+}
+
 //End turning
 turning_end = function() {
 
@@ -230,14 +236,13 @@ throw_projectile = function() {
 	            }
 	        }
         
-	        /* Bomb
+	        //Bomb
 	        else if (global.powerup == cs_bomb)
 	        && (instance_number(obj_bomb) < 1) {
         
-	            with (instance_create_depth(x-8,y,depth+1,obj_bomb))
+	            with (instance_create_depth(x, y, depth+1, obj_bomb))
 	                held = 1;
 	        }
-			*/
         
 	        //Lightning
 	        else if (global.powerup == cs_volt)
@@ -254,13 +259,13 @@ throw_projectile = function() {
 	                xspeed = 6*sign(other.xscale);
 	        }
         
-	        /*Football
+	        //Football
 	        else if (global.powerup == cs_football)
 	        && (instance_number(obj_football) < 1) {
         
-	            with (instance_create_depth(x-8,y,depth+1,obj_football))
+	            with (instance_create_depth(x, y, depth+1, obj_football))
 	                held = 1;
-	        }*/
+	        }
 			
 			//Gold Fireball
 	        else if (global.powerup == cs_gold)
