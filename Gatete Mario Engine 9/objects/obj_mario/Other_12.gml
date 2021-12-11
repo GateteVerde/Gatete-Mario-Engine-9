@@ -281,6 +281,7 @@ if (inwall == 0)
             if (instance_exists(obj_invincibility))
 			&& (global.powerup != cs_tiny)
 			&& (global.powerup != cs_mega)
+			&& (holding == 0)
 			&& (crouch == false)
 			&& (jumpstyle == false)
 			&& (squirrelpropel == false)
@@ -720,7 +721,12 @@ if ((state == playerstate.jump) || (statedelay != 0)) {
         }
 		
 		// If the conditions are met, start flying
-		if ((global.powerup == cs_cape) && (flying) && (yspeed > 2) && (jumpstyle == 0) && (global.mount == 0)) {
+		if (global.powerup == cs_cape) 
+		&& (flying) 
+		&& (yspeed > 2)
+		&& (holding == 0) 
+		&& (jumpstyle == 0) 
+		&& (global.mount == 0) {
 			
 			// If you're not running
 			if (!input_check(input.action_1)) {
@@ -728,9 +734,10 @@ if ((state == playerstate.jump) || (statedelay != 0)) {
 				// Stop flying
 				flying = false;
 				state = playerstate.jump;
-				
-			// Otherwise, if you are running
-			} else {
+			} 
+			
+			//Otherwise, if you are running
+			else {
 			
 				// Create the flying Mario
 				fly = instance_create_depth(x, y, depth, obj_fly);
@@ -899,12 +906,6 @@ if ((global.powerup == cs_cape)
 if (state == playerstate.jump)
 && (jumpstyle == 0)
 && (enable_control == 1) {
-
-    /*If a propeller block is being held, do not use powerups
-    if (instance_exists(obj_propellerblock_up)) 
-    && (obj_propellerblock_up.held)
-        exit;
-	*/
 
     //If the player does have either the raccoon or the tanooki powerup
     if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki))

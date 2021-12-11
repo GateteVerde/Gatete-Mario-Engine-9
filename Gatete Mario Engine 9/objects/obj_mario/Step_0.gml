@@ -54,7 +54,8 @@
 		
 		angle += -30*sign(other.xscale);
 		if (global.powerup == cs_tiny) 
-		|| (global.powerup == cs_mega) {
+		|| (global.powerup == cs_mega) 
+		|| (holding > 0) {
 		
 			somersault = 0;
 			angle = 0;
