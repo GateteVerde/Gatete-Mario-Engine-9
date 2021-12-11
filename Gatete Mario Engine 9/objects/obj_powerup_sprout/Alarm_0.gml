@@ -77,13 +77,8 @@ else {
         if (sprite_index == spr_pswitch)
         || (sprite_index == spr_gswitch)
         || (sprite_index == spr_trampoline)
-        /*|| (sprite_index == spr_key)
-        || (sprite_index == spr_egg)
-        || (sprite_index == spr_egg_r)
-        || (sprite_index == spr_egg_y)
-        || (sprite_index == spr_egg_b)
-		|| (sprite_index == spr_egg_t)
-		|| (sprite_index == spr_egg_p)*/ {
+		|| (sprite_index == spr_key)
+		|| (sprite_index == spr_propellerblock) {
         
             //Set vertical speed
             vspeed = -2;

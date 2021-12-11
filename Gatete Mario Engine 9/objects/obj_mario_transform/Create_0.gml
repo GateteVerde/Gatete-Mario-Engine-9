@@ -32,6 +32,9 @@ if (instance_exists(obj_mario)) {
 	
 	//Set the sprite
 	sprite_index = obj_mario.sprite_index;
+	
+	//Disable control
+	obj_mario.enable_control = false;
 
 	//Make Mario invisible.
 	obj_mario.visible = 0;

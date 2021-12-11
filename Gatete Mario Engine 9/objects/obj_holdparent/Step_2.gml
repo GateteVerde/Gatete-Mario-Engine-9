@@ -84,7 +84,7 @@ if (held == true) {
 	    }
         
 		//Otherwise if controls are disabled, stop holding.
-		else {
+		else if (!instance_exists(obj_mario_transform)) {
         
 		    //Make the player stop holding
 		    obj_mario.holding = 0;

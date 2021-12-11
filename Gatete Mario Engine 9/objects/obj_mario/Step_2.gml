@@ -795,10 +795,31 @@ else {
                 image_index = 0;
             }
         }
+		
+		//Otherwise, if Mario is climbing
+		else if (state == playerstate.climb) {
+		
+			//Set up the sprite
+	        sprite_index = global.climb_sprite[global.powerup];
+                    
+	        //Set the speed
+	        if ((xspeed != 0) || (yspeed < 0))
+	            image_speed = 0.15;
+	        else {
+                    
+	            image_speed = 0;
+	            image_index = 0;
+	        }
+		}
         
         //Set the sprite
-        if (!turning)
-            sprite_index = global.hold_sprite[global.powerup];
+        if (!turning) {
+			
+			if (state != playerstate.climb)
+				sprite_index = global.hold_sprite[global.powerup];
+			else
+				sprite_index = global.climb_sprite[global.powerup];
+		}
         else
             sprite_index = global.spin_sprite[global.powerup];
     }

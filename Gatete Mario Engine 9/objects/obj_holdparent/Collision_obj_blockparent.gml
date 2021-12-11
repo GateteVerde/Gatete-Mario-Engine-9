@@ -4,6 +4,6 @@ if (other.vspeed < 0)
 && (bbox_bottom < other.yprevious+5) {
 
 	//Set the vertical speed
-	yspeed = -4 + (swimming * 2);
+	yspeed = -3 + (swimming * 1.5);
 	y--;
 }

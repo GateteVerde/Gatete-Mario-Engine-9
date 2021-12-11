@@ -15,41 +15,42 @@ init_globals();
 //Gameplay variables
 #region GAMEPLAY VARIABLES
 
-//Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
-//false:	Integer rounding similar to GBA/SNES
-//true:		Smoother sub-pixel float movement
-global.subpixels = true;
+	//Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
+	//false:	Integer rounding similar to GBA/SNES
+	//true:		Smoother sub-pixel float movement
+	global.subpixels = false;
 
-//Turn enemies into coins when hit with a fireball
-//0: Disabled
-//1: Enabled
-global.enemy_to_coin = 0;
+	//Turn enemies into coins when hit with a fireball
+	//0: Disabled
+	//1: Enabled
+	global.enemy_to_coin = 0;
 
-//Makes Mario bounce on note blocks from any side
-global.noteblock_all_sides = true;
+	//Makes Mario bounce on note blocks from any side
+	global.noteblock_all_sides = true;
 
-//Flight time (In seconds, how much time allow Mario to fly as Raccoon/Tanooki Mario)
-global.flighttime = 4;
+	//Flight time (In seconds, how much time allow Mario to fly as Raccoon/Tanooki Mario)
+	global.flighttime = 4;
 
-//Climb time (In seconds, how much time allow Mario to climb walls as Cat Mario)
-global.cattime = 3;
+	//Climb time (In seconds, how much time allow Mario to climb walls as Cat Mario)
+	global.cattime = 3;
 
-//Maximum amount of hearts
-global.safeguard_max = 3;
+	//Maximum amount of hearts
+	global.safeguard_max = 3;
 
-//Allow reserve of items if enabled
-//0: Disabled
-//1: Enabled
-global.reserve_activated = true;
+	//Allow reserve of items if enabled
+	//0: Disabled
+	//1: Enabled
+	global.reserve_activated = true;
 
-//Play P-meter sound?
-global.pmeter_sound = true;
+	//Play P-meter sound?
+	global.pmeter_sound = true;
 
-//How long it takes for Mario's P-meter to fill up
-global.pmeter_limit = 144;
+	//How long it takes for Mario's P-meter to fill up
+	global.pmeter_limit = 144;
 
 #endregion
 
+//MacOS Key Macros
 #region MAC KEY MACROS
 
 	#macro vk_lcommand 92

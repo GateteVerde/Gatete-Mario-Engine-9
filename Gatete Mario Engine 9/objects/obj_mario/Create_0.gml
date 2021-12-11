@@ -88,6 +88,11 @@ jumping = 0;
 //1: Spin Jump
 jumpstyle = 0;
 
+//Handle Mario's climbing type
+//0: Normal
+//1: Side (SMB1)
+climbstyle = 0;
+
 //Checks for slippery surfaces
 isslip = 0;
 

@@ -11,6 +11,7 @@ if (held == false) {
     //Otherwise, if the player can hold the item
     else if (can_hold()) 
     && (inwall == false)
+	&& (other.climbstyle == 0)
     && (other.bbox_bottom > bbox_top) {
     
         //Make the player hold it

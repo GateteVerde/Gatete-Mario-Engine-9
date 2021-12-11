@@ -21,7 +21,11 @@ if (global.mount == 0) {
 	    else {
 			
 			//Un-freeze
-			with (obj_mario) event_user(14)
+			with (obj_mario) {
+				
+				event_user(14);
+				enable_control = true;
+			}
 
 			//Set depth and alpha
 			obj_mario.depth = -5;

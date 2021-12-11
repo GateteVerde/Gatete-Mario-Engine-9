@@ -91,5 +91,11 @@ function sprite_create_object() {
 		
 		//Trampoline
 		case (spr_trampoline): return instance_create_depth(argument[1], argument[2], argument[3], obj_trampoline);
+		
+		//Propeller Block
+		case (spr_propellerblock): return instance_create_depth(argument[1], argument[2], argument[3], obj_propellerblock);
+		
+		//Key
+		case (spr_key): return instance_create_depth(argument[1], argument[2], argument[3], obj_key);
 	}
 }
