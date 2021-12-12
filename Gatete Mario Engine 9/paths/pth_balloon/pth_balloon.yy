@@ -1,0 +1,27 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 8,
+  "points": [
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":32.0,"y":-16.0,},
+    {"speed":100.0,"x":64.0,"y":-16.0,},
+    {"speed":100.0,"x":96.0,"y":0.0,},
+    {"speed":100.0,"x":128.0,"y":0.0,},
+    {"speed":100.0,"x":160.0,"y":-16.0,},
+    {"speed":100.0,"x":191.0,"y":-32.0,},
+    {"speed":100.0,"x":224.0,"y":-32.0,},
+    {"speed":100.0,"x":256.0,"y":-16.0,},
+    {"speed":100.0,"x":288.0,"y":-16.0,},
+    {"speed":100.0,"x":320.0,"y":-32.0,},
+    {"speed":100.0,"x":352.0,"y":-48.0,},
+  ],
+  "parent": {
+    "name": "Rutas",
+    "path": "folders/Rutas.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "pth_balloon",
+  "tags": [],
+  "resourceType": "GMPath",
+}
