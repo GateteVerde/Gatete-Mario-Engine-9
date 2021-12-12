@@ -144,9 +144,10 @@ if (held == true) {
 		*/
     }
 	
-	//If Mario does have the tiny or mega powerup
+	//If Mario does have the tiny, mega or balloon powerup
 	if (global.powerup == cs_tiny)
-	|| (global.powerup == cs_mega) {
+	|| (global.powerup == cs_mega) 
+	|| (instance_exists(obj_mario_balloon)) {
 	
 		held = false;
 		if (obj_mario.holding > 0)

@@ -11,7 +11,8 @@ y = ystart;
 for (var i=0; i<3; i++) {
 
 	//Make an item come out, if there is one
-	if (sprout[i] != cs_coin) {
+	if (sprout[i] != cs_coin) 
+	&& (sprout[i] != cs_balloon) {
 	
 		//If this block contains a mega shroom
 		if (sprout[i] == cs_mega) {

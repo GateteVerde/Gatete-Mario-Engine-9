@@ -25,8 +25,9 @@ function ai_npc_ceiling(bounceuponceiling) {
 		
 		//Bump block if there's one in position
 		if (block_u) 
-		&& (block_u.ready == 0) 
-		&& (object_is_ancestor(object_index, obj_holdparent)) {
+		&& (block_u.ready == 0)
+		&& ((object_index == obj_mario_balloon)
+		|| (object_is_ancestor(object_index, obj_holdparent))) {
 				
 			with (block_u) {
 						

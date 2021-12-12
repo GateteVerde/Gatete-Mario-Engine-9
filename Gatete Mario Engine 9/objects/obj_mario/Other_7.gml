@@ -28,10 +28,14 @@ else if (sprite_index == spr_mario_cat_climb2)
 else if ((sprite_index == spr_mario_frog_swim2) || (sprite_index == spr_mario_penguin_swim2))
 || ((sprite_index == spr_mario_frog_swim3) || (sprite_index == spr_mario_penguin_swim3))
 || ((sprite_index == spr_mario_frog_swim4) || (sprite_index == spr_mario_penguin_swim4)) {
+	
+	//If Balloon Mario does not exist
+	if (!instance_exists(obj_mario_balloon)) {
 
-    //Play 'Swim' sound
-    audio_stop_sound(snd_swim);
-    audio_play_sound(snd_swim, 0, false);
+	    //Play 'Swim' sound
+	    audio_stop_sound(snd_swim);
+	    audio_play_sound(snd_swim, 0, false);
+	}
 }
 
 //Otherwise, if Mario is dashing while having the football suit

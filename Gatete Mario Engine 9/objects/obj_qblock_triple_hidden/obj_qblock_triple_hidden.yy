@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Item Blocks",
-    "path": "folders/Objetos/Blocks/Item Blocks.yy",
+    "name": "Hidden Blocks",
+    "path": "folders/Objetos/Blocks/Item Blocks/Hidden Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_qblock_triple_hidden",

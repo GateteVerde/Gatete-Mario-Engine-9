@@ -151,7 +151,8 @@ if (enable_control == true) { //If the player controls are enabled.
 	    }
 		
 		//Check if there's a not climbable surface overlapping the player.
-		if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_climb, 0, 0))
+		if (instance_exists(obj_mario_balloon))
+		|| (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_climb, 0, 0))
 		    state = playerstate.jump;
 	}
 	
@@ -276,7 +277,8 @@ if (enable_control == true) { //If the player controls are enabled.
 		}
 
 		//Makes the player move down when there's not a climbable surface above.
-		if (!collision_rectangle(bbox_left, y, bbox_right, y+16, obj_climb_side, 0, 0)) {
+		if (instance_exists(obj_mario_balloon))
+		|| (!collision_rectangle(bbox_left, y, bbox_right, y+16, obj_climb_side, 0, 0)) {
 
 		    if (yspeed < 0)
 		        yspeed = 0

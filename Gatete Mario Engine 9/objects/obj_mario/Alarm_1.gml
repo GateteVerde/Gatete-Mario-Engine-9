@@ -7,7 +7,8 @@ var water = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+
 if (crouch == 1)
 && (state < 2)
 && (swimming == 0)
-&& (abs(xspeed) > 0) {
+&& (abs(xspeed) > 0) 
+&& (!instance_exists(obj_mario_balloon)) {
 	
 	alarm[1] = 4;
 	with (instance_create_depth(x, bbox_bottom, depth - 1, obj_smoke)) 

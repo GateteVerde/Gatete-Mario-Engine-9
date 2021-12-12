@@ -6,6 +6,7 @@ function can_hold() {
 	return (input_check(input.action_1))
 	&& (instance_exists(obj_mario))
 	&& (!instance_exists(obj_fly))
+	&& (!instance_exists(obj_mario_balloon))
 	&& (global.mount == 0)
 	&& (obj_mario.holding == 0)
 	&& (obj_mario.sliding == 0)

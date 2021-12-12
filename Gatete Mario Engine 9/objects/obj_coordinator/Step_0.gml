@@ -36,12 +36,22 @@ depth = -1000;
 		
 			//If the timer is greater than 0 and lower than 100
 			if (global.timer > 0)
-			&& (global.timer < 101)
-				pitch = 1.33;
+			&& (global.timer < 101) {
+				
+				if (!instance_exists(obj_mario_balloon))
+					pitch = 1.33;
+				else
+					pitch = 1.13;
+			}
 				
 			//Otherwise
-			else
-				pitch = 1;
+			else {
+				
+				if (!instance_exists(obj_mario_balloon))
+					pitch = 1;
+				else
+					pitch = 0.8;
+			}
 		}
 	}
 	

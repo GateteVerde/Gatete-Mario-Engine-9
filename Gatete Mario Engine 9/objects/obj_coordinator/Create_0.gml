@@ -92,6 +92,7 @@ init_globals();
 //Item Macros
 #region ITEM MACROS
 
+	#macro cs_balloon -29
 	#macro cs_beanstalk_side -28
 	#macro cs_beanstalk -27
 	#macro cs_billy -26

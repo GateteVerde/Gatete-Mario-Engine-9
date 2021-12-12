@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_mario_bee_ride","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_mario_bee_ride",
     "tags": [],
     "resourceType": "GMSequence",
   },

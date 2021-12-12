@@ -8,7 +8,8 @@ x = xstart;
 y = ystart;
 
 //Make an item come out, if there is one
-if (sprout != cs_coin) {
+if (sprout != cs_coin) 
+&& (sprout != cs_balloon) {
 	
 	//If this block contains a mega shroom
 	if (sprout == cs_mega) {
