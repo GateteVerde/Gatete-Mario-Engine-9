@@ -827,8 +827,7 @@ if (enable_gravity == 1) {
 		//If the player controls are enabled and it's not jumping
 		if (state != playerstate.jump)
 		&& (sliding == false)
-		&& (enable_control == true)
-		&& (!instance_exists(obj_mario_balloon)) {
+		&& (enable_control == true) {
 		
 			//Make the player crouch down when the 'Down' key is held
 			if (input_check(input.down))
@@ -848,7 +847,6 @@ if (enable_gravity == 1) {
 		if (input_check_pressed(input.action_1))
 		&& (obj_levelcontrol.barrier == true)
 		&& (enable_control == true)
-		&& (!instance_exists(obj_mario_balloon))
 			timer(throw_projectile, 1, false);			
 	}
 

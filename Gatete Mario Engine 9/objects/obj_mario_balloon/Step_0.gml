@@ -20,6 +20,9 @@ else {
 	//With Mario
 	with (obj_mario) {
 		
+		//Disable it's controls
+		enable_control = false;
+		
 		//Make him invisible
 		visible = false;	
 		
