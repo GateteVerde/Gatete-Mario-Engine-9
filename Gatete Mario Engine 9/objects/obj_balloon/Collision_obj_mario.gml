@@ -25,6 +25,10 @@ if (global.powerup != cs_mega) {
 			alarm[1] = 1440;
 		}
 	}
+	
+	//If Mario is tiny, return into Small Mario
+	if (global.powerup == cs_tiny)
+		global.powerup = cs_small;
 }
 
 //Destroy
