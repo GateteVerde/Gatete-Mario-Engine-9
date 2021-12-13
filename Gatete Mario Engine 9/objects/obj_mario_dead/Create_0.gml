@@ -20,7 +20,7 @@ lives--;
 alarm[0] = 60;
 
 //Restart
-alarm[1] = 200;
+alarm[1] = 240;
 
 //Reset mount
 global.mount = 0;

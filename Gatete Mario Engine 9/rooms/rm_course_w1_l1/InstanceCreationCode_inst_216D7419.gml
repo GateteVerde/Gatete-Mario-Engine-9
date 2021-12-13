@@ -1,2 +1,2 @@
 inisection = "Overworld";
-leveltime = 500;
+leveltime = 400;

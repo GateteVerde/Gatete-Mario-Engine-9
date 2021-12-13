@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gameover",
-    "path": "sprites/spr_gameover/spr_gameover.yy",
+    "name": "spr_mariostart",
+    "path": "sprites/spr_mariostart/spr_mariostart.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,8 +23,8 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objetos/Special/Do Not Use!/System.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gameover",
+  "name": "obj_timeup",
   "tags": [],
   "resourceType": "GMObject",
 }
