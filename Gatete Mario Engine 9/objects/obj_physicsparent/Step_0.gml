@@ -25,9 +25,9 @@ else {
 	
 	//Set up gravity
 	if (swimming)
-		yadd = 0.025;
+		yadd = 0.03125;
 	else
-		yadd = 0.2; 
+		yadd = 0.25; 
 }
 
 //Handle position when in-ground

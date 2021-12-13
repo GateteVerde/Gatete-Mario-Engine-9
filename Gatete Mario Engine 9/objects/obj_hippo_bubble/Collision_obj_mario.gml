@@ -4,7 +4,8 @@ if (ison == 0)
 && (delay == 0) {
 	
 	//If Mario does have the mega powerup, pop the bubble
-	if (global.powerup == cs_mega) {
+	if (global.powerup == cs_mega) 
+	|| (instance_exists(obj_mario_balloon)) {
 	
 		event_user(0);
 		exit;

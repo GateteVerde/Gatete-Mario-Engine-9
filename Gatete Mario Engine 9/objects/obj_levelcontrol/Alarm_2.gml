@@ -4,7 +4,8 @@
 if (global.timer > 0) {
 
     //Decrement
-    global.timer--;
+	if (!instance_exists(obj_mario_transform))
+		global.timer--;
     
     //Decrement again after a second
     alarm[2] = 60;

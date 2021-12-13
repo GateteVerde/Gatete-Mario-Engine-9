@@ -1,5 +1,8 @@
 /// @description A magic balloon
 
+//Inherit event from parent
+event_inherited();
+
 //Play 'Beanstalk' sound
 audio_play_sound(snd_beanstalk, 0, false);
 
@@ -10,9 +13,9 @@ depth = -2;
 time = 0;
 
 //Set motion
-vspeed = -0.75;
+yspeed = -0.75;
 if (!instance_exists(obj_mario))
 || (obj_mario.x < x)
-	hspeed = 0.5;
+	xspeed = 0.5;
 else
-	hspeed = -0.5;
+	xspeed = -0.5;

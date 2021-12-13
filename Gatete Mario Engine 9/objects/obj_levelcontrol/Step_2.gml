@@ -71,6 +71,14 @@ else {
 								if (obj_fly.xspeed < 0)
 									obj_fly.xspeed = 0;
 							}
+							
+							//Otherwise, if Mario is flying as a balloon
+							else if (instance_exists(obj_mario_balloon)) {
+							
+								obj_mario_balloon.x = camera_get_view_x(view_camera[0]) + 5;
+								if (obj_mario_balloon.xspeed < 0)
+									obj_mario_balloon.xspeed = 0;
+							}
 		
 							obj_mario.x = camera_get_view_x(view_camera[0]) + sprite_get_xoffset(obj_mario.mask_index);
 							if (obj_mario.xspeed < 0)
@@ -84,6 +92,14 @@ else {
 								obj_fly.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
 								if (obj_fly.xspeed > 0)
 									obj_fly.xspeed = 0;
+							}
+							
+							//Otherwise, if Mario is flying as a balloon
+							else if (instance_exists(obj_mario_balloon)) {
+			
+								obj_mario_balloon.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
+								if (obj_mario_balloon.xspeed > 0)
+									obj_mario_balloon.xspeed = 0;
 							}
 			
 							obj_mario.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(obj_mario.mask_index);

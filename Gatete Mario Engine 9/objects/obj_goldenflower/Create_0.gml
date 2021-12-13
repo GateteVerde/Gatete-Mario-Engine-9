@@ -10,3 +10,6 @@ event_inherited();
 //3: Powerdown
 //4: Transform
 sequence = 4;
+
+//Leave a trail
+alarm[0] = 1;

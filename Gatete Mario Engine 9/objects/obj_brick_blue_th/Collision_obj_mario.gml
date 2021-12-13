@@ -22,8 +22,9 @@ else {
             held = 1;
             
             //Stop movement
-            speed = 0;
-            gravity = 0;
+            xspeed = 0;
+			yspeed = 0;
+			yadd = 0;
         }
         
         //Otherwise

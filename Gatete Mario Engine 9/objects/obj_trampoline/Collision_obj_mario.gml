@@ -5,7 +5,8 @@ if (!held) {
 
     //If Mario is above and moving down, stomp the trampoline.
 	if (other.yspeed > 0)
-    && (other.bbox_bottom < bbox_top-yspeed+5) {
+    && (other.bbox_bottom < bbox_top-yspeed+5) 
+	&& (!instance_exists(obj_mario_balloon)) {
     
         //Animate
         image_speed = 0.4;

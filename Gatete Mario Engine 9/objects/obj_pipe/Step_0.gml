@@ -23,7 +23,7 @@ if (mario)
 		obj_mario.xspeed /= 4;
 		
 		//Create broken pipe
-		pipe = instance_create_depth(x + sprite_width / 2, bbox_top + sprite_height / 2, depth - 1, obj_pipe_broken);
+		pipe = instance_create_depth(x + sprite_width / 2, y + sprite_height / 2, depth - 1, obj_pipe_broken);
 		with (pipe) {
 			
 			//Horizontal speed
@@ -47,14 +47,12 @@ if (mario)
 		if (stomped == 0) {
 			
 			//If the solid mask scale is greater than 1
-			if (mysolid.image_yscale > 1) {
+			if (image_yscale > 0.34) {
 				
-				//With the solid mask
-				with (mysolid) {
+				//Decrement scale
+				image_yscale -= 1/3;
 				
-					image_yscale--;
-					y += 16;
-				}
+				//Change position
 				y += 16;
 
 				//Allow stomp
