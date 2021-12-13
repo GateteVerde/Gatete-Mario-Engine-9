@@ -9,9 +9,10 @@ enum palette {
 	normal = 0,
 	fire = 1,
 	ice = 2,
-	superball = 3,
-	volt = 4,
-	gold = 5	
+	carrot = 3,
+	superball = 4,
+	volt = 5,
+	gold = 6	
 }
 
 function pal_swap_set_player() {
@@ -30,6 +31,7 @@ function pal_swap_set_player() {
 			default: pal = palette.normal; break;					// Normal color
 			case (cs_fire): pal = palette.fire; break;				// Fire palette
 			case (cs_ice): pal = palette.ice;	break;				// Ice palette
+			case (cs_carrot): pal = palette.carrot; break;			// Carrot palette
 			case (cs_superball): pal = palette.superball; break;	// Superball palette
 			case (cs_volt): pal = palette.volt; break;				// Volt palette
 			case (cs_gold): pal = palette.gold; break;				// Gold palette		

@@ -44,6 +44,18 @@ function pswitch_event() {
 		with (obj_conveyor_r) image_speed = 0;
 		with (obj_conveyor_l) image_speed = 0;
 		
+		//Turn on hidden blocks
+		with (obj_qblock_p) {
+		
+			visible = true;
+			mysolid = instance_create_layer(x, y, "Main", obj_solid);
+			with (mysolid) {
+
+				image_xscale = other.sprite_width/16;
+				image_yscale = other.sprite_height/16;
+			}
+		}
+		
 		//Create blue trampolines
 		with (obj_trampoline_switch)		
 			instance_create_layer(x, y, "Main", obj_trampoline_switch_activated);
@@ -82,9 +94,17 @@ function pswitch_event() {
 		//Make P-Coins visible
 		with (obj_coin_p) visible = false;
 		
-		//Turn off conveyors
+		//Turn on conveyors
 		with (obj_conveyor_r) image_speed = belt_power;
 		with (obj_conveyor_l) image_speed = -belt_power;
+		
+		//Turn off hidden blocks
+		with (obj_qblock_p) {
+		
+			visible = false;
+			with (mysolid) instance_destroy();
+			mysolid = noone;
+		}
 		
 		//Destroy all blue switches
 		with (obj_trampoline_switch_activated) instance_destroy();

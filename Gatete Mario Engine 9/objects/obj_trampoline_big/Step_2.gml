@@ -31,7 +31,7 @@ if (held == true) {
 	            if (obj_mario.state == playerstate.climb)
 	                x = obj_mario.x;
 	            else
-	                x = obj_mario.x+(20*sign(obj_mario.xscale));
+	                x = obj_mario.x+(16*sign(obj_mario.xscale));
 	        }
             
 	        //Make the player hold the item
