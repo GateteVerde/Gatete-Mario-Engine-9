@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Waterfall",
-    "path": "folders/Objetos/Decoration/Liquids/Water/Waterfall.yy",
+    "path": "folders/Objects/Decoration/Liquids/Water/Waterfall.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_waterfall_noswim",

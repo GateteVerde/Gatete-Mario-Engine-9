@@ -16,8 +16,8 @@
     {"speed":100.0,"x":320.0,"y":-32.0,},
   ],
   "parent": {
-    "name": "Rutas",
-    "path": "folders/Rutas.yy",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
   "name": "pth_balloon",

@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMW",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/SMW.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMW.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_accordion_block",

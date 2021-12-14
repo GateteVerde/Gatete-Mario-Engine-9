@@ -38,7 +38,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Projectiles",
-    "path": "folders/Objetos/Special/Do Not Use!/Mario/Projectiles.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Mario/Projectiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_volt",

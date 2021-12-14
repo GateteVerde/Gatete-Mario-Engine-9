@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 1,
   "volume": 1.0,
   "preload": false,
@@ -14,7 +15,7 @@
   "duration": 9.599342,
   "parent": {
     "name": "Fanfares",
-    "path": "folders/Sonidos/Fanfares.yy",
+    "path": "folders/Sounds/Fanfares.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_megashroom",

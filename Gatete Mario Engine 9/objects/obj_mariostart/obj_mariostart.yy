@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "System",
-    "path": "folders/Objetos/Special/Do Not Use!/System.yy",
+    "path": "folders/Objects/Special/Do Not Use!/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mariostart",

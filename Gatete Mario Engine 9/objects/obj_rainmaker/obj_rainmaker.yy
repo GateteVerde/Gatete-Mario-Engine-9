@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Weather",
-    "path": "folders/Objetos/Main/Controllers/Weather.yy",
+    "path": "folders/Objects/Main/Controllers/Weather.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_rainmaker",

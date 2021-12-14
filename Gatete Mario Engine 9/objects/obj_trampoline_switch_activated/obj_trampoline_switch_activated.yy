@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Holdable",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Holdable.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Holdable.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_trampoline_switch_activated",

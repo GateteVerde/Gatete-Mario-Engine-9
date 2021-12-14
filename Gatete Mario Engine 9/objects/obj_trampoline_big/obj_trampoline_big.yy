@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Holdables",
-    "path": "folders/Objetos/Items/Holdables.yy",
+    "path": "folders/Objects/Items/Holdables.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_trampoline_big",

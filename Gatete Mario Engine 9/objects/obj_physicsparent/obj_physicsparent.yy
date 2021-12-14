@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Global",
-    "path": "folders/Objetos/Special/Parents/NPCs/Global.yy",
+    "path": "folders/Objects/Special/Parents/NPCs/Global.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_physicsparent",

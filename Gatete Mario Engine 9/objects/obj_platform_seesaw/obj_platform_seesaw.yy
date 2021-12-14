@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Platforms",
-    "path": "folders/Objetos/Items/Platforms.yy",
+    "path": "folders/Objects/Items/Platforms.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_seesaw",

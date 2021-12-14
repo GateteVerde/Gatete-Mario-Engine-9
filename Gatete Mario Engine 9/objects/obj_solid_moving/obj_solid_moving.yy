@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Moving",
-    "path": "folders/Objetos/Collision/Moving.yy",
+    "path": "folders/Objects/Collision/Moving.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_solid_moving",

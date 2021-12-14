@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Slopes",
-    "path": "folders/Objetos/Collision/Slopes.yy",
+    "path": "folders/Objects/Collision/Slopes.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_slope_steep_l",

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Pick-ups",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Collectibles/Powerups/Pick-ups.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles/Powerups/Pick-ups.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_leaf_sprout",

@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Controllers",
-    "path": "folders/Objetos/Main/Controllers.yy",
+    "path": "folders/Objects/Main/Controllers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lightcontrol",

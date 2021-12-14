@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Parents",
-    "path": "folders/Objetos/Special/Parents.yy",
+    "path": "folders/Objects/Special/Parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_trackparent",

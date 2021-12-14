@@ -15,7 +15,7 @@
   "duration": 3.021875,
   "parent": {
     "name": "Fanfares",
-    "path": "folders/Sonidos/Fanfares.yy",
+    "path": "folders/Sounds/Fanfares.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_gameover",

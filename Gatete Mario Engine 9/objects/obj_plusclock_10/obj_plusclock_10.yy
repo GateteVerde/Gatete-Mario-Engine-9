@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Collectibles",
-    "path": "folders/Objetos/Items/Collectibles.yy",
+    "path": "folders/Objects/Items/Collectibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_plusclock_10",

@@ -121,7 +121,7 @@
   },
   "parent": {
     "name": "Templates",
-    "path": "folders/Salas/Templates.yy",
+    "path": "folders/Rooms/Templates.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_template",

@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Events",
-    "path": "folders/Objetos/Special/Do Not Use!/Mario/Events.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Mario/Events.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mario_dead",

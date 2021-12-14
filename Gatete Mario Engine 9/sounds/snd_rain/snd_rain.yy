@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.25,
   "preload": false,
@@ -14,7 +15,7 @@
   "duration": 5.274989,
   "parent": {
     "name": "Menu",
-    "path": "folders/Sonidos/Menu.yy",
+    "path": "folders/Sounds/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_rain",

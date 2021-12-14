@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Donut",
-    "path": "folders/Objetos/Items/Platforms/SMB3/Donut.yy",
+    "path": "folders/Objects/Items/Platforms/SMB3/Donut.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_donut_triple",

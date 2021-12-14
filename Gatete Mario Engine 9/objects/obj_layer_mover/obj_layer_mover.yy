@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Managers",
-    "path": "folders/Objetos/Collision/Moving/Managers.yy",
+    "path": "folders/Objects/Collision/Moving/Managers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_layer_mover",

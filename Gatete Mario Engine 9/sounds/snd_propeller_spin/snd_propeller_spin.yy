@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -14,7 +15,7 @@
   "duration": 0.727344,
   "parent": {
     "name": "Action",
-    "path": "folders/Sonidos/Action.yy",
+    "path": "folders/Sounds/Action.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_propeller_spin",

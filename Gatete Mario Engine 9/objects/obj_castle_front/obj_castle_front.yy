@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Decoration",
-    "path": "folders/Objetos/Special/Do Not Use!/Decoration.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Decoration.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_castle_front",

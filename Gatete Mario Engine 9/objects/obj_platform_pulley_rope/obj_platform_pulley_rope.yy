@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Common",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/Common.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/Common.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_pulley_rope",

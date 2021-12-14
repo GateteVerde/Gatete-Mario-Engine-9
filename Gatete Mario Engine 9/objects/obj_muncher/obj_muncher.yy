@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Hazards",
-    "path": "folders/Objetos/Decoration/Hazards.yy",
+    "path": "folders/Objects/Decoration/Hazards.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_muncher",

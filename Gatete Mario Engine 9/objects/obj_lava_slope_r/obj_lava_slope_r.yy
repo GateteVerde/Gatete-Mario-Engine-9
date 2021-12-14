@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lava",
-    "path": "folders/Objetos/Decoration/Liquids/Lava.yy",
+    "path": "folders/Objects/Decoration/Liquids/Lava.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lava_slope_r",

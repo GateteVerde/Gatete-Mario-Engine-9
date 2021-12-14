@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Note Blocks",
-    "path": "folders/Objetos/Blocks/Note Blocks.yy",
+    "path": "folders/Objects/Blocks/Note Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_noteblock_blue_hidden",

@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Weather",
-    "path": "folders/Objetos/Special/Do Not Use!/Eyecandy/Weather.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Eyecandy/Weather.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lightningsheet",

@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Enemies",
-    "path": "folders/Objetos/Enemies.yy",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_bubble",

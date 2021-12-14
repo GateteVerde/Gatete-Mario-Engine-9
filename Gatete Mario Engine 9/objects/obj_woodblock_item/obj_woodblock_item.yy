@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Decoration",
-    "path": "folders/Objetos/Decoration.yy",
+    "path": "folders/Objects/Decoration.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_woodblock_item",

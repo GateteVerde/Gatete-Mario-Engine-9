@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Transitions",
-    "path": "folders/Objetos/Special/Do Not Use!/System/GUI/Transitions.yy",
+    "path": "folders/Objects/Special/Do Not Use!/System/GUI/Transitions.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_curtain_out",

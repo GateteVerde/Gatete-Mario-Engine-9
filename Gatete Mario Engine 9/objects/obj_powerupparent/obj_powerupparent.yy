@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "NPCs",
-    "path": "folders/Objetos/Special/Parents/NPCs.yy",
+    "path": "folders/Objects/Special/Parents/NPCs.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_powerupparent",

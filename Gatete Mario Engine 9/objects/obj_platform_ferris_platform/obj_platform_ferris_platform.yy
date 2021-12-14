@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Platforms",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Platforms.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_ferris_platform",

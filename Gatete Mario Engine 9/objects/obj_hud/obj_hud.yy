@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "GUI",
-    "path": "folders/Objetos/Special/Do Not Use!/System/GUI.yy",
+    "path": "folders/Objects/Special/Do Not Use!/System/GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hud",

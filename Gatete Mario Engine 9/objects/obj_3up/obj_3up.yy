@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Powerups",
-    "path": "folders/Objetos/Items/Collectibles/Powerups.yy",
+    "path": "folders/Objects/Items/Collectibles/Powerups.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_3up",

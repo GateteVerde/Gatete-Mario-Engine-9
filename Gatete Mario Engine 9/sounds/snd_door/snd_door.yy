@@ -15,7 +15,7 @@
   "duration": 1.007574,
   "parent": {
     "name": "Item",
-    "path": "folders/Sonidos/Item.yy",
+    "path": "folders/Sounds/Item.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_door",

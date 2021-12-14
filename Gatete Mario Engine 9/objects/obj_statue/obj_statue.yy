@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "States",
-    "path": "folders/Objetos/Special/Do Not Use!/Mario/States.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Mario/States.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_statue",

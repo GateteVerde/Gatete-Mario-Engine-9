@@ -22,12 +22,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Area Blocks",
-    "path": "folders/Objetos/Blocks/Item Blocks/Area Blocks.yy",
+    "path": "folders/Objects/Blocks/Item Blocks/Area Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_area_b",

@@ -15,7 +15,7 @@
   "duration": 0.702766,
   "parent": {
     "name": "Item",
-    "path": "folders/Sonidos/Item.yy",
+    "path": "folders/Sounds/Item.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_balloon",

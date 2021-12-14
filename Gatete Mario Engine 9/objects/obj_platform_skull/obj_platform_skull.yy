@@ -38,7 +38,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMW",
-    "path": "folders/Objetos/Items/Platforms/SMW.yy",
+    "path": "folders/Objects/Items/Platforms/SMW.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_skull",

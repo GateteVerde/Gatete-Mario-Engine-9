@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mario",
-    "path": "folders/Objetos/Special/Do Not Use!/Mario.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Mario.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mario_marker_bottom",

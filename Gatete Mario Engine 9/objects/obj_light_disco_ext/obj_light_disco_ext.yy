@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Do Not Use!",
-    "path": "folders/Objetos/Special/Do Not Use!.yy",
+    "path": "folders/Objects/Special/Do Not Use!.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_light_disco_ext",

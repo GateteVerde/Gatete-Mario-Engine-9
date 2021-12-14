@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "NSMB",
-    "path": "folders/Objetos/Items/Platforms/NSMB.yy",
+    "path": "folders/Objects/Items/Platforms/NSMB.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_lift",

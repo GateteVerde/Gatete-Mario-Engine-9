@@ -3022,8 +3022,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Conjuntos de casillas",
-    "path": "folders/Conjuntos de casillas.yy",
+    "name": "Tilesets",
+    "path": "folders/Tilesets.yy",
   },
   "resourceVersion": "1.0",
   "name": "tls_main",

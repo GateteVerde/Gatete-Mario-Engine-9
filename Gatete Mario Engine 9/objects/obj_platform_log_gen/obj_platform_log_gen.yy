@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMB2",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/SMB2.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMB2.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_log_gen",

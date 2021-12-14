@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Item Blocks",
-    "path": "folders/Objetos/Blocks/Item Blocks.yy",
+    "path": "folders/Objects/Blocks/Item Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_qblock_double_multicoin",

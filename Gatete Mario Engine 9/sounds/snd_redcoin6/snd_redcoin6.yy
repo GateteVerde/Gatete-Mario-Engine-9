@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -14,7 +15,7 @@
   "duration": 0.222042,
   "parent": {
     "name": "Item",
-    "path": "folders/Sonidos/Item.yy",
+    "path": "folders/Sounds/Item.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_redcoin6",

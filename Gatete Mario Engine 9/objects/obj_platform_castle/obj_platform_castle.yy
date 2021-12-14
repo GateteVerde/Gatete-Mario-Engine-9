@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMB3",
-    "path": "folders/Objetos/Items/Platforms/SMB3.yy",
+    "path": "folders/Objects/Items/Platforms/SMB3.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_castle",

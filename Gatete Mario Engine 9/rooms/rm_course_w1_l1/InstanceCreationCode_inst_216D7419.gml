@@ -1,2 +1,2 @@
-inisection = "Overworld";
+inisection = "Athletic";
 leveltime = 400;

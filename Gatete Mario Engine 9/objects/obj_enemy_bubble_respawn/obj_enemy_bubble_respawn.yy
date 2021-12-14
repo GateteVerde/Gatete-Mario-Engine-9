@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Enemies",
-    "path": "folders/Objetos/Special/Do Not Use!/Enemies.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_bubble_respawn",

@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMB2",
-    "path": "folders/Objetos/Items/Platforms/SMB2.yy",
+    "path": "folders/Objects/Items/Platforms/SMB2.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_carrot",

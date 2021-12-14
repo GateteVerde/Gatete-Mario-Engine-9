@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Red Coins",
-    "path": "folders/Objetos/Items/Collectibles/Coins/Special Coins/Red Coins.yy",
+    "path": "folders/Objects/Items/Collectibles/Coins/Special Coins/Red Coins.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_coin_red",

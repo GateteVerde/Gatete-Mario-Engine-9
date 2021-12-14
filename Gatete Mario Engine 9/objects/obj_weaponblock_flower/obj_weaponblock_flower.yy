@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Weapon Blocks",
-    "path": "folders/Objetos/Blocks/Weapon Blocks.yy",
+    "path": "folders/Objects/Blocks/Weapon Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_weaponblock_flower",

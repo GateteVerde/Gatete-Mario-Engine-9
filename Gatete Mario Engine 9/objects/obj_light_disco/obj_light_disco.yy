@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lighting",
-    "path": "folders/Objetos/Main/Controllers/Lighting.yy",
+    "path": "folders/Objects/Main/Controllers/Lighting.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_light_disco",

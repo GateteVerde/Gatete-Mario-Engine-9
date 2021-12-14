@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Common",
-    "path": "folders/Objetos/Items/Platforms/Common.yy",
+    "path": "folders/Objects/Items/Platforms/Common.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_falling",

@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Tracks",
-    "path": "folders/Objetos/Items/Platforms/Common/Tracks.yy",
+    "path": "folders/Objects/Items/Platforms/Common/Tracks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_track_dia_r",

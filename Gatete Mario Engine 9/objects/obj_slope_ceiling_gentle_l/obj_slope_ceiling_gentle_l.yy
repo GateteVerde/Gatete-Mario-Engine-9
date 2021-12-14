@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Ceiling",
-    "path": "folders/Objetos/Collision/Slopes/Ceiling.yy",
+    "path": "folders/Objects/Collision/Slopes/Ceiling.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_slope_ceiling_gentle_l",

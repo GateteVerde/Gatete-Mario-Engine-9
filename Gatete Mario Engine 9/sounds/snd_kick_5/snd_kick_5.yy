@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -14,7 +15,7 @@
   "duration": 0.220312,
   "parent": {
     "name": "Kick",
-    "path": "folders/Sonidos/Action/Kick.yy",
+    "path": "folders/Sounds/Action/Kick.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_kick_5",

@@ -1,5 +1,6 @@
 {
-  "compression": 1,
+  "conversionMode": 0,
+  "compression": 0,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -14,7 +15,7 @@
   "duration": 0.540181,
   "parent": {
     "name": "Action",
-    "path": "folders/Sonidos/Action.yy",
+    "path": "folders/Sounds/Action.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_spinstomp",

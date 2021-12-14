@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",
-    "path": "folders/Objetos/Special/Parents/Collision.yy",
+    "path": "folders/Objects/Special/Parents/Collision.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platformparent",

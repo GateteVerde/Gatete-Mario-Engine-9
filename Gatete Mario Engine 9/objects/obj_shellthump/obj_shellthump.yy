@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Eyecandy",
-    "path": "folders/Objetos/Special/Do Not Use!/Eyecandy.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Eyecandy.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_shellthump",

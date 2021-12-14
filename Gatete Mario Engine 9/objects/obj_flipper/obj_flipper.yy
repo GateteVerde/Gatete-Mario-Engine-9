@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Items",
-    "path": "folders/Objetos/Items.yy",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_flipper",

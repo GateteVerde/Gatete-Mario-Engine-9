@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMB3",
-    "path": "folders/Objetos/Special/Do Not Use!/Items/Platforms/SMB3.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMB3.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_bolt_top",

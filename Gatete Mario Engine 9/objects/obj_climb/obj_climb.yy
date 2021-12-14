@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",
-    "path": "folders/Objetos/Collision.yy",
+    "path": "folders/Objects/Collision.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_climb",

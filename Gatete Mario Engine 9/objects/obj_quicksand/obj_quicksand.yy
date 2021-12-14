@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Liquids",
-    "path": "folders/Objetos/Decoration/Liquids.yy",
+    "path": "folders/Objects/Decoration/Liquids.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_quicksand",

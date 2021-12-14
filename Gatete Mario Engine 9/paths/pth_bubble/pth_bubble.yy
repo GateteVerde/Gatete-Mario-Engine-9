@@ -10,8 +10,8 @@
     {"speed":100.0,"x":0.0,"y":-64.0,},
   ],
   "parent": {
-    "name": "Rutas",
-    "path": "folders/Rutas.yy",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
   "name": "pth_bubble",

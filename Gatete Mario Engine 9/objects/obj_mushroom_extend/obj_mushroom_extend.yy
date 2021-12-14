@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mushrooms",
-    "path": "folders/Objetos/Items/Platforms/NSMB/Mushrooms.yy",
+    "path": "folders/Objects/Items/Platforms/NSMB/Mushrooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mushroom_extend",

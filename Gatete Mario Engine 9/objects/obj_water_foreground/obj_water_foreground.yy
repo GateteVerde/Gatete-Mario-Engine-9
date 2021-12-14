@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Water",
-    "path": "folders/Objetos/Decoration/Liquids/Water.yy",
+    "path": "folders/Objects/Decoration/Liquids/Water.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_water_foreground",

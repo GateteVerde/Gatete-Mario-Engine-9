@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mapcontrol",

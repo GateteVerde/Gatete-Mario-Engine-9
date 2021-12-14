@@ -52,7 +52,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Main",
-    "path": "folders/Objetos/Main.yy",
+    "path": "folders/Objects/Main.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mario",

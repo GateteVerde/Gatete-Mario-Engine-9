@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Solid",
-    "path": "folders/Objetos/Items/Platforms/Common/Solid.yy",
+    "path": "folders/Objects/Items/Platforms/Common/Solid.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_platform_solid_pulley",
