@@ -19,6 +19,9 @@ loop = 0;
 //Facing direction
 direct = obj_mario.xscale;
 
+//Flashing
+isflashing = obj_mario.isflashing;
+
 //Destroy these objects first
 with (obj_spinner) instance_destroy();
 with (obj_dropdown) instance_destroy();

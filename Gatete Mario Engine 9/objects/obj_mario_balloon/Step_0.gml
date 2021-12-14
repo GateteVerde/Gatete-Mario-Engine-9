@@ -32,7 +32,7 @@ else {
 		
 		//Stop movement
 		xspeed = 0;
-		yspeed = other.yspeed;
+		yspeed = 0;
 		yadd = 0;
 		
 		//Do not crouch

@@ -25,7 +25,8 @@ if (yadd == 0) {
 	}
 	
 	//Otherwise
-	else if (can_bounce == true) {
+	else if (can_bounce == true) 
+	&& (!position_meeting(x, y-1, obj_solid)) {
 	
 		yspeed = -(4 - (swimming * 2));
 		y--;

@@ -1,5 +1,8 @@
 /// @description Draw Mario
 
+//Set palette
+pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible, spr_palette_mario_mega);
+
 //Draw Mario
 if (sequence != 5)
 && (sequence != 6)
@@ -11,3 +14,6 @@ else {
 	else
 		draw_sprite_custom_origin(sprite_index, -1, screen_round(x), screen_round(y)+1, sprite_get_xoffset(sprite_index), 32, image_xscale*direct, image_xscale, 0, c_white, 1);
 }
+
+//Reset palette
+pal_swap_reset();

@@ -88,9 +88,10 @@ else if (sequence == 6) {
 	}
 }
 
-//Make Mario stay in-position
+//Make Mario stay in-position and update palette
 if (instance_exists(obj_mario)) {
 
 	obj_mario.x = x;
 	obj_mario.y = y;
+	isflashing = obj_mario.isflashing;
 }

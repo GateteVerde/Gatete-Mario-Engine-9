@@ -756,7 +756,7 @@ if (enable_gravity == 1) {
 	}
 	
 	//If moving upwards
-	if (yspeed < 0) 
+	if (yspeed < 0)
 	&& (collision_rectangle(bbox_left, bbox_top+yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0)) { 
 		
 		//Check for a block above

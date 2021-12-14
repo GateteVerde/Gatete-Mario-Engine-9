@@ -1,15 +1,14 @@
-/// @description If Mario jumps from below, reveal block
+/// @description If the objects given below overlaps the block from below, reveal block
 
-//If Mario is moving up and it's jumping
-if (global.powerup != cs_mega)
-&& (other.yspeed < 0)
-&& (other.jumping > 0)
+//If the object is moving up and it's jumping
+if (other.object_index == obj_mario_balloon)
+if (other.yspeed < 0)
 && (other.bbox_top > bbox_bottom + other.yspeed) {
 	
 	//Play 'Bump' sound
 	audio_play_sound(snd_bump, 0, false);
 	
-	//Stop Mario
+	//Stop object
 	other.yspeed = 0;
 
 	//Create a new block, give it the same item and bump it.

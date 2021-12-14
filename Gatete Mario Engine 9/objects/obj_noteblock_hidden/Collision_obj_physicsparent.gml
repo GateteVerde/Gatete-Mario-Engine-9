@@ -1,14 +1,18 @@
-/// @description If Mario jumps from below, reveal block
+/// @description If the objects given below overlaps the block from below, reveal block
 
-//If Mario's vertical speed is lower than 0 and Mario is not on his Mega form
-if (other.yspeed <= 0)
-&& (other.bbox_top > bbox_bottom+0.5) {
-	
+//If the object is moving up and it's jumping
+if (other.object_index == obj_mario_balloon)
+if (other.yspeed < 0)
+&& (other.bbox_top > bbox_bottom + other.yspeed) {
+
 	//Play 'Bump' sound
 	audio_play_sound(snd_bump, 0, false);
-
+	
+	//Stop object
+	other.yspeed = 0;
+	
 	//Create a new block, give it the same item and bump it.
-	with (instance_create_depth(x, y, 9, obj_qblock)) {
+	with (instance_create_depth(x, y, 9, obj_noteblock)) {
 		
 		//Set the item to reveal
 		sprout = other.sprout;

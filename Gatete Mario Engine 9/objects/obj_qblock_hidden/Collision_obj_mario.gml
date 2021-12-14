@@ -1,10 +1,11 @@
 /// @description If Mario jumps from below, reveal block
 
-//If Mario's vertical speed is lower than 0 and Mario is not on his Mega form
+//If Mario is moving up and it's jumping
 if (global.powerup != cs_mega)
 && (other.yspeed < 0)
-&& (other.bbox_top > bbox_bottom+other.yspeed) {
-	
+&& (other.jumping > 0)
+&& (other.bbox_top > bbox_bottom + other.yspeed) {
+		
 	//Play 'Bump' sound
 	audio_play_sound(snd_bump, 0, false);
 	
