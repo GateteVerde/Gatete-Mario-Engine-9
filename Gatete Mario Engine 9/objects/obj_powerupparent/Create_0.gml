@@ -11,10 +11,6 @@ event_inherited();
 //4: Transform
 sequence = 0;
 
-//Do not bounce
-bouncy = 0;
-bounces = 0;
-
 //Can bounce?
 can_bounce = 0;
 

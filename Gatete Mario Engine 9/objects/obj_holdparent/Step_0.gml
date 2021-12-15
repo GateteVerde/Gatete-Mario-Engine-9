@@ -45,8 +45,8 @@ if (held == false) {
                     if (abs(xspeed) < 0.0375)
                         xspeed = 0;            
                 }
-                
-                //Prevent passing through slopes
+				
+				//Prevent passing through slopes
                 while (collision_rectangle(x-2, bbox_top, x+2, bbox_bottom, obj_slopeparent, 1, 0))
                     y--;
             }
@@ -74,8 +74,6 @@ if (held == false) {
         //If the item is not longer overlapping a solid
         if (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 0, 0))
             inwall = false;
-    }
-	
-	
+    }	
 }
 

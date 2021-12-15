@@ -5,7 +5,3 @@ event_inherited();
 
 //Do not move
 xspeed = 0;
-
-//Do not bounce
-bouncy = 0;
-bounces = 0;

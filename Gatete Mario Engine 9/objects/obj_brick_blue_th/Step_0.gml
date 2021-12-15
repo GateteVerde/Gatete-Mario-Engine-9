@@ -52,3 +52,7 @@ if (!held) {
 	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_mario, 0, 0))
 		hurtplayer = 1;
 }
+
+//If moving, do not bounce
+if (ready == 1)
+	bounces = -1;

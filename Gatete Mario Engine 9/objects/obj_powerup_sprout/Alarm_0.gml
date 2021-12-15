@@ -81,7 +81,7 @@ else {
 		|| (sprite_index == spr_propellerblock) {
         
             //Set vertical speed
-            vspeed = -2;
+            vspeed = -2.5;
             
             //Deny solid check
             readytogo = 1;

@@ -4,8 +4,7 @@
 event_inherited();
 
 //Do not bounce
-bouncy = 0;
-bounces = 0;
+bounces = -1;
 
 //Do not turn around
 turn_toward = 0;

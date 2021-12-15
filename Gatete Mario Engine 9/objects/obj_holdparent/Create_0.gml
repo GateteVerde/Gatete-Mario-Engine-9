@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//Make it bounce
+bounces = 3;
+
 //Direction of item
 dir = 1;
 

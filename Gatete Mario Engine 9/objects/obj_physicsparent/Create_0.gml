@@ -18,9 +18,9 @@ yscale = 1;
 //Swimming?
 swimming = false;
 
-//Bounce coefficient (zero or any # to determine bounce strength)
-bouncy = 2;
-bounces = 2;
+//Bounces (-1 to make the item non-bouncy)
+bounces = -1;
+bounces_max = 3;
 
 //Depth
 depth = -2;

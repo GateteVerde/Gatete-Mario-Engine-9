@@ -6,8 +6,7 @@ event_inherited();
 //Animate
 image_speed = 0.2;
 
-//Bounce coefficient (zero or any # to determine bounce strength)
-bouncy = 4;
+//Make it bounce
 bounces = 2;
 
 //Blink after a bit
