@@ -21,12 +21,8 @@ if (!held) {
 				audio_play_sound(snd_bump, 0, false);
 			}
 			
-			#region BUMP NEARBY BLOCKS
-			
-			#endregion
-			
 			//Create shell thump
-			instance_create_depth(x+(5*sign(prevxspeed)), y, -6, obj_shellthump);
+			with (instance_create_depth(x+(5*sign(prevxspeed)), y, -6, obj_shellthump)) bump = true;
             
             //Shatter if this is a blue or green brick
 			if (sprite_index == spr_brick_blue_th) 

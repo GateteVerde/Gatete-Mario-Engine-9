@@ -269,7 +269,7 @@ if (enable_gravity == 1) {
 		noisy = 0;
 		
 	//If moving down
-	if (yspeed >= 0) {
+	if (yspeed > 0) {
 
 		//Check for any nearby ground collision
 		var semisolid = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+yspeed, obj_semisolid, 0, 0);
@@ -277,7 +277,7 @@ if (enable_gravity == 1) {
 		//If there's ground below and Mario is not moving upwards
 		if (semisolid)
 		&& (bbox_bottom < semisolid.yprevious+5) 
-		&& (!collision_rectangle(x, bbox_bottom, x, bbox_bottom+4, obj_slopeparent, 1, 0)) {
+		&& (!collision_rectangle(x-1, bbox_bottom+1, x, bbox_bottom+4, obj_slopeparent, 1, 0)) {
 		
 			//Snap above the semisolid
 			y = semisolid.bbox_top-16;
@@ -320,6 +320,7 @@ if (enable_gravity == 1) {
 		}
 	}
 	
+	//Slope collision
 	#region SLOPE COLLISION
 		
 		//If there's a slope and Mario is above this slope, start checking
@@ -356,7 +357,7 @@ if (enable_gravity == 1) {
 	
 	#endregion
 	
-	//Conveyor collisions
+	//Conveyor collision
 	#region CONVEYOR COLLISION
 	
 		//If there's no gravity

@@ -2,7 +2,7 @@
 
 //Check if there's a collision below and if Mario is on the ground
 if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0))
-|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_slopeparent, 1, 0)))
+|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)))
 && (yadd == 0) {
 
 	//If the player is flying and moving upwards...
@@ -68,7 +68,8 @@ if (yspeed > yspeed_max)
 	yspeed = yspeed_max;
 	
 //Set up the player's maximum horizontal speed.
-if (!flying || global.powerup == cs_cape) { //If the player is not flying
+if (!flying)
+|| (global.powerup == cs_cape) { //If the player is not flying
 	
     //Run grace period of 2 frames (fireballs, etc)
 	if (input_check_released(input.action_1))			
@@ -89,7 +90,7 @@ if (!flying || global.powerup == cs_cape) { //If the player is not flying
                             
                 //If the P-Meter is filled up.
                 if (run)
-                    xspeedmax = 3.5;
+                    xspeedmax = 3.3;
                 
                 //Otherwise, if the P-Meter is not filled up.
                 else    
@@ -106,7 +107,7 @@ if (!flying || global.powerup == cs_cape) { //If the player is not flying
             
             //If the P-Meter is filled up.
             if (run) 
-                xspeedmax = 3.5;
+                xspeedmax = 3.3;
             
             //Otherwise, if the P-Meter is not filled up.
             else    
@@ -141,7 +142,7 @@ else {
     
         //Set running speed
         if (input_check(input.action_1))
-            xspeedmax = 2.7;           
+            xspeedmax = 2.6;           
         
         //Otherwise, do not reduce speed until the player makes contact with the ground.  
         else     
