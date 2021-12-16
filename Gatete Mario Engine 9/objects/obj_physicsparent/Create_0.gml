@@ -18,7 +18,7 @@ yscale = 1;
 //Swimming?
 swimming = false;
 
-//Bounces (-1 to make the item non-bouncy)
+//Bounces
 bounces = -1;
 bounces_max = 3;
 

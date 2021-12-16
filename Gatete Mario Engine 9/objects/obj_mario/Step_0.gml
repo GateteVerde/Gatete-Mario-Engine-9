@@ -276,7 +276,8 @@ if (enable_gravity == 1) {
 	
 		//If there's ground below and Mario is not moving upwards
 		if (semisolid)
-		&& (bbox_bottom < semisolid.yprevious+5) {
+		&& (bbox_bottom < semisolid.yprevious+5) 
+		&& (!collision_rectangle(x, bbox_bottom, x, bbox_bottom+4, obj_slopeparent, 1, 0)) {
 		
 			//Snap above the semisolid
 			y = semisolid.bbox_top-16;
@@ -319,47 +320,60 @@ if (enable_gravity == 1) {
 		}
 	}
 	
-	//Embed Mario into the slope if he is walking to ensure correct slope mechanics
-	if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+5, obj_slopeparent, 1, 0))
-	&& (!collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom-4, obj_slopeparent, 1, 0))
-	&& (state == playerstate.walk)
-		y += 4;
-
-	//Handle slope collisions
-	if (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
-	&& (!collision_rectangle(x-1, bbox_bottom-8, x+1, bbox_bottom-8, obj_slopeparent, 1, 0)) {
-
-	    //If Mario is moving down onto a slope
-	    if (yspeed >= 0) {
-
-	        //Stop vertical movement
-	        yadd = 0;
-	        yspeed = 0;
-
-	        //Reset variables
-			event_user(15);
-		}
-	}
+	#region SLOPE COLLISION
+		
+		//If there's a slope and Mario is above this slope, start checking
+		if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
+		&& (bbox_bottom <= (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0).bbox_bottom)) {
 	
-	//Prevent Mario from getting embed inside a slope
-	if (yspeed > -0.85)
-	    while (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
-	        y--;
+			//Embed Mario into the slope if he is walking to ensure correct slope mechanics
+			if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
+			&& (!collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom-4, obj_slopeparent, 1, 0))
+			&& (state == playerstate.walk)
+				y += 4;
+
+			//Handle slope collisions
+			if (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
+			&& (!collision_rectangle(x-1, bbox_bottom-8, x+1, bbox_bottom-8, obj_slopeparent, 1, 0)) {
+
+			    //If Mario is moving down onto a slope
+			    if (yspeed >= 0) {
+
+			        //Stop vertical movement
+			        yadd = 0;
+			        yspeed = 0;
+
+			        //Reset variables
+					event_user(15);
+				}
+			}
+	
+			//Prevent Mario from getting embed inside a slope
+			if (yspeed > -0.85)
+			    while (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
+			        y--;
+		}
+	
+	#endregion
 	
 	//Conveyor collisions
 	#region CONVEYOR COLLISION
 	
-		//Check for a conveyor
-		var conveyor = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_conveyorparent, 0, 0);
+		//If there's no gravity
+		if (yadd == 0) {
+	
+			//Check for a conveyor
+			var conveyor = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_conveyorparent, 0, 0);
 		
-		//If there's a conveyor
-		if (conveyor)
-		&& (conveyor.image_speed != 0) {
+			//If there's a conveyor
+			if (conveyor)
+			&& (conveyor.image_speed != 0) {
 		
-			//If the conveyor is moving and there's not solid on the way
-			if ((conveyor.image_speed < 0) && (!collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-1, obj_solid, 0, 0)))
-			|| ((conveyor.image_speed > 0) && (!collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 0, 0)))
-				x += conveyor.image_speed;
+				//If the conveyor is moving and there's not solid on the way
+				if ((conveyor.image_speed < 0) && (!collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-1, obj_solid, 0, 0)))
+				|| ((conveyor.image_speed > 0) && (!collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 0, 0)))
+					x += conveyor.image_speed;
+			}
 		}
 	#endregion
 	

@@ -2,7 +2,7 @@
 
 //Check if there's a collision below and if Mario is on the ground
 if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0))
-|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)))
+|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_slopeparent, 1, 0)))
 && (yadd == 0) {
 
 	//If the player is flying and moving upwards...
@@ -19,7 +19,7 @@ if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, ob
 		
 	//Otherwise
 	else {
-	
+		
 		//If the player is falling or at the ground
 		if (yspeed >= 0) {
 			
@@ -586,7 +586,7 @@ if (state != playerstate.jump) {
 }
 
 //If the player is jumping
-if ((state == playerstate.jump) || (statedelay != 0)) {
+if ((state == playerstate.jump) || (statedelay > 0)) {
 	
 	//Switch between powerups
 	switch (global.powerup) {

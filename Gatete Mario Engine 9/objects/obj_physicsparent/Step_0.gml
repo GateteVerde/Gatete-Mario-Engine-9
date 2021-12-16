@@ -37,7 +37,7 @@ if (yspeed > 0) {
 	//If there's ground below and Mario is not moving upwards
 	if (semisolid)
 	&& (bbox_bottom < semisolid.yprevious + 5)
-		y = semisolid.y + floor(y - bbox_bottom - 0.9);
+		y = semisolid.bbox_top - 16;
 }
 
 //Embed into the slope to ensure correct slope mechanics
@@ -57,10 +57,13 @@ if (yspeed > -0.85) {
 	}
 }
 
-//Check if there's a collision below and if NPC is on the ground, and stop gravity if so.
-if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0))
+//Check if there's a semisolid
+if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0)) 
 && (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_semisolid, 0, 0)))
-|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)) {
+
+//Or if there's a slope and this object is above the bottom boundary
+|| ((collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)) 
+&& (bbox_bottom <= collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0).bbox_bottom)) {
 	
 	//Stop gravity
 	yadd = 0;

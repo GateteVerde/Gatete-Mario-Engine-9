@@ -12,7 +12,3 @@ if (ds_map_find_value(global.moons, id)) {
 
 //Do not move
 xspeed = 0;
-
-//Do not bounce
-bouncy = 0;
-bounces = 0;
