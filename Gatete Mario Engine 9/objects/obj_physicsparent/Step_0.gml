@@ -37,24 +37,20 @@ if (yspeed > 0) {
 	//If there's ground below and Mario is not moving upwards
 	if (semisolid)
 	&& (bbox_bottom < semisolid.yprevious + 5)
-		y = semisolid.bbox_top - 16;
+		y = semisolid.bbox_top - floor(sprite_height-(sprite_get_yoffset(sprite_index)));
 }
 
-//Embed into the slope to ensure correct slope mechanics
+//Embed NPC into the slope if he is walking to ensure correct slope mechanics
 if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
 && (!collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom-4, obj_slopeparent, 1, 0))
-&& (yspeed == 0)
-    y += 4;
-
-//Handle slope collisions
+&& (yadd == 0)
+	y += 4;
+	
+//Prevent Mario from getting embed inside a slope
 if (yspeed > -0.85) {
 	
-	if (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0)) 
-	&& (!collision_rectangle(x-1, bbox_bottom-8, x+1, bbox_bottom-8, obj_slopeparent, 1, 0)) {
-
-		while (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
-			y--;
-	}
+	while (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
+		y--;
 }
 
 //Check if there's a semisolid
@@ -62,8 +58,8 @@ if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, ob
 && (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_semisolid, 0, 0)))
 
 //Or if there's a slope and this object is above the bottom boundary
-|| ((collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)) 
-&& (bbox_bottom <= collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0).bbox_bottom)) {
+|| ((collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)) 
+&& (bbox_bottom <= collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+1, obj_slopeparent, 1, 0).bbox_bottom)) {
 	
 	//Stop gravity
 	yadd = 0;
@@ -101,6 +97,10 @@ else {
 			bounces = bounces_max;
 	}
 }
+
+//Round position
+if (yspeed == 0)
+	y = round(y);
 	
 //Check for a nearby swimming surface
 var water = collision_rectangle(bbox_left, y-1, bbox_right, y, obj_swim, 1, 0);
