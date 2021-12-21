@@ -1,20 +1,20 @@
-/// @description Freeze NPCs
+/// @description Un-Freeze NPCs
 
-//Freeze
-freeze = true;
+//Unfreeze
+freeze = false;
 
-//Remember animation
-save_ims = image_speed;
-image_speed = 0;
+//Resume animation
+image_speed = save_ims;
+save_ims = 0;
 
-//Remember horizontal speed
-save_xsp = xspeed;
-xspeed = 0;
+//Resume horizontal speed
+xspeed = save_xsp;
+save_xsp = 0;
 
-//Remember vertical speed
-save_ysp = yspeed;
-yspeed = 0;
+//Resume vertical speed
+yspeed = save_ysp;
+save_ysp = 0;
 
-//Remember gravity
-save_grav = yadd;
-yadd = 0;
+//Resume gravity
+yadd = save_grav;
+save_grav = 0;

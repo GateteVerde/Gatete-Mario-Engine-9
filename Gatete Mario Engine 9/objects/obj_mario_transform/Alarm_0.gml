@@ -1,7 +1,7 @@
 /// @description Freeze all objects and begin animation
 
 //Freeze all objects under obj_physicsparent
-with (obj_physicsparent) event_user(14);
+with (obj_physicsparent) event_user(13);
 
 //Freeze Mario
 with (obj_mario) {

@@ -77,3 +77,6 @@ if (held == false) {
     }	
 }
 
+//Reset bounces if held
+if (held)
+	bounces = bounces_max;

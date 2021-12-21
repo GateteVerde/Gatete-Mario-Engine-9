@@ -1,7 +1,7 @@
 /// @description Make the player visible
 
 //Make all objects under obj_physicsparent resume movement
-with (obj_physicsparent) event_user(15);
+with (obj_physicsparent) event_user(14);
 
 //If the player is not riding anything
 if (global.mount == 0) {
