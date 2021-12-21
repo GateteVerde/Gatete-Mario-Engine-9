@@ -49,6 +49,6 @@ if (!held) {
 		hurtplayer = 1;
 }
 
-//If moving, do not bounce
+//No bouncing if kicked
 if (ready == 1)
-	bounces = -1;
+	bounces = -1;	

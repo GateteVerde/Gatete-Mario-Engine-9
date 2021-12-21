@@ -2,6 +2,7 @@
 
 //Sliding increment
 add = 0.15;
+angle = 45;
 
 //Depth
 depth = -2;

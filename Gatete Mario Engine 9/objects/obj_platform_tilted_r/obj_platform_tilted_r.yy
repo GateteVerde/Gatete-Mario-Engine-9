@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_mask_platform_tilted_r",
+    "path": "sprites/spr_mask_platform_tilted_r/spr_mask_platform_tilted_r.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_slopeparent",

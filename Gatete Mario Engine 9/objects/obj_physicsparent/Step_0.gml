@@ -40,7 +40,7 @@ if (yspeed > 0) {
 		y = semisolid.bbox_top - floor(sprite_height-(sprite_get_yoffset(sprite_index)));
 }
 
-//Beta Slope Collision
+//Slope Collision
 slope_collision();
 
 //Check if there's a semisolid

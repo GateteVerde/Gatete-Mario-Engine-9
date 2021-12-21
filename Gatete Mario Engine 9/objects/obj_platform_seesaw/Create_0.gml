@@ -10,6 +10,9 @@ image_index = 0;
 //Depth
 depth = -2;
 
+//Angle
+angle = 0;
+
 //Angle speed
 angle_speed = 0;
 
