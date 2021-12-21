@@ -321,6 +321,8 @@ if (enable_gravity == 1) {
 	}
 	
 	//Slope collision
+	slope_collision();
+	/*
 	#region SLOPE COLLISION
 		
 		//If there's a slope and Mario is above this slope, start checking
@@ -356,6 +358,7 @@ if (enable_gravity == 1) {
 		}
 	
 	#endregion
+	*/
 	
 	//Conveyor collision
 	#region CONVEYOR COLLISION

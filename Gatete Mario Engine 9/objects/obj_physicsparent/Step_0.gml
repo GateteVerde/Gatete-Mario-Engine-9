@@ -40,6 +40,9 @@ if (yspeed > 0) {
 		y = semisolid.bbox_top - floor(sprite_height-(sprite_get_yoffset(sprite_index)));
 }
 
+//Beta Slope Collision
+slope_collision()
+/*
 //Embed NPC into the slope if he is walking to ensure correct slope mechanics
 if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
 && (!collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom-4, obj_slopeparent, 1, 0))
@@ -52,6 +55,7 @@ if (yspeed > -0.85) {
 	while (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
 		y--;
 }
+*/ 
 
 //Check if there's a semisolid
 if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0)) 

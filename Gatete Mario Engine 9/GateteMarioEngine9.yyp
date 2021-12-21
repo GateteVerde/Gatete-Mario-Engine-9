@@ -1082,6 +1082,7 @@
     {"id":{"name":"spr_mario_carrot_skid","path":"sprites/spr_mario_carrot_skid/spr_mario_carrot_skid.yy",},"order":4,},
     {"id":{"name":"spr_mario_big_jump","path":"sprites/spr_mario_big_jump/spr_mario_big_jump.yy",},"order":1,},
     {"id":{"name":"draw_sprite_tiled_area_ext","path":"scripts/draw_sprite_tiled_area_ext/draw_sprite_tiled_area_ext.yy",},"order":2,},
+    {"id":{"name":"slope_collision","path":"scripts/slope_collision/slope_collision.yy",},"order":13,},
     {"id":{"name":"obj_light_static_area","path":"objects/obj_light_static_area/obj_light_static_area.yy",},"order":3,},
     {"id":{"name":"spr_mario_tanooki_kick","path":"sprites/spr_mario_tanooki_kick/spr_mario_tanooki_kick.yy",},"order":18,},
     {"id":{"name":"spr_penguinsuit","path":"sprites/spr_penguinsuit/spr_penguinsuit.yy",},"order":20,},
