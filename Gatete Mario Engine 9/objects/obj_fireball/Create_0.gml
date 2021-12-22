@@ -7,8 +7,7 @@ event_inherited();
 yspeed = 3;
 
 //No bounces
-bouncy = 0;
-bounces = 0;
+bounces = -1;
 
 //Do not swim
 noswim = true;

@@ -12,6 +12,9 @@ index_powerups();
 //Initialize global variables
 init_globals();
 
+//Initialize shader variables
+init_shockwave();
+
 //Gameplay variables
 #region GAMEPLAY VARIABLES
 
@@ -92,10 +95,11 @@ init_globals();
 //Item Macros
 #region ITEM MACROS
 
-	#macro cs_balloon -29
-	#macro cs_beanstalk_side -28
-	#macro cs_beanstalk -27
-	#macro cs_billy -26
+	#macro cs_balloon -30
+	#macro cs_beanstalk_side -29
+	#macro cs_beanstalk -28
+	#macro cs_billy -27
+	#macro cs_powblock -26
 	#macro cs_propellerblock -25
 	#macro cs_trampoline -24
 	#macro cs_key -23

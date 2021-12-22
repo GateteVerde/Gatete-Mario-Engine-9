@@ -95,6 +95,9 @@ function sprite_create_object() {
 		//Propeller Block
 		case (spr_propellerblock): return instance_create_depth(argument[1], argument[2], argument[3], obj_propellerblock);
 		
+		//POW Block
+		case (spr_powblock): return instance_create_depth(argument[1], argument[2], argument[3], obj_powblock);
+		
 		//Key
 		case (spr_key): return instance_create_depth(argument[1], argument[2], argument[3], obj_key);
 	}

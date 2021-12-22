@@ -15,6 +15,9 @@ gui_buttons = gamepad_set_gui_sprite();
 //Update all timers
 timer_system_update();
 
+//Update shaders
+update_shockwave();
+
 //Stay always at the front
 depth = -1000;
 

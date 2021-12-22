@@ -40,7 +40,7 @@ function sprite_get_macro() {
 	    case (spr_shoe_dossun): return cs_shoe_dossun;
 	    case (spr_shoe_jugemu): return cs_shoe_jugemu;
 	    case (spr_shoe_pentaro): return cs_shoe_pentaro;
-		case (spr_pballoon): return cs_pballoon;
+		case (spr_balloon): return cs_pballoon;
 		case (spr_pwing): return cs_pwing;
 	    case (spr_1up): return cs_1up;
 	    case (spr_3up): return cs_3up;
@@ -52,6 +52,7 @@ function sprite_get_macro() {
 		case (spr_key): return cs_key;
 		case (spr_trampoline): return cs_trampoline;
 		case (spr_propellerblock): return cs_propellerblock;
+		case (spr_powblock): return cs_powblock;
 		case (spr_billygun): return cs_billy;
 		case (spr_beanstalk): return cs_beanstalk;
 		case (spr_beanstalk_side): return cs_beanstalk_side;
