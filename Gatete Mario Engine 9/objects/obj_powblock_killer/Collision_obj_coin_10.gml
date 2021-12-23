@@ -1,11 +1,15 @@
-/// @description Turn coins into physical coins
+/// @description Apply gravity onto 10, 30 and 50 Coins
 
-//Create a physical coin
-with (instance_create_layer(other.x, other.y, "Main", obj_coinnpc_big)) {
+if (other.ready == 0) {
 	
-	sprite_index = spr_coin_30;
-	xspeed = random_range(-1, 1);
+	//Apply physics
+	other.ready = 1;
+	
+	//Blink and destroy
+	other.alarm[0] = 480;
+	other.alarm[1] = 600;
+	
+	//Set horizontal speed
+	if (other.xspeed == 0)
+		other.xspeed = random_range(-1, 1);
 }
-
-//Destroy
-with (other) instance_destroy();

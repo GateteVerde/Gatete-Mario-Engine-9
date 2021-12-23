@@ -1,4 +1,13 @@
-/// @description A coin worth 10 coins
+/// @description Big Coin
 
-//Animate
-image_speed = 0.15;
+//Inherit event from parent
+event_inherited();
+
+//Whether this coin has been collected
+ready = 0;
+
+//Last y position
+yy = 0;
+
+//Bounces
+bounces = 3;

@@ -1,10 +1,13 @@
 /// @description Collect the coin
 
 //If not animating faster
-if (image_speed != 0.8) {
+if (ready != 2) {
 	
 	//Get 10 coins
 	coins_add(10);
+	
+	//Remember last y position
+	yy = y;
 	
 	//Perform coin collection and get points
 	event_user(0);

@@ -16,7 +16,8 @@ if (instance_exists(obj_mario)) {
     }
 
     //Otherwise, if the player is small or is crouched down.
-    else if (mask_index == spr_mask_mario) {
+    else if (mask_index == spr_mask_mario) 
+	|| (mask_index == spr_mask_mario_shell) {
     
         with (instance_create_depth(x - 8 + random(round(16)), y + random_range(0, 16), -6, obj_sparkle)) {
         

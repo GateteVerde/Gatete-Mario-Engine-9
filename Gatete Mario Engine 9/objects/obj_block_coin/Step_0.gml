@@ -73,7 +73,11 @@ if ((vspeed > 0) && (y > ystart)) {
 	}
 	
 	//Get score
-	with (instance_create_depth(x, y, -6, obj_score)) value = 10;
+	if (sprite_index != spr_coin_ace) {
+		
+		with (instance_create_depth(x, y, -6, obj_score)) 
+			value = 10;
+	}
 	
 	//Destroy
 	instance_destroy();	

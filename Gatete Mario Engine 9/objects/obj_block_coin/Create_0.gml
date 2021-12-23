@@ -1,10 +1,13 @@
 /// @description A coin that came out from a block
 
 //Play 'Coin' sound
-audio_play_sound(snd_coin, 0, false);
+if (sprite_index != spr_coin_ace) {
+	
+	audio_play_sound(snd_coin, 0, false);
+}
 
-//Animate
-image_speed = 0.5;
+//Animate faster
+image_speed *= 4;
 
 //Set motion
 vspeed = -3;

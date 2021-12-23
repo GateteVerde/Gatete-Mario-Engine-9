@@ -3,9 +3,6 @@
 //Play 'Big Coin' sound
 audio_play_sound(snd_coin_big, 0, false);
 
-//Increment coins
-coins_add();
-
 //Remember that the coin has been collected
 ds_map_add(global.acecoins, id, 1);
 
@@ -20,24 +17,13 @@ ds_map_add(global.acecoins, id, 1);
 	}
 #endregion
 
-#region EFFECT
+//Make visible
+visible = 1;
+alarm[0] = -1;
+alarm[1] = -1;
 
-	//Repeat 6 times
-	repeat (6) {
-
-		with (instance_create_depth(x, y + 4, -2, obj_sparkle)) {
-	
-			sprite_index = spr_sparkle_b;
-			gravity = 0.2;
-			shrink_rate = 0.0324;
-			motion_set(random_range(80, 100), random_range(1, 3));			
-		}
-	}
-
-	//Create ring
-	with (instance_create_depth(x, y + 4, -2, obj_blend_ring)) image_blend = make_colour_rgb(248, 216, 0);
-	
-#endregion
+//Create collected coin
+with (instance_create_depth(x, y-4, -4, obj_block_coin)) sprite_index = spr_coin_ace;
 
 //Destroy
 instance_destroy();

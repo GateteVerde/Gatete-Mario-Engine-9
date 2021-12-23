@@ -3,9 +3,6 @@
 //Inherit event from parent
 event_inherited();
 
-//Animate
-image_speed = 0.2;
-
 //Make it bounce
 bounces = 3;
 
