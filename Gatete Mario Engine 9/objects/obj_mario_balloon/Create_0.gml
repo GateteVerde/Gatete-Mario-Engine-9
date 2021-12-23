@@ -3,6 +3,9 @@
 //Inherit event from parent
 event_inherited();
 
+//Depth
+depth = -5;
+
 //Do not bounce
 bounces = -1;
 

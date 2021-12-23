@@ -7,7 +7,7 @@ event_inherited();
 image_speed = 0.2;
 
 //Make it bounce
-bounces = 2;
+bounces = 3;
 
 //Blink after a bit
 alarm[0] = 480;

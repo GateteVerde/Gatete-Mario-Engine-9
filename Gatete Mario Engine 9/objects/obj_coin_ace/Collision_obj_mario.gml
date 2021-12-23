@@ -11,7 +11,7 @@ ds_map_add(global.acecoins, id, 1);
 
 #region SCORE
 
-	with (instance_create_depth(x+8, y, -6, obj_score)) {
+	with (instance_create_depth(x, y, -6, obj_score)) {
 	
 		if (ds_map_size(global.acecoins) >= 5)
 			value = -1;
@@ -25,7 +25,7 @@ ds_map_add(global.acecoins, id, 1);
 	//Repeat 6 times
 	repeat (6) {
 
-		with (instance_create_depth(x + 8, y + 16, -2, obj_sparkle)) {
+		with (instance_create_depth(x, y + 4, -2, obj_sparkle)) {
 	
 			sprite_index = spr_sparkle_b;
 			gravity = 0.2;
@@ -35,7 +35,7 @@ ds_map_add(global.acecoins, id, 1);
 	}
 
 	//Create ring
-	with (instance_create_depth(x + 8, y + 16, -2, obj_blend_ring)) image_blend = make_colour_rgb(248, 216, 0);
+	with (instance_create_depth(x, y + 4, -2, obj_blend_ring)) image_blend = make_colour_rgb(248, 216, 0);
 	
 #endregion
 

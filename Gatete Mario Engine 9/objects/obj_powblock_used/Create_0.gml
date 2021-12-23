@@ -4,7 +4,7 @@
 with (obj_coordinator) {
 
     var_mouse_pos_x = other.x - camera_get_view_x(view_camera[0]);
-    var_mouse_pos_y = other.y - camera_get_view_y(view_camera[0]);
+    var_mouse_pos_y = other.y - camera_get_view_y(view_camera[0]) + 8;
     event_user(0);
 }
 

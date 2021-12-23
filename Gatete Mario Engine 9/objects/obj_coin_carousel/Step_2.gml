@@ -7,10 +7,6 @@ if (active == true) {
     for (i=0; i<amount; i++;) {
 		
 		if (instance_exists(coin[i])) {
-    
-	        //Check up the position of the coin.
-	        oldx = 0;
-	        oldy = 0;
         
 	        //Set the position of the coin.
 	        coin[i].x = x+distance*cos((angle+(i*360/amount))*pi/180);
