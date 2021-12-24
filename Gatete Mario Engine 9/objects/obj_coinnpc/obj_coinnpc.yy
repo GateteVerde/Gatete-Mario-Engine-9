@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Special/Do Not Use!/Items.yy",
+    "name": "Collectibles",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_coinnpc",

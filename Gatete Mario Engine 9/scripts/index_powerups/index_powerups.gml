@@ -3,7 +3,7 @@
 function index_powerups() {
 
 	//How many power-ups to create (the "i" created will match the enum through powerup_get_name)
-	var powerup_count = 25;
+	var powerup_count = 27;
 
 	//Loop through and get every asset
 	for (var i = 0; i < powerup_count; i++) {

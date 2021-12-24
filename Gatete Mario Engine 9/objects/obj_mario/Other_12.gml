@@ -670,7 +670,11 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
     }
 
     //If the player is using the raccoon or the tanooki powerup.
-    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_cape)) {
+    if (global.powerup == cs_raccoon) 
+	|| (global.powerup == cs_tanooki) 
+	|| (global.powerup == cs_cape)
+	|| (global.powerup == cs_fraccoon) 
+	|| (global.powerup == cs_iraccoon) {
 	
         //If ygrav is disabled.
         if (disablegrav > 0) {
@@ -697,12 +701,9 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
 						// Cap the boost
 						if (yspeed <= -boostflightspd)
 					
-							yspeed = -boostflightspd;
-					
-					}
-				
-				}
-			
+							yspeed = -boostflightspd;					
+					}				
+				}			
 			}
         
             if (state != playerstate.jump) {
@@ -909,12 +910,12 @@ if (state == playerstate.jump)
 && (enable_control == 1) {
 
     //If the player does have either the raccoon or the tanooki powerup
-    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki))
+    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon))
     && (jumping != 1)
     && (wallkick < 1)
     && (swimming == false)
-    && (input_check_pressed(input.action_0)) { 
-    // && (!collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,obj_quicksand,0,0)) {
+    && (input_check_pressed(input.action_0))
+    && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0)) {
     
         //If the player is running or the pwing is active
         if (run) 

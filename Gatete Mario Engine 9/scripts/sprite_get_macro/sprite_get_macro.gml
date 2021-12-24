@@ -27,6 +27,10 @@ function sprite_get_macro() {
 	    case (spr_helmet): return cs_football;
 		case (spr_rangerhat): return cs_ranger;
 		case (spr_superacorn): return cs_squirrel;
+		case (spr_fieryleaf): 
+		case (spr_fieryleaf_sp): return cs_fraccoon;
+		case (spr_chillleaf): 
+		case (spr_chillleaf_sp): return cs_iraccoon;
 		case (spr_goldenflower): return cs_gold;
 		case (spr_megashroom): return cs_mega;
 	    case (spr_egg): return cs_yoshi_g;

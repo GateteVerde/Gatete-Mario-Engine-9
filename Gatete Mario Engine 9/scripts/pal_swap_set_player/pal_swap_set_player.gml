@@ -34,6 +34,8 @@ function pal_swap_set_player() {
 			case (cs_carrot): pal = palette.carrot; break;			// Carrot palette
 			case (cs_superball): pal = palette.superball; break;	// Superball palette
 			case (cs_volt): pal = palette.volt; break;				// Volt palette
+			case (cs_fraccoon): pal = palette.fire; break;			// Fire Raccoon palette
+			case (cs_iraccoon): pal = palette.ice; break;			// Ice Raccoon palette
 			case (cs_gold): pal = palette.gold; break;				// Gold palette		
 		}
 		
@@ -41,11 +43,16 @@ function pal_swap_set_player() {
 	else {
 		
 		//Set invincibility palette sprite(?)
-		pal = isflashing;
-		if (instance_number(obj_megashroom_timer) == 0)
+		if (instance_number(obj_megashroom_timer) == 0) {
+			
+			pal = floor(isflashing);
 			spr = argument[1];
-		else
+		}
+		else {
+			
+			pal = isflashing;
 			spr = argument[2];
+		}
 	}
 	
 	//If no palette swap occurred, exit the script

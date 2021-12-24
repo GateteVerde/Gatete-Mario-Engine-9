@@ -3,6 +3,42 @@
 // Check powerup
 switch (global.powerup) {
 	
+	//Chill Raccoon
+    case (cs_iraccoon):
+    
+        // Play 'Spin' sound
+		audio_stop_sound(snd_spin);
+        audio_play_sound(snd_spin, 0, false);
+        
+        // Set the speed
+        image_speed = 0.3;
+        
+        // Set the sprite
+        sprite_index = spr_mario_raccoon_attack;
+		
+		// Throw snowballs
+		alarm[0] = 1;
+
+		break;
+		
+	//Fiery Raccoon
+    case (cs_fraccoon):
+    
+        // Play 'Spin' sound
+		audio_stop_sound(snd_spin);
+        audio_play_sound(snd_spin, 0, false);
+        
+        // Set the speed
+        image_speed = 0.3;
+        
+        // Set the sprite
+        sprite_index = spr_mario_raccoon_attack;
+		
+		// Throw fireballs
+		alarm[0] = 1;
+
+		break;
+	
 	//Ranger
 	case (cs_ranger):
 	

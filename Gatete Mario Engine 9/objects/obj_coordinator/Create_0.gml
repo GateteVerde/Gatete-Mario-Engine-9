@@ -87,8 +87,10 @@ init_shockwave();
 #macro cs_football 20
 #macro cs_ranger 21
 #macro cs_squirrel 22
-#macro cs_gold 23
-#macro cs_mega 24
+#macro cs_fraccoon 23
+#macro cs_iraccoon 24
+#macro cs_gold 25
+#macro cs_mega 26
 
 #endregion
 

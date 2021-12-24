@@ -26,6 +26,32 @@ else if (sprite_index == spr_feather) {
 	instance_destroy();
 }
 
+//If this item has a fiery leaf sprite, turn into a real fiery leaf
+else if (sprite_index == spr_fieryleaf) {
+
+	with (instance_create_depth(x, y, -1, obj_fieryleaf_sprout)) {
+	
+		noscore = true;
+		alarm[1] = 1;
+	}
+	
+	//Destroy
+	instance_destroy();
+}
+
+//If this item has a chill leaf sprite, turn into a real chill leaf
+else if (sprite_index == spr_chillleaf) {
+
+	with (instance_create_depth(x, y, -1, obj_chillleaf_sprout)) {
+	
+		noscore = true;
+		alarm[1] = 1;
+	}
+	
+	//Destroy
+	instance_destroy();
+}
+
 //Otherwise
 else {
 	

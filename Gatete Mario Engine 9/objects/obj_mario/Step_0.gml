@@ -13,7 +13,7 @@
 	
 				//Set up palette
 				isflashing += 0.2;
-				if (isflashing > 5)
+				if (isflashing > 6)
 					isflashing = 0;
 			}
 			else
@@ -22,21 +22,23 @@
 		
 		//Otherwise
 		else {
-		
-			//If the invincibility is about to end
-			if (obj_invincibility.alarm[0] > 120) {
+			
+			//If the starman is about to end
+			if (obj_invincibility.alarm[0] < 120) {
+
+				//Set up palette
+				isflashing += 0.05;
+				if (isflashing > 3.99)
+					isflashing = 0;
+			}
+			
+			//Otherwise
+			else {
 	
 				//Set up palette
-				isflashing += 0.1;
-				if (isflashing > 6)
-					isflashing = 1;
-			}
-			else {
-		
-				//Set up palette but at a lower pace
-				isflashing += 0.025;
-				if (isflashing > 6)
-					isflashing = 1;
+				isflashing += 0.25;
+				if (isflashing > 3.99)
+					isflashing = 0;
 			}
 		}
 	}
@@ -44,7 +46,7 @@
 		
 		//If Mario is frozen, apply freeze palette
 		if (freezetime > 0)
-			isflashing = 7;
+			isflashing = 4;
 		else
 			isflashing = 0;
 	}
@@ -54,7 +56,8 @@
 		
 		angle += -30*sign(other.xscale);
 		if (global.powerup == cs_tiny) 
-		|| (global.powerup == cs_mega) 
+		|| (global.powerup == cs_mega)
+		|| (instance_number(obj_statue) > 0)
 		|| (holding > 0) {
 		
 			somersault = 0;
@@ -129,7 +132,9 @@ if (global.pwing == 1) {
 
 	//If Mario does not have the raccoon or tanooki powerups
 	if (global.powerup != cs_raccoon)
-	&& (global.powerup != cs_tanooki) {
+	&& (global.powerup != cs_tanooki) 
+	&& (global.powerup != cs_fraccoon) 
+	&& (global.powerup != cs_iraccoon) {
 	
 		//Disable P-Wing
 		global.pwing = false;

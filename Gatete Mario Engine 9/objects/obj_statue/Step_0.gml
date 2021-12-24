@@ -20,6 +20,9 @@ if (instance_exists(owner)) {
         
         //Make the player invulnerable
         owner.invulnerable = true
+		
+		//Disable player controls
+		owner.enable_control = false;
     }
     else {
 		

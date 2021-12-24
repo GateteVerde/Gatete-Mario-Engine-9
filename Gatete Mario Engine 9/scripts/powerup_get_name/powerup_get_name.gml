@@ -28,6 +28,8 @@ function powerup_get_name() {
 		case (cs_football): return "football";
 		case (cs_ranger): return "ranger";
 		case (cs_squirrel): return "squirrel";
+		case (cs_fraccoon): return powerup_get_name(cs_raccoon);
+		case (cs_iraccoon): return powerup_get_name(cs_raccoon);
 		case (cs_gold): return powerup_get_name(cs_big);
 		case (cs_mega): return powerup_get_name(cs_big);
 	}

@@ -26,6 +26,8 @@ function macro_get_sprite() {
 	    case (cs_football): return spr_helmet;
 		case (cs_ranger): return spr_rangerhat;
 		case (cs_squirrel): return spr_superacorn;
+		case (cs_fraccoon): return spr_fieryleaf;
+		case (cs_iraccoon): return spr_chillleaf;
 		case (cs_gold): return spr_goldenflower;
 		case (cs_mega): return spr_megashroom;
 	    case (cs_yoshi_g): return spr_egg;

@@ -44,6 +44,26 @@ else if ((vspeed < 0) && (sprite_index == spr_superbell)) {
 	}
 }
 
+//Fiery Leaf
+else if (sprite_index == spr_fieryleaf) {
+
+    //Play 'Sprout' sound
+    audio_play_sound(snd_sprout, 0, false);
+
+    //Turn into a real leaf
+    instance_create_depth(x, ystart, 11, obj_fieryleaf_sprout);
+}
+
+//Chill Leaf
+else if (sprite_index == spr_chillleaf) {
+
+    //Play 'Sprout' sound
+    audio_play_sound(snd_sprout, 0, false);
+
+    //Turn into a real leaf
+    instance_create_depth(x, ystart, 11, obj_chillleaf_sprout);
+}
+
 //Beanstalk
 else if (sprite_index == spr_beanstalk) {
 

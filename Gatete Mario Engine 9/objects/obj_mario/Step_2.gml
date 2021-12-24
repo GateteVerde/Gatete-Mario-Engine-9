@@ -34,7 +34,10 @@ if (crouch == true) {
     sprite_index = global.duck_sprite[global.powerup];
 
     //If Mario has the leaf or tanooki powerups
-    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki)) {
+    if (global.powerup == cs_raccoon) 
+	|| (global.powerup == cs_tanooki)
+	|| (global.powerup == cs_fraccoon) 
+	|| (global.powerup == cs_iraccoon) {
     
         //Do not animate unless the script permits it.
         image_speed = 0;
@@ -491,7 +494,10 @@ else {
                                                 //...but set the appropiate frame
                                                 if (yspeed < 0) {
                                                 
-                                                    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki))
+                                                    if (global.powerup == cs_raccoon) 
+													|| (global.powerup == cs_tanooki)
+													|| (global.powerup == cs_fraccoon)
+													|| (global.powerup == cs_iraccoon)
                                                         image_index = 0+(wiggle/4);
                                                     else
                                                         image_index = 0;
@@ -712,7 +718,10 @@ else {
             }
             
             //Otherwise, if Mario does have either the raccoon or tanooki powerup.
-            else if (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) {
+            else if (global.powerup == cs_raccoon) 
+			|| (global.powerup == cs_tanooki) 
+			|| (global.powerup == cs_fraccoon) 
+			|| (global.powerup == cs_iraccoon) {
             
                 image_speed = 0;
                 image_index = 0+(wiggle/4);
@@ -774,7 +783,10 @@ else {
                 }
                 
                 //Otherwise, if Mario does have either the raccoon or tanooki powerup.
-                else if (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) {
+	            else if (global.powerup == cs_raccoon) 
+				|| (global.powerup == cs_tanooki) 
+				|| (global.powerup == cs_fraccoon) 
+				|| (global.powerup == cs_iraccoon) {
                 
                     image_speed = 0;
                     image_index = 0+(wiggle/4);
@@ -863,7 +875,10 @@ else {
             }
             
             //Otherwise, if Mario does have either the raccoon or tanooki powerup.
-            else if (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) {
+            else if (global.powerup == cs_raccoon) 
+			|| (global.powerup == cs_tanooki) 
+			|| (global.powerup == cs_fraccoon) 
+			|| (global.powerup == cs_iraccoon) {
             
                 image_speed = 0;
                 image_index = 0+(wiggle/4);

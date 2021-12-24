@@ -14,6 +14,20 @@ else if (sprite_index == spr_feather) {
 		alarm[1] = 1;
 }
 
+//If this item has a fiery leaf sprite, turn into a real fiery leaf
+else if (sprite_index == spr_fieryleaf) {
+
+	with (instance_create_layer(x, y, "Main", obj_fieryleaf_sprout))
+		alarm[1] = 1;
+}
+
+//If this item has a chill leaf sprite, turn into a real chill leaf
+else if (sprite_index == spr_chillleaf) {
+
+	with (instance_create_layer(x, y, "Main", obj_chillleaf_sprout))
+		alarm[1] = 1;
+}
+
 //Otherwise
 else {
 

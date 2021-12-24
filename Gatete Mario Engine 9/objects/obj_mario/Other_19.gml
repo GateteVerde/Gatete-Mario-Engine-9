@@ -160,7 +160,7 @@ throw_projectile = function() {
 	        }
         
 	        //Racoon, Tanooki, Cat, and Cape
-	        else if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_bell) || (global.powerup == cs_ranger) || ((global.powerup == cs_cape) && (!flying)))
+	        else if (((global.powerup == cs_cape) && (!flying)) || (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_bell) || (global.powerup == cs_ranger) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon))
 	        && (instance_number(obj_dropdown) == 0)
 	        && (spin == noone) {
         
@@ -299,7 +299,7 @@ throw_projectile_spin = function() {
 	if (jumpstyle == 1) {
 	
 		//Fireball
-		if (global.powerup == cs_fire) {
+		if ((global.powerup == cs_fire) || (global.powerup == cs_fraccoon)) {
 				
 			//Play 'Fireball' sound
 			audio_play_sound(snd_fireball, 0, false);
@@ -310,7 +310,7 @@ throw_projectile_spin = function() {
 		}
 	
 		//Iceball
-		else if ((global.powerup == cs_ice) || (global.powerup == cs_penguin) && (swimming == false)) {
+		else if ((global.powerup == cs_ice) || (global.powerup == cs_penguin) && (swimming == false) || (global.powerup == cs_iraccoon)) {
 	
 			//Play 'Iceball' sound
 			audio_play_sound(snd_iceball, 0, false);
