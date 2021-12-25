@@ -2,6 +2,7 @@
 
 //Score font
 font = font_add_sprite_ext(spr_score, "0123456789", 0, 0);
+font_big = font_add_sprite_ext(spr_score_big, "0123456789", 0, 0);
 
 //Depth
 depth = -6;

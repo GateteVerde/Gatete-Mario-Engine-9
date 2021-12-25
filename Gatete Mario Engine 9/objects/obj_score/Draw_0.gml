@@ -50,12 +50,40 @@ else {
 	
 	//Otherwise
 	else {
+		
+		//If the score is over 999
+		if (value > 999) {
+			
+			//Set the big font
+			draw_set_font(font_big);
+			
+			//Set vertical alignment
+			draw_set_valign(fa_bottom);
+			
+			//Scale it up
+			scale += 0.05;
+			if (scale > 1)
+				scale = 1;
+			
+			//Stay in view
+			if (y < camera_get_view_y(view_camera[0]) + 32)
+				draw_text_transformed(screen_round(x), screen_round(camera_get_view_y(view_camera[0]) + 32), string(value), scale, scale, 0);
+			else
+				draw_text_transformed(screen_round(x), screen_round(y), string(value), scale, scale, 0);
+				
+			//Reset vertical alignment
+			draw_set_valign(fa_top);
+		}
+		
+		//Otherwise
+		else {
 
-		//Stay in view
-		if (y < camera_get_view_y(view_camera[0]) + 32)
-			draw_text(screen_round(x), screen_round(camera_get_view_y(view_camera[0]) + 32), string(value));
-		else
-			draw_text(screen_round(x), screen_round(y), string(value));
+			//Stay in view
+			if (y < camera_get_view_y(view_camera[0]) + 32)
+				draw_text(screen_round(x), screen_round(camera_get_view_y(view_camera[0]) + 32), string(value));
+			else
+				draw_text(screen_round(x), screen_round(y), string(value));
+		}
 	}
 }
 

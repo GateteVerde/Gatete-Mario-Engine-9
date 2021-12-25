@@ -9,7 +9,7 @@ ready = 0;
 //Do not animate
 image_speed = 0;
 image_index = 0;
-alarm[2] = 9;
+alarm[2] = 12;
 
 //Set up depth
 depth = layer_get_depth("Main");

@@ -49,7 +49,7 @@ else if (scatter == true) {
 
 		with (instance_create_depth(x + 8, ystart - 16, -4, obj_coinnpc)) {
 	
-			xspeed = random_range(-2, 2);
+			xspeed = random_range(-1, 1);
 			yspeed = random_range(-2, -6);
 		}
 	}

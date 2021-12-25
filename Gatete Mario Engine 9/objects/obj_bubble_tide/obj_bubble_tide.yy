@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_water_foreground",
-    "path": "sprites/spr_water_foreground/spr_water_foreground.yy",
+    "name": "spr_bubble_tide",
+    "path": "sprites/spr_bubble_tide/spr_bubble_tide.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,19 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Water",
-    "path": "folders/Objects/Decoration/Liquids/Water.yy",
+    "name": "Eyecandy",
+    "path": "folders/Objects/Special/Do Not Use!/Eyecandy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_water_foreground",
+  "name": "obj_bubble_tide",
   "tags": [],
   "resourceType": "GMObject",
 }
