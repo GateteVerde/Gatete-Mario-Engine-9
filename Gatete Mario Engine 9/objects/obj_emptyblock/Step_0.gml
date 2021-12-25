@@ -1,7 +1,7 @@
 /// @description Destroy on contact with Mario if this one is big
 
 //Check for Mario
-var mario = collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bottom+4, obj_mario, 0, 0);
+var mario = collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bottom+6, obj_mario, 0, 0);
 
 //If Mario does exist
 if (mario) 
@@ -37,6 +37,19 @@ if (mario)
 	//Otherwise, if this is a big block
 	else if (sprite_index == spr_qblock_big_empty) {
 	
+		//Create shards
+		shard_create(spr_shard_big_empty, x + sprite_width / 2, y + sprite_height / 2, -2, 6, 45);
+		shard_create(spr_shard_big_empty, x + sprite_width / 2, y + sprite_height / 2, -2, 6, 60);
+		shard_create(spr_shard_big_empty, x + sprite_width / 2, y + sprite_height / 2, -2, 6, 120);
+		shard_create(spr_shard_big_empty, x + sprite_width / 2, y + sprite_height / 2, -2, 6, 135);
+		
+		//Slow down Mario
+		mario.xspeed /= 4;
+	}
+	
+	//Otherwise, if this is a coin roulette block
+	else if (sprite_index == spr_coinblock_large_empty) {
+
 		//Create shards
 		shard_create(spr_shard_big_empty, x + sprite_width / 2, y + sprite_height / 2, -2, 6, 45);
 		shard_create(spr_shard_big_empty, x + sprite_width / 2, y + sprite_height / 2, -2, 6, 60);

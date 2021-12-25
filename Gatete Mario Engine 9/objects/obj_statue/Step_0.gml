@@ -24,7 +24,7 @@ if (instance_exists(owner)) {
 		//Disable player controls
 		owner.enable_control = false;
     }
-    else {
+    else if (instance_number(obj_mario_transform) < 1) {
 		
         alarm[1] = 1;
 		exit;

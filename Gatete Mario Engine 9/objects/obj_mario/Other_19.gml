@@ -85,6 +85,7 @@ throw_projectile = function() {
 	    if (global.powerup == cs_tanooki)
 	    && ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
 	    && (global.mount == 0)
+		&& (instance_number(obj_statue) < 1)
 	    && (instance_number(obj_spinner) < 1) {
             
 	        //Play the transform sound
@@ -95,10 +96,8 @@ throw_projectile = function() {
         
 	        //Create a statue and get the ID from Mario
 	        spin = instance_create_depth(x, y, depth, obj_statue);
-			with (spin) {
-				
+			with (spin)				
 				owner = other.id;
-			}
 	    }
     
 	    //Cat
@@ -162,7 +161,8 @@ throw_projectile = function() {
 	        //Racoon, Tanooki, Cat, and Cape
 	        else if (((global.powerup == cs_cape) && (!flying)) || (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_bell) || (global.powerup == cs_ranger) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon))
 	        && (instance_number(obj_dropdown) == 0)
-	        && (spin == noone) {
+	        && (spin == noone) 
+			&& (jumpstyle == 0) {
         
 				//Create spinner
 				spin = instance_create_depth(x, y, depth, obj_spinner);
@@ -300,74 +300,99 @@ throw_projectile_spin = function() {
 	
 		//Fireball
 		if ((global.powerup == cs_fire) || (global.powerup == cs_fraccoon)) {
+			
+			//If there's less than 2 fireballs on screen
+			if (instance_number(obj_fireball) < 2) {
 				
-			//Play 'Fireball' sound
-			audio_play_sound(snd_fireball, 0, false);
+				//Play 'Fireball' sound
+				audio_play_sound(snd_fireball, 0, false);
 				
-			//Create Fireball
-		    with (instance_create_depth(x, y, -2, obj_fireball))
-		        xspeed = 3*sign(other.dir);
+				//Create Fireball
+			    with (instance_create_depth(x, y, -2, obj_fireball))
+			        xspeed = 3*sign(other.dir);
+			}
 		}
 	
 		//Iceball
 		else if ((global.powerup == cs_ice) || (global.powerup == cs_penguin) && (swimming == false) || (global.powerup == cs_iraccoon)) {
 	
-			//Play 'Iceball' sound
-			audio_play_sound(snd_iceball, 0, false);
+			//If there's less than 2 ice balls on screen
+			if (instance_number(obj_iceball) < 2) {
+			
+				//Play 'Iceball' sound
+				audio_play_sound(snd_iceball, 0, false);
 		
-			//Create Snowball
-			with (instance_create_depth(x, y, -2, obj_iceball))
-				xspeed = 1.2*sign(other.dir);
+				//Create Snowball
+				with (instance_create_depth(x, y, -2, obj_iceball))
+					xspeed = 1.2*sign(other.dir);
+			}
+			
 		}
 	
 		//Hammer
 		else if (global.powerup == cs_hammer) {
+			
+			//If there's less than 2 hammers on screen
+			if (instance_number(obj_hammer) < 2) {
 	
-			//Play 'Hammer' sound
-			audio_play_sound(snd_fireball, 0, false);
+				//Play 'Hammer' sound
+				audio_play_sound(snd_fireball, 0, false);
 		
-			//Create Snowball
-			with (instance_create_depth(x, y, -2, obj_hammer)) {
+				//Create Snowball
+				with (instance_create_depth(x, y, -2, obj_hammer)) {
 				
-				vspeed = -2.5;
-				hspeed = other.xspeed+(1.25*sign(other.dir));
+					vspeed = -2.5;
+					hspeed = other.xspeed+(1.25*sign(other.dir));
+				}
 			}
 		}
 		
 		//Superball
 		else if (global.powerup == cs_superball) {
+			
+			//If there's less than 2 super balls on screen
+			if (instance_number(obj_superball) < 2) {
 				
-			//Play 'Superball' sound
-			audio_play_sound(snd_fireball, 0, false);
+				//Play 'Superball' sound
+				audio_play_sound(snd_fireball, 0, false);
 				
-			//Create Superball
-		    with (instance_create_depth(x, y, -2, obj_superball)) {
+				//Create Superball
+			    with (instance_create_depth(x, y, -2, obj_superball)) {
 				
-		        xspeed = 3*sign(other.dir);
-				yspeed = 3;
+			        xspeed = 3*sign(other.dir);
+					yspeed = 3;
+				}
 			}
 		}
 		
 		//Bolt
 		else if (global.powerup == cs_volt) {
+			
+			//If there's less than 2 lightning bolt on screen
+			if (instance_number(obj_volt) < 2) {
 				
-			//Play 'Superball' sound
-			audio_play_sound(snd_fireball, 0, false);
+				//Play 'Superball' sound
+				audio_play_sound(snd_fireball, 0, false);
 				
-			//Create Superball
-		    with (instance_create_depth(x, y, -2, obj_volt))
-		        xspeed = 6*sign(other.dir);
+				//Create Superball
+			    with (instance_create_depth(x, y, -2, obj_volt))
+			        xspeed = 6*sign(other.dir);
+			}
 		}
 		
 		//Gold Fireball
 		else if (global.powerup == cs_gold) {
+			
+			//If there's less than 2 golden fireballs on screen
+			if (instance_number(obj_fireball_gold) < 2) {
 				
-			//Play 'Fireball' sound
-			audio_play_sound(snd_fireball_gold, 0, false);
+				//Play 'Fireball' sound
+				audio_play_sound(snd_fireball_gold, 0, false);
 				
-			//Create Gold Fireball
-		    with (instance_create_depth(x, y, -2, obj_fireball_gold))
-		        xspeed = 3*sign(other.dir);
+				//Create Gold Fireball
+			    with (instance_create_depth(x, y, -2, obj_fireball_gold))
+			        xspeed = 3*sign(other.dir);
+			}
 		}
 		
 		//Change the facing direction

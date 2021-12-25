@@ -40,7 +40,7 @@ else if ((vspeed < 0) && (sprite_index == spr_superbell)) {
 	with (instance_create_depth(x, ystart, 11, obj_superbell)) {
 		
 		depth = 10;
-		yspeed = -3;
+		yspeed = -4;
 	}
 }
 

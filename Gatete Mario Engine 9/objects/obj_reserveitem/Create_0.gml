@@ -12,7 +12,7 @@ sequence = 0;
 audio_play_sound(snd_release, 0, false)
 
 //Animate
-image_speed = 0.15;
+image_speed = 0;
 
 //Move down
 vspeed = 1;

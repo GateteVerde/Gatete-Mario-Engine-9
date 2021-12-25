@@ -1,1 +1,0 @@
-sprout = cs_starman;
