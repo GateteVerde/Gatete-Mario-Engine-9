@@ -17,7 +17,7 @@ xx = 0;
 depth = -7;
 
 //Alpha
-alpha = 0.7;
+alpha = 1;
 alphaval = alpha/100;
 
 //Manage tide movement

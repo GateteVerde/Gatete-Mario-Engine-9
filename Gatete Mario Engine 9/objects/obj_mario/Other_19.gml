@@ -26,6 +26,7 @@ change_alpha = function() {
 pmeter_end = function() {
 
 	//Allow Mario to fly again
+	flying_time = 0;
 	flying = 0;
 	
 	//Reset pmeter

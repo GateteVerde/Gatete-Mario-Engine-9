@@ -38,3 +38,6 @@ if (sprite_index > -1) {
 
 //Reset the palette
 pal_swap_reset();
+
+//Draw P-Meter
+draw_text(bbox_right + 4, bbox_top, string(pmeter));

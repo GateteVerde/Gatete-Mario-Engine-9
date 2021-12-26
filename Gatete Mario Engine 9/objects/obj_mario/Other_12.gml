@@ -572,7 +572,7 @@ if (state != playerstate.jump) {
     if (global.powerup == cs_shell)
     && (global.mount == 0)
     && (holding = 0)
-    && (pmeter >= 112) 
+    && (pmeter >= global.pmeter_limit) 
     && ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
     
         //Force sliding
@@ -669,7 +669,7 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
         }
     }
 
-    //If the player is using the raccoon or the tanooki powerup.
+    //If the player is using the cape, raccoon or tanooki related powerups.
     if (global.powerup == cs_raccoon) 
 	|| (global.powerup == cs_tanooki) 
 	|| (global.powerup == cs_cape)
@@ -679,12 +679,12 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
         //If ygrav is disabled.
         if (disablegrav > 0) {
 			
-			// Fly back down if you let go
-			if (!input_check(input.action_0) && global.powerup == cs_cape) {
-			
+			//Fly back down if you let go
+			if (global.powerup == cs_cape)
+			&& (!input_check(input.action_0))			
 				disablegrav = 0;
 			
-			} else if (global.powerup == cs_cape) {
+			else if (global.powerup == cs_cape) {
 			
 				// Flight boost
 				var boostflightspd = 6;
@@ -706,11 +706,10 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
 				}			
 			}
         
-            if (state != playerstate.jump) {
-            
-                //Enable ygrav
+			//If Mario is on the jumping state, disable grav
+            if (state != playerstate.jump)
                 disablegrav = 0;
-            }
+				
             else {
             
                 //Deny ygrav
@@ -718,8 +717,7 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
                 
                 //Enable ygrav
                 disablegrav--;
-            }
-			
+            }			
         }
 		
 		// If the conditions are met, start flying
@@ -925,11 +923,11 @@ if (state == playerstate.jump)
             audio_stop_sound(snd_spin);
             audio_play_sound(snd_spin, 0, false);
             
-            //Make the player able to fly for 4 seconds
+            //Make the player able to fly for a fixed amount of seconds
 			if (!flying) {
 				
 				flying = true;
-				flying_time = timer(pmeter_end, 60 * global.flighttime, 0);
+				flying_time = timer(pmeter_end, 60 * global.flighttime, false);
 			}
             
             //Whip tail.

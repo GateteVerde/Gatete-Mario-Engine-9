@@ -8,7 +8,7 @@ x = xstart;
 y = ystart;
 
 //Turn into a used block
-with (instance_create_depth(x, ystart, depth, obj_emptyblock)) sprite_index = spr_coinblock_large_empty;
+with (instance_create_depth(x, ystart, depth, obj_emptyblock)) sprite_index = spr_coinrouletteblock_empty;
 
 //Destroy
 instance_destroy();

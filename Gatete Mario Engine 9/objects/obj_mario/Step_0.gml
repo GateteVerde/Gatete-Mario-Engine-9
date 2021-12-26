@@ -138,20 +138,19 @@ if (global.pwing == 1) {
 	&& (global.powerup != cs_iraccoon) {
 	
 		//Disable P-Wing
-		global.pwing = false;
-		
-		//Reset P-Meter
-		pmeter = 0;
+		global.pwing = 0;
 
-		//End flight
-		flying = 0;
+		//Force end flight
+		if (flying == 1)			
+			flying = 0;
 	}
 	
 	//Keep P-Meter active
 	pmeter = global.pmeter_limit;
 	
 	//Loop P-Meter sound
-	if (!audio_is_playing(snd_pmeter) && global.pmeter_sound)
+	if (global.pmeter_sound == true)
+	&& (!audio_is_playing(snd_pmeter))
 		audio_play_sound(snd_pmeter, 0, true);
 	
 	//Keep flying time active
@@ -383,7 +382,8 @@ if (enable_gravity == 1) {
 	                        run = true;
 						
 							//Play 'P-Meter' sound
-							if (!audio_is_playing(snd_pmeter) && global.pmeter_sound)
+							if (global.pmeter_sound == true)
+							&& (!audio_is_playing(snd_pmeter))
 								audio_play_sound(snd_pmeter, 0, true);
 	                    }
                     
@@ -398,7 +398,7 @@ if (enable_gravity == 1) {
 	                    //If the player's horizontal speed is equal/greater than 2.6 and it's not wearing a kuribo shoe.
 	                    if (abs(xspeed) >= 2.6)
 						&& (wallkick == 0)
-	                    && (global.mount != 2) 
+	                    && (global.mount != 2)
 	                    || (global.pwing == 1) {
                     
 	                        //If the player is not jumping.
@@ -408,7 +408,8 @@ if (enable_gravity == 1) {
 	                            if (global.pwing == 1) {
                             
 	                                //Play 'P-Meter' sound
-	                                if (!audio_is_playing(snd_pmeter) && global.pmeter_sound) {
+									if (global.pmeter_sound == true)
+	                                && (!audio_is_playing(snd_pmeter)) {
                                 
 	                                    audio_play_sound(snd_pmeter, 0, true);
 	                                    if (pmeter < global.pmeter_limit)
@@ -429,7 +430,8 @@ if (enable_gravity == 1) {
 	                                    run = true;
 									
 										//Play 'P-Meter' sound
-										if (!audio_is_playing(snd_pmeter) && global.pmeter_sound)
+										if (global.pmeter_sound == true)
+										&& (!audio_is_playing(snd_pmeter))
 											audio_play_sound(snd_pmeter, 0, true);
 	                                }
                                 
@@ -454,14 +456,15 @@ if (enable_gravity == 1) {
 	                            audio_stop_sound(snd_pmeter);
                             
 	                            //Allow the player to fly again.
-	                            flying = false;
+	                            flying = 0;
                             
 	                            //Make the player walk
 	                            run = false;
                             
-	                            //Empty P-Meter.
-	                            if (pmeter > 0)        
-	                                pmeter --;
+	                            //Empty P-Meter
+	                            if (pmeter > 0)
+								&& (freeze == 0)
+	                                pmeter--;
 	                        }
                         
 	                        //If the player is not flying.
@@ -469,17 +472,13 @@ if (enable_gravity == 1) {
                         
 	                            //Stop 'P-Meter' sound
 	                            audio_stop_sound(snd_pmeter);
-							
-								//Destroy timer
-								timer_destroy(flying_time);
                                                 
 	                            //Make the player walk
 	                            run = false;
                             
-	                            //Empty P-Meter.
-	                            if (pmeter > 0)
-								&& (freeze == false)
-	                                pmeter --;
+	                            //Empty P-Meter
+	                            if ((pmeter > 0) && (freeze == false))
+	                                pmeter--;
 	                        }   
 	                    }
 	                }
@@ -491,18 +490,14 @@ if (enable_gravity == 1) {
                     //Stop 'P-Meter' sound
                     audio_stop_sound(snd_pmeter);
 					
-					//Destroy timer
-					timer_destroy(flying_time);
-					
 					//Stop flying
-					flying = false;
+					flying = 0;
                                                                     
                     //Stop running
 					run = false;
 					
 					//Decrement P-Meter
-					if (pmeter > 0)
-					&& (freeze == false)
+					if ((pmeter > 0) && (freeze == false))
 						pmeter--;					
 				}
             }
@@ -539,14 +534,13 @@ if (enable_gravity == 1) {
                     audio_stop_sound(snd_pmeter);
 					
 					//Stop flying
-					flying = false;
+					flying = 0;
                                                                     
                     //Stop running
 					run = false;
 					
 					//Decrement P-Meter
-					if (pmeter > 0)
-					&& (freeze == false)
+					if ((pmeter > 0) && (freeze == false))
 						pmeter--;
                 }
             }
@@ -565,14 +559,13 @@ if (enable_gravity == 1) {
                 audio_stop_sound(snd_pmeter);
 				
 				//Stop flying
-				flying = false;
+				flying = 0;
                                                                     
                 //Stop running
 				run = false;
 					
 				//Decrement P-Meter
-				if (pmeter > 0)
-				&& (freeze == false)
+				if ((pmeter > 0) && (freeze == false))
 					pmeter--;
             }
         }
@@ -594,11 +587,10 @@ if (enable_gravity == 1) {
 			run = false;
 					
 			//Stop flight
-			flying = false;
+			flying = 0;
 			
 			//Decrement P-Meter
-			if (pmeter > 0)
-			&& (freeze == false)
+			if ((pmeter > 0) && (freeze == false))
 				pmeter--;			
 		}
     }

@@ -12,6 +12,6 @@ if (mario)
 	if (sprite_index == spr_qblock_big) 
 	|| (sprite_index == spr_brick_big) 
 	|| (sprite_index == spr_flipblock_big) 
-	|| (sprite_index == spr_coinblock_large)
+	|| (sprite_index == spr_coinrouletteblock)
 		mario.xspeed /= 4
 }

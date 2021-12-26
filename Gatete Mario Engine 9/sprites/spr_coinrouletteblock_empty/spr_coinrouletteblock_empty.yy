@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","path":"sprites/spr_coinblock_large_empty/spr_coinblock_large_empty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","path":"sprites/spr_coinblock_large_empty/spr_coinblock_large_empty.yy",},"LayerId":{"name":"2bb87704-14f1-48d8-9451-9c2ab89d1760","path":"sprites/spr_coinblock_large_empty/spr_coinblock_large_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_coinblock_large_empty","path":"sprites/spr_coinblock_large_empty/spr_coinblock_large_empty.yy",},"resourceVersion":"1.0","name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},"LayerId":{"name":"2bb87704-14f1-48d8-9451-9c2ab89d1760","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_coinrouletteblock_empty","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},"resourceVersion":"1.0","name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_coinblock_large_empty","path":"sprites/spr_coinblock_large_empty/spr_coinblock_large_empty.yy",},
+    "spriteId": {"name":"spr_coinrouletteblock_empty","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6827d899-a6bb-4837-8ab5-cf0d9906efef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","path":"sprites/spr_coinblock_large_empty/spr_coinblock_large_empty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6827d899-a6bb-4837-8ab5-cf0d9906efef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_coinblock_large_empty","path":"sprites/spr_coinblock_large_empty/spr_coinblock_large_empty.yy",},
+    "parent": {"name":"spr_coinrouletteblock_empty","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_coinblock_large_empty",
+    "name": "spr_coinrouletteblock_empty",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_coinblock_large_empty",
+  "name": "spr_coinrouletteblock_empty",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_coinblock_large",
-    "path": "sprites/spr_coinblock_large/spr_coinblock_large.yy",
+    "name": "spr_fireflower",
+    "path": "sprites/spr_fireflower/spr_fireflower.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_blockparent",
-    "path": "objects/obj_blockparent/obj_blockparent.yy",
+    "name": "obj_powerupparent",
+    "path": "objects/obj_powerupparent/obj_powerupparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,18 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Blocks.yy",
+    "name": "Powerups",
+    "path": "folders/Objetos/Items/Collectibles/Powerups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_coinblock_large",
+  "name": "obj_fireflower",
   "tags": [],
   "resourceType": "GMObject",
 }

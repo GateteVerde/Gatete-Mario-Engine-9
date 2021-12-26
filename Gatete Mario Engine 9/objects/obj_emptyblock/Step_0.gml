@@ -48,7 +48,7 @@ if (mario)
 	}
 	
 	//Otherwise, if this is a coin roulette block
-	else if (sprite_index == spr_coinblock_large_empty) {
+	else if (sprite_index == spr_coinrouletteblock_empty) {
 
 		//Create shards
 		shard_create(spr_shard_big_empty, x + sprite_width / 2, y + sprite_height / 2, -2, 6, 45);

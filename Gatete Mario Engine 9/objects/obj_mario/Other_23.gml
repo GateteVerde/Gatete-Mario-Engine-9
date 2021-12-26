@@ -1,7 +1,7 @@
 /// @description Freeze Mario
 
 //Unfreeze
-freeze = false;
+freeze = true;
 
 //Remember animation
 save_ims = image_speed;

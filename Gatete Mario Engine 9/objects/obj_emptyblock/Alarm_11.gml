@@ -8,7 +8,7 @@ with (mysolid) {
 	image_yscale = other.sprite_height/16;
 	
 	//If this is a coin roulette block
-	if (other.sprite_index == spr_coinblock_large_empty) {
+	if (other.sprite_index == spr_coinrouletteblock_empty) {
 	
 		x -= 6;
 		y -= 12;
