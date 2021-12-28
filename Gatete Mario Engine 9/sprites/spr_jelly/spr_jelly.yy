@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Items",
-    "path": "folders/Sprites/Items.yy",
+    "name": "SM3DL-W",
+    "path": "folders/Sprites/Items/Platforms/SM3DL-W.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_jelly",

@@ -8,8 +8,6 @@
 		//Move towards the player
 		x = owner.x;
 		y = owner.y;	
-	} 
-	else
-		exit;
+	}
 	
 #endregion

@@ -22,24 +22,6 @@ change_alpha = function() {
 		image_alpha = 0.4;
 }
 
-//Ends P-Meter flight
-pmeter_end = function() {
-
-	//Allow Mario to fly again
-	flying_time = 0;
-	flying = 0;
-	
-	//Reset pmeter
-	pmeter = 0;
-	
-	//End run
-	run = false;
-	
-	//Stop 'P-Meter' sound
-	if (audio_is_playing(snd_pmeter))
-		audio_stop_sound(snd_pmeter);
-}
-
 //Allow turning
 allow_turn = function() {
 

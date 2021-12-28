@@ -139,6 +139,9 @@ if (global.pwing == 1) {
 	
 		//Disable P-Wing
 		global.pwing = 0;
+		
+		//End pmeter
+		alarm[11] = -1;
 
 		//Force end flight
 		if (flying == 1)			
@@ -147,14 +150,12 @@ if (global.pwing == 1) {
 	
 	//Keep P-Meter active
 	pmeter = global.pmeter_limit;
+	alarm[11] = 60 * global.flighttime;
 	
 	//Loop P-Meter sound
 	if (global.pmeter_sound == true)
 	&& (!audio_is_playing(snd_pmeter))
 		audio_play_sound(snd_pmeter, 0, true);
-	
-	//Keep flying time active
-	flying_time = timer(pmeter_end, 60 * global.flighttime, true);
 	
 	//If the player is on the ground, do not apply fix
 	if (state != playerstate.jump)
@@ -402,7 +403,7 @@ if (enable_gravity == 1) {
 	                    || (global.pwing == 1) {
                     
 	                        //If the player is not jumping.
-	                        if (state < 2) {
+	                        if (state < playerstate.jump) {
                         
 	                            //If the P-Wing is active
 	                            if (global.pwing == 1) {

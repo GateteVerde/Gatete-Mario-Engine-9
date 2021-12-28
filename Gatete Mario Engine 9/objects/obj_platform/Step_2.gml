@@ -1,5 +1,12 @@
 /// @description Platform logic
 
+//If this platform has been generated, destroy at sides
+if ((y < -32) || (y > room_height+32)) {
+	
+	instance_destroy();
+	exit;
+}
+
 //Inherit the parent event
 event_inherited();
 

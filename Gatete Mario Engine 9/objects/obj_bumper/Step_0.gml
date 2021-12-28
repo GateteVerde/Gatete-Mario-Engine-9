@@ -3,7 +3,7 @@
 //Check for a track
 var track = collision_rectangle(x+xorig, y+yorig-3, x+xorig, y+yorig+0.9, obj_trackparent, 1, 0);
 
-//If the player is on line
+//If the bumper is on a track
 if (state = "IN_LINE") {
 
     //Update steps

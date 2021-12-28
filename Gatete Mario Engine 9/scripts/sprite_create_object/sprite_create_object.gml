@@ -83,6 +83,9 @@ function sprite_create_object() {
 		//Starman
 		case (spr_starman): return instance_create_depth(argument[1], argument[2], argument[3], obj_starman);
 		
+		//P-Wing
+		case (spr_pwing): return instance_create_depth(argument[1], argument[2], argument[3], obj_pwing);
+		
 		//P-Switch
 		case (spr_pswitch): return instance_create_depth(argument[1], argument[2], argument[3], obj_pswitch);
 		

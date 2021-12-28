@@ -774,8 +774,7 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
 		
 			// Then stop flying if spin jumping, mounted, etc.
 			flying = false;
-			state = playerstate.jump;
-		
+			state = playerstate.jump;		
 		}		
     }
     
@@ -927,7 +926,7 @@ if (state == playerstate.jump)
 			if (!flying) {
 				
 				flying = true;
-				flying_time = timer(pmeter_end, 60 * global.flighttime, false);
+				alarm[11] = 60 * global.flighttime;
 			}
             
             //Whip tail.
@@ -937,7 +936,7 @@ if (state == playerstate.jump)
             disablegrav = 16;
             
             //Set the vertical speed.
-            if (timer_get(flying_time) > 30)  
+            if (alarm[11] > 30)  
                 yspeed = -1.5;
             else {
             

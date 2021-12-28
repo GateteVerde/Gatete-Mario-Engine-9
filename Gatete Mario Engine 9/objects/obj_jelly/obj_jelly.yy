@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "SM3DL-W",
+    "path": "folders/Objects/Items/Platforms/SM3DL-W.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_jelly",
