@@ -1,7 +1,7 @@
-/// @description Hurt the player or make it bounce if it is doing a spin jump
+/// @description Hurt Mario or make it bounce if is riding Yoshi or wearing a Kuribo shoe
 
 if (other.yspeed > 0)
-&& ((other.jumpstyle == 1) || (global.mount > 0))
+&& (global.mount > 0)
 && (other.bbox_bottom < yprevious+5) {
 
 	//Play 'Stomp' sound

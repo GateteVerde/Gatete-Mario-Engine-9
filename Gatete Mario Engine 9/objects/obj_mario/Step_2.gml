@@ -5,7 +5,7 @@ if (firing > 0)
 && (state == playerstate.walk)
     firing = 0;
 	
-// Ensure Mario has a cape
+//Ensure Mario has a cape
 if (global.powerup == cs_cape) {
 	
 	// Create cape
@@ -15,9 +15,9 @@ if (global.powerup == cs_cape) {
 		cape.image_xscale = xscale;
 		cape.owner = id;		
 	}
-	
-// If the cape power-up is not equipped
 } 
+
+//If the cape power-up is not equipped
 else if (cape != noone) {
 	
 	// Dispose of the object

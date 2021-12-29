@@ -28,6 +28,7 @@ if (instance_exists(obj_lightcontrol)) {
 	with (instance_create_layer(0, 0, "Main", obj_light_npc)) {
 		
 		parent = other.id;
-		radius = 32;
+		radius = 8;
+		new_radius = 8;
 	}
 }
