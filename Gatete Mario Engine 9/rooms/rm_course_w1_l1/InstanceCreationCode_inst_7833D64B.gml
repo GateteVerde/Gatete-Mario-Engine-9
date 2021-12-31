@@ -1,1 +1,0 @@
-distance = 80;

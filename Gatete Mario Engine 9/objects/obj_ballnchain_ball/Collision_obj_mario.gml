@@ -10,7 +10,7 @@ if (other.yspeed > 0)
 	//Prevent doing double stomps
     if (y < yprevious) {
                 
-        y = yprevious-1;
+        y = yprevious;
         if (other.yspeed > 0)
             other.y = other.yprevious;
     }
