@@ -13,7 +13,7 @@ ai_npc_wall(turn_toward);
 ai_npc_ceiling(turn_toward_ceiling);
 
 //Handle position when in-ground
-if (yspeed > 0) {
+if (yspeed >= 0) {
 
 	//Check for a conveyor
 	var conveyor = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_conveyorparent, 0, 0);

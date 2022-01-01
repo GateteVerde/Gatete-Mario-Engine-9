@@ -23,10 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  "eventList": [],
+  "properties": [
+    {"varType":0,"value":"0.5","rangeEnabled":true,"rangeMin":0.5,"rangeMax":1.5,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"belt_power","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",

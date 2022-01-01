@@ -7,7 +7,6 @@ event_inherited();
 state = "IDLE";
 
 //Speed
-spd = 1;
 st_spd = spd;
 
 //Origin
