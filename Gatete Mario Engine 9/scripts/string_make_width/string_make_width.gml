@@ -9,14 +9,14 @@ function string_make_width() {
 	
 	//String variables
 	str = argument[0] + " ";
-	length = string_count(" ",str)
+	length = string_count(" ", str)
 	ret = ""
 	
 	//Iterate through all text
 	for(var i = 0; i < length; i++) {
 		
 	    word = string_copy(str, 1, string_pos(" ", str) - 1);
-	    str = string_copy(str,string_pos(" ",str) + 1, string_length(str));
+	    str = string_copy(str, string_pos(" ",str) + 1, string_length(str));
 	    ret2 = ret + word + " ";
 		
 		//If the width of the text is greater than the value given on argument[1]

@@ -1,7 +1,5 @@
 /// @description Check if the message is too long
 
-
-
 //Temporary variables
 var i = 0;
 var new_line = 0;

@@ -1,4 +1,4 @@
 /// @description Mario Light
 
-//Light position
+//Radius
 radius = 32;
