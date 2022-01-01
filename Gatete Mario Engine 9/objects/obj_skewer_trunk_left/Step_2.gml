@@ -4,17 +4,7 @@
 var wall = collision_rectangle(bbox_left-1, bbox_top, bbox_left-1, bbox_bottom, obj_solid, 0, 0);
 
 //If the skewer is not on the wall.
-if (ready == 0) {
-
-    //When moving left
-    if ((hspeed < 0) && (gravity > 0)) {
-        
-        //Handle wall collision
-        if (wall)
-        && (wall.x < xstart)
-        && (bbox_left > wall.xprevious-5)
-            x = wall.bbox_right+1;
-    }
+if ((ready == 0) && (gravity > 0)) {
     
     //Check for wall objects
     if ((collision_rectangle(bbox_left-1, bbox_top, bbox_left-1, bbox_bottom, wall, 0, 0)) && (wall.x < xstart)) {
@@ -65,6 +55,12 @@ if (ready == 0) {
             alarm[3] = 60;
         }
     }
+	
+    //Handle wall collision
+    if (wall)
+    && (wall.x < xstart)
+    && (bbox_left > wall.xprevious-5)
+        x = wall.bbox_right+1;
 }
 
 //Otherwise, if the skewer touched the wall and it's moving backwards.

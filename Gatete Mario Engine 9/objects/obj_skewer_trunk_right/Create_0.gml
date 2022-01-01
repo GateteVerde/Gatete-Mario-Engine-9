@@ -9,5 +9,7 @@ ready = 0;
 //Go left a bit
 alarm[0] = 120;
 
-//Create masher
+//Create block masher
 masher = instance_create_layer(0, 0, "Main", obj_skewer_mask);
+with (masher)
+	parent = other.id;

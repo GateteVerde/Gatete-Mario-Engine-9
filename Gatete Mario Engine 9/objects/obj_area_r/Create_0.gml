@@ -1,14 +1,5 @@
 /// @description Red Area Block
 
-/*
-//	This object uses creation code
-//
-//	sprout = Use macro list
-*/
-
-//Default value
-sprout = cs_coin;
-
 //If the red switch has been pressed, turn into a real block
 if (global.palace_r == 1) {
 	

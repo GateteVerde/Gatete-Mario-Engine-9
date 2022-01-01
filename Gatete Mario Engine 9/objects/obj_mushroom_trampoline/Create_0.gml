@@ -1,4 +1,4 @@
-/// @description Mushroom Jelly
+/// @description Trampoline Mushroom Platform
 
 //Set depth
 depth = 200;

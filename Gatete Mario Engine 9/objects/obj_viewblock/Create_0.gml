@@ -3,7 +3,7 @@
 /*
 //	This object uses creation code
 //
-//	sprout = Use macro list
+//	sprout[0...99] = Use macro list
 */
 
 //Default value

@@ -11,5 +11,8 @@ alarm[0] = 120;
 
 //Create block masher
 masher = instance_create_layer(0, 0, "Main", obj_skewer_mask);
-with (masher)
+with (masher) {
+	
+	parent = other.id;
 	sprite_index = spr_mask_skewer_v;
+}

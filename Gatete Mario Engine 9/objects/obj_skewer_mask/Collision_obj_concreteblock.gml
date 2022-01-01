@@ -1,7 +1,10 @@
 /// @description Destroy only 4 blocks per round
 
-if (count < 4) {
+if (parent.gravity > 0) {
+	
+	if (count < 4) {
 
-	count++;
-	with (other) event_user(15);
+		count++;
+		with (other) event_user(15);
+	}
 }

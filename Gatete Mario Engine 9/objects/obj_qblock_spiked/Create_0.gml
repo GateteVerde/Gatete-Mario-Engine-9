@@ -1,16 +1,9 @@
 /// @description Spiked Question Mark Block
 
-/*
-//	This object uses creation code
-//
-//	sprout = Use macro list
-//	spin_delay = Spin delay
-//	turn_speed = Turning speed
-*/
-
-//Default value
-sprout = cs_coin;
+//How much time before it spins?
 spin_delay = 150;
+
+//At how many speed should the block spin?
 turn_speed = 10;
 
 //If the block is turning

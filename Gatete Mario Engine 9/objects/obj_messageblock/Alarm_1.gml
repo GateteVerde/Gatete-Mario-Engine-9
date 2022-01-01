@@ -14,7 +14,7 @@ y = ystart;
 with (instance_create_layer(0, 0, "GUI", obj_message)) {
 
 	varmsg = other.varmsg;
-	mute_sound = true;
+	mute_sound = other.mute_sound;
 }
 
 //Delay block bump

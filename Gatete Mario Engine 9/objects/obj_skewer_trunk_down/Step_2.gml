@@ -4,17 +4,7 @@
 var semisolid = collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0);
 
 //If the skewer is not on the ground.
-if (ready == 0) {
-
-    //When moving down
-    if (vspeed > 0) {
-    
-        //Handle semisolid collisions
-        if (semisolid)
-        && (semisolid.y > ystart)
-        && (bbox_bottom < semisolid.yprevious+5)
-            y = semisolid.bbox_top-16;
-    }
+if ((ready == 0) && (gravity > 0)) {
     
     //Check for floor objects
     if ((collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+1, semisolid, 0, 0)) && (semisolid.y > ystart)) {
@@ -65,6 +55,12 @@ if (ready == 0) {
             alarm[3] = 60;
         }
     }
+	
+	//Handle semisolid collisions
+    if (semisolid)
+    && (semisolid.y > ystart)
+    && (bbox_bottom < semisolid.yprevious+5)
+        y = semisolid.bbox_top-16;
 }
 
 //Otherwise, if the skewer touched the ground and it's ascending.

@@ -1,16 +1,5 @@
 /// @description Pendulum Ball 'n' Chain
 
-/*
-//  This item uses creation code.
-//
-//  distance    = Distance between platform and center
-//	spd			= Speed of the pendulum
-*/
-
-//Default values
-distance = 48;
-spd = 0.495;
-
 //Depth
 depth = 10;
 

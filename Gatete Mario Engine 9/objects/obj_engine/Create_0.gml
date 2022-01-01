@@ -1,20 +1,5 @@
 /// @description Engine
 
-/*
-//	This object uses creation code
-//
-//	gizmo	= Pick from below
-//			0: Rope (Set up height with the variable below)
-//			1: Pole (Set up height with the variable below)
-//			2 / -2: Sawblade (Use -2 for a downwards sawblade)
-//
-//	height	= Height of the rope (In pixels, only applies to the rope gizmo)
-*/			
-
-//Default value
-gizmo = 0;
-height = 64;
-
 //Animate
 image_speed = 0.15;
 

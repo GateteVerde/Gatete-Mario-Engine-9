@@ -10,7 +10,7 @@ if (gizmo == 0) {
 		with (part) {
 		
 			parent = other.id;
-			image_yscale = (other.height/16) / 2;
+			image_yscale = (other.height*16) / 2;
 		}
 	}
 			

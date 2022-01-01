@@ -1,14 +1,5 @@
 /// @description Stack Block
 
-/*
-//	This object uses creation code
-//
-//	h_max	= How high should this go?
-*/
-
-//Default value
-h_max = 48;
-
 //Inherit the parent event
 event_inherited();
 

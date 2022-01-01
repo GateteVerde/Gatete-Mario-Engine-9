@@ -1,12 +1,5 @@
 /// @description Solid Balance Platform
 
-/*
-//  This item uses creation code.
-//
-//  limit = 'Y' position where both platforms will fall.
-//  distance = Distance between both platforms
-*/
-
 //Makes the object fully solid
 issolid = true;
 
@@ -30,9 +23,3 @@ alarm[0] = 2;
 
 //Create the rope
 alarm[1] = 3;
-
-//Set the default limit of both platforms.
-limit = ystart-64;
-
-//Set the default distance between both platforms.
-distance = 128;

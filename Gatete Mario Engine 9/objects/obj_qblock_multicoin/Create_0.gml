@@ -17,11 +17,6 @@
 //Inherit event from parent
 event_inherited();
 
-//Default variable
-mushroom = false;
-scatter = false;
-coins = 10;
-
 //Timer
 coiny = 0;
 

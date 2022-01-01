@@ -1,25 +1,5 @@
 /// @description The level controller
 
-/*
-**  This item uses creation code!
-**
-**  inisection      = The section of the 'GME9Music.ini' file to load data from.
-**  leveltime       = The time limit in seconds (Optional)
-**  camlock         = To lock the camera in position
-**	classicscroll   = To implement the classic scroll on the level
-**  lava_palette	= To set up the palette for all lava objects (Optional, pick from below)
-**		0: Normal	
-**		1: Poison
-**		2: Chocolate
-*/
-
-//Default values
-inisection = "Overworld";
-leveltime = 0;
-camlock = 0;
-classicscroll = false;
-lava_palette = 0;
-
 //Play music
 alarm[0] = 2;
     

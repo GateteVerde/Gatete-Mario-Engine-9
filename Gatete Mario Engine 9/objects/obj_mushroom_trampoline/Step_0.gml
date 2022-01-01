@@ -1,4 +1,4 @@
-/// @description Mushroom Jelly logic
+/// @description Trampoline Mushroom Platform logic
 
 //If bouncing on
 if (ready == 1) {

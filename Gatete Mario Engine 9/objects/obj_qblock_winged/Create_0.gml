@@ -1,19 +1,5 @@
 /// @description Winged Question Mark Block
 
-/*
-//	This object uses creation code
-//
-//	sprout = Use macro list
-//
-//  backnforth = Whether if the block moves back and forth
-//      true = Enable
-//      false = Disable
-*/
-
-//Default value
-sprout = cs_coin;
-backnforth = true;
-
 //Makes the object fully solid
 issolid = true;
 

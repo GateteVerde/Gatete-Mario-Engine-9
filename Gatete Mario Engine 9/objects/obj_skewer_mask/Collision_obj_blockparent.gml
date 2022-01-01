@@ -1,3 +1,4 @@
 /// @description Destroy
 
-with (other) event_user(15);
+if (parent.gravity > 0)
+	with (other) event_user(15);

@@ -4,17 +4,7 @@
 var ceiling = collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_top+4, obj_solid, 0, 0);
         
 //If the skewer is not on the ceiling.
-if (ready == 0) {
-
-    //When moving up
-    if (vspeed < 0) {
-    
-        //Handle ceiling collisions
-        if (ceiling)
-        && (ceiling.y < ystart)
-        && (bbox_top+1 > ceiling.yprevious-5)
-            y = ceiling.bbox_bottom+1;
-    }
+if ((ready == 0) && (gravity > 0)) {
     
     //Check for ceiling
     if ((collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_top+4, ceiling, 0, 0)) && (ceiling.y < ystart)) {
@@ -65,6 +55,12 @@ if (ready == 0) {
             alarm[3] = 60;
         }
     }
+	
+	//Handle ceiling collisions
+    if (ceiling)
+    && (ceiling.y < ystart)
+    && (bbox_top+1 > ceiling.yprevious-5)
+        y = ceiling.bbox_bottom+1;
 }
 
 //Otherwise, if the skewer touched the ceiling and it's descending.

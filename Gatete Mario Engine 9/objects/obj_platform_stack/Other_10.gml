@@ -1,6 +1,6 @@
 /// @description Deploy blocks
 
-if (h < h_max) {
+if (h < (h_max * 16)) {
 
 	//If the block is not deployed,deploy it and begin emplace timer.
 	if (deploy == 0) {

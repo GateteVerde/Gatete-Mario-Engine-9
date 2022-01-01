@@ -1,14 +1,5 @@
 /// @description Blue Area Block
 
-/*
-//	This object uses creation code
-//
-//	sprout = Use macro list
-*/
-
-//Default value
-sprout = cs_coin;
-
 //If the blue switch has been pressed, turn into a real block
 if (global.palace_b == 1) {
 	

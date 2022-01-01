@@ -1,18 +1,5 @@
 /// @description Expandable Mushroom
 
-/*
-//	This object uses creation code
-//
-//	length		= How high should this go?
-//	extend      = Should the platform be extended at room start?
-//		0: No	
-//		1: Yes
-*/
-
-//Default value
-length = 3;
-extend = false;
-
 //Inherit event from parent
 event_inherited();
 

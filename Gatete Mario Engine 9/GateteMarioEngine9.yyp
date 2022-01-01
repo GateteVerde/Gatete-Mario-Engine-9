@@ -239,6 +239,7 @@
     {"id":{"name":"spr_mario_boomerang_walljump","path":"sprites/spr_mario_boomerang_walljump/spr_mario_boomerang_walljump.yy",},"order":17,},
     {"id":{"name":"spr_mario_raccoon_swim","path":"sprites/spr_mario_raccoon_swim/spr_mario_raccoon_swim.yy",},"order":6,},
     {"id":{"name":"wtimer","path":"scripts/wtimer/wtimer.yy",},"order":12,},
+    {"id":{"name":"Read Me","path":"notes/Read Me/Read Me.yy",},"order":15,},
     {"id":{"name":"spr_mario_ranger_swim","path":"sprites/spr_mario_ranger_swim/spr_mario_ranger_swim.yy",},"order":6,},
     {"id":{"name":"spr_mario_raccoon_carry_jump","path":"sprites/spr_mario_raccoon_carry_jump/spr_mario_raccoon_carry_jump.yy",},"order":8,},
     {"id":{"name":"obj_track_v","path":"objects/obj_track_v/obj_track_v.yy",},"order":3,},

@@ -11,7 +11,7 @@ if (mario)
 && (mario.state != playerstate.jump)
 && (mario.bbox_bottom < yprevious+5) {
 		    
-    //Set the platform state to "IN_LINE"
+    //Make the platform move and begin the timer
     if (ready == 0) {
 		
 		//Set up timer

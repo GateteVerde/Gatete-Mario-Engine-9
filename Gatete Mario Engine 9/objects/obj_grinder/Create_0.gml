@@ -7,7 +7,6 @@ angle = 0;
 state = "IDLE";
 
 //Speed
-spd = 1;
 st_spd = spd;
 
 //Origin

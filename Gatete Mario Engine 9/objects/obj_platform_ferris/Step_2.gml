@@ -17,6 +17,6 @@ if (active == true) {
 }
 
 //Set the position of the platform.
-angle += spd*(turn*-1);
+angle += spd*(clockwise*-1);
 if (angle > 360)
     angle -= 360;

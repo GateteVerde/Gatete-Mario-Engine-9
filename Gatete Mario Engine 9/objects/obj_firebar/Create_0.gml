@@ -1,20 +1,5 @@
 /// @description Firebar
 
-/*
-**  This item uses creation code!
-**
-**  clockwise   = Direction of the discs
-**      1: Right
-**      -1: Left
-**  length      = Length of the firebar (Not counting the middle one)
-**  myspeed     = Speed of the firebar
-*/
-
-//Default variables
-clockwise = 1;
-length = 6;
-myspeed = 1.5;
-
 //Distance
 dist = 8;
 

@@ -1,17 +1,5 @@
 /// @description Elevator Lift
 
-/*
-//	This object uses creation code
-//
-//	sideways = Pick from below
-//		0: No horizontal movement
-//		1: Right	
-//		-1: Left
-*/
-
-//Default value
-sideways = 0;
-
 //Inherit the parent event
 event_inherited();
 
