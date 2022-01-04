@@ -17,9 +17,10 @@ Random Talking Bush
 SuperSledgeBro
 Toni
 
-- Scripts -
+- Scripts / Shaders -
 DJ Coco
 HelloFangaming
+Hypernova
 Mors
 PixelatedPope
 Sammu
