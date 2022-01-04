@@ -16,18 +16,3 @@ if (instance_exists(obj_puller)) {
     //Destroy
     instance_destroy();
 }
-
-//If the grass does respawn
-if (respawn == true) {
-
-	//Set growing sprite
-	sprite_index = spr_grass_grow;
-	
-	//Do not animate
-	image_speed = 0;
-	image_index = 0;
-	
-	//Make invisible and make visible after 2 seconds
-	visible = false;
-	alarm[1] = 120;
-}

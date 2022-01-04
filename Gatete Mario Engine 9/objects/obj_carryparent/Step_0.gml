@@ -59,28 +59,12 @@ else {
 		y += yspeed;
 		yspeed += yadd;
 	}
-
-    //Set the gravity when not underwater
-    if (!swimming) {
-    
-        //Gravity
-        yadd = 0.2;
-        
-        //Cap vertical speed
-        if (yspeed > 4)
-            yspeed = 4;
-    }
-    
-    //Otherwise, set the gravity when underwater
-    else {
-    
-        //Gravity
-        yadd = 0.05;
-        
-        //Cap vertical speed
-        if (yspeed > 1)
-            yspeed = 1;
-    }
+	
+	//Gravity
+	yadd = (swimming) ? 0.03125 : 0.25;
+	
+	//Vertical speed capacity
+	yspeed = min(4 - (swimming * 2), yspeed);
 
     //Check for a water object
     var water = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 0, 0);
@@ -97,8 +81,8 @@ else {
         
         //Stop vertical movement
         yadd = 0;
-        if (xspeed > 0)
-            xspeed = 0;
+        if (yspeed > 0)
+            yspeed = 0;
     }
     
     //Otherwise, if the object is underwater and it's not underwater, end swimming.

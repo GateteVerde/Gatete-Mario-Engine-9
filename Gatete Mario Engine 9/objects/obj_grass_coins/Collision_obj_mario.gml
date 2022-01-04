@@ -13,5 +13,5 @@ if (can_carry()) {
     instance_create_depth(other.x, other.y, -5, obj_puller);
     
     //Finish pull
-    alarm[0] = 10;
+    alarm[0] = 40;
 }
