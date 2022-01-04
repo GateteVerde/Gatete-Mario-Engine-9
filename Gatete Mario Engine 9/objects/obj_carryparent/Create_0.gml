@@ -11,3 +11,10 @@ hitcombo = 0;
 
 //Following object
 follow = noone;
+
+//Bounces
+bounces = 2;
+bounces_max = 2;
+
+//Does this object collide with solids, semisolids or slopes?
+allow_collision = false;
