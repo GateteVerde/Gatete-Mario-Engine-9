@@ -28,7 +28,7 @@ if (held) {
                 yadd = 0.2;
                 
                 //Set the horizontal speed
-                xspeed = obj_mario.xspeed/2;
+                xspeed = obj_mario.xspeed/1.5;
             }
             
             //Otherwise, if it's not.
