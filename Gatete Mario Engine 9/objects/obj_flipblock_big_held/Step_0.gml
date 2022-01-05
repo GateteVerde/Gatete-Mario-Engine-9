@@ -5,4 +5,4 @@ event_inherited();
 
 //Animate when not held
 if (!held)
-	image_speed = 1;
+	angle -= 10 * sign(xspeed);

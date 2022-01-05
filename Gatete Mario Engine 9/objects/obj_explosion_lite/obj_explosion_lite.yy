@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_flipblock_big",
-    "path": "sprites/spr_flipblock_big/spr_flipblock_big.yy",
+    "name": "spr_explosion",
+    "path": "sprites/spr_explosion/spr_explosion.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_carryparent",
-    "path": "objects/obj_carryparent/obj_carryparent.yy",
+    "name": "obj_explosion",
+    "path": "objects/obj_explosion/obj_explosion.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,17 +25,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Special/Do Not Use!/Blocks.yy",
+    "name": "Do Not Use!",
+    "path": "folders/Objects/Special/Do Not Use!.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_flipblock_big_held",
+  "name": "obj_explosion_lite",
   "tags": [],
   "resourceType": "GMObject",
 }

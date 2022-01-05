@@ -1,10 +1,13 @@
-/// @description Explosion
+/// @description Small Explosion
 
 //Play 'Thud' sound
-audio_play_sound(snd_thud, 0, false);
+audio_play_sound(snd_lightning, 0, false);
 
 //Shake the screen
 shake_camera(6, ceil(audio_sound_length(snd_thud) * room_speed), true);
+
+//Create explosion sprite
+eff = instance_create_layer(x, y, "Main", obj_explosion_lite_eff);
 
 //Depth
 depth = 450;
@@ -20,11 +23,8 @@ hurtplayer = 1;
 //Destroy
 alarm[0] = 48;
 
-//Generate star effect
-alarm[1] = 1;
-
 //Disallow player hurt
-alarm[3] = 4;
+alarm[1] = 4;
 
 //Blink view
 blink = 0;
