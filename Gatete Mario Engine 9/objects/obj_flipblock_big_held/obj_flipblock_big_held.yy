@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_flipblock",
-    "path": "objects/obj_flipblock/obj_flipblock.yy",
+    "name": "obj_carryparent",
+    "path": "objects/obj_carryparent/obj_carryparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,15 +25,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Blocks",
-    "path": "folders/Objects/Blocks.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_flipblock_large",
+  "name": "obj_flipblock_big_held",
   "tags": [],
   "resourceType": "GMObject",
 }

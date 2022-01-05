@@ -6,10 +6,6 @@ aa = 0;
 //Horizontal scale
 xscale = 1;
 
-//Do not animate
-image_speed = 0;
-image_index = 0;
-
 //Whether the vegetable is pulled out
 ready = 0;
 

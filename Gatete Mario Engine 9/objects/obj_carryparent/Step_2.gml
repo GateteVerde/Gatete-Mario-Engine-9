@@ -65,6 +65,16 @@ if (held) {
             follow.myframe = image_index;            
         }            
     }
+	
+	//If Mario does have the tiny, mega or balloon powerup
+	if (global.powerup == cs_tiny)
+	|| (global.powerup == cs_mega) 
+	|| (instance_exists(obj_mario_balloon)) {
+	
+		held = false;
+		if (obj_mario.holding > 0)
+			obj_mario.holding = 0;
+	}
     
     //Release if the player dies
     if (!instance_exists(obj_mario))

@@ -9,7 +9,7 @@ if (instance_exists(obj_puller)) {
     //Create vegetable
     with (instance_create_depth(obj_mario.x-8, y, -4, obj_turnip_out)) {
     
-        sprite_index = spr_turnip_bomb;
+        sprite_index = other.sprite_index;
 		myveggie = obj_turnip_bomb;
 		aa = other.aa;
     }

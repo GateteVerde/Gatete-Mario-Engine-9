@@ -1,7 +1,7 @@
 /// @description Check up the sprite
 
 //If the vegetable is a big one
-if (sprite_index == spr_turnip_large) 
+if (sprite_index == spr_turnip_large)
 || (powerup) {
 
     drawpiece = 1;

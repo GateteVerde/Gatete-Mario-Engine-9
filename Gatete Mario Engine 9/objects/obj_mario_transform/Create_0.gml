@@ -28,6 +28,7 @@ with (obj_dropdown) instance_destroy();
 	
 //Hide player elements
 with (obj_cape) visible = false;
+with (obj_puller) visible = false;
 with (obj_wallrunner) visible = false;
 
 //Make Mario invisible
