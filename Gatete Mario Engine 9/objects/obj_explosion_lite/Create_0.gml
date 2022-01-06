@@ -7,7 +7,7 @@ audio_play_sound(snd_lightning, 0, false);
 shake_camera(6, ceil(audio_sound_length(snd_thud) * room_speed), true);
 
 //Create explosion sprite
-eff = instance_create_layer(x, y, "Main", obj_explosion_lite_eff);
+eff = instance_create_depth(x, y, -6, obj_explosion_lite_eff);
 
 //Depth
 depth = 450;

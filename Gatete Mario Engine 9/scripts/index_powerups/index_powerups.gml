@@ -11,7 +11,6 @@ function index_powerups() {
 		global.attack_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_attack");
 		global.balloon_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_balloon");	
 		global.carry_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_carry");
-		global.carry_jump_sprite[i] =	asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_carry_jump");
 		global.clear_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_clear");
 		global.climb_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_climb");
 		global.climb2_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_climb2");
@@ -19,11 +18,10 @@ function index_powerups() {
 		global.float_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_float");	
 		global.goal_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_goal");
 		global.hold_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_hold");
-		global.hold_jump_sprite[i] =	asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_jump");
 		global.hold2_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_hold2");
-		global.hold2_jump_sprite[i] =	asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_hold2_jump");
 		global.jump_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_jump");
 		global.kick_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_kick");
+		global.pull_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_pull");	
 		global.ride_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_ride");
 		global.run_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_run");
 		global.runjump_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_runjump");
@@ -39,6 +37,5 @@ function index_powerups() {
 		global.swim4_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_swim4");
 		global.walk_sprite[i] =			asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_walk");
 		global.walljump_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_walljump");
-		global.float_sprite[i] =		asset_get_index("spr_mario_" + string(powerup_get_name(i)) + "_float");	
 	}	
 }

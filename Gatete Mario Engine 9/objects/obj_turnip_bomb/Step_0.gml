@@ -22,6 +22,15 @@ else {
 //Manage semisolid position
 if (instance_exists(mytop)) {
 
-	mytop.x = x;
-	mytop.y = y+2;
+	//If not held
+	if (held == false) {
+		
+		mytop.x = x;
+		mytop.y = y+2;
+	}
+	else {
+	
+		mytop.x = -1000;
+		mytop.y = -1000;
+	}
 }

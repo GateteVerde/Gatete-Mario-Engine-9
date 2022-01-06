@@ -736,7 +736,8 @@ if (enable_gravity == 1) {
 	
 	//If moving upwards
 	if (yspeed < 0)
-	&& (collision_rectangle(bbox_left, bbox_top+yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0)) { 
+	&& (collision_rectangle(bbox_left, bbox_top+yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0)) 
+	&& (!collision_point(x, y + 8, obj_solid, 1, 0)) { 
 		
 		//Check for a block above
 		var block_u = collision_rectangle(bbox_left, bbox_top-2+yspeed/2, bbox_right, bbox_top, obj_blockparent, 0, 0);
@@ -796,8 +797,9 @@ if (enable_gravity == 1) {
 	}
 	
 	//Prevent the player from overlappin' the ceiling
-	if (state > 1)	
+	if (state > 1)
 		while (collision_rectangle(bbox_left+1, bbox_top+1, bbox_right-1, bbox_top+1, obj_solid, 1, 0))
+		&& (!collision_point(x, y + 8, obj_solid, 1, 0))
 			y++;
 	
 	//If the player is not climbing
@@ -934,7 +936,7 @@ if (enable_gravity == 1) {
 	
 	//If the player gets stuck in a wall
 	if (yspeed == 0)
-	&& (crouch == false)
+	&& (crouch == false) 
 	&& (mask_index == spr_mask_mario_big) {
 	
         //If the player gets stuck

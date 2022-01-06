@@ -38,11 +38,73 @@ if (held) {
                 yspeed = 0.1;
                 yadd = 0.2;
                 
-                //Set the horizontal speed
-                if (obj_mario.xscale == 1)
-                    xspeed = obj_mario.xspeed+2.5;
-                else
-                    xspeed = obj_mario.xspeed-2.5;
+                //If this is a bomb, pow block or mushroom block, snap to the side of Mario
+				if (sprite_index == spr_turnip_bomb)
+				|| (sprite_index == spr_turnip_bomb_th)
+				|| (sprite_index == spr_mushblock) {
+					
+					//If Mario's horizontal speed is not equal to 0 and it is not jumping
+					if (obj_mario.state != playerstate.idle) {
+						
+						if (obj_mario.xscale == 1)
+		                    xspeed = obj_mario.xspeed+2.5;
+		                else
+		                    xspeed = obj_mario.xspeed-2.5;
+					}
+					
+					//Otherwise
+					else {
+						
+						//If there's not a solid in position
+						if (!collision_rectangle(bbox_left - 8, bbox_top, bbox_right + 8, bbox_bottom, obj_solid, 0, 0)) {
+						
+							//Snap into the side of Mario
+							if (obj_mario.xscale == 1)
+								x = obj_mario.x+6;
+							else
+								x = obj_mario.x-22;
+						}
+						
+						//Otherwise
+						else {
+						
+							//If there's a solid in position
+							if (collision_rectangle(bbox_left - 8, bbox_top, bbox_right + 8, bbox_bottom, obj_solid, 0, 0))
+							&& (!collision_rectangle(bbox_left - 8, bbox_top-8, bbox_right + 8, bbox_bottom, obj_solid, 0, 0)) {
+							
+								//Snap into the side of Mario
+								if (obj_mario.xscale == 1)
+									x = obj_mario.x+6;
+								else
+									x = obj_mario.x-22;
+							}
+							else {
+							
+								//Snap where Mario is
+								x = obj_mario.x - 8;
+								
+								//Set the horizontal speed
+								if (obj_mario.xscale == 1)
+									xspeed = 1;
+								else
+									xspeed = -1;
+							}
+						}
+						
+						//If Mario is small, move 5 pixels upwards
+						if (global.powerup == 0)
+                            y -= 5
+					}
+				}
+				
+				//Otherwise
+				else {
+				
+	                if (obj_mario.xscale == 1)
+	                    xspeed = obj_mario.xspeed+2.5;
+	                else
+	                    xspeed = obj_mario.xspeed-2.5;
+				}
             }
             
             //Stop holding.

@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Subcon",
-    "path": "folders/Objects/Items/Subcon.yy",
+    "name": "Grass",
+    "path": "folders/Objects/Items/Subcon/Grass.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_grass",
