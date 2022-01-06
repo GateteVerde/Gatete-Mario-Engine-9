@@ -20,5 +20,8 @@ powerup = 0;
 drawpiece = 0;
 drawpiece2 = 0;
 
+//Partial
+partial = false;
+
 //Check up the sprite
 alarm[8] = 1;

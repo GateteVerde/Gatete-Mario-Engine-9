@@ -40,8 +40,7 @@ if (held) {
                 
                 //If this is a bomb, pow block or mushroom block, snap to the side of Mario
 				if (sprite_index == spr_turnip_bomb)
-				|| (sprite_index == spr_turnip_bomb_th)
-				|| (sprite_index == spr_mushblock) {
+				|| (sprite_index == spr_turnip_bomb_th) {
 					
 					//If Mario's horizontal speed is not equal to 0 and it is not jumping
 					if (obj_mario.state != playerstate.idle) {

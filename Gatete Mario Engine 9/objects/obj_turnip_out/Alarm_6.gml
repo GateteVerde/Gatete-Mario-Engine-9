@@ -1,7 +1,7 @@
 /// @description Move up, again...
 
 //If the vegetable sprite height is greater than 16, pull slower
-if ((sprite_width > 16) && (sprite_height > 16)) {
+if (((sprite_width > 16) && (sprite_height > 16)) || (sprite_index == spr_powblock_red_large_up)) {
 
     y -= 3;
     alarm[7] = 9;

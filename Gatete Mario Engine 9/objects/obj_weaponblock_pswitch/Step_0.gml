@@ -7,7 +7,7 @@ event_inherited();
 if (instance_exists(obj_mario)) {
 
 	//Check for a invincibility mask
-	var mario = collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bottom+4, obj_mario, 1, 0)
+	var mario = collision_rectangle(bbox_left-6, bbox_top-6, bbox_right+6, bbox_bottom+6, obj_mario, 1, 0)
 
 	//If there's a lightning bolt in position
 	if (mario)
