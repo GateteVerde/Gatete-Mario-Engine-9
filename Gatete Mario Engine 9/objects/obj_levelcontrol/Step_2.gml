@@ -171,11 +171,11 @@ else {
 				//Horizontal speed
 				#region CAMERA HOR. SPEED
 				
-					var check_xspd = obj_mario.xspeed;
+					var check_xspd = obj_mario.xspeed * 2;
 					if (instance_exists(obj_fly))
-						check_xspd = obj_fly.xspeed;
+						check_xspd = obj_fly.xspeed * 2;
 					else if (instance_exists(obj_dropdown))
-						check_xspd = obj_dropdown.xspeed;
+						check_xspd = obj_dropdown.xspeed * 2;
 				#endregion
 				
 	            //If the camera is to the right and the player is from a certain distance from the camera
@@ -221,7 +221,7 @@ else {
 				#endregion
 				
 				//Horizontal speed
-				var check_xspd = follow.xspeed;
+				var check_xspd = follow.xspeed * 2;
 				
 	            //If the camera is to the right and the player is from a certain distance from the camera
 	            if ((orientation == 1) && (follow.x > x-16)) {

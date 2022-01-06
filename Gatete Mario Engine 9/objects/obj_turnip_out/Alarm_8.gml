@@ -40,3 +40,10 @@ else {
 //If the vegetable is a mini vegetable
 if (sprite_index == spr_turnip_small)
     vspeed--;
+	
+//If the vegetable is a shell
+if (sprite_index == spr_turnip_shell) {
+	
+	image_speed = 0;
+	image_index = 0;
+}

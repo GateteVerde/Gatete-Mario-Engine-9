@@ -12,5 +12,5 @@ if ((drawpiece) && (ready < 2)) {
 else {
 
     if (drawpiece2 == 3)
-        draw_sprite_ext(sprite_index, -1, x, y, xscale, 1, 0, c_white, 1);
+		draw_sprite_ext(sprite_index, -1, screen_round(x), screen_round(y), xscale, 1, 0, c_white, 1);
 }
