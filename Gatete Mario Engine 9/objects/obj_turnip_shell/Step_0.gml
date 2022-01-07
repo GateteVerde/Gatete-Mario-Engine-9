@@ -1,5 +1,8 @@
 /// @description SMB2 Holdable Item logic
 
+//Previous horizontal speed
+prevxspeed = xspeed;
+
 //If the object is being held.
 if (held) {
 
@@ -44,9 +47,14 @@ if (held) {
             
             //Stop holding.
             held = false;
+			
+			//Delay player hurt
+			alarm[1] = 16;
         }
     }
 }
+
+//Otherwise, if the object is not longer being held
 else {
 	
 	//Handle psuedo movement
@@ -63,6 +71,20 @@ else {
 		//NPC Wall & Ceiling
 		ai_npc_wall(1);
 		ai_npc_ceiling(1);
+    
+		//If the direction changes...
+		if (sign(xspeed) != sign(prevxspeed)) {
+			
+			//If the shell is outside
+			if (outside_view() == false) {
+			
+				audio_play_sound(snd_bump, 0, false);
+			}
+			
+			//Create shell thump
+			with (instance_create_depth(x+(5*sign(prevxspeed)), y, -6, obj_shellthump)) 
+				bump = true;
+		}
 
 		//Handle position when in-ground
 		if (yspeed >= 0) {
@@ -102,17 +124,23 @@ else {
 		|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)) {
 	
 			//If moving down
-			if (yspeed > 0) {
+			if (yspeed >= 0) {
 			
 				//Stop vertical movement
 				yspeed = 0;
 				yadd = 0;
 			}
 		}
+		
+		//Otherwise, apply gravity
+		else
+			yadd = (swimming) ? 0.03125 : 0.25;
+			
 	}
 	
-	//Gravity
-	yadd = (swimming) ? 0.03125 : 0.25;
+	//Round position
+	if (yspeed == 0)
+		y = round(y);
 	
 	//Vertical speed capacity
 	yspeed = min(4 - (swimming * 2), yspeed);
@@ -143,19 +171,7 @@ else {
     }
 }
 
-//Manage semisolid position and animation
-if (instance_exists(mytop)) {
-
-	//If not held
-	if (held == false) {
-		
-		image_speed = 1;
-		mytop.x = x-8;
-		mytop.y = y+2;
-	}
-	else {
-	
-		mytop.x = -1000;
-		mytop.y = -1000;
-	}
-}
+//Manage animation
+if (!held) 
+&& (freeze == false)
+	image_speed = 1;

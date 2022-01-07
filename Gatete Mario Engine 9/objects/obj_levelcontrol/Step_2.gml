@@ -130,7 +130,7 @@ else {
 
 			            //Otherwise
 			            else
-			                y = obj_mario.y;
+			                y = follow.y;
 					}
 
 			        //Otherwise
@@ -164,92 +164,28 @@ else {
 
 			            //If Mario is below the camera, catch him instantly
 			            if (obj_mario.y > y)
-			                y = obj_mario.y;
+			                y = follow.y;
 			        }
 				}
 				
-				//Horizontal speed
-				#region CAMERA HOR. SPEED
-				
-					var check_xspd = obj_mario.xspeed * 2;
-					if (instance_exists(obj_fly))
-						check_xspd = obj_fly.xspeed * 2;
-					else if (instance_exists(obj_dropdown))
-						check_xspd = obj_dropdown.xspeed * 2;
-				#endregion
-				
-	            //If the camera is to the right and the player is from a certain distance from the camera
-	            if ((orientation == 1) && (obj_mario.x > x-16)) {
-                        
-	                //Scroll the camera at a certain speed until the camera catches up.
-	                if (obj_mario.x > x-12)
-	                    x += 2+check_xspd;
-	                else
-	                    x = obj_mario.x+16;
-	            }
-            
-	            //Otherwise, if the camera is to the left and the player is from a certain distance from the camera
-	            else if ((orientation == -1) && (obj_mario.x < x+16) && (classicscroll == 0)) {
-            
-	                //Scroll the camera at a certain speed until the camera catches up.
-	                if (obj_mario.x < x+12)
-	                    x -= 2-check_xspd;
-	                else
-	                    x = obj_mario.x-16;    
-	            }
-            
-	            //If the player is moving to the left and the camera is panning to the right, make the camera pan to the left
-	            if ((obj_mario.x-xprevious < 0) && (obj_mario.x < x-40) && (classicscroll == 0))
-	                orientation = -1;
-            
-	            //Otherwise, if the player is moving to the right and the camera is panning to the left, make the camera pan to the right.
-	            else if ((obj_mario.x-xprevious > 0) && (obj_mario.x > x+40))
-	                orientation = 1;
+				//If classic scroll is disabled
+				if (classicscroll == false)
+					x = obj_mario.x;
+					
+				//Otherwise
+				else if (obj_mario.x > x)
+					x = obj_mario.x;
 		    }
 		    else {
 				
-				//Handle camera position when Mario is not the main focus
-				#region CAMERA Y POSITION
+				//Camera X Position
+				x = follow.x;
 				
-					//If the camera is 6 pixels below Mario's y position, move 6 pixels upwards until the camera catches the player.
-				    if (y > follow.y+6)
-				        y -= 6;
-
-				    //Otherwise
-				    else
-				        y = follow.y;
-				#endregion
-				
-				//Horizontal speed
-				var check_xspd = follow.xspeed * 2;
-				
-	            //If the camera is to the right and the player is from a certain distance from the camera
-	            if ((orientation == 1) && (follow.x > x-16)) {
-                        
-	                //Scroll the camera at a certain speed until the camera catches up.
-	                if (follow.x > x-12)
-	                    x += 2+check_xspd;
-	                else
-	                    x = follow.x+16;
-	            }
-            
-	            //Otherwise, if the camera is to the left and the player is from a certain distance from the camera
-	            else if ((orientation == -1) && (follow.x < x+16) && (classicscroll == 0)) {
-            
-	                //Scroll the camera at a certain speed until the camera catches up.
-	                if (follow.x < x+12)
-	                    x -= 2-check_xspd;
-	                else
-	                    x = follow.x-16;    
-	            }
-            
-	            //If the player is moving to the left and the camera is panning to the right, make the camera pan to the left
-	            if ((follow.x-xprevious < 0) && (follow.x < x-40) && (classicscroll == 0))
-	                orientation = -1;
-            
-	            //Otherwise, if the player is moving to the right and the camera is panning to the left, make the camera pan to the right.
-	            else if ((follow.x-xprevious > 0) && (follow.x > x+40))
-	                orientation = 1;
+				//If the camera is 6 pixels below Mario's y position, move 6 pixels upwards until the camera catches the player.
+				if (y > follow.y+6)
+				    y -= 6;
+				else
+				    y = follow.y;
 			}
 		}
 	}

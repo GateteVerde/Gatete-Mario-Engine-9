@@ -16,3 +16,9 @@ if (can_carry())
 	//Finish pull
 	alarm[0] = 10;
 }
+
+//Otherwise, kill
+if (!held)
+&& (hurtplayer == 1)
+&& (other.bbox_bottom > bbox_top+2)
+	with (other) event_user(0);
