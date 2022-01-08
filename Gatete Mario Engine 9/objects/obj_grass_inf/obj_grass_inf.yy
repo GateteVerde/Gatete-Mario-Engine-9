@@ -1,18 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_vegshroom",
-    "path": "sprites/spr_vegshroom/spr_vegshroom.yy",
+    "name": "spr_grass",
+    "path": "sprites/spr_grass/spr_grass.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_square",
-    "path": "sprites/spr_square/spr_square.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
+    "name": "obj_pullparent",
+    "path": "objects/obj_pullparent/obj_pullparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,18 +24,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Subcon",
-    "path": "folders/Objects/Items/Subcon.yy",
+    "name": "Grass",
+    "path": "folders/Objects/Items/Subcon/Grass.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_vegshroom",
+  "name": "obj_grass_inf",
   "tags": [],
   "resourceType": "GMObject",
 }

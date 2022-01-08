@@ -5,7 +5,7 @@ if (!audio_is_playing(global.stream))
 && (pswitch_on == 0)
 && (gswitch_on == 0)
 && (musicdisable == false) {
-
+	
     //Open INI
     ini_open("GME9Music.ini");
     

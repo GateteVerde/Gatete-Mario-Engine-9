@@ -43,33 +43,21 @@ if (ready == 2) {
     //Otherwise, if the vegetable is a mushroom
     else if (myveggie == obj_mushroom) {
 		
-		//If this is not a pullable mushroom
-		if (sprite_index != spr_vegshroom) {
-		
-	        with (instance_create_depth(obj_mario.x, obj_mario.y, -2, obj_mushroom)) {
+	    with (instance_create_depth(obj_mario.x, obj_mario.y, -2, obj_mushroom)) {
 			
-				xspeed = 1 * sign(obj_mario.xscale);
-				yspeed = -4;
-			}
+			xspeed = 1 * sign(obj_mario.xscale);
+			yspeed = -4;
 		}
-		else
-			instance_create_depth(obj_mario.x, obj_mario.y, -2, obj_mushroom);
 	}
         
     //Otherwise, if the vegetable is a 1up mushroom
     else if (myveggie == obj_1up) {
 		
-		//If this is not a pullable mushroom
-		if (sprite_index != spr_vegshroom_1up) {
-		
-	        with (instance_create_depth(obj_mario.x, obj_mario.y, -2, obj_1up)) {
+	    with (instance_create_depth(obj_mario.x, obj_mario.y, -2, obj_1up)) {
 			
-				xspeed = 1 * sign(obj_mario.xscale);
-				yspeed = -4;
-			}
+			xspeed = 1 * sign(obj_mario.xscale);
+			yspeed = -4;
 		}
-		else
-			instance_create_depth(obj_mario.x, obj_mario.y, -2, obj_1up);
 	}
 	
     //Otherwise, if the vegetable is a poison mushroom
@@ -81,14 +69,6 @@ if (ready == 2) {
 			yspeed = -4;
 		}
 	}
-	
-    //Otherwise, if the vegetable is a pullable mushroom
-    else if (myveggie == obj_vegshroom)
-		instance_create_layer(obj_mario.x, obj_mario.y, "Main", obj_mushroom);
-        
-    //Otherwise, if the vegetable is a pullable 1up mushroom
-    else if (myveggie == obj_1up)
-		instance_create_layer(obj_mario.x, obj_mario.y, "Main", obj_1up);
         
     /*Otherwise, if the vegetable is a crystal ball
     else if (myveggie == obj_crystal_up) {

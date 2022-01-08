@@ -61,7 +61,8 @@ depth = -1000;
 	#region PAUSE / RESUME
 
 		//Pause sounds when 'Hurry' is playing
-		if (audio_is_playing(snd_hurry)) {
+		if (audio_is_playing(snd_hurry)) 
+		|| (audio_is_playing(snd_mushroom)) {
 		
 		    //Pause 'levelmusic'
 		    if (audio_is_playing(global.stream)) 
