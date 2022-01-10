@@ -29,16 +29,12 @@ if (ready == 2) {
     if (myveggie == obj_turnip_bomb) 
         with (instance_create_depth(obj_mario.x, obj_mario.y-5, -4, obj_turnip_bomb)) aa = other.aa;
         
-    /*Otherwise, if the vegetable is a basket sphere
-    else if (myveggie == obj_basket_up) {
-    
-        //Create a held basket sphere
-        with (instance_create_depth(obj_mario.x, obj_mario.y-5, -4, obj_basket_up)) {
-        
-            image_speed = other.image_speed;
+    //Otherwise, if the vegetable is a gachapon_ball
+    else if (myveggie == obj_gachapon_up) {
+		
+        with (instance_create_depth(obj_mario.x, obj_mario.y-5, -4, obj_gachapon_up))
             image_index = other.image_index;
-        }
-    }*/
+    }
     
     //Otherwise, if the vegetable is a mushroom
     else if (myveggie == obj_mushroom) {

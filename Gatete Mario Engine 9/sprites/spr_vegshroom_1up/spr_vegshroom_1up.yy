@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Subcon",
-    "path": "folders/Sprites/Items/Subcon.yy",
+    "name": "Collectibles",
+    "path": "folders/Sprites/Items/Subcon/Collectibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_vegshroom_1up",

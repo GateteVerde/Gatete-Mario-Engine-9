@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Subcon",
-    "path": "folders/Objects/Special/Do Not Use!/Items/Subcon.yy",
+    "name": "Collectibles",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Subcon/Collectibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_vegshroom_up",
