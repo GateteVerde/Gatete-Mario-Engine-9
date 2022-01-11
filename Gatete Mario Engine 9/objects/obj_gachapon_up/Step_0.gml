@@ -97,7 +97,7 @@ if (held) {
 			
             //Stop animation
             image_speed = 0;
-            image_index = round(image_index);
+            image_index = floor(image_index);
         }
     }
 }

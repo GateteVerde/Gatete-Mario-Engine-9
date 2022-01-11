@@ -33,3 +33,6 @@ with (water) {
     image_xscale = room_width / 16;
     image_yscale = room_height / 16;
 }
+
+//Create ripple effect
+instance_create_layer(x, y+4, "Main", obj_water_foreground_effect);
