@@ -15,11 +15,11 @@ if (readytogo == 1)
             
             //If the item came from a big block
             if (other.big > 0)
-                yspeed = -3;
+                yspeed = (place_meeting(x, y, obj_swim)) ? -1.5 : -3;
             
             //If the item is a holdable item or the item came out from a big block
             else if (other.bouncy == 1)
-                yspeed = -2.5;
+                yspeed = (place_meeting(x, y, obj_swim)) ? -1.25 : -2.5;
         }
             
         //Otherwise, stop it

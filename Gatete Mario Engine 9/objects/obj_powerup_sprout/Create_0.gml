@@ -1,5 +1,9 @@
 /// @description An item that came out from a block
 
+//Do not animate
+image_speed = 0;
+image_index = 0;
+
 //Allows exit from the block
 readytogo = 0;
 

@@ -16,8 +16,8 @@ switch (image_index) {
 			
 			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coinnpc)) {
 			
-				xspeed = random_range(-1, 1)
-				yspeed = random_range(-2, -6);
+				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, 1) : random_range(-2, 2);
+				yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
 			}
 		}
 	} break;
@@ -30,8 +30,8 @@ switch (image_index) {
 		with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
 			ready = 1;
-			xspeed = random_range(-1, 1)
-			yspeed = random_range(-2, -6);
+			xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, 1) : random_range(-2, 2);
+			yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
 		}
 	} break;
 	
@@ -46,8 +46,8 @@ switch (image_index) {
 			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
 				ready = 1;
-				xspeed = random_range(-1, 1)
-				yspeed = random_range(-2, -6);
+				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, 1) : random_range(-2, 2);
+				yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
 			}
 		}
 	} break;
@@ -61,8 +61,8 @@ switch (image_index) {
 			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
 				ready = 1;
-				xspeed = random_range(-1, 1)
-				yspeed = random_range(-2, -6);
+				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, 1) : random_range(-2, 2);
+				yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
 			}
 		}
 	} break;

@@ -1,16 +1,6 @@
 /// @description Foreground water
 
-/*
-//	This object uses creation code
-//
-//	push = Pick from below
-//		0: Do not push Mario
-//		1: Push Mario to the right
-//	   -1: Push Mario to the left
-*/
-
-//Default variables
-push = 0;
+//Water position
 xx = 0;
 
 //Set depth
@@ -33,6 +23,3 @@ with (water) {
     image_xscale = room_width / 16;
     image_yscale = room_height / 16;
 }
-
-//Create ripple effect
-instance_create_layer(x, y+4, "Main", obj_water_foreground_effect);

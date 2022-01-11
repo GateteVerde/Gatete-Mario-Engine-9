@@ -102,7 +102,7 @@ else {
 		|| (sprite_index == spr_powblock) {
         
             //Set vertical speed
-            vspeed = -2.5;
+            vspeed = (place_meeting(x, y, obj_swim)) ? -1.25 : -2.5;
             
             //Deny solid check
             readytogo = 1;

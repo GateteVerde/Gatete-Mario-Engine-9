@@ -24,7 +24,7 @@ if (held) {
             if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
 
                 //Set the vertical speed
-                yspeed = -6;
+                yspeed = (place_meeting(x, y, obj_swim)) ? -3 : -6;
                 yadd = 0.2;
                 
                 //Set the horizontal speed
