@@ -6,6 +6,7 @@ if (instance_exists(obj_mario)) {
     //Make sure to deny gravity
     with (obj_mario) {
     
+		invulnerable = 1;
         yspeed = 0;
         yadd = 0;
     }

@@ -940,7 +940,8 @@ if (enable_gravity == 1) {
 	&& (mask_index == spr_mask_mario_big) {
 	
         //If the player gets stuck
-        if (collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_top+4, obj_solid, 1, 0)) 
+        if (collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_top+4, obj_solid, 1, 0))
+		&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_mblock, 1, 0))
         && (inwall == 0) {
         
             //If the direction was not set
@@ -999,7 +1000,7 @@ if (enable_gravity == 1) {
     else {
     
         //If the player is below the bottom room boundary and didn't activate a warp, restart the room.
-        if (bbox_bottom > room_height+32) {
+        if (bbox_top > room_height+32) {
                     
             if (pitwarp == false) {
             

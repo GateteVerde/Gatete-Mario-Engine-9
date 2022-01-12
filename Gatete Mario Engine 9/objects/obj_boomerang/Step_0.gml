@@ -79,15 +79,14 @@ if (ready3) {
             exit;
         }
         
-        /*Otherwise, if the boomerang can be picked up
-        else if (player.holding == 0) {
+        //Otherwise, if the boomerang can be picked up
+        else if (mario.holding == 0) {
         
             //Create a new held boomerang
-            instance_create(x+8,y,obj_boomerang_blue_up);
+            instance_create_depth(x, y, depth - 2, obj_boomerang_blue_held);
             
             //Destroy
             instance_destroy();
         }
-		*/
     }
 }
