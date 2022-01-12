@@ -7,11 +7,11 @@ if (instance_exists(obj_puller)) {
     audio_play_sound(snd_pickup, 0, false);
     
     //Create vegetable
-    with (instance_create_depth(obj_mario.x-8, y+8, -4, obj_turnip_out)) {
+    with (instance_create_depth(obj_mario.x-8, y, -4, obj_turnip_out)) {
     
-        sprite_index = spr_turnip;
-		image_index = choose(0, 1, 2, 3, 4, 5);
-		myveggie = obj_turnip;
+        sprite_index = other.sprite_index
+		image_index = 1;
+        myveggie = obj_pullkey_up;
     }
     
     //Destroy

@@ -1,4 +1,4 @@
-/// @description Lifted Mushroom Block logic
+/// @description Held key logic
 
 //If the object is being held.
 if (held) {
@@ -185,17 +185,8 @@ else {
 						//Reset gravity
 						yadd = 0;
 					
-				        //Create a new mushroom block
-				        with (instance_create_layer(x, y, "Main", obj_mblock)) {
-        
-				            //Snap horizontally
-				            x = round(x/16) * 16;
-            
-				            //Snap vertically
-				            y = ceil(y/8) * 8;
-				            while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
-				                y--;
-				        }
+				        //Create a new pullable key
+				        instance_create_layer(x, y, "Main", obj_pullkey);
 					
 						//Destroy
 						instance_destroy();

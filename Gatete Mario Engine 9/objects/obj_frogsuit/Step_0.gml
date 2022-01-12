@@ -19,9 +19,9 @@ if (yadd == 0) {
 		//Set the horizontal speed
 		if (!instance_exists(obj_mario))
 		|| (obj_mario.x < x)
-			xspeed = -1;
+			xspeed = (swimming) ? -0.5 : -1;
 		else
-			xspeed = 1;
+			xspeed = (swimming) ? 0.5 : 1;
 	}
 	
 	//Otherwise

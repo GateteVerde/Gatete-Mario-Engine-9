@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_turnip",
-    "path": "sprites/spr_turnip/spr_turnip.yy",
+    "name": "spr_heart_alt",
+    "path": "sprites/spr_heart_alt/spr_heart_alt.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_carryparent",
-    "path": "objects/obj_carryparent/obj_carryparent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,15 +22,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Vegetables",
-    "path": "folders/Objects/Special/Do Not Use!/Items/Subcon/Vegetables.yy",
+    "name": "Collectibles",
+    "path": "folders/Objects/Items/Subcon/Collectibles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_turnip",
+  "name": "obj_heart_alt",
   "tags": [],
   "resourceType": "GMObject",
 }

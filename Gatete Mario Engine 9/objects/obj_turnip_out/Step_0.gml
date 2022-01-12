@@ -146,6 +146,7 @@ if (ready == 2) {
 			with (instance_create_depth(obj_mario.x, obj_mario.y+11, -4, myveggie)) {
 			
 				sprite_index = other.sprite_index;
+				image_index = other.image_index;
 				held = 1;
 			}
 		}

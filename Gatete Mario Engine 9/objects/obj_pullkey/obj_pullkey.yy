@@ -1,15 +1,18 @@
 {
   "spriteId": {
-    "name": "spr_turnip",
-    "path": "sprites/spr_turnip/spr_turnip.yy",
+    "name": "spr_pullkey",
+    "path": "sprites/spr_pullkey/spr_pullkey.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_square_b",
+    "path": "sprites/spr_square_b/spr_square_b.yy",
+  },
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_carryparent",
-    "path": "objects/obj_carryparent/obj_carryparent.yy",
+    "name": "obj_semisolid",
+    "path": "objects/obj_semisolid/obj_semisolid.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +27,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Vegetables",
-    "path": "folders/Objects/Special/Do Not Use!/Items/Subcon/Vegetables.yy",
+    "name": "Subcon",
+    "path": "folders/Objects/Items/Subcon.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_turnip",
+  "name": "obj_pullkey",
   "tags": [],
   "resourceType": "GMObject",
 }

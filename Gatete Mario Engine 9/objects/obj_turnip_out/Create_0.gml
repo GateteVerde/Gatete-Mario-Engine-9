@@ -1,5 +1,8 @@
 /// @description A vegetable that is being turned out
 
+//Do not animate
+image_speed = 0;
+
 //Timer for bombs
 aa = 0;
 

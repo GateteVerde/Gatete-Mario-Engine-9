@@ -10,6 +10,7 @@ if (instance_exists(obj_puller)) {
     with (instance_create_depth(obj_mario.x-8, y+8, -4, obj_turnip_out)) {
     
         sprite_index = spr_turnip;
+		image_index = obj_levelcontrol.turnip_type;
 		myveggie = obj_turnip;
     }
     

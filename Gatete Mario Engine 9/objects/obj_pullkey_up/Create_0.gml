@@ -1,10 +1,11 @@
-/// @description Lifted Mushroom Block
+/// @description Held Key
 
 //Inherit the parent event
 event_inherited();
 
-//Timer
-aa = 0;
+//Set frame
+image_speed = 0;
+image_index = 1;
 
 //Bugfix
 bugfix = 0;
