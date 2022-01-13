@@ -21,7 +21,18 @@ if (invulnerable == 0) {
 		//Otherwise, if Mario is riding Yoshi
 		else if (global.mount == 1) {
 	
-		
+			with (obj_yoshi) {
+                
+                //Create a scared yoshi
+                with (instance_create_depth(x, y, -2, obj_yoshi_runaway)) {
+					
+					colour = other.colour;
+					xspeed = 2 * obj_mario.xscale;
+				}
+                    
+                //Destroy
+                instance_destroy();
+            }
 		}
 	}
 

@@ -207,12 +207,11 @@ if (enable_control == true) && (inwall == 0) { //If the player controls are not 
                 
                 /*If a kuribo shoe is being ridden, dismount from it.
                 if (global.mount == 2)
-                    with (obj_kuriboshoe) event_user(0);
+                    with (obj_kuriboshoe) event_user(0); */
                 
                 //Otherwise, if a Yoshi is being ridden, dismount from it.
-                else if (global.mount == 1)
+                if (global.mount == 1)
                     with (obj_yoshi) event_user(1);
-				*/
             }
             
             //Swim lower if the 'Down' key is pressed.

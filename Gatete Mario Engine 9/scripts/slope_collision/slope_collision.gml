@@ -14,6 +14,7 @@ function slope_collision()
 				if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+5, obj_slopeparent, 1, 0))
 				&& (!collision_rectangle(x-1, bbox_bottom-5, x+1, bbox_bottom-5, obj_slopeparent, 1, 0))
 				&& (yadd == 0)
+				&& (xspeed != 0)
 					y += 4;
 
 				//Handle slope collisions

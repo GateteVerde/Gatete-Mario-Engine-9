@@ -34,10 +34,21 @@ if (global.mount == 0) {
 	}
 }
     
-/*If the player is riding a yoshi, make yoshi visible.
-if (global.mount == 1)
+//If the player is riding a yoshi, make yoshi visible.
+if (global.mount == 1) {
+	
+	//Make Yoshi visible
     obj_yoshi.visible = true;
-    
+	
+	//Un-freeze
+	with (obj_mario) {
+				
+		event_user(14);
+		enable_control = true;
+	}	
+}
+
+/*
 //Otherwise, if the player is riding a kuribo shoe, make the kuribo shoe visible.
 else if (global.mount == 2)
     obj_kuriboshoe.visible = true; */

@@ -7,6 +7,11 @@ if (can_hold())
 
 	//Create a throwable brick
 	with (instance_create_layer(obj_mario.x, obj_mario.y, "Main", obj_brick_blue_th)) {
+		
+		//Set the sprite
+		sprite_index = other.held_sprite;
+		shard_sprite = other.shard_sprite;
+		
 	
 		//Force Mario to grab it
 		obj_mario.holding = 2;

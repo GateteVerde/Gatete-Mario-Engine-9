@@ -48,5 +48,16 @@ if (instance_exists(obj_mario)) {
 	y = round(obj_mario.y);
 }
 
+//Make Yoshi invisible
+if (instance_exists(obj_yoshi)) {
+
+    //Hereby both sprite and colour from a existing yoshi
+    yoshisprite = obj_yoshi.sprite_index;
+    yoshicolour = obj_yoshi.colour;
+    
+    //Make Yoshi invisible
+    with (obj_yoshi) visible = 0;
+}
+
 //Begin animation and screen freeze
 alarm[0] = 2;

@@ -33,7 +33,7 @@ if (!held) {
 				
 				//Blow up if this is a green brick
 				if (sprite_index == spr_brick_green_th)
-					instance_create_layer(x, y, "Main", obj_explosion);					
+					instance_create_layer(x, y, "Main", obj_explosion_lite);					
 			}
         }
         

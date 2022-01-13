@@ -12,7 +12,7 @@ if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, ob
 	|| ((isfloating) && (yspeed < 0))
 	
 	//...or the player is riding yoshi and this one is doing a flutter jump
-	/*|| ((instance_exists(obj_yoshi)) && (obj_yoshi.flutter == 1) && (yspeed < 0))*/
+	|| ((instance_exists(obj_yoshi)) && (obj_yoshi.flutter == 1) && (yspeed < 0))
 	
 		//Set up the 'Jump' state
 		state = playerstate.jump;
@@ -218,7 +218,7 @@ if (inwall == 0)
             //If a Yoshi is being ridden, dismount from it.
             else if (global.mount == 1) {
             
-                //with (obj_yoshi) event_user(1);
+                with (obj_yoshi) event_user(1);
                 if (state < 2) {
                     
                     //Play 'Spin' sound
