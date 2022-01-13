@@ -49,7 +49,7 @@ else if (scatter == true) {
 
 		with (instance_create_depth(x + 8, ystart - 16, -4, obj_coinnpc)) {
 	
-			xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, 1) : random_range(-2, 2);
+			xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
 			yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
 		}
 	}

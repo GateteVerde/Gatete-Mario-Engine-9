@@ -247,3 +247,17 @@ else
 	if (sprite_index == spr_cape)
 	    image_index = global.mount;
 #endregion
+
+//Depth
+if (global.mount == 0)
+	depth = -4;
+else {
+
+	if (global.mount == 1) {
+		
+		if (sprite_index == spr_cape)
+			depth = -6;
+		else
+			depth = -4;
+	}
+}

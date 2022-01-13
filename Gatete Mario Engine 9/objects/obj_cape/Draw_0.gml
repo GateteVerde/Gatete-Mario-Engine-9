@@ -31,22 +31,15 @@ if (instance_exists(owner)) {
 		}
             
         //Otherwise, if the player is riding a yoshi
-        else {
+        else if (global.mount == 1) {
         
-            /*if (instance_exists(obj_yoshi)) {
+            if (instance_exists(obj_yoshi)) {
                 
                 if (obj_yoshi.f == 1)
-                    draw_sprite_ext(sprite_index, image_index, screen_round(x-3*sign(obj_playerparent.xscale)), screen_round(y)-5+yy, image_xscale, 1, 0, c_white, image_alpha);
+                    draw_sprite_ext(sprite_index, image_index, screen_round(x-3*sign(obj_mario.xscale)), screen_round(y)-3, image_xscale, 1, 0, c_white, image_alpha);
                 else
-                    draw_sprite_ext(sprite_index, image_index, screen_round(x-3*sign(obj_playerparent.xscale)), screen_round(y)-7+yy, image_xscale, 1, 0, c_white, image_alpha);
+                    draw_sprite_ext(sprite_index, image_index, screen_round(x-3*sign(obj_mario.xscale)), screen_round(y)-7, image_xscale, 1, 0, c_white, image_alpha);
             }
-            else if instance_exists(obj_player_transform) {
-            
-                if (obj_player_transform.riderframe == 1)
-                    draw_sprite_ext(sprite_index, image_index, screen_round(x-3*sign(obj_playerparent.xscale)), screen_round(y)-5+yy, image_xscale, 1, 0, c_white, image_alpha);
-                else
-                    draw_sprite_ext(sprite_index, image_index, screen_round(x-3*sign(obj_playerparent.xscale)), screen_round(y)-7+yy, image_xscale, 1, 0, c_white, image_alpha);            
-            }*/	
         }
 		
 		//Stop shader

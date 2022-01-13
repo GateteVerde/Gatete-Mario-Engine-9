@@ -67,7 +67,9 @@
 		&& (obj_mario.crouch == false)
 	    && (obj_mario.swimming == false) 
 	    && (global.powerup != cs_raccoon)
-	    && (global.powerup != cs_tanooki) {
+	    && (global.powerup != cs_tanooki) 
+		&& (global.powerup != cs_fraccoon) 
+		&& (global.powerup != cs_iraccoon) {
     
 	        //If Yoshi can flutter and it is moving down
 	        if (flutter == 0)
@@ -115,7 +117,7 @@
 	                flutter = 2;
                 
 	                //Allow flutter after a while
-	                alarm[4] = 30;
+	                alarm[4] = 15;
 	            }
 	        }
 	    }
@@ -129,12 +131,12 @@
 	        flutter = 2;
         
 	        //Allow flutter after a while
-	        alarm[4] = 30;
+	        alarm[4] = 15;
 	    }
     
 	    //Force end flutter if not jumping
 	    if (flutter == 1)
-	    && (obj_mario.state != 2) {
+	    && (obj_mario.state != playerstate.jump) {
             
 	        //Stop 'Hover' sound
 	        audio_stop_sound(snd_yoshi_hover);
@@ -143,7 +145,7 @@
 	        flutter = 2;
         
 	        //Allow flutter after a while
-	        alarm[4] = 30;
+	        alarm[4] = 15
 	    }
     
 	    //Depth

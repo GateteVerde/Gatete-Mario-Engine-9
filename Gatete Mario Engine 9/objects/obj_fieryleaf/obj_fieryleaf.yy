@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_leaf",
-    "path": "sprites/spr_leaf/spr_leaf.yy",
+    "name": "spr_fieryleaf",
+    "path": "sprites/spr_fieryleaf/spr_fieryleaf.yy",
   },
   "solid": false,
   "visible": true,
