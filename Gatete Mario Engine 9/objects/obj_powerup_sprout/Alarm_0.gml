@@ -99,7 +99,13 @@ else {
         || (sprite_index == spr_trampoline)
 		|| (sprite_index == spr_key)
 		|| (sprite_index == spr_propellerblock) 
-		|| (sprite_index == spr_powblock) {
+		|| (sprite_index == spr_powblock) 
+		|| (sprite_index == spr_egg) 
+		|| (sprite_index == spr_egg_r)
+		|| (sprite_index == spr_egg_y)
+		|| (sprite_index == spr_egg_b)
+		|| (sprite_index == spr_egg_t)
+		|| (sprite_index == spr_egg_p) {
         
             //Set vertical speed
             vspeed = (place_meeting(x, y, obj_swim)) ? -1.25 : -2.5;

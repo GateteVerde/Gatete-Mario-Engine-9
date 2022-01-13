@@ -103,5 +103,53 @@ function sprite_create_object() {
 		
 		//Key
 		case (spr_key): return instance_create_depth(argument[1], argument[2], argument[3], obj_key);
+		
+		//Green Yoshi
+		case (spr_egg): return instance_create_depth(argument[1], argument[2], argument[3], obj_egg);
+
+		//Red Yoshi
+		case (spr_egg_r): {
+    
+		    var i;
+		    i = instance_create_depth(argument[1], argument[2], argument[3], obj_egg);
+		        i.sprite_index = spr_egg_r;
+		}
+		return i;
+    
+		//Yellow Yoshi
+		case (spr_egg_y): {
+    
+		    var i;
+		    i = instance_create_depth(argument[1], argument[2], argument[3], obj_egg);
+		        i.sprite_index = spr_egg_y;
+		}
+		return i;
+    
+		//Blue Yoshi
+		case (spr_egg_b): {
+    
+		    var i;
+		    i = instance_create_depth(argument[1], argument[2], argument[3], obj_egg);
+		        i.sprite_index = spr_egg_b;
+		}
+		return i;
+    
+		//Teal Yoshi
+		case (spr_egg_t): {
+    
+		    var i;
+		    i = instance_create_depth(argument[1], argument[2], argument[3], obj_egg);
+		        i.sprite_index = spr_egg_t;
+		}
+		return i;
+    
+		//Pink Yoshi
+		case (spr_egg_p): {
+    
+		    var i;
+		    i = instance_create_depth(argument[1], argument[2], argument[3], obj_egg);
+		        i.sprite_index = spr_egg_p;
+		}
+		return i;
 	}
 }
