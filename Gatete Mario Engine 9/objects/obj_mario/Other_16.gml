@@ -205,9 +205,9 @@ if (enable_control == true) && (inwall == 0) { //If the player controls are not 
                 //Set the vertical speed
                 yspeed -= 1;
                 
-                /*If a kuribo shoe is being ridden, dismount from it.
+                //If a kuribo shoe is being ridden, dismount from it.
                 if (global.mount == 2)
-                    with (obj_kuriboshoe) event_user(0); */
+                    with (obj_kuriboshoe) event_user(0);
                 
                 //Otherwise, if a Yoshi is being ridden, dismount from it.
                 if (global.mount == 1)

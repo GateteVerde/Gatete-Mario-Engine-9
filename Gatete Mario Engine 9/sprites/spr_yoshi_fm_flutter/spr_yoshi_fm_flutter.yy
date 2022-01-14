@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Full Mouth",
-    "path": "folders/Sprites/Items/Collectibles/Powerups/Mounts/Yoshi/Main/Full Mouth.yy",
+    "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi/Main/Full Mouth.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_yoshi_fm_flutter",

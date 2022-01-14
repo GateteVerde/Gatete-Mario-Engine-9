@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Yoshi",
-    "path": "folders/Sprites/Items/Collectibles/Powerups/Mounts/Yoshi.yy",
+    "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_egg_y",

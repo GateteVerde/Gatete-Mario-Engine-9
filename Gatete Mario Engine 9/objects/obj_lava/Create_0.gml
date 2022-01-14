@@ -9,3 +9,7 @@ depth = 100;
 
 //Animate
 anim = 1;
+
+//Collision
+mycol = -1;
+alarm[0] = 1;

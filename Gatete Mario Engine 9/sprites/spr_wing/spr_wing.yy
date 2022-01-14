@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Parts",
-    "path": "folders/Sprites/Items/Collectibles/Powerups/Mounts/Yoshi/Parts.yy",
+    "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi/Parts.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_wing",

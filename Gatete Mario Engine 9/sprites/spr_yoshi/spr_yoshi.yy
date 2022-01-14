@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Normal",
-    "path": "folders/Sprites/Items/Collectibles/Powerups/Mounts/Yoshi/Main/Normal.yy",
+    "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi/Main/Normal.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_yoshi",

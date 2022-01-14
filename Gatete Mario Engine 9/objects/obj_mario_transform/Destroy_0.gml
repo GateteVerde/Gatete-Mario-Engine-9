@@ -48,7 +48,16 @@ if (global.mount == 1) {
 	}	
 }
 
-/*
 //Otherwise, if the player is riding a kuribo shoe, make the kuribo shoe visible.
-else if (global.mount == 2)
-    obj_kuriboshoe.visible = true; */
+else if (global.mount == 2) {
+	
+	//Make the kuribo shoe visible
+    obj_kuriboshoe.visible = true;
+	
+	//Un-freeze
+	with (obj_mario) {
+				
+		event_user(14);
+		enable_control = true;
+	}	
+}

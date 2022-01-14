@@ -151,5 +151,44 @@ function sprite_create_object() {
 		        i.sprite_index = spr_egg_p;
 		}
 		return i;
+		
+		//Kuribo Shoe
+	    case (spr_shoe_kuribo): return instance_create_depth(argument[1], argument[2], argument[3], obj_getshoe);
+    
+	    //Baburu Shoe
+	    case (spr_shoe_baburu): {
+    
+	        var i;
+	        i = instance_create_depth(argument[1], argument[2], argument[3], obj_getshoe);
+	            i.sprite_index = spr_shoe_baburu;
+	    }
+	    return i;
+    
+	    //Dossun Shoe
+	    case (spr_shoe_dossun): {
+    
+	        var i;
+	        i = instance_create_depth(argument[1], argument[2], argument[3], obj_getshoe);
+	            i.sprite_index = spr_shoe_dossun;
+	    }
+	    return i;
+    
+	    //Jugemu Shoe
+	    case (spr_shoe_jugemu): {
+    
+	        var i;
+	        i = instance_create_depth(argument[1], argument[2], argument[3], obj_getshoe);
+	            i.sprite_index = spr_shoe_jugemu;
+	    }
+	    return i;
+    
+	    //Pentaro Shoe
+	    case (spr_shoe_pentaro): {
+    
+	        var i;
+	        i = instance_create_depth(argument[1], argument[2], argument[3], obj_getshoe);
+	            i.sprite_index = spr_shoe_pentaro;
+	    }
+	    return i;        
 	}
 }

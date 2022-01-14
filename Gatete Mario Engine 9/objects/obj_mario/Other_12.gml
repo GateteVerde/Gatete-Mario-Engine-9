@@ -190,7 +190,7 @@ if (inwall == 0)
             //If a kuribo shoe is being ridden, dismount from it.
             if (global.mount == 2) {
             
-                //with (obj_kuriboshoe) event_user(0);
+                with (obj_kuriboshoe) event_user(0);
                 if (state < 2) {
                     
                     //Play 'Spin' sound

@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Main",
-    "path": "folders/Sprites/Items/Collectibles/Powerups/Mounts/Yoshi/Main.yy",
+    "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi/Main.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_yoshi_runaway",

@@ -1,5 +1,17 @@
 /// @description Get 'Tiny' player status
 
+//Force dismount Yoshi
+if (instance_exists(obj_yoshi)) {
+	
+	with (obj_yoshi) event_user(1);
+}
+
+//Force dismount kuribo shoes
+if (instance_exists(obj_kuriboshoe)) {
+
+	with (obj_kuriboshoe) event_user(0);
+}
+
 //Get 1000 points
 with (instance_create_depth(x, y, -6, obj_score)) value = 1000;
 

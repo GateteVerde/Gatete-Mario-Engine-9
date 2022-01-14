@@ -59,5 +59,15 @@ if (instance_exists(obj_yoshi)) {
     with (obj_yoshi) visible = 0;
 }
 
+//Make Kuribo Shoe invisible
+if (instance_exists(obj_kuriboshoe)) {
+
+	//Hereby sprite from the shoe
+	shoesprite = obj_kuriboshoe.sprite_index;
+	
+	//Make Kuribo Shoe invisible
+	with (obj_kuriboshoe) visible = 0;
+}
+
 //Begin animation and screen freeze
 alarm[0] = 2;

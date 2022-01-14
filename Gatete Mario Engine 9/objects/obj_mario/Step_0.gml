@@ -736,14 +736,14 @@ if (enable_gravity == 1) {
 	
 	//If moving upwards
 	if (yspeed < 0)
-	&& (collision_rectangle(bbox_left, bbox_top+yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0)) 
-	&& (!collision_point(x, y + 8, obj_solid, 1, 0)) { 
+	&& (collision_rectangle(bbox_left, bbox_top+yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0))
+	&& (!collision_point(x, y + 8, obj_mblock, 1, 0)) { 
 		
 		//Check for a block above
 		var block_u = collision_rectangle(bbox_left, bbox_top-2+yspeed/2, bbox_right, bbox_top, obj_blockparent, 0, 0);
 	
 		//Prevent the player from getting stuck on a ceiling when jumping/climbing
-		if (state > 1) {
+		if (state > playerstate.walk) {
 			
 			while (collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, obj_solid, 1, 0))
 				y++;
@@ -797,7 +797,7 @@ if (enable_gravity == 1) {
 	}
 	
 	//Prevent the player from overlappin' the ceiling
-	if (state > 1)
+	if (state > playerstate.walk)
 		while (collision_rectangle(bbox_left+1, bbox_top+1, bbox_right-1, bbox_top+1, obj_solid, 1, 0))
 		&& (!collision_point(x, y + 8, obj_solid, 1, 0))
 			y++;

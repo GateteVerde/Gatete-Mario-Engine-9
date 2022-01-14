@@ -105,7 +105,12 @@ else {
 		|| (sprite_index == spr_egg_y)
 		|| (sprite_index == spr_egg_b)
 		|| (sprite_index == spr_egg_t)
-		|| (sprite_index == spr_egg_p) {
+		|| (sprite_index == spr_egg_p) 
+		|| (sprite_index == spr_shoe_kuribo)
+		|| (sprite_index == spr_shoe_baburu)
+		|| (sprite_index == spr_shoe_dossun)
+		|| (sprite_index == spr_shoe_jugemu)
+		|| (sprite_index == spr_shoe_pentaro) {
         
             //Set vertical speed
             vspeed = (place_meeting(x, y, obj_swim)) ? -1.25 : -2.5;

@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Projectiles",
-    "path": "folders/Sprites/Items/Collectibles/Powerups/Mounts/Yoshi/Parts/Projectiles.yy",
+    "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi/Parts/Projectiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fire",

@@ -5,6 +5,9 @@
 	//If Mario does exist.
 	if (instance_exists(obj_mario)) {
 		
+		//Update flashing
+		isflashing = obj_mario.isflashing;
+		
 		//Force dismount yoshi if you have tiny powerup
 		if (global.powerup == cs_tiny) {
 			
@@ -423,13 +426,6 @@
 
 //If Mario does exist
 if (instance_exists(obj_mario)) {
-	
-	//Update flashing
-	isflashing = obj_mario.isflashing;
-
-    //Set the position
-    x = obj_mario.x;
-    y = obj_mario.y;
     
     //If Yoshi is extending it's tongue
     if (licking) {

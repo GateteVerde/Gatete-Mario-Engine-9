@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Eggs",
-    "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles/Powerups/Mounts/Yoshi/Eggs.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles/Mounts/Yoshi/Eggs.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_egg",

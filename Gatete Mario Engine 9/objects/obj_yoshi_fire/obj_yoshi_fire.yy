@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Yoshi",
-    "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles/Powerups/Mounts/Yoshi.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles/Mounts/Yoshi.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_yoshi_fire",

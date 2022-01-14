@@ -17,10 +17,10 @@ with (obj_levelcontrol) {
 lives--;
 
 //Jump
-alarm[0] = 60;
+alarm[0] = 48;
 
 //Restart
-alarm[1] = 240;
+alarm[1] = 200;
 
 //Reset mount
 global.mount = 0;
