@@ -1,3 +1,9 @@
-/// @description Stop 'Starman' music
+/// @description Remember the star for the next room
 
-audio_stop_sound(snd_starman);
+//If the starman is still running.
+if (alarm[0] > 5)
+    global.starman = alarm[0];
+        
+//Otherwise
+else
+    audio_stop_sound(snd_starman); 

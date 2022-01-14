@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pullkey",
-    "path": "sprites/spr_pullkey/spr_pullkey.yy",
+    "name": "spr_pullkey_up",
+    "path": "sprites/spr_pullkey_up/spr_pullkey_up.yy",
   },
   "solid": false,
   "visible": true,

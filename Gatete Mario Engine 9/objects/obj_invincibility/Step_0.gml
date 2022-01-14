@@ -41,14 +41,14 @@ else {
 	else {
 
 	    //Set object to follow
-	    event_user(15);
+	    follow_which_mario()
 		
 		//If there's other object using this
-		if (owner != noone) {
+		if (follow != noone) {
     
 		    //Snap into the following object position.
-		    x = owner.x;
-		    y = owner.y;
+		    x = follow.x;
+		    y = follow.y;
 		}
 	}
 }

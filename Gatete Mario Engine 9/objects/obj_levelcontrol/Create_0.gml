@@ -9,9 +9,6 @@ levelmusic = noone;
 //Is music disabled?
 musicdisable = false;
 
-//Set depth
-depth = 10000;
-
 //Barrier
 barrier = false;
 alarm[7] = 3;

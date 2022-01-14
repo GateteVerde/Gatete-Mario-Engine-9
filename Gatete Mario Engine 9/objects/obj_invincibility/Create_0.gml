@@ -16,4 +16,4 @@ hitcombo = 0;
 warning = 0;
 
 //Object to follow up
-owner = noone;
+follow = noone;

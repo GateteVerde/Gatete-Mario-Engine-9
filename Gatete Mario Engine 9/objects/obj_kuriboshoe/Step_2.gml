@@ -99,7 +99,7 @@ if (instance_exists(obj_mario)) {
 else {
 
     //Find a suitable player
-    event_user(15);
+    follow_which_mario();
     
     //If said player object exists, follow him
     if (instance_exists(follow)) {

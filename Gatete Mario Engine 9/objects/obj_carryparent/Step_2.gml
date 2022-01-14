@@ -16,7 +16,7 @@ if (held) {
 		depth = -6;
         
         //Snap onto Mario's x position
-        x = obj_mario.x-8;
+        x = obj_mario.x;
         
         //Snap onto the Mario's y position        
         if (obj_mario.crouch) { //If the player is crouched down.
@@ -43,7 +43,7 @@ if (held) {
     else {
             
         //Check what object is holding first
-        event_user(15);
+        follow_which_mario();
         
         //Then check if it exists
         if (instance_exists(follow)) {

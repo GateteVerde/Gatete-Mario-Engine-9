@@ -27,7 +27,7 @@
 #endregion
 
 //Set up object to follow
-event_user(15);
+follow_which_mario();
 
 //If the autoscroll object does exist
 if (instance_exists(obj_autoscroll)) {

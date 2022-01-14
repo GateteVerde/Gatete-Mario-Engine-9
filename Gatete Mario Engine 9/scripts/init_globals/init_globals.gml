@@ -3,7 +3,7 @@
 function init_globals() {
 	
 	//Music Variables
-	global.levelmusic = noone;
+	global.levelmusic = "Overworld";
 	global.stream = noone;
 
 	//World Number
@@ -151,6 +151,9 @@ function init_globals() {
 
 	//The sprite used by an item carried between rooms
 	global.carriedsprite = noone;
+	
+	//The frame used by an item carried between rooms
+	global.carriedframe = 0;
 
 	//The object to return when carrying a SMB2 enemy between rooms
 	global.turnback = 0;

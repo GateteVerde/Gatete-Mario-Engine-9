@@ -181,10 +181,10 @@
 	    }
 	}
 
-	/*
 	//Otherwise, if Mario does not exist.
 	else {
 
+		/*
 	    //Do not hold anything if Mario cleared a level
 	    if (instance_exists(obj_mario_clear)) {
     
@@ -194,9 +194,10 @@
 	            mouthsprite = noone;
 	        }
 	    }
+		*/
 
 	    //Find a suitable player
-	    event_user(15);
+	    follow_which_mario();
     
 	    //If said player object exists, follow him
 	    if (instance_exists(follow)) {
@@ -209,8 +210,6 @@
 	        depth = follow.depth;
 	    }
 	}
-	
-	*/
 
 	//Stop 'Flutter' sound if yoshi is not fluttering
 	if (flutter != 1)

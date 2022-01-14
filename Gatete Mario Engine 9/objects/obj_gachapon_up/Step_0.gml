@@ -189,14 +189,14 @@ else {
 					//Mushroom
 					case (0): {
 						
-						with (instance_create_layer(x + 8, y-14, "Main", obj_mushroom))
+						with (instance_create_layer(x, y-14, "Main", obj_mushroom))
 							move_after_landing = 1;
 					} break
 					
 					//Bomb
 					case (1): {
 					
-						with (instance_create_layer(x + 8, y-14, "Main", obj_turnip_bomb)) {
+						with (instance_create_layer(x, y-14, "Main", obj_turnip_bomb)) {
 							
 							aa = 360;
 							held = 0;
@@ -205,7 +205,7 @@ else {
 					
 					//Sorcerer
 					case (2):
-						instance_create_layer(x + 8, y-6, "Main", obj_sorcerer);
+						instance_create_layer(x, y-6, "Main", obj_sorcerer);
 						break;
 				}
 				

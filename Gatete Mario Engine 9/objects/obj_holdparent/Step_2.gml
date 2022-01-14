@@ -7,6 +7,9 @@ if (held == true) {
     
     //If the player does exist
     if (instance_exists(obj_mario)) {
+		
+		//Make object visible
+		visible = 1;
     
         //If the player control is not disabled and Mario does not have either Tiny or Mega powerups
 		if (obj_mario.enable_control == true) {
@@ -118,10 +121,8 @@ if (held == true) {
     else {
     
         //Check what object is holding
-        event_user(13);
-		
-		/*
-        
+        follow_which_mario();
+
         //Then check if it exists
         if (instance_exists(follow)) {
         
@@ -140,8 +141,6 @@ if (held == true) {
                 myframe = other.image_index;
             }
         }
-		
-		*/
     }
 	
 	//If Mario does have the tiny, mega or balloon powerup
