@@ -421,6 +421,58 @@
 	        }
 	    }
 	}
+	
+	//Otherwise, if Mario is warping through a pipe
+	else if (instance_exists(obj_mario_warp)) {
+	   
+        //If the player is not moving vertically
+        if (obj_mario_warp.vspeed == 0) {
+    
+            //If Yoshi is holding something on his mouth.
+            if (mouthholder != noone) {
+            
+                //Set the sprite
+                sprite_index = spr_yoshi_fm_wait;
+                
+                //Animate
+                image_speed = 0.2;
+            }
+            
+            //Otherwise, if Yoshi is not holding anything on his mouth.
+            else if (mouthholder == noone) {
+            
+                //Set the sprite
+                sprite_index = spr_yoshi_wait;
+                
+                //Animate
+                image_speed = 0.2;               
+            }
+        }
+        else {
+        
+            //If Yoshi is holding something on his mouth.
+            if (mouthholder != noone) {
+            
+                //Set the sprite
+                sprite_index = spr_yoshi_warp;
+                
+                //Do not animate
+                image_speed = 0;
+                image_index = 1;
+            }
+            
+            //Otherwise, if Yoshi is not holding anything on his mouth.
+            else if (mouthholder == noone) {
+            
+                //Set the sprite
+                sprite_index = spr_yoshi_warp;
+                
+                //Do not animate
+                image_speed = 0;
+                image_index = 0;
+            }
+        }		
+	}
 #endregion
 
 //If Mario does exist

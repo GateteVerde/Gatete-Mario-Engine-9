@@ -1,6 +1,6 @@
 /// @description Manage cape
 
-// Inherit the parent event
+//Inherit the parent event
 event_inherited();
 
 #region PLAYER SYNC
@@ -78,8 +78,8 @@ if (instance_exists(owner)) {
 	
 	else {
 		
-		// Not spin jumping
-		if (owner.jumpstyle == 0) {
+		// Not spin jumping or riding kuribo shoe
+		if (owner.jumpstyle == 0) || (global.mount == 2) {
 			
 			// If they're flying
 			if (owner.flying == true) {

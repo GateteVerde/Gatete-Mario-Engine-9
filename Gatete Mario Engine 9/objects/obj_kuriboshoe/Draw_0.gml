@@ -9,8 +9,11 @@ if (instance_exists(obj_mario)) {
     //Only draw if the player is not crouched down
     if (obj_mario.crouch == false) {
     
+		//If Mario is small
 		if (global.powerup == cs_small)
 			draw_sprite_ext(spr_mario_small_walk, 0, screen_round(x), screen_round(y)-8+(movement.y), obj_mario.xscale, 1, 0, c_white, 1);
+		
+		//Otherwise, if Mario is not small
 		else {
 			
 			//Offset
@@ -42,5 +45,5 @@ if (instance_exists(obj_mario)) {
     pal_swap_reset();
     
     //Draw the shoe on front
-    draw_sprite_ext(sprite_index, -1, round(x), round(y)+1+(movement.y), obj_mario.xscale, 1, 0, c_white, 1);
+    draw_sprite_ext(sprite_index, -1, screen_round(x), screen_round(y)+1+(movement.y), obj_mario.xscale, 1, 0, c_white, 1);
 }

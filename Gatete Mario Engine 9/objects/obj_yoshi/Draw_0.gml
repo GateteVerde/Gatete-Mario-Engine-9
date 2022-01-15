@@ -1,6 +1,6 @@
 /// @description Draw Yoshi and the current player
 
-//If the player exists
+//If Mario exists
 if (instance_exists(obj_mario)) {
     
     //Set palette

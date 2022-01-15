@@ -12,8 +12,8 @@ if (global.mount == 2) {
 	//Reset palette
 	pal_swap_reset();
 	
-	//Draw Yoshi
-    draw_sprite_ext(shoesprite, 0, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
+	//Draw Kuribo Shoe
+    draw_sprite_ext(shoesprite, 0, screen_round(x), screen_round(y)+1, direct, 1, 0, c_white, 1);
 }
 
 //Otherwise, if Mario is riding a Yoshi

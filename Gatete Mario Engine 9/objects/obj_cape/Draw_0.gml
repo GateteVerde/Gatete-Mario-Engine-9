@@ -18,7 +18,7 @@ if (instance_exists(owner)) {
 		pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
     
         //If the player is not riding a yoshi
-        if (global.mount == 0) {
+        if (global.mount != 1) {
 			
 			if (owner.wallkick == 1)
 				draw_sprite_ext(sprite_index, image_index, screen_round(x), screen_round(y)+1, image_xscale*-1, 1, image_angle, c_white, image_alpha);
