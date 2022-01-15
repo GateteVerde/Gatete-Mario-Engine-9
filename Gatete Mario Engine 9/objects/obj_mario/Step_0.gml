@@ -99,7 +99,7 @@ if (global.powerup == cs_mega) {
 	swim_y = -32;
 	
 	//Set bottom collision
-	if (!collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
+	if (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_slopeparent, 1, 0))
 		ismega = 0;
 	else
 		ismega = -24;
@@ -282,8 +282,7 @@ if (enable_gravity == 1) {
 	
 		//If there's ground below and Mario is not moving upwards
 		if (semisolid)
-		&& (bbox_bottom < semisolid.yprevious+5) 
-		&& (!collision_rectangle(x-1, bbox_bottom+1, x, bbox_bottom+4, obj_slopeparent, 1, 0)) {
+		&& (bbox_bottom < semisolid.yprevious+5) {
 		
 			//Snap above the semisolid
 			y = semisolid.bbox_top-16;

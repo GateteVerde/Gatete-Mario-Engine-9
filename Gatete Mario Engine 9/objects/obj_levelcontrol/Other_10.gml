@@ -2,10 +2,12 @@
 
 //Stop music instance
 audio_stop_sound(global.stream);
+global.stream = -1;
 
 //Prevent it from playing
 musicdisable = 1;
 
-//Stop both pswitch and starman streams
+//Stop both pswitch, starman and megashroom
 audio_stop_sound(snd_pswitch);
 audio_stop_sound(snd_starman);
+audio_stop_sound(snd_megashroom);

@@ -1,7 +1,17 @@
 /// @description Handles the Mario Start! text, room warping, music and timer
 
-//Manage music
-event_user(4);
+//If the music from last room is not the same as the current room
+if (global.levelmusic != inisection) {
+
+	if (audio_is_playing(global.stream)) {
+		
+		//Stop old stream
+		alarm[1] = 1;
+	}
+    
+    //Play new stream
+    global.levelmusic = inisection;
+}
 
 //Set up the time for the level.
 if (leveltime > 0) { //If the timer has been set.
@@ -12,11 +22,11 @@ if (leveltime > 0) { //If the timer has been set.
         global.timer = leveltime;
         alarm[2] = 60;
     }
-    
-    //Otherwise, if the time has been set before.
-    else if (global.timer > 0)    
-        alarm[2] = 60;
 }
+    
+//If the time has been set before.
+if (global.timer > 0)    
+    alarm[2] = 60;
 
 //If the player just started the level
 if (global.mariostart == 0) {

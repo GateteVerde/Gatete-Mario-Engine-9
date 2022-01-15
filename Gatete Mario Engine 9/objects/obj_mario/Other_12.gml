@@ -2,7 +2,7 @@
 
 //Check if there's a collision below and if Mario is on the ground
 if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0))
-|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)))
+|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_slopeparent, 1, 0)))
 && (yadd == 0) {
 
 	//If the player is flying and moving upwards...
@@ -864,7 +864,7 @@ if ((enable_control == true) && (input_check(input.down))) {
     }
 
     //If the player is on a slope, and the above didn't happen, slide normally
-    else if (collision_rectangle(x, bbox_bottom+1, x, bbox_bottom+2, obj_slopeparent, 1, 0))
+    else if (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_slopeparent, 1, 0))
 	&& (state != playerstate.jump)
 	&& (global.powerup != cs_tiny)
     && (global.powerup != cs_frog) 

@@ -18,8 +18,7 @@
 	
 		//If there's ground below and Mario is not moving upwards
 		if (semisolid)
-		&& (bbox_bottom < semisolid.yprevious+5)
-		&& (!collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+4, obj_slopeparent, 1, 0)) {
+		&& (bbox_bottom < semisolid.yprevious+5) {
 		
 			//Snap above the semisolid
 			y = semisolid.bbox_top-16;
@@ -31,7 +30,7 @@
 
 	///Destroy in contact with water or a slope
 	if (obj_mario.swimming == true)
-	|| (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
+	|| (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
 		instance_destroy();
 
 #endregion

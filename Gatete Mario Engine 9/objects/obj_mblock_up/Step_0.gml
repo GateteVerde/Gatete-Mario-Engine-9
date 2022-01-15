@@ -55,9 +55,9 @@ if (held) {
 						
 						//Snap into the side of Mario
 						if (obj_mario.xscale == 1)
-							x = obj_mario.x+6;
+							x = obj_mario.x+16;
 						else
-							x = obj_mario.x-22;
+							x = obj_mario.x-16;
 					}
 						
 					//Otherwise
@@ -69,14 +69,14 @@ if (held) {
 							
 							//Snap into the side of Mario
 							if (obj_mario.xscale == 1)
-								x = obj_mario.x+6;
+								x = obj_mario.x+16;
 							else
-								x = obj_mario.x-22;
+								x = obj_mario.x-16;
 						}
 						else {
 							
 							//Snap where Mario is
-							x = obj_mario.x - 8;
+							x = obj_mario.x;
 								
 							//Set the horizontal speed
 							if (obj_mario.xscale == 1)
@@ -139,17 +139,13 @@ else {
 			//If there's ground below and Mario is not moving upwards
 			if (semisolid)
 			&& (bbox_bottom < semisolid.yprevious + 5)
-			&& (!collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+yspeed, obj_slopeparent, 1, 0))
 				y = semisolid.bbox_top - floor(sprite_height-(sprite_get_yoffset(sprite_index)));
 		}
-
-		//Slope Collision
-		slope_collision();
 
 		//Check if there's a semisolid
 		if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0)) 
 		&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_semisolid, 0, 0))) 
-		|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)) {
+		|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_slopeparent, 1, 0)) {
 	
 			//If moving down
 			if (yspeed > 0) {
@@ -161,13 +157,12 @@ else {
 					yadd = 0;
 					
 			        //Create a new mushroom block
-			        with (instance_create_layer(x, y, "Main", obj_mblock)) {
-        
-			            //Snap horizontally
-			            x = round(x/16) * 16;
+			        with (instance_create_layer(x-8, y, "Main", obj_mblock)) {
+						
+						x = (round(x / 16) * 16);
             
 			            //Snap vertically
-			            y = ceil(y/8) * 8;
+			            y = ceil(y / 8) * 8;
 			            while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
 			                y--;
 			        }
@@ -186,13 +181,13 @@ else {
 						yadd = 0;
 					
 				        //Create a new mushroom block
-				        with (instance_create_layer(x, y, "Main", obj_mblock)) {
+				        with (instance_create_layer(x-8, y, "Main", obj_mblock)) {
         
 				            //Snap horizontally
-				            x = round(x/16) * 16;
+				            x = round(x / 16) * 16;
             
 				            //Snap vertically
-				            y = ceil(y/8) * 8;
+				            y = ceil(y / 8) * 8;
 				            while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
 				                y--;
 				        }

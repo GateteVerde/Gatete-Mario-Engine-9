@@ -66,7 +66,7 @@ if (yspeed >= 0) {
 	//If there's ground below and Mario is not moving upwards
 	if (semisolid)
 	&& (bbox_bottom < semisolid.yprevious+5)
-	&& (!collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+4, obj_slopeparent, 1, 0)) {
+	&& (!collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+4, obj_slopeparent, 1, 0)) {
 		
 		//Snap above the semisolid
 		y = semisolid.bbox_top-16;
@@ -78,14 +78,14 @@ if (yspeed >= 0) {
 }
 
 //Embed into the slope to ensure correct slope mechanics
-if (collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+4, obj_slopeparent, 1, 0))
-&& (!collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom-4, obj_slopeparent, 1, 0))
+if (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_slopeparent, 1, 0))
+&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_slopeparent, 1, 0))
 && (yadd == 0)
     y += 4;
 
 ///Handle slope collisions
-if (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
-&& (!collision_rectangle(x-1, bbox_bottom-8, x+1, bbox_bottom-8, obj_slopeparent, 1, 0)) {
+if (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
+&& (!collision_rectangle(bbox_left, bbox_bottom-8, bbox_right, bbox_bottom-8, obj_slopeparent, 1, 0)) {
 
 	//If Mario is moving down onto a slope
 	if (yspeed >= 0) {
@@ -97,7 +97,7 @@ if (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1
 
 	//Prevent NPC from getting embed inside a slope
 	if (yspeed > -0.85)
-	    while (collision_rectangle(x-1, bbox_bottom-4, x+1, bbox_bottom, obj_slopeparent, 1, 0))
+	    while (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
 	        y--;
 }
 

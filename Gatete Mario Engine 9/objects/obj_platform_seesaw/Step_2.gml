@@ -9,11 +9,12 @@ extra = 20+(abs(image_angle) / 20);
 //Radius
 radius = (sprite_width / 2 + sprite_height / 2) - 8;
 
-#region SET SEESAW ANGLE
+#region LOGIC
 
 	//Count how many items are above the seesaw
 	if (collision_circle(x, y, radius, obj_mario, 1, 0))
-	&& (obj_mario.state < playerstate.jump) {
+	&& (obj_mario.state != playerstate.jump)
+	&& (obj_mario.bbox_bottom < bbox_bottom+4) {
 				
 		//Calculate distance
 		var myincrement = sprite_get_width(sprite_index) / 4;
@@ -26,10 +27,11 @@ radius = (sprite_width / 2 + sprite_height / 2) - 8;
 	//Otherwise, decrement angle speed
 	else {
 		
-		angle_speed = max(0, abs(angle_speed)-0.0324)*sign(angle_speed);
-		if ((angle_speed > -0.0324) && (angle_speed < 0.0324))
+		angle_speed = max(0, abs(angle_speed)-0.0162)*sign(angle_speed);
+		if ((angle_speed > -0.0162) && (angle_speed < 0.0162))
 			angle_speed = 0;
 	}
+	
 #endregion
 
 //Set angle

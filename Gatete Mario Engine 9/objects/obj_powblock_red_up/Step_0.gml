@@ -55,9 +55,9 @@ if (held) {
 						
 						//Snap into the side of Mario
 						if (obj_mario.xscale == 1)
-							x = obj_mario.x+6;
+							x = obj_mario.x+16;
 						else
-							x = obj_mario.x-22;
+							x = obj_mario.x-16;
 					}
 						
 					//Otherwise
@@ -69,9 +69,9 @@ if (held) {
 							
 							//Snap into the side of Mario
 							if (obj_mario.xscale == 1)
-								x = obj_mario.x+6;
+								x = obj_mario.x+16;
 							else
-								x = obj_mario.x-22;
+								x = obj_mario.x-16;
 						}
 						else {
 							
@@ -139,7 +139,6 @@ else {
 			//If there's ground below and Mario is not moving upwards
 			if (semisolid)
 			&& (bbox_bottom < semisolid.yprevious + 5)
-			&& (!collision_rectangle(x-1, bbox_bottom, x+1, bbox_bottom+yspeed, obj_slopeparent, 1, 0))
 				y = semisolid.bbox_top - floor(sprite_height-(sprite_get_yoffset(sprite_index)));
 		}
 
@@ -149,7 +148,7 @@ else {
 		//Check if there's a semisolid
 		if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0)) 
 		&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_semisolid, 0, 0))) 
-		|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)) {
+		|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_slopeparent, 1, 0)) {
 	
 			//If moving down
 			if (yspeed > 0) {

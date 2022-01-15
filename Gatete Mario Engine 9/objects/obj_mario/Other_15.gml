@@ -26,7 +26,7 @@ crouch = false;
 
 //Check if there's a collision below and if Mario is on the ground
 if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0))
-|| (collision_rectangle(x-1, bbox_bottom+1, x+1, bbox_bottom+1, obj_slopeparent, 1, 0)))
+|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_slopeparent, 1, 0)))
 && (yadd == 0) {
 
     //If the player is not moving vertically
@@ -110,7 +110,7 @@ if (enable_control == true) { //If the player's controls are not disabled.
 }
 
 //Collision with a slope
-var _slope = collision_rectangle(x-1, bbox_bottom-2, x+1, bbox_bottom+2, obj_slopeparent, 1, 0);
+var _slope = collision_rectangle(bbox_left, bbox_bottom-2, bbox_right, bbox_bottom+2, obj_slopeparent, 1, 0);
 
 //Accelerate when in contact with a slope
 if (_slope) {

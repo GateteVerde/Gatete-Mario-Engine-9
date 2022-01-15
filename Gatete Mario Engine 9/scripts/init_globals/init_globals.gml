@@ -3,7 +3,9 @@
 function init_globals() {
 	
 	//Music Variables
-	global.levelmusic = "Overworld";
+	global.levelmusic = snd_gameover;
+	
+	//Stream played in room
 	global.stream = noone;
 
 	//World Number
