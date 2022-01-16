@@ -6,7 +6,7 @@ if (instance_exists(obj_mario)) {
 	//If the player is tiny
 	if (mask_index == spr_mask_mario_tiny) {
     
-        with (instance_create_depth(x - 4 + random(round(8)), y + random_range(9, 16), -6, obj_sparkle)) {
+        with (instance_create_depth(x - 8 + random(round(16)), y + random_range(0, 16), -6, obj_sparkle)) {
         
 			sprite_index = spr_sparkle_star;
 			shrink_rate = 0.0324;

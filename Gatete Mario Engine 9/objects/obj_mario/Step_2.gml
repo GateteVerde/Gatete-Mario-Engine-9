@@ -518,7 +518,7 @@ else {
                                                 else {
 													
 													if (global.powerup != cs_bell)
-														sprite_index = global.runjump_sprite[global.powerup];
+														sprite_index = (global.powerup == cs_tiny) ? global.jump_sprite[global.powerup] : global.runjump_sprite[global.powerup];
 													else
 														sprite_index = global.jump_sprite[global.powerup];
 												}

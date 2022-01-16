@@ -28,7 +28,7 @@ mario.state = playerstate.jump;
 mario.jumping = 1;
 
 //Enable player gravity
-mario.alarm[10] = 32;
+mario.alarm[10] = 16;
 
 //Make the player run
 mario.pmeter = global.pmeter_limit;
