@@ -1,8 +1,5 @@
 /// @description Yoshi
 
-//Depth
-depth = -5;
-
 //Default colour
 colour = 0;
 if (global.mountcolour != 0) {

@@ -29,7 +29,6 @@
     {"varType":1,"value":"-1","rangeEnabled":true,"rangeMin":-1.0,"rangeMax":99.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"myid","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":6,"value":"\"No\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "\"No\"",
-        "\"Up\"",
         "\"Diagonal Left\"",
         "\"Diagonal Right\"",
       ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"cannon","tags":[],"resourceType":"GMObjectProperty",},

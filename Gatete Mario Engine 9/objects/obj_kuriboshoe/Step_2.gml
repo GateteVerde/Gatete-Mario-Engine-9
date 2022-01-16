@@ -16,6 +16,9 @@ if (instance_exists(obj_mario)) {
     //Snap to position
     x = obj_mario.x;
     y = obj_mario.y;
+	
+	//Force depth to be equal to Mario's depth
+	depth = obj_mario.depth;
     
     //Force the player to be invisible, hold and spin jump
     with (obj_mario) {
@@ -90,9 +93,6 @@ if (instance_exists(obj_mario)) {
         else
             flying = false;
     }
-    
-    //Set depth
-    depth = -5;
 }
 
 //Otherwise, if the player does not exist.

@@ -38,7 +38,7 @@ if (ready == 1) {
     
         //Create a new player object...
         with (instance_create_depth(x, y, -5, obj_mario)) {
-                
+
             xscale = other.image_xscale;
             isflashing = other.isflashing;
         }
@@ -49,11 +49,17 @@ if (ready == 1) {
 }
 
 //If the player can move
-if (canmove == 1) {
+if ((canmove == 1) && (cannon < 2)) {
     
     //Set speed
-    if ((direction == 90) || (direction == 270))
-        speed = 1;
+    if ((direction == 90) || (direction == 270)) {
+		
+		//If Mario is in cannon mode and moving up
+		if ((cannon == 1) && (vspeed < 0))
+			speed = 4;
+		else
+			speed = 1;
+	}
     else
         speed = 0.5;
 }

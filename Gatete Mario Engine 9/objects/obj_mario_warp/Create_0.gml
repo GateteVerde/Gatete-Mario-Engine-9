@@ -5,6 +5,9 @@ destination = noone;
 exit_dir = 0;
 exit_id = -1;
 
+//Cannon mode
+cannon = 0;
+
 //Whether the player can exit the pipe
 ready = 0;
 

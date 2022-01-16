@@ -124,7 +124,6 @@ run = false;
 //Makes Mario able to fly
 flyfix = 0;
 flying = 0;
-flying_time = 0;
 
 // Cape variables
 cape = noone;

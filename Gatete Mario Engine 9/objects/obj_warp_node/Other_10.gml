@@ -19,15 +19,24 @@ if (global.exit_id == myid) {
             case (1): {
             
                 //If the player is going to be shot with a cannon
-                if (cannon != "No") {
-                
-                    //Create a player
-                    mario = instance_create_depth(x, y, 150, obj_mario);
-                    with (mario) {
-                    
-                        enable_gravity = false;
-                        xscale = other.cannon;
-                    }
+				if (cannon != "No") {
+					
+					//Create Mario
+					mario = instance_create_layer(x, y, "Main", obj_mario);
+					with (mario) {
+					
+						//Disable it's gravity
+						enable_gravity = false;
+						
+						//Set depth
+						depth = 150;
+						
+						//Set facing direction
+						if (other.cannon == "Diagonal Right")
+							xscale = 1;
+						else
+							xscale = -1;
+					}
                 
                     //Blast off
                     alarm[0] = 32;

@@ -21,11 +21,11 @@ if (instance_exists(obj_mario))
     }
 
     //Actual tongue location
-    x = round(t5*obj_mario.xscale + tongue1x);
+    x = t5*obj_mario.xscale + tongue1x;
     if (obj_yoshi.locked = 2)
-        y = round(obj_yoshi.y+4);
+        y = obj_yoshi.y+4;
     else
-        y = round(obj_yoshi.y-7);
+        y = obj_yoshi.y-7;
 
     //If Yoshi is moving his tongue out
     if (ready == 0) {

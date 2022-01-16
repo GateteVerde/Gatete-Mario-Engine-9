@@ -86,6 +86,15 @@
 //Slippery surface check
 isslip = (collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+1, obj_slippery, 1, 0)) ? true : false;
 
+//Update position based on xspeed, yspeed and yadd values
+if (freeze == false) {
+		
+	x += xspeed;
+	y += yspeed;
+	xspeed += xadd;
+	yspeed += yadd;
+}
+
 //If Mario is under the effects of a mega mushroom
 if (global.powerup == cs_mega) {
 	
@@ -176,15 +185,6 @@ else {
 
 //If gravity is enabled
 if (enable_gravity == 1) {
-	
-	//Update position based on xspeed and yspeed values
-	if (freeze == false) {
-		
-		x += xspeed;
-		y += yspeed;
-		xspeed += xadd;
-		yspeed += yadd;
-	}
 	
 	// Memory y-speed for cape, added after speed check
 	if (memory_yspeed != 0)

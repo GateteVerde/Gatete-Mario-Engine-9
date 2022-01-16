@@ -24,11 +24,15 @@
     
 	    //Force Mario to hold something
 	    obj_mario.holding = 4;
+		
+		//Force depth to be equal as Mario's depth
+		depth = obj_mario.depth+1;
         
 	    //If Yoshi is not licking and control is pressed.
 	    if (input_check_pressed(input.action_1))
 	    && (licking == 0)
-	    && (obj_mario.enable_control == true) {
+	    && (obj_mario.enable_control == true) 
+		&& (obj_mario.enable_gravity == true) {
     
 	        //If the mouth is empty, start licking.
 	        if (mouthholder == noone) {
@@ -150,9 +154,6 @@
 	        //Allow flutter after a while
 	        alarm[4] = 15
 	    }
-    
-	    //Depth
-	    depth = -4;
     
 	    //Manage Yoshi state
 	    if (mouthholder)
@@ -554,9 +555,6 @@ if (instance_exists(obj_mario)) {
                 f = 0;
         }
     }
-    
-    //Set the depth
-    depth = -5;
     
     //Set the facing direction
     image_xscale = obj_mario.xscale;

@@ -23,7 +23,7 @@ else if (global.mount == 1) {
 	pal_swap_set(spr_palette_yoshi, yoshicolour);
 		
     //Draw Yoshi
-    draw_sprite_ext(yoshisprite, 0, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
+    draw_sprite_ext(yoshisprite, 0, screen_round(x), screen_round(y)+1, direct, 1, 0, c_white, 1);
 	
 	//Set palette
 	pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible, spr_palette_mario_mega);
@@ -31,16 +31,16 @@ else if (global.mount == 1) {
     //Draw the player
     if (sequence == 3) {
     
-        if (image_xscale == 1)
+        if (direct == 1)
             draw_sprite_ext(sprite_index, -1, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
-        else if (image_xscale == -1)
+        else if (direct == -1)
             draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, 1, 1, 0, c_white, 1);
     }
     else {
     
-        if (image_xscale == 1)
+        if (direct == 1)
             draw_sprite_ext(sprite_index, -1, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
-        else if (image_xscale == -1)
+        else if (direct == -1)
             draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, -1, 1, 0, c_white, 1);
     }
 	
