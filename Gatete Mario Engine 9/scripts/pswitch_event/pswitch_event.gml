@@ -56,6 +56,9 @@ function pswitch_event() {
 			}
 		}
 		
+		//Turn on doors
+		with (obj_door_p) sprite_index = spr_door_p;
+		
 		//Create blue trampolines
 		with (obj_trampoline_switch)		
 			instance_create_layer(x, y, "Main", obj_trampoline_switch_activated);
@@ -106,7 +109,19 @@ function pswitch_event() {
 			mysolid = noone;
 		}
 		
-		//Destroy all blue switches
+		//Turn off doors
+		with (obj_door_p) {
+		
+			//If the door is not animated
+			if (image_speed == 0) {
+				
+				sprite_index = spr_door_p_outline;
+				image_speed = 0;
+				image_index = 0;
+			}
+		}
+		
+		//Destroy all blue trampoline
 		with (obj_trampoline_switch_activated) instance_destroy();
 	}
 }

@@ -51,32 +51,32 @@ if (held) {
 				else {
 						
 					//If there's not a solid in position
-					if (!collision_rectangle(bbox_left - 8, bbox_top, bbox_right + 8, bbox_bottom, obj_solid, 0, 0)) {
+					if (!collision_rectangle(x - 16, bbox_top, x + 16, bbox_bottom, obj_solid, 0, 0)) {
 						
 						//Snap into the side of Mario
 						if (obj_mario.xscale == 1)
-							x = obj_mario.x+6;
+							x = obj_mario.x+16;
 						else
-							x = obj_mario.x-22;
+							x = obj_mario.x-16;
 					}
 						
 					//Otherwise
 					else {
 						
 						//If there's a solid in position
-						if (collision_rectangle(bbox_left - 8, bbox_top, bbox_right + 8, bbox_bottom, obj_solid, 0, 0))
-						&& (!collision_rectangle(bbox_left - 8, bbox_top-8, bbox_right + 8, bbox_bottom, obj_solid, 0, 0)) {
+						if (collision_rectangle(x - 16, bbox_top, x + 16, bbox_bottom, obj_solid, 0, 0))
+						&& (!collision_rectangle(x - 16, bbox_top-8, x + 16, bbox_bottom, obj_solid, 0, 0)) {
 							
 							//Snap into the side of Mario
 							if (obj_mario.xscale == 1)
-								x = obj_mario.x+6;
+								x = obj_mario.x+16;
 							else
-								x = obj_mario.x-22;
+								x = obj_mario.x-16;
 						}
 						else {
 							
 							//Snap where Mario is
-							x = obj_mario.x - 8;
+							x = obj_mario.x;
 								
 							//Set the horizontal speed
 							if (obj_mario.xscale == 1)
@@ -159,17 +159,8 @@ else {
 					//Reset gravity
 					yadd = 0;
 					
-			        //Create a new mushroom block
-			        with (instance_create_layer(x, y, "Main", obj_mblock)) {
-        
-			            //Snap horizontally
-			            x = round(x/16) * 16;
-            
-			            //Snap vertically
-			            y = ceil(y/8) * 8;
-			            while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
-			                y--;
-			        }
+			        //Create a new pullable key
+				    instance_create_layer(x-8, y, "Main", obj_pullkey);
 					
 					//Destroy
 					instance_destroy();
@@ -185,7 +176,7 @@ else {
 						yadd = 0;
 					
 				        //Create a new pullable key
-				        instance_create_layer(x, y, "Main", obj_pullkey);
+				        instance_create_layer(x-8, y, "Main", obj_pullkey);
 					
 						//Destroy
 						instance_destroy();

@@ -51,7 +51,7 @@ if (held) {
 				else {
 						
 					//If there's not a solid in position
-					if (!collision_rectangle(bbox_left - 8, bbox_top, bbox_right + 8, bbox_bottom, obj_solid, 0, 0)) {
+					if (!collision_rectangle(x - 16, bbox_top, x + 16, bbox_bottom, obj_solid, 0, 0)) {
 						
 						//Snap into the side of Mario
 						if (obj_mario.xscale == 1)
@@ -64,8 +64,8 @@ if (held) {
 					else {
 						
 						//If there's a solid in position
-						if (collision_rectangle(bbox_left - 8, bbox_top, bbox_right + 8, bbox_bottom, obj_solid, 0, 0))
-						&& (!collision_rectangle(bbox_left - 8, bbox_top-8, bbox_right + 8, bbox_bottom, obj_solid, 0, 0)) {
+						if (collision_rectangle(x - 16, bbox_top, x + 16, bbox_bottom, obj_solid, 0, 0))
+						&& (!collision_rectangle(x - 16, bbox_top-8, x + 16, bbox_bottom, obj_solid, 0, 0)) {
 							
 							//Snap into the side of Mario
 							if (obj_mario.xscale == 1)
@@ -76,7 +76,7 @@ if (held) {
 						else {
 							
 							//Snap where Mario is
-							x = obj_mario.x - 8;
+							x = obj_mario.x;
 								
 							//Set the horizontal speed
 							if (obj_mario.xscale == 1)

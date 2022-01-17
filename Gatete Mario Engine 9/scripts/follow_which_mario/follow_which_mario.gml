@@ -9,6 +9,10 @@ function follow_which_mario() {
 	//Otherwise, if Mario is warping through a pipe
 	else if (instance_exists(obj_mario_warp))
 		follow = obj_mario_warp;
+		
+	//Otherwise, if Mario is warping through a door
+	else if (instance_exists(obj_mario_door))
+		follow = obj_mario_door;
     
 	//Otherwise, if Mario does not exist anymore
 	else 

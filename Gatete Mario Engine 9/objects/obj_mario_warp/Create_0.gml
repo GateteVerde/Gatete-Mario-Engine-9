@@ -1,7 +1,7 @@
 /// @description It's a me, Mario! (Pipe)
 
 //Default variables
-destination = noone;
+destination = room_next(room);
 exit_dir = 0;
 exit_id = -1;
 
