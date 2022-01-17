@@ -15,7 +15,10 @@ if (other.yspeed < 0)
 	with (instance_create_depth(x, y, 9, obj_noteblock_warp)) {
 		
 		//Set the room to warp into
-		myroom = other.myroom;
+		destination = other.destination;
+		
+		//Set the warp id
+		exit_id = other.exit_id;
 	
 		//Set state to bumped
 		ready = 1;

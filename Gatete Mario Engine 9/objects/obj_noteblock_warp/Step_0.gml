@@ -52,9 +52,37 @@ if (instance_exists(obj_mario)) {
 		//Make Mario jump
 		with (obj_mario) {
 			
-			event_user(1);
-			jumping = 2;
-			state = playerstate.jump;
+			//If the 'Jump' key is not held
+			if (!input_check(input.action_0)) {
+			
+				event_user(1);
+				jumping = 2;
+				state = playerstate.jump;
+			}
+			
+			//Otherwise
+			else {
+				
+				//Play 'Trampoline' sound
+				audio_play_sound(snd_trampoline, 0, false);
+				
+				//Create 'Warp Jump' object
+				with (instance_create_depth(x, y, -5, obj_mario_jump_note)) {
+				
+					//Hereby facing direction
+					image_xscale = other.xscale;
+					
+					//Hereby flashing
+					isflashing = other.isflashing;
+				}
+				
+				//Hereby room and warp id
+				obj_mario_jump_note.exit_id = other.exit_id;
+				obj_mario_jump_note.destination = other.destination;
+				
+				//Destroy
+				instance_destroy();
+			}
 		}
 	}
 }

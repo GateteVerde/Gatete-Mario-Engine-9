@@ -40,6 +40,7 @@ if (ready == 1) {
         with (instance_create_depth(x, y, -5, obj_mario)) {
 
             xscale = other.image_xscale;
+			state = playerstate.jump;
             isflashing = other.isflashing;
         }
         
