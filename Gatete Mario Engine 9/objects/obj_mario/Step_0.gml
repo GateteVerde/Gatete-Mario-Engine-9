@@ -1001,7 +1001,7 @@ if (enable_gravity == 1) {
         //If the player is below the bottom room boundary and didn't activate a warp, restart the room.
         if (bbox_top > room_height+32) {
                     
-            if (pitwarp == false) {
+            if (!instance_exists(obj_pitwarp)) {
             
                 instance_create_depth(x, y, depth, obj_mario_dead);
                 instance_destroy();
@@ -1009,9 +1009,22 @@ if (enable_gravity == 1) {
             }
             
             else {
+				
+				//Temporary variable
+				var _dest = obj_pitwarp.destination;
             
-                //Force the player to fall.
-                yspeed = 4;
+				//Set exit type
+				global.postchange = 0;
+
+				//Set warp id
+				global.exit_id = obj_pitwarp.exit_id;
+
+				//If no curtain exists
+				if (instance_number(obj_fade_in) == 0) {
+	
+					with (instance_create_depth(0, 0, -100, obj_fade_in))
+						target = _dest;
+				}
             }       
         }
     }

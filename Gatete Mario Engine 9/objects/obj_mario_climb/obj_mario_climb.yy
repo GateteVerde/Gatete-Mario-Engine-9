@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_beanstalk",
-    "path": "sprites/spr_beanstalk/spr_beanstalk.yy",
+    "name": "spr_mario_small_climb",
+    "path": "sprites/spr_mario_small_climb/spr_mario_small_climb.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,19 +22,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Special/Do Not Use!/Items.yy",
+    "name": "Warps",
+    "path": "folders/Objects/Special/Do Not Use!/Mario/Events/Warps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_beanstalk",
+  "name": "obj_mario_climb",
   "tags": [],
   "resourceType": "GMObject",
 }

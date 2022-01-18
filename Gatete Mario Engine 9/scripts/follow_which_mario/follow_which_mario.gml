@@ -21,6 +21,10 @@ function follow_which_mario() {
 	//Otherwise, if Mario is using a warp note block
 	else if (instance_exists(obj_mario_jump_note))
 		follow = obj_mario_jump_note;
+		
+	//Otherwise, if Mario is climbing
+	else if (instance_exists(obj_mario_climb))
+		follow = obj_mario_climb;
     
 	//Otherwise, if Mario does not exist anymore
 	else 

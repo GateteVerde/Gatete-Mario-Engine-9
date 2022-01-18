@@ -183,12 +183,11 @@ else {
 				
 				//If the object being followed is the warp note object, do not follow vertically
 				if (follow != obj_mario_jump_note) {
-				
-					//If the camera is 6 pixels below Mario's y position, move 6 pixels upwards until the camera catches the player.
+					
 					if (y > follow.y+6)
-					    y -= 6;
+						y -= 6;
 					else
-					    y = follow.y;
+						y = follow.y;
 				}
 			}
 		}

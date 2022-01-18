@@ -69,7 +69,10 @@ if (global.exit_id == myid) {
             } break;
 			
 			//Jump
-			case (2): instance_create_depth(x, y, -5, obj_mario_jump); break; 
+			case (2): instance_create_depth(x, y, -5, obj_mario_jump); break;
+			
+			//Climb
+			case (3): instance_create_depth(x, y, -5, obj_mario_climb); break;
         }
         
         //Reset warp
