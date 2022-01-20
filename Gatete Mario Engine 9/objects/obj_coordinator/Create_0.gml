@@ -157,6 +157,18 @@ init_shockwave();
 	
 #endregion
 
+//World Map Enums
+#region WORLD MAP ENUMS
+
+	enum mapstate {
+
+	    preidle,
+	    idle,
+	    wait,
+	    walk
+	}
+#endregion
+
 //Current pitch
 pitch = 1;
 

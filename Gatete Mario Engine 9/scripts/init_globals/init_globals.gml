@@ -7,6 +7,9 @@ function init_globals() {
 	
 	//Stream played in room
 	global.stream = noone;
+	
+	//Stream played in map
+	global.mapstream = noone;
 
 	//World Number
 	global.world = "1";
@@ -175,8 +178,15 @@ function init_globals() {
 	//Star Coins collected
 	global.starcoins = 0;
 
-	//Data structure for storing the state of the world map.
-	global.mapscreen = ds_map_create();
+	//Handle the data structure of the levels completed on the map and allows exit from them
+	global.beaten = 0;
+	global.worldmap_beaten = ds_map_create();
+
+	//Handle the data structure of the world map.
+	global.worldmap = ds_map_create();
+
+	//Levels beaten
+	global.cleared_levels = 0;
 
 	//Map inventory variables
 	for (var i=0; i<15; i++) {

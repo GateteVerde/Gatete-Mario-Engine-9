@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "spr_mapstart",
+    "path": "sprites/spr_mapstart/spr_mapstart.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": {
+    "name": "spr_path_node",
+    "path": "sprites/spr_path_node/spr_path_node.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_node",
+    "path": "objects/obj_node/obj_node.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Decoration",
+    "path": "folders/Objects/World Map/Decoration.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_mapstart",
+  "tags": [],
+  "resourceType": "GMObject",
+}
