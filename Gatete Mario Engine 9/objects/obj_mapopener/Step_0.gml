@@ -49,30 +49,31 @@ while (step >= 1) {
         if (x+xorig == node.x+7)
         && (y+yorig == node.y+7) {
 			
-			//Stop 'Path Reveal' sound
-			audio_stop_sound(snd_pathreveal);
+			//If this node opens multiple paths
+			if (node.object_index == obj_node_multi) {
+				
+				//Make that node open adyacent paths
+				with (node) {
+					
+					event_user(15);
+				}
+				
+				//Destroy opener
+				instance_destroy();
+			}
 			
-			//Play 'Path Reveal End' sound
-			audio_play_sound(snd_pathreveal_end, 0, false);
+			//Otherwise
+			else {
 			
-            //Check for a panel
-            panel = collision_point(x+xorig, y+yorig, obj_levelpanel, 0, 0);
-            
-            //If there's a panel
-            if (panel) {
-            
-                //Make it visible...
-                panel.image_alpha = 1;
-                
-                //...and remember it
-                ds_map_replace(global.worldmap, panel, 1);                
-            }
-            
-			//Make the player able to move
-            with (obj_mapmario) alarm[1] = 2;               
+				//Stop 'Path Reveal' sound
+				audio_stop_sound(snd_pathreveal);
+			
+				//Play 'Path Reveal End' sound
+				audio_play_sound(snd_pathreveal_end, 0, false);
         
-            //Destroy
-            instance_destroy();
+	            //Destroy
+	            instance_destroy();
+			}
         }
     }
     

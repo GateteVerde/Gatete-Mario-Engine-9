@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_path_node_b","path":"sprites/spr_path_node_b/spr_path_node_b.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 9.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

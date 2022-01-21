@@ -43,7 +43,8 @@ is_ready = 0;
 xscale = 1;
 
 //Reset global variables
-reset_globals(true);
+reset_globals(global.died);
+global.died = 0;
 
 //To save the game
 savegame = false;
@@ -51,6 +52,6 @@ savegame = false;
 //If the level has been beaten
 if (global.clear > 0) {
 
-    alarm[0] = 30;
+    alarm[0] = 32;
     status = mapstate.wait;   
 }

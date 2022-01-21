@@ -30,3 +30,6 @@ global.safeguard = 0;
 
 //Show 'Mario Start' again
 global.mariostart = 0;
+
+//Mario died, remove powerup
+global.died = 1;

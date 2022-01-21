@@ -141,6 +141,9 @@ function init_globals() {
 
 	//Map pipe area type
 	global.pipetype = 0;
+	
+	//Did Mario died?
+	global.died = 0;
 
 	//Data structure for opened doors
 	global.doors = ds_map_create();

@@ -1,10 +1,10 @@
-/// @function reset_globals(keep_powerup);
+/// @function reset_globals(remove_powerup);
 /// @param keep_powerup If set to false, set 'Small' powerup.
 
-function reset_globals(keep_powerup) {
+function reset_globals(remove_powerup) {
 	
 	//Reset powerup if set to true
-	global.powerup = (keep_powerup) ? global.powerup : cs_small;
+	global.powerup = (remove_powerup) ? cs_small : global.powerup;
 
 	//Reset time
 	global.timer = 0;

@@ -14,10 +14,7 @@ function end_level() {
             
 	        //Otherwise, go to the map.
 	        else
-	            target = rm_course_w1_l1;
+	            target = rm_worldmap;
 	    }
 	}
-	
-	//Reset globals (TO BE MOVED)
-	reset_globals(false);
 }

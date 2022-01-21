@@ -27,12 +27,13 @@ if (status == mapstate.idle)
     
         //Do not allow movement if there's paths opening
         if (is_ready == 0)
-		&& (instance_number(obj_fade_out) == 0)
         && (instance_number(obj_mapopener) == 0) {
 			
-			//Open adyacent paths
+			/*
+			//Open adyacent paths (Debug)
 			if (input_check_pressed(input.action_1))
 				event_user(15);
+			*/
     
             //Moving upwards
             if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
@@ -97,7 +98,7 @@ if (status == mapstate.idle)
             //If there's a panel and this panel is available        
             if (panel)
             && (panel.beaten < 2)
-            && ((status == mapstate.idle) || (status == mapstate.preidle))
+            && (status == mapstate.idle)
             && (input_check_pressed(input.action_0)) {
             
                 //Play 'Enter Stage' sound
@@ -110,7 +111,7 @@ if (status == mapstate.idle)
                 obj_mapcontrol.alarm[1] = 1;
                 
                 //Go to the stage
-                panel.alarm[1] = 60;
+                panel.alarm[1] = 1;
             }        
         }
     }    
@@ -175,7 +176,7 @@ else if (status == mapstate.walk) {
                 status = mapstate.preidle;
                 
                 //Wait to be able to walk again
-                alarm[2] = 20;
+                alarm[11] = 20;
                 
                 //Reset steps
                 step = 0;

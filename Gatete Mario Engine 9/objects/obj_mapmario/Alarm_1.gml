@@ -1,5 +1,7 @@
 /// @description Save the game
 
+status = mapstate.idle;
+
 /*
 
 //Normal exit
