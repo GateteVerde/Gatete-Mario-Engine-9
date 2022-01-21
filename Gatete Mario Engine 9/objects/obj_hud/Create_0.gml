@@ -1,7 +1,7 @@
 /// @description Displays the In-Level HUD
 
 //Stay always at the front
-depth = -100;
+depth = -98;
 
 //Collection mode
 collect_mode = -1;

@@ -32,11 +32,14 @@ x = round(x);
 y = round(y);
 
 //This grows the image, you can change the values to control how fast the circle should grow.
-scale += -6.25;
-if (scale < 0) {
+scale += -(global.gw / 50);
+if (scale < -(global.gw / 50)) {
 	
-	if (target != noone)
-		room_goto(target);
-	else
-		room_goto_next();
+	//If there's not a fade in object present
+	if (instance_number(obj_fade_in) == 0) {
+	
+		//Go to the destination room
+		with (instance_create_depth(0, 0, -100, obj_fade_in))
+			target = other.target;
+	}
 }

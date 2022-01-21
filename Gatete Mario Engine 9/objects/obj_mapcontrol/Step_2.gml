@@ -8,7 +8,7 @@ y = round(y);
 if (instance_exists(obj_mapmario)) {
 
     x = obj_mapmario.x + 8;
-    y = obj_mapmario.y + 8;
+    y = obj_mapmario.y - 8;
 }
 
 //Clamp Y

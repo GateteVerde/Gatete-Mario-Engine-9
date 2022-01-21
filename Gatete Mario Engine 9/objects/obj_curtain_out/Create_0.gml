@@ -1,7 +1,7 @@
 /// @description Curtain-in effect
 
 //Depth
-depth = -9;
+depth = -21;
 
 //The image is going to zoom out, so its initial size should be VERY big and shrink until it gets very small.
 scale = 0;

@@ -3,6 +3,9 @@
 //Default variables
 target = noone;
 
+//Depth
+depth = -100;
+
 //Create freeze screen
 freeze_create();
 

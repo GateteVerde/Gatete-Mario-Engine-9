@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_mapwater_river","path":"sprites/spr_mapwater_river/spr_mapwater_river.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 9.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

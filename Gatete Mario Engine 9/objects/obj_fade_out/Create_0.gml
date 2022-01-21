@@ -2,3 +2,6 @@
 
 //Set the alpha
 alpha = 1;
+
+//Set the depth
+depth = -100;

@@ -1,8 +1,12 @@
 /// @description Open the normal path
 
 //If no direction was set
-if (check.normalexit == noone)
-	exit;
+if (check.normalexit == noone) {
+	
+	alarm[10] = 32;
+	with (obj_mapcontrol)
+		alarm[0] = 32;
+}
 
 //Otherwise
 else {
@@ -20,6 +24,14 @@ else {
             if (pathU) 
             && (pathU.image_alpha == 0)
                 with (instance_create_layer(x, y, "Main", obj_mapopener)) direct = 90;
+				
+			//Otherwise, if the path has been opened before
+			else {
+			
+				alarm[10] = 32;
+				with (obj_mapcontrol)
+					alarm[0] = 32;
+			}
         } break;
             
         //Down
@@ -32,6 +44,14 @@ else {
             if (pathD) 
             && (pathD.image_alpha == 0) 
                 with (instance_create_layer(x, y, "Main", obj_mapopener)) direct = 270;
+				
+			//Otherwise, if the path has been opened before
+			else {
+			
+				alarm[10] = 32;
+				with (obj_mapcontrol)
+					alarm[0] = 32;
+			}
         } break;
             
         //Left
@@ -44,6 +64,14 @@ else {
             if (pathL) 
             && (pathL.image_alpha == 0)
                 with (instance_create_layer(x, y, "Main", obj_mapopener)) direct = 180;
+				
+			//Otherwise, if the path has been opened before
+			else {
+			
+				alarm[10] = 32;
+				with (obj_mapcontrol)
+					alarm[0] = 32;
+			}
         } break;
             
         //Right
@@ -56,6 +84,14 @@ else {
             if (pathR) 
             && (pathR.image_alpha == 0)
                 with (instance_create_layer(x, y, "Main", obj_mapopener)) direct = 0;
+				
+			//Otherwise, if the path has been opened before
+			else {
+			
+				alarm[10] = 32;
+				with (obj_mapcontrol)
+					alarm[0] = 32;
+			}
         } break;    
 	}
 }
