@@ -1,4 +1,4 @@
-/// @description Curtain-in effect
+/// @description Curtain-out effect
 
 //Depth
 depth = -21;

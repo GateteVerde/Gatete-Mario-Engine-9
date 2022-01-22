@@ -1,6 +1,10 @@
 /// @description Save the game
 
+//Set idle state
 status = mapstate.idle;
+
+//Begin music
+with (obj_mapcontrol) alarm[0] = 2;
 
 /*
 

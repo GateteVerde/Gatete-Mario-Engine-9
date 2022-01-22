@@ -175,6 +175,9 @@ pitch = 1;
 //Lives
 addlives = 0;
 
+//Remember last room
+last_room = noone;
+
 //Current File
 global.file = 0;
 
@@ -186,9 +189,6 @@ global.gh = room_height;
 
 //Game Restart
 global.restart = false;
-
-//Rescale the surface (sub-pixels)
-rescale_surface = false;
 
 //Data structure for picked up 3up moons
 global.moons = ds_map_create();

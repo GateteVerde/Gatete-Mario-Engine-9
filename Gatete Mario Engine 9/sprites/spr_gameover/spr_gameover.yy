@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Special",
-    "path": "folders/Sprites/Special.yy",
+    "name": "System",
+    "path": "folders/Sprites/Special/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gameover",
