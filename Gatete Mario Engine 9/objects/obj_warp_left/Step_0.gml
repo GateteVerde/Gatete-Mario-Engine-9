@@ -1,5 +1,10 @@
 /// @description Check if 'Right' is pressed and the player is next to the pipe
 
+//Do not warp if mini is enabled and Mario does not have the tiny powerup
+if (mini == true)
+&& (global.powerup != cs_tiny)
+	exit;
+
 //If Mario does not have the 'Mega' powerup
 if (global.powerup != cs_mega) {
 

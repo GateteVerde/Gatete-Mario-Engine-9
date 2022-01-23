@@ -39,9 +39,13 @@ if (ready == 1) {
         //Create a new player object...
         with (instance_create_depth(x, y, -5, obj_mario)) {
 
+			//Hereby facing direction and flashing
             xscale = other.image_xscale;
-			state = playerstate.jump;
             isflashing = other.isflashing;
+			
+			//If moving down, set 'Jump' state
+			if (other.vspeed > 0)
+				state = playerstate.jump;
         }
         
         //...and destroy this object

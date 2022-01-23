@@ -27,13 +27,12 @@ if (status == mapstate.idle)
     
         //Do not allow movement if there's paths opening
         if (is_ready == 0)
+		&& (audio_is_playing(global.mapstream))
         && (instance_number(obj_mapopener) == 0) {
 			
-			/*
 			//Open adyacent paths (Debug)
 			if (input_check_pressed(input.action_1))
 				event_user(15);
-			*/
     
             //Moving upwards
             if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
