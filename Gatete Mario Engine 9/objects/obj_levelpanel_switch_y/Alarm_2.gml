@@ -49,7 +49,7 @@ else if (eff > 0) {
             image_index = 2;
             
             //Set the motion
-			motion_set(a, 5);
+			motion_set(a, 6);
         }
         
         //Set new direction
