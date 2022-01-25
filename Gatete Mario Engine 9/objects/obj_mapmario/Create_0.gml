@@ -20,6 +20,9 @@ else {
 //Whether the object is moving
 status = mapstate.idle;
 
+//Whether inventory is opened
+inventory = 0;
+
 //Speed
 spd = 1;
 

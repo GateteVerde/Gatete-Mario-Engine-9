@@ -11,109 +11,144 @@ if (status == mapstate.idle)
     //Check for a panel
     panel = collision_point(x+xorig, y+yorig, obj_levelpanel, 0, 0);
     
-	/*
     //If the map HUD exists
     if (instance_exists(obj_hud_map)) {
     
         //If there's a panel, print the name on the HUD
-        if (panel)
-            obj_hud_map.levelname = string(panel.levelname);
-        else
-            obj_hud_map.levelname = "";                        
-    }	
-	*/
-    
-    if (status != mapstate.wait) {
-    
-        //Do not allow movement if there's paths opening
-        if (is_ready == 0)
-		&& (audio_is_playing(global.mapstream))
-        && (instance_number(obj_mapopener) == 0) {
+        if (panel) {
 			
-			//Open adyacent paths (Debug)
-			if (input_check_pressed(input.action_1))
-				event_user(15);
+            obj_hud_map.levelname = string(panel.levelname);
+			obj_hud_map.levelprint = string(panel.levelprint);
+			obj_hud_map.levelid = string(panel.levelid);
+		}
+        else {
+			
+            obj_hud_map.levelname = "";
+			obj_hud_map.levelprint = ".";
+			obj_hud_map.levelid = noone;
+		}
+    }	
     
-            //Moving upwards
-            if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
+    //Do not allow movement if there's paths opening or if Mario is on the wait state
+	if (status != mapstate.preidle)
+    && (is_ready == 0)
+	&& (audio_is_playing(global.mapstream))
+    && (instance_number(obj_mapopener) == 0) {
+
+		//If the inventory is not opened
+		if (inventory == 0) {
+			
+			//Open the inventory
+			if (input_check_pressed(input.action_1)) {
+			
+				//Play 'Inventory' sound
+				audio_play_sound(snd_inventory, 0, false);
+				
+				//Open inventory
+				inventory = 1;
+				
+				//Force set wait status
+				status = mapstate.wait;
+			}
+    
+	        //Moving upwards
+	        if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
             
-                //Check for a path above
-                var pathU = collision_point(x+xorig, y+yorig-8, obj_pathparent, 0, 0);
+	            //Check for a path above
+	            var pathU = collision_point(x+xorig, y+yorig-8, obj_pathparent, 0, 0);
             
-                //If there's a path above and it is visible
-                if (pathU) 
-                && (pathU.image_alpha == 1) {
+	            //If there's a path above and it is visible
+	            if (pathU) 
+	            && (pathU.image_alpha == 1) {
                 
-                    direct = 90;
-                    status = mapstate.walk;
-                }
-            }
+	                direct = 90;
+	                status = mapstate.walk;
+	            }
+	        }
             
-            //Moving downwards
-            else if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
+	        //Moving downwards
+	        else if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
             
-                //Check for a path above
-                var pathD = collision_point(x+xorig, y+yorig+9, obj_pathparent, 0, 0);
+	            //Check for a path above
+	            var pathD = collision_point(x+xorig, y+yorig+9, obj_pathparent, 0, 0);
             
-                //If there's a path above and it is visible
-                if (pathD) 
-                && (pathD.image_alpha == 1) {
+	            //If there's a path above and it is visible
+	            if (pathD) 
+	            && (pathD.image_alpha == 1) {
                 
-                    direct = 270;
-                    status = mapstate.walk;
-                }
-            }
+	                direct = 270;
+	                status = mapstate.walk;
+	            }
+	        }
             
-            //Moving to the left
-            else if ((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) {
+	        //Moving to the left
+	        else if ((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) {
             
-                //Check for a path above
-                var pathL = collision_point(x+xorig-8, y+yorig, obj_pathparent, 0, 0);
+	            //Check for a path above
+	            var pathL = collision_point(x+xorig-8, y+yorig, obj_pathparent, 0, 0);
             
-                //If there's a path above and it is visible
-                if (pathL) 
-                && (pathL.image_alpha == 1) {
+	            //If there's a path above and it is visible
+	            if (pathL) 
+	            && (pathL.image_alpha == 1) {
                 
-                    direct = 180;
-                    status = mapstate.walk;
-                }
-            }
+	                direct = 180;
+	                status = mapstate.walk;
+	            }
+	        }
             
-            //Moving to the right
-            else if ((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
+	        //Moving to the right
+	        else if ((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
             
-                //Check for a path above
-                var pathR = collision_point(x+xorig+9, y+yorig, obj_pathparent, 0, 0);
+	            //Check for a path above
+	            var pathR = collision_point(x+xorig+9, y+yorig, obj_pathparent, 0, 0);
             
-                //If there's a path above and it is visible
-                if (pathR) 
-                && (pathR.image_alpha == 1) {
+	            //If there's a path above and it is visible
+	            if (pathR) 
+	            && (pathR.image_alpha == 1) {
                 
-                    direct = 0;
-                    status = mapstate.walk;
-                }
-            }
+	                direct = 0;
+	                status = mapstate.walk;
+	            }
+	        }
             
-            //If there's a panel and this panel is available        
-            if (panel)
-            && (panel.beaten < 2)
-            && (status == mapstate.idle)
-            && (input_check_pressed(input.action_0)) {
+	        //If there's a panel and this panel is available        
+	        if (panel)
+	        && (panel.beaten < 2)
+	        && (status == mapstate.idle)
+	        && (input_check_pressed(input.action_0)) {
             
-                //Play 'Enter Stage' sound
-                audio_play_sound(snd_enterstage, 0, false);
+	            //Play 'Enter Stage' sound
+	            audio_play_sound(snd_enterstage, 0, false);
             
-                //The player is ready
-                is_ready = 1;
+	            //The player is ready
+	            is_ready = 1;
                 
-                //Stop music
-                obj_mapcontrol.alarm[1] = 1;
+	            //Stop music
+	            obj_mapcontrol.alarm[1] = 1;
                 
-                //Go to the stage
-                panel.alarm[1] = 1;
-            }        
-        }
-    }    
+	            //Go to the stage
+	            panel.alarm[1] = 1;
+	        }
+		}
+			
+		//Otherwise, if it is opened
+		else if (inventory == 1) {
+			
+			//Close inventory
+			if (input_check_pressed(input.action_1))
+			|| (input_check_pressed(input.action_2)) {
+			
+				//Play 'Inventory' sound
+				audio_play_sound(snd_inventory, 0, false);
+				
+				//Open inventory
+				inventory = 0;
+				
+				//Force set wait status
+				status = mapstate.idle;
+			}
+		}
+    }
 }
 
 //Otherwise, if the player is moving
@@ -191,9 +226,9 @@ else if (status == mapstate.walk) {
             
     //Update spd
     if (is_climbing == false)
-        spd = 1;
+        spd = 2;
     else
-        spd = 0.5;
+        spd = 1;
 }
 
 //Check for a climbing object
