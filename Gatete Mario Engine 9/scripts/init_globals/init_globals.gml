@@ -190,13 +190,13 @@ function init_globals() {
 
 	//Levels beaten
 	global.cleared_levels = 0;
-
+	
 	//Map inventory variables
-	for (var i=0; i<15; i++) {
-
-	    global.inventory[i] = 0;
+	for (var i=0; i<30; i++) {
+		
+		global.inventory[i] = cs_small;
 	}
-    
+	
 	//100% game completion variable
 	global.gameclear = 0;
 }

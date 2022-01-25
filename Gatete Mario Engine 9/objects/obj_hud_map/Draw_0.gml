@@ -37,6 +37,53 @@ draw_set_alpha(1);
 
 	//Draw base
 	draw_sprite_ext(spr_gui_map_inventory, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y, 1, 1, 0, c_white, 1);
+
+	//Draw items
+	#region ITEMS  1 - 10
+	 
+		for (var i = 1; i < 11; i++) {
+			
+			//If there's a powerup in the slot
+			if (global.inventory[i] != cs_small) {
+			
+				//Set the position of the box
+				if (obj_mapmario.boxselection == i)
+					draw_sprite_ext(macro_get_sprite(global.inventory[i]), 0, (camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) - 99 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 10 - inv_offset_y, 1, 1, 0, c_white, 1);
+				else
+					draw_sprite_ext(macro_get_sprite(global.inventory[i]), 0, (camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) - 99 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 10 - inv_offset_y, 1, 1, 0, c_white, 0.5);
+			}
+		}
+	#endregion	
+	#region ITEMS 11 - 20
+	 
+		for (var i = 11; i < 21; i++) {
+			
+			//If there's a powerup in the slot
+			if (global.inventory[i] != cs_small) {
+			
+				//Set the position of the box
+				if (obj_mapmario.boxselection == i)
+					draw_sprite_ext(macro_get_sprite(global.inventory[i]), 0, (camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) - 99 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 32 - inv_offset_y, 1, 1, 0, c_white, 1);
+				else
+					draw_sprite_ext(macro_get_sprite(global.inventory[i]), 0, (camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) - 99 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 32 - inv_offset_y, 1, 1, 0, c_white, 0.5);
+			}
+		}
+	#endregion	
+	#region ITEMS 21 - 30
+	 
+		for (var i = 21; i < 30; i++) {
+		
+			//If there's a powerup in the slot
+			if (global.inventory[i] != cs_small) {
+			
+				//Set the position of the box
+				if (obj_mapmario.boxselection == i)
+					draw_sprite_ext(macro_get_sprite(global.inventory[i]), 0, (camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) - 99 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 54 - inv_offset_y, 1, 1, 0, c_white, 1);
+				else
+					draw_sprite_ext(macro_get_sprite(global.inventory[i]), 0, (camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) - 99 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 54 - inv_offset_y, 1, 1, 0, c_white, 0.5);
+			}
+		}
+	#endregion
 #endregion
 
 //Bar

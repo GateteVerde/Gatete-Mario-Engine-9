@@ -22,6 +22,7 @@ status = mapstate.idle;
 
 //Whether inventory is opened
 inventory = 0;
+boxselection = 0;
 
 //Speed
 spd = 1;

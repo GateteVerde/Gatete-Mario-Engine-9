@@ -806,6 +806,7 @@
     {"id":{"name":"spr_mario_squirrel_runjump","path":"sprites/spr_mario_squirrel_runjump/spr_mario_squirrel_runjump.yy",},"order":3,},
     {"id":{"name":"obj_mario_door","path":"objects/obj_mario_door/obj_mario_door.yy",},"order":1,},
     {"id":{"name":"spr_mario_penguin_somersault","path":"sprites/spr_mario_penguin_somersault/spr_mario_penguin_somersault.yy",},"order":21,},
+    {"id":{"name":"snd_wrong","path":"sounds/snd_wrong/snd_wrong.yy",},"order":14,},
     {"id":{"name":"spr_donut_triple_red","path":"sprites/spr_donut_triple_red/spr_donut_triple_red.yy",},"order":5,},
     {"id":{"name":"spr_levelpanel_beaten","path":"sprites/spr_levelpanel_beaten/spr_levelpanel_beaten.yy",},"order":2,},
     {"id":{"name":"obj_skewer_right","path":"objects/obj_skewer_right/obj_skewer_right.yy",},"order":3,},

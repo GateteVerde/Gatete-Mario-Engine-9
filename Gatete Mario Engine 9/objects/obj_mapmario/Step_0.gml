@@ -39,7 +39,7 @@ if (status == mapstate.idle)
 		if (inventory == 0) {
 			
 			//Open the inventory
-			if (input_check_pressed(input.action_1)) {
+			if (input_check_pressed(input.action_2)) {
 			
 				//Play 'Inventory' sound
 				audio_play_sound(snd_inventory, 0, false);
@@ -49,6 +49,11 @@ if (status == mapstate.idle)
 				
 				//Force set wait status
 				status = mapstate.wait;
+				
+				//Set inventory selector
+				boxselection = 1;
+				if (global.inventory[0] == cs_small)
+					boxselection = 0;
 			}
     
 	        //Moving upwards
@@ -146,6 +151,163 @@ if (status == mapstate.idle)
 				
 				//Force set wait status
 				status = mapstate.idle;
+			}
+			
+			//Otherwise, if there is a item to select
+			else if (boxselection > 0) {
+			
+				//If the 'Confirm' key is pressed
+				if (input_check_pressed(input.action_0)) {
+			
+					//If no star or p-wing is selected
+					if (global.inventory[boxselection] != cs_pwing)
+					&& (global.inventory[boxselection] != cs_starman) {
+						
+						//If a P-Wing is not active
+						if (global.pwing == 0) {
+					
+							//Remember the last powerup
+							var previous = global.powerup;
+					
+							//Change the powerup with the selected item
+							global.powerup = global.inventory[boxselection];
+							
+							//If Mario is small
+							if (previous == cs_small) {
+                        
+		                        //Shift the inventory items over by one
+		                        for (var i = boxselection; i < global.inventory[0]; i++) {
+                        
+		                            global.inventory[i] = global.inventory[i+1];
+		                        }
+                            
+		                        //Subtract from the number of items in the inventory
+		                        global.inventory[0]--;
+		                    }
+                    
+		                    //Otherwise, replace the powerup with the old powerup.
+		                    else {
+								
+								global.inventory[boxselection] = previous;
+		                    }
+					
+							//Finish item retrieval
+							event_user(1);
+						}
+				
+						//Otherwise
+						else {
+				
+							//Deny event and play 'Wrong' sound
+							audio_play_sound(snd_wrong, 0, false);
+						}
+					}
+					
+					//Otherwise, if a star got selected.
+		            else if (global.inventory[boxselection] == cs_starman) {
+            
+		                //If the star is not active
+		                if (!global.mapstar) {
+            
+		                    //Play 'Powerup' sound
+		                    audio_play_sound(snd_powerup, 0, false)
+                                    
+		                    //Shift the inventory items over by one
+		                    for (var i = boxselection; i < global.inventory[0]; i++) {
+                    
+		                        global.inventory[i] = global.inventory[i+1];
+		                    }
+                        
+		                    //Subtract from the number of items in the inventory
+		                    global.inventory[0]--;
+                    
+		                    //Give Mario star power on the next level if we didn't.
+		                    global.mapstar = true;
+                    
+		                    //Finish item retrieval
+		                    event_user(1);
+		                }
+		                else {
+                
+		                    //Deny event
+		                    audio_play_sound(snd_wrong, 0, false);
+		                }         
+		            }
+            
+		            //Otherwise, if a p-wing got selected
+		            else if (global.inventory[boxselection] == cs_pwing) {
+            
+		                //If the p-wing is not active
+		                if (global.pwing == 0) {
+            
+		                    //Play the reserve item sound
+		                    audio_play_sound(snd_powerup, 0, false)
+                    
+		                    //Change the powerup to the selected item
+		                    if (global.powerup != cs_raccoon)
+		                    && (global.powerup != cs_tanooki)
+		                        global.powerup = cs_raccoon;
+                                    
+		                    //Shift the inventory items over by one
+		                    for (var i = boxselection; i < global.inventory[0]; i++) {
+                    
+		                        global.inventory[i] = global.inventory[i+1];
+		                    }
+                        
+		                    //Subtract from the number of items in the inventory
+		                    global.inventory[0]--;
+                    
+		                    //Give Mario star power on the next level if we didn't.
+		                    global.pwing = 1;
+                    
+		                    //Finish item retrieval
+		                    event_user(1);
+		                }
+		                else {
+                
+		                    //Deny event
+		                    audio_play_sound(snd_wrong, 0, false);
+		                }                     
+		            }
+				}
+				
+				//If the 'Left' key is pressed, move one item to the left
+				else if ((input_check_pressed(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) 
+				&& (boxselection != 0) {
+        
+				    //If the item selected is the leftmost one, go to the last one
+				    if (boxselection > 1) {
+            
+				        //Play 'Move' sound
+				        audio_play_sound(snd_move, 0, false);
+                
+				        //Move left
+				        boxselection--;
+				    }
+                
+				    //Otherwise, go to the previous one
+				    else
+				        boxselection = 1;
+				}
+        
+				//If the 'Right' key is pressed, move one item to the right
+				else if ((input_check_pressed(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5))
+				&& (boxselection != 0) {
+            
+				    //If the item selection if the rightmost one, go to the first item.
+				    if (boxselection < global.inventory[0]) {
+            
+				        //Play 'Move' sound
+				        audio_play_sound(snd_move, 0, false);
+                
+				        //Move right
+				        boxselection++;
+				    }
+                
+				    //Otherwise, go to the next one
+				    else
+				        boxselection = global.inventory[0];
+				}
 			}
 		}
     }
