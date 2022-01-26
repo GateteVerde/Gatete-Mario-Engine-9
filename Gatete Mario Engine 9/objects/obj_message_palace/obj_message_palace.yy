@@ -28,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Special",
-    "path": "folders/Objects/Special.yy",
+    "name": "GUI",
+    "path": "folders/Objects/Special/Do Not Use!/System/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_palacemsg",
+  "name": "obj_message_palace",
   "tags": [],
   "resourceType": "GMObject",
 }

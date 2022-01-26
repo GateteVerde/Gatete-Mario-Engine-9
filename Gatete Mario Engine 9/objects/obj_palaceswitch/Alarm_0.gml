@@ -4,7 +4,7 @@
 audio_play_sound(snd_goalgate_b, 0, false);
 
 //Display message
-instance_create_depth(0, 0, -10, obj_palacemsg);
+instance_create_depth(0, 0, -10, obj_message_palace);
 
 //Clear the level
 global.clear = 1;

@@ -38,7 +38,7 @@ if (instance_exists(obj_autoscroll)) {
 }
 
 //Otherwise
-else {
+else if (room != rm_bonus) {
 	
 	//If the camera is not following an object
 	if (follow != noone) {

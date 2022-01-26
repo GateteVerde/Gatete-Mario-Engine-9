@@ -11,11 +11,11 @@ function init_globals() {
 	//Stream played in map
 	global.mapstream = noone;
 
+	//Current minigame
+	global.minigame = 1;
+
 	//World Number
 	global.world = "1";
-
-	//Level Number
-	global.level = "1";
 
 	//Exits found
 	global.exits = ds_map_create();
@@ -23,9 +23,6 @@ function init_globals() {
 
 	//Level Time
 	global.timer = 0;
-
-	//Level Skin
-	global.skin = 0;
 
 	//Lives
 	lives = 5;
@@ -187,6 +184,12 @@ function init_globals() {
 
 	//Handle the data structure of the world map.
 	global.worldmap = ds_map_create();
+	
+	//Handle the data structure of the card minigame.
+	global.cardgame = ds_map_create();
+
+	//Handle the pattern for the cards of the card minigame.
+	global.cardpattern = 1;
 
 	//Levels beaten
 	global.cleared_levels = 0;

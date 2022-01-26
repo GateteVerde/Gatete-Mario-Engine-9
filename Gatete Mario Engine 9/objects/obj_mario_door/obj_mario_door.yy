@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mario_small_walk",
-    "path": "sprites/spr_mario_small_walk/spr_mario_small_walk.yy",
+    "name": "spr_mario_small_spin",
+    "path": "sprites/spr_mario_small_spin/spr_mario_small_spin.yy",
   },
   "solid": false,
   "visible": true,

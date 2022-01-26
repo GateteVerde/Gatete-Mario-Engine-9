@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Special",
-    "path": "folders/Objects/Special.yy",
+    "name": "Bonus",
+    "path": "folders/Objects/Special/Bonus.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_chest",
