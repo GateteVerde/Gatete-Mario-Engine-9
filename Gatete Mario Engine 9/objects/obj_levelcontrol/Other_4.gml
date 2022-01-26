@@ -189,3 +189,13 @@ if (global.starman > 0) {
     //Reset the variable
     global.starman = 0;
 }
+
+//Get a starman if you activated one on the map
+if (global.mapstar == 1) {
+
+	//Create a new starman object
+	instance_create_depth(0, 0, 100, obj_invincibility);
+	
+	//Reset variable
+	global.mapstar = 0;
+}

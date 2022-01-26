@@ -31,8 +31,8 @@
     {"propertyId":{"name":"levelprint","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"\"BSP\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Special",
-    "path": "folders/Objects/World Map/Panels/Special.yy",
+    "name": "Switch Palaces",
+    "path": "folders/Objects/World Map/Panels/Special/Switch Palaces.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_levelpanel_switch_b",

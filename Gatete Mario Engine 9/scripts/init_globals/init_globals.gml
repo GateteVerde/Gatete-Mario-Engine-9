@@ -91,10 +91,10 @@ function init_globals() {
 	global.fireworks = 0;
 
 	//Switch Palaces
-	global.palace_y = 1;
-	global.palace_g = 1;
-	global.palace_r = 1;
-	global.palace_b = 1;
+	global.palace_y = 0;
+	global.palace_g = 0;
+	global.palace_r = 0;
+	global.palace_b = 0;
 
 	//ON / OFF Block
 	global.on_off_block = 0;
@@ -191,10 +191,13 @@ function init_globals() {
 	//Levels beaten
 	global.cleared_levels = 0;
 	
+	//Powerup Count
+	var powerup_count = 27;
+	
 	//Map inventory variables
-	for (var i=0; i<30; i++) {
+	for (var i=0; i < powerup_count; i++) {
 		
-		global.inventory[i] = cs_small;
+		global.inventory[i] = 0;
 	}
 	
 	//100% game completion variable

@@ -3,6 +3,9 @@
 //Update x offset
 offset_x += 0.5;
 
+//Update anim
+anim += 0.15;
+
 //If Mario exists
 if (instance_exists(obj_mapmario)) {
 
@@ -41,3 +44,13 @@ if (instance_exists(obj_mapmario)) {
 			image_alpha = 0;
 	}
 }
+
+//Update flashing
+if (global.mapstar == 1) {
+
+	isflashing += 0.25;
+	if (isflashing > 3.99)
+		isflashing = 0;
+}
+else
+	isflashing = 0;

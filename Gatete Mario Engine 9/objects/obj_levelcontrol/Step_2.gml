@@ -116,8 +116,9 @@ else {
 				//Otherwise, if the camera is locked
 				else {
             
-			        //If the player is running, swimming, climbing or wall running
-			        if (obj_mario.run == true)
+			        //If the player is flying, running, swimming, climbing or wall running
+					if (obj_mario.flying == true)
+			        || (obj_mario.run == true)
 					|| (obj_mario.swimming == 1)
 					|| (obj_mario.wallkick == 1)
 					|| (obj_mario.squirrelpropel == 1)

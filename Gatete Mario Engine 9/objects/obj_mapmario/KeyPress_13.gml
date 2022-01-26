@@ -1,11 +1,7 @@
-/// @description Add one item to the inventory
+/// @description Add 1 item of each (Debug key)
 
-//If inventory is not opened
-if (inventory == 0) {
-
-	if (global.inventory[0] < 30) {
-
-		global.inventory[0]++;
-	}
-	global.inventory[global.inventory[0]] = cs_starman;
+for (var i=0; i<27; i++) {
+	
+	if (global.inventory[i] < 9)
+		global.inventory[i]++;
 }

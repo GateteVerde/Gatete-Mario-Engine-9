@@ -17,6 +17,9 @@ offset_y = 0;
 inv_offset_y = 0;
 inv_alpha = 1;
 
+//Animation
+anim = 0;
+
 //Prompt to show
 prompt = 0;
 alarm[0] = 180;

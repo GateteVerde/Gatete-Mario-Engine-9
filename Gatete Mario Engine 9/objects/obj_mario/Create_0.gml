@@ -218,8 +218,3 @@ alarm[3] = 1;
 //Flags
 instance_create_layer(0, 0, "Main", obj_mario_marker_top);
 instance_create_layer(0, 0, "Main", obj_mario_marker_bottom);
-
-/*Create dash attack for the Football Mario powerup
-if (instance_number(obj_dashkill) == 0)
-	instance_create_layer(0, 0, "Main", obj_dashkill);
-*/
