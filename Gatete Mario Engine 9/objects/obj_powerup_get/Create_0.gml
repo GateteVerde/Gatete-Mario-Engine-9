@@ -1,4 +1,4 @@
-/// @description You got a powerup from a Toad house.
+/// @description You got a powerup from a chest
 
 //Play 'Chest Item' sound
 audio_play_sound(snd_chest_item, 0, false);

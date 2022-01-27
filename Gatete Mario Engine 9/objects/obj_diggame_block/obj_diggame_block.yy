@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_bgr_minigame",
-    "path": "sprites/spr_bgr_minigame/spr_bgr_minigame.yy",
+    "name": "spr_digtile",
+    "path": "sprites/spr_digtile/spr_digtile.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,17 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Card Minigame",
-    "path": "folders/Objects/Special/Bonus/Minigames/Card Minigame.yy",
+    "name": "Dig Minigame",
+    "path": "folders/Objects/Special/Bonus/Minigames/Dig Minigame.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cardbgr",
+  "name": "obj_diggame_block",
   "tags": [],
   "resourceType": "GMObject",
 }

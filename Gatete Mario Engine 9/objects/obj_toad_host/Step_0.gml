@@ -1,7 +1,8 @@
 /// @description Toad Host logic
 
 //If Toad is done explaining
-if (ready == 1) {
+if (ready == 1) 
+&& (obj_mario_host.ready == 1) {
 	
     if (!instance_exists(obj_message)) {
 		
@@ -20,12 +21,19 @@ if (ready == 1) {
 					with (instance_create_depth(0, 0, -99, obj_fade_in))
 						target = rm_minigame_card;
 				} break;
+				
+				//Digging Minigame
+				case (1): {
+				
+					with (instance_create_depth(0, 0, -99, obj_fade_in))
+						target = rm_minigame_dig;
+				} break;
 			}
 		}
 	}
 }
 
 //Make Mario look at the door
-if (ready == 2)
+if (ready == 1)
 && (!instance_exists(obj_message))
     with (obj_mario_host) ready = 1;

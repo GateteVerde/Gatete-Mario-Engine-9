@@ -1,4 +1,4 @@
-/// @description Draw powerup and inventory
+/// @description Render me
 
 //Draw the item
 if (image_alpha > 0) {

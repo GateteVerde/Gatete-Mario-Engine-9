@@ -25,18 +25,18 @@ switch (global.minigame) {
 	//N-Spade Minigame
 	case (0): {
 	
-		varmsg = "Flip over any two cards and see if they match. Miss twice and you're out!";
-	} break;
-	
-	//Picture Minigame
-	case (1): {
-	
-		varmsg = "Line up the pictures and get a prize!. You only get one try.";
+		varmsg = "Flip over any two cards and see if they match.\n\nMiss twice and you're out!";
 	} break;
 	
 	//Digging Minigame
+	case (1): {
+	
+		varmsg = "Dig! Dig! Dig! into your hearts content and try to get the chest.\n\nYou only get one try.";
+	} break;
+	
+	//Picture Minigame
 	case (2): {
 	
-		varmsg = "Dig! Dig! Dig! into your hearts content and try to get the chest. You only get one try.";
+		varmsg = "Line up the pictures and get a prize!. You only get one try.";
 	} break;
 }
