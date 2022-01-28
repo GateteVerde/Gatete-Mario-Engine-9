@@ -37,6 +37,6 @@ switch (global.minigame) {
 	//Picture Minigame
 	case (2): {
 	
-		varmsg = "Line up the pictures and get a prize!. You only get one try.";
+		varmsg = "Line up the pictures and get a prize!.\n\nYou only get one try.";
 	} break;
 }

@@ -14,8 +14,8 @@
   "soundFile": "snd_goalgate_c.wav",
   "duration": 0.797687,
   "parent": {
-    "name": "Clear Fanfares",
-    "path": "folders/Sounds/Fanfares/Clear Fanfares.yy",
+    "name": "SMW",
+    "path": "folders/Sounds/Fanfares/Clear Fanfares/SMW.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_goalgate_c",

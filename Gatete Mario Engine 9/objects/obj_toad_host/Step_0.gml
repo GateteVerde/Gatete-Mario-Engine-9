@@ -28,6 +28,13 @@ if (ready == 1)
 					with (instance_create_depth(0, 0, -99, obj_fade_in))
 						target = rm_minigame_dig;
 				} break;
+				
+				//Picture Minigame
+				case (2): {
+				
+					with (instance_create_depth(0, 0, -99, obj_fade_in))
+						target = rm_minigame_picture;
+				} break;
 			}
 		}
 	}
