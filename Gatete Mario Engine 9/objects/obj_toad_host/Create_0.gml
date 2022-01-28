@@ -19,6 +19,9 @@ alarm[1] = 2;
 //Whether Toad is done explaining the rules
 ready = 0;
 
+//Move 1 pixel down
+y++;
+
 //Set message based on minigame chosen
 switch (global.minigame) {
 
