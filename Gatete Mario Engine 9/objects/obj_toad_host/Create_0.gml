@@ -42,4 +42,10 @@ switch (global.minigame) {
 	
 		varmsg = "Line up the pictures and get a prize!.\n\nYou only get one try.";
 	} break;
+	
+	//1-UP Minigame
+	case (3): {
+		
+		varmsg = "Grab as many 1-UP balloons you can within the time limit, evade the poison balloons at all cost.";
+	} break;
 }
