@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_slope_ceiling_gentle_r",
-    "path": "sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",
+    "name": "spr_slope_ceiling_gentle_l",
+    "path": "sprites/spr_slope_ceiling_gentle_l/spr_slope_ceiling_gentle_l.yy",
   },
   "solid": false,
   "visible": false,

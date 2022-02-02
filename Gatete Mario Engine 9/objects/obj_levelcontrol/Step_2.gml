@@ -111,7 +111,7 @@ else if (room != rm_bonus) {
 				
 				//If the camera is not locked
 				if (camlock == false)					
-					y = obj_mario.y;
+					y = lerp(y, obj_mario.y, 0.1);
 					
 				//Otherwise, if the camera is locked
 				else {
@@ -123,16 +123,8 @@ else if (room != rm_bonus) {
 					|| (obj_mario.wallkick == 1)
 					|| (obj_mario.squirrelpropel == 1)
 					|| ((obj_mario.jumpstyle > 0) && (global.powerup == cs_propeller))
-					|| ((obj_mario.state == playerstate.climb) || (instance_exists(obj_wallrunner))) {
-						
-						//If the camera is 6 pixels below Mario's y position, move 6 pixels upwards until the camera catches the player.
-			            if (y > obj_mario.y+6)
-			                y -= 6;
-
-			            //Otherwise
-			            else
-			                y = follow.y;
-					}
+					|| ((obj_mario.state == playerstate.climb) || (instance_exists(obj_wallrunner)))
+			            y = lerp(y, obj_mario.y, 0.1);
 
 			        //Otherwise
 			        else {
@@ -145,51 +137,38 @@ else if (room != rm_bonus) {
 							floorY = obj_mario.y;
 
 			                //If Mario is above the camera
-			                if (obj_mario.y < y) {
-
-			                    //If the camera is 6 pixels below Mario's y position, move 6 pixels upwards until the camera catches the player.
-			                    if (y > obj_mario.y+6)
-			                        y -= 6;
-
-			                    //Otherwise
-			                    else
-			                        y = obj_mario.y;
-			                }
+			                if (obj_mario.y < y)
+			                    y = lerp(y, obj_mario.y, 0.1);
 			            } 
 			            else {
 
 			                //If Mario didn't reach Y position on the ground, catch Mario (only applies going up)
 			                if (round(y) < floorY)
-			                    y -= 6;
+			                    y = lerp(y, floorY, 0.1);
 			            }
 
 			            //If Mario is below the camera, catch him instantly
 			            if (obj_mario.y > y)
-			                y = follow.y;
+			                y = lerp(y, obj_mario.y, 0.1);
 			        }
 				}
 				
 				//If classic scroll is disabled
 				if (classicscroll == false)
-					x = obj_mario.x;
+					x = lerp(x, obj_mario.x, 0.1);
 					
 				//Otherwise
 				else if (obj_mario.x > x)
-					x = obj_mario.x;
+					x = lerp(x, obj_mario.x, 0.1);
 		    }
 		    else {
 				
 				//Camera X Position
-				x = follow.x;
+				x = lerp(x, follow.x, 0.1);
 				
 				//If the object being followed is the warp note object, do not follow vertically
-				if (follow != obj_mario_jump_note) {
-					
-					if (y > follow.y+6)
-						y -= 6;
-					else
-						y = follow.y;
-				}
+				if (follow != obj_mario_jump_note)
+					y = lerp(y, follow.y, 0.1);
 			}
 		}
 	}

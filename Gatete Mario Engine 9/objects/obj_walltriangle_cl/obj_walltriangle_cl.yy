@@ -1,16 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_slope_ceiling_gentle_r",
-    "path": "sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",
+    "name": "spr_walltriangle_cl",
+    "path": "sprites/spr_walltriangle_cl/spr_walltriangle_cl.yy",
   },
   "solid": false,
-  "visible": false,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
+  "visible": true,
+  "spriteMaskId": {
+    "name": "spr_square",
+    "path": "sprites/spr_square/spr_square.yy",
   },
+  "persistent": false,
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ceiling",
-    "path": "folders/Objects/Collision/Slopes/Ceiling.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_slope_ceiling_gentle_r",
+  "name": "obj_walltriangle_cl",
   "tags": [],
   "resourceType": "GMObject",
 }
