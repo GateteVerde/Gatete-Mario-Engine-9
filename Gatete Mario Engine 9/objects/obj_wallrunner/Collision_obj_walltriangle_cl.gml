@@ -40,7 +40,7 @@ if (ready) {
         ready = false;
         
         //Angle
-        angle = 315;
+        angle = 135;
         
         //Set angle
         alarm[0] = 4;

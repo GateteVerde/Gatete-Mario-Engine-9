@@ -17,26 +17,14 @@ if (global.mount == 0) {
     && (other.swimming == 0) {
     
         //If Mario is moving to the right
-        if (other.xspeed < (other.xspeedmax-0.5)*-1)
+        if (other.xspeed < -2.5)
         && (position_meeting(x-8, y-8, obj_solid)) {
 			
-            with (instance_create_depth(x+16, y-8, -5, obj_wallrunner)) {
+            with (instance_create_depth(x+15, y-8, -5, obj_wallrunner)) {
 				
 				angle = 135;
 				xscale = -1;
 			}
 		}
-            
-        //If Mario is moving to the left
-        else if (other.xspeed > other.xspeedmax-0.5)
-        && (position_meeting(x+8, y+24, obj_solid))
-        && (!position_meeting(x+24, y+24, obj_semisolid)) {
-        
-            with (instance_create_depth(x+31, y, -5, obj_wallrunner)) {
-            
-                angle = 315;
-                direction = 270;
-            }
-        }
     }
 }
