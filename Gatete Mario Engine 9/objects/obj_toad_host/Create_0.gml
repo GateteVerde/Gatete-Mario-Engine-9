@@ -46,6 +46,6 @@ switch (global.minigame) {
 	//1-UP Minigame
 	case (3): {
 		
-		varmsg = "Grab as many 1-UP balloons you can within the time limit, evade the poison balloons at all cost.";
+		varmsg = "Set the angle and position of the cannon, fire it and try to pop as many balloons as you can.\n\nYou only get one try.";
 	} break;
 }

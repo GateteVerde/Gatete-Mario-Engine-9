@@ -2,6 +2,7 @@
 
 //If the player is not transforming
 if (instance_exists(obj_mario_transform))
+|| (instance_exists(obj_wallrunner))
 exit;
 
 //If the player does exist

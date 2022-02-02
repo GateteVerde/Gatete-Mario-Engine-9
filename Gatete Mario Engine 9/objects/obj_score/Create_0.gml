@@ -23,7 +23,7 @@ vspeed = -1;
 friction = 0.0175;
 
 //Give the amount of score
-alarm[0] = 1;
+alarm[0] = 2;
 
 //Create spark effects
 alarm[1] = 1;
