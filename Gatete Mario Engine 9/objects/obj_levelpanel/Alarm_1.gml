@@ -2,6 +2,9 @@
 
 //Allow level exit
 global.beaten = beaten;
+	
+//Check star coins
+event_user(0);
 
 //If no checkpoint was set, go to the default room
 if (checkpoint == noone)

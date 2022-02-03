@@ -86,17 +86,17 @@ else {
             if ((can_turn) && (col)) {
 				
                 can_halt = false;
-                desired_dir = 0
-                desired_offset_x = 15
-                desired_offset_y = -7
-                desired_speed = speed
-                can_turn = false
-                speed = 0
-                direction = 45
-                x = col.x-4
-                y = col.y-8
-                alarm[0] = 4
-                alarm[1] = 8
+                desired_dir = 0;
+                desired_offset_x = 15;
+                desired_offset_y = -7;
+                desired_speed = speed;
+                can_turn = false;
+                speed = 0;
+                direction = 45;
+                x = col.x-4;
+                y = col.y-8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
 			
             //Check for an inverted right triangle block
@@ -115,8 +115,8 @@ else {
                 direction = 135;
                 x = col_b.x-8;
                 y = col_b.y+24;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
         }
 		
@@ -150,8 +150,8 @@ else {
                 direction = 225;
                 x = col.x+16;
                 y = col.y+16;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
 			
             //Check for an inverted right triangle block
@@ -170,8 +170,8 @@ else {
                 direction = 135;
                 x = col_b.x-8;
                 y = col_b.y+15;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
         }
 		
@@ -206,8 +206,8 @@ else {
                 direction = 225;
                 x = col.x+24;
                 y = col.y+16;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
 			
             //Check for a left triangle block
@@ -226,8 +226,8 @@ else {
                 direction = 315;
                 x = col_b.x+16;
                 y = col_b.y-8;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
         }
     }
@@ -276,8 +276,8 @@ else {
                 direction = 135;
                 x = col.x+16;
                 y = col.y-8;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
 			
             //Check for an inverted left triangle block
@@ -296,8 +296,8 @@ else {
                 direction = 45;
                 x = col_b.x+16;
                 y = col_b.y+24;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
         }
 		
@@ -332,8 +332,8 @@ else {
                 direction = 45;
                 x = col.x+24;
                 y = col.y+16;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
 			
             //Check for an inverted right triangle block
@@ -350,8 +350,8 @@ else {
                 direction = 315;
                 x = col.x+1;
                 y = col.y+16;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
         }
 		
@@ -386,8 +386,8 @@ else {
                 direction = 315;
                 x = col.x;
                 y = col.y+24;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
 			
             //Check for a right triangle block
@@ -406,8 +406,8 @@ else {
                 direction = 225;
                 x = col_b.x;
                 y = col_b.y-8;
-                alarm[0] = 4;
-                alarm[1] = 8;
+                alarm[0] = 2;
+                alarm[1] = 4;
             }
         }
     }

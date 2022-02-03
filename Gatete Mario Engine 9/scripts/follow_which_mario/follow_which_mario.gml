@@ -29,6 +29,10 @@ function follow_which_mario() {
 	//Otherwise, if Mario is using a rocket
 	else if (instance_exists(obj_mario_rocket))
 		follow = obj_mario_rocket;
+		
+	//Otherwise, if Mario completed a level
+	else if (instance_exists(obj_mario_clear))
+		follow = obj_mario_clear;
     
 	//Otherwise, if Mario does not exist anymore
 	else 

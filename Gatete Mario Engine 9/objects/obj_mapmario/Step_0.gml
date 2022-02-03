@@ -19,7 +19,7 @@ if (status == mapstate.idle)
 			
             obj_hud_map.levelname = string(panel.levelname);
 			obj_hud_map.levelprint = string(panel.levelprint);
-			obj_hud_map.levelid = string(panel.levelid);
+			obj_hud_map.levelid = panel.levelid;
 		}
         else {
 			
@@ -122,15 +122,19 @@ if (status == mapstate.idle)
             
 	            //Play 'Enter Stage' sound
 	            audio_play_sound(snd_enterstage, 0, false);
+				
+				//Stop music
+	            obj_mapcontrol.alarm[1] = 1;
             
 	            //The player is ready
 	            is_ready = 1;
                 
-	            //Stop music
-	            obj_mapcontrol.alarm[1] = 1;
-                
 	            //Go to the stage
-	            panel.alarm[1] = 1;
+				with (panel) {
+					
+					event_user(0);
+					alarm[1] = 1;
+				}
 	        }
 		}
 			

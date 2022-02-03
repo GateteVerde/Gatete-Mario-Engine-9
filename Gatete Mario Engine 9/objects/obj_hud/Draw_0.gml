@@ -27,6 +27,18 @@ draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[
 //Star Coins
 #region STAR COINS
 
+	if (global.level != noone) {
+    
+	    //Draw the coin spot
+	    draw_sprite_ext(spr_gui_global_sc, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
+    
+	    //Draw the coins
+	    for (var i = 0; i < 3; i++) {
+                
+	        if (ds_map_find_value(global.sc[i], global.level) > 0)
+	            draw_sprite_ext(spr_gui_global_sc_coin, 0, camera_get_view_x(view_camera[0]) + 8 + (16*i), camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
+	    }
+	}
 #endregion
 
 //Reserve Box

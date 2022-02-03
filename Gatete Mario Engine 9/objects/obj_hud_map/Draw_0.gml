@@ -16,17 +16,35 @@ pal_swap_reset();
 //Set the font
 draw_set_font(global.gui_font_large);
 
-//Lives
-draw_text_colour(camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 48, string_format(lives, 2, 0), c_white, c_white, c_white, c_white, image_alpha);
-
 //WORLD + LEVEL
 draw_text_colour(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 8, "WORLD " + string(global.world) + "-" + string(levelprint), c_white, c_white, c_white, c_white, image_alpha);
 
 //Set the font
 draw_set_font(global.gui_font_menu);
 
-//Level name
+//Lives
+draw_text_colour(camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 40, string_format(lives, 2, 0), c_white, c_white, c_white, c_white, image_alpha);
+
+//Level Name + Star Coins
 draw_text_colour(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 32, string(levelname), c_white, c_white, c_white, c_white, image_alpha);
+if (levelid != noone) {
+    
+    //Draw the coin spot
+    draw_sprite_ext(spr_gui_global_sc, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 56, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+    
+    //Draw the coins
+    for (var i = 0; i < 3; i++) {
+                
+		//If the coins were collected
+        if (ds_map_find_value(global.sc[i], levelid) > 0) {
+                
+            if (ds_map_find_value(global.sc[i], levelid) == 2)
+                draw_sprite_ext(spr_gui_global_sc_coin, anim, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 56 + (16*i), camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, image_alpha);
+            else
+                draw_sprite_ext(spr_gui_global_sc_coin, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 56 + (16*i), camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, image_alpha);
+        }
+    }
+}
 
 //SMB3 Card Holder (Comment this if you are not going to use the SMB3 card system)
 draw_sprite_ext(spr_gui_cardbox, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 21, 1, 1, 0, c_white, image_alpha);

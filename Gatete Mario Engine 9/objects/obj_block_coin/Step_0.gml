@@ -73,7 +73,8 @@ if ((vspeed > 0) && (y > ystart)) {
 	}
 	
 	//Get score
-	if (sprite_index != spr_coin_ace) {
+	if (sprite_index != spr_coin_ace) 
+	&& (sprite_index != spr_coin_star) {
 		
 		with (instance_create_depth(x, y, -6, obj_score)) 
 			value = 10;

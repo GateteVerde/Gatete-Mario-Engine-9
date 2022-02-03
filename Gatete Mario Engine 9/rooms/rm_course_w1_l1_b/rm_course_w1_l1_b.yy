@@ -61,6 +61,10 @@
             {"propertyId":{"name":"exit_dir","path":"objects/obj_warp_left/obj_warp_left.yy",},"objectId":{"name":"obj_warp_left","path":"objects/obj_warp_left/obj_warp_left.yy",},"value":"90","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_warp_left","path":"objects/obj_warp_left/obj_warp_left.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":128.0,"resourceVersion":"1.0","name":"inst_2483DE82","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_modifier_brick","path":"objects/obj_modifier_brick/obj_modifier_brick.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":112.0,"resourceVersion":"1.0","name":"inst_2631FCBA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":144.0,"resourceVersion":"1.0","name":"inst_2700C12B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"type","path":"objects/obj_coin_star/obj_coin_star.yy",},"objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":48.0,"resourceVersion":"1.0","name":"inst_442D1A95","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Main","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":32,"SerialiseHeight":14,"TileSerialiseData":[
 1173,1538,1539,1171,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1172,1173,1601,
@@ -168,6 +172,8 @@
     {"name":"inst_19B442F4","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_2483DE82","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_2631FCBA","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
+    {"name":"inst_2700C12B","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
+    {"name":"inst_442D1A95","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

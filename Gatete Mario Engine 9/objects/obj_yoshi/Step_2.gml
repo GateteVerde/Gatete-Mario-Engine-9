@@ -560,14 +560,31 @@ if (instance_exists(obj_mario)) {
     image_xscale = obj_mario.xscale;
 }
 
-//Set up the y position for Mario
-if (sprite_index == spr_yoshi)
-|| (sprite_index == spr_yoshi_fm) {
+//If Mario exists
+if (instance_exists(obj_mario)) {
 
-    if (image_index > 0.99)
-        myy = 1;
-    else
-        myy = 0;
+	//Set up the y position for Mario
+	if (sprite_index == spr_yoshi)
+	|| (sprite_index == spr_yoshi_fm) {
+
+	    if (image_index > 0.99)
+	        myy = 1;
+	    else
+	        myy = 0;
+	}
+	else
+	    myy = 0;
 }
-else
-    myy = 0;
+else if (instance_exists(obj_mario_clear)) {
+
+	//If Mario is moving horizontally
+	if (obj_mario_clear.xspeed > 0) {
+		
+		if (obj_mario_clear.anim > 0.99)
+			myy = 1;
+		else
+			myy = 0;
+	}
+	else
+		myy = 0;
+}

@@ -167,11 +167,13 @@ function init_globals() {
 	//0: Not collected
 	//1: Collected, not saved
 	//2: Collected, saved with checkpoint
-	//3: Collected, saved with level completion. (Adds to global.sc_count)
+	//3: Collected, saved with level completion. (Adds to global.starcoins)
+	global.level = noone;
+	global.levelmax = 999;
 	for (var i = 0; i < 3; i++) {
 
 	    global.sc[i] = ds_map_create();
-	    for (var j = 0; j < 999; j++)
+	    for (var j = 0; j <= global.levelmax; j++)
 	        ds_map_add(global.sc[i], j, 0);
 	}
 

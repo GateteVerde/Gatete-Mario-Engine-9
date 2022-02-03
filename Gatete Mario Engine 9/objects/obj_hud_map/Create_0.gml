@@ -9,6 +9,9 @@ levelname = "";
 //Level number
 levelprint = ".";
 
+//Level id
+levelid = noone;
+
 //Bar offset
 offset_x = 0;
 offset_y = 0;

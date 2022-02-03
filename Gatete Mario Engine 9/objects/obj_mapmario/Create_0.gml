@@ -1,5 +1,11 @@
 /// @description It's a me, Mario! (Map)
 
+//Set 'Big' powerup if the powerup was the 'Mega' one
+if (global.powerup == cs_mega) {
+
+	global.powerup = cs_big;
+}
+
 //Set depth
 depth = -5;
 
