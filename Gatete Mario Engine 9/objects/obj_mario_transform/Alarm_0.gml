@@ -76,14 +76,22 @@ with (obj_mario) {
 		case (6): {
 		
 			//Turn Mario invisible
-			obj_mario.visible = false;
+			with (obj_mario) visible = false;
 		
 			//Set special state
 			ready = 2;
 		
 			//Set frame
 			image_speed = 0;
-			image_index = obj_mario.image_index;
+			
+			//Set frame based on active object
+			if (instance_exists(obj_mario))
+				image_index = obj_mario.image_index;
+			else {
+			
+				sprite_index = global.goal_sprite[cs_big];
+				image_index = 0;
+			}
 		
 			//Turn visible
 			visible = true;

@@ -59,8 +59,11 @@ else if (sequence == 6) {
 	
 	//If scale is lower than 1
 	if (image_xscale < 1) {
+		
+		//Set 'Big' powerup
+		global.powerup = cs_big;
 	
-		//Set scale to 4
+		//Set scale to 1
 		image_xscale = 1;
         
 	    //With the player

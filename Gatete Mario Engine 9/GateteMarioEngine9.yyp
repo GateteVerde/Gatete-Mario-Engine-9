@@ -1300,7 +1300,7 @@
     {"id":{"name":"obj_powblock_red_up","path":"objects/obj_powblock_red_up/obj_powblock_red_up.yy",},"order":4,},
     {"id":{"name":"spr_door_p","path":"sprites/spr_door_p/spr_door_p.yy",},"order":15,},
     {"id":{"name":"obj_platform_accordion_v","path":"objects/obj_platform_accordion_v/obj_platform_accordion_v.yy",},"order":1,},
-    {"id":{"name":"spr_flagpole_flag_mariop","path":"sprites/spr_flagpole_flag_mariop/spr_flagpole_flag_mariop.yy",},"order":2,},
+    {"id":{"name":"spr_flagpole_flag_mario","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"order":2,},
     {"id":{"name":"spr_mario_cat_carry","path":"sprites/spr_mario_cat_carry/spr_mario_cat_carry.yy",},"order":6,},
     {"id":{"name":"spr_platform_solid_falling","path":"sprites/spr_platform_solid_falling/spr_platform_solid_falling.yy",},"order":1,},
     {"id":{"name":"obj_shard","path":"objects/obj_shard/obj_shard.yy",},"order":4,},

@@ -1,4 +1,4 @@
-/// @description /// @description Render flag
+/// @description Render flag
 
 angle += wavespeed;
 for (i=0; i<=27/part; i+=1)

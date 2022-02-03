@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_flagpole_flag_mariop",
-    "path": "sprites/spr_flagpole_flag_mariop/spr_flagpole_flag_mariop.yy",
+    "name": "spr_flagpole_flag_mario",
+    "path": "sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,6 +24,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_flagpole","path":"objects/obj_flagpole/obj_flagpole.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

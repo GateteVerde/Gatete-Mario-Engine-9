@@ -1,5 +1,8 @@
 /// @description A Mario flag for the flagpole
 
+//Do not animate
+image_speed = 0;
+
 //Angle of the flag
 angle = 0
 
