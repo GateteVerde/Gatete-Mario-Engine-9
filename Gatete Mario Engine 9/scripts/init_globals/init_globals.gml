@@ -14,9 +14,6 @@ function init_globals() {
 	//Current minigame
 	global.minigame = 1;
 
-	//World Number
-	global.world = "1";
-
 	//Exits found
 	global.exits = ds_map_create();
 	global.exits2 = ds_map_create();

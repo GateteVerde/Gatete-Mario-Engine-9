@@ -9,9 +9,6 @@ instance_activate_object(obj_audio_loop_sound);
 //Keep light control active
 instance_activate_object(obj_lightcontrol);
 
-//Update controller button graphics
-gui_buttons = gamepad_set_gui_sprite();
-
 //Update all timers
 timer_system_update();
 

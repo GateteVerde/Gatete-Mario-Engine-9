@@ -17,13 +17,15 @@ else {
     //If moving down or stopped
     if (direct == 270)
     || (status == mapstate.idle) {
+		
+		//Reset scale
+        xscale = 1;
         
         //Set up the sprite
-        sprite_index = (global.mount == 1) ? spr_mapmario_yoshi : spr_mapmario;
-        
-        //Reset scale
-        if (xscale != 1)
-            xscale = 1;
+		if (is_ready == 1)
+			sprite_index = (global.mount == 1) ? spr_mapmario_yoshi : spr_mapmario_select;
+		else
+			sprite_index = (global.mount == 1) ? spr_mapmario_yoshi : spr_mapmario;
     }
         
     //Otherwise, if moving up

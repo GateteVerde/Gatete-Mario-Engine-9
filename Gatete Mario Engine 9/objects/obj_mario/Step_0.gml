@@ -454,6 +454,9 @@ if (enable_gravity == 1) {
                         
 	                            //Stop 'P-Meter' sound
 	                            audio_stop_sound(snd_pmeter);
+								
+								//Force reset P-Meter alarm
+								alarm[11] = -1;
                             
 	                            //Allow the player to fly again.
 	                            flying = 0;

@@ -24,3 +24,6 @@ friction = 0.0175;
 
 //Give the amount of score
 alarm[0] = 2;
+
+//Create sparkle effects
+alarm[1] = 1;

@@ -17,15 +17,20 @@ if (status == mapstate.idle)
         //If there's a panel, print the name on the HUD
         if (panel) {
 			
-            obj_hud_map.levelname = string(panel.levelname);
-			obj_hud_map.levelprint = string(panel.levelprint);
+            obj_hud_map.levelname = string_upper(panel.levelname);
 			obj_hud_map.levelid = panel.levelid;
 		}
         else {
 			
-            obj_hud_map.levelname = "";
-			obj_hud_map.levelprint = ".";
+			//Forget level ID
 			obj_hud_map.levelid = noone;
+			
+			//If Mario is at the start position
+			if (x == xstart)
+			&& (y == ystart) 
+				obj_hud_map.levelname = string_upper("Start Point");
+			else
+				obj_hud_map.levelname = "";
 		}
     }	
     

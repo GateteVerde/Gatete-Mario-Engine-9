@@ -5,7 +5,6 @@ Sammu
 
 - Sprites -
 72DpiArmy
-AnneLeaf
 Camtendo
 Del
 Doc Melonhead
@@ -14,6 +13,7 @@ Geoshi
 Hellfire
 Kirb
 Kopejo
+Leanne
 Random Talking Bush
 SuperSledgeBro
 Toni

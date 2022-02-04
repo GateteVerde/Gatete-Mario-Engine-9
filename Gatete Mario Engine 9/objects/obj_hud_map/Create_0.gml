@@ -6,9 +6,6 @@ depth = -98;
 //Level name
 levelname = "";
 
-//Level number
-levelprint = ".";
-
 //Level id
 levelid = noone;
 
@@ -18,7 +15,6 @@ offset_y = 0;
 
 //Inventory offset
 inv_offset_y = 0;
-inv_alpha = 1;
 
 //Animation
 anim = 0;
