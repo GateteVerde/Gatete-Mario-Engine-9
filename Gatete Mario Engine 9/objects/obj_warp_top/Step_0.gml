@@ -9,11 +9,12 @@ if (mini == true)
 if (global.powerup != cs_mega) {
 
 	//If the 'Down' key is held
-	if (input_check(input.down)) 
+	if (input_check(input.down))
 	|| (gamepad_axis_value(0, gp_axislv) > 0.5) {
 
 	    //If the player does exist
-	    if (instance_exists(obj_mario)) {
+	    if (instance_exists(obj_mario)) 
+		&& (obj_mario.state != playerstate.jump) {
     
 	        //Check for it
 	        player = collision_rectangle(x+16, y-2, x+16, y-2, obj_mario, 0, 0);

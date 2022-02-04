@@ -26,6 +26,8 @@ if (other.bbox_bottom > bbox_top+8) {
 	
 			sprite_index = global.goal_sprite[cs_big];
 			image_xscale = 4;
+			image_speed = 0;
+			image_index = 0;
 			sequence = 6;
 		}
 	}

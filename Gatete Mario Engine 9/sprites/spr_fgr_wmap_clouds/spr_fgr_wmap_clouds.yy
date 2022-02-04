@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","path":"sprites/spr_bgr_clouds_nobg/spr_bgr_clouds_nobg.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","path":"sprites/spr_bgr_clouds_nobg/spr_bgr_clouds_nobg.yy",},"LayerId":{"name":"7e0e2009-14dc-421f-8d2a-c406be8f2056","path":"sprites/spr_bgr_clouds_nobg/spr_bgr_clouds_nobg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bgr_clouds_nobg","path":"sprites/spr_bgr_clouds_nobg/spr_bgr_clouds_nobg.yy",},"resourceVersion":"1.0","name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},"LayerId":{"name":"7e0e2009-14dc-421f-8d2a-c406be8f2056","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fgr_wmap_clouds","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},"resourceVersion":"1.0","name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bgr_clouds_nobg","path":"sprites/spr_bgr_clouds_nobg/spr_bgr_clouds_nobg.yy",},
+    "spriteId": {"name":"spr_fgr_wmap_clouds","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"61661ad0-4bec-4248-8e3c-7fa4e733780f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","path":"sprites/spr_bgr_clouds_nobg/spr_bgr_clouds_nobg.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"61661ad0-4bec-4248-8e3c-7fa4e733780f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5a43a0ae-2485-4612-8c81-cf0766972a7c","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bgr_clouds_nobg","path":"sprites/spr_bgr_clouds_nobg/spr_bgr_clouds_nobg.yy",},
+    "parent": {"name":"spr_fgr_wmap_clouds","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_bgr_clouds_nobg",
+    "name": "spr_fgr_wmap_clouds",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Backgrounds & Tilesets",
-    "path": "folders/Sprites/Special/Backgrounds & Tilesets.yy",
+    "name": "World Map",
+    "path": "folders/Sprites/Special/Backgrounds & Tilesets/Foregrounds/World Map.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_bgr_clouds_nobg",
+  "name": "spr_fgr_wmap_clouds",
   "tags": [],
   "resourceType": "GMSprite",
 }
