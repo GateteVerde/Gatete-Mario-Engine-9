@@ -42,12 +42,14 @@ draw_sprite_stretched_ext(spr_gui_map_border, 0, camera_get_view_x(view_camera[0
 	//Set palette
 	pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
 
-	//Mario
-	draw_sprite_ext(global.walk_sprite[global.powerup], anim, camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 16, -1, 1, 0, c_white, 1);
+	//Draw Cape
 	if (global.powerup == cs_cape) {
 
 		draw_sprite_ext(spr_cape_walk, anim, camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 16, -1, 1, 0, c_white, 1);
 	}
+	
+	//Draw Mario
+	draw_sprite_ext(global.walk_sprite[global.powerup], anim, camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 16, -1, 1, 0, c_white, 1);
 	
 	//Reset palette
 	pal_swap_reset();

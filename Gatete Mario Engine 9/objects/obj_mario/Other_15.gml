@@ -113,7 +113,8 @@ if (enable_control == true) { //If the player's controls are not disabled.
 var _slope = collision_rectangle(bbox_left, bbox_bottom-2, bbox_right, bbox_bottom+2, obj_slopeparent, 1, 0);
 
 //Accelerate when in contact with a slope
-if (_slope) {
+if (_slope) 
+&& (_slope.add != 0) {
 
     //If the player does have the shell or penguin suit.
     if ((global.powerup == cs_shell) || (global.powerup == cs_penguin)) {
