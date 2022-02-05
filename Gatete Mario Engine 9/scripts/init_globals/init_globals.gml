@@ -135,6 +135,8 @@ function init_globals() {
 
 	//Map pipe area type
 	global.pipetype = 0;
+	global.pipex = 0;
+	global.pipey = 0;
 	
 	//Did Mario died?
 	global.died = 0;

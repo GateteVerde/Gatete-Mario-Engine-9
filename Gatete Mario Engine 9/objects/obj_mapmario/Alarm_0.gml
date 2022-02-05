@@ -79,3 +79,9 @@ else if (global.clear == 2) {
 	//Open adyacent paths
 	alarm[3] = 32;
 }
+
+//Otherwise, if Mario warped through a pipe
+else if (global.clear == 3) {
+
+	alarm[4] = 32;
+}

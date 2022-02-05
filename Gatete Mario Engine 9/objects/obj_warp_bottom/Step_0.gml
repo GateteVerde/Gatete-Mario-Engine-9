@@ -32,6 +32,9 @@ if (global.powerup != cs_mega) {
                         
 	            //Colour
 	            warpme.isflashing = player.isflashing;
+				
+				//Pipe Type
+				warpme.pipetype = pipetype;
             
 	            //Set up direction
 	            warpme.direction = 90;

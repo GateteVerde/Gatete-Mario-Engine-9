@@ -4,6 +4,7 @@
 destination = room_next(room);
 exit_dir = 0;
 exit_id = -1;
+pipetype = 0;
 
 //Cannon mode
 cannon = 0;
