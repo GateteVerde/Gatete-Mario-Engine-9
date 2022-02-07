@@ -118,6 +118,11 @@ if (collect_mode > 0) {
 	if (show_cards > 0) {
 	
 		draw_sprite_ext(spr_gui_cardbox, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 53, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 21, 1, 1, 0, c_white, min(show_cards/30, 1));
+		for (i=0; i<3; i++) {
+		
+			if (global.card[i] != -1)
+				draw_sprite_ext(spr_gui_cardbox_cards, global.card[i], camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 52 + (16 * i), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 20, 1, 1, 0, c_white, min(show_cards/30, 1));
+		}
 	}
 	
 #endregion

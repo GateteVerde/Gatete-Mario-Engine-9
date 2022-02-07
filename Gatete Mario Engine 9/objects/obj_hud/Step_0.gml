@@ -17,7 +17,21 @@ if (collect_mode == 1) {
 	}
 }
 
-show_cards--;
+//If the goal card exists, show HUD cards
+if (instance_exists(obj_goalcard)) {
+
+	if (obj_levelcontrol.x > obj_goalcard.x-global.gw) 
+	|| (obj_levelcontrol.x > obj_goalcard.x)
+	    show_cards = 240;
+	else
+	    show_cards--;
+}
+
+//Otherwise, hide HUD cards
+else
+show_cards = 0;
+
+//Fake P-Meter if Mario exists and the pmeter is greater than 0
 if (fake_pm == 0) {
 	
 	if (instance_exists(obj_mario))

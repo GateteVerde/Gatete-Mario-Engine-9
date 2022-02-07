@@ -9,10 +9,7 @@ if (global.mount == 1) {
 	    pal_swap_set(spr_palette_yoshi, global.mountcolour);
             
 	    //Draw yoshi
-		if (obj_yoshi.mouthholder == noone)
-			draw_sprite_ext(spr_yoshi, 0, screen_round(xstart), screen_round(ystart)+1, 1, 1, 0, c_white, 1);
-		else
-			draw_sprite_ext(spr_yoshi_fm, 0, screen_round(xstart), screen_round(ystart)+1, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_yoshi, 0, screen_round(xstart), screen_round(ystart)+1, 1, 1, 0, c_white, 1);
             
 	    //Reset shader
 	    pal_swap_reset();
@@ -28,7 +25,7 @@ if (global.mount == 1) {
 	//Draw the cape
 	if (global.powerup == cs_cape) {
 				
-		draw_sprite_ext(spr_cape, 1, screen_round(xstart)-4, screen_round(ystart)-2, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_cape, 1, screen_round(xstart)-4, screen_round(ystart)-7, 1, 1, 0, c_white, 1);
 	}				
 
 	//Reset shader

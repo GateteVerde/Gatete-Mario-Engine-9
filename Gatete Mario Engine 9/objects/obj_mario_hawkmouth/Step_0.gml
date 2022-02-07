@@ -16,8 +16,12 @@ if (ready == 0) {
     }
 }
 
-//Update yoshi anim
-anim += 0.15
+//Animate Yoshi if riding one
+anim += 0.065+abs(hspeed)/7.5;
+if (anim > 2.99) {
+	
+	anim = 0;
+}
 
 //Make sure to set the alt exit if the hawk is a secret one
 if (myhawk.secret_exit == true)

@@ -9,3 +9,6 @@ image_index = 0;
 
 //Whether Mario is ready to enter the game
 ready = 0;
+
+//No flashing
+isflashing = 0;
