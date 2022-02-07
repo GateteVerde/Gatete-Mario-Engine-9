@@ -1,8 +1,5 @@
 /// @description Manage cape
 
-//Inherit the parent event
-event_inherited();
-
 #region PLAYER SYNC
 
 //If the player does exist

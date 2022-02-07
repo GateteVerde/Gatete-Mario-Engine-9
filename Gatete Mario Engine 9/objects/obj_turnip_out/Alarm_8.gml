@@ -16,6 +16,7 @@ else {
 
     if (enemy)
 	|| (sprite_index == spr_mblock_up)
+	|| (sprite_index == spr_crystal)
 	|| (sprite_index == spr_vegshroom)
     || (sprite_index == spr_vegshroom_1up)
     || (sprite_index == spr_powblock_red_up) 

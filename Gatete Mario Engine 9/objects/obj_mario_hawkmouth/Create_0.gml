@@ -1,16 +1,16 @@
-/// @description Mario sliding down the flagpole
+/// @description Mario entering a hawk mouth
 
-//Inherit event from parent
-event_inherited();
+//Hawk ID
+myhawk = -1;
 
-//Default flagpole
-flagpole = -1;
-
-//Use the clear sprite
-sprite_index = global.goal_sprite[global.powerup];
+//Play 'Hawkmouth Clear' fanfare
+audio_play_sound(snd_hawksong_clear, 0, false);
 
 //Do not animate
-image_speed = 0;
+image_speed = 0.15;
+
+//Use walk sprite
+sprite_index = global.walk_sprite[global.powerup];
 
 //Stop both music and timer
 with (obj_levelcontrol) {
@@ -21,18 +21,14 @@ with (obj_levelcontrol) {
 
 //Clear the level
 global.clear = 1;
-if (instance_exists(obj_flagpole_secret)) {
-
-    global.clear = 2;
-}
 
 //Anim
-anim = 0;
+anim = 0
 
-//Do not flash
+//Do not flush
 isflashing = 0;
 
-//Forget check points
+//Forget checkpoints
 global.checkpoint = noone;
 
 //Do not bring kuribo shoes outside
@@ -60,18 +56,9 @@ if (global.mount == 2) {
     }
 }
 
-//State
+//Whether the player entered completely on the mouth
 ready = 0;
+
+//Allows to return to the map
 ready2 = 0;
 ready3 = 0;
-
-//Hold a bit before going down
-alarm[11] = 60;
-
-//Get number of fireworks
-if ((global.timer mod 10) == 6) 
-    global.fireworks = 6;
-else if ((global.timer mod 10) == 3) 
-    global.fireworks = 3;
-else if ((global.timer mod 10) == 1) 
-    global.fireworks = 1;

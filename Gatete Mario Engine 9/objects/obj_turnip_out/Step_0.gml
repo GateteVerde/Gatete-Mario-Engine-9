@@ -66,8 +66,11 @@ if (ready == 2) {
 		}
 	}
         
-    /*Otherwise, if the vegetable is a crystal ball
+    //Otherwise, if the vegetable is a crystal ball
     else if (myveggie == obj_crystal_up) {
+		
+		//Create a pulled crystal
+		instance_create_layer(x, y, "Main", obj_crystal_up);
     
         //If the crystal is a blue one, open red hawkmouth
         if (sprite_index == spr_crystal) {
@@ -94,6 +97,7 @@ if (ready == 2) {
             }
         }
         
+		/*
         //Otherwise, if the crystal is a red one, open blue hawkmouth
         else if (sprite_index == spr_crystal_red) {
     
@@ -118,7 +122,8 @@ if (ready == 2) {
                 }
             }
         }       
-    }*/
+		*/
+    }
         
     //Otherwise, pull a veggie
     else {

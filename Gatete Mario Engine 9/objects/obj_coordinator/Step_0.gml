@@ -59,7 +59,8 @@ depth = -1000;
 
 		//Pause sounds when 'Hurry' is playing
 		if (audio_is_playing(snd_hurry)) 
-		|| (audio_is_playing(snd_mushroom)) {
+		|| (audio_is_playing(snd_mushroom)) 
+		|| (audio_is_playing(snd_hawksong)) {
 		
 		    //Pause 'levelmusic'
 		    if (audio_is_playing(global.stream)) 
