@@ -1,5 +1,9 @@
 /// @description Clear the level
 
+//Ignore if Mario has the mega powerup
+if (global.powerup == cs_mega)
+exit;
+
 //If the card has not been collected
 if (ready == 0) {
 
@@ -9,8 +13,8 @@ if (ready == 0) {
 	//Stop both music and timer
 	with (obj_levelcontrol) {
 
-	    event_user(0);
-	    alarm[2] = 0;
+		event_user(0);
+		alarm[2] = 0;
 	}
 
 	//Clear the level
@@ -22,26 +26,26 @@ if (ready == 0) {
 	//Do not bring kuribo shoes outside
 	if (global.mount == 2) {
 
-	    //Play 'Transform' sound
-	    audio_play_sound(snd_powerlost, 0, false);
+		//Play 'Transform' sound
+		audio_play_sound(snd_powerlost, 0, false);
     
-	    //Forget it
-	    global.mount = 0;
+		//Forget it
+		global.mount = 0;
     
-	    //With the shoe
-	    with (obj_kuriboshoe) {
+		//With the shoe
+		with (obj_kuriboshoe) {
     
-	        //Create flying shoe
-	        with (instance_create_depth(x, y, -6, obj_kuriboshoe_lost)) {
+		    //Create flying shoe
+		    with (instance_create_depth(x, y, -6, obj_kuriboshoe_lost)) {
         
-	            sprite_index = other.sprite_index;
-	            image_xscale = other.xscale;
-	            hspeed = -1;
-	        }
+		        sprite_index = other.sprite_index;
+		        image_xscale = other.xscale;
+		        hspeed = -1;
+		    }
         
-	        //Destroy
-	        instance_destroy();
-	    }
+		    //Destroy
+		    instance_destroy();
+		}
 	}
 
 	//Card collected

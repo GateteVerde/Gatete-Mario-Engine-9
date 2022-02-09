@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_count_end.wav",
-  "duration": 0.329813,
+  "duration": 0.181375,
   "parent": {
     "name": "Menu",
     "path": "folders/Sounds/Menu.yy",

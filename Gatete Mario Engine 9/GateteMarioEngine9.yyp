@@ -262,7 +262,6 @@
     {"id":{"name":"obj_hawkmouth","path":"objects/obj_hawkmouth/obj_hawkmouth.yy",},"order":1,},
     {"id":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"order":0,},
     {"id":{"name":"spr_trampoline_timed","path":"sprites/spr_trampoline_timed/spr_trampoline_timed.yy",},"order":7,},
-    {"id":{"name":"snd_count_2","path":"sounds/snd_count_2/snd_count_2.yy",},"order":4,},
     {"id":{"name":"spr_goldenflower","path":"sprites/spr_goldenflower/spr_goldenflower.yy",},"order":30,},
     {"id":{"name":"spr_spinstar","path":"sprites/spr_spinstar/spr_spinstar.yy",},"order":21,},
     {"id":{"name":"spr_mario_ranger_hold2","path":"sprites/spr_mario_ranger_hold2/spr_mario_ranger_hold2.yy",},"order":9,},

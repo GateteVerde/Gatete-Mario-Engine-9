@@ -1,5 +1,6 @@
 /// @description Manage animation
 
+//If the bubble has been hit once
 if (ready2 == 1) {
 	
     if (ready_hits[0] < 5) {
@@ -32,6 +33,8 @@ if (ready2 == 1) {
         offset = 4
     }
 }
+
+//Otherwise, if the bubble has been hit twice
 else if (ready2 == 2) {
 	
     if (ready_hits[1] < 5) {
@@ -80,3 +83,7 @@ if (myb != 0)
 	myb.image_xscale = scale;
 	myb.image_yscale = scale;
 }
+
+//Set bubble scale
+image_xscale = scale;
+image_yscale = scale;

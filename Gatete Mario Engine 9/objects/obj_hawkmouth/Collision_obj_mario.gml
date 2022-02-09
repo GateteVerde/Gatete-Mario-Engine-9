@@ -1,11 +1,15 @@
 /// @description Make Mario enter the hawkmouth
 
+//Ignore if Mario has the mega powerup
+if (global.powerup == cs_mega)
+exit;
+
 //If the hawk's mouth is fully opened
 if (ready == 3) {
 
     //If the following conditions are met, enter the hawk
     if ((xscale == 1) && (other.x > x))
-    || ((xscale == -1) && (other.x < x)) 
+    || ((xscale == -1) && (other.x < x))
     && ((other.state < 2) || (other.delay == 0)) {
     
         //Play 'Hawkmouth Close' sound

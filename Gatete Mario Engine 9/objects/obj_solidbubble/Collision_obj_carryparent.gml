@@ -10,13 +10,13 @@ if (canbehit == true)
 		with (other) {
 		
 			xspeed *= -1.5;
-			yspeed = -4;
+			yspeed = -2.5;
 		}
 		exit;
 	}
 	
 	//Make the vegetable bounce
-	other.yspeed = -4;
+	other.yspeed = -2.5;
 	
 	//If the bubble has been hit less than two times
 	if (ready2 != 2) {

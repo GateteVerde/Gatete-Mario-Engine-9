@@ -14,7 +14,7 @@ if (ready2 == 3) {
 			
 				with (instance_create_depth(x, y-16, -2, obj_mushroom)) {
 				
-					yspeed = -6;
+					yspeed = -4;
 					if (!instance_exists(obj_mario))
 					|| (obj_mario.x < x)
 						xspeed = 1;
@@ -28,7 +28,7 @@ if (ready2 == 3) {
 			
 				with (instance_create_depth(x, y-16, -2, obj_1up)) {
 				
-					yspeed = -6;
+					yspeed = -4;
 					if (!instance_exists(obj_mario))
 					|| (obj_mario.x < x)
 						xspeed = 1;
@@ -42,7 +42,7 @@ if (ready2 == 3) {
 			
 				with (instance_create_depth(x, y-16, -2, obj_poison)) {
 				
-					yspeed = -6;
+					yspeed = -4;
 					if (!instance_exists(obj_mario))
 					|| (obj_mario.x < x)
 						xspeed = 1;
