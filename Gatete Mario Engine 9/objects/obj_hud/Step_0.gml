@@ -1,5 +1,10 @@
 /// @description Display cards and fake up P-Meter depletion
 
+//Set P-Meter position
+if (collect_mode > 0)
+|| ((instance_exists(obj_coinblock)) && (obj_coinblock.ready == 1))
+	pmeterx = 48;
+
 //Handle out prizes if coin collection mode is active
 if (collect_mode == 1) {
 	

@@ -1,7 +1,7 @@
 /// @description Delay visibility and set trajectory
 
 //Jump
-var grav = 0.1;
+var grav = 0.09375;
 vspeed = -4;
 gravity = grav;
 

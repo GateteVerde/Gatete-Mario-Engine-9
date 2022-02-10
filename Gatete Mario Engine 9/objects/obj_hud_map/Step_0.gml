@@ -17,9 +17,6 @@ if (instance_exists(obj_mapmario)) {
 		
 		//Set y offset
 		offset_y = lerp(offset_y, 0, 0.2);
-		
-		//Reset prompt
-		prompt = 0;
 	}
 	
 	//Otherwise, if the inventory is opened

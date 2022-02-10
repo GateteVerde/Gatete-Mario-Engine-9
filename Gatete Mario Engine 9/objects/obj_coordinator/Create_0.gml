@@ -200,6 +200,7 @@ global.gui_font_numbers	= font_add_sprite_ext(spr_gui_font_numbers, "0123456789-
 global.gui_font_numbers_gold = font_add_sprite_ext(spr_gui_font_numbers_gold, "0123456789-", 0, 0);
 global.gui_font_numbers_black = font_add_sprite_ext(spr_gui_font_numbers_black, "0123456789-", 0, 0);
 global.gui_font_numbers_large = font_add_sprite_ext(spr_gui_font_numbers_large, "0123456789-", 0, 0);
+global.gui_font_numbers_large_gold = font_add_sprite_ext(spr_gui_font_numbers_large_gold, "0123456789-", 0, 0);
 
 //Disable application surface automatic drawing
 application_surface_draw_enable(false);

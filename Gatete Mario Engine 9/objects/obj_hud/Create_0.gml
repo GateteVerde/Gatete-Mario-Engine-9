@@ -16,3 +16,6 @@ fake_pm = 0;
 //Flash
 flash = 0;
 alarm[0] = 7;
+
+//P-Meter X
+pmeterx = 0;

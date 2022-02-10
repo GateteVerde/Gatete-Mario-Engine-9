@@ -28,3 +28,7 @@ if (ready == 0)
 //Make it move when landed
 if (yadd == 0)
     xspeed = 1.5;
+	
+//Make sure to set the alt exit if the card is a secret one
+if (mycard.secret_exit == true)
+    global.clear = 2;

@@ -9,10 +9,14 @@ visible = false;
 //Move to the appropiate position
 ready2 = 1;
 
-//Create freeze
-repeat (2) {
-	
-	freeze_create(false);
+//Freeze all objects under obj_physicsparent
+with (obj_physicsparent) event_user(13);
+
+//Freeze Mario
+with (obj_mario) {
+
+	if (freeze == false)
+		event_user(13);
 }
 
 //Delay visibility
