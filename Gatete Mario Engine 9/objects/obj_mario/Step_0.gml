@@ -54,7 +54,7 @@
 	//Set up angle if somersaulting, end if Mario is tiny
 	if (somersault) {
 		
-		angle += -30*sign(other.xscale);
+		angle += -30*sign(xscale);
 		if (global.powerup == cs_tiny) 
 		|| (global.powerup == cs_mega)
 		|| (instance_number(obj_statue) > 0)
@@ -93,6 +93,30 @@ if (freeze == false) {
 	y += yspeed;
 	xspeed += xadd;
 	yspeed += yadd;
+}
+
+//Manage groundpound
+if (groundpound > 0) {
+	
+	//If Mario is spinning
+	if (groundpound == 1) {
+
+		//Change angle
+		angle += -30*sign(xscale);
+	
+		//If the angle is greater than 360
+		if (abs(angle) > 360) {
+			
+			//Set the vertical motion
+			yspeed = 4;
+		
+			//Set angle
+			angle = 0;
+			
+			//Drop
+			groundpound = 2;
+		}
+	}
 }
 
 //If Mario is under the effects of a mega mushroom
@@ -810,6 +834,7 @@ if (enable_gravity == 1) {
 		//If the player controls are enabled and it's not jumping
 		if (state != playerstate.jump)
 		&& (sliding == false)
+		&& (groundpound == 0)
 		&& (enable_control == true) {
 		
 			//Make the player crouch down when the 'Down' key is held

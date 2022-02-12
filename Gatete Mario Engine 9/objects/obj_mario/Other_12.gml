@@ -59,7 +59,7 @@ switch (global.powerup) {
 		break;
 
 	default:
-		yspeed_max = 4;
+		yspeed_max = (groundpound = 2) ? 6 : 4;
 		break;	
 }
 
@@ -587,7 +587,7 @@ if (state != playerstate.jump) {
 }
 
 //If the player is jumping
-if ((state == playerstate.jump) || (statedelay > 0)) {
+if (((state == playerstate.jump) || (statedelay > 0)) && (groundpound != 1)) {
 	
 	//Switch between powerups
 	switch (global.powerup) {
@@ -622,7 +622,7 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
 		    else {
         
 		        //Use default gravity
-		        yadd = 0.3625;
+		        yadd = (groundpound = 2) ? 0.725 : 0.3625;
                 
 		        //End variable jumping if it never ends manually.
 		        if (jumping == 1)
@@ -844,7 +844,7 @@ if (climb1)
 }
 
 //Makes the player butt-slide down slopes
-if ((enable_control == true) && (input_check(input.down))) {
+if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5))) {
 
     //If the player does have the shell or penguin suit
     if ((global.powerup == cs_shell)
@@ -886,6 +886,28 @@ if ((enable_control == true) && (input_check(input.down))) {
         else
             crouch = true;
     }
+	
+	//Ground Pound
+	if (state == playerstate.jump)
+	&& (jumpstyle == 0)
+	&& (crouch == 0)
+	&& (yspeed > 1)
+	&& (holding = 0)
+	&& (wallkick == 0)
+	&& (groundpound == 0) 
+	&& (global.powerup != cs_tiny) {
+	
+		//Play 'Ground Pound' sound
+		audio_play_sound(snd_groundpound, 0, false);
+		
+		//Stop movement
+		xspeed = 0;
+		yspeed = 0;
+		yadd = 0;
+		
+		//Begin groundpound
+		groundpound = 1;
+	}
 }
 
 //Cape falling when button held

@@ -270,262 +270,278 @@ else {
                         
                         //If Mario is not swimming
                         if (!swimming) {
+							
+							//If the player is doing a groundpound
+							if (groundpound > 0) {
+								
+								//If the player is spinning
+								if (groundpound == 1)
+									sprite_index = global.somersault_sprite[global.powerup];
+									
+								//Otherwise
+								else if (groundpound == 2)
+									sprite_index = global.slide_sprite[global.powerup];
+							}
+							
+							//Otherwise
+							else {
                         
-                            //If Mario is doing a spinjump
-                            if (jumpstyle > 0) {
+	                            //If Mario is doing a spinjump
+	                            if (jumpstyle > 0) {
                             
-                                //If Mario does have the propeller suit
-                                if (global.powerup == cs_propeller) {
+	                                //If Mario does have the propeller suit
+	                                if (global.powerup == cs_propeller) {
                                 
-                                    //If moving up
-                                    if (yspeed < 0) {
+	                                    //If moving up
+	                                    if (yspeed < 0) {
                                     
-										//Animate it
-                                        image_speed = 0.065+abs(yspeed)/7.5;
+											//Animate it
+	                                        image_speed = 0.065+abs(yspeed)/7.5;
 										
-                                        //Set the special spinning sprite
-                                        sprite_index = global.spin3_sprite[global.powerup];
-                                    }
-                                    else {
+	                                        //Set the special spinning sprite
+	                                        sprite_index = global.spin3_sprite[global.powerup];
+	                                    }
+	                                    else {
                                     
-                                        //Set the spinning sprite
-										if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
+	                                        //Set the spinning sprite
+											if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
 											
-											image_speed = 1;
-											sprite_index = global.spin2_sprite[global.powerup];
-										}
-										else {
+												image_speed = 1;
+												sprite_index = global.spin2_sprite[global.powerup];
+											}
+											else {
 											
-											image_speed = 0.2;
-											sprite_index = global.spin_sprite[global.powerup];
-										}
-                                    }
-                                }
+												image_speed = 0.2;
+												sprite_index = global.spin_sprite[global.powerup];
+											}
+	                                    }
+	                                }
                                 
-                                //If Mario does not have the propeller or cat suit
-                                else {
+	                                //If Mario does not have the propeller or cat suit
+	                                else {
                                 
-                                    //Set the spinning sprite
-                                    sprite_index = global.spin_sprite[global.powerup];
+	                                    //Set the spinning sprite
+	                                    sprite_index = global.spin_sprite[global.powerup];
                                     
-                                    //Animate it
-                                    image_speed = 0.5;
-                                }
-                            }
+	                                    //Animate it
+	                                    image_speed = 0.5;
+	                                }
+	                            }
                             
-                            //If Mario is not doing a spin jump
-                            else {
+	                            //If Mario is not doing a spin jump
+	                            else {
                             
-                                //If the player is doing a somersault
-                                if (somersault) {
+	                                //If the player is doing a somersault
+	                                if (somersault) {
 									
-									//Do not animate
-                                    image_speed = 0;
-                                    image_index = 0;
+										//Do not animate
+	                                    image_speed = 0;
+	                                    image_index = 0;
                                 
-                                    //Set up the somersault sprite
-									if (global.powerup == cs_cape)
-										sprite_index = spr_mario_cape_somersault;
-									else
-										sprite_index = global.somersault_sprite[global.powerup];
-                                }
+	                                    //Set up the somersault sprite
+										if (global.powerup == cs_cape)
+											sprite_index = spr_mario_cape_somersault;
+										else
+											sprite_index = global.somersault_sprite[global.powerup];
+	                                }
                              
-                                else {
+	                                else {
                                 
-                                    //If Mario does have the carrot powerup
-                                    if (global.powerup == cs_carrot) {
+	                                    //If Mario does have the carrot powerup
+	                                    if (global.powerup == cs_carrot) {
                                     
-                                        //If Mario is wallclimbing
-                                        if (wallkick == 1) {
+	                                        //If Mario is wallclimbing
+	                                        if (wallkick == 1) {
                                         
-                                            //Set the sprite
-                                            sprite_index = global.walljump_sprite[global.powerup];
+	                                            //Set the sprite
+	                                            sprite_index = global.walljump_sprite[global.powerup];
                                             
-                                            //Do not animate
-                                            image_speed = 0;
-                                            image_index = 0;
-                                        }
+	                                            //Do not animate
+	                                            image_speed = 0;
+	                                            image_index = 0;
+	                                        }
                                         
-                                        //Otherwise, if it's not
-                                        else {
+	                                        //Otherwise, if it's not
+	                                        else {
                                     
-                                            //If Mario is moving up
-                                            if (yspeed < 0)
-                                                image_index = 0;
-                                            else {
+	                                            //If Mario is moving up
+	                                            if (yspeed < 0)
+	                                                image_index = 0;
+	                                            else {
                                             
-                                                if (floatnow > 0)
-                                                    image_speed = 0.15;
-                                                else {
+	                                                if (floatnow > 0)
+	                                                    image_speed = 0.15;
+	                                                else {
                                                 
-                                                    if (run)
-                                                        image_index = 0;
-                                                    else
-                                                        image_index = 1;
-                                                }
-                                            }
+	                                                    if (run)
+	                                                        image_index = 0;
+	                                                    else
+	                                                        image_index = 1;
+	                                                }
+	                                            }
                                             
-                                            //If Mario is running
-                                            if (!run)
-                                                sprite_index = global.jump_sprite[global.powerup];
-                                            else
-												sprite_index = global.runjump_sprite[global.powerup];
-                                        }
-                                    }
+	                                            //If Mario is running
+	                                            if (!run)
+	                                                sprite_index = global.jump_sprite[global.powerup];
+	                                            else
+													sprite_index = global.runjump_sprite[global.powerup];
+	                                        }
+	                                    }
                                     
-                                    //Else, if Mario does have the bee powerup
-                                    else if (global.powerup == cs_bee) {
+	                                    //Else, if Mario does have the bee powerup
+	                                    else if (global.powerup == cs_bee) {
                                     
-                                        //If Mario is wallclimbing
-                                        if (wallkick == 1) {
+	                                        //If Mario is wallclimbing
+	                                        if (wallkick == 1) {
                                         
-                                            //Set the sprite
-                                            sprite_index = global.walljump_sprite[global.powerup];
+	                                            //Set the sprite
+	                                            sprite_index = global.walljump_sprite[global.powerup];
                                             
-                                            //Do not animate
-                                            image_speed = 0;
-                                            image_index = 0;                                
-                                        }
-                                        else {
+	                                            //Do not animate
+	                                            image_speed = 0;
+	                                            image_index = 0;                                
+	                                        }
+	                                        else {
                                         
-                                            //If Mario is moving down
-                                            if (yspeed > 0)
-                                                image_index = 1;
-                                            else {
+	                                            //If Mario is moving down
+	                                            if (yspeed > 0)
+	                                                image_index = 1;
+	                                            else {
                                             
-                                                if (floatnow > 0)
-                                                    image_speed = 0.15;
-                                                else if (yspeed < -1.1)
-                                                    image_index = 0;
-                                            }
+	                                                if (floatnow > 0)
+	                                                    image_speed = 0.15;
+	                                                else if (yspeed < -1.1)
+	                                                    image_index = 0;
+	                                            }
                                                                                 
-                                            //If Mario is running
-                                            if (!run)
-                                                sprite_index = global.jump_sprite[global.powerup];
-                                            else
-                                                sprite_index = global.runjump_sprite[global.powerup];
-                                        }
-                                    }
+	                                            //If Mario is running
+	                                            if (!run)
+	                                                sprite_index = global.jump_sprite[global.powerup];
+	                                            else
+	                                                sprite_index = global.runjump_sprite[global.powerup];
+	                                        }
+	                                    }
 									
-									//Otherwise, if Mario is wearing the Squirrel suit
-									else if (global.powerup == cs_squirrel)
-									&& ((squirrelpropel == 1) || ((yspeed > 0) && (input_check(input.action_0)))) {
+										//Otherwise, if Mario is wearing the Squirrel suit
+										else if (global.powerup == cs_squirrel)
+										&& ((squirrelpropel == 1) || ((yspeed > 0) && (input_check(input.action_0)))) {
 										
-										//Set the sprite
-										sprite_index = global.float_sprite[global.powerup];
+											//Set the sprite
+											sprite_index = global.float_sprite[global.powerup];
 										
-										//If moving up
-										if (yspeed < 0)
-							                image_index = 0;
+											//If moving up
+											if (yspeed < 0)
+								                image_index = 0;
 											
-										//If not propelled up
-							            else if (squirrelpropel == 0)
-							                image_index = 1;
+											//If not propelled up
+								            else if (squirrelpropel == 0)
+								                image_index = 1;
 										
-										//Otherwise, if propelled up
-							            else
-							                image_speed = 0.15;
-									}
+											//Otherwise, if propelled up
+								            else
+								                image_speed = 0.15;
+										}
                                     
-                                    //Otherwise, if Mario does not have any of the above powerups
-                                    else {
+	                                    //Otherwise, if Mario does not have any of the above powerups
+	                                    else {
                                     
-                                        //Do not animate
-                                        image_speed = 0;
+	                                        //Do not animate
+	                                        image_speed = 0;
                                         
-                                        //If Mario does have the frog powerup
-                                        if (global.powerup == cs_frog) {
+	                                        //If Mario does have the frog powerup
+	                                        if (global.powerup == cs_frog) {
                                         
-                                            //If Mario is wallclimbing
-                                            if (wallkick == 1) {
+	                                            //If Mario is wallclimbing
+	                                            if (wallkick == 1) {
                                             
-                                                //Set the sprite
-                                                sprite_index = global.walljump_sprite[global.powerup];
+	                                                //Set the sprite
+	                                                sprite_index = global.walljump_sprite[global.powerup];
                                                 
-                                                //Do not animate
-                                                image_speed = 0;
-                                                image_index = 0;
-                                            }
+	                                                //Do not animate
+	                                                image_speed = 0;
+	                                                image_index = 0;
+	                                            }
                                             
-                                            //Otherwise, if it's not wallclimbing
-                                            else {
+	                                            //Otherwise, if it's not wallclimbing
+	                                            else {
                                     
-                                                //Set the sprite
-                                                sprite_index = global.walk_sprite[global.powerup];
+	                                                //Set the sprite
+	                                                sprite_index = global.walk_sprite[global.powerup];
                                             
-                                                //Set up the frame
-                                                image_index = 2;
-                                            }
-                                        }
+	                                                //Set up the frame
+	                                                image_index = 2;
+	                                            }
+	                                        }
                                         
-                                        //Otherwise, if Mario does not have the frog powerup
-                                        else {
+	                                        //Otherwise, if Mario does not have the frog powerup
+	                                        else {
                                         
-                                            //If Mario is wallclimbing
-                                            if (wallkick == 1) {
+	                                            //If Mario is wallclimbing
+	                                            if (wallkick == 1) {
                                             
-                                                //If Mario does have the Cat powerup
-                                                if (global.powerup == cs_bell) {
+	                                                //If Mario does have the Cat powerup
+	                                                if (global.powerup == cs_bell) {
                                                 
-                                                    //Set the alt climbing sprite
-                                                    sprite_index = global.climb2_sprite[global.powerup];
+	                                                    //Set the alt climbing sprite
+	                                                    sprite_index = global.climb2_sprite[global.powerup];
                                                     
-                                                    //Animate
-                                                    if (yspeed < 0) 
-                                                        image_speed = 0.15;
-                                                    else {
+	                                                    //Animate
+	                                                    if (yspeed < 0) 
+	                                                        image_speed = 0.15;
+	                                                    else {
                                                     
-                                                        image_speed = 0;
-                                                        image_index = 0;
-                                                    }
-                                                }
-                                                else {
+	                                                        image_speed = 0;
+	                                                        image_index = 0;
+	                                                    }
+	                                                }
+	                                                else {
                                                 
-                                                    //Set the skid sprite
-                                                    sprite_index = global.walljump_sprite[global.powerup];
+	                                                    //Set the skid sprite
+	                                                    sprite_index = global.walljump_sprite[global.powerup];
                                                     
-                                                    //Do not animate
-                                                    image_speed = 0;
-                                                    image_index = 0;
-                                                }
-                                            }
-                                            else {    
+	                                                    //Do not animate
+	                                                    image_speed = 0;
+	                                                    image_index = 0;
+	                                                }
+	                                            }
+	                                            else {    
                                     
-                                                //...but set the appropiate frame
-                                                if (yspeed < 0) {
+	                                                //...but set the appropiate frame
+	                                                if (yspeed < 0) {
                                                 
-                                                    if (global.powerup == cs_raccoon) 
-													|| (global.powerup == cs_tanooki)
-													|| (global.powerup == cs_fraccoon)
-													|| (global.powerup == cs_iraccoon)
-                                                        image_index = 0+(wiggle/4);
-                                                    else
-                                                        image_index = 0;
-                                                }
-                                                else {
+	                                                    if (global.powerup == cs_raccoon) 
+														|| (global.powerup == cs_tanooki)
+														|| (global.powerup == cs_fraccoon)
+														|| (global.powerup == cs_iraccoon)
+	                                                        image_index = 0+(wiggle/4);
+	                                                    else
+	                                                        image_index = 0;
+	                                                }
+	                                                else {
                                                 
-                                                    //If Mario is running
-                                                    if (run)
-                                                        image_index = 0+(wiggle/4);
-                                                    else
-                                                        image_index = 1+(wiggle/4);
-                                                }
+	                                                    //If Mario is running
+	                                                    if (run)
+	                                                        image_index = 0+(wiggle/4);
+	                                                    else
+	                                                        image_index = 1+(wiggle/4);
+	                                                }
                                                 
-                                                //Set the appropiate sprite
-                                                if (!run)
-                                                && (global.pwing == 0)
-                                                    sprite_index = global.jump_sprite[global.powerup];
-                                                else {
+	                                                //Set the appropiate sprite
+	                                                if (!run)
+	                                                && (global.pwing == 0)
+	                                                    sprite_index = global.jump_sprite[global.powerup];
+	                                                else {
 													
-													if (global.powerup != cs_bell)
-														sprite_index = (global.powerup == cs_tiny) ? global.jump_sprite[global.powerup] : global.runjump_sprite[global.powerup];
-													else
-														sprite_index = global.jump_sprite[global.powerup];
-												}
-                                            }
-                                        }
-                                    }
-                                }                 
+														if (global.powerup != cs_bell)
+															sprite_index = (global.powerup == cs_tiny) ? global.jump_sprite[global.powerup] : global.runjump_sprite[global.powerup];
+														else
+															sprite_index = global.jump_sprite[global.powerup];
+													}
+	                                            }
+	                                        }
+	                                    }
+	                                }                 			
+								}
                             }
                         }
                         

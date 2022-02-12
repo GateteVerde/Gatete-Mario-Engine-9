@@ -179,6 +179,9 @@ squirrelpropel = 0;
 //Somersault
 somersault = 0;
 
+//Groundpound
+groundpound = 0;
+
 //Prevents the player from moving if stunned
 stuntime = 0;
 

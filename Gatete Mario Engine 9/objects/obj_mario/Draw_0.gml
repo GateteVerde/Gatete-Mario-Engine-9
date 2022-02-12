@@ -20,8 +20,8 @@ if (sprite_index > -1) {
 		//Rest of sprites
 		default: {
 			
-			//If Mario is doing a somersault
-			if (somersault == 1) {
+			//If Mario is doing a somersault or is about to perform a ground pound
+			if ((somersault == 1) || (groundpound == 1)) {
 				
 				//If Mario is small
 				if (global.powerup == cs_small)

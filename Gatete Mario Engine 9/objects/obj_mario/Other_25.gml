@@ -30,6 +30,26 @@ if (inair == 1) {
 	}
 }
 
+//If Mario was doing a groundpound
+if (groundpound == 2) 
+&& (!collision_rectangle(bbox_left, bbox_bottom + 8, bbox_right, bbox_bottom + 8 + (yspeed * 2.5), obj_brick, 0, 0)) 
+&& (!collision_rectangle(bbox_left, bbox_bottom + 8, bbox_right, bbox_bottom + 8 + (yspeed * 2.5), obj_flipblock, 0, 0)) {
+	
+	//Play 'Ground Pound End' sound
+	audio_play_sound(snd_groundpound_end, 0, false);
+	
+	//End groundpound
+	groundpound = 0;
+	
+	//Create smoke effect
+	with (instance_create_depth(x-4, y, -6, obj_smoke)) sprite_index = spr_supersmash;
+	with (instance_create_depth(x+4, y, -6, obj_smoke)) {
+	
+		sprite_index = spr_supersmash;
+		image_xscale = -1;
+	}
+}
+
 //Enable gravity
 disablegrav = 0;
 
