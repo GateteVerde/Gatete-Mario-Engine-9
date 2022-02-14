@@ -20,6 +20,9 @@ if (isfloating) {
 //Reset spin jump
 jumpstyle = 0;
 
+//Reset ground pound
+groundpound = 0;
+
 //Reset player local variables
 event_user(15);
 

@@ -21,6 +21,9 @@ if (isfloating) {
 //Reset spin jump
 jumpstyle = 0;
 
+//Reset ground pound
+groundpound = 0;
+
 //Force stop crouching down
 crouch = false;
 
