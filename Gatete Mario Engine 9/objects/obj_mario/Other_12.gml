@@ -895,7 +895,8 @@ if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_valu
 	&& (holding = 0)
 	&& (wallkick == 0)
 	&& (groundpound == 0) 
-	&& (global.powerup != cs_tiny) {
+	&& (global.powerup != cs_tiny) 
+	&& (global.powerup != cs_mega) {
 	
 		//Play 'Ground Pound' sound
 		audio_play_sound(snd_groundpound, 0, false);

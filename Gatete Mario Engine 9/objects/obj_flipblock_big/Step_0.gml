@@ -5,14 +5,6 @@ var mario = collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bott
 
 //If Mario does exist
 if (mario) {
-	
-	//If Mario has the mega powerup
-	if (global.powerup == cs_mega)
-	&& (instance_exists(obj_megashroom_timer)) {
-	
-		event_user(15);
-		mario.xspeed /= 4
-	}
 
 	//If the item can be carried
 	if (can_carry())
@@ -32,3 +24,6 @@ if (mario) {
 		alarm[2] = 40;
 	}
 }
+
+//Inherit event from parent
+event_inherited();
