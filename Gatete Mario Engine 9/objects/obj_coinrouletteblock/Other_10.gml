@@ -14,10 +14,24 @@ switch (image_index) {
 		//Repeat 5 times
 		repeat (5) {
 			
-			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coinnpc)) {
+			//If the block has been bumped from above
+			if (other.bottom == false) {
 			
-				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
-				yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+				with (instance_create_depth(x + 8, ystart - 28, -4, obj_coinnpc)) {
+			
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+				}
+			}
+			
+			//Otherwise
+			else {
+				
+				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coinnpc)) {
+			
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+				}
 			}
 		}
 	} break;
@@ -26,12 +40,27 @@ switch (image_index) {
 	case (1):
 	case (4):
 	case (7): {
-	
-		with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
-			ready = 1;
-			xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
-			yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+		//If the block has been bumped from below
+		if (other.bottom == false) {
+	
+			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
+		
+				ready = 1;
+				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+				yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+			}
+		}
+		
+		//Otherwise
+		else {
+		
+			with (instance_create_depth(x + 8, ystart + 16, -4, obj_coin_10)) {
+		
+				ready = 1;
+				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+				yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+			}			
 		}
 	} break;
 	
@@ -43,11 +72,26 @@ switch (image_index) {
 		//Repeat 3 times
 		repeat (3) {
 	
-			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
+			//If the block has been bumped from below
+			if (other.bottom == false) {
+	
+				with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
-				ready = 1;
-				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
-				yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+					ready = 1;
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+				}
+			}
+		
+			//Otherwise
+			else {
+		
+				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coin_10)) {
+		
+					ready = 1;
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+				}			
 			}
 		}
 	} break;
@@ -58,11 +102,26 @@ switch (image_index) {
 		//Repeat 3 times
 		repeat (5) {
 	
-			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
+			//If the block has been bumped from below
+			if (other.bottom == false) {
+	
+				with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
-				ready = 1;
-				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
-				yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+					ready = 1;
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+				}
+			}
+		
+			//Otherwise
+			else {
+		
+				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coin_10)) {
+		
+					ready = 1;
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+				}			
 			}
 		}
 	} break;

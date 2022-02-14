@@ -34,9 +34,15 @@ if (sprout != cs_coin)
         
     //Create the item
     if (sprout != cs_coin)
-	&& (sprout != cs_mega)
-        with (instance_create_depth(x+8, y, 10, obj_powerup_sprout))       
+	&& (sprout != cs_mega) {
+		
+        with (instance_create_depth(x+8, y, 10, obj_powerup_sprout)) {
+			
             sprite_index = macro_get_sprite(other.sprout);
+			if (other.bottom == true)
+				vspeed = 0.5;
+		}
+	}
 }
 
 //Turn into a used block

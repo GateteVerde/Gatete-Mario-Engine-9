@@ -7,7 +7,13 @@ if (sprite_index == spr_leaf) {
     audio_play_sound(snd_sprout, 0, false);
 
     //Turn into a real leaf
-    instance_create_depth(x, ystart, 11, obj_leaf_sprout);
+	if (vspeed > 0) {
+		
+		with (instance_create_depth(x, ystart + 16, 11, obj_leaf_sprout))
+			alarm[1] = 1;
+	}
+	else
+		instance_create_depth(x, ystart, 11, obj_leaf_sprout);
 }
 
 //Feather
@@ -17,7 +23,13 @@ else if (sprite_index == spr_feather) {
     audio_play_sound(snd_sprout, 0, false);
 
     //Turn into a real feather
-    instance_create_depth(x, ystart, 11, obj_feather_sprout);
+	if (vspeed > 0) {
+		
+		with (instance_create_depth(x, ystart + 16, 11, obj_feather_sprout))
+			alarm[1] = 1;
+	}
+	else
+		instance_create_depth(x, ystart, 11, obj_feather_sprout);
 }
 
 //Propeller Mushroom
@@ -26,8 +38,17 @@ else if (sprite_index == spr_propellershroom) {
 	//Play 'Sprout' sound
 	audio_play_sound(snd_sprout, 0, false);
 	
-	//Turn into a real propeller shroom
-	instance_create_depth(x, ystart, 11, obj_propellershroom_sprout);
+    //Turn into a real leaf
+	if (vspeed > 0) {
+		
+		with (instance_create_depth(x, ystart + 16, 11, obj_propellershroom_sprout)) {
+			
+			hspeed = 1;
+			alarm[1] = 1;
+		}
+	}
+	else
+		instance_create_depth(x, ystart, 11, obj_propellershroom_sprout);
 }
 
 //Superbell
@@ -51,7 +72,13 @@ else if (sprite_index == spr_fieryleaf) {
     audio_play_sound(snd_sprout, 0, false);
 
     //Turn into a real leaf
-    instance_create_depth(x, ystart, 11, obj_fieryleaf_sprout);
+	if (vspeed > 0) {
+		
+		with (instance_create_depth(x, ystart + 16, 11, obj_fieryleaf_sprout))
+			alarm[1] = 1;
+	}
+	else
+		instance_create_depth(x, ystart, 11, obj_fieryleaf_sprout);
 }
 
 //Chill Leaf
@@ -61,7 +88,13 @@ else if (sprite_index == spr_chillleaf) {
     audio_play_sound(snd_sprout, 0, false);
 
     //Turn into a real leaf
-    instance_create_depth(x, ystart, 11, obj_chillleaf_sprout);
+	if (vspeed > 0) {
+		
+		with (instance_create_depth(x, ystart + 16, 11, obj_chillleaf_sprout))
+			alarm[1] = 1;
+	}
+	else
+		instance_create_depth(x, ystart, 11, obj_chillleaf_sprout);
 }
 
 //Beanstalk

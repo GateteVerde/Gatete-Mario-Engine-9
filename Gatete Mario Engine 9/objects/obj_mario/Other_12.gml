@@ -941,6 +941,7 @@ if (state == playerstate.jump)
     if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon))
     && (jumping != 1)
     && (wallkick < 1)
+	&& (groundpound == 0)
     && (swimming == false)
     && (input_check_pressed(input.action_0))
     && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0)) {

@@ -54,10 +54,5 @@ if (position_meeting(x, y-8, obj_solid)) {
 }
 
 //Otherwise, move up
-else {
-	
-	if (place_meeting(x, ystart-1, obj_mario))
-		vspeed = 0.5;
-	else
-		vspeed = -0.5;
-}
+else if (vspeed == 0)
+	vspeed = -0.5;

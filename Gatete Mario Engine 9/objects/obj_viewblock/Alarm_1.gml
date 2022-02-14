@@ -15,8 +15,12 @@ if (sprout[numb] == cs_mega)
 else {
 
 	//Make an item come out, if there is one        
-	with (instance_create_depth(x+8, y, 10, obj_powerup_sprout))   
+	with (instance_create_depth(x+8, y, 10, obj_powerup_sprout)) {
+		
 	    sprite_index = macro_get_sprite(other.sprout[other.numb]);
+		if (other.bottom == true)
+			vspeed = 0.5;
+	}
 }
 
 //Do not allow bump

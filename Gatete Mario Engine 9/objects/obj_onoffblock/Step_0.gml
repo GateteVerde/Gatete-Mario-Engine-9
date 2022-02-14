@@ -1,5 +1,8 @@
 /// @description Update frame
 
+//Inherit event from parent
+event_inherited();
+
 //Do not animate
 image_speed = 0;
 

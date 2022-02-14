@@ -37,9 +37,15 @@ for (var i=0; i<3; i++) {
         
 	    //Create the item
 	    if (sprout[i] != cs_coin)
-		&& (sprout[i] != cs_mega)
-	        with (instance_create_depth(x + 8 + (i * 16), y, 10, obj_powerup_sprout))       
+		&& (sprout[i] != cs_mega) {
+			
+	        with (instance_create_depth(x + 8 + (i * 16), y, 10, obj_powerup_sprout)) {
+				
 	            sprite_index = macro_get_sprite(other.sprout[i]);
+				if (other.bottom == true)
+					vspeed = 0.5;
+			}
+		}
 	}
 }
 
