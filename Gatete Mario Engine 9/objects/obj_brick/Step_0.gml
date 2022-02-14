@@ -14,42 +14,73 @@ if (instance_exists(obj_mario)) {
 	else if (obj_mario.yspeed > 0)
 	&& (place_meeting(x, y - obj_mario.yspeed * 2.5, obj_mario)) {
 		
-		//If Mario has the propeller block and the 'Down' key is not being held.
-		if (obj_mario.groundpound == 2)
-		|| (global.powerup == cs_propeller) {
+		//If Mario does not have the propeller powerup
+		if (global.powerup != cs_propeller) {
+		
+			//If Mario is doing a ground pound
+			if (obj_mario.groundpound == 2) {
+			
+				//If Mario is small
+				if (global.powerup == cs_small) {
 				
-			//If Mario is doing a groundpound and does have any powerup, exit
-			if (obj_mario.groundpound == 2)
-			&& (global.powerup == cs_small) {
-				
-				//Bump block downwards
-				vspeed = 2;
-				alarm[0] = 4;
-			}
-				
-			//Otherwise, break and end groundpound if 'Down' is not longer pressed
-			else {
-				
-				//If the 'Down' key or the left joystick is down
-				if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
-					
-					event_user(15);
-					obj_mario.yspeed = -0.25;
+					//Bump block downwards
+					vspeed = 2;
+					alarm[0] = 4;
 				}
-					
-				//Otherwise, break and end groundpound
-				else {
 				
+				//Otherwise
+				else {
+					
 					//Break
 					event_user(15);
+				
+					//If the 'Down' key or the left joystick is pulled down, exit this event
+					if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5))
+						exit;
 					
-					//Stop mario vertical motion
+					//Otherwise
+					else {
+					
+						with (obj_mario) {
+						
+							yspeed = 0;
+							groundpound = 0;
+						}
+					}
+				}
+			}
+		}
+		
+		//Otherwise, if Mario has the propeller powerup
+		else if (global.powerup == cs_propeller) {
+		
+			//If Mario is doing a groundpound
+			if (obj_mario.groundpound == 2) {
+			
+				//Break
+				event_user(15);
+				
+				//If the 'Down' key or the left joystick is pulled down, exit this event
+				if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5))
+					exit;
+					
+				//Otherwise
+				else {
+					
 					with (obj_mario) {
 						
 						yspeed = 0;
-					    groundpound = 0;
+						groundpound = 0;
 					}
 				}
+			}
+			
+			//Otherwise
+			else if (obj_mario.jumpstyle > 0) {
+			
+				//If the 'Down' key or the left joystick is down, break block
+				if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5))			
+					event_user(15);
 			}
 		}
 	}

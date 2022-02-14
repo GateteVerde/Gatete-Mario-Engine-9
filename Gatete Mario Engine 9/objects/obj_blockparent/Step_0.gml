@@ -1,17 +1,49 @@
-/// @description Break blocks if Mario is giant
+/// @description Break blocks if Mario is giant or bump blocks if you groundpound them
 
 //Check for Mario
-var mario = collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bottom+6, obj_mario, 0, 0);
+if (instance_exists(obj_mario)) {
 
-//If Mario does exist
-if (mario) 
-&& (global.powerup == cs_mega)
-&& (instance_exists(obj_megashroom_timer)) {
+	//Check for Mario
+	if (collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bottom+6, obj_mario, 0, 0))
+	&& (global.powerup == cs_mega)
+	&& (instance_exists(obj_megashroom_timer)) {
 	
-	event_user(15);
-	if (sprite_index == spr_qblock_big) 
-	|| (sprite_index == spr_brick_big) 
-	|| (sprite_index == spr_flipblock_big) 
-	|| (sprite_index == spr_coinrouletteblock)
-		mario.xspeed /= 4
+		event_user(15);
+		if (sprite_index == spr_qblock_big) 
+		|| (sprite_index == spr_brick_big) 
+		|| (sprite_index == spr_flipblock_big) 
+		|| (sprite_index == spr_coinrouletteblock)
+			obj_mario.xspeed /= 4
+	}
+
+	//If Mario is tiny or small
+	if (global.powerup == cs_tiny)
+		exit;
+		
+	//Otherwise
+	else if (obj_mario.yspeed > 0)
+	&& (place_meeting(x, y - obj_mario.yspeed * 2.5, obj_mario)) {
+		
+		//If Mario is doing a ground pound
+		if (obj_mario.groundpound == 2) 
+		|| ((global.powerup == cs_propeller) && (jumpstyle > 0)) {
+			
+			//If not bumped
+			if (ready == 0) {
+				
+				//Make items sprout from below
+				bottom = true;
+				
+				//Bump it
+				ready = 1;
+				
+				//Bump block downwards
+				vspeed = 2;
+				alarm[0] = 4;
+					
+				//Perform block events
+				event_user(0);
+			}
+		}
+	}
 }

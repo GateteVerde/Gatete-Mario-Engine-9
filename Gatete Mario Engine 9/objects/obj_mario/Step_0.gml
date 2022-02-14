@@ -55,16 +55,18 @@
 	if (somersault) {
 		
 		angle += -30*sign(xscale);
-		if (global.powerup == cs_tiny) 
-		|| (global.powerup == cs_mega)
+		if (global.powerup == cs_tiny)
+		|| ((global.powerup == cs_mega) && (groundpound <> 1))
 		|| (instance_number(obj_statue) > 0)
 		|| (instance_number(obj_spinner) > 0)
-		|| (holding > 0) {
+		|| (holding > 0) 
+		|| (groundpound == 2) {
 		
 			somersault = 0;
 			angle = 0;
 		}
 	}
+	
 #endregion
 
 #region CHECK IF IN AIR

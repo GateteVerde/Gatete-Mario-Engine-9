@@ -35,7 +35,8 @@ if (scatter == 0) {
 	}
 
 	//Create coin
-	instance_create_depth(x + 8, ystart - 16, -4, obj_block_coin);
+	if (bottom == false)
+		instance_create_depth(x + 8, ystart - 16, -4, obj_block_coin);
 }
 
 //Otherwise, if the scatter mode is active

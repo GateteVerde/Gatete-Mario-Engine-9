@@ -900,6 +900,13 @@ if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_valu
 		//Play 'Ground Pound' sound
 		audio_play_sound(snd_groundpound, 0, false);
 		
+		//Force stop somersault
+		if (somersault > 0) {
+		
+			angle = 0;
+			somersault = 0;
+		}
+		
 		//Stop movement
 		xspeed = 0;
 		yspeed = 0;

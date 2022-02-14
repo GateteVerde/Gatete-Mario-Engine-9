@@ -31,9 +31,7 @@ if (inair == 1) {
 }
 
 //If Mario was doing a groundpound
-if (groundpound == 2) 
-&& (!collision_rectangle(bbox_left, bbox_bottom + 8, bbox_right, bbox_bottom + 8 + (yspeed * 2.5), obj_brick, 0, 0)) 
-&& (!collision_rectangle(bbox_left, bbox_bottom + 8, bbox_right, bbox_bottom + 8 + (yspeed * 2.5), obj_flipblock, 0, 0)) {
+if (groundpound == 2) {
 	
 	//Play 'Ground Pound End' sound
 	audio_play_sound(snd_groundpound_end, 0, false);

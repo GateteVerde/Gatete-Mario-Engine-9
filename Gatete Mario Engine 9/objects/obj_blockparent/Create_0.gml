@@ -1,5 +1,8 @@
 /// @description Block parent object
 
+//Whether this object has been bumped from above
+bottom = false;
+
 //Shard sprite
 shard_sprite = -1;
 
