@@ -325,9 +325,48 @@ if (inwall == 0)
 				else if (jumpstyle == 0) {
 					
 					if (global.powerup == cs_carrot)
-						yspeed = -3.7675+abs(xspeed)/7.5*-1;
-					else
-						yspeed = -3.4675+abs(xspeed)/7.5*-1;
+						yspeed = -3.7675 + abs(xspeed)/7.5*-1;
+					else {
+						
+						//Set the vertical speed
+						yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+						
+						//If Mario does not have the 'Tiny' or 'Mega' powerups and it's not riding a yoshi/kuribo shoe and it's running
+						if (global.powerup != cs_tiny)
+						&& (global.powerup != cs_mega) 
+						&& (global.mount == 0)
+						&& (abs(xspeed) >= 2.6) {
+						
+							//Begin Triple Jump
+							if (triplejump == 0) {
+								
+								triplejump = 1;
+								tjtime = 20;
+							}
+							
+							//Otherwise, increase triple jump
+							else {
+								
+								//If Mario did the first jump
+								if (triplejump == 1) {
+								
+									triplejump = 2;
+									tjtime = 20;
+								}
+							
+								//Otherwise, if Mario did the second jump
+								else if (triplejump == 2) {
+								
+									//End triple jump
+									triplejump = 0;
+									tjtime = 0;
+									
+									//Begin somersault
+									somersault = 1;									
+								}
+							}
+						}
+					}
 				}
 					
 				//If the player is doing a spin-jump

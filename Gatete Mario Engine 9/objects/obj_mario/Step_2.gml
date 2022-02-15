@@ -283,6 +283,15 @@ else {
 									sprite_index = global.slide_sprite[global.powerup];
 							}
 							
+							//Otherwise, if the player is doing the second jump
+							else if ((triplejump == 2) && (somersault == 0)) {
+							
+								//Set the sprite
+								sprite_index = global.run_sprite[global.powerup];
+								image_speed = 0;
+								image_index = 1;
+							}
+							
 							//Otherwise
 							else {
                         
@@ -363,27 +372,27 @@ else {
                                         
 	                                        //Otherwise, if it's not
 	                                        else {
-                                    
-	                                            //If Mario is moving up
-	                                            if (yspeed < 0)
-	                                                image_index = 0;
-	                                            else {
+												
+												//If Mario is moving up
+		                                        if (yspeed < 0)
+		                                            image_index = 0;
+		                                        else {
                                             
-	                                                if (floatnow > 0)
-	                                                    image_speed = 0.15;
-	                                                else {
+		                                            if (floatnow > 0)
+		                                                image_speed = 0.15;
+		                                            else {
                                                 
-	                                                    if (run)
-	                                                        image_index = 0;
-	                                                    else
-	                                                        image_index = 1;
-	                                                }
-	                                            }
+		                                                if (run)
+		                                                    image_index = 0;
+		                                                else
+		                                                    image_index = 1;
+		                                            }
+		                                        }
                                             
-	                                            //If Mario is running
-	                                            if (!run)
-	                                                sprite_index = global.jump_sprite[global.powerup];
-	                                            else
+		                                        //If Mario is running
+		                                        if (!run) 
+		                                            sprite_index = global.jump_sprite[global.powerup];
+		                                        else
 													sprite_index = global.runjump_sprite[global.powerup];
 	                                        }
 	                                    }
@@ -403,23 +412,23 @@ else {
 	                                        }
 	                                        else {
                                         
-	                                            //If Mario is moving down
-	                                            if (yspeed > 0)
-	                                                image_index = 1;
-	                                            else {
+		                                        //If Mario is moving down
+		                                        if (yspeed > 0)
+		                                            image_index = 1;
+		                                        else {
                                             
-	                                                if (floatnow > 0)
-	                                                    image_speed = 0.15;
-	                                                else if (yspeed < -1.1)
-	                                                    image_index = 0;
-	                                            }
+		                                            if (floatnow > 0)
+		                                                image_speed = 0.15;
+		                                            else if (yspeed < -1.1)
+		                                                image_index = 0;
+		                                        }
                                                                                 
-	                                            //If Mario is running
-	                                            if (!run)
-	                                                sprite_index = global.jump_sprite[global.powerup];
-	                                            else
-	                                                sprite_index = global.runjump_sprite[global.powerup];
-	                                        }
+		                                        //If Mario is running
+		                                        if (!run)
+		                                            sprite_index = global.jump_sprite[global.powerup];
+		                                        else
+		                                            sprite_index = global.runjump_sprite[global.powerup];
+											}
 	                                    }
 									
 										//Otherwise, if Mario is wearing the Squirrel suit
@@ -504,7 +513,7 @@ else {
 	                                                    image_index = 0;
 	                                                }
 	                                            }
-	                                            else {    
+	                                            else {
                                     
 	                                                //...but set the appropiate frame
 	                                                if (yspeed < 0) {

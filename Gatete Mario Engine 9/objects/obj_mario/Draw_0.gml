@@ -1,5 +1,6 @@
 /// @description Draw Mario
 
+//If no flying object exists
 if (fly != noone)
 	return;
 

@@ -1,6 +1,6 @@
 /// @description Mario's logic!
 
-#region MANAGE PALETTES AND ANGLE
+#region MANAGE PALETTES, TRIPLE JUMP AND ANGLE
 
 	//If the player is invulnerable
 	if (instance_exists(obj_invincibility)) {
@@ -52,11 +52,11 @@
 	}
 	
 	//Set up angle if somersaulting, end if Mario is tiny
-	if (somersault) {
+	if (somersault) || (triplejump == 2) {
 		
 		angle += -30*sign(xscale);
 		if (global.powerup == cs_tiny)
-		|| ((global.powerup == cs_mega) && (groundpound <> 1))
+		|| (global.powerup == cs_mega)
 		|| (instance_number(obj_statue) > 0)
 		|| (instance_number(obj_spinner) > 0)
 		|| (holding > 0) 
@@ -65,6 +65,22 @@
 			somersault = 0;
 			angle = 0;
 		}
+	}
+	
+	//Manage triple jump
+	if (triplejump > 0) {
+		
+		//Decrement timer (but only if in ground
+		if (state < playerstate.jump)
+			tjtime--;
+		
+		//If the timer runs out or Mario's horizontal speed is lower than 2.6
+		if (tjtime < 0) 
+		|| (abs(xspeed) < 2.6) {
+			
+			triplejump = 0;
+			tjtime = 0;
+		}		
 	}
 	
 #endregion
