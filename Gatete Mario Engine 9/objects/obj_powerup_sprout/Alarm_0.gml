@@ -100,13 +100,13 @@ else if (sprite_index == spr_chillleaf) {
 //Beanstalk
 else if (sprite_index == spr_beanstalk) {
 
-	instance_create_layer(x, y, "Main", obj_beanstalk);
+	instance_create_layer(x, ystart, "Main", obj_beanstalk);
 }
 
 //Side Beanstalk
 else if (sprite_index == spr_beanstalk_side) {
 
-	with (instance_create_layer(x, y, "Main", obj_beanstalk)) {
+	with (instance_create_layer(x, ystart, "Main", obj_beanstalk)) {
 		
 		sprite_index = spr_beanstalk_side;
 		vinetype = 1;

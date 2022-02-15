@@ -58,11 +58,12 @@ wallkick_allow = function() {
 throw_projectile = function() {
 
 	// If the proper parameters exist to be able to do powerup-specific actions
-	if ((enable_control == true)
+	if (enable_control == true)
 	&& (sliding == 0)
 	&& (holding == 0)
 	&& (kicking == 0)
-	&& (wallkick == 0)) {
+	&& (wallkick == 0)
+	&& (groundpound == 0) {
         
 		//Create statue
 	    if (global.powerup == cs_tanooki)

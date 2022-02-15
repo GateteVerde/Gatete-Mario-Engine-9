@@ -935,7 +935,8 @@ if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_valu
 	&& (wallkick == 0)
 	&& (groundpound == 0) 
 	&& (global.powerup != cs_tiny) 
-	&& (global.powerup != cs_mega) {
+	&& (global.powerup != cs_mega) 
+	&& (global.powerup != cs_bell) {
 	
 		//Play 'Ground Pound' sound
 		audio_play_sound(snd_groundpound, 0, false);
@@ -1041,6 +1042,7 @@ if (state == playerstate.jump)
     || ((global.powerup == cs_bee) && (beefly < 128)))
     && (!crouch)
     && (wallkick < 1)
+	&& (groundpound == 0)
     && (global.mount == 0)
     && (input_check(input.action_0)) {
 
@@ -1121,7 +1123,12 @@ else if ((!isfloating) && (floatnow)) {
 }
 
 //Squirrel flight
-if ((global.powerup == cs_squirrel) && (holding == 0) && (wallkick == 0) && (wallready == 0) && (jumpstyle == 0)) {
+if (global.powerup == cs_squirrel) 
+&& (holding == 0) 
+&& (wallkick == 0) 
+&& (wallready == 0) 
+&& (jumpstyle == 0)
+&& (groundpound == 0) {
 
     //If Mario hasn't propelled yet
     if (squirrelpropel == 0) {

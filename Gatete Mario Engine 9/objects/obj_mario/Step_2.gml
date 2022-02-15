@@ -285,11 +285,32 @@ else {
 							
 							//Otherwise, if the player is doing the second jump
 							else if ((triplejump == 2) && (somersault == 0)) {
+								
+								//If Mario does have the football or cat powerup
+								if (global.powerup == cs_bell)
+								|| (global.powerup == cs_football) {
+								
+									//Set the sprite
+									sprite_index = global.jump_sprite[global.powerup];
+									
+									//Do not animate
+									image_speed = 0;
+									
+									//If moving up
+									if (yspeed < 0)
+										image_index = 0;
+									else
+										image_index = 1;
+								}
+								
+								//Otherwise
+								else {
 							
-								//Set the sprite
-								sprite_index = global.run_sprite[global.powerup];
-								image_speed = 0;
-								image_index = 1;
+									//Set the sprite
+									sprite_index = global.run_sprite[global.powerup];
+									image_speed = 0;
+									image_index = 1;
+								}
 							}
 							
 							//Otherwise

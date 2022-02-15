@@ -14,6 +14,9 @@ event_user(0);
 //Do not remember checkpoint
 global.checkpoint = noone;
 
+//Remember the player last position in map
+with (obj_mapmario) event_user(0);
+
 //If no curtain exists, create it
 if (instance_number(obj_curtain_in) == 0) {
 

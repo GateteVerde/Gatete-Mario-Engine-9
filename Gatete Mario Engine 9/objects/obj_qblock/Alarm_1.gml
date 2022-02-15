@@ -40,6 +40,7 @@ if (sprout != cs_coin)
 			
             sprite_index = macro_get_sprite(other.sprout);
 			if (other.bottom == true)
+			&& (other.sprout != cs_beanstalk)
 				vspeed = 0.5;
 		}
 	}
