@@ -87,7 +87,7 @@
   },
   "parent": {
     "name": "Minigames",
-    "path": "folders/Rooms/Courses/Special/Minigames.yy",
+    "path": "folders/Rooms/Special/Minigames.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_minigame_1up",

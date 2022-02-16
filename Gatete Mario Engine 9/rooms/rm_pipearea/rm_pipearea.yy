@@ -213,7 +213,7 @@
   },
   "parent": {
     "name": "Pipes",
-    "path": "folders/Rooms/Courses/Special/Pipes.yy",
+    "path": "folders/Rooms/Special/Pipes.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_pipearea",

@@ -195,8 +195,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Courses",
-    "path": "folders/Rooms/Courses.yy",
+    "name": "Course 1",
+    "path": "folders/Rooms/Courses/Course 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_course_w1_l1_b",

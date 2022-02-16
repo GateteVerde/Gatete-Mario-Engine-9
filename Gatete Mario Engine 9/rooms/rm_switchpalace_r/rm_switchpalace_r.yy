@@ -201,7 +201,7 @@
   },
   "parent": {
     "name": "Switch Palaces",
-    "path": "folders/Rooms/Courses/Special/Switch Palaces.yy",
+    "path": "folders/Rooms/Special/Switch Palaces.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_switchpalace_r",

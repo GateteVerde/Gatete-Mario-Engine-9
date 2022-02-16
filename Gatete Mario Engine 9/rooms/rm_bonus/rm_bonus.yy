@@ -140,7 +140,7 @@
   },
   "parent": {
     "name": "Special",
-    "path": "folders/Rooms/Courses/Special.yy",
+    "path": "folders/Rooms/Special.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_bonus",

@@ -9,6 +9,9 @@ function coins_add() {
 	//Increment coins
 	global.coins += _indexedCoinsVariable;
 	
+	//If there's a branch pipe
+	with (obj_warpparent) coins += other._indexedCoinsVariable;
+	
 	//If the coin collection mode is active
 	if (obj_hud.coins_left > -1)
 		obj_hud.coins_left -= _indexedCoinsVariable;
