@@ -29,6 +29,9 @@ if (instance_exists(obj_flagpole_secret)) {
 //Anim
 anim = 0;
 
+//Do not swim
+noswim = 1;
+
 //Do not flash
 isflashing = 0;
 
