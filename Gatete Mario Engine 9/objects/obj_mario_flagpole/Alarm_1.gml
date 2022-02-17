@@ -31,8 +31,8 @@ else {
 		score += 50;
 	}
 	
-	//If the timer is greater than 0, play 'Count' sound
-	if (global.timer > 0)
+	//If the timer is greater than 1, play 'Count' sound
+	if (global.timer > 1)
 		audio_play_sound(snd_count, 0, false);
 	else
 		audio_play_sound(snd_count_end, 0, false);

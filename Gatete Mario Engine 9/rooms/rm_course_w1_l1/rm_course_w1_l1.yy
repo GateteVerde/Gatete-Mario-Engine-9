@@ -653,7 +653,7 @@
   },
   "parent": {
     "name": "Course 1",
-    "path": "folders/Rooms/Courses/Course 1.yy",
+    "path": "folders/Rooms/Levels/Course 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_course_w1_l1",
