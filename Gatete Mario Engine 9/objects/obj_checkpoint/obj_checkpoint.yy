@@ -33,8 +33,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Level Progress",
-    "path": "folders/Objects/Items/Level Progress.yy",
+    "name": "SMB1",
+    "path": "folders/Objects/Items/Level Progress/SMB1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_checkpoint",

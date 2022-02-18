@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Level Progress",
-    "path": "folders/Sprites/Items/Level Progress.yy",
+    "name": "SMB1",
+    "path": "folders/Sprites/Items/Level Progress/SMB1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_checkpoint",

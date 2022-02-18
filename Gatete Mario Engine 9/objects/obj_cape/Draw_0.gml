@@ -26,8 +26,13 @@ if (instance_exists(owner)) {
 			else {
 				
 				//If somersaulting, do not draw
-				if (owner.somersault == 0)
-					draw_sprite_ext(sprite_index, image_index, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, image_alpha);
+				if (owner.somersault == 0) {
+					
+					if (owner.state == playerstate.climb) && (owner.climbstyle == 1)
+						draw_sprite_ext(spr_cape, 0, screen_round(x-3*sign(image_xscale)), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
+					else
+						draw_sprite_ext(sprite_index, image_index, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, image_alpha);
+				}
 			}
 		}
             

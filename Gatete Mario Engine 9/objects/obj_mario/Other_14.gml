@@ -245,7 +245,7 @@ if (enable_control == true) { //If the player controls are enabled.
 		    yspeed = 0;
 
 		//Make the player jump.
-		if (keyboard_check_pressed(vk_shift)) {
+		if (input_check_pressed(input.action_0)) {
 
 		    //Play 'Jump' sound
 		    audio_play_sound(snd_jump, 0, false);   
@@ -271,7 +271,6 @@ if (enable_control == true) { //If the player controls are enabled.
 				yspeed = -2.7375
 			}
 		    
-    
 		    //Move Mario 8 pixels
 		    x -= 8*sign(xscale);     
     

@@ -8,7 +8,6 @@ depth = -7;
 
 //Alpha
 alpha = 1;
-alphaval = alpha/100;
 
 //Manage tide movement
 alarm[0] = 360;

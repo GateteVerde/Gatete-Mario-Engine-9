@@ -5,8 +5,23 @@ if (ready == 0) {
     //Play 'Whistle' sound
     audio_play_sound(snd_whistle, 0, false);
 
-    //Deactivate checkpoints
+    //Deactivate checkpoint flags
     with (obj_checkpoint) ready = 0;
+	
+	//Deactivate midway bells
+	with (obj_bell_midway) {
+		
+		image_speed = 0;
+		image_index = 0;
+	}
+	
+	//Deactivate midway gate tapes
+	with (obj_midwaygate_tape) {
+	
+		visible = 1;
+		if (image_index != 0)
+			image_index = 0;
+	}
     
     //Switch to the player flag
     ready = 1;

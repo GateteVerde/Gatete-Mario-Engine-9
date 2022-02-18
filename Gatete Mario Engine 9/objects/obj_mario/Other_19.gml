@@ -31,6 +31,7 @@ allow_turn = function() {
 //Allow climbing
 allow_climb = function() {
 
+	climbstyle = 0;
 	canhang = 0;
 	canturn = 0;
 }

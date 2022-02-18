@@ -845,10 +845,11 @@ var climb1 = collision_point(x, y, obj_climb_side, 0, 0);
 var climb2 = collision_point(x, y+15, obj_climb_side, 0, 0);
 
 //If there's a climbable surface
-if (climb1)
-&& (climb2)
+if ((climb1) || (climb2))
+&& (holding == 0)
 && (canhang == 0)
-&& (enable_control) {
+&& (enable_control) 
+&& (global.mount == 0) {
         
     //If the horizontal speed is greater than 0, face to the right
     if (xspeed > 0) {

@@ -1,5 +1,8 @@
 /// @description Mario's logic!
 
+//Update timers
+timer_system_update();
+
 #region MANAGE PALETTES, TRIPLE JUMP AND ANGLE
 
 	//If the player is invulnerable

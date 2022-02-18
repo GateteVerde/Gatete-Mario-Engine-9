@@ -1,7 +1,9 @@
 /// @description Destroy Yoshi
 
-//Dismount Yoshi
-global.mount = 0;
+//If the keyhole has been activated
+if (instance_exists(obj_keyhole))
+&& (obj_keyhole.ready != 0)
+exit;
 
 //Stop 'Flying' sound
 audio_stop_sound(snd_yoshi_lick);
