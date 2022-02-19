@@ -841,11 +841,10 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_climb, 0,
 }
 
 //Check for a alternative climbing surface
-var climb1 = collision_point(x, y, obj_climb_side, 0, 0);
-var climb2 = collision_point(x, y+15, obj_climb_side, 0, 0);
+var side_climb = collision_rectangle(x, y, x, y+15, obj_climb_side, 0, 0);
 
 //If there's a climbable surface
-if ((climb1) || (climb2))
+if (side_climb)
 && (holding == 0)
 && (canhang == 0)
 && (enable_control) 
@@ -855,14 +854,14 @@ if ((climb1) || (climb2))
     if (xspeed > 0) {
     
         xscale = 1;
-        x = climb1.x+8;
+        x = side_climb.x+8;
     }
         
     //Otherwise, if the horizontal speed is lower than 0, face to the left
     else if (xspeed < 0) {
     
         xscale = -1;
-        x = climb1.x+8;
+        x = side_climb.x+8;
     }
     
     //Force set 'Climb' state

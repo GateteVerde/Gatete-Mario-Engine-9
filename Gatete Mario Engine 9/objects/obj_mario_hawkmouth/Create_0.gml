@@ -46,6 +46,7 @@ global.clear = 1;
 
 //Anim
 anim = 0
+cape_anim = 0;
 
 //Do not flush
 isflashing = 0;

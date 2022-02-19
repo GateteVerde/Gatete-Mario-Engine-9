@@ -33,6 +33,7 @@ image_speed = 0;
 
 //Anim
 anim = 0;
+cape_anim = 0;
 
 //Move
 ready = 0;

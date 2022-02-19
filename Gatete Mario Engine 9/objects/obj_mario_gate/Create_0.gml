@@ -18,6 +18,7 @@ depth = -5;
 
 //Anim
 anim = 0;
+cape_anim = 0;
 
 //Do not flash
 isflashing = 0;

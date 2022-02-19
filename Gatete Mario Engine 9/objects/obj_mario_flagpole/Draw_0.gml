@@ -66,7 +66,7 @@ if (global.mount == 1) {
 					if (yspeed < 0)
 						draw_sprite_ext(spr_cape, 1, screen_round(x-3*sign(image_xscale)), screen_round(y)-7, image_xscale, 1, 0, c_white, image_alpha);
 					else
-						draw_sprite_ext(spr_cape_fall, -1, screen_round(x-3*sign(image_xscale)), screen_round(y)-7, image_xscale, 1, 0, c_white, image_alpha);
+						draw_sprite_ext(spr_cape_fall, cape_anim, screen_round(x-3*sign(image_xscale)), screen_round(y)-7, image_xscale, 1, 0, c_white, image_alpha);
 				}
 
 				//Draw Mario
@@ -130,7 +130,7 @@ if (global.mount == 1) {
 					//Draw cape
 					if (global.powerup == cs_cape) {
 			
-						draw_sprite_ext(spr_cape_walk, -1, screen_round(x-3*sign(image_xscale)), screen_round(y)-7, image_xscale, 1, 0, c_white, image_alpha);
+						draw_sprite_ext(spr_cape_walk, cape_anim, screen_round(x-3*sign(image_xscale)), screen_round(y)-7, image_xscale, 1, 0, c_white, image_alpha);
 					}
 
 					//Draw Mario

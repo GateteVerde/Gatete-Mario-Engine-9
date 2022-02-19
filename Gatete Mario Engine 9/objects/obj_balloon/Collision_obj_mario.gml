@@ -1,5 +1,17 @@
 /// @description Turn into balloon Mario
 
+//Force dismount Yoshi
+if (instance_exists(obj_yoshi)) {
+	
+	with (obj_yoshi) event_user(1);
+}
+
+//Force dismount kuribo shoes
+if (instance_exists(obj_kuriboshoe)) {
+
+	with (obj_kuriboshoe) event_user(0);
+}
+
 //If Mario does not have the mega powerup
 if (global.powerup != cs_mega) {
 

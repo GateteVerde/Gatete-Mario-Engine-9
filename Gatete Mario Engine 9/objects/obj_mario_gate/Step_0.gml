@@ -3,6 +3,9 @@
 //Inherit step event
 event_inherited();
 
+//Animate cape if it is visible
+cape_anim += 0.065+abs(xspeed)/7.5;
+
 //Animate Yoshi if riding one
 anim += 0.065+abs(xspeed)/7.5;
 if (anim > 2.99) {

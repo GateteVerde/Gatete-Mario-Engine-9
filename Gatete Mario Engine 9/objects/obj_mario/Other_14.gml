@@ -166,7 +166,7 @@ if (enable_control == true) { //If the player controls are enabled.
 		if (canhang == 2) {
 
 		    //If 'Right' is pressed
-		    if (input_check(input.right)) {
+		    if ((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
     
 		        //Set the facing direction
 		        xscale = -1;
@@ -191,7 +191,7 @@ if (enable_control == true) { //If the player controls are enabled.
 		    }
     
 		    //Otherwise, if 'Left' is pressed
-		    else if (input_check(input.left)) {
+		    else if ((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) {
     
 		        //Set the facing direction
 		        xscale = 1;
@@ -221,16 +221,16 @@ if (enable_control == true) { //If the player controls are enabled.
 		}
     
 		//Move up if 'Up' is held.
-		if ((input_check(input.up)) && (!input_check(input.down))) {
+		if (((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) && (!input_check(input.down))) {
 
-		    if (!collision_rectangle(bbox_left, y, bbox_right, y, obj_climb_side, 0, 0))
+		    if (!position_meeting(x, y-1, obj_climb_side))
 		        yspeed = 0;
 		    else
 		        yspeed = -1;
 		}
 
 		//Move down if 'Down' is held.
-		else if ((input_check(input.down)) && (!input_check(input.up))) {
+		else if (((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) && (!input_check(input.up))) {
 
 		    //Move downwards
 		    yspeed = 1;
