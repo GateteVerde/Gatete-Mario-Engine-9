@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_slope_steep_r",
-    "path": "sprites/spr_slope_steep_r/spr_slope_steep_r.yy",
+    "name": "spr_goal_orb",
+    "path": "sprites/spr_goal_orb/spr_goal_orb.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_slopeparent",
-    "path": "objects/obj_slopeparent/obj_slopeparent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Slopes",
-    "path": "folders/Objects/Collision/Slopes.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Special/Parents.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_slope_steep_r",
+  "name": "obj_deactivateparent",
   "tags": [],
   "resourceType": "GMObject",
 }

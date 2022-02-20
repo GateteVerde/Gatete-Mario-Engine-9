@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_slope_steep_r",
-    "path": "sprites/spr_slope_steep_r/spr_slope_steep_r.yy",
+    "name": "spr_poison",
+    "path": "sprites/spr_poison/spr_poison.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_slopeparent",
-    "path": "objects/obj_slopeparent/obj_slopeparent.yy",
+    "name": "obj_enemyparent",
+    "path": "objects/obj_enemyparent/obj_enemyparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Slopes",
-    "path": "folders/Objects/Collision/Slopes.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_slope_steep_r",
+  "name": "obj_enemy_test_ledges",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,0 +1,1 @@
+/// @description Default stomp script

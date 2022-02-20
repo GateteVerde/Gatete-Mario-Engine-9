@@ -1,0 +1,1 @@
+/// @description Default death script
