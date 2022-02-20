@@ -26,9 +26,9 @@ if (status == mapstate.idle)
 			obj_hud_map.levelid = noone;
 			
 			//If Mario is at the start position
-			if (x == xstart)
-			&& (y == ystart) 
-				obj_hud_map.levelname = string_upper("Start Point");
+			if (position_meeting(x + 8, y + 8, obj_mapstart))
+			&& (position_meeting(x + 8, y + 8, obj_mapstart).visible = true)
+				obj_hud_map.levelname = string_upper("Start");
 			else
 				obj_hud_map.levelname = "";
 		}

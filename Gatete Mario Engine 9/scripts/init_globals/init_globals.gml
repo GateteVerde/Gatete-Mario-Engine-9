@@ -13,6 +13,9 @@ function init_globals() {
 
 	//Current minigame
 	global.minigame = 1;
+	
+	//World
+	global.world = 1;
 
 	//Exits found
 	global.exits = ds_map_create();
@@ -194,6 +197,12 @@ function init_globals() {
 
 	//Levels beaten
 	global.cleared_levels = 0;
+	
+	//Star House
+	for (var i=1; i<=8; i++) {
+	
+		global.star_house[i] = 0;
+	}
 	
 	//Powerup Count
 	var powerup_count = 27;

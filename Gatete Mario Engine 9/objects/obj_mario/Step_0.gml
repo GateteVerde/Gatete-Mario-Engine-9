@@ -77,10 +77,12 @@ timer_system_update();
 		if (state < playerstate.jump)
 			tjtime--;
 		
-		//If the timer runs out or Mario's horizontal speed is lower than 2.6
+		//If the timer runs out, or Mario is spin-jumping, or Mario's horizontal speed is lower than 2.6...
 		if (tjtime < 0) 
+		|| (jumpstyle > 0)
 		|| (abs(xspeed) < 2.6) {
 			
+			//Cancel triple jump
 			triplejump = 0;
 			tjtime = 0;
 		}		

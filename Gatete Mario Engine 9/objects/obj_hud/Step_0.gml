@@ -17,8 +17,8 @@ if (collect_mode == 1) {
 		//Create a poof of smoke
 		instance_create_depth(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16, -32, obj_smoke);
 		
-		//Enable the blue house in-map
-		global.blue_house = true;
+		//Enable the star house from the respective world
+		global.star_house[global.world] = 1;
 	}
 }
 
