@@ -1,5 +1,11 @@
 /// @description Pick up block
 
+//Destroy if Mario approaches the block while in Mega form
+if (collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bottom+6, obj_mario, 0, 0))
+&& (global.powerup == cs_mega)
+&& (instance_exists(obj_megashroom_timer))
+	event_user(15)
+
 //Check for the player
 if (can_hold())
 && (input_check_pressed(input.action_1))

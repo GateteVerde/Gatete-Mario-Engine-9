@@ -35,6 +35,9 @@ else {
     
 	    //Get the mask from the player
 	    mask_index = obj_mario.mask_index;
+		
+		//Get the horizontal speed from the player
+		xspeed = min(1, obj_mario.xspeed);
 	}
 
 	//Otherwise, if Mario is doing another action

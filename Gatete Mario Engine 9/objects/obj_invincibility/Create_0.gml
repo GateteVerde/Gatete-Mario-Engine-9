@@ -17,3 +17,6 @@ warning = 0;
 
 //Object to follow up
 follow = noone;
+
+//Horizontal speed check
+xspeed = 0;

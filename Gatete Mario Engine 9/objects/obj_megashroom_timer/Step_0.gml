@@ -34,6 +34,9 @@ else {
     
 		//Get the mask from the player
 		mask_index = obj_mario.mask_index;
+		
+		//Get the horizontal speed from the player
+		xspeed = obj_mario.xspeed;
 	}
 
 	//Do not build combo

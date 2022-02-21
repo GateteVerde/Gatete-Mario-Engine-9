@@ -1,5 +1,8 @@
 /// @desc Stay always in front and update timers
 
+//Update timers
+timer_system_update();
+
 //Update Window Caption
 window_set_caption("Gatete Mario Engine 9 | FPS: " + string(fps) + " / 60")
 

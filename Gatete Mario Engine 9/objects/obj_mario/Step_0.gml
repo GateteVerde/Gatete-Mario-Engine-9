@@ -1,8 +1,5 @@
 /// @description Mario's logic!
 
-//Update timers
-timer_system_update();
-
 #region MANAGE PALETTES, TRIPLE JUMP AND ANGLE
 
 	//If the player is invulnerable
@@ -55,7 +52,7 @@ timer_system_update();
 	}
 	
 	//Set up angle if somersaulting, end if Mario is tiny
-	if (somersault) || (triplejump == 2) {
+	if (somersault) {
 		
 		angle += -30*sign(xscale);
 		if (global.powerup == cs_tiny)

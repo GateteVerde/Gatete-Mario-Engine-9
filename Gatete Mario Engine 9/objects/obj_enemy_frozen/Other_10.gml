@@ -23,6 +23,9 @@ repeat(32) {
 
 	//Hereby facing direction
 	imdead.image_xscale = xscale;
+	
+	//Hereby horizontal speed
+	imdead.hspeed = xspeed;
 #endregion
 
 //Destroy

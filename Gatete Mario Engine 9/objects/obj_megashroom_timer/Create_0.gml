@@ -15,6 +15,9 @@ warning = 0;
 //Object to follow up
 owner = noone;
 
+//Horizontal speed
+xspeed = 0;
+
 //Stop 'Invincibility' sound if it is playing
 if (audio_is_playing(snd_starman))
 	audio_stop_sound(snd_starman);

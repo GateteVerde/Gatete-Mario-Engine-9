@@ -34,11 +34,17 @@ if (killer_id != -1) {
 			
 		//Otherwise
 		else {
+			
+			//If the killer id is the mega mushroom
+			if (killer_id.object_index != obj_megashroom_timer) {
 		
-			if (killer_id.xspeed > 0)
-				imdead.hspeed = 1;
+				if (killer_id.xspeed > 0)
+					imdead.hspeed = 1;
+				else
+					imdead.hspeed = -1;
+			}
 			else
-				imdead.hspeed = -1;
+				imdead.hspeed = killer_id.xspeed * 2;
 		}
 	}
 }

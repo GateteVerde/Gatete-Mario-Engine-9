@@ -5,7 +5,7 @@ function slope_collision() {
 	//Embed Mario/NPCs into the slope if he is walking to ensure correct slope mechanics
 	if (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_slopeparent, 1, 0))
 	&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_slopeparent, 1, 0)) 
-	&& (yadd == 0) 
+	&& (yspeed == 0) 
 		y += 4;
 
 	//Handle slope collisions
@@ -55,9 +55,29 @@ function slope_collision() {
 			}
 		}
 		
-		//Prevent NPCs from getting embed inside a slope
-		if (yspeed > -0.85)
+		//Prevent Mario from getting embed on a slope
+		if (object_index == obj_mario) {
+			
+			if (yspeed > -0.85) {
+				
+				//Round position variables
+				y = round(y);
+				
+				//Prevent getting embed on a slope
+				while (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
+					y--;
+			}
+		}
+		
+		//Otherwise, if this is a NPC
+		else {
+			
+			//Round position variables
+			y = round(y);
+			
+			//Prevent getting embed on a slope
 			while (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
-				y--;
+				y--;	
+		}
 	}
 }

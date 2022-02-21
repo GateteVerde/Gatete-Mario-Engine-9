@@ -104,6 +104,13 @@ else if (ready == 1) {
 	
 	//Destroy if this is a red or green brick
 	if (sprite_index == spr_brick_red_th)
-	|| (sprite_index == spr_brick_green_th)
+	|| (sprite_index == spr_brick_green_th) {
+		
+		//Shatter block
 		event_user(0);
+		
+		//Blow up if this is a green brick
+		if (sprite_index == spr_brick_green_th)
+			instance_create_layer(x, y, "Main", obj_explosion_lite);	
+	}
 }

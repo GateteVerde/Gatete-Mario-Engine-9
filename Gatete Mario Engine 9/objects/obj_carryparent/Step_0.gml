@@ -59,9 +59,9 @@ if (held) {
 						
 							//Snap into the side of Mario
 							if (obj_mario.xscale == 1)
-								x = obj_mario.x+6;
+								x = obj_mario.x+16;
 							else
-								x = obj_mario.x-22;
+								x = obj_mario.x-16;
 						}
 						
 						//Otherwise
@@ -73,9 +73,9 @@ if (held) {
 							
 								//Snap into the side of Mario
 								if (obj_mario.xscale == 1)
-									x = obj_mario.x+6;
+									x = obj_mario.x+16;
 								else
-									x = obj_mario.x-22;
+									x = obj_mario.x-16;
 							}
 							else {
 							

@@ -90,10 +90,6 @@ else {
 			bounces = bounces_max;
 	}
 }
-
-//Round position
-if (yspeed == 0)
-	y = round(y);
 	
 //Check for a nearby swimming surface
 var water = collision_rectangle(bbox_left, y-1, bbox_right, y, obj_swim, 1, 0);
