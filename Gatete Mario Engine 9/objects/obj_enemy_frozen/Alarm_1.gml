@@ -6,7 +6,7 @@ audio_play_sound(snd_icicle, 0, false);
 //Create sparks
 repeat (32) {
 
-    with (instance_create_depth(bbox_left + sprite_width / 2, bbox_top + sprite_height / 2, -4, obj_sparkle))
+    with (instance_create_depth(round(bbox_left + bbox_right) / 2, round(bbox_top + bbox_bottom) / 2, -4, obj_sparkle))
         motion_set(random(360), random(1));
 }
 

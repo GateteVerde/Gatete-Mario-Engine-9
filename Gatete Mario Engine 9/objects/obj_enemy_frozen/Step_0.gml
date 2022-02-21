@@ -26,6 +26,9 @@ if (!held) {
 			
 			//Create shell thump
 			with (instance_create_depth(x+(5*sign(prevxspeed)), y, -6, obj_shellthump)) bump = true;
+			
+			//Get 200 points
+			with (instance_create_depth(round(bbox_left + bbox_right) / 2, bbox_top, -4, obj_score)) value = 200;
 				
 			//Shatter
 			event_user(0);
@@ -37,6 +40,10 @@ if (!held) {
     }
 }
 
-//No bouncing if kicked
-if (ready == 1)
-	bounces = -1;	
+//No offset or bouncing if kicked
+if (ready == 1) {
+	
+	bounces = -1;
+	if (offset != 0)
+		offset = 0;
+}

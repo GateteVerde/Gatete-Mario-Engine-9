@@ -44,8 +44,8 @@ if (other.vulnerable == 0) {
 			event_user(0);
 		}
 		
-		//Get 100 points
-		with (instance_create_depth(round(other.bbox_left + other.bbox_right) / 2, bbox_top, -4, obj_score)) value = 100;
+		//Get 200 points
+		with (instance_create_depth(round(other.bbox_left + other.bbox_right) / 2, bbox_top, -4, obj_score)) value = 200;
 	}
 }
 

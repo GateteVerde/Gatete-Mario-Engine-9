@@ -26,7 +26,7 @@ init_shockwave();
 	//Turn enemies into coins when hit with a fireball
 	//0: Disabled
 	//1: Enabled
-	global.enemy_to_coin = 0;
+	global.enemy_to_coin = false;
 
 	//Makes Mario bounce on note blocks from any side
 	global.noteblock_all_sides = true;
