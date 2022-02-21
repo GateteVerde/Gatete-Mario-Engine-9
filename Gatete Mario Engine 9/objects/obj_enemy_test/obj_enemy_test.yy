@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_poison",
-    "path": "sprites/spr_poison/spr_poison.yy",
+    "name": "spr_goomba",
+    "path": "sprites/spr_goomba/spr_goomba.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_mask_npc_common_16x16",
+    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_enemyparent",

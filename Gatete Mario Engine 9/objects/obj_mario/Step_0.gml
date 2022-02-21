@@ -296,11 +296,8 @@ if (enable_gravity == 1) {
 			//Stop freeze status
 			freezetime = 0;
 			
-			//Enable controls
-			enable_control = true;
-			
-			//Give Mario temporary invulnerability
-			event_user(6);
+			//Hurt the player
+			event_user(0);
 		}
 	}
 	

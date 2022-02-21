@@ -6,7 +6,7 @@ if (xspeed == 0) {
 	//If Mario does not exist or Mario is at the left
 	if (!instance_exists(obj_mario))
 	|| (obj_mario.x < x)
-		xspeed = -0.5;
+		xspeed = (swimming == true) ? -0.25 : -0.5;
 	else
-		xspeed = 0.5;
+		xspeed = (swimming == true) ? 0.25 : 0.5;
 }

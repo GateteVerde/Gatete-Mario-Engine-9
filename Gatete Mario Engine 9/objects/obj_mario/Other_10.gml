@@ -15,7 +15,26 @@ if (invulnerable == 0) {
 		//If Mario is riding a shoe
 		if (global.mount == 2) {
 	
-		
+		    //Play 'Power Lost' sound
+		    audio_play_sound(snd_powerlost, 0, false);
+    
+		    //Forget it
+		    global.mount = 0;
+    
+		    //With the shoe
+		    with (obj_kuriboshoe) {
+    
+		        //Create flying shoe
+		        with (instance_create_depth(x, y, -6, obj_kuriboshoe_lost)) {
+        
+		            sprite_index = other.sprite_index;
+		            image_xscale = -1;
+		            hspeed = -1;
+		        }
+        
+		        //Destroy
+		        instance_destroy();
+		    }
 		}
 	
 		//Otherwise, if Mario is riding Yoshi
