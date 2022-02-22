@@ -1,4 +1,16 @@
-/// @description Grinder
+/// @description Small Grinder (Line)
+
+//How vulnerable is this enemy to various items?
+vulnerable = 2;
+
+//How vulnerable is this enemy to Mario?
+stomp = 2;
+
+//How edible is this enemy to Yoshi?
+edible = 2;
+
+//Does this enemy turn into a silver coin?
+turn_silver = 0;
 
 //Current angle
 angle = 0;
@@ -7,7 +19,7 @@ angle = 0;
 state = "IDLE";
 
 //Speed
-spd = 1;
+spd = 2;
 st_spd = spd;
 
 //Origin

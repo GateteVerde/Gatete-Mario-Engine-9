@@ -288,4 +288,4 @@ instance_deactivate_object(obj_deactivateparent);
 instance_deactivate_object(obj_enemyparent_deact);
 
 //Activate deactivated instances inside the view
-instance_activate_region(camera_get_view_x(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) + 32, camera_get_view_width(view_camera[0]) + 32, camera_get_view_height(view_camera[0]) + 32, true);
+instance_activate_region(camera_get_view_x(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) - 32, camera_get_view_width(view_camera[0]) + 32, camera_get_view_height(view_camera[0]) + 32, true);
