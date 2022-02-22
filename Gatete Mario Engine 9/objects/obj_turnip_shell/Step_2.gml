@@ -43,7 +43,7 @@ if (held) {
 	else {
             
 	    //Check what object is holding first
-	    event_user(15);
+	    follow_which_mario();
         
 	    //Then check if it exists
 	    if (instance_exists(follow)) {
@@ -78,12 +78,13 @@ if (held) {
 			obj_mario.holding = 0;
 	}
     
-	//Release if the player dies
-	if (!instance_exists(obj_mario))
-	&& (follow == noone) {
+	//Destroy if the player dies or clears the level
+	if (instance_exists(obj_mario_dead)) 
+	|| (instance_exists(obj_mario_clear)) {
 
-		xspeed = 2.5 * sign(obj_mario.xscale);
-	    held = false;
+		instance_create_depth(x, y+8, -6, obj_smoke);
+		instance_destroy();
+		exit;
 	}
 }
 

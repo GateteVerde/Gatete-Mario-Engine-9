@@ -7,7 +7,7 @@
 
 		//Move towards the player
 		x = owner.x;
-		y = owner.y;	
+		y = owner.y;
 	}
 	
 #endregion

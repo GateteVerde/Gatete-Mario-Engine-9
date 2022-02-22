@@ -29,6 +29,3 @@ alarm[3] = 4;
 //Blink view
 blink = 0;
 alarm[11] = 1;
-
-//Horizontal speed (DO NOT REMOVE)
-xspeed = 0;

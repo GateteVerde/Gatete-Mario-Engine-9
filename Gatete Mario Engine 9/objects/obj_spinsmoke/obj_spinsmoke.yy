@@ -1,18 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_goomba",
-    "path": "sprites/spr_goomba/spr_goomba.yy",
+    "name": "spr_smoke",
+    "path": "sprites/spr_smoke/spr_smoke.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_mask_npc_common_16x16",
-    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemyparent",
-    "path": "objects/obj_enemyparent/obj_enemyparent.yy",
+    "name": "obj_smoke",
+    "path": "objects/obj_smoke/obj_smoke.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,15 +25,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Eyecandy",
+    "path": "folders/Objects/Special/Do Not Use!/Eyecandy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_test",
+  "name": "obj_spinsmoke",
   "tags": [],
   "resourceType": "GMObject",
 }

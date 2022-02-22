@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_goomba",
-    "path": "sprites/spr_goomba/spr_goomba.yy",
+    "name": "spr_mask_npc",
+    "path": "sprites/spr_mask_npc/spr_mask_npc.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_mask_npc_common_16x16",
-    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
     "name": "obj_enemyparent",
@@ -26,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Special/Parents/NPCs/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_test_ledges",
+  "name": "obj_enemyparent_deact",
   "tags": [],
   "resourceType": "GMObject",
 }

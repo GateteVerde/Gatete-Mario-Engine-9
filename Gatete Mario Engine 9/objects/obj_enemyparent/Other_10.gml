@@ -15,36 +15,40 @@ imdead.image_xscale = xscale;
 //Hereby ID horizontal speed
 if (killer_id != -1) {
 	
-	//If the enemy killer object does not have horizontal speed
-	if (killer_id.xspeed == 0) {
+	//If the "xspeed" variable exists
+	if (variable_instance_exists(killer_id, "xspeed")) {
 	
-		//If the kill object is at the left of this object
-		if (killer_id.bbox_left + killer_id.bbox_right/2 < bbox_left + bbox_right/2)
-			imdead.hspeed = 1;
-		else if (killer_id.bbox_left + killer_id.bbox_right/2 > bbox_left + bbox_right/2)
-			imdead.hspeed = -1;
-	}
+		//If the enemy killer object does not have horizontal speed
+		if (killer_id.xspeed == 0) {
 	
-	//Otherwise
-	else {
+			//If the kill object is at the left of this object
+			if (killer_id.bbox_left + killer_id.bbox_right/2 < bbox_left + bbox_right/2)
+				imdead.hspeed = 1;
+			else if (killer_id.bbox_left + killer_id.bbox_right/2 > bbox_left + bbox_right/2)
+				imdead.hspeed = -1;
+		}
 	
-		//If the killer id is Mario
-		if (killer_id == obj_mario)
-			imdead.hspeed = obj_mario.xspeed;
-			
 		//Otherwise
 		else {
+	
+			//If the killer id is Mario
+			if (killer_id == obj_mario)
+				imdead.hspeed = obj_mario.xspeed;
 			
-			//If the killer id is the mega mushroom
-			if (killer_id.object_index != obj_megashroom_timer) {
+			//Otherwise
+			else {
+			
+				//If the killer id is the mega mushroom
+				if (killer_id.object_index != obj_megashroom_timer) {
 		
-				if (killer_id.xspeed > 0)
-					imdead.hspeed = 1;
+					if (killer_id.xspeed > 0)
+						imdead.hspeed = 1;
+					else
+						imdead.hspeed = -1;
+				}
 				else
-					imdead.hspeed = -1;
+					imdead.hspeed = killer_id.xspeed * 2;
 			}
-			else
-				imdead.hspeed = killer_id.xspeed * 2;
 		}
 	}
 }

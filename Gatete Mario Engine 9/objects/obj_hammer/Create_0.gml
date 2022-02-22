@@ -8,3 +8,6 @@ angle = 0;
 
 //Horizontal scale
 xscale = 1;
+
+//Horizontal speed (DO NOT REMOVE)
+xspeed = 0;

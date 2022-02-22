@@ -15,7 +15,7 @@ switch (image_index) {
 		repeat (5) {
 			
 			//If the block has been bumped from above
-			if (other.bottom == false) {
+			if (bottom == false) {
 			
 				with (instance_create_depth(x + 8, ystart - 28, -4, obj_coinnpc)) {
 			
@@ -42,7 +42,7 @@ switch (image_index) {
 	case (7): {
 		
 		//If the block has been bumped from below
-		if (other.bottom == false) {
+		if (bottom == false) {
 	
 			with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
@@ -73,7 +73,7 @@ switch (image_index) {
 		repeat (3) {
 	
 			//If the block has been bumped from below
-			if (other.bottom == false) {
+			if (bottom == false) {
 	
 				with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		
@@ -103,7 +103,7 @@ switch (image_index) {
 		repeat (5) {
 	
 			//If the block has been bumped from below
-			if (other.bottom == false) {
+			if (bottom == false) {
 	
 				with (instance_create_depth(x + 8, ystart - 28, -4, obj_coin_10)) {
 		

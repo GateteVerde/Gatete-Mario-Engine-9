@@ -10,4 +10,5 @@ angle = 0;
 swimming = 0;
 
 //Set the vertical speed
-vspeed = (position_meeting(x, bbox_top, obj_swim)) ? -1 : -4;
+if (vspeed == 0)
+	vspeed = (position_meeting(x, bbox_top, obj_swim)) ? -1 : -4;

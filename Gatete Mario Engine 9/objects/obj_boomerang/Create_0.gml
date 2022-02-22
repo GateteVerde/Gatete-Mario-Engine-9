@@ -25,3 +25,6 @@ xscale = 1;
 
 //Set the vertical speed
 vspeed = -0.75;
+
+//Horizontal speed (DO NOT REMOVE)
+xspeed = 0;

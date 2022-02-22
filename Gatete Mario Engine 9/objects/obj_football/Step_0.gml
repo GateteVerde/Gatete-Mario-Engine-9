@@ -1,9 +1,12 @@
 /// @description If the item is not being held
 
 //Manage movement
-x += xspeed;
-y += yspeed;
-yspeed += yadd;
+if (freeze == false) {
+	
+	x += xspeed;
+	y += yspeed;
+	yspeed += yadd;
+}
 
 //If not held
 if (held == 0) {

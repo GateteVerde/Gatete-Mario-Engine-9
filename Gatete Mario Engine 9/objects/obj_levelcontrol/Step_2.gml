@@ -264,6 +264,7 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 	
 #endregion
 
+//Manage reserve items
 #region RESERVE ITEM
 
 	//If the reserve item system is activated
@@ -281,3 +282,10 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 		}
 	}
 #endregion
+
+//Deactivate instances outside the view
+instance_deactivate_object(obj_deactivateparent);
+instance_deactivate_object(obj_enemyparent_deact);
+
+//Activate deactivated instances inside the view
+instance_activate_region(camera_get_view_x(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) + 32, camera_get_view_width(view_camera[0]) + 32, camera_get_view_height(view_camera[0]) + 32, true);
