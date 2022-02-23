@@ -82,7 +82,7 @@ if (stomp != -1)
     else {
     
         //If the player is above the enemy and moving down
-        if (other.bbox_bottom < bbox_top-vspeed+5) {
+        if ((other.bbox_bottom < bbox_top-yspeed+5) && (other.yspeed > 0)) {
     
             //If the player is spin jumping
             if (stomp != 3)

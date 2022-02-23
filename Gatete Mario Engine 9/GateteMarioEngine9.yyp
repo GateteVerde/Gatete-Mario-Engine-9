@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_pipe_broken","path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},"order":8,},
     {"id":{"name":"spr_pswitchplatform_off","path":"sprites/spr_pswitchplatform_off/spr_pswitchplatform_off.yy",},"order":17,},
+    {"id":{"name":"obj_goombrat","path":"objects/obj_goombrat/obj_goombrat.yy",},"order":1,},
     {"id":{"name":"spr_platform_solid_falling_middle","path":"sprites/spr_platform_solid_falling_middle/spr_platform_solid_falling_middle.yy",},"order":2,},
     {"id":{"name":"snd_bell_midway","path":"sounds/snd_bell_midway/snd_bell_midway.yy",},"order":4,},
     {"id":{"name":"obj_platformparent","path":"objects/obj_platformparent/obj_platformparent.yy",},"order":1,},
@@ -840,6 +841,7 @@
     {"id":{"name":"spr_blend_ring","path":"sprites/spr_blend_ring/spr_blend_ring.yy",},"order":2,},
     {"id":{"name":"spr_mario_propeller_hold2","path":"sprites/spr_mario_propeller_hold2/spr_mario_propeller_hold2.yy",},"order":9,},
     {"id":{"name":"spr_mario_propeller_ride","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"order":22,},
+    {"id":{"name":"spr_goombrat_sq","path":"sprites/spr_goombrat_sq/spr_goombrat_sq.yy",},"order":3,},
     {"id":{"name":"spr_shard_big_brick","path":"sprites/spr_shard_big_brick/spr_shard_big_brick.yy",},"order":15,},
     {"id":{"name":"obj_platform_accordion_hv","path":"objects/obj_platform_accordion_hv/obj_platform_accordion_hv.yy",},"order":2,},
     {"id":{"name":"shd_shockwave","path":"shaders/shd_shockwave/shd_shockwave.yy",},"order":3,},
@@ -1214,6 +1216,7 @@
     {"id":{"name":"spr_gui_map_border","path":"sprites/spr_gui_map_border/spr_gui_map_border.yy",},"order":0,},
     {"id":{"name":"obj_palaceswitch","path":"objects/obj_palaceswitch/obj_palaceswitch.yy",},"order":4,},
     {"id":{"name":"spr_mushroom_lift_up","path":"sprites/spr_mushroom_lift_up/spr_mushroom_lift_up.yy",},"order":1,},
+    {"id":{"name":"spr_goombrat","path":"sprites/spr_goombrat/spr_goombrat.yy",},"order":2,},
     {"id":{"name":"spr_mario_propeller_kick","path":"sprites/spr_mario_propeller_kick/spr_mario_propeller_kick.yy",},"order":17,},
     {"id":{"name":"spr_mario_penguin_hold2","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"order":12,},
     {"id":{"name":"obj_flipper_red","path":"objects/obj_flipper_red/obj_flipper_red.yy",},"order":16,},

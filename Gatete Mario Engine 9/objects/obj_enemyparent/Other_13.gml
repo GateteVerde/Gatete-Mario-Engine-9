@@ -4,24 +4,24 @@
 if (turn_on_ledges == false)
 exit;
 
-//If the enemy is on the ground
-if (yspeed == 0) {
+//If there's no gravity
+if (yadd == 0) {
 
-	//If moving left
-	if (xspeed < 0) {
+	//If there's not a slope in position
+	if (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+15, obj_slopeparent, 1, 0)) {
 	
-		//If there's no collision to the left, turn around
-		if (!collision_rectangle(bbox_left, bbox_bottom - 1, bbox_left, bbox_bottom + 4, obj_semisolid, 0, 0))
-		&& (!collision_rectangle(bbox_left, bbox_bottom, bbox_left, bbox_bottom + 15, obj_slopeparent, 1, 0))
+		//If the NPC is moving and there's not a semisolid on the way
+		if ((xspeed < 0) && (!collision_rectangle(bbox_left+3, bbox_bottom-1, bbox_left+3, bbox_bottom+15, obj_semisolid, 0, 0)))
+		|| ((xspeed > 0) && (!collision_rectangle(bbox_right-3, bbox_bottom-1, bbox_right-3, bbox_bottom+15, obj_semisolid, 0, 0)))
 			xspeed = -xspeed;
 	}
 	
-	//Otherwise, if moving right
-	else if (xspeed > 0) {
+	//Otherwise
+	else {
 	
-		//If there's no collision to the left, turn around
-		if (!collision_rectangle(bbox_right, bbox_bottom - 1, bbox_right, bbox_bottom + 4, obj_semisolid, 0, 0))
-		&& (!collision_rectangle(bbox_right, bbox_bottom, bbox_right, bbox_bottom + 15, obj_slopeparent, 1, 0))
-			xspeed = -xspeed;	
+		//If the NPC is moving and there's not a semisolid on the way
+		if ((xspeed < 0) && (!collision_rectangle(bbox_left+3, bbox_bottom-1, bbox_left+3, bbox_bottom+15, obj_slopeparent, 1, 0)))
+		|| ((xspeed > 0) && (!collision_rectangle(bbox_right-3, bbox_bottom-1, bbox_right-3, bbox_bottom+15, obj_slopeparent, 1, 0)))
+			xspeed = -xspeed;		
 	}
 }
