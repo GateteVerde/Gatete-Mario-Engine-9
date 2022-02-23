@@ -1,25 +1,56 @@
 /// @description Small Grinder
 
-//Inherit the parent event (Please refer to the flags on this event when creating a enemy too)
-event_inherited();
-
 //How vulnerable is this enemy to various items?
+//0:	Normal
+//1:	Immune to fireballs
+//2:	Immune to all projectiles
+//99:	Immune
+//100:	Immune + Ignore projectiles
 vulnerable = 2;
 
 //How vulnerable is this enemy to Mario?
+//0:	Normal
+//1:	Hurt Mario
+//2:	Hurt Mario + Immune to Mounts
+//3:	Subcon
+//4:	Stomp (Custom)
+//-1:	Phase through Mario
 stomp = 2;
 
 //How edible is this enemy to Yoshi?
+//0:	Edible
+//1:	Edible, but create a item
+//2:	Non-Edible
 edible = 2;
 
-//Does this enemy turn into a silver coin?
-turn_silver = 0;
+//State
+state = "IDLE";
 
-//Do not swim
-noswim = 1;
-	
-//Do noises
-alarm[0] = 7;
+//Speed
+spd = 2;
+st_spd = spd;
 
-//Move towards Mario
+//Origin
+xorig = 0;
+yorig = 15;
+
+//Steps to take per steps
+step = 0;
+
+//Whether the grinder jumped from a track
+ready = 0;
+
+//Whether the grinder is frozen
+freeze = 0;
+
+//Direction
+direct = 270;
+
+//Facing direction
+xscale = 1;
+
+//Play 'Engine' sound
+alarm[1] = 15;
+
+//Start moving
 alarm[10] = 2;

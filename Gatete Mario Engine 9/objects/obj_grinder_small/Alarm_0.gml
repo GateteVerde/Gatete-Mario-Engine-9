@@ -1,8 +1,3 @@
-/// @description Play 'Engine' sound
+/// @description Allow to hang in tracks
 
-alarm[0] = 7;
-if (outside_view() == false) {
-
-	audio_stop_sound(snd_engine);
-	audio_play_sound(snd_engine, 0, false);
-}
+ready = 1;
