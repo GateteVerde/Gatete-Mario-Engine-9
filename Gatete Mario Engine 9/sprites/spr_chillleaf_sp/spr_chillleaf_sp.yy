@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_chillleaf_sp","path":"sprites/spr_chillleaf_sp/spr_chillleaf_sp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_chillleaf_sp",
     "tags": [],
     "resourceType": "GMSequence",

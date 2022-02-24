@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_rotodisc","path":"sprites/spr_palette_rotodisc/spr_palette_rotodisc.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_rotodisc",
     "tags": [],
     "resourceType": "GMSequence",

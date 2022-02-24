@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_superacorn","path":"sprites/spr_superacorn/spr_superacorn.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_superacorn",
     "tags": [],
     "resourceType": "GMSequence",

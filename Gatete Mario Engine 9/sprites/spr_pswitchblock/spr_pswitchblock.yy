@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pswitchblock","path":"sprites/spr_pswitchblock/spr_pswitchblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pswitchblock",
     "tags": [],
     "resourceType": "GMSequence",

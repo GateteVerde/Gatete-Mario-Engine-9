@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_keyhole_anim","path":"sprites/spr_keyhole_anim/spr_keyhole_anim.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_keyhole_anim",
     "tags": [],
     "resourceType": "GMSequence",

@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lightning_sheet","path":"sprites/spr_lightning_sheet/spr_lightning_sheet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lightning_sheet",
     "tags": [],
     "resourceType": "GMSequence",

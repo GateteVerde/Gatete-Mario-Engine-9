@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_desert_fgr","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_desert_fgr",
     "tags": [],
     "resourceType": "GMSequence",

@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_onoffblock","path":"sprites/spr_onoffblock/spr_onoffblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_onoffblock",
     "tags": [],
     "resourceType": "GMSequence",

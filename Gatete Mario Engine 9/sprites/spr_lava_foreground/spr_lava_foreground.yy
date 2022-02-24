@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lava_foreground","path":"sprites/spr_lava_foreground/spr_lava_foreground.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lava_foreground",
     "tags": [],
     "resourceType": "GMSequence",

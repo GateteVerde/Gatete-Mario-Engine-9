@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_donut_triple_red","path":"sprites/spr_donut_triple_red/spr_donut_triple_red.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_donut_triple_red",
     "tags": [],
     "resourceType": "GMSequence",

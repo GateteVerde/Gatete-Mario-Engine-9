@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_levelpanel_red_beaten","path":"sprites/spr_levelpanel_red_beaten/spr_levelpanel_red_beaten.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_levelpanel_red_beaten",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_arrowblock_reset","path":"sprites/spr_arrowblock_reset/spr_arrowblock_reset.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_arrowblock_reset",
     "tags": [],
     "resourceType": "GMSequence",

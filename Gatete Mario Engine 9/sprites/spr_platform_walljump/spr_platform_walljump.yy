@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_walljump","path":"sprites/spr_platform_walljump/spr_platform_walljump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_walljump",
     "tags": [],
     "resourceType": "GMSequence",

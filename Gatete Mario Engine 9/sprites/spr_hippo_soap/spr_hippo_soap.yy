@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_hippo_soap","path":"sprites/spr_hippo_soap/spr_hippo_soap.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_hippo_soap",
     "tags": [],
     "resourceType": "GMSequence",

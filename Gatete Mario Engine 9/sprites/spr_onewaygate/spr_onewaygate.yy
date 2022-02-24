@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_onewaygate","path":"sprites/spr_onewaygate/spr_onewaygate.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_onewaygate",
     "tags": [],
     "resourceType": "GMSequence",

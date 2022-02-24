@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_levelpanel_red","path":"sprites/spr_levelpanel_red/spr_levelpanel_red.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_levelpanel_red",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_quicksand","path":"sprites/spr_quicksand/spr_quicksand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_quicksand",
     "tags": [],
     "resourceType": "GMSequence",

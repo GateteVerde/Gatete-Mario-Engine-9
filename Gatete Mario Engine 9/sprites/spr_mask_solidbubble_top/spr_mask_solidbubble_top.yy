@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_solidbubble_top","path":"sprites/spr_mask_solidbubble_top/spr_mask_solidbubble_top.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_solidbubble_top",
     "tags": [],
     "resourceType": "GMSequence",

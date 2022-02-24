@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shoe_kuribo","path":"sprites/spr_shoe_kuribo/spr_shoe_kuribo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shoe_kuribo",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bell_alt","path":"sprites/spr_bell_alt/spr_bell_alt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bell_alt",
     "tags": [],
     "resourceType": "GMSequence",

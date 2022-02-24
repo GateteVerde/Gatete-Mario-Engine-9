@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_global_sc","path":"sprites/spr_gui_global_sc/spr_gui_global_sc.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_global_sc",
     "tags": [],
     "resourceType": "GMSequence",

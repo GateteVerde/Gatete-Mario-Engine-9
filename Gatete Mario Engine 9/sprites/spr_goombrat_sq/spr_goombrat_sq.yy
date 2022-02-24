@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goombrat_sq","path":"sprites/spr_goombrat_sq/spr_goombrat_sq.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goombrat_sq",
     "tags": [],
     "resourceType": "GMSequence",

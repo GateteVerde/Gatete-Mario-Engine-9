@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_engine_rope","path":"sprites/spr_engine_rope/spr_engine_rope.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_engine_rope",
     "tags": [],
     "resourceType": "GMSequence",

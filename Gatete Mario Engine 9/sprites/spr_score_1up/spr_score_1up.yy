@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_score_1up","path":"sprites/spr_score_1up/spr_score_1up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_score_1up",
     "tags": [],
     "resourceType": "GMSequence",

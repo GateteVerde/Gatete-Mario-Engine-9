@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goombrat","path":"sprites/spr_goombrat/spr_goombrat.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goombrat",
     "tags": [],
     "resourceType": "GMSequence",

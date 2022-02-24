@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_rocket_blastoff","path":"sprites/spr_rocket_blastoff/spr_rocket_blastoff.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_rocket_blastoff",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_warp_cannon","path":"sprites/spr_warp_cannon/spr_warp_cannon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_warp_cannon",
     "tags": [],
     "resourceType": "GMSequence",

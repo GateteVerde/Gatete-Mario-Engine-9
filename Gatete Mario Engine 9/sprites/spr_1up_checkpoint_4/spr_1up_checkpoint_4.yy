@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_1up_checkpoint_4","path":"sprites/spr_1up_checkpoint_4/spr_1up_checkpoint_4.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_1up_checkpoint_4",
     "tags": [],
     "resourceType": "GMSequence",

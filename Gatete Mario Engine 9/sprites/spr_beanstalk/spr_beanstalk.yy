@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_beanstalk","path":"sprites/spr_beanstalk/spr_beanstalk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_beanstalk",
     "tags": [],
     "resourceType": "GMSequence",

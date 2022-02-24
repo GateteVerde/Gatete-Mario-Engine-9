@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_egg","path":"sprites/spr_egg/spr_egg.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_egg",
     "tags": [],
     "resourceType": "GMSequence",

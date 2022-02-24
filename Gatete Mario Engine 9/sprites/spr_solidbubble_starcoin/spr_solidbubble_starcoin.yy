@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_solidbubble_starcoin","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_solidbubble_starcoin",
     "tags": [],
     "resourceType": "GMSequence",

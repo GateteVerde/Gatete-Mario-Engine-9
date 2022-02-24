@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_noteblock_warp","path":"sprites/spr_noteblock_warp/spr_noteblock_warp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_noteblock_warp",
     "tags": [],
     "resourceType": "GMSequence",

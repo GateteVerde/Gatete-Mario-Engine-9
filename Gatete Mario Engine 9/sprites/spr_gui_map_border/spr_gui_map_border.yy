@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_map_border","path":"sprites/spr_gui_map_border/spr_gui_map_border.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_map_border",
     "tags": [],
     "resourceType": "GMSequence",

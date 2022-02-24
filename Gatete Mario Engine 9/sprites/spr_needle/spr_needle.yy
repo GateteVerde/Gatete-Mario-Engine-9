@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_needle","path":"sprites/spr_needle/spr_needle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_needle",
     "tags": [],
     "resourceType": "GMSequence",

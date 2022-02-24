@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flipper_blue","path":"sprites/spr_flipper_blue/spr_flipper_blue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_flipper_blue",
     "tags": [],
     "resourceType": "GMSequence",

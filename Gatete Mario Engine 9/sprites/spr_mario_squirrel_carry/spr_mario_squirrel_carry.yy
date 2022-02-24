@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_squirrel_carry","path":"sprites/spr_mario_squirrel_carry/spr_mario_squirrel_carry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_squirrel_carry",
     "tags": [],
     "resourceType": "GMSequence",

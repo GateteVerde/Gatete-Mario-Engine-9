@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pswitch_press","path":"sprites/spr_pswitch_press/spr_pswitch_press.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pswitch_press",
     "tags": [],
     "resourceType": "GMSequence",

@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_pendulum_editor","path":"sprites/spr_platform_pendulum_editor/spr_platform_pendulum_editor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_pendulum_editor",
     "tags": [],
     "resourceType": "GMSequence",

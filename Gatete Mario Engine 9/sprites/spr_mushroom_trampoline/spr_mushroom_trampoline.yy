@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mushroom_trampoline","path":"sprites/spr_mushroom_trampoline/spr_mushroom_trampoline.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mushroom_trampoline",
     "tags": [],
     "resourceType": "GMSequence",

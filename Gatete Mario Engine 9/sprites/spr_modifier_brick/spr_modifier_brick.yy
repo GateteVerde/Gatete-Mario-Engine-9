@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_modifier_brick","path":"sprites/spr_modifier_brick/spr_modifier_brick.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_modifier_brick",
     "tags": [],
     "resourceType": "GMSequence",

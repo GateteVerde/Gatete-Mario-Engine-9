@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_track_limit","path":"sprites/spr_track_limit/spr_track_limit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_track_limit",
     "tags": [],
     "resourceType": "GMSequence",

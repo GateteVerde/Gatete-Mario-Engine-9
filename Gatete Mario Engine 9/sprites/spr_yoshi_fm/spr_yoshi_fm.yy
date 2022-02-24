@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_fm","path":"sprites/spr_yoshi_fm/spr_yoshi_fm.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_fm",
     "tags": [],
     "resourceType": "GMSequence",

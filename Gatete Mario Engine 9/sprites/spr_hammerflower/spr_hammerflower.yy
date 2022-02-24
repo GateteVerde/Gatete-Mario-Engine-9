@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_hammerflower","path":"sprites/spr_hammerflower/spr_hammerflower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_hammerflower",
     "tags": [],
     "resourceType": "GMSequence",

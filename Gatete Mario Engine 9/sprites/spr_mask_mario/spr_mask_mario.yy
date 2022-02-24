@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_mario","path":"sprites/spr_mask_mario/spr_mask_mario.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_mario",
     "tags": [],
     "resourceType": "GMSequence",

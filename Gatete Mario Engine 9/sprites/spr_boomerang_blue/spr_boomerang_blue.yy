@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_boomerang_blue","path":"sprites/spr_boomerang_blue/spr_boomerang_blue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_boomerang_blue",
     "tags": [],
     "resourceType": "GMSequence",

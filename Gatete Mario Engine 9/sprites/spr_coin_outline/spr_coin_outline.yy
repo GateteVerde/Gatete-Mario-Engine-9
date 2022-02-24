@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coin_outline","path":"sprites/spr_coin_outline/spr_coin_outline.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coin_outline",
     "tags": [],
     "resourceType": "GMSequence",

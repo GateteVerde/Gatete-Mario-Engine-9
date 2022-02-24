@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_lift_null","path":"sprites/spr_platform_lift_null/spr_platform_lift_null.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_lift_null",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_switchpalace","path":"sprites/spr_bgr_switchpalace/spr_bgr_switchpalace.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_switchpalace",
     "tags": [],
     "resourceType": "GMSequence",

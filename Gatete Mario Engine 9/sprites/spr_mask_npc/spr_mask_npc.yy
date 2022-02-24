@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_npc","path":"sprites/spr_mask_npc/spr_mask_npc.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_npc",
     "tags": [],
     "resourceType": "GMSequence",

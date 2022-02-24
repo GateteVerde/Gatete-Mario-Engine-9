@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_marker_top","path":"sprites/spr_mask_marker_top/spr_mask_marker_top.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_marker_top",
     "tags": [],
     "resourceType": "GMSequence",

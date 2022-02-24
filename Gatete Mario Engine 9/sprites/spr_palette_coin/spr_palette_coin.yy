@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_coin","path":"sprites/spr_palette_coin/spr_palette_coin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_coin",
     "tags": [],
     "resourceType": "GMSequence",

@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_conveyor_red","path":"sprites/spr_conveyor_red/spr_conveyor_red.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_conveyor_red",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mbomb","path":"sprites/spr_mbomb/spr_mbomb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mbomb",
     "tags": [],
     "resourceType": "GMSequence",

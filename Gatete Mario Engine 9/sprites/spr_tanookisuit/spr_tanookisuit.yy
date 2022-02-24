@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tanookisuit","path":"sprites/spr_tanookisuit/spr_tanookisuit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_tanookisuit",
     "tags": [],
     "resourceType": "GMSequence",

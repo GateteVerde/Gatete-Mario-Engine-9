@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_qblock","path":"sprites/spr_qblock/spr_qblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_qblock",
     "tags": [],
     "resourceType": "GMSequence",

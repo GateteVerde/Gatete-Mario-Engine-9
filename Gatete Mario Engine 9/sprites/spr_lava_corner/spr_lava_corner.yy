@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lava_corner","path":"sprites/spr_lava_corner/spr_lava_corner.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lava_corner",
     "tags": [],
     "resourceType": "GMSequence",

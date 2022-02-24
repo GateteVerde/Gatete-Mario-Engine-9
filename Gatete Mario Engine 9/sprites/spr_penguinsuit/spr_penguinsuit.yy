@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_penguinsuit","path":"sprites/spr_penguinsuit/spr_penguinsuit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_penguinsuit",
     "tags": [],
     "resourceType": "GMSequence",

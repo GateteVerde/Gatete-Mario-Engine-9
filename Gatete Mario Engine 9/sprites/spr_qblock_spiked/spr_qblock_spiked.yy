@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_qblock_spiked","path":"sprites/spr_qblock_spiked/spr_qblock_spiked.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_qblock_spiked",
     "tags": [],
     "resourceType": "GMSequence",

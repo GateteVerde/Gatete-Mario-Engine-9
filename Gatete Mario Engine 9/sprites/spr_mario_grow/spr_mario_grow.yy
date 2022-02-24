@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_grow","path":"sprites/spr_mario_grow/spr_mario_grow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_grow",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shellthump","path":"sprites/spr_shellthump/spr_shellthump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shellthump",
     "tags": [],
     "resourceType": "GMSequence",

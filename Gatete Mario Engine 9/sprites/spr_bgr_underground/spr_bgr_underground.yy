@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_underground","path":"sprites/spr_bgr_underground/spr_bgr_underground.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_underground",
     "tags": [],
     "resourceType": "GMSequence",

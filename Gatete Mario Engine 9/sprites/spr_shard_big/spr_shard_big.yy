@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shard_big","path":"sprites/spr_shard_big/spr_shard_big.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shard_big",
     "tags": [],
     "resourceType": "GMSequence",

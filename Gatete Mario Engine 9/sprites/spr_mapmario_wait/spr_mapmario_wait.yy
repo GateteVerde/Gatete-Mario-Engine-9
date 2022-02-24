@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapmario_wait","path":"sprites/spr_mapmario_wait/spr_mapmario_wait.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapmario_wait",
     "tags": [],
     "resourceType": "GMSequence",

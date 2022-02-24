@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_1upgame_2up","path":"sprites/spr_1upgame_2up/spr_1upgame_2up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_1upgame_2up",
     "tags": [],
     "resourceType": "GMSequence",

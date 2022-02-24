@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_toad","path":"sprites/spr_toad/spr_toad.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_toad",
     "tags": [],
     "resourceType": "GMSequence",

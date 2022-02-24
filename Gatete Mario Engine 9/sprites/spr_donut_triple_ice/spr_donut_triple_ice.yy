@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_donut_triple_ice","path":"sprites/spr_donut_triple_ice/spr_donut_triple_ice.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_donut_triple_ice",
     "tags": [],
     "resourceType": "GMSequence",

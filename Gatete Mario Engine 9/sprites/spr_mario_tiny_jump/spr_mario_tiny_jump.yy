@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_tiny_jump","path":"sprites/spr_mario_tiny_jump/spr_mario_tiny_jump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_tiny_jump",
     "tags": [],
     "resourceType": "GMSequence",

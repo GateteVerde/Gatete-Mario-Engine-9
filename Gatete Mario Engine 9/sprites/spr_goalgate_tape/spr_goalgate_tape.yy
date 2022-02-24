@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goalgate_tape","path":"sprites/spr_goalgate_tape/spr_goalgate_tape.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goalgate_tape",
     "tags": [],
     "resourceType": "GMSequence",

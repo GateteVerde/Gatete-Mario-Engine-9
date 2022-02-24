@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_hawkmouth","path":"sprites/spr_hawkmouth/spr_hawkmouth.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_hawkmouth",
     "tags": [],
     "resourceType": "GMSequence",

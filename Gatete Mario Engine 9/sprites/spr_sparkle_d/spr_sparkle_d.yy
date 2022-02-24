@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_sparkle_d","path":"sprites/spr_sparkle_d/spr_sparkle_d.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_sparkle_d",
     "tags": [],
     "resourceType": "GMSequence",

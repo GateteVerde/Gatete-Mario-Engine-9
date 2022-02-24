@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_flutter","path":"sprites/spr_yoshi_flutter/spr_yoshi_flutter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_flutter",
     "tags": [],
     "resourceType": "GMSequence",

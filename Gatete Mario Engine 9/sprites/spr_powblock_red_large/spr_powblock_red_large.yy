@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powblock_red_large","path":"sprites/spr_powblock_red_large/spr_powblock_red_large.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_powblock_red_large",
     "tags": [],
     "resourceType": "GMSequence",

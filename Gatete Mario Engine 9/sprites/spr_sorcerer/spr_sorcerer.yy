@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_sorcerer","path":"sprites/spr_sorcerer/spr_sorcerer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_sorcerer",
     "tags": [],
     "resourceType": "GMSequence",

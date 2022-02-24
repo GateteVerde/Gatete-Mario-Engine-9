@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_jump","path":"sprites/spr_yoshi_jump/spr_yoshi_jump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_jump",
     "tags": [],
     "resourceType": "GMSequence",

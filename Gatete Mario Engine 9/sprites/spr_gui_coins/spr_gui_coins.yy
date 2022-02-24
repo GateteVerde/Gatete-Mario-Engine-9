@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_coins","path":"sprites/spr_gui_coins/spr_gui_coins.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_coins",
     "tags": [],
     "resourceType": "GMSequence",

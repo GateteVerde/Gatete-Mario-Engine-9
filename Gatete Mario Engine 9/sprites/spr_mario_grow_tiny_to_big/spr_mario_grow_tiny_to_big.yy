@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_grow_tiny_to_big","path":"sprites/spr_mario_grow_tiny_to_big/spr_mario_grow_tiny_to_big.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_grow_tiny_to_big",
     "tags": [],
     "resourceType": "GMSequence",

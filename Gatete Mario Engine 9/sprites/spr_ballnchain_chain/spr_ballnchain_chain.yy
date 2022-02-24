@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_ballnchain_chain","path":"sprites/spr_ballnchain_chain/spr_ballnchain_chain.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_ballnchain_chain",
     "tags": [],
     "resourceType": "GMSequence",

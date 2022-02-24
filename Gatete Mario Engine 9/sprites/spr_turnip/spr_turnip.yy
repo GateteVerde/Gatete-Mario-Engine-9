@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_turnip","path":"sprites/spr_turnip/spr_turnip.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_turnip",
     "tags": [],
     "resourceType": "GMSequence",

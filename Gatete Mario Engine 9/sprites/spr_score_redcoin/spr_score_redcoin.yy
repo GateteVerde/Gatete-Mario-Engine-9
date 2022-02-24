@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_score_redcoin","path":"sprites/spr_score_redcoin/spr_score_redcoin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_score_redcoin",
     "tags": [],
     "resourceType": "GMSequence",

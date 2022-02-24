@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_hammer_attack",
     "tags": [],
     "resourceType": "GMSequence",

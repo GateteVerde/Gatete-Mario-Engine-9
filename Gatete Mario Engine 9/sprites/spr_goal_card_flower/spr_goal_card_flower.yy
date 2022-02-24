@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goal_card_flower","path":"sprites/spr_goal_card_flower/spr_goal_card_flower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goal_card_flower",
     "tags": [],
     "resourceType": "GMSequence",

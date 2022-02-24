@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_lick","path":"sprites/spr_yoshi_lick/spr_yoshi_lick.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_lick",
     "tags": [],
     "resourceType": "GMSequence",

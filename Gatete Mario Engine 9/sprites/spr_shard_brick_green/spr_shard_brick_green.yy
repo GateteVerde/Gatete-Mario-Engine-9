@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shard_brick_green","path":"sprites/spr_shard_brick_green/spr_shard_brick_green.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shard_brick_green",
     "tags": [],
     "resourceType": "GMSequence",

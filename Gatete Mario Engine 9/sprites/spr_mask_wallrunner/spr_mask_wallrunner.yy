@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_wallrunner","path":"sprites/spr_mask_wallrunner/spr_mask_wallrunner.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_wallrunner",
     "tags": [],
     "resourceType": "GMSequence",

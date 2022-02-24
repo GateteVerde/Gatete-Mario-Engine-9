@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_key_timed","path":"sprites/spr_key_timed/spr_key_timed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_key_timed",
     "tags": [],
     "resourceType": "GMSequence",

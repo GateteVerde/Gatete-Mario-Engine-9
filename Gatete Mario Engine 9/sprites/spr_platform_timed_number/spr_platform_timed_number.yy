@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_timed_number","path":"sprites/spr_platform_timed_number/spr_platform_timed_number.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_timed_number",
     "tags": [],
     "resourceType": "GMSequence",

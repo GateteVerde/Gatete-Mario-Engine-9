@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coin_npc_antip","path":"sprites/spr_coin_npc_antip/spr_coin_npc_antip.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coin_npc_antip",
     "tags": [],
     "resourceType": "GMSequence",

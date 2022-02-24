@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_snow","path":"sprites/spr_snow/spr_snow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_snow",
     "tags": [],
     "resourceType": "GMSequence",

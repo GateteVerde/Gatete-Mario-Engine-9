@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_noteblock_quaver","path":"sprites/spr_noteblock_quaver/spr_noteblock_quaver.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_noteblock_quaver",
     "tags": [],
     "resourceType": "GMSequence",

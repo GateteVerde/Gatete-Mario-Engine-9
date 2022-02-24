@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_raccoon_pull","path":"sprites/spr_mario_raccoon_pull/spr_mario_raccoon_pull.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_raccoon_pull",
     "tags": [],
     "resourceType": "GMSequence",

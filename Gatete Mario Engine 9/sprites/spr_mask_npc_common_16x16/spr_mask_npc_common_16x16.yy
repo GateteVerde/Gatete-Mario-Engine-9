@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_npc_common_16x16","path":"sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_npc_common_16x16",
     "tags": [],
     "resourceType": "GMSequence",

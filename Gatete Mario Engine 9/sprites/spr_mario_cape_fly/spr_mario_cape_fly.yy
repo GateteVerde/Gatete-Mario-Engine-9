@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_cape_fly","path":"sprites/spr_mario_cape_fly/spr_mario_cape_fly.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_cape_fly",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_football","path":"sprites/spr_football/spr_football.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_football",
     "tags": [],
     "resourceType": "GMSequence",

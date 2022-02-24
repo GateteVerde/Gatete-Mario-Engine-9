@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coinrouletteblock_empty","path":"sprites/spr_coinrouletteblock_empty/spr_coinrouletteblock_empty.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coinrouletteblock_empty",
     "tags": [],
     "resourceType": "GMSequence",

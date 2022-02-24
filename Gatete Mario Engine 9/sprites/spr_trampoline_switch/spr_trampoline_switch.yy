@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_trampoline_switch","path":"sprites/spr_trampoline_switch/spr_trampoline_switch.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_trampoline_switch",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_skull","path":"sprites/spr_platform_skull/spr_platform_skull.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_skull",
     "tags": [],
     "resourceType": "GMSequence",

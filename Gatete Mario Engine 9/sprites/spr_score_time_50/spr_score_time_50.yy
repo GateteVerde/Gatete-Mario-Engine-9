@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_score_time_50","path":"sprites/spr_score_time_50/spr_score_time_50.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_score_time_50",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_qblock_double_hidden","path":"sprites/spr_qblock_double_hidden/spr_qblock_double_hidden.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_qblock_double_hidden",
     "tags": [],
     "resourceType": "GMSequence",

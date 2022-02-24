@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_toadhouse_dig","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_toadhouse_dig",
     "tags": [],
     "resourceType": "GMSequence",

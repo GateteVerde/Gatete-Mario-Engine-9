@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_square",
     "tags": [],
     "resourceType": "GMSequence",

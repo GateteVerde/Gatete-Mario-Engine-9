@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_boomerang","path":"sprites/spr_boomerang/spr_boomerang.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_boomerang",
     "tags": [],
     "resourceType": "GMSequence",

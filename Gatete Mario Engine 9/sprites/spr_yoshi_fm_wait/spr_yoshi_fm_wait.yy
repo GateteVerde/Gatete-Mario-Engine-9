@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_fm_wait","path":"sprites/spr_yoshi_fm_wait/spr_yoshi_fm_wait.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_fm_wait",
     "tags": [],
     "resourceType": "GMSequence",

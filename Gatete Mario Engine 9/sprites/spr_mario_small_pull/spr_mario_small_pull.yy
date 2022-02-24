@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_small_pull","path":"sprites/spr_mario_small_pull/spr_mario_small_pull.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_small_pull",
     "tags": [],
     "resourceType": "GMSequence",

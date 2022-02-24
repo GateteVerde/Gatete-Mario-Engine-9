@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_arrowblock_left","path":"sprites/spr_arrowblock_left/spr_arrowblock_left.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_arrowblock_left",
     "tags": [],
     "resourceType": "GMSequence",

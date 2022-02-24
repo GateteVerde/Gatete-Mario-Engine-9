@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_modifier_flipblock","path":"sprites/spr_modifier_flipblock/spr_modifier_flipblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_modifier_flipblock",
     "tags": [],
     "resourceType": "GMSequence",

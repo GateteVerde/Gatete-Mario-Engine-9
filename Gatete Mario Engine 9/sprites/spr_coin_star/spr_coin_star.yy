@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coin_star","path":"sprites/spr_coin_star/spr_coin_star.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coin_star",
     "tags": [],
     "resourceType": "GMSequence",

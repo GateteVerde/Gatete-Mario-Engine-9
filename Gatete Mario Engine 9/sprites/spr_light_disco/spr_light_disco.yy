@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_light_disco","path":"sprites/spr_light_disco/spr_light_disco.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_light_disco",
     "tags": [],
     "resourceType": "GMSequence",

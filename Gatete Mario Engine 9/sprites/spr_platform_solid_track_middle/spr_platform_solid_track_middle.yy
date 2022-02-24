@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_solid_track_middle","path":"sprites/spr_platform_solid_track_middle/spr_platform_solid_track_middle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_solid_track_middle",
     "tags": [],
     "resourceType": "GMSequence",

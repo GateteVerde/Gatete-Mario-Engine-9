@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coinblock","path":"sprites/spr_coinblock/spr_coinblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coinblock",
     "tags": [],
     "resourceType": "GMSequence",

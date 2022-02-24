@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_roulette_fgr","path":"sprites/spr_roulette_fgr/spr_roulette_fgr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_roulette_fgr",
     "tags": [],
     "resourceType": "GMSequence",

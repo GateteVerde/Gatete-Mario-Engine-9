@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pswitch","path":"sprites/spr_pswitch/spr_pswitch.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pswitch",
     "tags": [],
     "resourceType": "GMSequence",

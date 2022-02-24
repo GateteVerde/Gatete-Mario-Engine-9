@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goalgate","path":"sprites/spr_goalgate/spr_goalgate.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goalgate",
     "tags": [],
     "resourceType": "GMSequence",

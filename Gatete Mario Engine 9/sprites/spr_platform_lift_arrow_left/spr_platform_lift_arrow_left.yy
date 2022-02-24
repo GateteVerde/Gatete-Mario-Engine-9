@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_lift_arrow_left","path":"sprites/spr_platform_lift_arrow_left/spr_platform_lift_arrow_left.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_lift_arrow_left",
     "tags": [],
     "resourceType": "GMSequence",

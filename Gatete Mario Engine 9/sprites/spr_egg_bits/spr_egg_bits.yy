@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_egg_bits","path":"sprites/spr_egg_bits/spr_egg_bits.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_egg_bits",
     "tags": [],
     "resourceType": "GMSequence",

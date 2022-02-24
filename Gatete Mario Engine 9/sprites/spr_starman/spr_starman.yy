@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_starman","path":"sprites/spr_starman/spr_starman.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_starman",
     "tags": [],
     "resourceType": "GMSequence",

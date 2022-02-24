@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_track_modifier","path":"sprites/spr_track_modifier/spr_track_modifier.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_track_modifier",
     "tags": [],
     "resourceType": "GMSequence",

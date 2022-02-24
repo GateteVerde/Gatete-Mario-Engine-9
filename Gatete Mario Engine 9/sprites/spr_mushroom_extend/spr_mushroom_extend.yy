@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mushroom_extend","path":"sprites/spr_mushroom_extend/spr_mushroom_extend.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mushroom_extend",
     "tags": [],
     "resourceType": "GMSequence",

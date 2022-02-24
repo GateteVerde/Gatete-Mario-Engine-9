@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_skewer_trunk_left","path":"sprites/spr_skewer_trunk_left/spr_skewer_trunk_left.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_skewer_trunk_left",
     "tags": [],
     "resourceType": "GMSequence",

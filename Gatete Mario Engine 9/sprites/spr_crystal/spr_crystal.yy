@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_crystal","path":"sprites/spr_crystal/spr_crystal.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_crystal",
     "tags": [],
     "resourceType": "GMSequence",

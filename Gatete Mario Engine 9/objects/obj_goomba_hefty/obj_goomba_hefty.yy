@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_goombrat_big",
-    "path": "sprites/spr_goombrat_big/spr_goombrat_big.yy",
+    "name": "spr_goomba_hefty",
+    "path": "sprites/spr_goomba_hefty/spr_goomba_hefty.yy",
   },
   "solid": false,
   "visible": true,
@@ -37,7 +37,7 @@
     "path": "folders/Objects/Enemies/Land/Goombas/Big.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_goombrat_big",
+  "name": "obj_goomba_hefty",
   "tags": [],
   "resourceType": "GMObject",
 }

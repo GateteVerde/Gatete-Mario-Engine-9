@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_tilted_l","path":"sprites/spr_platform_tilted_l/spr_platform_tilted_l.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_tilted_l",
     "tags": [],
     "resourceType": "GMSequence",

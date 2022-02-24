@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_vine","path":"sprites/spr_vine/spr_vine.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_vine",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapmario_side","path":"sprites/spr_mapmario_side/spr_mapmario_side.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapmario_side",
     "tags": [],
     "resourceType": "GMSequence",

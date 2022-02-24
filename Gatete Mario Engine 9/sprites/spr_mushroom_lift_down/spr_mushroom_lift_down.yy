@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mushroom_lift_down","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mushroom_lift_down",
     "tags": [],
     "resourceType": "GMSequence",

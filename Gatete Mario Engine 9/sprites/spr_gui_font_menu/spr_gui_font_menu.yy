@@ -427,7 +427,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_font_menu","path":"sprites/spr_gui_font_menu/spr_gui_font_menu.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_font_menu",
     "tags": [],
     "resourceType": "GMSequence",

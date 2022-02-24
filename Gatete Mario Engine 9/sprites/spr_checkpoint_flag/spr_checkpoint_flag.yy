@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_checkpoint_flag","path":"sprites/spr_checkpoint_flag/spr_checkpoint_flag.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_checkpoint_flag",
     "tags": [],
     "resourceType": "GMSequence",

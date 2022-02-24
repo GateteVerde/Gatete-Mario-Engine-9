@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_explosion",
     "tags": [],
     "resourceType": "GMSequence",

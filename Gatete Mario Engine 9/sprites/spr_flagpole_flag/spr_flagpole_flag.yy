@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flagpole_flag","path":"sprites/spr_flagpole_flag/spr_flagpole_flag.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_flagpole_flag",
     "tags": [],
     "resourceType": "GMSequence",

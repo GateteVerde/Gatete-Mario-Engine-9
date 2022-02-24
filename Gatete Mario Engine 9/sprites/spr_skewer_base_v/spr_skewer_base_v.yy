@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_skewer_base_v","path":"sprites/spr_skewer_base_v/spr_skewer_base_v.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_skewer_base_v",
     "tags": [],
     "resourceType": "GMSequence",

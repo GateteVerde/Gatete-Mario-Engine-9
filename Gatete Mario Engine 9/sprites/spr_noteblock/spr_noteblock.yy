@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_noteblock","path":"sprites/spr_noteblock/spr_noteblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_noteblock",
     "tags": [],
     "resourceType": "GMSequence",

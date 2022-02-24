@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shoe_baburu","path":"sprites/spr_shoe_baburu/spr_shoe_baburu.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shoe_baburu",
     "tags": [],
     "resourceType": "GMSequence",

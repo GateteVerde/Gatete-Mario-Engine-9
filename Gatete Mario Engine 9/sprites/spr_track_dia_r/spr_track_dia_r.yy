@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_track_dia_r","path":"sprites/spr_track_dia_r/spr_track_dia_r.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_track_dia_r",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_nightsky","path":"sprites/spr_bgr_nightsky/spr_bgr_nightsky.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_nightsky",
     "tags": [],
     "resourceType": "GMSequence",

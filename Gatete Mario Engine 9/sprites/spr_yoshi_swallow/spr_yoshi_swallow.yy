@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_swallow","path":"sprites/spr_yoshi_swallow/spr_yoshi_swallow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_swallow",
     "tags": [],
     "resourceType": "GMSequence",

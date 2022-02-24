@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_noteblock_hidden","path":"sprites/spr_noteblock_hidden/spr_noteblock_hidden.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_noteblock_hidden",
     "tags": [],
     "resourceType": "GMSequence",

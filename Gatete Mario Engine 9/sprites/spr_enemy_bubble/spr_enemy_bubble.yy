@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_bubble","path":"sprites/spr_enemy_bubble/spr_enemy_bubble.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_bubble",
     "tags": [],
     "resourceType": "GMSequence",

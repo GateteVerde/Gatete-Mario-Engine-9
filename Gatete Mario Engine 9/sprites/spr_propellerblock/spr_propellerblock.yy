@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_propellerblock","path":"sprites/spr_propellerblock/spr_propellerblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_propellerblock",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_door_p_outline","path":"sprites/spr_door_p_outline/spr_door_p_outline.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_door_p_outline",
     "tags": [],
     "resourceType": "GMSequence",

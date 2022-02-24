@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_trampoline_timed","path":"sprites/spr_trampoline_timed/spr_trampoline_timed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_trampoline_timed",
     "tags": [],
     "resourceType": "GMSequence",

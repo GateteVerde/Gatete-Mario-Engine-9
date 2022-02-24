@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_weaponblock_cape","path":"sprites/spr_weaponblock_cape/spr_weaponblock_cape.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_weaponblock_cape",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_rain_sp","path":"sprites/spr_rain_sp/spr_rain_sp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_rain_sp",
     "tags": [],
     "resourceType": "GMSequence",

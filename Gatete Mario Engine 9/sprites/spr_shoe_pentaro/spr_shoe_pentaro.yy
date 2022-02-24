@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shoe_pentaro","path":"sprites/spr_shoe_pentaro/spr_shoe_pentaro.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shoe_pentaro",
     "tags": [],
     "resourceType": "GMSequence",

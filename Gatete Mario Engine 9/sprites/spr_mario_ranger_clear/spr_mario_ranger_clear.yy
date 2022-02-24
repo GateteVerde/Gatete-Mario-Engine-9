@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_ranger_clear","path":"sprites/spr_mario_ranger_clear/spr_mario_ranger_clear.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_ranger_clear",
     "tags": [],
     "resourceType": "GMSequence",

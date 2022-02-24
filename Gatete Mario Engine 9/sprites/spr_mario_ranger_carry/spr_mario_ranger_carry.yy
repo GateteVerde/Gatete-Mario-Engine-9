@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_ranger_carry","path":"sprites/spr_mario_ranger_carry/spr_mario_ranger_carry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_ranger_carry",
     "tags": [],
     "resourceType": "GMSequence",

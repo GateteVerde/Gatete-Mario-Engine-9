@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_superflower","path":"sprites/spr_superflower/spr_superflower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_superflower",
     "tags": [],
     "resourceType": "GMSequence",

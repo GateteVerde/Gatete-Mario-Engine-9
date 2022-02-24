@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_levelpanel_castle","path":"sprites/spr_levelpanel_castle/spr_levelpanel_castle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_levelpanel_castle",
     "tags": [],
     "resourceType": "GMSequence",

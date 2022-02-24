@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_cardbox","path":"sprites/spr_gui_cardbox/spr_gui_cardbox.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_cardbox",
     "tags": [],
     "resourceType": "GMSequence",

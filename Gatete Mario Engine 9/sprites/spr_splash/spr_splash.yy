@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_splash","path":"sprites/spr_splash/spr_splash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_splash",
     "tags": [],
     "resourceType": "GMSequence",

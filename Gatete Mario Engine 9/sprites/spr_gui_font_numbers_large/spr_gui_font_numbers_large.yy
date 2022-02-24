@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_font_numbers_large","path":"sprites/spr_gui_font_numbers_large/spr_gui_font_numbers_large.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_font_numbers_large",
     "tags": [],
     "resourceType": "GMSequence",

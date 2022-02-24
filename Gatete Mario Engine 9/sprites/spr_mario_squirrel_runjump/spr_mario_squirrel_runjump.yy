@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_squirrel_runjump","path":"sprites/spr_mario_squirrel_runjump/spr_mario_squirrel_runjump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_squirrel_runjump",
     "tags": [],
     "resourceType": "GMSequence",

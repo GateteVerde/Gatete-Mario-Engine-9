@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_brick_green_th","path":"sprites/spr_brick_green_th/spr_brick_green_th.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_brick_green_th",
     "tags": [],
     "resourceType": "GMSequence",

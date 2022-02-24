@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_spinstar","path":"sprites/spr_spinstar/spr_spinstar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_spinstar",
     "tags": [],
     "resourceType": "GMSequence",

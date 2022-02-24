@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_sparkle_star","path":"sprites/spr_sparkle_star/spr_sparkle_star.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_sparkle_star",
     "tags": [],
     "resourceType": "GMSequence",

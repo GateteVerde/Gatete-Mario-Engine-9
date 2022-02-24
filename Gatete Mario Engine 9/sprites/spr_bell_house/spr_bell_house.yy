@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bell_house","path":"sprites/spr_bell_house/spr_bell_house.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bell_house",
     "tags": [],
     "resourceType": "GMSequence",

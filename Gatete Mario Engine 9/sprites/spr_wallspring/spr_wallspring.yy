@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_wallspring","path":"sprites/spr_wallspring/spr_wallspring.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_wallspring",
     "tags": [],
     "resourceType": "GMSequence",

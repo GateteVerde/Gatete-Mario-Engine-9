@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_squirrel_skid","path":"sprites/spr_mario_squirrel_skid/spr_mario_squirrel_skid.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_squirrel_skid",
     "tags": [],
     "resourceType": "GMSequence",

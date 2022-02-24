@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_carrot","path":"sprites/spr_platform_carrot/spr_platform_carrot.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_carrot",
     "tags": [],
     "resourceType": "GMSequence",

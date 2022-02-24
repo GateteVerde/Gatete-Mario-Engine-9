@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_explosion_gold","path":"sprites/spr_mask_explosion_gold/spr_mask_explosion_gold.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_explosion_gold",
     "tags": [],
     "resourceType": "GMSequence",

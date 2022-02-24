@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_score_big","path":"sprites/spr_score_big/spr_score_big.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_score_big",
     "tags": [],
     "resourceType": "GMSequence",

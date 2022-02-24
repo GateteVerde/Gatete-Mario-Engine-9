@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_square_d","path":"sprites/spr_square_d/spr_square_d.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_square_d",
     "tags": [],
     "resourceType": "GMSequence",

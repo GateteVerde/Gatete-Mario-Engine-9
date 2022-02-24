@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goomba_sq","path":"sprites/spr_goomba_sq/spr_goomba_sq.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goomba_sq",
     "tags": [],
     "resourceType": "GMSequence",

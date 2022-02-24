@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_pmeter","path":"sprites/spr_gui_pmeter/spr_gui_pmeter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_pmeter",
     "tags": [],
     "resourceType": "GMSequence",

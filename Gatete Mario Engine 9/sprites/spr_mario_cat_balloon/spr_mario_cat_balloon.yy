@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_cat_balloon","path":"sprites/spr_mario_cat_balloon/spr_mario_cat_balloon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_cat_balloon",
     "tags": [],
     "resourceType": "GMSequence",

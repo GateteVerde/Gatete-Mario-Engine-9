@@ -6,8 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "spr_mask_npc_common_32x32",
-    "path": "sprites/spr_mask_npc_common_32x32/spr_mask_npc_common_32x32.yy",
+    "name": "spr_mask_goomba_big",
+    "path": "sprites/spr_mask_goomba_big/spr_mask_goomba_big.yy",
   },
   "persistent": false,
   "parentObjectId": {

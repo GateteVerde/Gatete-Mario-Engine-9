@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_track_circle","path":"sprites/spr_track_circle/spr_track_circle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_track_circle",
     "tags": [],
     "resourceType": "GMSequence",

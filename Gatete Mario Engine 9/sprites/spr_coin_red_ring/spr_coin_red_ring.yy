@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coin_red_ring","path":"sprites/spr_coin_red_ring/spr_coin_red_ring.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coin_red_ring",
     "tags": [],
     "resourceType": "GMSequence",

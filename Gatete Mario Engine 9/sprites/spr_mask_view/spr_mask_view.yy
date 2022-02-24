@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_view","path":"sprites/spr_mask_view/spr_mask_view.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_view",
     "tags": [],
     "resourceType": "GMSequence",

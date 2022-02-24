@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goal_card_star","path":"sprites/spr_goal_card_star/spr_goal_card_star.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goal_card_star",
     "tags": [],
     "resourceType": "GMSequence",

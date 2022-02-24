@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_levelpanel_numbers","path":"sprites/spr_levelpanel_numbers/spr_levelpanel_numbers.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_levelpanel_numbers",
     "tags": [],
     "resourceType": "GMSequence",

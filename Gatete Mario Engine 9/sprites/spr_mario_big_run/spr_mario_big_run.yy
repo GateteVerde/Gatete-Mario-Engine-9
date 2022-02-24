@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_big_run","path":"sprites/spr_mario_big_run/spr_mario_big_run.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_big_run",
     "tags": [],
     "resourceType": "GMSequence",

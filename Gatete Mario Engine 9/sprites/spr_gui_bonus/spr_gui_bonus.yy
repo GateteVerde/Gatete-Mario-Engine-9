@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_bonus","path":"sprites/spr_gui_bonus/spr_gui_bonus.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_bonus",
     "tags": [],
     "resourceType": "GMSequence",

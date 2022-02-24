@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_blocks","path":"sprites/spr_bgr_blocks/spr_bgr_blocks.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_blocks",
     "tags": [],
     "resourceType": "GMSequence",

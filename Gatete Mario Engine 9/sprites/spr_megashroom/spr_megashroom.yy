@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_megashroom","path":"sprites/spr_megashroom/spr_megashroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_megashroom",
     "tags": [],
     "resourceType": "GMSequence",

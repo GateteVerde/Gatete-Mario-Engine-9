@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_squirrel_spin","path":"sprites/spr_mario_squirrel_spin/spr_mario_squirrel_spin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_squirrel_spin",
     "tags": [],
     "resourceType": "GMSequence",

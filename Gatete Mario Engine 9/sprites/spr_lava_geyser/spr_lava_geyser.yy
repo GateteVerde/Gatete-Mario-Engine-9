@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lava_geyser","path":"sprites/spr_lava_geyser/spr_lava_geyser.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lava_geyser",
     "tags": [],
     "resourceType": "GMSequence",

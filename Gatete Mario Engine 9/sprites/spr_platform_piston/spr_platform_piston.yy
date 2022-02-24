@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_piston","path":"sprites/spr_platform_piston/spr_platform_piston.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_piston",
     "tags": [],
     "resourceType": "GMSequence",

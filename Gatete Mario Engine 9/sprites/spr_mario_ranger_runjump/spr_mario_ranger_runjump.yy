@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_ranger_runjump","path":"sprites/spr_mario_ranger_runjump/spr_mario_ranger_runjump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_ranger_runjump",
     "tags": [],
     "resourceType": "GMSequence",

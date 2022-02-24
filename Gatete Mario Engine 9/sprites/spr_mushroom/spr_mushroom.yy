@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mushroom","path":"sprites/spr_mushroom/spr_mushroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mushroom",
     "tags": [],
     "resourceType": "GMSequence",

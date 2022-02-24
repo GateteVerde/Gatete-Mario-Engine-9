@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_path_dr","path":"sprites/spr_path_dr/spr_path_dr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_path_dr",
     "tags": [],
     "resourceType": "GMSequence",

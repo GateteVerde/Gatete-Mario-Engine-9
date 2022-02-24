@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_big_somersault","path":"sprites/spr_mario_big_somersault/spr_mario_big_somersault.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_big_somersault",
     "tags": [],
     "resourceType": "GMSequence",

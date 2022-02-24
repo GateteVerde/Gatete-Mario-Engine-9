@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_clouds","path":"sprites/spr_bgr_clouds/spr_bgr_clouds.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_clouds",
     "tags": [],
     "resourceType": "GMSequence",

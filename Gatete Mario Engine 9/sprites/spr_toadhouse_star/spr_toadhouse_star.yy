@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_toadhouse_star","path":"sprites/spr_toadhouse_star/spr_toadhouse_star.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_toadhouse_star",
     "tags": [],
     "resourceType": "GMSequence",

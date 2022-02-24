@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bell_midway","path":"sprites/spr_bell_midway/spr_bell_midway.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bell_midway",
     "tags": [],
     "resourceType": "GMSequence",

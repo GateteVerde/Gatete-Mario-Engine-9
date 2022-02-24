@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shard_big_brick","path":"sprites/spr_shard_big_brick/spr_shard_big_brick.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shard_big_brick",
     "tags": [],
     "resourceType": "GMSequence",

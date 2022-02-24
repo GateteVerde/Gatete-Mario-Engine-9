@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mushroom_hidden","path":"sprites/spr_mushroom_hidden/spr_mushroom_hidden.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mushroom_hidden",
     "tags": [],
     "resourceType": "GMSequence",

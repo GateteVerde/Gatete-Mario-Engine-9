@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flagpole_flag_mario","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_flagpole_flag_mario",
     "tags": [],
     "resourceType": "GMSequence",

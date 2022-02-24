@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palaceswitch_y","path":"sprites/spr_palaceswitch_y/spr_palaceswitch_y.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palaceswitch_y",
     "tags": [],
     "resourceType": "GMSequence",

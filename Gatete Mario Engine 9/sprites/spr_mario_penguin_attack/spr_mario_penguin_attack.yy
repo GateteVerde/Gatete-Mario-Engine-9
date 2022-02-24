@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_penguin_attack","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_penguin_attack",
     "tags": [],
     "resourceType": "GMSequence",

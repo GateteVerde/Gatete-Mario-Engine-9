@@ -99,7 +99,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_font_numbers_black","path":"sprites/spr_gui_font_numbers_black/spr_gui_font_numbers_black.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_font_numbers_black",
     "tags": [],
     "resourceType": "GMSequence",

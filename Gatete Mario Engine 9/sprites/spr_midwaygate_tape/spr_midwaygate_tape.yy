@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_midwaygate_tape","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_midwaygate_tape",
     "tags": [],
     "resourceType": "GMSequence",

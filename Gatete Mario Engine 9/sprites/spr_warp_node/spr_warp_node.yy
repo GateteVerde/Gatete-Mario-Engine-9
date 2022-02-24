@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_warp_node","path":"sprites/spr_warp_node/spr_warp_node.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_warp_node",
     "tags": [],
     "resourceType": "GMSequence",

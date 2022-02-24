@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_opener","path":"sprites/spr_opener/spr_opener.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_opener",
     "tags": [],
     "resourceType": "GMSequence",

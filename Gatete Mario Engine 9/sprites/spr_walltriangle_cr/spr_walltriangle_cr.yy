@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_walltriangle_cr","path":"sprites/spr_walltriangle_cr/spr_walltriangle_cr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_walltriangle_cr",
     "tags": [],
     "resourceType": "GMSequence",

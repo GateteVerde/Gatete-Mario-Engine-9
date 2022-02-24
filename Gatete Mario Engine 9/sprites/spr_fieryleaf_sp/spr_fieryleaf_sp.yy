@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_fieryleaf_sp","path":"sprites/spr_fieryleaf_sp/spr_fieryleaf_sp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_fieryleaf_sp",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapwater_river","path":"sprites/spr_mapwater_river/spr_mapwater_river.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapwater_river",
     "tags": [],
     "resourceType": "GMSequence",

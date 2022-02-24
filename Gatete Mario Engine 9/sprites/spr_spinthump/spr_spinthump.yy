@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_spinthump","path":"sprites/spr_spinthump/spr_spinthump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_spinthump",
     "tags": [],
     "resourceType": "GMSequence",

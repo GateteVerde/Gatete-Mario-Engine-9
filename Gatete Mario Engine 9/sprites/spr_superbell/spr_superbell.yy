@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_superbell","path":"sprites/spr_superbell/spr_superbell.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_superbell",
     "tags": [],
     "resourceType": "GMSequence",

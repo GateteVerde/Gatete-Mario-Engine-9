@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_mario_invincible","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_mario_invincible",
     "tags": [],
     "resourceType": "GMSequence",

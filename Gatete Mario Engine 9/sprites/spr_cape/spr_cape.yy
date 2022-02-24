@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cape","path":"sprites/spr_cape/spr_cape.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cape",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_iceball","path":"sprites/spr_iceball/spr_iceball.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_iceball",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pullkey","path":"sprites/spr_pullkey/spr_pullkey.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pullkey",
     "tags": [],
     "resourceType": "GMSequence",

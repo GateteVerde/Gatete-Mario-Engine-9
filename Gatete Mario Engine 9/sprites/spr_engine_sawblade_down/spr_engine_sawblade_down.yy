@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_engine_sawblade_down","path":"sprites/spr_engine_sawblade_down/spr_engine_sawblade_down.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_engine_sawblade_down",
     "tags": [],
     "resourceType": "GMSequence",

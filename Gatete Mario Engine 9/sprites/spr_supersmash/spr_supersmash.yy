@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_supersmash","path":"sprites/spr_supersmash/spr_supersmash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_supersmash",
     "tags": [],
     "resourceType": "GMSequence",

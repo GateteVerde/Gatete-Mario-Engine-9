@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_bolt","path":"sprites/spr_platform_bolt/spr_platform_bolt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_bolt",
     "tags": [],
     "resourceType": "GMSequence",

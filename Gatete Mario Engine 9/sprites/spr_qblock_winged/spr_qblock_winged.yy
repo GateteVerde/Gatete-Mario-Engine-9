@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_qblock_winged","path":"sprites/spr_qblock_winged/spr_qblock_winged.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_qblock_winged",
     "tags": [],
     "resourceType": "GMSequence",

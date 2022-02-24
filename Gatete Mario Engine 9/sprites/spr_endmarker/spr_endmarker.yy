@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_endmarker","path":"sprites/spr_endmarker/spr_endmarker.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_endmarker",
     "tags": [],
     "resourceType": "GMSequence",

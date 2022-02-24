@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flipblock","path":"sprites/spr_flipblock/spr_flipblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_flipblock",
     "tags": [],
     "resourceType": "GMSequence",

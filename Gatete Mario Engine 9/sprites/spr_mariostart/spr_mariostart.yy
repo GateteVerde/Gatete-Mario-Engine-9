@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mariostart","path":"sprites/spr_mariostart/spr_mariostart.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mariostart",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goal_orb","path":"sprites/spr_goal_orb/spr_goal_orb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goal_orb",
     "tags": [],
     "resourceType": "GMSequence",

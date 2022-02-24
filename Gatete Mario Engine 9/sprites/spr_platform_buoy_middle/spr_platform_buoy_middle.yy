@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_buoy_middle","path":"sprites/spr_platform_buoy_middle/spr_platform_buoy_middle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_buoy_middle",
     "tags": [],
     "resourceType": "GMSequence",

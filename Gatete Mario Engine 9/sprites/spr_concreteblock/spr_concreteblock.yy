@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_concreteblock","path":"sprites/spr_concreteblock/spr_concreteblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_concreteblock",
     "tags": [],
     "resourceType": "GMSequence",

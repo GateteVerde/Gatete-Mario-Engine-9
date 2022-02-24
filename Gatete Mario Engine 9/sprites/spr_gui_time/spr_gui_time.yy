@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_time","path":"sprites/spr_gui_time/spr_gui_time.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_time",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_weaponblock_hammer","path":"sprites/spr_weaponblock_hammer/spr_weaponblock_hammer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_weaponblock_hammer",
     "tags": [],
     "resourceType": "GMSequence",

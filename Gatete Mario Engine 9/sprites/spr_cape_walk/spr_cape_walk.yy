@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cape_walk","path":"sprites/spr_cape_walk/spr_cape_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cape_walk",
     "tags": [],
     "resourceType": "GMSequence",

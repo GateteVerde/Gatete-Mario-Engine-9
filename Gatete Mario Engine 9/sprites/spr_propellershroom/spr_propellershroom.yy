@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_propellershroom","path":"sprites/spr_propellershroom/spr_propellershroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_propellershroom",
     "tags": [],
     "resourceType": "GMSequence",

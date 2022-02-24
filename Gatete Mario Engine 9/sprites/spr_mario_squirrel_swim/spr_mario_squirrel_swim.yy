@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_squirrel_swim","path":"sprites/spr_mario_squirrel_swim/spr_mario_squirrel_swim.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_squirrel_swim",
     "tags": [],
     "resourceType": "GMSequence",

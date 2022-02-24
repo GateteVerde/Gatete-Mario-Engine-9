@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_roulette","path":"sprites/spr_roulette/spr_roulette.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_roulette",
     "tags": [],
     "resourceType": "GMSequence",

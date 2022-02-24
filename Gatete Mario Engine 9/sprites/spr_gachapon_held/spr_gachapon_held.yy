@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gachapon_held","path":"sprites/spr_gachapon_held/spr_gachapon_held.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gachapon_held",
     "tags": [],
     "resourceType": "GMSequence",

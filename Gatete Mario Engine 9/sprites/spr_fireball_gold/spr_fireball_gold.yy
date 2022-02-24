@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_fireball_gold","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_fireball_gold",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coin_red_ring_active","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coin_red_ring_active",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bubble_tide","path":"sprites/spr_bubble_tide/spr_bubble_tide.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bubble_tide",
     "tags": [],
     "resourceType": "GMSequence",

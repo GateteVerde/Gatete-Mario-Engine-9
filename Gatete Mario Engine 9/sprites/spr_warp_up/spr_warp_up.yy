@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_warp_up","path":"sprites/spr_warp_up/spr_warp_up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_warp_up",
     "tags": [],
     "resourceType": "GMSequence",

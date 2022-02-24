@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_stack","path":"sprites/spr_platform_stack/spr_platform_stack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_stack",
     "tags": [],
     "resourceType": "GMSequence",

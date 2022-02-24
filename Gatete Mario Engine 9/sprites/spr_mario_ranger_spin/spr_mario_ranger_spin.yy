@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_ranger_spin","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_ranger_spin",
     "tags": [],
     "resourceType": "GMSequence",

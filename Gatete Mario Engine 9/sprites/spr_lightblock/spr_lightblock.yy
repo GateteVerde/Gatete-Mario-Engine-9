@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lightblock","path":"sprites/spr_lightblock/spr_lightblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lightblock",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_torch","path":"sprites/spr_torch/spr_torch.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_torch",
     "tags": [],
     "resourceType": "GMSequence",

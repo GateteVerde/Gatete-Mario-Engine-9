@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_big_duck","path":"sprites/spr_mario_big_duck/spr_mario_big_duck.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_big_duck",
     "tags": [],
     "resourceType": "GMSequence",

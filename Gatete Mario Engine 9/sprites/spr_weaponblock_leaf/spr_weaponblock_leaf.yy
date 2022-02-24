@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_weaponblock_leaf","path":"sprites/spr_weaponblock_leaf/spr_weaponblock_leaf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_weaponblock_leaf",
     "tags": [],
     "resourceType": "GMSequence",

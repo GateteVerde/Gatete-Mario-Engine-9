@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_trampoline","path":"sprites/spr_palette_trampoline/spr_palette_trampoline.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_trampoline",
     "tags": [],
     "resourceType": "GMSequence",

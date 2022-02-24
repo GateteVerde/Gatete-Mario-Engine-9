@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_map_inventory_cursor","path":"sprites/spr_gui_map_inventory_cursor/spr_gui_map_inventory_cursor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_map_inventory_cursor",
     "tags": [],
     "resourceType": "GMSequence",

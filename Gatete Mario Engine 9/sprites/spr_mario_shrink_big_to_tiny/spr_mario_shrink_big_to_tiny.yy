@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_shrink_big_to_tiny","path":"sprites/spr_mario_shrink_big_to_tiny/spr_mario_shrink_big_to_tiny.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_shrink_big_to_tiny",
     "tags": [],
     "resourceType": "GMSequence",

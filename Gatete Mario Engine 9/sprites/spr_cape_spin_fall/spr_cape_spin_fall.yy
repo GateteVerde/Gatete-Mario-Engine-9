@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cape_spin_fall","path":"sprites/spr_cape_spin_fall/spr_cape_spin_fall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cape_spin_fall",
     "tags": [],
     "resourceType": "GMSequence",

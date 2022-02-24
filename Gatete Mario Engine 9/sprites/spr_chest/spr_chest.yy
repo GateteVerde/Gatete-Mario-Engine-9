@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_chest",
     "tags": [],
     "resourceType": "GMSequence",

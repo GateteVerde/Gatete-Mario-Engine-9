@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tileset_map_decor","path":"sprites/spr_tileset_map_decor/spr_tileset_map_decor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_tileset_map_decor",
     "tags": [],
     "resourceType": "GMSequence",

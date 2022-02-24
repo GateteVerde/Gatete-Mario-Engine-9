@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_vegshroom_1up","path":"sprites/spr_vegshroom_1up/spr_vegshroom_1up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_vegshroom_1up",
     "tags": [],
     "resourceType": "GMSequence",

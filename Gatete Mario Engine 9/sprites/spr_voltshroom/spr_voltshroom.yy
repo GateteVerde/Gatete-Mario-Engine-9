@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_voltshroom","path":"sprites/spr_voltshroom/spr_voltshroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_voltshroom",
     "tags": [],
     "resourceType": "GMSequence",

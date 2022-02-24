@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smoke_c","path":"sprites/spr_smoke_c/spr_smoke_c.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smoke_c",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_solid_track","path":"sprites/spr_platform_solid_track/spr_platform_solid_track.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_solid_track",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_squirrel_walljump","path":"sprites/spr_mario_squirrel_walljump/spr_mario_squirrel_walljump.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_squirrel_walljump",
     "tags": [],
     "resourceType": "GMSequence",

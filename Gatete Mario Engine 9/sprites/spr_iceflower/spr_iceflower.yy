@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_iceflower","path":"sprites/spr_iceflower/spr_iceflower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_iceflower",
     "tags": [],
     "resourceType": "GMSequence",

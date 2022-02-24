@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_beeshroom","path":"sprites/spr_beeshroom/spr_beeshroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_beeshroom",
     "tags": [],
     "resourceType": "GMSequence",

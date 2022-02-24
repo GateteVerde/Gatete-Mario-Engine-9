@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_global_sc_coin","path":"sprites/spr_gui_global_sc_coin/spr_gui_global_sc_coin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_global_sc_coin",
     "tags": [],
     "resourceType": "GMSequence",

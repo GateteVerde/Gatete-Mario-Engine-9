@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cardgame_cards","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cardgame_cards",
     "tags": [],
     "resourceType": "GMSequence",

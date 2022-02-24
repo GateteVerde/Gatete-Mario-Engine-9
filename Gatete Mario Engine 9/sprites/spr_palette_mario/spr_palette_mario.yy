@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_mario","path":"sprites/spr_palette_mario/spr_palette_mario.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_mario",
     "tags": [],
     "resourceType": "GMSequence",

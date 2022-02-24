@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_minigame_c","path":"sprites/spr_bgr_minigame_c/spr_bgr_minigame_c.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_minigame_c",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_viewblock","path":"sprites/spr_viewblock/spr_viewblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_viewblock",
     "tags": [],
     "resourceType": "GMSequence",

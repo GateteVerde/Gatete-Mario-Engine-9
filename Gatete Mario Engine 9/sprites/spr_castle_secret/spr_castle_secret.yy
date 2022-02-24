@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_castle_secret","path":"sprites/spr_castle_secret/spr_castle_secret.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_castle_secret",
     "tags": [],
     "resourceType": "GMSequence",

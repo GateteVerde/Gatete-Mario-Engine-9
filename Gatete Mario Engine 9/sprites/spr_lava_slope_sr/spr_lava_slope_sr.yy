@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lava_slope_sr","path":"sprites/spr_lava_slope_sr/spr_lava_slope_sr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lava_slope_sr",
     "tags": [],
     "resourceType": "GMSequence",

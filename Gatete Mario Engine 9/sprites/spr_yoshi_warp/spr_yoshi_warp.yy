@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_warp","path":"sprites/spr_yoshi_warp/spr_yoshi_warp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_warp",
     "tags": [],
     "resourceType": "GMSequence",

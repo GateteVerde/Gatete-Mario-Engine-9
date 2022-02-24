@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_superball","path":"sprites/spr_superball/spr_superball.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_superball",
     "tags": [],
     "resourceType": "GMSequence",

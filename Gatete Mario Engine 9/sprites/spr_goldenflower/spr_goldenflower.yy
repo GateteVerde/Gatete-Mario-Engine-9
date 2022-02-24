@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goldenflower","path":"sprites/spr_goldenflower/spr_goldenflower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goldenflower",
     "tags": [],
     "resourceType": "GMSequence",

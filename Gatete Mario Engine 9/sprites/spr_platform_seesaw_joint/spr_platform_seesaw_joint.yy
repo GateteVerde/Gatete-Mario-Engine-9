@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_seesaw_joint","path":"sprites/spr_platform_seesaw_joint/spr_platform_seesaw_joint.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_seesaw_joint",
     "tags": [],
     "resourceType": "GMSequence",

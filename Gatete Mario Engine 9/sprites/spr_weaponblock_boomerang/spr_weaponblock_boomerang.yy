@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_weaponblock_boomerang","path":"sprites/spr_weaponblock_boomerang/spr_weaponblock_boomerang.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_weaponblock_boomerang",
     "tags": [],
     "resourceType": "GMSequence",

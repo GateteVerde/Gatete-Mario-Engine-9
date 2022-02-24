@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_cape_somersault","path":"sprites/spr_mario_cape_somersault/spr_mario_cape_somersault.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_cape_somersault",
     "tags": [],
     "resourceType": "GMSequence",

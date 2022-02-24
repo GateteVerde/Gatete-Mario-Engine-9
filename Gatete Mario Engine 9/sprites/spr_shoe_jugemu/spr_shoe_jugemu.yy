@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shoe_jugemu","path":"sprites/spr_shoe_jugemu/spr_shoe_jugemu.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shoe_jugemu",
     "tags": [],
     "resourceType": "GMSequence",

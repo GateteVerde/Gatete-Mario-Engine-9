@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shard_wood","path":"sprites/spr_shard_wood/spr_shard_wood.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shard_wood",
     "tags": [],
     "resourceType": "GMSequence",

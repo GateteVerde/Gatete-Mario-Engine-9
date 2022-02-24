@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapmario_yoshi_up","path":"sprites/spr_mapmario_yoshi_up/spr_mapmario_yoshi_up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapmario_yoshi_up",
     "tags": [],
     "resourceType": "GMSequence",

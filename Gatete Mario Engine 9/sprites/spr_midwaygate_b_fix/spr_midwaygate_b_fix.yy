@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_midwaygate_b_fix","path":"sprites/spr_midwaygate_b_fix/spr_midwaygate_b_fix.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_midwaygate_b_fix",
     "tags": [],
     "resourceType": "GMSequence",

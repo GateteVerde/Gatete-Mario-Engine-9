@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_turnip_large","path":"sprites/spr_turnip_large/spr_turnip_large.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_turnip_large",
     "tags": [],
     "resourceType": "GMSequence",

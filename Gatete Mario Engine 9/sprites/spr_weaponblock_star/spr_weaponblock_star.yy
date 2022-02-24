@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_weaponblock_star","path":"sprites/spr_weaponblock_star/spr_weaponblock_star.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_weaponblock_star",
     "tags": [],
     "resourceType": "GMSequence",

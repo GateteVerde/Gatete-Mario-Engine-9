@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flipblock_big_held","path":"sprites/spr_flipblock_big_held/spr_flipblock_big_held.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_flipblock_big_held",
     "tags": [],
     "resourceType": "GMSequence",

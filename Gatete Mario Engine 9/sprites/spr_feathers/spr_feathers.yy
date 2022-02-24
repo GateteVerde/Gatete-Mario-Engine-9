@@ -139,7 +139,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_feathers","path":"sprites/spr_feathers/spr_feathers.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_feathers",
     "tags": [],
     "resourceType": "GMSequence",

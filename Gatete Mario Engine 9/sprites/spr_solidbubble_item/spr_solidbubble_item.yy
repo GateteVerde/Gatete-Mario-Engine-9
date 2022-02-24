@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_solidbubble_item","path":"sprites/spr_solidbubble_item/spr_solidbubble_item.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_solidbubble_item",
     "tags": [],
     "resourceType": "GMSequence",

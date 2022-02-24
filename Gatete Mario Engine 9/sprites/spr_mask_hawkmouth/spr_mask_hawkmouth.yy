@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_hawkmouth","path":"sprites/spr_mask_hawkmouth/spr_mask_hawkmouth.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_hawkmouth",
     "tags": [],
     "resourceType": "GMSequence",

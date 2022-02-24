@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_tiny_climb","path":"sprites/spr_mario_tiny_climb/spr_mario_tiny_climb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_tiny_climb",
     "tags": [],
     "resourceType": "GMSequence",

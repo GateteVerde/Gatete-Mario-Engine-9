@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lava_edge","path":"sprites/spr_lava_edge/spr_lava_edge.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lava_edge",
     "tags": [],
     "resourceType": "GMSequence",

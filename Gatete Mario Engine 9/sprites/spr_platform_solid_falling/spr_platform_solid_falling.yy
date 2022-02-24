@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_solid_falling","path":"sprites/spr_platform_solid_falling/spr_platform_solid_falling.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_solid_falling",
     "tags": [],
     "resourceType": "GMSequence",

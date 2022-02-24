@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_messageblock","path":"sprites/spr_messageblock/spr_messageblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_messageblock",
     "tags": [],
     "resourceType": "GMSequence",

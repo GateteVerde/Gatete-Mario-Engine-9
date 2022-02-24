@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_path_ladder_b","path":"sprites/spr_path_ladder_b/spr_path_ladder_b.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_path_ladder_b",
     "tags": [],
     "resourceType": "GMSequence",

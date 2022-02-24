@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_water_geyser","path":"sprites/spr_water_geyser/spr_water_geyser.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_water_geyser",
     "tags": [],
     "resourceType": "GMSequence",

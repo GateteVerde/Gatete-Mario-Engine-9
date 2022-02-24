@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_1upgame_cannon","path":"sprites/spr_1upgame_cannon/spr_1upgame_cannon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_1upgame_cannon",
     "tags": [],
     "resourceType": "GMSequence",

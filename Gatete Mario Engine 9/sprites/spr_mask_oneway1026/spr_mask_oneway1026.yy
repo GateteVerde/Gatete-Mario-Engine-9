@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_oneway1026","path":"sprites/spr_mask_oneway1026/spr_mask_oneway1026.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_oneway",
     "tags": [],
     "resourceType": "GMSequence",

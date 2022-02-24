@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_poison","path":"sprites/spr_poison/spr_poison.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_poison",
     "tags": [],
     "resourceType": "GMSequence",

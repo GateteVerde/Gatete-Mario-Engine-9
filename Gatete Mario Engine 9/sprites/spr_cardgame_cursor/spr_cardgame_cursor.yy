@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cardgame_cursor","path":"sprites/spr_cardgame_cursor/spr_cardgame_cursor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cardgame_cursor",
     "tags": [],
     "resourceType": "GMSequence",

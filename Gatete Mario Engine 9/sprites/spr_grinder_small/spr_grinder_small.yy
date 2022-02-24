@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_grinder_small","path":"sprites/spr_grinder_small/spr_grinder_small.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_grinder_small",
     "tags": [],
     "resourceType": "GMSequence",

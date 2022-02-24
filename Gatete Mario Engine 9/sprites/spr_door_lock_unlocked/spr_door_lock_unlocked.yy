@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_door_lock_unlocked","path":"sprites/spr_door_lock_unlocked/spr_door_lock_unlocked.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_door_lock_unlocked",
     "tags": [],
     "resourceType": "GMSequence",

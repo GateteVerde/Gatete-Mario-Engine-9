@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_turnip_bomb","path":"sprites/spr_turnip_bomb/spr_turnip_bomb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_turnip_bomb",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bombshroom","path":"sprites/spr_bombshroom/spr_bombshroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bombshroom",
     "tags": [],
     "resourceType": "GMSequence",

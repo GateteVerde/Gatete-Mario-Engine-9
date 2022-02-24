@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_onoffplatform_red","path":"sprites/spr_onoffplatform_red/spr_onoffplatform_red.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_onoffplatform_red",
     "tags": [],
     "resourceType": "GMSequence",

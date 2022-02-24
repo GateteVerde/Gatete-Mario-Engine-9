@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cruncher","path":"sprites/spr_cruncher/spr_cruncher.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cruncher",
     "tags": [],
     "resourceType": "GMSequence",

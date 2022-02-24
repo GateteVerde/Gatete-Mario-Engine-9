@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_area_b","path":"sprites/spr_area_b/spr_area_b.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_area_b",
     "tags": [],
     "resourceType": "GMSequence",

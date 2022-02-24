@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cloud",
     "tags": [],
     "resourceType": "GMSequence",

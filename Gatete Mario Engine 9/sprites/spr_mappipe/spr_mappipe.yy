@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mappipe","path":"sprites/spr_mappipe/spr_mappipe.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mappipe",
     "tags": [],
     "resourceType": "GMSequence",

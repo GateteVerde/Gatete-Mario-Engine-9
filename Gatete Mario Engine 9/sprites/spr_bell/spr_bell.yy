@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bell","path":"sprites/spr_bell/spr_bell.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bell",
     "tags": [],
     "resourceType": "GMSequence",

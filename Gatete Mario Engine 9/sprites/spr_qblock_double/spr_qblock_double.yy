@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_qblock_double","path":"sprites/spr_qblock_double/spr_qblock_double.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_qblock_double",
     "tags": [],
     "resourceType": "GMSequence",

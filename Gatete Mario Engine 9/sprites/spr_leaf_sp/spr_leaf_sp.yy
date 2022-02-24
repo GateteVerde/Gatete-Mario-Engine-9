@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_leaf_sp","path":"sprites/spr_leaf_sp/spr_leaf_sp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_leaf_sp",
     "tags": [],
     "resourceType": "GMSequence",

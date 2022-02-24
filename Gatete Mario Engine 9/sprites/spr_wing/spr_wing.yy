@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_wing","path":"sprites/spr_wing/spr_wing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_wing",
     "tags": [],
     "resourceType": "GMSequence",

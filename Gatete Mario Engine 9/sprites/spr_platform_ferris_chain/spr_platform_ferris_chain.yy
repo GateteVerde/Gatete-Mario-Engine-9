@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_ferris_chain","path":"sprites/spr_platform_ferris_chain/spr_platform_ferris_chain.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_ferris_chain",
     "tags": [],
     "resourceType": "GMSequence",

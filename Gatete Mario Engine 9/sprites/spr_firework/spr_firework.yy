@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_firework","path":"sprites/spr_firework/spr_firework.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_firework",
     "tags": [],
     "resourceType": "GMSequence",

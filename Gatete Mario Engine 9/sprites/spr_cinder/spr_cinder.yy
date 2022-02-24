@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cinder","path":"sprites/spr_cinder/spr_cinder.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cinder",
     "tags": [],
     "resourceType": "GMSequence",

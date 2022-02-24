@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_fgr_wmap_rain","path":"sprites/spr_fgr_wmap_rain/spr_fgr_wmap_rain.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_fgr_wmap_rain",
     "tags": [],
     "resourceType": "GMSequence",

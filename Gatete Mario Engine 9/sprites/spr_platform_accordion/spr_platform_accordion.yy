@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_accordion","path":"sprites/spr_platform_accordion/spr_platform_accordion.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_accordion",
     "tags": [],
     "resourceType": "GMSequence",

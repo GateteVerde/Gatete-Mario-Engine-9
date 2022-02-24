@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cape_climb","path":"sprites/spr_cape_climb/spr_cape_climb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cape_climb",
     "tags": [],
     "resourceType": "GMSequence",

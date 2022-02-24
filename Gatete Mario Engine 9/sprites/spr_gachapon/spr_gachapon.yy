@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gachapon","path":"sprites/spr_gachapon/spr_gachapon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gachapon",
     "tags": [],
     "resourceType": "GMSequence",

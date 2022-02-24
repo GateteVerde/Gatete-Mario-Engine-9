@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_boomerangflower","path":"sprites/spr_boomerangflower/spr_boomerangflower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_boomerangflower",
     "tags": [],
     "resourceType": "GMSequence",

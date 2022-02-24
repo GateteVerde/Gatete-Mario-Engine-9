@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_skewer_v","path":"sprites/spr_mask_skewer_v/spr_mask_skewer_v.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_skewer_v",
     "tags": [],
     "resourceType": "GMSequence",

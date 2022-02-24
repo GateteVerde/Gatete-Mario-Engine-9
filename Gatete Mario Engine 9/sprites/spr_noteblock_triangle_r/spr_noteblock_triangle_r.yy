@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_noteblock_triangle_r","path":"sprites/spr_noteblock_triangle_r/spr_noteblock_triangle_r.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_noteblock_triangle_r",
     "tags": [],
     "resourceType": "GMSequence",

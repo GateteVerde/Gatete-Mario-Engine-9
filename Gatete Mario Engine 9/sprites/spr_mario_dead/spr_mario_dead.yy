@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_dead","path":"sprites/spr_mario_dead/spr_mario_dead.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_dead",
     "tags": [],
     "resourceType": "GMSequence",

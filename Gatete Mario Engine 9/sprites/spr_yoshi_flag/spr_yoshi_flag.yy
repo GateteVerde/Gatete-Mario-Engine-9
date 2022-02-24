@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_flag","path":"sprites/spr_yoshi_flag/spr_yoshi_flag.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_flag",
     "tags": [],
     "resourceType": "GMSequence",

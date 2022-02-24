@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_levelpanel_switch_g","path":"sprites/spr_levelpanel_switch_g/spr_levelpanel_switch_g.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_levelpanel_switch_g",
     "tags": [],
     "resourceType": "GMSequence",

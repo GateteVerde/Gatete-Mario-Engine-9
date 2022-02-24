@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_grow_to_mega","path":"sprites/spr_mario_grow_to_mega/spr_mario_grow_to_mega.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_grow_to_mega",
     "tags": [],
     "resourceType": "GMSequence",

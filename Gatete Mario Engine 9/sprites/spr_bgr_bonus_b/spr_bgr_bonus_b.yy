@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bgr_bonus_b","path":"sprites/spr_bgr_bonus_b/spr_bgr_bonus_b.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bgr_bonus_b",
     "tags": [],
     "resourceType": "GMSequence",

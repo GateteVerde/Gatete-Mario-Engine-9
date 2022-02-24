@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_yoshi","path":"sprites/spr_palette_yoshi/spr_palette_yoshi.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_yoshi",
     "tags": [],
     "resourceType": "GMSequence",

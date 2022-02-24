@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_squirrel_float","path":"sprites/spr_mario_squirrel_float/spr_mario_squirrel_float.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_squirrel_float",
     "tags": [],
     "resourceType": "GMSequence",

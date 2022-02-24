@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_slope_ceiling_l","path":"sprites/spr_slope_ceiling_l/spr_slope_ceiling_l.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_slope_ceiling_l",
     "tags": [],
     "resourceType": "GMSequence",

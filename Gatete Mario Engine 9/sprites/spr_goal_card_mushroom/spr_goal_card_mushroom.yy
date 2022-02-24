@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goal_card_mushroom","path":"sprites/spr_goal_card_mushroom/spr_goal_card_mushroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goal_card_mushroom",
     "tags": [],
     "resourceType": "GMSequence",

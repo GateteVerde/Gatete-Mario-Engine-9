@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_blend_beam","path":"sprites/spr_blend_beam/spr_blend_beam.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_blend_beam",
     "tags": [],
     "resourceType": "GMSequence",

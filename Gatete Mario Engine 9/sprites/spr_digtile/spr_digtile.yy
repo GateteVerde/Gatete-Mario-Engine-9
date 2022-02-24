@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_digtile","path":"sprites/spr_digtile/spr_digtile.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_digtile",
     "tags": [],
     "resourceType": "GMSequence",

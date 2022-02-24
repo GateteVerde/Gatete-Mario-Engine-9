@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_elevator_lift","path":"sprites/spr_palette_elevator_lift/spr_palette_elevator_lift.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_elevator_lift",
     "tags": [],
     "resourceType": "GMSequence",

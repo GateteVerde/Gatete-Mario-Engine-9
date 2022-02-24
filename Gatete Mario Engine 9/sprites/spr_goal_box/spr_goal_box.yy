@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goal_box","path":"sprites/spr_goal_box/spr_goal_box.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goal_box",
     "tags": [],
     "resourceType": "GMSequence",

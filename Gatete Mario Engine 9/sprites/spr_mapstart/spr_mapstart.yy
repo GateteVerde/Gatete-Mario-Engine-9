@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapstart","path":"sprites/spr_mapstart/spr_mapstart.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapstart",
     "tags": [],
     "resourceType": "GMSequence",

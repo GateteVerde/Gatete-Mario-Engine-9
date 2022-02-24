@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_volt","path":"sprites/spr_volt/spr_volt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_volt",
     "tags": [],
     "resourceType": "GMSequence",

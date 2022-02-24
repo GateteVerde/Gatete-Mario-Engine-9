@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_blowpipe","path":"sprites/spr_blowpipe/spr_blowpipe.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_blowpipe",
     "tags": [],
     "resourceType": "GMSequence",

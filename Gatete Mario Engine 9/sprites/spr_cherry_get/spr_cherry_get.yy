@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cherry_get","path":"sprites/spr_cherry_get/spr_cherry_get.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cherry_get",
     "tags": [],
     "resourceType": "GMSequence",

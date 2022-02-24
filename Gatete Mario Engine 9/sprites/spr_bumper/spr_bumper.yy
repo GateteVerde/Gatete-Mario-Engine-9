@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bumper","path":"sprites/spr_bumper/spr_bumper.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bumper",
     "tags": [],
     "resourceType": "GMSequence",

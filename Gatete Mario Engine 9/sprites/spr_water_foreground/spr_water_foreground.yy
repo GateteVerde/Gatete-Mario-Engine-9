@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_water_foreground","path":"sprites/spr_water_foreground/spr_water_foreground.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_water_foreground",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_slippery","path":"sprites/spr_slippery/spr_slippery.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_slippery",
     "tags": [],
     "resourceType": "GMSequence",

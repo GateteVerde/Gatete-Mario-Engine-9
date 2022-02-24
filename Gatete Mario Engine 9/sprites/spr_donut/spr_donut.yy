@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_donut","path":"sprites/spr_donut/spr_donut.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_donut",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mario_ranger_ride","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mario_ranger_ride",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_fgr_wmap_clouds","path":"sprites/spr_fgr_wmap_clouds/spr_fgr_wmap_clouds.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_fgr_wmap_clouds",
     "tags": [],
     "resourceType": "GMSequence",

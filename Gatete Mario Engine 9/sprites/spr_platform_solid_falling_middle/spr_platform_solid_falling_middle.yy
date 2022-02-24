@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_solid_falling_middle","path":"sprites/spr_platform_solid_falling_middle/spr_platform_solid_falling_middle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_solid_falling_middle",
     "tags": [],
     "resourceType": "GMSequence",

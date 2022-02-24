@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pipe_broken","path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pipe_broken",
     "tags": [],
     "resourceType": "GMSequence",

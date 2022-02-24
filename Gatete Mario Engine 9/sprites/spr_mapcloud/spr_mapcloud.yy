@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapcloud","path":"sprites/spr_mapcloud/spr_mapcloud.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapcloud",
     "tags": [],
     "resourceType": "GMSequence",

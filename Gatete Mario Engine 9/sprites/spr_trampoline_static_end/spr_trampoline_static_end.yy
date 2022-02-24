@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_trampoline_static_end","path":"sprites/spr_trampoline_static_end/spr_trampoline_static_end.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_trampoline_static_end",
     "tags": [],
     "resourceType": "GMSequence",

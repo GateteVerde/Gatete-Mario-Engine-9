@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_score","path":"sprites/spr_palette_score/spr_palette_score.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_score",
     "tags": [],
     "resourceType": "GMSequence",

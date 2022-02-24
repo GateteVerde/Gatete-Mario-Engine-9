@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_heart_alt_get","path":"sprites/spr_heart_alt_get/spr_heart_alt_get.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_heart_alt_get",
     "tags": [],
     "resourceType": "GMSequence",

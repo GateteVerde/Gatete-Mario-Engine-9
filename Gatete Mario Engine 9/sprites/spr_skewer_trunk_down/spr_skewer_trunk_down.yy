@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_skewer_trunk_down","path":"sprites/spr_skewer_trunk_down/spr_skewer_trunk_down.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_skewer_trunk_down",
     "tags": [],
     "resourceType": "GMSequence",

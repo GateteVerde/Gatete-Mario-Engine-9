@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_hippo","path":"sprites/spr_hippo/spr_hippo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_hippo",
     "tags": [],
     "resourceType": "GMSequence",

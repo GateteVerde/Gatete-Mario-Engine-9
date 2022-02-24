@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_sand","path":"sprites/spr_sand/spr_sand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_sand",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pswitchplatform_on","path":"sprites/spr_pswitchplatform_on/spr_pswitchplatform_on.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pswitchplatform_on",
     "tags": [],
     "resourceType": "GMSequence",

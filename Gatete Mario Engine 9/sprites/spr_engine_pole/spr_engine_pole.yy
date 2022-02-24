@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_engine_pole","path":"sprites/spr_engine_pole/spr_engine_pole.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_engine_pole",
     "tags": [],
     "resourceType": "GMSequence",

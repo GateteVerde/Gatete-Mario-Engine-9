@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gachapon_shard_top_v","path":"sprites/spr_gachapon_shard_top_v/spr_gachapon_shard_top_v.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gachapon_shard_top_v",
     "tags": [],
     "resourceType": "GMSequence",

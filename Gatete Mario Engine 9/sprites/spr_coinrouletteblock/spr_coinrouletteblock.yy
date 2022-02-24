@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_coinrouletteblock","path":"sprites/spr_coinrouletteblock/spr_coinrouletteblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_coinrouletteblock",
     "tags": [],
     "resourceType": "GMSequence",

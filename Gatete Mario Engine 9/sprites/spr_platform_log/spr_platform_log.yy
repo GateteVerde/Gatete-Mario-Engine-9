@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_platform_log","path":"sprites/spr_platform_log/spr_platform_log.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_platform_log",
     "tags": [],
     "resourceType": "GMSequence",

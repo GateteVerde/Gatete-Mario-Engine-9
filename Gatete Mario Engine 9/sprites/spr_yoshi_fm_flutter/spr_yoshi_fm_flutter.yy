@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_fm_flutter","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_fm_flutter",
     "tags": [],
     "resourceType": "GMSequence",

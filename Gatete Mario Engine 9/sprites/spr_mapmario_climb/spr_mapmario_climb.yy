@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapmario_climb","path":"sprites/spr_mapmario_climb/spr_mapmario_climb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapmario_climb",
     "tags": [],
     "resourceType": "GMSequence",

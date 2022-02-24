@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_frogsuit","path":"sprites/spr_frogsuit/spr_frogsuit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_frogsuit",
     "tags": [],
     "resourceType": "GMSequence",

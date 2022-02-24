@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_firebar","path":"sprites/spr_firebar/spr_firebar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_firebar",
     "tags": [],
     "resourceType": "GMSequence",

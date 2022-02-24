@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_trampoline","path":"sprites/spr_trampoline/spr_trampoline.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_trampoline",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_plusclock_10","path":"sprites/spr_plusclock_10/spr_plusclock_10.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_plusclock_10",
     "tags": [],
     "resourceType": "GMSequence",

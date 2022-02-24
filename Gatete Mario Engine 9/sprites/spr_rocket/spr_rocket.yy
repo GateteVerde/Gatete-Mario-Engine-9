@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_rocket","path":"sprites/spr_rocket/spr_rocket.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_rocket",
     "tags": [],
     "resourceType": "GMSequence",

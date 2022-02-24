@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_palette_lava","path":"sprites/spr_palette_lava/spr_palette_lava.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_palette_lava",
     "tags": [],
     "resourceType": "GMSequence",

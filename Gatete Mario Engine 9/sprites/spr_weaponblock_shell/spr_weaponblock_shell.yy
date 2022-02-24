@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_weaponblock_shell","path":"sprites/spr_weaponblock_shell/spr_weaponblock_shell.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_weaponblock_shell",
     "tags": [],
     "resourceType": "GMSequence",

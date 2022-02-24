@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_platform_rotary","path":"sprites/spr_mask_platform_rotary/spr_mask_platform_rotary.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_platform_rotary",
     "tags": [],
     "resourceType": "GMSequence",

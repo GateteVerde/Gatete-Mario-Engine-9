@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_keygate","path":"sprites/spr_keygate/spr_keygate.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_keygate",
     "tags": [],
     "resourceType": "GMSequence",

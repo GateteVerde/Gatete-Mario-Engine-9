@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mapmario_select","path":"sprites/spr_mapmario_select/spr_mapmario_select.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mapmario_select",
     "tags": [],
     "resourceType": "GMSequence",

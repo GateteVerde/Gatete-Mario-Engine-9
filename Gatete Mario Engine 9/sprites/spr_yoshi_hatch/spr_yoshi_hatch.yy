@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yoshi_hatch","path":"sprites/spr_yoshi_hatch/spr_yoshi_hatch.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yoshi_hatch",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mask_platform_tilted_l","path":"sprites/spr_mask_platform_tilted_l/spr_mask_platform_tilted_l.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mask_platform_tilted_l",
     "tags": [],
     "resourceType": "GMSequence",

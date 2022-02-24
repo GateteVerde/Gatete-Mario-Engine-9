@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_jelly","path":"sprites/spr_jelly/spr_jelly.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_jelly",
     "tags": [],
     "resourceType": "GMSequence",
