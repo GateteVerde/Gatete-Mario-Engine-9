@@ -35,3 +35,10 @@ turn_on_ledges = 0;
 //0:	No
 //1:	Yes
 turn_silver = 1;
+
+//NPC Health
+hp = 0;
+firehp = 0;
+
+//Makes the NPCs invulnerable to projectiles after being hit by one
+invulnerable = 0;

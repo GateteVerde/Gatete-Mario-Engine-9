@@ -108,13 +108,6 @@ if (invulnerable == 0) {
 						
 						//Play 'Powerdown' sound
 						audio_play_sound(snd_warp, 0, false);
-					
-						//Drop reserve item
-						if (global.reserve_activated) {
-						
-							with (obj_levelcontrol) 
-								event_user(2);
-						}
 						
 						//Perform animation sequence
 					    with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 1;

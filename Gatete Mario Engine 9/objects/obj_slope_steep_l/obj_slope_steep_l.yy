@@ -4,7 +4,7 @@
     "path": "sprites/spr_slope_steep_l/spr_slope_steep_l.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
