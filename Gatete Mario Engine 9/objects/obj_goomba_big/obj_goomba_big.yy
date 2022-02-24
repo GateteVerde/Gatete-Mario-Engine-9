@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_goomba",
-    "path": "sprites/spr_goomba/spr_goomba.yy",
+    "name": "spr_goomba_big",
+    "path": "sprites/spr_goomba_big/spr_goomba_big.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_mask_npc_common_32x32",
+    "path": "sprites/spr_mask_npc_common_32x32/spr_mask_npc_common_32x32.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_enemyparent_deact",
@@ -30,11 +33,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Goombas",
-    "path": "folders/Objects/Enemies/Land/Goombas.yy",
+    "name": "Big",
+    "path": "folders/Objects/Enemies/Land/Goombas/Big.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_goomba",
+  "name": "obj_goomba_big",
   "tags": [],
   "resourceType": "GMObject",
 }

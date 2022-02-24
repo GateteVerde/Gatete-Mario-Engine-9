@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Land",
-    "path": "folders/Objects/Enemies/Land.yy",
+    "name": "Goombas",
+    "path": "folders/Objects/Enemies/Land/Goombas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_goombrat",

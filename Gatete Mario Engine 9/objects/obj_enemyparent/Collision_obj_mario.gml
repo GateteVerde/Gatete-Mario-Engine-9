@@ -82,7 +82,7 @@ if (stomp != -1)
     else {
     
         //If the player is above the enemy and moving down
-        if ((other.bbox_bottom < bbox_top-yspeed+5) && (other.yspeed > 0)) {
+        if (other.bbox_bottom < bbox_top-yspeed+5) {
     
             //If the player is spin jumping
             if (stomp != 3)
@@ -108,7 +108,8 @@ if (stomp != -1)
 				        else if (other.hitcombo == 1)
 				            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
 				                value = 400;
-				        //800
+				        
+						//800
 				        else if (other.hitcombo == 2)
 				            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
 				                value = 800;
@@ -166,10 +167,6 @@ if (stomp != -1)
                             }
                         }
                     }
-                    else {
-						
-                        other.yspeed = 0;
-					}
                         
                     //Destroy
                     instance_destroy();
@@ -203,13 +200,6 @@ if (stomp != -1)
                     if (other.yspeed > 0)
                         other.y = other.yprevious;
                 }
-                
-                //Bounce the player
-                with (other) {
-					
-					if (groundpound == 0)
-						event_user(1);
-				}
                 
 				//If Mario is tiny
 				if (global.powerup != cs_tiny) {
@@ -264,7 +254,20 @@ if (stomp != -1)
 	                }
 					
 					//Stomp the enemy
-					event_user(1); 	
+					if (other.groundpound == 2) {
+						
+						killer_id = obj_mario;
+						event_user(0);
+					}
+					else
+						event_user(1);
+				}
+				
+				//Make Mario bounce
+				with (other) {
+					
+					if (groundpound == 0)
+						event_user(1);
 				}
                 
                 //Create spin smoke
