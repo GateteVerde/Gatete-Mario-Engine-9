@@ -639,439 +639,439 @@ if (enable_gravity == 1) {
 				pmeter--;			
 		}
     }
+}
 	
-	//If moving right and there's a wall in position
-	if (xspeed > 0)
-	&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, obj_solid, 1, 0)))
-	|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom-5, obj_solid, 1, 0)))) {
+//If moving right and there's a wall in position
+if (xspeed > 0)
+&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, obj_solid, 1, 0)))
+|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom-5, obj_solid, 1, 0)))) {
 		
-		//Check for a block
-		var block_r = collision_rectangle(bbox_right, y + 8, bbox_right+1, y + 8, obj_blockparent, 0, 0);
+	//Check for a block
+	var block_r = collision_rectangle(bbox_right, y + 8, bbox_right+1, y + 8, obj_blockparent, 0, 0);
 	
-		//If Mario is sliding
-		if (sliding == true) {
+	//If Mario is sliding
+	if (sliding == true) {
 		
-			//If the player has the shell powerup
-			if (global.mount == 0)
-			&& (global.powerup == cs_shell) {
-			
-				//Play 'Bump' sound
-				audio_play_sound(snd_bump, 0, false);
-				
-				//Reverse horizontal speed
-				xspeed = -xspeed;
-				
-				//Create effect
-				instance_create_depth(x+5, y, depth - 1, obj_shellthump);
-				
-				//Bump block if there's one in position
-				if ((block_r) && (block_r.ready == 0)) {
-				
-					with (block_r) {
-						
-						//Set state to bumped
-						ready = 1;
-						
-						//Set horizontal speed
-						hspeed = 2;
-						alarm[0] = 4;
-						
-						//Create block specific events
-						event_user(0);
-						event_user(1);
-					}
-				}
-				
-				//Exit this event
-				exit;
-			}
-			
-			//Otherwise, stop sliding behaviour
-			else				
-				sliding = false;
-		}
-		
-		//Stop horizontal movement
-		xspeed = 0;
-		
-		//If Mario is not tiny, prevent Mario from getting embed on the wall
-		if (global.powerup != cs_tiny) {
-			
-			while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
-				x--;
-		}
-		else {
-			
-			while (collision_rectangle(bbox_right, bbox_top, bbox_right, bbox_bottom-5, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
-				x--;			
-		}
-	}
-	
-	//Otherwise, if moving left
-	else if (xspeed < 0)
-	&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0)))
-	|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left, bbox_bottom-5, obj_solid, 1, 0)))) {
-		
-		//Check for a block
-		var block_l = collision_rectangle(bbox_left-1, y + 8, bbox_left, y + 8, obj_blockparent, 0, 0);
-	
-		//If Mario is sliding
-		if (sliding == true) {
-		
-			//If the player has the shell powerup
-			if (global.mount == 0)
-			&& (global.powerup == cs_shell) {
-			
-				//Play 'Bump' sound
-				audio_play_sound(snd_bump, 0, false);
-				
-				//Reverse horizontal speed
-				xspeed = -xspeed;
-				
-				//Create effect
-				instance_create_depth(x-5, y, depth - 1, obj_shellthump);
-				
-				//Bump block if there's one in position
-				if ((block_l) && (block_l.ready == 0)) {
-				
-					with (block_l) {
-						
-						//Set state to bumped
-						ready = 1;
-						
-						//Set horizontal speed
-						hspeed = -2;
-						alarm[0] = 4;
-						
-						//Create block specific events
-						event_user(0);
-						event_user(1);
-					}
-				}
-				
-				//Exit this event
-				exit;
-			}
-			
-			//Otherwise, stop sliding behaviour
-			else				
-				sliding = false;
-		}
-		
-		//Stop horizontal movement
-		xspeed = 0;
-			
-		//If Mario is not tiny, prevent him from getting embed on the wall
-		if (global.powerup != cs_tiny) {
-			
-			while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
-				x++;
-		}
-		else {
-			
-			while (collision_rectangle(bbox_left, bbox_top, bbox_left, bbox_bottom-5, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
-				x++;			
-		}
-	}
-	
-	//If moving upwards
-	if (yspeed < 0)
-	&& (collision_rectangle(bbox_left, bbox_top+yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0))
-	&& (!collision_point(x, y + 8, obj_mblock, 1, 0)) { 
-		
-		//Check for a block above
-		var block_u = collision_rectangle(bbox_left, bbox_top-2+yspeed/2, bbox_right, bbox_top, obj_blockparent, 0, 0);
-	
-		//Prevent the player from getting stuck on a ceiling when jumping/climbing
-		if (state > playerstate.walk) {
-			
-			while (collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, obj_solid, 1, 0))
-				y++;
-		}
-		
-		//Stop vertical movement
-		if ((flying) && (global.powerup == cs_cape)) {
-			
-			if (yspeed < 0) {
-				
-				memory_yspeed = yspeed;
-			}
-		}
-		yspeed = 0;
-		
-		//Bump block if there's one in position
-		if ((block_u) && (block_u.ready == 0)) {
-				
-			with (block_u) {
-						
-				//Set state to bumped
-				ready = 1;
-						
-				//Set horizontal speed
-				vspeed = -2;
-				alarm[0] = 4;
-						
-				//Create block specific events
-				event_user(0);
-			}
-		}
-		
-		//If the player does not have the frog/penguin powerups and it's not climbing
-		if ((state < 3)
-		&& !(flying && global.powerup == cs_cape)
-		&& (noisy == false)) {
-		
-			//Max out bee powerup flight timer
-			if (global.powerup == cs_bee) {
-			
-				beefly = 128;
-			}
-			
-			//Stop variable jump
-			jumping = 2;
+		//If the player has the shell powerup
+		if (global.mount == 0)
+		&& (global.powerup == cs_shell) {
 			
 			//Play 'Bump' sound
-			if (!audio_is_playing(snd_bump))
-				audio_play_sound(snd_bump, 0, false);
-		}
-	}
-	
-	//Prevent the player from overlappin' the ceiling
-	if (state > playerstate.walk)
-		while (collision_rectangle(bbox_left+1, bbox_top+1, bbox_right-1, bbox_top+1, obj_solid, 1, 0))
-		&& (!collision_point(x, y + 8, obj_solid, 1, 0))
-			y++;
-	
-	//If the player is not climbing
-	if (state != playerstate.climb) {
-	
-		//If the player controls are enabled and it's not jumping
-		if (state != playerstate.jump)
-		&& (sliding == false)
-		&& (groundpound == 0)
-		&& (enable_control == true) {
-		
-			//Make the player crouch down when the 'Down' key is held
-			if (input_check(input.down))
-			&& (global.powerup != cs_tiny)
-			&& (global.powerup != cs_frog)
-			&& (global.powerup != cs_mega)
-			&& (crouch == false)
-			&& (noisy == false)
-				crouch = true;
+			audio_play_sound(snd_bump, 0, false);
 				
-			//Otherwise, if the 'Down' key is no longer pressed
-			else if (!input_check(input.down))
-				crouch = false;
-		}
-		
-		// Handles powerup specific projectiles, tail spin, cat scratching, etc...
-		if (input_check_pressed(input.action_1))
-		&& (obj_levelcontrol.barrier == true)
-		&& (enable_control == true)
-			timer(throw_projectile, 1, false);			
-	}
-
-	//Otherwise, cancel crouch and spin jump
-    else {
-    
-        //Make the player get up
-        crouch = false;
-        
-        //Stop special jump
-        jumpstyle = 0;
-    }
-	
-    //Check for a nearby swimming surface
-    var water = collision_rectangle(bbox_left, y+swim_y-1, bbox_right, y+swim_y, obj_swim, 1, 0);
-    
-    //If the player is not swimming and makes contact with a water surface
-    if ((!swimming) && (water)) {
-        
-        //Make the player swim.
-        swimming = true;
-        swimtype = 0;
-		
-		// Make the player stop running so that the p-meter drains
-		run = false;
-        
-        //Make the player get up
-        crouch = false;
-        
-        //Stop most horizontal movement
-        xspeed = xspeed/2.5;
-                
-        //Stop vertical movement
-        yadd = 0;
-        if (yspeed > 0) {
-        
-            //Stop vertical movement
-            yspeed = 0;
-			
-			//Create a splash effect
-			if (water.object_index != obj_waterfall) 
-			&& (water.object_index != obj_hippo_bubble) {
+			//Reverse horizontal speed
+			xspeed = -xspeed;
 				
-				with (instance_create_depth(x, water.y-15, -4, obj_smoke))
-					sprite_index = spr_splash;
-			}
-        }
-    }
-    
-    //Otherwise, if the player had enough swimming and wants to get out
-    else if (swimming) 
-	&& (!water)
-	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
-    
-        //If there's not water above and there's not a solid on the way out
-        if (!collision_rectangle(bbox_left, y+swim_y, bbox_right, y+swim_y, obj_solid, 1, 0)) {
-        
-            //If the player is moving up
-            if ((state == playerstate.jump) && (yspeed < 0)) {
-            
-                //If 'Shift' is held
-                if (input_check(input.action_0)) {
-                
-                    //Switch between powerups
-					switch (global.powerup) {
-						
-						case (cs_tiny):
-							audio_play_sound(snd_jump_tiny, 0, false);
-							break;
-						
-						default: 
-							audio_play_sound(snd_jump, 0, false);
-							break;
-					}
-                    
-                    //Make the player not swim
-                    swimming = false;
-                    
-                    //Allow variable jump
-                    jumping = 1;
-                    
-                    //Create splash effect
-					if (!collision_rectangle(bbox_left-2, bbox_top, bbox_right+2, bbox_bottom, obj_waterfall, 0, 0)) {
-						
-						with (instance_create_depth(x, y+swim_y-15, -4, obj_smoke))
-							sprite_index = spr_splash;
-					}
-					
-					//If Mario is not tiny
-					if (global.powerup != cs_tiny)
-						yspeed = -3.4675+abs(xspeed)/7.5*-1;
-					else
-						yspeed = -2.7375+abs(xspeed)/7.5*-1;
-                }
-                
-                //Otherwise, if 'Shift' is not held.
-                else {
-                
-                    //If the player is moving up.
-                    if (yspeed < 0)
-                        yspeed = 0;
-                }
-            }
-        }
-    }
-	
-	//If the player gets stuck in a wall
-	if (yspeed == 0)
-	&& (crouch == false) 
-	&& (mask_index == spr_mask_mario_big) {
-	
-        //If the player gets stuck
-        if (collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_top+4, obj_solid, 1, 0))
-		&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_mblock, 1, 0))
-        && (inwall == 0) {
-        
-            //If the direction was not set
-            if (direct2 == 0) {
-            
-                //Set it up
-                direct2 = xscale;
-            }
-            
-            //Begin movement
-            inwall = 1;
-            
-            //Set the movement direction
-            direct = -direct2;
-        }
-        
-        //Otherwise, if the player gets stuck on a wall.
-        else if (inwall == 1) {
-            
-            //Move the player until it's not embed in a wall.
-            x += 1*sign(direct);       
-            
-            //If the player is not longer embed on a wall, make him able to move.
-            if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 1, 0)) {
-            
-                inwall = 0;
-                direct2 = 0;
-            }
-            
-            //If the player collides with a wall while being stuck
-            if ((direct == -1) && (collision_line(bbox_left, y+4, bbox_left, bbox_bottom-4, obj_solid, 1, 0)))
-            || ((direct == 1) && (collision_line(bbox_right, y+4, bbox_right, bbox_bottom-4, obj_solid, 1, 0)))
-                direct = -direct;
-        }		
-	}
-        
-    //Handle tail whip animation
-    if ((state == playerstate.jump) && (wiggle > 0))
-        wiggle--;
-    else
-        wiggle = 0;
-    
-    //If the player is not in contact with water.
-    if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 0, 0)) {
-    
-        //If the player is swimming.
-        if (swimming)  
-            swimming = false;
-    }
-    
-    //Prevent the player from going too high on the level
-    if (y < -96)
-        y = -96;
-        
-    //Otherwise, if he is falling.
-    else {
-    
-        //If the player is below the bottom room boundary and didn't activate a warp, restart the room.
-        if (bbox_top > room_height+32) {
-                    
-            if (!instance_exists(obj_pitwarp)) {
-            
-                instance_create_depth(x, y, depth, obj_mario_dead);
-                instance_destroy();
-                exit;  
-            }
-            
-            else {
+			//Create effect
+			instance_create_depth(x+5, y, depth - 1, obj_shellthump);
 				
-				//Temporary variable
-				var _dest = obj_pitwarp.destination;
-            
-				//Set exit type
-				global.postchange = 0;
-
-				//Set warp id
-				global.exit_id = obj_pitwarp.exit_id;
-
-				//If no curtain exists
-				if (instance_number(obj_fade_in) == 0) {
-	
-					with (instance_create_depth(0, 0, -100, obj_fade_in))
-						target = _dest;
+			//Bump block if there's one in position
+			if ((block_r) && (block_r.ready == 0)) {
+				
+				with (block_r) {
+						
+					//Set state to bumped
+					ready = 1;
+						
+					//Set horizontal speed
+					hspeed = 2;
+					alarm[0] = 4;
+						
+					//Create block specific events
+					event_user(0);
+					event_user(1);
 				}
-            }       
+			}
+				
+			//Exit this event
+			exit;
+		}
+			
+		//Otherwise, stop sliding behaviour
+		else				
+			sliding = false;
+	}
+		
+	//Stop horizontal movement
+	xspeed = 0;
+		
+	//If Mario is not tiny, prevent Mario from getting embed on the wall
+	if (global.powerup != cs_tiny) {
+			
+		while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
+		&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
+			x--;
+	}
+	else {
+			
+		while (collision_rectangle(bbox_right, bbox_top, bbox_right, bbox_bottom-5, obj_solid, 1, 0))
+		&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
+			x--;			
+	}
+}
+	
+//Otherwise, if moving left
+else if (xspeed < 0)
+&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0)))
+|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left, bbox_bottom-5, obj_solid, 1, 0)))) {
+		
+	//Check for a block
+	var block_l = collision_rectangle(bbox_left-1, y + 8, bbox_left, y + 8, obj_blockparent, 0, 0);
+	
+	//If Mario is sliding
+	if (sliding == true) {
+		
+		//If the player has the shell powerup
+		if (global.mount == 0)
+		&& (global.powerup == cs_shell) {
+			
+			//Play 'Bump' sound
+			audio_play_sound(snd_bump, 0, false);
+				
+			//Reverse horizontal speed
+			xspeed = -xspeed;
+				
+			//Create effect
+			instance_create_depth(x-5, y, depth - 1, obj_shellthump);
+				
+			//Bump block if there's one in position
+			if ((block_l) && (block_l.ready == 0)) {
+				
+				with (block_l) {
+						
+					//Set state to bumped
+					ready = 1;
+						
+					//Set horizontal speed
+					hspeed = -2;
+					alarm[0] = 4;
+						
+					//Create block specific events
+					event_user(0);
+					event_user(1);
+				}
+			}
+				
+			//Exit this event
+			exit;
+		}
+			
+		//Otherwise, stop sliding behaviour
+		else				
+			sliding = false;
+	}
+		
+	//Stop horizontal movement
+	xspeed = 0;
+			
+	//If Mario is not tiny, prevent him from getting embed on the wall
+	if (global.powerup != cs_tiny) {
+			
+		while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
+		&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
+			x++;
+	}
+	else {
+			
+		while (collision_rectangle(bbox_left, bbox_top, bbox_left, bbox_bottom-5, obj_solid, 1, 0))
+		&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
+			x++;			
+	}
+}
+	
+//If moving upwards
+if (yspeed < 0)
+&& (collision_rectangle(bbox_left, bbox_top+yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0))
+&& (!collision_point(x, y + 8, obj_mblock, 1, 0)) { 
+		
+	//Check for a block above
+	var block_u = collision_rectangle(bbox_left, bbox_top-2+yspeed/2, bbox_right, bbox_top, obj_blockparent, 0, 0);
+	
+	//Prevent the player from getting stuck on a ceiling when jumping/climbing
+	if (state > playerstate.walk) {
+			
+		while (collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, obj_solid, 1, 0))
+			y++;
+	}
+		
+	//Stop vertical movement
+	if ((flying) && (global.powerup == cs_cape)) {
+			
+		if (yspeed < 0) {
+				
+			memory_yspeed = yspeed;
+		}
+	}
+	yspeed = 0;
+		
+	//Bump block if there's one in position
+	if ((block_u) && (block_u.ready == 0)) {
+				
+		with (block_u) {
+						
+			//Set state to bumped
+			ready = 1;
+						
+			//Set horizontal speed
+			vspeed = -2;
+			alarm[0] = 4;
+						
+			//Create block specific events
+			event_user(0);
+		}
+	}
+		
+	//If the player does not have the frog/penguin powerups and it's not climbing
+	if ((state < 3)
+	&& !(flying && global.powerup == cs_cape)
+	&& (noisy == false)) {
+		
+		//Max out bee powerup flight timer
+		if (global.powerup == cs_bee) {
+			
+			beefly = 128;
+		}
+			
+		//Stop variable jump
+		jumping = 2;
+			
+		//Play 'Bump' sound
+		if (!audio_is_playing(snd_bump))
+			audio_play_sound(snd_bump, 0, false);
+	}
+}
+	
+//Prevent the player from overlappin' the ceiling
+if (state > playerstate.walk)
+	while (collision_rectangle(bbox_left+1, bbox_top+1, bbox_right-1, bbox_top+1, obj_solid, 1, 0))
+	&& (!collision_point(x, y + 8, obj_solid, 1, 0))
+		y++;
+	
+//If the player is not climbing
+if (state != playerstate.climb) {
+	
+	//If the player controls are enabled and it's not jumping
+	if (state != playerstate.jump)
+	&& (sliding == false)
+	&& (groundpound == 0)
+	&& (enable_control == true) {
+		
+		//Make the player crouch down when the 'Down' key is held
+		if (input_check(input.down))
+		&& (global.powerup != cs_tiny)
+		&& (global.powerup != cs_frog)
+		&& (global.powerup != cs_mega)
+		&& (crouch == false)
+		&& (noisy == false)
+			crouch = true;
+				
+		//Otherwise, if the 'Down' key is no longer pressed
+		else if (!input_check(input.down))
+			crouch = false;
+	}
+		
+	// Handles powerup specific projectiles, tail spin, cat scratching, etc...
+	if (input_check_pressed(input.action_1))
+	&& (obj_levelcontrol.barrier == true)
+	&& (enable_control == true)
+		timer(throw_projectile, 1, false);			
+}
+
+//Otherwise, cancel crouch and spin jump
+else {
+    
+    //Make the player get up
+    crouch = false;
+        
+    //Stop special jump
+    jumpstyle = 0;
+}
+	
+//Check for a nearby swimming surface
+var water = collision_rectangle(bbox_left, y+swim_y-1, bbox_right, y+swim_y, obj_swim, 1, 0);
+    
+//If the player is not swimming and makes contact with a water surface
+if ((!swimming) && (water)) {
+        
+    //Make the player swim.
+    swimming = true;
+    swimtype = 0;
+		
+	// Make the player stop running so that the p-meter drains
+	run = false;
+        
+    //Make the player get up
+    crouch = false;
+        
+    //Stop most horizontal movement
+    xspeed = xspeed/2.5;
+                
+    //Stop vertical movement
+    yadd = 0;
+    if (yspeed > 0) {
+        
+        //Stop vertical movement
+        yspeed = 0;
+			
+		//Create a splash effect
+		if (water.object_index != obj_waterfall) 
+		&& (water.object_index != obj_hippo_bubble) {
+				
+			with (instance_create_depth(x, water.y-15, -4, obj_smoke))
+				sprite_index = spr_splash;
+		}
+    }
+}
+    
+//Otherwise, if the player had enough swimming and wants to get out
+else if (swimming) 
+&& (!water)
+&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
+    
+    //If there's not water above and there's not a solid on the way out
+    if (!collision_rectangle(bbox_left, y+swim_y, bbox_right, y+swim_y, obj_solid, 1, 0)) {
+        
+        //If the player is moving up
+        if ((state == playerstate.jump) && (yspeed < 0)) {
+            
+            //If 'Shift' is held
+            if (input_check(input.action_0)) {
+                
+                //Switch between powerups
+				switch (global.powerup) {
+						
+					case (cs_tiny):
+						audio_play_sound(snd_jump_tiny, 0, false);
+						break;
+						
+					default: 
+						audio_play_sound(snd_jump, 0, false);
+						break;
+				}
+                    
+                //Make the player not swim
+                swimming = false;
+                    
+                //Allow variable jump
+                jumping = 1;
+                    
+                //Create splash effect
+				if (!collision_rectangle(bbox_left-2, bbox_top, bbox_right+2, bbox_bottom, obj_waterfall, 0, 0)) {
+						
+					with (instance_create_depth(x, y+swim_y-15, -4, obj_smoke))
+						sprite_index = spr_splash;
+				}
+					
+				//If Mario is not tiny
+				if (global.powerup != cs_tiny)
+					yspeed = -3.4675+abs(xspeed)/7.5*-1;
+				else
+					yspeed = -2.7375+abs(xspeed)/7.5*-1;
+            }
+                
+            //Otherwise, if 'Shift' is not held.
+            else {
+                
+                //If the player is moving up.
+                if (yspeed < 0)
+                    yspeed = 0;
+            }
         }
+    }
+}
+	
+//If the player gets stuck in a wall
+if (yspeed == 0)
+&& (crouch == false) 
+&& (mask_index == spr_mask_mario_big) {
+	
+    //If the player gets stuck
+    if (collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_top+4, obj_solid, 1, 0))
+	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_mblock, 1, 0))
+    && (inwall == 0) {
+        
+        //If the direction was not set
+        if (direct2 == 0) {
+            
+            //Set it up
+            direct2 = xscale;
+        }
+            
+        //Begin movement
+        inwall = 1;
+            
+        //Set the movement direction
+        direct = -direct2;
+    }
+        
+    //Otherwise, if the player gets stuck on a wall.
+    else if (inwall == 1) {
+            
+        //Move the player until it's not embed in a wall.
+        x += 1*sign(direct);       
+            
+        //If the player is not longer embed on a wall, make him able to move.
+        if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 1, 0)) {
+            
+            inwall = 0;
+            direct2 = 0;
+        }
+            
+        //If the player collides with a wall while being stuck
+        if ((direct == -1) && (collision_line(bbox_left, y+4, bbox_left, bbox_bottom-4, obj_solid, 1, 0)))
+        || ((direct == 1) && (collision_line(bbox_right, y+4, bbox_right, bbox_bottom-4, obj_solid, 1, 0)))
+            direct = -direct;
+    }		
+}
+        
+//Handle tail whip animation
+if ((state == playerstate.jump) && (wiggle > 0))
+    wiggle--;
+else
+    wiggle = 0;
+    
+//If the player is not in contact with water.
+if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 0, 0)) {
+    
+    //If the player is swimming.
+    if (swimming)  
+        swimming = false;
+}
+    
+//Prevent the player from going too high on the level
+if (y < -96)
+    y = -96;
+        
+//Otherwise, if he is falling.
+else {
+    
+    //If the player is below the bottom room boundary and didn't activate a warp, restart the room.
+    if (bbox_top > room_height+32) {
+                    
+        if (!instance_exists(obj_pitwarp)) {
+            
+            instance_create_depth(x, y, depth, obj_mario_dead);
+            instance_destroy();
+            exit;  
+        }
+            
+        else {
+				
+			//Temporary variable
+			var _dest = obj_pitwarp.destination;
+            
+			//Set exit type
+			global.postchange = 0;
+
+			//Set warp id
+			global.exit_id = obj_pitwarp.exit_id;
+
+			//If no curtain exists
+			if (instance_number(obj_fade_in) == 0) {
+	
+				with (instance_create_depth(0, 0, -100, obj_fade_in))
+					target = _dest;
+			}
+        }       
     }
 }
