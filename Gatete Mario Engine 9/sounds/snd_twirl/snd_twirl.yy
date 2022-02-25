@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.25,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_split.wav",
-  "duration": 1.071844,
+  "soundFile": "snd_twirl.wav",
+  "duration": 0.209375,
   "parent": {
-    "name": "Item",
-    "path": "folders/Sounds/Item.yy",
+    "name": "Action",
+    "path": "folders/Sounds/Action.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_split",
+  "name": "snd_twirl",
   "tags": [],
   "resourceType": "GMSound",
 }

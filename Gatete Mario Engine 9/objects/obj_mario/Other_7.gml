@@ -11,6 +11,17 @@ if (sprite_index == spr_mario_frog_walk) {
         xspeed = 0;
 }
 
+//Otherwise, if Mario is doing a twirl
+else if ((sprite_index == global.spin_sprite[global.powerup]) && (twirl == 1)) {
+
+	//Enable gravity
+	enable_gravity = 1;
+
+	//End twirl and allow twirling again after one quarter of a second
+	twirl = 2;
+	timer(allow_twirl_f, 15, false);
+}
+
 //Otherwise, if Mario is floating with the either the carrot or bee powerup.
 else if ((sprite_index == spr_mario_carrot_jump)
 || (sprite_index == spr_mario_bee_jump))

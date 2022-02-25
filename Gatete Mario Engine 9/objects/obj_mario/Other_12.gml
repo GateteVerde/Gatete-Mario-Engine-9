@@ -626,7 +626,7 @@ if (state != playerstate.jump) {
 }
 
 //If the player is jumping
-if (((state == playerstate.jump) || (statedelay > 0)) && (groundpound != 1)) {
+if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (groundpound != 1)) {
 	
 	//Switch between powerups
 	switch (global.powerup) {
@@ -1158,3 +1158,53 @@ if (global.powerup == cs_squirrel)
     else if (yspeed > 2)
         yspeed = 2;
 }
+
+#region ALLOW TWIRL
+	
+	//If Mario does have any of these powerups, exclude him from doing a twirl
+	if (global.powerup == cs_carrot)
+	&& (global.powerup == cs_cape)
+	&& (global.powerup == cs_raccoon)
+	&& (global.powerup == cs_frog)
+	&& (global.powerup == cs_tanooki)
+	&& (global.powerup == cs_bee)
+	&& (global.powerup == cs_fraccoon)
+	&& (global.powerup == cs_iraccoon)
+	&& (global.powerup == cs_mega)
+		allow_twirl = 0;
+	else
+		allow_twirl = 1;
+	
+#endregion
+
+//If Mario is in the air, the jump key is pressed and Mario can twirl in the air, perform twirl
+if (input_check_pressed(input.action_0))
+&& (allow_twirl)
+&& (twirl == 0)
+&& (yspeed > 0)
+&& (holding == 0)
+&& (jumpstyle == 0)
+&& (groundpound == 0)
+&& (state == playerstate.jump) {
+
+	//Play 'Twirl sound
+	audio_play_sound(snd_twirl, 0, false);
+	
+	//Ensure the full animation plays
+	image_index = 0;
+	
+	//Force end triple jump
+	triplejump = 0;
+
+	//Twirl
+	twirl = 1;
+	
+	//Disable gravity
+	enable_gravity = 0;
+	yspeed = 0;
+	yadd = 0;
+}
+
+//Increase vertical speed while twirling
+if (twirl == 1)
+	yspeed -= 0.5;

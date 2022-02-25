@@ -3,6 +3,14 @@
 //If the enemy is vulnerable
 if (other.vulnerable < 2) {
 	
+	//If the enemy has a width and a height of over 48 pixels, do not freeze
+	if (sprite_width > 48)
+	&& (sprite_height > 48) {
+	
+		event_user(0);
+		exit;
+	}
+	
 	//Play 'Freeze' sound
 	audio_play_sound(snd_freeze, 0, false);
 	

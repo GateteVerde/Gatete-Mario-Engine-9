@@ -186,6 +186,9 @@ somersault = 0;
 //Groundpound
 groundpound = 0;
 
+//Twirl
+twirl = 0;
+
 //Prevents the player from moving if stunned
 stuntime = 0;
 

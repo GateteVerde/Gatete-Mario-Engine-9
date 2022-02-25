@@ -36,6 +36,12 @@ allow_climb = function() {
 	canturn = 0;
 }
 
+//Allow twirling
+allow_twirl_f = function() {
+
+	twirl = 0;
+}
+
 //End kicking
 kicking_end = function() {
 

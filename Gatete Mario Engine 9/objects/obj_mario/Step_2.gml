@@ -283,6 +283,16 @@ else {
 									sprite_index = global.slide_sprite[global.powerup];
 							}
 							
+							//Otherwise, if Mario is doing a twirl
+							else if (twirl == 1) {
+							
+								//Set the spinning sprite
+	                            sprite_index = global.spin_sprite[global.powerup];
+                                    
+	                            //Animate it
+	                            image_speed = 0.4;
+							}
+							
 							//Otherwise, if the player is doing the second jump
 							else if ((triplejump == 2) && (somersault == 0)) {
 								

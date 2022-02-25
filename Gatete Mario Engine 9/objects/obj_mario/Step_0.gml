@@ -59,6 +59,7 @@
 		|| (global.powerup == cs_mega)
 		|| (instance_number(obj_statue) > 0)
 		|| (instance_number(obj_spinner) > 0)
+		|| (twirl > 0)
 		|| (holding > 0) 
 		|| (groundpound == 2) {
 		
