@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_goomba",
-    "path": "sprites/spr_goomba/spr_goomba.yy",
+    "name": "spr_goomba_red",
+    "path": "sprites/spr_goomba_red/spr_goomba_red.yy",
   },
   "solid": false,
   "visible": true,
@@ -11,8 +11,8 @@
   },
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemyparent_deact",
-    "path": "objects/obj_enemyparent_deact/obj_enemyparent_deact.yy",
+    "name": "obj_goomba",
+    "path": "objects/obj_goomba/obj_goomba.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,7 +28,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -37,7 +41,7 @@
     "path": "folders/Objects/Enemies/Land/Goombas.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_goomba",
+  "name": "obj_paragoomba_red",
   "tags": [],
   "resourceType": "GMObject",
 }

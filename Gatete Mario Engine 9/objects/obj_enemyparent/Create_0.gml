@@ -42,3 +42,6 @@ firehp = 0;
 
 //Makes the NPCs invulnerable to projectiles after being hit by one
 invulnerable = 0;
+
+//Freeze sprite (Used mainly for enemies that require extra parts to be drawn)
+freeze_sprite = -1;

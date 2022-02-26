@@ -18,7 +18,14 @@ if (other.vulnerable < 2) {
 	frozen = instance_create_depth(other.x, other.y, -2, obj_enemy_frozen);
 	
 	//Hereby sprite
-	frozen.sprite_index = other.sprite_index;
+	#region SPRITE
+	
+		if (other.freeze_sprite != -1)
+			frozen.sprite_index = other.freeze_sprite;
+		else
+			frozen.sprite_index = other.sprite_index;
+	
+	#endregion
 	
 	//Hereby frame
 	frozen.image_index = other.image_index;
