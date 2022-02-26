@@ -1,9 +1,12 @@
 /// @description Lightning volt logic
 
 //Handle psuedo movement
-x += xspeed;
-y += yspeed;
-yspeed += yadd;
+if (freeze == false) {
+	
+	x += xspeed;
+	y += yspeed;
+	yspeed += yadd;
+}
 
 //No swimming
 swimming = false;
@@ -18,8 +21,8 @@ yadd = 0;
 	var wall_r = collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom, obj_solid, 1, 0);
 
 	//If moving horizontally
-	if ((xspeed < 0) && ((wall_l) && (wall_l.object_index == obj_solid)))
-	|| ((xspeed > 0) && ((wall_r) && (wall_r.object_index == obj_solid)))
+	if ((xspeed < 0) && ((wall_l) && (wall_l.object_index != obj_slopeparent_ceiling)))
+	|| ((xspeed > 0) && ((wall_r) && (wall_r.object_index != obj_slopeparent_ceiling)))
 		event_user(0);
 #endregion
 

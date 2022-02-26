@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
+    "name": "obj_slopeparent_ceiling",
+    "path": "objects/obj_slopeparent_ceiling/obj_slopeparent_ceiling.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
