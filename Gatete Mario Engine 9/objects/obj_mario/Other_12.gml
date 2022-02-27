@@ -1183,6 +1183,7 @@ if (input_check_pressed(input.action_0))
 && (twirl == 0)
 && (yspeed > 0)
 && (holding == 0)
+&& (wallkick == 0)
 && (jumpstyle == 0)
 && (groundpound == 0)
 && (state == playerstate.jump) {

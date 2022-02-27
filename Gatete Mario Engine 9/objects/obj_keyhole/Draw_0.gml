@@ -5,26 +5,32 @@ if (ready < 2)
     draw_sprite(spr_keyhole, 0, x, y);
     
 //Otherwise, if the animation has started
-if (ready != 0) {
+if (ready > 0) && (ready < 4) {
 	
 	//Draw the animation
     draw_sprite_ext(spr_keyhole_anim, 0, x+8, y+16, scale, scale, 0, c_white, 1);
+	
+	//If the keyhole has grown to it's full size
+	if (ready == 3) {
+		
+		if (surface_exists(clip_surface))
+            draw_surface(clip_surface, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]));
+	}
+	
+	//Otherwise, draw sprites normally
+	else {
     
-    //If the player was riding a yoshi
-    if (global.mount == 1) {
-
-		//Draw the player and the key during the animation
-        if (ready == 1)
-        || (ready == 2) {
+	    //If the player was riding a yoshi
+	    if (global.mount == 1) {
         
-	        //Set palette
-	        pal_swap_set(spr_palette_yoshi, global.mountcolour);
+		    //Set palette
+		    pal_swap_set(spr_palette_yoshi, global.mountcolour);
             
-	        //Draw Yoshi
-	        draw_sprite_ext(ms, mi, mx, my, md, 1, 0, c_white, obj_goalgate_fade);
+		    //Draw Yoshi
+		    draw_sprite_ext(ms, mi, mx, my, md, 1, 0, c_white, 1);
             
-	        //Reset shader
-	        pal_swap_reset();
+		    //Reset shader
+		    pal_swap_reset();
 			
 			#region MARIO
 			
@@ -32,44 +38,39 @@ if (ready != 0) {
 				pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
             
 				//Draw Mario
-		        draw_sprite_ext(global.ride_sprite[global.powerup], 0, mx, my, md, 1, 0, c_white, fade);
+			    draw_sprite_ext(global.ride_sprite[global.powerup], 0, mx, my, md, 1, 0, c_white, 1);
             
 				//Draw the cape
 				if (global.powerup == cs_cape) {
 					
-					draw_sprite_ext(spr_cape, 1, mx-(3*sign(md)), my-7, md, 1, 0, c_white, fade);
+					draw_sprite_ext(spr_cape, 1, mx-(3*sign(md)), my-7, md, 1, 0, c_white, 1);
 				}
 			
 				//Reset palette
 				pal_swap_reset();
 			
 			#endregion
-		}
-    } 
+	    } 
     
-    //Otherwise, draw the player normally
-    else {
-        
-        //Draw the player and the key during the animation
-        if (ready == 1)
-        || (ready == 2) {
+	    //Otherwise, draw the player normally
+	    else {
 			
 			//Draw the cape
 			if (global.powerup == cs_cape) {
 			
-				draw_sprite_ext(spr_cape, 0, mx, my, md, 1, 0, c_white, fade);
+				draw_sprite_ext(spr_cape, 0, mx, my, md, 1, 0, c_white, 1);
 			}
         
-            draw_sprite_ext(spr_key, 0, kx+8-10, ky, kd, 1, 0, c_white, fade);
+	        draw_sprite_ext(spr_key, 0, kx, ky, kd, 1, 0, c_white, 1);
 			
 			//Set palette
 			pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
 			
 			//Draw Mario
-            draw_sprite_ext(ms, mi, mx, my, md, 1, 0, c_white, fade);
+	        draw_sprite_ext(ms, mi, mx, my, md, 1, 0, c_white, 1);
 			
 			//Reset palette
-			pal_swap_reset();
-        }        
-    }
+			pal_swap_reset();   
+	    }
+	}
 }

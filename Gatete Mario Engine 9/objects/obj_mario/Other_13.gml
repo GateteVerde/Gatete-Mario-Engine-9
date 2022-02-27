@@ -32,7 +32,7 @@ if (yspeed > 0)
         
         //If the player hugs a wall at the right
 		if ((global.powerup == cs_tiny) && ((wall_r) || ((wall_rb) && (wall_rb.issolid = true))))
-        || (((wall_r) && (wall_r.image_yscale > 1)) || ((wall_rb) && (wall_rb.image_yscale > 1) && (wall_rb.issolid = true))) {
+        || ((wall_r) || ((wall_rb) && (wall_rb.issolid = true))) {
 			
 			//Stop squirrel propel
 			if (squirrelpropel == 1)
@@ -65,7 +65,7 @@ if (yspeed > 0)
     
         //If the player hugs a wall at the left
 		if ((global.powerup == cs_tiny) && ((wall_l) || ((wall_lb) && (wall_lb.issolid = true))))
-        || (((wall_l) && (wall_l.image_yscale > 1)) || ((wall_lb) && (wall_lb.image_yscale > 1) && (wall_lb.issolid = true))) {
+        || ((wall_l) || ((wall_lb) && (wall_lb.issolid = true))) {
 			
 			//Stop squirrel propel
 			if (squirrelpropel == 1)

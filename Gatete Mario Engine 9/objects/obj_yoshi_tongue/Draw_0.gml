@@ -3,7 +3,7 @@
 //Draw eaten item
 if (hunger) {
 
-    draw_sprite(foodsprite, foodindex, screen_round(x + 3 + 3 * obj_mario.xscale - foodoffset), screen_round(y) - 4)
+    draw_sprite(foodsprite, foodindex, screen_round(x + 3 + 3 * obj_mario.xscale - foodoffset), screen_round(y) - 4);
 }
 
 //Draw tongue parts

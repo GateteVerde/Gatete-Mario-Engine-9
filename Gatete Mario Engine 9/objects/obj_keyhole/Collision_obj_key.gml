@@ -10,7 +10,7 @@ if (ready == 0)
 
     //Save the state of the key
     kx = round(other.x);
-    ky = round(other.y);
+    ky = round(other.y)+1;
     kd = other.dir;
 
     //Delete the key
@@ -23,7 +23,7 @@ if (ready == 0)
         other.mx = x;
         
         //Y Position
-        other.my = y;
+        other.my = y+1;
         
         //Sprite
         other.ms = sprite_index;
@@ -39,5 +39,5 @@ if (ready == 0)
     }
 
     //Return to the world map after the animation
-    alarm[0] = 120;
+    alarm[0] = 130;
 }

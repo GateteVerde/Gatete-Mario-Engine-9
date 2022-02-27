@@ -14,3 +14,7 @@ depth = 9;
 
 //Flashing
 isflashing = 0;
+
+//Surfaces
+mask_surface = -1
+clip_surface = -1

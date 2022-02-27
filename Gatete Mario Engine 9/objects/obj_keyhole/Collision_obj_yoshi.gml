@@ -23,7 +23,7 @@ if (ready == 0)
         other.mx = x;
         
         //Y Position
-        other.my = y;
+        other.my = y+1;
         
         //Sprite
         other.ms = sprite_index;

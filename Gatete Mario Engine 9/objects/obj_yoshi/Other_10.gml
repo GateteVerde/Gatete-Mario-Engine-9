@@ -30,10 +30,24 @@ if (obj_mario.crouch)
         //Make yoshi fire
         instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_yoshi_fire);
         with (instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_yoshi_fire)) 
-            vspeed = 1;
+            yspeed = 1;
         with (instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_yoshi_fire)) 
-            vspeed = -1;         
+            yspeed = -1;         
     }
+	
+	//Otherwise, if there's ice inside yoshi's mouth
+	else if (mouthholder == obj_yoshi_ice) {
+	
+		//Play 'Magic' sound
+		audio_play_sound(snd_magic, 0, false);
+		
+		//Make yoshi fire ice
+        instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_yoshi_ice);
+        with (instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_yoshi_ice)) 
+            yspeed = 1;
+        with (instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_yoshi_ice)) 
+            yspeed = -1;    
+	}
     
     //Otherwise, spit a item
     else {
@@ -89,10 +103,24 @@ else {
         //Make yoshi fire
         instance_create_depth(x+(10*obj_mario.xscale), y-16, -2, obj_yoshi_fire);
         with (instance_create_depth(x+(10*obj_mario.xscale), y-16, -2, obj_yoshi_fire)) 
-            vspeed = 1;
+            yspeed = 1;
         with (instance_create_depth(x+(10*obj_mario.xscale), y-16, -2, obj_yoshi_fire)) 
-            vspeed = -1;         
+            yspeed = -1;         
     }
+	
+	//Otherwise, if there's ice inside yoshi's mouth
+	else if (mouthholder == obj_yoshi_ice) {
+	
+		//Play 'Magic' sound
+		audio_play_sound(snd_magic, 0, false);
+		
+		//Make yoshi fire ice
+        instance_create_depth(x+(10*obj_mario.xscale), y-16, -2, obj_yoshi_ice);
+        with (instance_create_depth(x+(10*obj_mario.xscale), y-16, -2, obj_yoshi_ice)) 
+            yspeed = 1;
+        with (instance_create_depth(x+(10*obj_mario.xscale), y-16, -2, obj_yoshi_ice)) 
+            yspeed = -1;    
+	}
     
     //Otherwise, if there's a turnip inside yoshi's mouth
     else if (mouthholder == obj_turnip) {
@@ -154,24 +182,6 @@ else {
             }
             
 			/*
-            //Otherwise, if the eaten item is a ice block
-            else if (sprite_index == spr_iceblock) {
-            
-                //Set the horizontal speed
-                hspeed = 2.7*obj_mario.xscale;
-                
-                //Get thrown
-                ready = 1;
-                
-                //Do not destroy
-                alarm[0] = -1;
-                alarm[1] = -1;
-                
-                //If the object is in contact with a solid.
-                if (place_meeting(x,y,obj_solid))
-                    event_user(0);
-            }
-            
             //Otherwise if the eaten item is a shell
             else if (sprite_index == spr_shell_down) 
             || (sprite_index == spr_shell_blue_down) 
@@ -185,7 +195,7 @@ else {
                 ready = 1;
                 
                 //If the object is in contact with a solid.
-                if (place_meeting(x,y,obj_solid))
+                if (place_meeting(x, y, obj_solid))
                     event_user(0);            
             }
 			*/
