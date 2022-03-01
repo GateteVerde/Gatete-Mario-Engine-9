@@ -88,6 +88,27 @@
 	
 #endregion
 
+#region CHECK FOR FAKE TILES
+
+	//Check if 
+	if (variable_global_exists("fakeTileAlpha")) {
+
+		//Temporary variables
+		var _fakeTile = 0;
+
+		//Get tilemap
+		_fakeTile += tilemap_get_at_pixel(global.mapFake, x, y);
+	
+		//Set alpha
+		var _targetAlpha = 1;
+		if (_fakeTile > 0) {
+		
+			_targetAlpha = 0.25;
+		}
+		global.fakeTileAlpha = lerp(global.fakeTileAlpha, _targetAlpha, 0.1);
+	}
+#endregion
+
 #region CHECK IF IN AIR
 	
 	if (state == 2)

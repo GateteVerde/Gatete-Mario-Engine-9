@@ -1163,14 +1163,14 @@ if (global.powerup == cs_squirrel)
 	
 	//If Mario does have any of these powerups, exclude him from doing a twirl
 	if (global.powerup == cs_carrot)
-	&& (global.powerup == cs_cape)
-	&& (global.powerup == cs_raccoon)
-	&& (global.powerup == cs_frog)
-	&& (global.powerup == cs_tanooki)
-	&& (global.powerup == cs_bee)
-	&& (global.powerup == cs_fraccoon)
-	&& (global.powerup == cs_iraccoon)
-	&& (global.powerup == cs_mega)
+	|| (global.powerup == cs_cape)
+	|| (global.powerup == cs_raccoon)
+	|| (global.powerup == cs_frog)
+	|| (global.powerup == cs_tanooki)
+	|| (global.powerup == cs_bee)
+	|| (global.powerup == cs_fraccoon)
+	|| (global.powerup == cs_iraccoon)
+	|| (global.powerup == cs_mega)
 		allow_twirl = 0;
 	else
 		allow_twirl = 1;

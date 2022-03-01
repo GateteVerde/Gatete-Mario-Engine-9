@@ -13,7 +13,7 @@ if (hunger == 0)
     
     //Otherwise, create item
     else if (other.edible == 1)
-        with (other) event_user(7);
+        with (other) event_user(4);
         
     //Otherwise, eat it
     else {

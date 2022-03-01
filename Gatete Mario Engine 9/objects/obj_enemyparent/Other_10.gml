@@ -14,7 +14,7 @@ imdead.image_xscale = xscale;
 
 //Hereby ID horizontal speed
 if (killer_id != -1) {
-	
+
 	//If the "xspeed" variable exists
 	if (variable_instance_exists(killer_id, "xspeed")) {
 	
@@ -38,16 +38,18 @@ if (killer_id != -1) {
 			//Otherwise
 			else {
 			
-				//If the killer id is the mega mushroom
-				if (killer_id.object_index != obj_megashroom_timer) {
-		
+				//If the killer id is not the mega mushroom
+				if (killer_id.object_index == obj_megashroom_timer)
+					imdead.hspeed = obj_megashroom_timer.xspeed * 2;
+
+				//Otherwise
+				else {
+					
 					if (killer_id.xspeed > 0)
 						imdead.hspeed = 1;
-					else
+					else if (killer_id.xspeed < 0)
 						imdead.hspeed = -1;
 				}
-				else
-					imdead.hspeed = killer_id.xspeed * 2;
 			}
 		}
 	}
