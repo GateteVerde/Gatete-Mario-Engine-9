@@ -28,6 +28,7 @@ if (other.vulnerable < 2) {
 	
 	//Hereby object
 	frozen.ret = (other.freeze_object != -1) ? other.freeze_object : other.object_index;
+	frozen.ret_spr = (other.freeze_sprite != -1) ? other.freeze_sprite : other.sprite_index;
 	
 	//Destroy
 	with (other) instance_destroy();

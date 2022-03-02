@@ -8,6 +8,7 @@ image_speed = 0;
 
 //Object to retrieve
 ret = -1;
+ret_spr = -1;
 
 //Whether the object is being held
 held = 0;

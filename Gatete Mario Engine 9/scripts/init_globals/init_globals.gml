@@ -103,6 +103,9 @@ function init_globals() {
 	//2: Jump
 	//3: Climb
 	global.postchange = -1;
+	
+	//Wakes all enemies
+	global.whistle = 0;
 
 	//Mount
 	//0: No mount

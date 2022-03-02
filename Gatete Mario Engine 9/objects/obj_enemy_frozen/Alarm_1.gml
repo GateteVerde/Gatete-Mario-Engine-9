@@ -11,7 +11,12 @@ repeat (32) {
 }
 
 //Create enemy
-if (ret != -1) then instance_create_layer(x, y, "Main", ret);
+if (ret != -1) {
+	
+	unfreeze = instance_create_layer(x, y, "Main", ret);
+	if (ret_spr != -1)
+		with (unfreeze) sprite_index = other.ret_spr;
+}
 
 //Destroy
 instance_destroy();

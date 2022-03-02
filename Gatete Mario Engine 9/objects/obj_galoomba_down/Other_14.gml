@@ -3,6 +3,9 @@
 //Create held object
 imheld = instance_create_depth(x, y-2, -2, obj_galoomba_down);
 
+//Make the held object hereby the sprite
+imheld.sprite_index = sprite_index;
+
 //Make the held object hereby the scale
 imheld.dir = xscale;
 
