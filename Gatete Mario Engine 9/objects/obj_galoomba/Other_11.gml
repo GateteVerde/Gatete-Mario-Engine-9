@@ -1,7 +1,7 @@
-/// @description Turn into a stunned galoomba
+/// @description Turn into a regular galoomba
 
 with (instance_create_depth(x, y, -2, obj_galoomba_down)) {
 
-	dir = other.xscale;
+	dir = 1 * sign(other.xspeed);
 }
 instance_destroy();

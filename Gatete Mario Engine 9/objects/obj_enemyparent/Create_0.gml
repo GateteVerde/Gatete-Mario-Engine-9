@@ -45,3 +45,6 @@ invulnerable = 0;
 
 //Freeze sprite (Used mainly for enemies that require extra parts to be drawn)
 freeze_sprite = -1;
+
+//Freeze object (Used mainly for enemies that have many variants)
+freeze_object = -1;

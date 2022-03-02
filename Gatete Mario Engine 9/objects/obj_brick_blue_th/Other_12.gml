@@ -10,7 +10,7 @@ if (place_meeting(x, y, obj_solid)) {
     audio_play_sound(snd_kick, 0, false);
     
     //Get 100 points
-    with (instance_create_depth((bbox_left+bbox_right)/2-8, y, -6, obj_score)) value = 100;
+    with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score)) value = 100;
 	
 	//Force end kicking on Mario
 	if (instance_exists(obj_mario)) {
