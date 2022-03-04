@@ -43,8 +43,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Koopas",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Land/Koopas.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_shell_kicked",
