@@ -12,17 +12,19 @@ else {
 	
 	//If there's a koopa inside
 	if (koopainside == 1) {
-
-		/*
 		
 		//Check the sprite
 		switch (sprite_index) {
+			
+			//Red Koopa
+			case (spr_shell_red): {
+				
+				instance_create_depth(x, y, -2, obj_beachkoopa_red);
+			} break;
 	
 			//Default (Green Shell)
 			default: instance_create_depth(x, y, -2, obj_beachkoopa); break;
 		}
-		
-		*/
 		
 		//Get out of the shell
 		koopainside = 0;

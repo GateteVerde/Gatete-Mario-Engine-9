@@ -2,6 +2,7 @@
 
 //If the shell is being held, inherit default event
 if (other.held == 1)
+|| (other.yadd != 0)
     with (other) event_inherited();
     
 //Otherwise
@@ -24,5 +25,20 @@ else {
             //Destroy this object
             instance_destroy();
         }
+		
+		//Otherwise, if the shell is a red one, become a red koopa
+		else if (other.sprite_index == spr_shell_red) {
+		
+        
+            //With the shell
+            with (other) {
+            
+                instance_create_depth(x, y, -2, obj_koopa_red);
+                instance_destroy();
+            }
+            
+            //Destroy this object
+            instance_destroy();			
+		}
     }
 }

@@ -4,7 +4,7 @@
 imheld = instance_create_depth(x, y-2, -2, obj_shell);
 
 //Make the held object hereby the sprite
-imheld.sprite_index = sprite_index;
+imheld.sprite_index = spr_shell_red;
 
 //Make the held object hereby the scale
 imheld.dir = xscale;
@@ -13,7 +13,7 @@ imheld.dir = xscale;
 imheld.flip = 1;
 
 //Hold or not hold a koopa inside
-imheld.koopainside = koopainside;
+imheld.koopainside = 1;
 
 //Set the motion of the flip object
 #region Horizontal / Vertical speed

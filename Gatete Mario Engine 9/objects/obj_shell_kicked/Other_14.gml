@@ -10,10 +10,10 @@ imheld.sprite_index = sprite_index;
 imheld.dir = xscale;
 
 //Flip it
-imdead.flip = 1;
+imheld.flip = 1;
 
 //Hold or not hold a koopa inside
-imdead.koopainside = koopainside;
+imheld.koopainside = koopainside;
 
 //Set the motion of the flip object
 #region Horizontal / Vertical speed

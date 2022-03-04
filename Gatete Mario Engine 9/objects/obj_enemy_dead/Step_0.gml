@@ -1,20 +1,11 @@
 /// @description Dead enemy logic
 
-#region ANGLE
-
-	//If not moving horizontally, turn the sprite upside down
-	if (hspeed == 0)
-		angle = 180;
-
-	//Otherwise
-	else {
-
-		angle += -10*sign(hspeed);
-		if (abs(angle) > 360)
-			angle = 0;
-	}
-
-#endregion
+//Set up angle
+angle += -10*sign(hspeed);
+if (abs(angle) > 360) {
+		
+	angle = 0;
+}
 
 //Quicksand collision
 var qs = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0);
