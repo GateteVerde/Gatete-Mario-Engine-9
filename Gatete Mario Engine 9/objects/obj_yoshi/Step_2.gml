@@ -156,8 +156,7 @@
 	    }
     
 	    //Manage Yoshi state
-	    if (mouthholder)
-	        event_user(3);
+	    event_user(3);
     
 	    //Mask
 	    obj_mario.mask_index = spr_mask_mario_big;
@@ -185,7 +184,6 @@
 	//Otherwise, if Mario does not exist.
 	else {
 
-		/*
 	    //Do not hold anything if Mario cleared a level
 	    if (instance_exists(obj_mario_clear)) {
     
@@ -195,7 +193,6 @@
 	            mouthsprite = noone;
 	        }
 	    }
-		*/
 
 	    //Find a suitable player
 	    follow_which_mario();

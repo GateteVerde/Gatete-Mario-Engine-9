@@ -12,6 +12,9 @@ hitcombo = 0;
 //Check
 check = 0;
 
+//Whether the shell is flipped
+flip = 0;
+
 //Whether there's a koopa inside this shell
 koopainside = 0;
 

@@ -7,17 +7,6 @@ audio_play_sound(snd_yoshi_spit, 0, false);
 if (obj_mario.crouch) 
 || (obj_mario.sliding) {
 
-	/*
-    //If the item held is a koopa shell, turn into a kicked koopa shell
-    if (mouthholder == obj_shell) {
-    
-        if (colour == 1)
-        || (mouthsprite == spr_koopa_black)
-        || (mouthsprite == spr_shell_red_down)
-            mouthholder = obj_yoshi_fire;
-    }
-	*/
-
     //Lock it
     locked = 2;
     
@@ -51,6 +40,10 @@ if (obj_mario.crouch)
     
     //Otherwise, spit a item
     else {
+		
+		//If Yoshi has a shell inside, turn it into a non-kicked shell before spitting
+		if (mouthholder == obj_shell_kicked)
+			mouthholder = obj_shell;
 
         //Create up an item
         with (instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, mouthholder)) {
@@ -77,19 +70,6 @@ if (obj_mario.crouch)
     }
 }
 else {
-
-	/*
-    //If the item held is a koopa shell, turn into a kicked koopa shell
-    if (mouthholder == obj_shell) {
-    
-        if (colour == 1)
-        || (mouthsprite == spr_koopa_black)
-        || (mouthsprite == spr_shell_red_down)
-            mouthholder = obj_yoshi_fire;
-        else
-            mouthholder = obj_shell_kick;
-    }
-	*/
 
     //Lock it
     locked = 1;
@@ -181,53 +161,72 @@ else {
                     event_user(0);
             }
             
-			/*
             //Otherwise if the eaten item is a shell
-            else if (sprite_index == spr_shell_down) 
-            || (sprite_index == spr_shell_blue_down) 
-            || (sprite_index == spr_shell_yellow_down) {
+            else if (sprite_index == spr_shell)
+			|| (sprite_index == spr_shell_blue)
+			|| (sprite_index == spr_shell_yellow)
+			|| (sprite_index == spr_shell_classic) {
                             
                 //Set the horizontal speed
-                prevhspeed = 2.7*obj_mario.xscale;
+                prevxspeed = 2.7*obj_mario.xscale;
                 xspeed = 2.7*obj_mario.xscale;
                 
-                //Get thrown
-                ready = 1;
-                
                 //If the object is in contact with a solid.
-                if (place_meeting(x, y, obj_solid))
-                    event_user(0);            
+                if (place_meeting(x, y, obj_solid)) {
+				
+					killer_id = -1;
+                    event_user(0);
+				}
             }
-			*/
             
             //Otherwise, spit a regular item
             else {
+				
+				//If the sprite is from a galoomba
+				if (sprite_index == spr_galoomba_down)
+				|| (sprite_index == spr_galoomba_red_down)
+				|| (sprite_index == spr_goombud_down) {
+					
+					//Set the horizontal speed
+					xspeed = 2.7*obj_mario.xscale;
+				
+					//If the object is in contact with a solid.
+	                if (place_meeting(x, y, obj_solid)) {
+						
+						killer_id = -1;
+	                    event_user(0);
+					}
+				}
+				
+				//Otherwise
+				else {
     
-                //If the eaten item is not overlapping a solid.
-                if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 0, 0)) {
+	                //If the eaten item is not overlapping a solid.
+	                if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 0, 0)) {
                 
-                    //Set the motion when swimming.
-                    if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 0, 0)) {
+	                    //Set the motion when swimming.
+	                    if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 0, 0)) {
                     
-                        if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
-                            xspeed = obj_mario.xspeed+0.75*obj_mario.xscale;
-                        else
-                            xspeed = 1*obj_mario.xscale;                
-                    }
+	                        if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
+	                            xspeed = obj_mario.xspeed+0.75*obj_mario.xscale;
+	                        else
+	                            xspeed = 1*obj_mario.xscale;                
+	                    }
                     
-                    //Otherwise, set the motion when NOT swimming.
-                    else {
+	                    //Otherwise, set the motion when NOT swimming.
+	                    else {
                     
-                        if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
-                            xspeed = obj_mario.xspeed+1.5*obj_mario.xscale;
-                        else
-                            xspeed = 2*obj_mario.xscale;                
-                    }
-                }
+	                        if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
+	                            xspeed = obj_mario.xspeed+1.5*obj_mario.xscale;
+	                        else
+	                            xspeed = 2*obj_mario.xscale;                
+	                    }
+	                }
                 
-                //Make the item get not stuck on a solid.
-                else
-                    inwall = true;
+	                //Make the item get not stuck on a solid.
+	                else
+	                    inwall = true;
+				}
             }
         }
     }

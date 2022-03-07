@@ -104,7 +104,9 @@ else {
 		else {
 			
 			//If the player is above and it's riding either a yoshi or a kuribo shoe
-            if ((global.mount > 0) || (other.jumpstyle == 1)) {
+            if ((global.mount > 0) 
+			|| (other.jumpstyle == 1)) 
+			&& (other.bbox_bottom < bbox_top-yspeed+5) {
                 
                 //Make the player bounce
                 if (instance_exists(obj_yoshi))
@@ -196,10 +198,11 @@ else {
                 instance_destroy();                   
             }
             
-            else if (yspeed >= 0) {
-            
-                //Play 'Kick' sound.
-                audio_play_sound(snd_kick, 0, false);
+            else if (yspeed >= 0) 
+			&& (other.bbox_bottom > bbox_top-yspeed+5) {
+				
+				//Play 'Kick' sound
+				audio_play_sound(snd_kick, 0, false);
                 
                 //Create hit
                 with (instance_create_depth(x, y+8, -4, obj_smoke)) sprite_index = spr_spinthump;

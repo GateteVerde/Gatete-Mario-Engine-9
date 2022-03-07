@@ -18,14 +18,18 @@ imheld.koopainside = koopainside;
 //Set the motion of the flip object
 #region Horizontal / Vertical speed
 
-	//Set the vertical speed of the flip object
-	imheld.yspeed = (swimming) ? -2.5 : -5;
+	//If the object is not colliding with yoshi's tongue
+	if (!collision_rectangle(bbox_left, bbox_top-4, bbox_right, bbox_bottom+4, obj_yoshi_tongue, 0, 0)) {
 
-	//Set the horizontal speed of the object
-	if ((other.bbox_left+other.bbox_right)/2 < (bbox_left+bbox_right)/2)
-	    imheld.xspeed = (swimming) ? 0.25 : 0.5;
-	else if ((other.bbox_left+other.bbox_right)/2 > (bbox_left+bbox_right)/2)
-	    imheld.xspeed = (swimming) ? 0.25 : -0.5;
+		//Set the vertical speed of the flip object
+		imheld.yspeed = (swimming) ? -2.5 : -5;
+
+		//Set the horizontal speed of the object
+		if ((other.bbox_left+other.bbox_right)/2 < (bbox_left+bbox_right)/2)
+		    imheld.xspeed = (swimming) ? 0.25 : 0.5;
+		else if ((other.bbox_left+other.bbox_right)/2 > (bbox_left+bbox_right)/2)
+		    imheld.xspeed = (swimming) ? 0.25 : -0.5;
+	}
 	
 #endregion
 

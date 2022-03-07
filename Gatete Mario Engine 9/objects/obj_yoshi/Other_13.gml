@@ -1,12 +1,11 @@
 /// @description Check what shell does have yoshi on his mouth and give abilities
 
-/*
-
-if (mouthholder == obj_shell) 
-&& (instance_number(obj_tongue) == 0) {
+if ((mouthholder == obj_yoshi_fire)
+|| (mouthholder == obj_shell_kicked))
+&& (instance_number(obj_yoshi_tongue) == 0) {
     
     //If the shell held in the mouth is a kamikaze one
-    if (mouthsprite == spr_koopa_black) {
+    if (mouthsprite == spr_shell_black) {
             
         //If 'Shift' is being held outside water
         if (input_check(input.action_0)) 
@@ -62,18 +61,18 @@ if (mouthholder == obj_shell)
     }
     
     //If yoshi has a yellow shell in mouth
-    if (colour == 2)
-    || (mouthsprite == spr_shell_yellow_down) {
+    if (global.mountcolour == 2)
+    || (mouthsprite == spr_shell_yellow) {
                     
         //If the player lands after a jump, stomp
-        if (stateprev == 2)
+        if (stateprev == playerstate.jump)
         && (obj_mario.state != playerstate.jump)        
-            instance_create(x, y, -2, obj_stomp);
+            instance_create_depth(x, y, -2, obj_stomp);
     }
     
     //If yoshi has a blue shell in mouth
-    if (colour == 3) 
-    || (mouthsprite == spr_shell_blue_down) {
+    if (global.mountcolour == 3) 
+    || (mouthsprite == spr_shell_blue) {
     
         //If 'Shift' is being held outside water
         if (input_check(input.action_0)) 
@@ -124,8 +123,6 @@ if (mouthholder == obj_shell)
         }    
     }    
 }
-
-*/
 
 //Remember last state
 stateprev = obj_mario.state;    

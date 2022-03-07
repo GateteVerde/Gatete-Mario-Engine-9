@@ -29,4 +29,24 @@ else {
 		//Get out of the shell
 		koopainside = 0;
 	}
+	
+	//Otherwise
+	else if (koopainside == -1) {
+	
+		//Check sprite
+		switch (sprite_index) {
+			
+			//Red
+			case (spr_shell_red_classic): {
+			
+				instance_create_depth(x, y, -2, obj_koopa_red_classic); break;
+			} break;
+		
+			//Default
+			default: instance_create_depth(x, y, -2, obj_koopa_classic); break;
+		}
+		
+		//Destroy
+		instance_destroy();
+	}
 }

@@ -3,6 +3,11 @@
 //Check for a track
 var track = collision_rectangle(x+xorig, y+yorig-3, x+xorig, y+yorig+0.9, obj_trackparent, 1, 0);
 
+//Update pseudo variables
+xspeed = hspeed;
+yspeed = vspeed;
+yadd = gravity;
+
 //Stay always behind scenery
 depth = 150;
 

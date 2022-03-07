@@ -29,7 +29,7 @@ if (instance_exists(obj_mario))
         }
         
         //Set the horizontal speed
-        hspeed = -1*sign(other.image_xscale);
+        xspeed = -1*sign(other.image_xscale);
     }
 }
 

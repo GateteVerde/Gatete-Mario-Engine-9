@@ -9,8 +9,13 @@ imheld.dir = xscale;
 //Set the vspeed of the flip object
 imheld.yspeed = (swimming) ? -2.5 : -5;
 
-//Set the hspeed of the flip object
-#region Horizontal speed
+//Set the motion
+#region Motion
+
+	//Set the vertical speed of the flipped enemy
+	imheld.yspeed = (swimming) ? -2.5 : -5;
+	
+	//Set the horizontal speed of the flipped enemy
 
 	if ((other.bbox_left+other.bbox_right)/2 < (bbox_left+bbox_right)/2)
 	    imheld.xspeed = (swimming) ? 0.25 : 0.5;
