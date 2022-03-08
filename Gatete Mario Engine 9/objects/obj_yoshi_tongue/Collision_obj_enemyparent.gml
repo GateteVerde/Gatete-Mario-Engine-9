@@ -37,6 +37,18 @@ if (hunger == 0) && (ready == 0) {
 	    //Move tongue back
 	    ready = 1;
 	    alarm[0] = 8;
+		
+		#region Check Yoshi colour
+			
+			//Teal
+			if (obj_yoshi.colour == 4)
+				obj_yoshi.mouthholder = obj_yoshi_ice;
+				
+			//Pink
+			else if (obj_yoshi.colour == 5)
+				obj_yoshi.mouthholder = obj_turnip;
+
+		#endregion
         
 	    //Food sprite
 	    foodsprite = other.sprite_index;

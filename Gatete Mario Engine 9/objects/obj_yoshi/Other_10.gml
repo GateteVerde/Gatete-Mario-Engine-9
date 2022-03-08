@@ -6,6 +6,12 @@ audio_play_sound(snd_yoshi_spit, 0, false);
 //Spit out the item
 if (obj_mario.crouch) 
 || (obj_mario.sliding) {
+	
+	//Put fire on yoshi if he is red and is holding any shell
+	if ((colour = 1) && (mouthholder == obj_shell_kicked))
+	|| (mouthsprite == spr_shell_red) 
+	|| (mouthsprite == spr_shell_red_classic)
+		mouthholder = obj_yoshi_fire;
 
     //Lock it
     locked = 2;
@@ -70,6 +76,12 @@ if (obj_mario.crouch)
     }
 }
 else {
+	
+	//Put fire on yoshi if he is red and is holding any shell
+	if ((colour = 1) && (mouthholder == obj_shell_kicked))
+	|| (mouthsprite == spr_shell_red) 
+	|| (mouthsprite == spr_shell_red_classic)
+		mouthholder = obj_yoshi_fire;
 
     //Lock it
     locked = 1;

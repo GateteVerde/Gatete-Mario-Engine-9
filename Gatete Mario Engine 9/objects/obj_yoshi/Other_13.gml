@@ -1,7 +1,6 @@
 /// @description Check what shell does have yoshi on his mouth and give abilities
 
-if ((mouthholder == obj_yoshi_fire)
-|| (mouthholder == obj_shell_kicked))
+if (mouthholder == obj_shell_kicked)
 && (instance_number(obj_yoshi_tongue) == 0) {
     
     //If the shell held in the mouth is a kamikaze one
@@ -61,7 +60,7 @@ if ((mouthholder == obj_yoshi_fire)
     }
     
     //If yoshi has a yellow shell in mouth
-    if (global.mountcolour == 2)
+    if (colour == 2)
     || (mouthsprite == spr_shell_yellow) {
                     
         //If the player lands after a jump, stomp
@@ -71,7 +70,7 @@ if ((mouthholder == obj_yoshi_fire)
     }
     
     //If yoshi has a blue shell in mouth
-    if (global.mountcolour == 3) 
+	if (colour == 3) 
     || (mouthsprite == spr_shell_blue) {
     
         //If 'Shift' is being held outside water

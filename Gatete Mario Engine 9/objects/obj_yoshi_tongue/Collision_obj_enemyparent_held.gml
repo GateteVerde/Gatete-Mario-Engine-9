@@ -20,19 +20,9 @@ if (hunger == 0) && (ready == 0) {
 		
 		//Otherwise, if this item is a koopa shell
 		else if (other.object_index == obj_shell) {
-		
-			//If Yoshi is a red one or the koopa shell is a red one, put fire on Yoshi's mouth
-			if (global.mountcolour == 1)
-			|| (other.sprite_index == spr_shell_red)
-			|| (other.sprite_index == spr_shell_red_classic)
-				obj_yoshi.mouthholder = obj_yoshi_fire;
-				
-			//Otherwise
-			else {
 			
-				obj_yoshi.mouthholder = obj_shell_kicked;
-				obj_yoshi.mouthsprite = other.sprite_index;
-			}
+			obj_yoshi.mouthholder = obj_shell_kicked;
+			obj_yoshi.mouthsprite = other.sprite_index;
 		}
 		
 	#endregion

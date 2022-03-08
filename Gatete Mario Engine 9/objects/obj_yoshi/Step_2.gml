@@ -184,14 +184,27 @@
 	//Otherwise, if Mario does not exist.
 	else {
 
-	    //Do not hold anything if Mario cleared a level
+	    //If Mario has cleared a level, do not hold anything on the mouth and stop sounds from playing
 	    if (instance_exists(obj_mario_clear)) {
     
+			//If there's something inside Yoshi's mouth
 	        if (mouthholder != noone) {
         
 	            mouthholder = noone;
 	            mouthsprite = noone;
 	        }
+			
+			//Stop 'Flying' sound
+			audio_stop_sound(snd_yoshi_lick);
+
+			//Stop 'Flutter' sound
+			audio_stop_sound(snd_yoshi_hover);
+
+			//Destroy Yoshi's tongue if it exists
+			with (obj_yoshi_tongue) {
+				
+				instance_destroy();
+			}
 	    }
 
 	    //Find a suitable player

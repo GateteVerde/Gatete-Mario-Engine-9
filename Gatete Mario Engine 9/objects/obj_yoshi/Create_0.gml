@@ -28,9 +28,6 @@ mouthsprite = noone;
 //Shard of the item inside Yoshi's mouth (Applies only to bricks)
 mouthshard = noone;
 
-//Enemy inside the held item
-mouthnumb = 0;
-
 //Whether Yoshi has ate a powerup
 powerup = noone;
 
