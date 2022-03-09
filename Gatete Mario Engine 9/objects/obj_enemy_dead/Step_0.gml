@@ -38,7 +38,7 @@ if (vspeed > 0) {
 
 	//Destroy when outside the view
 	if (outside_view() == true)
-	&& (y > 0)
+	&& (y > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]))
 		instance_destroy();
 }
 

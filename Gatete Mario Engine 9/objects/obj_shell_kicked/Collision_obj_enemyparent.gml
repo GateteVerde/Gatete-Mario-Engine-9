@@ -3,7 +3,6 @@
 //If the enemy is vulnerable
 if (other.vulnerable < 99) {
 	
-	
 	//If the other enemy is a kicked koopa shell
 	if (other.object_index == obj_shell_kicked) {
 		
