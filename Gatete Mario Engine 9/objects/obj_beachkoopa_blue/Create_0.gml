@@ -31,7 +31,7 @@ alarm[10] = 2;
     
 //Item contact values
 boxl = -1;
-boxr = 8;
+boxr = 13;
 boxt = -1;
 boxb = 12;
 

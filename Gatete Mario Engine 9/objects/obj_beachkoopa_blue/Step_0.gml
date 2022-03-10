@@ -31,8 +31,8 @@
 	            xspeed += 0.11*xscale;
     
 	        //If it hits max speed
-	        if ((xspeed > 0.8) && (xscale == 1))
-	        || ((xspeed < -0.8) && (xscale == -1)) {
+	        if ((xspeed >= 0.5) && (xscale == 1))
+	        || ((xspeed <= -0.5) && (xscale == -1)) {
         
 	            //Stop
 	            xspeed = 0;
@@ -48,7 +48,7 @@
 	        if ((idd.yadd == 0))
 	        && ((xspeed >= 0) && (xscale == 1) || (xspeed <= 0) && (xscale == -1)) 
 	        && (yadd == 0)
-	           idd.yspeed = -0.7;
+	           idd.yspeed = -0.6;
         
 	        //Drag shell
 	        idd.xspeed = xspeed;
