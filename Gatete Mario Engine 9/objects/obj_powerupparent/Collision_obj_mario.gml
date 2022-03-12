@@ -10,17 +10,14 @@ if (noscore == false) {
 //Create effect
 with (instance_create_depth(x, y+8, -6, obj_blend_ring)) beam = true;
 
+//Give Mario temporary invulnerability
+with (other) event_user(7);
+
 //If Mario does not have the gold or mega powerup
 if (global.powerup != cs_gold)
 && (global.powerup != cs_mega) {
 
-	/*/If the player is big and there's NOT an item on reserve.
-	if (global.powerup == cs_big) 
-	&& (global.reserve == cs_small)
-	    global.reserve = cs_big;
-	*/
-
-	//Otherwise, if the player does have a powerup.
+	//If the player does have a powerup.
 	if (global.powerup > cs_big)
 	    global.reserve = global.powerup;
 

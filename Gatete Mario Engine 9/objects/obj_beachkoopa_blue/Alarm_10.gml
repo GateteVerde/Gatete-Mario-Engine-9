@@ -4,6 +4,13 @@
 if (slide == true)
 exit;
 
+//If the koopa is frozen in place
+if (freeze == true) {
+
+	alarm[10] = 1;
+	exit;
+}
+
 //If the koopa can move
 if (ready > 0) {
 

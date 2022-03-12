@@ -59,7 +59,8 @@
 	    if (idd.object_index == obj_shell_kicked) {
     
 	        //slow image speed animation
-	        idd.image_speed = max(0, abs(idd.image_speed)-0.007)*sign(idd.image_speed);
+	        idd.image_speed = 0;
+			idd.image_index = 0;
 	    }
     
 	    //Move away from item
@@ -156,7 +157,7 @@ if (slide == 0) {
 	                    dir = 1*sign(xscale);
 	                }
 	                else 
-						idd.x = x+12*xscale;
+						idd.x = x+16*xscale;
 	            }
             
 	            //Stop
@@ -184,7 +185,7 @@ if (slide == 0) {
 	                    dir = 1*sign(xscale);
 	                }
 	                else 
-						idd.x = x+12*xscale;
+						idd.x = x+16*xscale;
 	            }
             
 	            //Stop

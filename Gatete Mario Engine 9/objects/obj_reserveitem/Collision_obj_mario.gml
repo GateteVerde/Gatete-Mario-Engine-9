@@ -3,6 +3,9 @@
 //Create effect
 with (instance_create_depth(x, y+8, -6, obj_blend_ring)) beam = true;
 
+//Give Mario temporary invulnerability
+with (other) event_user(7);
+
 //If Mario does not have the gold or mega powerups
 if (global.powerup != cs_gold)
 && (global.powerup != cs_mega) {
