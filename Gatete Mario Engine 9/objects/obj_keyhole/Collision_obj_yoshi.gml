@@ -2,7 +2,8 @@
 
 //If the animation has not started and Mario brings a key
 if (ready == 0)
-//&& (instance_exists(obj_mario))
+&& (instance_exists(obj_mario))
+&& (!instance_exists(obj_yoshi_tongue))
 && (other.mouthholder == obj_key) {
     
     //Remember colour
