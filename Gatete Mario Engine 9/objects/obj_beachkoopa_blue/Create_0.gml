@@ -28,12 +28,6 @@ alarm[1] = 1;
 
 //Move towards the player
 alarm[10] = 2;
-    
-//Item contact values
-boxl = -1;
-boxr = 13;
-boxt = -1;
-boxb = 12;
 
 //If the item is overlapping the koopa
 initem = false;

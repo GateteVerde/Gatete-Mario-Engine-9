@@ -21,6 +21,12 @@ else {
 				
 				instance_create_depth(x, y, -2, obj_beachkoopa_red);
 			} break;
+			
+			//Blue Koopa
+			case (spr_shell_blue): {
+			
+				instance_create_depth(x, y, -2, obj_beachkoopa_blue);
+			} break;
 	
 			//Default (Green Shell)
 			default: instance_create_depth(x, y, -2, obj_beachkoopa); break;

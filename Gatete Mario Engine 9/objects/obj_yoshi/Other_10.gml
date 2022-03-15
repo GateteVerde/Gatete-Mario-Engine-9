@@ -11,6 +11,7 @@ if (obj_mario.crouch)
 	if ((colour = 1) && (mouthholder == obj_shell_kicked))
 	|| (mouthsprite == spr_shell_red) 
 	|| (mouthsprite == spr_shell_red_classic)
+	|| (mouthsprite == spr_shell_black)
 		mouthholder = obj_yoshi_fire;
 
     //Lock it
@@ -43,6 +44,24 @@ if (obj_mario.crouch)
         with (instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_yoshi_ice)) 
             yspeed = -1;    
 	}
+	
+    //Otherwise, if there's a turnip inside yoshi's mouth
+    else if (mouthholder == obj_turnip) {
+    
+        //Create a turnip
+        with (instance_create_depth(x+(10*obj_mario.xscale), y-12, -2, obj_turnip)) {
+        
+            //Set the motion
+            xspeed = 3*obj_mario.xscale;
+            yspeed = 0.1;
+            
+            //Set gravity
+            yadd = 0.2;
+            
+            //Do not held the item
+            held = false;
+        }
+    }
     
     //Otherwise, spit a item
     else {
@@ -81,6 +100,7 @@ else {
 	if ((colour = 1) && (mouthholder == obj_shell_kicked))
 	|| (mouthsprite == spr_shell_red) 
 	|| (mouthsprite == spr_shell_red_classic)
+	|| (mouthsprite == spr_shell_black)
 		mouthholder = obj_yoshi_fire;
 
     //Lock it
@@ -119,9 +139,6 @@ else {
     
         //Create a turnip
         with (instance_create_depth(x+(10*obj_mario.xscale), y-16, -2, obj_turnip)) {
-        
-            //Use the correct sprite
-            sprite_index = other.mouthsprite;
         
             //Set the motion
             xspeed = 3*obj_mario.xscale;

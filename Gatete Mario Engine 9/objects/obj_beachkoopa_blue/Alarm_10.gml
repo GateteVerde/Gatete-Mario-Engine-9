@@ -20,6 +20,9 @@ if (ready > 0) {
 	//Animate
 	image_speed = 1;
 	
+	//Set ready state
+	ready = 2;
+	
 	//If Mario does not exist or Mario is at the left
 	if (!instance_exists(obj_mario))
 	|| (obj_mario.x < x)

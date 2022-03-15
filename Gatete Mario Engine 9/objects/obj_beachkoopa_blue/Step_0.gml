@@ -42,25 +42,16 @@
             
 	            //Change kick state 
 	            kicky = 999;
-	        } 
-        
-	        //Dribble item 
+	        }
+			
+			//Drag shell
+			idd.xspeed = xspeed;
+			
+			//Dribble item 
 	        if ((idd.yadd == 0))
-	        && ((xspeed >= 0) && (xscale == 1) || (xspeed <= 0) && (xscale == -1)) 
+	        && ((xspeed >= 0 && xscale == 1) || (xspeed <= 0 && xscale == -1)) 
 	        && (yadd == 0)
-	           idd.yspeed = -0.6;
-        
-	        //Drag shell
-	        idd.xspeed = xspeed;
-        
-	    }
-    
-	    //Stop or slow shell animation
-	    if (idd.object_index == obj_shell_kicked) {
-    
-	        //slow image speed animation
-	        idd.image_speed = 0;
-			idd.image_index = 0;
+	           idd.yspeed = -0.7;
 	    }
     
 	    //Move away from item
@@ -128,15 +119,15 @@ if (slide == 0) {
 	//Otherwise, check for holdable items to kick
 	if (ready == 2) && (!slide) {
     
-	    //Check for an object
-	    var obj = collision_rectangle(x+(boxl*sign(xscale)), bbox_top+boxt, x+(boxr*sign(xscale)), bbox_bottom+boxb, obj_shell, 0, 0);
-	    var kicked = collision_rectangle(x+(boxl*sign(xscale)), bbox_top+boxt, x+(boxr*sign(xscale)), bbox_bottom+boxb, obj_shell_kicked, 0, 0);
+		//Check for an object
+		var obj = collision_rectangle(x + 8 * sign(xscale), bbox_top, x + 8 * sign(xscale), bbox_bottom, obj_shell, 0, 0);
+		var kicked = collision_rectangle(x + 8 * sign(xscale), bbox_top, x + 8 * sign(xscale), bbox_bottom, obj_shell_kicked, 0, 0);
     
 	    //If there's an object in position
-	    if (obj) 
+		if (kicky == 0)
+	    && (obj) 
 	    && (obj.held == 0)
-	    && (kicky == 0)
-	    && (obj.sprite_height < 17){
+	    && (obj.sprite_height < 17) {
     
 	        //If object isn't moving at all
 	        if (obj.xspeed == 0) {
@@ -201,32 +192,22 @@ if (slide == 0) {
 	    //If object is a moving shell
 		else if (kicked) 
 	    && (kicky == 0)
-	    && (kicked.sprite_height < 17)
-	    && (idd == noone) {
-    
-	        //Get object ID
-	        idd = kicked.id;
-        
-	        //Check for overlapping item
-	        if (collision_rectangle(bbox_left-2, bbox_top-4, bbox_right+2, bbox_bottom+4, idd, 0, 0)) { 
-                
-	            if (collision_line(x, y, x+26*xscale, y, obj_solid, 0, 0)) {
-            
-	                //Make the koopa change position
-	                initem = true;
-	                dir = 1*sign(xscale);
-	            }
-	            else 
-					idd.x = x+12*xscale;
-	        }
-        
-	        //Stop
-	        xspeed = idd.xspeed;
-	        image_speed = 0; 
-	        image_index = 1;
-        
-	        //Kick state
-	        kicky = 2;
+	    && (kicked.sprite_height < 17) 
+		&& (((xscale == 1) && (x < kicked.x)) || ((xscale == -1) && (x > kicked.x))) {
+			
+			//Turn this kicked shell into a normal one
+			with (kicked) {
+			
+				//Create a shell
+				shell = instance_create_depth(x, y, -2, obj_shell);
+					shell.sprite_index = sprite_index;
+					shell.xspeed = xspeed;
+					shell.flip = flip
+					shell.koopainside = koopainside
+					
+				//Destroy this one
+				instance_destroy();
+			}
 	    }        
 	}
 

@@ -1,5 +1,12 @@
 /// @description Resume walking
 
+//If frozen, exit
+if (freeze == true) {
+
+	alarm[2] = 1;
+	exit;
+}
+
 //Set horizontal speed based on direction
 xspeed = (swimming) ? 0.4 * xscale : 0.8 * xscale;
 
