@@ -314,11 +314,12 @@ if (inwall == 0)
 					//Stop somersault
 					somersault = 0;
 					
-					//Disable the gravity for an elegant lift-off
-					disablegrav = 50;
-					
 					//Set vertical speed
 					yspeed = -4;
+					
+					//Disable the gravity for an elegant lift-off
+					if (disablegrav == 0)
+						disablegrav = 50;					
 				}
 				
 				//If the player is not doing a spin-jump
@@ -720,13 +721,13 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 			
 			//Fly back down if you let go
 			if (global.powerup == cs_cape)
-			&& (!input_check(input.action_0))			
+			&& (input_check_released(input.action_0))			
 				disablegrav = 0;
 			
-			else if (global.powerup == cs_cape) {
+			else {
 			
 				// Flight boost
-				var boostflightspd = 6;
+				var boostflightspd = 4;
 			
 				// If a small period of time has passed since you started flying
 				if (disablegrav <= 30) {
@@ -742,7 +743,7 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 					
 							yspeed = -boostflightspd;					
 					}				
-				}			
+				}
 			}
         
 			//If Mario is on the jumping state, disable grav
@@ -768,9 +769,9 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 		&& (global.mount == 0) {
 			
 			// If you're not running
-			if (!input_check(input.action_1)) {
+			if (input_check_released(input.action_1)) {
 				
-				// Stop flying
+				//Stop flying
 				flying = false;
 				state = playerstate.jump;
 			} 
@@ -806,9 +807,9 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 				//The flight object will take control
 				enable_gravity = false;			
 			}
-			
-		//If the criteria is met to STOP flying
-		} 
+		}
+		
+		//If the criteria is met to STOP flying 
 		else if ((global.powerup == cs_cape) && (flying) && (yspeed > 0) && (jumpstyle != 0 || global.mount != 0)) {
 		
 			// Then stop flying if spin jumping, mounted, etc.
@@ -1181,7 +1182,7 @@ if (global.powerup == cs_squirrel)
 if (input_check_pressed(input.action_0))
 && (allow_twirl)
 && (twirl == 0)
-&& (yspeed > 0)
+&& (yspeed > 0.5)
 && (holding == 0)
 && (wallkick == 0)
 && (jumpstyle == 0)
