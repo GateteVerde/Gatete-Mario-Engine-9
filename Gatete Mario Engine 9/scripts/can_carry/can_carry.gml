@@ -5,7 +5,7 @@ function can_carry() {
 	//Return whether if the player is able to hold an item or not
 	return (input_check_pressed(input.action_1))
 	&& (!instance_exists(obj_mario_balloon))
-	&& (!instance_exists(obj_fly))
+	&& (!instance_exists(obj_mario_fly))
 	&& (instance_exists(obj_mario))
 	&& (global.mount == 0)
 	&& (obj_mario.kicking == 0)

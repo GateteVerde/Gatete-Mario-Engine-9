@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_mario_big_pull",
-    "path": "sprites/spr_mario_big_pull/spr_mario_big_pull.yy",
+    "name": "spr_mario_tanooki_attack2",
+    "path": "sprites/spr_mario_tanooki_attack2/spr_mario_tanooki_attack2.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,10 +22,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +33,7 @@
     "path": "folders/Objects/Special/Do Not Use!/Mario/States.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_puller",
+  "name": "obj_mario_statue",
   "tags": [],
   "resourceType": "GMObject",
 }

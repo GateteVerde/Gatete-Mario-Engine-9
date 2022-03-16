@@ -10,12 +10,12 @@ if (global.mount == 0) {
 	if (instance_exists(obj_mario)) {
     
 	    //If the player is pulling an item, make said object visible
-	    if (instance_exists(obj_puller))    
-	        obj_puller.visible = true;
+	    if (instance_exists(obj_mario_puller))    
+	        obj_mario_puller.visible = true;
         
 	    //Otherwise, if the wallrunner exists make said object visible
-	    else if (instance_exists(obj_wallrunner))    
-	        obj_wallrunner.visible = true;
+	    else if (instance_exists(obj_mario_wallrunner))    
+	        obj_mario_wallrunner.visible = true;
         
 	    //Otherwise, make the main player visible
 	    else {

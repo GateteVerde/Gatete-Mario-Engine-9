@@ -169,8 +169,7 @@ if (flight_ruined) {
 		// Set up cape timer finalization
 		var callback = function() {
 			
-			flying = false;
-			
+			flying = false;			
 		}
 		
 		// Create function 

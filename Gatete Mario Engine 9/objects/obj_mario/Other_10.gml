@@ -69,18 +69,43 @@ if (invulnerable == 0) {
 	
 			//If Mario does have a powerup
 			if (global.powerup > cs_big) {
-		
-				//Play 'Powerdown' sound
-				audio_play_sound(snd_warp, 0, false);
-			
-				//Perform animation sequence
-			    with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 3;
-	
-			    //Turn Mario into 'Super' Mario.
-			    global.powerup = cs_big;
 				
-				//Exit
-				exit;
+				//If Mario is flying with the cape
+				if (global.powerup == cs_cape) 
+				&& (instance_number(obj_mario_fly) > 0) {
+					
+					//Play 'Power Lost' sound
+					audio_play_sound(snd_powerlost, 0, false);
+					
+					//Force end flight
+					with (obj_mario_fly) instance_destroy();
+					
+					//Give Mario back flying privileges
+					fly = noone;
+					enable_gravity = true;
+					flying = false;
+					jumpstyle = 1;
+					jumping = 0;
+				
+					//Exit
+					exit;
+				}
+				
+				//Otherwise
+				else {
+		
+					//Play 'Powerdown' sound
+					audio_play_sound(snd_warp, 0, false);
+			
+					//Perform animation sequence
+				    with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 3;
+	
+				    //Turn Mario into 'Super' Mario.
+				    global.powerup = cs_big;
+				
+					//Exit
+					exit;
+				}
 			}
 		
 			//Otherwise

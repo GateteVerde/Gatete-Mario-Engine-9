@@ -65,11 +65,11 @@ else if (room != rm_bonus) {
 						if (obj_mario.x < camera_get_view_x(view_camera[0]) + sprite_get_xoffset(obj_mario.mask_index)) {
 			
 							//If Mario is flying with the cape
-							if (instance_exists(obj_fly)) {
+							if (instance_exists(obj_mario_fly)) {
 			
-								obj_fly.x = camera_get_view_x(view_camera[0]) + 5;
-								if (obj_fly.xspeed < 0)
-									obj_fly.xspeed = 0;
+								obj_mario_fly.x = camera_get_view_x(view_camera[0]) + 5;
+								if (obj_mario_fly.xspeed < 0)
+									obj_mario_fly.xspeed = 0;
 							}
 							
 							//Otherwise, if Mario is flying as a balloon
@@ -87,11 +87,11 @@ else if (room != rm_bonus) {
 						else if (obj_mario.x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(obj_mario.mask_index)) {
 			
 							//If Mario is flying with the cape
-							if (instance_exists(obj_fly)) {
+							if (instance_exists(obj_mario_fly)) {
 			
-								obj_fly.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
-								if (obj_fly.xspeed > 0)
-									obj_fly.xspeed = 0;
+								obj_mario_fly.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
+								if (obj_mario_fly.xspeed > 0)
+									obj_mario_fly.xspeed = 0;
 							}
 							
 							//Otherwise, if Mario is flying as a balloon
@@ -123,7 +123,7 @@ else if (room != rm_bonus) {
 					|| (obj_mario.wallkick == 1)
 					|| (obj_mario.squirrelpropel == 1)
 					|| ((obj_mario.jumpstyle > 0) && (global.powerup == cs_propeller))
-					|| ((obj_mario.state == playerstate.climb) || (instance_exists(obj_wallrunner)))
+					|| ((obj_mario.state == playerstate.climb) || (instance_exists(obj_mario_wallrunner)))
 			            y = obj_mario.y;
 
 			        //Otherwise

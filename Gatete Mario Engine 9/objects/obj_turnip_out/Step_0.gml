@@ -22,7 +22,7 @@ if (ready == 2) {
         }
         
         //Destroy puller
-        with (obj_puller) instance_destroy();
+        with (obj_mario_puller) instance_destroy();
     }
 
     //If the vegetable is a bomb
@@ -167,7 +167,7 @@ if (((bbox_bottom < obj_mario.bbox_top+14) && (global.powerup == cs_small))
 && (ready == 0) {
 
     //Set the plucking sprite
-    with (obj_puller) {
+    with (obj_mario_puller) {
     
         sprite_index = global.duck_sprite[global.powerup];
     }

@@ -57,8 +57,8 @@
 		angle += -30*sign(xscale);
 		if (global.powerup == cs_tiny)
 		|| (global.powerup == cs_mega)
-		|| (instance_number(obj_statue) > 0)
-		|| (instance_number(obj_spinner) > 0)
+		|| (instance_number(obj_mario_statue) > 0)
+		|| (instance_number(obj_mario_spinner) > 0)
 		|| (twirl > 0)
 		|| (holding > 0) 
 		|| (groundpound == 2) {
@@ -433,7 +433,7 @@ if (enable_gravity == 1) {
 				
 					//If the player is running on walls or ceilings
 					if (global.mount != 2)
-	                && (instance_number(obj_wallrunner) == 1) {
+	                && (instance_number(obj_mario_wallrunner) == 1) {
                 
 	                    //If the P-Meter is full.
 	                    if (pmeter > global.pmeter_limit) {      

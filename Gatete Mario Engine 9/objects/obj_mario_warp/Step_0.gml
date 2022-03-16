@@ -1,5 +1,8 @@
 /// @description Exit from the pipe
 
+//Animate cape if it is visible
+cape_anim += 0.065+abs(hspeed)/7.5;
+
 #region UPDATE PALETTE
 	
 	//If Mario is invincible

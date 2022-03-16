@@ -48,6 +48,9 @@ if (groundpound == 2) {
 	}
 }
 
+//Force end twirl
+twirl = 0;
+
 //Enable gravity
 disablegrav = 0;
 

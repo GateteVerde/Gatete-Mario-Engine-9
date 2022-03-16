@@ -76,8 +76,8 @@ throw_projectile = function() {
 	    if (global.powerup == cs_tanooki)
 	    && ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
 	    && (global.mount == 0)
-		&& (instance_number(obj_statue) < 1)
-	    && (instance_number(obj_spinner) < 1) {
+		&& (instance_number(obj_mario_statue) < 1)
+	    && (instance_number(obj_mario_spinner) < 1) {
             
 	        //Play the transform sound
 	        audio_play_sound(snd_transform, 0, false);
@@ -86,7 +86,7 @@ throw_projectile = function() {
 	        with (instance_create_depth(x, y, depth, obj_mario_transform)) sequence = 4;
         
 	        //Create a statue and get the ID from Mario
-	        spin = instance_create_depth(x, y, depth, obj_statue);
+	        spin = instance_create_depth(x, y, depth, obj_mario_statue);
 			with (spin)				
 				owner = other.id;
 	    }
@@ -96,12 +96,12 @@ throw_projectile = function() {
 	    && (global.mount == 0)
 	    && (yspeed >= 0)
 		&& (state == playerstate.jump)
-	    && (instance_number(obj_spinner) == 0)
-	    && (instance_number(obj_dropdown) == 0) 
+	    && (instance_number(obj_mario_spinner) == 0)
+	    && (instance_number(obj_mario_dropdown) == 0) 
 		&& ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv > 0.5))){
     
 	        //Create drop down
-	        with (instance_create_depth(x, y, depth, obj_dropdown))
+	        with (instance_create_depth(x, y, depth, obj_mario_dropdown))
 	            image_xscale = 1*sign(other.xscale);
 	    }
     
@@ -151,12 +151,12 @@ throw_projectile = function() {
         
 	        //Racoon, Tanooki, Cat, and Cape
 	        else if (((global.powerup == cs_cape) && (!flying)) || (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_bell) || (global.powerup == cs_ranger) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon))
-	        && (instance_number(obj_dropdown) == 0)
+	        && (instance_number(obj_mario_dropdown) == 0)
 	        && (spin == noone) 
 			&& (jumpstyle == 0) {
         
 				//Create spinner
-				spin = instance_create_depth(x, y, depth, obj_spinner);
+				spin = instance_create_depth(x, y, depth, obj_mario_spinner);
 		
 				//Set up spinner
 	            with (spin) {

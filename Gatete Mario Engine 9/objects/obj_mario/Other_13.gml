@@ -25,7 +25,7 @@ if (yspeed > 0)
 && (jumpstyle != 2)
 && (global.pwing = 0)
 && (global.mount = 0)
-&& (!instance_exists(obj_spinner)) {
+&& (!instance_exists(obj_mario_spinner)) {
         
     //If the 'Right' key is pressed and the player is facing right.
     if (((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) && (xscale == 1)) {

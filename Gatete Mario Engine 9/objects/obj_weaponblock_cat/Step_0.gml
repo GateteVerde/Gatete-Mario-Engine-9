@@ -4,10 +4,10 @@
 event_inherited();
 
 //If Mario is flying with the cape
-if (instance_exists(obj_dropdown)) {
+if (instance_exists(obj_mario_dropdown)) {
 
 	//Check for a drop
-	var drop = collision_rectangle(bbox_left-6, bbox_top-6, bbox_right+5, bbox_bottom+5, obj_dropdown, 1, 0)
+	var drop = collision_rectangle(bbox_left-6, bbox_top-6, bbox_right+5, bbox_bottom+5, obj_mario_dropdown, 1, 0)
 
 	//If there's a lightning bolt in position
 	if (drop)	

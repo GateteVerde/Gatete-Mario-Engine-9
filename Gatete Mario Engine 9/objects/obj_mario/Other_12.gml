@@ -318,8 +318,7 @@ if (inwall == 0)
 					yspeed = -4;
 					
 					//Disable the gravity for an elegant lift-off
-					if (disablegrav == 0)
-						disablegrav = 50;					
+					disablegrav = 50;					
 				}
 				
 				//If the player is not doing a spin-jump
@@ -716,14 +715,18 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 	|| (global.powerup == cs_fraccoon) 
 	|| (global.powerup == cs_iraccoon) {
 	
-        //If ygrav is disabled.
-        if (disablegrav > 0) {
+        //If the gravity is disabled
+        if (disablegrav > -1) {
 			
 			//Fly back down if you let go
 			if (global.powerup == cs_cape)
-			&& (input_check_released(input.action_0))			
+			&& (!input_check(input.action_0)) {
+				
 				disablegrav = 0;
+				enable_gravity = true;
+			}
 			
+			//Otherwise
 			else {
 			
 				// Flight boost
@@ -739,8 +742,7 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 						yspeed -= 0.05;
 					
 						// Cap the boost
-						if (yspeed <= -boostflightspd)
-					
+						if (yspeed <= -boostflightspd)					
 							yspeed = -boostflightspd;					
 					}				
 				}
@@ -754,21 +756,26 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
             
                 //Deny ygrav
                 yadd = 0;
-                
-                //Enable ygrav
-                disablegrav--;
-            }			
+				
+				//Enable gravity as soon disablegrav hits 1
+				disablegrav--;
+				if (disablegrav == 1) {
+					
+					disablegrav = 0;
+					enable_gravity = true;
+				}
+			}
         }
 		
 		// If the conditions are met, start flying
 		if (global.powerup == cs_cape) 
 		&& (flying) 
-		&& (yspeed > 2)
+		&& (yspeed > 0)
 		&& (holding == 0) 
 		&& (jumpstyle == 0) 
 		&& (global.mount == 0) {
 			
-			// If you're not running
+			//If you're not running
 			if (input_check_released(input.action_1)) {
 				
 				//Stop flying
@@ -779,24 +786,24 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 			//Otherwise, if you are running
 			else {
 			
-				// Create the flying Mario
-				fly = instance_create_depth(x, y, depth, obj_fly);
+				//Create the flying Mario
+				fly = instance_create_depth(x, y, depth, obj_mario_fly);
 			
-				// Stop the P-meter sound pre-maturely so it's not playing when you're flying
+				//Stop the P-meter sound pre-maturely so it's not playing when you're flying
 				audio_stop_sound(snd_pmeter);
 			
 				with (fly) {
 				
-					// Attach variables
+					//Attach variables
 					yadd = other.yadd;
 					xadd = other.xadd;
 					xspeed = other.xspeed;
 					yspeed = other.yspeed;
 				
-					// Set object reference
+					//Set object reference
 					owner = other.id;
 				
-					// Attach xscale
+					//Attach xscale
 					xscale = other.xscale;
 				
 				}
@@ -810,17 +817,21 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 		}
 		
 		//If the criteria is met to STOP flying 
-		else if ((global.powerup == cs_cape) && (flying) && (yspeed > 0) && (jumpstyle != 0 || global.mount != 0)) {
+		else if ((global.powerup == cs_cape) && (disablegrav <= 0) && ((jumpstyle != 0) || (holding != 0) || (global.mount != 0))) {
 		
 			// Then stop flying if spin jumping, mounted, etc.
 			flying = false;
+			enable_gravity = true;
 			state = playerstate.jump;		
 		}		
     }
     
     //Otherwise, enable ygrav.
-    else
-        disablegrav = 0;		
+    else {
+		
+        disablegrav = 0;
+		enable_gravity = true;
+	}
 }
 
 //Climb if overlapping a climbing surface.
@@ -960,13 +971,14 @@ if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_valu
 }
 
 //Cape falling when button held
-if ((global.powerup == cs_cape)
+if (global.powerup == cs_cape)
 && (input_check(input.action_0))
 && (wallkick < 1)
-&& (state == playerstate.jump)
 && (flying == false)
 && (swimming == false)
-&& (enable_control == 1)) {
+&& (groundpound == 0)
+&& (enable_control == 1)
+&& (state == playerstate.jump) {
 		
 	// Vertical speed cap
 	if (yspeed > 1.5)
@@ -1180,14 +1192,17 @@ if (global.powerup == cs_squirrel)
 
 //If Mario is in the air, the jump key is pressed and Mario can twirl in the air, perform twirl
 if (input_check_pressed(input.action_0))
-&& (allow_twirl)
+&& (allow_twirl == true)
 && (twirl == 0)
-&& (yspeed > 0.5)
 && (holding == 0)
 && (wallkick == 0)
 && (jumpstyle == 0)
 && (groundpound == 0)
-&& (state == playerstate.jump) {
+&& (disablegrav == 0)
+&& ((state == playerstate.jump) && (yspeed > 0.5))
+&& (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_wallspring, 0, 0))
+&& (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_trampoline, 0, 0))  
+&& (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_trampoline_static, 0, 0)) {
 
 	//Play 'Twirl sound
 	audio_play_sound(snd_twirl, 0, false);
@@ -1207,6 +1222,6 @@ if (input_check_pressed(input.action_0))
 	yadd = 0;
 }
 
-//Increase vertical speed while twirling
+//If Mario is twirling, move up a bit
 if (twirl == 1)
 	yspeed -= 0.5;

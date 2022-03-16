@@ -1,6 +1,6 @@
 /// @description Restart up animation
 
-if (sprite_index == spr_trampoline) {
+if (sprite_index == spr_trampoline_static) {
 
     //If the spring is about to launch the player upwards.
     if (s_ready == 1) {
@@ -37,12 +37,12 @@ if (sprite_index == spr_trampoline) {
     image_index = 0;
     
     //Set trampoline end sequence
-    sprite_index = spr_trampoline_end;
+    sprite_index = spr_trampoline_static_end;
 }
-else if (sprite_index == spr_trampoline_end) {
+else if (sprite_index == spr_trampoline_static_end) {
 
     //Set the sprite
-    sprite_index = spr_trampoline;
+    sprite_index = spr_trampoline_static;
 
     //Restart animation
     image_speed = 0;

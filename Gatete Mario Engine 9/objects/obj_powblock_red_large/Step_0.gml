@@ -17,7 +17,7 @@ if (mario) {
 		}
 	
 		//Create puller object
-		instance_create_depth(mario.x, y - 16, -5, obj_puller);
+		instance_create_depth(mario.x, y - 16, -5, obj_mario_puller);
 	
 		//Finish pull
 		alarm[0] = 20;

@@ -1,7 +1,7 @@
 /// @description Finish pull
 
 //If the puller object exists
-if (instance_exists(obj_puller)) {
+if (instance_exists(obj_mario_puller)) {
 
     //With Mario
     with (obj_mario) {
@@ -12,7 +12,7 @@ if (instance_exists(obj_puller)) {
     }
     
     //Destroy puller
-    with (obj_puller) instance_destroy();
+    with (obj_mario_puller) instance_destroy();
     
     //Destroy
     instance_destroy();

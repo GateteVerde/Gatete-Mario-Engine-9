@@ -23,14 +23,14 @@ else if (global.mount == 0) {
         && (other.crouch == 0)
         && (other.holding == 0)
 		&& (other.swimming == false)
-        && (!instance_exists(obj_wallrunner)) {
+        && (!instance_exists(obj_mario_wallrunner)) {
 			
             //If the player is facing left...
             if (other.xscale < 0) 
             && (collision_rectangle(bbox_left-4, y-9, bbox_left, y-8, obj_semisolid, 0, 0)) {
 				
 				//Create wall runner...
-                wall = instance_create_depth(x+15, y-8, -5, obj_wallrunner) {
+                wall = instance_create_depth(x+15, y-8, -5, obj_mario_wallrunner) {
 					
 					//...with these conditions
                     wall.xscale = other.xscale;
@@ -46,7 +46,7 @@ else if (global.mount == 0) {
             && (!collision_rectangle(x+24, bbox_bottom, x+25, bbox_bottom+4, obj_semisolid, 0, 0)) {
 				
 				//Create wall runner...
-                wall = instance_create_depth(x+15, y-8, -5, obj_wallrunner) {
+                wall = instance_create_depth(x+15, y-8, -5, obj_mario_wallrunner) {
 					
 					//...with these conditions
                     wall.xscale = other.xscale;

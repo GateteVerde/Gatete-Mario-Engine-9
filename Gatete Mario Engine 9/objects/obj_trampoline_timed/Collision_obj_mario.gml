@@ -69,22 +69,14 @@ if (!held) {
 #region MARIO LOGIC
 
 	//If the spring is ready
-	if (ready == 1) {
+	if (ready) {
 
-	    //Set idle state
-	    obj_mario.state = playerstate.idle;    
-    
-	    //Prevent Mario's gravity
-	    obj_mario.disablegrav = 1;
-
-	    //Prevent Mario from jumping.
-	    obj_mario.jumping = 2;
-    
-	    //Stop sliding
-	    obj_mario.sliding = 0;
-        
-	    //Set y position
-	    obj_mario.y = self.y+(image_index*2)-14;
+		//Force 'Idle' state, disable gravity and set y position
+		obj_mario.state = playerstate.idle;
+		obj_mario.disablegrav = 1;
+		obj_mario.jumping = 2;
+		obj_mario.sliding = 0;
+		obj_mario.y = self.y+(image_index*2)-14;
 	}
 
 #endregion

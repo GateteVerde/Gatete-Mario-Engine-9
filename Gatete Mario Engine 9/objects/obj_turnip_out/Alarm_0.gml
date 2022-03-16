@@ -29,13 +29,13 @@ depth = -6;
 drawpiece2 = 3;
 
 //If the puller object does exist...
-if (instance_exists(obj_puller)) {
+if (instance_exists(obj_mario_puller)) {
 
     //If the player is not small (Frame 2 and above)
-    if (obj_puller.image_index > 1)
+    if (obj_mario_puller.image_index > 1)
         vspeed += -2.5;
         
     //Otherwise, if the player is not big (Frame 1 and below)
-    else if (obj_puller.image_index <= 1)
+    else if (obj_mario_puller.image_index <= 1)
         vspeed += -1.5;
 }

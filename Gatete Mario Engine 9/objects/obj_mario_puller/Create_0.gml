@@ -18,5 +18,5 @@ with (obj_mario) {
 isflashing = 0;
 
 //Destroy spinner
-if (instance_exists(obj_spinner))
-    with (obj_spinner) instance_destroy();
+if (instance_exists(obj_mario_spinner))
+    with (obj_mario_spinner) instance_destroy();

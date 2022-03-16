@@ -1,7 +1,7 @@
 /// @description Create mushroom
 
 //If the puller object does exist
-if (instance_exists(obj_puller)) {
+if (instance_exists(obj_mario_puller)) {
 
     //Play 'Pickup' sound
     audio_play_sound(snd_pickup, 0, false);
@@ -13,7 +13,7 @@ if (instance_exists(obj_puller)) {
     }
     
 	//Set the puller sprite
-	with (obj_puller) sprite_index = global.duck_sprite[global.powerup];
+	with (obj_mario_puller) sprite_index = global.duck_sprite[global.powerup];
     
 	//Finish pull
 	alarm[1] = 15;

@@ -23,13 +23,13 @@ direct = obj_mario.xscale;
 isflashing = obj_mario.isflashing;
 
 //Destroy these objects first
-with (obj_spinner) instance_destroy();
-with (obj_dropdown) instance_destroy();
+with (obj_mario_spinner) instance_destroy();
+with (obj_mario_dropdown) instance_destroy();
 	
 //Hide player elements
 with (obj_cape) visible = false;
-with (obj_puller) visible = false;
-with (obj_wallrunner) visible = false;
+with (obj_mario_puller) visible = false;
+with (obj_mario_wallrunner) visible = false;
 
 //Make Mario invisible
 if (instance_exists(obj_mario)) {

@@ -10,7 +10,7 @@ if (can_carry()) {
     }
     
     //Create puller
-    instance_create_depth(other.x, other.y, -5, obj_puller);
+    instance_create_depth(other.x, other.y, -5, obj_mario_puller);
     
     //Finish pull
     alarm[0] = 40;

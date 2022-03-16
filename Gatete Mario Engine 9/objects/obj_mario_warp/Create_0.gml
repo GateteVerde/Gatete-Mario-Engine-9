@@ -22,5 +22,8 @@ holding = 0;
 myitem = -1;
 myframe = 0;
 
+//Cape animation
+cape_anim = 0;
+
 //Handle the palette of the player when invincible
 isflashing = 0;

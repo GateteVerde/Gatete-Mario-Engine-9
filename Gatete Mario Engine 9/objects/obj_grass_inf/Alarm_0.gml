@@ -1,7 +1,7 @@
 /// @description Finish pull
 
 //If the puller object does exist
-if (instance_exists(obj_puller)) {
+if (instance_exists(obj_mario_puller)) {
 
     //Play 'Pickup' sound
     audio_play_sound(snd_pickup, 0, false);

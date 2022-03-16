@@ -290,10 +290,10 @@ else {
     }
 	
     //If the horizontal speed is greater than the target speed, cap it
-    if (xspeed > 2.4)
-        xspeed = 2.4;
+    if (xspeed > 2.7)
+        xspeed = 2.7;
         
     //Otherwise, if the horizontal speed is lower than the target speed, cap it
-    if (xspeed < -2.4)
-        xspeed = -2.4;
+    if (xspeed < -2.7)
+        xspeed = -2.7;
 }

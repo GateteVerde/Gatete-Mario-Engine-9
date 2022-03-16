@@ -4,10 +4,10 @@
 event_inherited();
 
 //If Mario is flying with the cape
-if (instance_exists(obj_fly)) {
+if (instance_exists(obj_mario_fly)) {
 
-	//Check for the obj_fly object
-	var fly = collision_rectangle(bbox_left - 4, bbox_top - 12, bbox_right + 4, bbox_top, obj_fly, 0, 0);
+	//Check for the obj_mario_fly object
+	var fly = collision_rectangle(bbox_left - 4, bbox_top - 12, bbox_right + 4, bbox_top, obj_mario_fly, 0, 0);
 	
 	//If there's a flying object
 	if (fly)
