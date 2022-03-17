@@ -45,7 +45,19 @@ else {
 			//Red
 			case (spr_shell_red_classic): {
 			
-				instance_create_depth(x, y, -2, obj_koopa_red_classic); break;
+				instance_create_depth(x, y, -2, obj_koopa_red_classic);
+			} break;
+			
+			//Big Green
+			case (spr_shell_big): {
+			
+				instance_create_depth(x, y, -2, obj_koopa_big);
+			} break;
+			
+			//Big Red
+			case (spr_shell_red_big): {
+			
+				instance_create_depth(x, y, -2, obj_koopa_big_red);
 			} break;
 		
 			//Default

@@ -23,4 +23,7 @@ harmplayer = 0;
 alarm[0] = 16;
 
 //Whether this shell is falling through one tile gaps
-fall = 0;
+check = 0;
+
+//If big, create mask
+masher = -1;
