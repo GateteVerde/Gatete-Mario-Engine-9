@@ -36,7 +36,7 @@ else {
     //If the direction changed, speed up
     if (xspeed != prevxspeed) {
     
-        xspeed = sign(xspeed)*1.5;
+        xspeed = sign(xspeed)*2;
         if (yadd == 0) {
         
             yspeed = -1.5;
@@ -54,15 +54,15 @@ else {
             if (!instance_exists(obj_mario))
             || (obj_mario.x < x) {
             
-                xspeed -= 0.0324;
-                if (xspeed < -1.5)
-                    xspeed = -1.5;
+                xspeed -= 0.1;
+                if (xspeed < -2)
+                    xspeed = -2;
             }
             else {
             
-                xspeed += 0.0324;
-                if (xspeed > 1.5)
-                    xspeed = 1.5;
+                xspeed += 0.1;
+                if (xspeed > 2)
+                    xspeed = 2;
             }
         }
     }

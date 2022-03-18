@@ -70,6 +70,7 @@ else if (ready > 0) {
         //Reset jump
         if (jumping == 1)
         && (yadd == 0)
+		&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_shell, 0, 0))
             jumping = 0;              
     }
 }

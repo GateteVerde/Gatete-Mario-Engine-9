@@ -9,6 +9,9 @@ shard_sprite = spr_shard;
 //Whether this block can be hit
 ready = 0;
 
+//Question Mark position
+xx = xstart;
+
 //Set up depth
 depth = layer_get_depth("Main");
 

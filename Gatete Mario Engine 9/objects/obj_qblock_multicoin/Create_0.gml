@@ -23,5 +23,8 @@ coiny = 0;
 //Hits
 hits = 0;
 
+//Question Mark position
+xx = xstart;
+
 //Shard sprite
 shard_sprite = spr_shard;

@@ -15,5 +15,8 @@ dir = -1;
 //Anim
 anim = 0;
 
+//Question Mark position
+xx = xstart;
+
 //Start moving
 alarm[0] = 2;
