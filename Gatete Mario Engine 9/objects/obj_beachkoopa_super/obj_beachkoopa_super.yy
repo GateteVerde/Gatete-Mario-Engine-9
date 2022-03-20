@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_beachkoopa_red_walk",
-    "path": "sprites/spr_beachkoopa_red_walk/spr_beachkoopa_red_walk.yy",
+    "name": "spr_beachkoopa_super",
+    "path": "sprites/spr_beachkoopa_super/spr_beachkoopa_super.yy",
   },
   "solid": false,
   "visible": true,
@@ -11,8 +11,8 @@
   },
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_beachkoopa",
-    "path": "objects/obj_beachkoopa/obj_beachkoopa.yy",
+    "name": "obj_beachkoopa_red_super",
+    "path": "objects/obj_beachkoopa_red_super/obj_beachkoopa_red_super.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,19 +27,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Red",
-    "path": "folders/Objects/Enemies/Land/Koopas/Red.yy",
+    "name": "Green",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Land/Koopas/Green.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_beachkoopa_red",
+  "name": "obj_beachkoopa_super",
   "tags": [],
   "resourceType": "GMObject",
 }

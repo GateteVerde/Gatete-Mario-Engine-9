@@ -1,5 +1,9 @@
 /// @description Get a powerup
 
+//Do not pick up if it just came out from a block
+if (action == "sprout")
+exit;
+
 //Get 1000 points
 if (noscore == false) {
 			
