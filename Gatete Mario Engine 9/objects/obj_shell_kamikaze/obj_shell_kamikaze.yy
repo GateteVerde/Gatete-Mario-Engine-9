@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_shell_black",
-    "path": "sprites/spr_shell_black/spr_shell_black.yy",
+    "name": "spr_shell_spin",
+    "path": "sprites/spr_shell_spin/spr_shell_spin.yy",
   },
   "solid": false,
   "visible": true,

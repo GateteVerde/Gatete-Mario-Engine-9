@@ -11,7 +11,7 @@ if (obj_mario.crouch)
 	if ((colour = 1) && (mouthholder == obj_shell_kicked))
 	|| (mouthsprite == spr_shell_red) 
 	|| (mouthsprite == spr_shell_red_classic)
-	|| (mouthsprite == spr_shell_black)
+	|| (mouthsprite == spr_shell_spin)
 		mouthholder = obj_yoshi_fire;
 
     //Lock it
@@ -100,7 +100,7 @@ else {
 	if ((colour = 1) && (mouthholder == obj_shell_kicked))
 	|| (mouthsprite == spr_shell_red) 
 	|| (mouthsprite == spr_shell_red_classic)
-	|| (mouthsprite == spr_shell_black)
+	|| (mouthsprite == spr_shell_spin)
 		mouthholder = obj_yoshi_fire;
 
     //Lock it

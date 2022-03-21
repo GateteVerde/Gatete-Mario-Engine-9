@@ -4,7 +4,7 @@ if (mouthholder == obj_shell_kicked)
 && (instance_number(obj_yoshi_tongue) == 0) {
     
     //If the shell held in the mouth is a kamikaze one
-    if (mouthsprite == spr_shell_black) {
+    if (mouthsprite == spr_shell_spin) {
             
         //If 'Shift' is being held outside water
         if (input_check(input.action_0)) 

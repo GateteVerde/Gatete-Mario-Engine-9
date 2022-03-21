@@ -41,10 +41,10 @@ if (hunger == 0) && (ready == 0) {
 		#region Check sprite or Yoshi colour
 		
 			//If this is a kamikaze shell
-			if (other.sprite_index == spr_shell_black) {
+			if (other.sprite_index == spr_shell_spin) {
 			
 				obj_yoshi.mouthholder = obj_shell_kicked;
-				obj_yoshi.mouthsprite = spr_shell_black;
+				obj_yoshi.mouthsprite = spr_shell_spin;
 			}
 			
 			//Teal

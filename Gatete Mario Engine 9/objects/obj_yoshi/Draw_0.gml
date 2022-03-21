@@ -21,7 +21,7 @@ if (instance_exists(obj_mario)) {
     
         if (colour == 3)
         || (mouthsprite == spr_shell_blue)
-		|| (mouthsprite == spr_shell_black)
+		|| (mouthsprite == spr_shell_spin)
             draw_sprite_ext(spr_wing, flyanim, screen_round(x), screen_round(y)+1+(3 * obj_mario.crouch), image_xscale, 1, 0, c_white, 1);
 	}
 }

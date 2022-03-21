@@ -81,7 +81,7 @@ if (canmove == 1) {
             
                 if (obj_yoshi.colour == 3)
                 || (obj_yoshi.mouthsprite == spr_shell_blue) 
-				|| (obj_yoshi.mouthsprite == spr_shell_black) {
+				|| (obj_yoshi.mouthsprite == spr_shell_spin) {
                 
                     draw_sprite_ext(spr_wing, 0, screen_round(x)+12, screen_round(y), 1, 1, 0, c_white, 1);
                     draw_sprite_ext(spr_wing, 0, screen_round(x)-12, screen_round(y), -1, 1, 0, c_white, 1);
@@ -181,7 +181,7 @@ if (canmove == 1) {
 				//Draw the cape
 				if (global.powerup == cs_cape) {
 				
-					draw_sprite_ext(spr_cape, 1, screen_round(x), screen_round(y), image_xscale, 1, 0, c_white, 1);
+					draw_sprite_ext(spr_cape_climb, 1, screen_round(x), screen_round(y), image_xscale, 1, 0, c_white, 1);
 				}
 				
 				//Draw Mario
