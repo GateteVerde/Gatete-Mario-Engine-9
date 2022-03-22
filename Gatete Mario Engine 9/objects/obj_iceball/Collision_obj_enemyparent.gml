@@ -4,8 +4,8 @@
 if (other.vulnerable < 2) {
 	
 	//If the enemy has a width and a height of over 48 pixels, do not freeze
-	if (sprite_width > 48)
-	&& (sprite_height > 48) {
+	if (sprite_width > 32)
+	|| (sprite_height > 32) {
 	
 		event_user(0);
 		exit;

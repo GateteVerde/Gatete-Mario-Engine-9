@@ -288,29 +288,22 @@ if (enable_gravity == 1) {
 	
 	//Manage freeze time
 	if (freezetime > 0) {
+		
+		//Decrement freezetime
+		freezetime--;
 	
 		//If the freeze status is about to end
 		if (freezetime == 1) {
 		
-			/*Play 'Shatter' sound
-			audio_stop_play_sound(snd_shatter, 0, false);
+			//Play 'Shatter' sound
+			audio_play_sound(snd_icicle, 0, false);
 			
 			//Repeat 32 times
 			repeat (32) {
 			
-				with (instance_create_layer(bbox_left + sprite_width/2 - 4, bbox_top + sprite_height / 2 - 4, "Front", obj_smoke)) {
-				
-					//Set up sprite
-					sprite_index = spr_sparkle_small;
-					
-					//Animate
-					image_speed = 0.1;
-					
-					//Motion
+				with (instance_create_depth(bbox_left + sprite_width/2, bbox_top + sprite_height / 2, -6, obj_sparkle))
 					motion_set(random(360), random(1));
-				}
-			
-			*/
+			}
 			
 			//Stop freeze status
 			freezetime = 0;

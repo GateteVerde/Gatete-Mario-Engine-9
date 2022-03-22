@@ -1,4 +1,4 @@
-/// @description Freeze Hammer Bro
+/// @description Freeze Boomerang Bro
 
 //Inherit the parent event
 event_inherited();
