@@ -1,7 +1,7 @@
 /// @description Dead enemy logic
 
 //Set up angle
-angle += -10*sign(hspeed);
+angle += 10*sign(hspeed);
 if (abs(angle) > 360) {
 		
 	angle = 0;
