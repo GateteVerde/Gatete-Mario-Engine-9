@@ -8,9 +8,6 @@ if (sprite_index != spr_charginchuck_damage) {
         //If the enemy can be killed with 1 or 2 projectile hits, insta-stomp the NPC.
         if (firehp < 2) {
 			
-			//Play 'Kick' sound
-			audio_play_sound(snd_kick, 0, false);
-			
 			//Get 2000 points
 			with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score)) value = 2000;
 			
@@ -35,6 +32,9 @@ if (sprite_index != spr_charginchuck_damage) {
             //Decrement firehp by 2
             firehp -= 2;
 			
+			//Push Mario depending of position
+			 other.xspeed += lengthdir_x(4, point_direction(x, y, other.x, other.y));
+
 			//Deny event
 			alarm[10] = -1;
         }

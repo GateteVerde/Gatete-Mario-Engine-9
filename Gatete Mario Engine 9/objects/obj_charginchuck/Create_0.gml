@@ -19,8 +19,8 @@ edible = 2;
 turn_silver = 0;
 
 //NPC Health
-hp = 3;
-firehp = 5;
+hp = 2;
+firehp = 4;
 
 //Whether this enemy is lookin' for Mario
 lookout = -1;
