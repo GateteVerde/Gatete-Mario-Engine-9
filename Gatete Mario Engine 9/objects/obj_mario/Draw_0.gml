@@ -1,5 +1,8 @@
 /// @description Draw Mario
 
+//Animate stun effect
+stunanim += 0.5;
+
 //If no flying object exists
 if (fly != noone)
 	return;
@@ -30,8 +33,14 @@ if (sprite_index > -1) {
 				else
 					draw_sprite_custom_origin(sprite_index, image_index, screen_round(x), screen_round(y)+1, sprite_get_xoffset(sprite_index), 16, xscale, yscale, angle, image_blend, image_alpha);				
 			}
-			else
-				draw_sprite_custom_origin(sprite_index, image_index, screen_round(x), screen_round(y)+1, sprite_get_xoffset(sprite_index), sprite_height, xscale, yscale, 0, image_blend, image_alpha);
+			else {
+				
+				draw_sprite_custom_origin(sprite_index, image_index, screen_round(x), screen_round(y) + 1 + shake, sprite_get_xoffset(sprite_index), sprite_height, xscale, yscale, 0, image_blend, image_alpha);
+				if (stuntime > 0) {
+					
+					draw_sprite_ext(spr_shake, stunanim, screen_round(x), screen_round(y)+1, 1, 1, 0, c_white, 1);
+				}
+			}
 		}
 	}
 }

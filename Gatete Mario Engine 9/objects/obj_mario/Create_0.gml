@@ -191,6 +191,7 @@ twirl = 0;
 
 //Prevents the player from moving if stunned
 stuntime = 0;
+stunanim = 0;
 
 //Prevents the player from moving if frozen
 freezetime = 0;

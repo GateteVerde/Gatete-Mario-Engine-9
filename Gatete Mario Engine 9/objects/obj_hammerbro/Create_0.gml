@@ -17,6 +17,7 @@ for (i=0; i<12; i++) {
 	
 	save_alm[i] = -1;
 }
+
 //Jump upwards / downwards
 alarm[0] = 4;
 

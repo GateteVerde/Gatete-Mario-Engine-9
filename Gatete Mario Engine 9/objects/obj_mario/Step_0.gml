@@ -265,6 +265,9 @@ if (enable_gravity == 1) {
 	
 	//Manage stun time
 	if (stuntime > 0) {
+		
+		//Disable control
+		enable_control = false;
 	
 		//If the stun status is about to end
 		if (stuntime == 1) {
@@ -283,7 +286,15 @@ if (enable_gravity == 1) {
 		stuntime--;
 		
 		//Set up shake offset
-		shake = -shake;
+		if (shake != 1)
+			shake = 1;
+		else
+			shake = 0;
+	}
+	else {
+	
+		if (shake != 0)
+			shake = 0;
 	}
 	
 	//Manage freeze time

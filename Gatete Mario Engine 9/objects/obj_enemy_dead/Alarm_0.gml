@@ -1,5 +1,6 @@
 /// @description Check sprite
 
+//Beach Koopas
 if (sprite_index == spr_beachkoopa_super_dead)
 || (sprite_index == spr_beachkoopa_red_super_dead)
 || (sprite_index == spr_beachkoopa_blue_super_dead)

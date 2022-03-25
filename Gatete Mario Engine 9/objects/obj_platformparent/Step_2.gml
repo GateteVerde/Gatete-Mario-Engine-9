@@ -53,7 +53,7 @@
 				if (!collision_rectangle(list[| i].bbox_left, bbox_top-5, list[| i].bbox_right, bbox_top+1, obj_semisolid, 0, 1)) {
 	
 				    //Snap the player vertically
-				    list[| i].y = ceil(bbox_top-list[| i].sprite_height);
+				    list[| i].y = ceil(bbox_top-15);
 					
 					//If the platform can transport NPCs horizontally
 					if (no_horiz == false) {
@@ -205,10 +205,16 @@ if (issolid == true) {
 		if (count_j > 0) {
 			
 			for (var j=0; j<count_j; j++) {
-		
-				if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top+4, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
-				|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
-					list_j[| j].x += x-xprevious;
+				
+				//If the NPC is below the top boundary
+				if (list_j[| j].bbox_bottom > yprevious+5) 
+				&& (list_j[| j].bbox_bottom < bbox_bottom) {
+				
+					//Push it
+					if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top+4, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
+					|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
+						list_j[| j].x += x-xprevious;
+				}
 			}
 		}
 		
