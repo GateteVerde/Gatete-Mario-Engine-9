@@ -29,16 +29,8 @@
 //Set up object to follow
 follow_which_mario();
 
-//If the autoscroll object does exist
-if (instance_exists(obj_autoscroll)) {
-    
-    //Snap into position
-    x = obj_autoscroll.x;
-    y = obj_autoscroll.y;
-}
-
-//Otherwise
-else if (room != rm_bonus) {
+//If the room is not the 'Mushroom House' one
+if (room != rm_bonus) {
 	
 	//If the camera is not following an object
 	if (follow != noone) {
@@ -52,9 +44,27 @@ else if (room != rm_bonus) {
         
 		//Otherwise, perform movement depending of the given conditions
 		else {
+			
+			//If the autoscroll object does exist
+			if (instance_exists(obj_autoscroll)) {
+    
+				//Stay relative to Mario's y position or not.
+				x = obj_autoscroll.x;
+				
+				//Stay relative to Mario's y position or not.
+				if (camlock == 0)
+					y = obj_autoscroll.y;
+				else {
+					
+					if (instance_exists(obj_mario))
+						y = obj_mario.y;
+					else
+						y = follow.y
+				}
+			}
         
 		    //Stay relative to Mario's y position
-		    if (instance_exists(obj_mario)) {
+		    else if (instance_exists(obj_mario)) {
 				
 				#region HORIZONTAL BARRIER
 				
