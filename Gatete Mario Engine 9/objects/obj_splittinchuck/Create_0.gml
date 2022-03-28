@@ -1,4 +1,4 @@
-/// @description Confused Chuck
+/// @description Splittin' Chuck
 
 //Inherit event from chuck
 event_inherited();
@@ -7,6 +7,9 @@ event_inherited();
 stomp = 4;
 
 //How edible is this enemy to Yoshi?
+//0:	Edible
+//1:	Edible, but create a item
+//2:	Non-Edible
 edible = 2;
 
 //Does this enemy turn into a silver coin?
@@ -16,20 +19,10 @@ turn_silver = 0;
 hp = 2;
 firehp = 4;
 
-//Do not animate
-image_speed = 0;
-image_index = 0;
+//Offset
+offset = 0;
 
-//Number of balls to throw
-balls = round(random_range(2, 5));
-
-//Whether the chuck is jumping
-jumping = 0;
-
-//Whether the chuck is throwing
-throwing = 0;
-
-//Throw balls
+//Split into 3
 alarm[0] = 60;
 
 //Deny alarm 10

@@ -3,9 +3,6 @@
 //Inherit the parent event
 event_inherited();
 
-//Turn towards walls?
-turn_toward = -1;
-
 //How vulnerable is this enemy to Mario?
 stomp = 4;
 

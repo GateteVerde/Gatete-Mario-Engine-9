@@ -1,4 +1,4 @@
-/// @description Confused Chuck
+/// @description Passin' Chuck
 
 //Inherit event from chuck
 event_inherited();
@@ -20,16 +20,10 @@ firehp = 4;
 image_speed = 0;
 image_index = 0;
 
-//Number of balls to throw
-balls = round(random_range(2, 5));
+//Whether the chuck is about to kick
+ready = 0;
 
-//Whether the chuck is jumping
-jumping = 0;
-
-//Whether the chuck is throwing
-throwing = 0;
-
-//Throw balls
+//Prepare a ball
 alarm[0] = 60;
 
 //Deny alarm 10

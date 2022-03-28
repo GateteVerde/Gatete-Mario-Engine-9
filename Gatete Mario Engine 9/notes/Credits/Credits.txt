@@ -11,6 +11,7 @@ Doc Melonhead
 Gate
 Geoshi
 Hellfire
+JRMaster
 Kirb
 Kopejo
 Leanne
@@ -38,6 +39,8 @@ SMWCentral.net
 TheMushroomKingdom.net
 
 - Beta Testers -
+Bugsie
+Karasz
 Vexxter
 
 - Special Thanks -
