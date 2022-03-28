@@ -1,10 +1,7 @@
-/// @description Chargin' Chuck
+/// @description Clappin' Chuck
 
 //Inherit the parent event
 event_inherited();
-
-//Turn towards walls?
-turn_toward = -1;
 
 //How vulnerable is this enemy to Mario?
 stomp = 4;
@@ -22,15 +19,14 @@ turn_silver = 0;
 hp = 2;
 firehp = 4;
 
-//Whether this enemy is lookin' for Mario
-lookout = -1;
+//Whether chuck is clapping
+clap = 0;
 
 //Do not animate
 image_speed = 0;
-image_index = 0;
 
-//Make noises when chargin
-alarm[0] = 6;
+//Jump
+alarm[0] = 15;
 
-//Start moving
-alarm[10] = 60;
+//Deny alarm 10
+alarm[10] = -1;

@@ -1,4 +1,4 @@
-/// @description Chargin' Chuck
+/// @description Bouncin' Chuck
 
 //Inherit the parent event
 event_inherited();
@@ -22,15 +22,17 @@ turn_silver = 0;
 hp = 2;
 firehp = 4;
 
-//Whether this enemy is lookin' for Mario
-lookout = -1;
+//Offset
+offset = 0;
 
-//Do not animate
+//Whether this object is jumping
+jumping = 0;
+
+//Animate
 image_speed = 0;
-image_index = 0;
 
-//Make noises when chargin
-alarm[0] = 6;
+//Jump
+alarm[0] = 15;
 
-//Start moving
-alarm[10] = 60;
+//Deny alarm 10
+alarm[10] = -1;
