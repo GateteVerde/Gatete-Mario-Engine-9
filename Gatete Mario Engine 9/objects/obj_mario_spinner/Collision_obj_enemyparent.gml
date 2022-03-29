@@ -1,5 +1,9 @@
 /// @description Kill enemy NPCs with a tail spin
 
+//Exit if any of the following conditions is met
+if ((other.object_index == obj_dinorhino) && (global.powerup != cs_ranger))
+exit;
+
 //If the item can be stunned
 if (other.edible == 1) {
 		
