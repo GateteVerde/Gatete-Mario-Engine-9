@@ -18,7 +18,7 @@ function ai_npc_wall(freezeuponwall) {
 			//If there's no gravity, hop
 			if (yadd == 0) {
 			
-				yspeed = -4.5;
+				yspeed = (swimming) ? -2.5 : -5;
 				y--;
 			}
 			
@@ -51,7 +51,7 @@ function ai_npc_wall(freezeuponwall) {
 			//If there's no gravity, hop
 			if (yadd == 0) {
 			
-				yspeed = -4.5;
+				yspeed = (swimming) ? -2.5 : -5;
 				y--;
 			}
 			

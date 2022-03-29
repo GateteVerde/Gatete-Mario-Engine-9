@@ -2,6 +2,7 @@
 
 //If Mario does not exist
 if (yadd > 0)
+|| (freeze == true)
 || (!instance_exists(obj_mario)) {
 
     alarm[10] = 1;
