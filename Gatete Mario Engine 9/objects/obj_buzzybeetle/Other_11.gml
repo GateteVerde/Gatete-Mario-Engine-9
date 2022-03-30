@@ -1,4 +1,4 @@
-/// @description Make the koopa hide inside the shell
+/// @description Make the buzzy beetle hide inside the shell
 
 with (instance_create_depth(x, y, -2, obj_shell)) {
 
