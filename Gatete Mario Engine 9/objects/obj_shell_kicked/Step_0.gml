@@ -23,25 +23,36 @@ if (sign(xspeed) != sign(prevxspeed)) {
 	with (instance_create_depth(x+(5*sign(prevxspeed)), y, -6, obj_shellthump)) bump = true;
 }
 
-//If this is a big shell, create mask
-if (sprite_index == spr_shell_big) 
-|| (sprite_index == spr_shell_red_big) {
+//Set flags depending of sprite
+switch (sprite_index) {
+
+	//Big Shell, Red Big Shell
+	case (spr_shell_big):
+	case (spr_shell_red_big): {
 	
-	//Set mask
-	mask_index = spr_mask_npc_common_32x32;
+		//Set mask
+		mask_index = spr_mask_npc_common_32x32;
 	
-	//Make it non-edible
-	edible = 2;
+		//Make it non-edible
+		edible = 2;
 	
-	//If the masher does not exist, create it
-	if (masher == -1)
-		masher = instance_create_layer(x, y, "Main", obj_shell_mask);
+		//If the masher does not exist, create it
+		if (masher == -1)
+			masher = instance_create_layer(x, y, "Main", obj_shell_mask);
 	
-	//Otherwise, if it exists
-	else if (masher != -1) {
+		//Otherwise, if it exists
+		else if (masher != -1) {
 		
-		masher.x = round(x);
-		masher.y = round(y);
-		masher.image_xscale = 1 * sign(xspeed);
-	}
+			masher.x = round(x);
+			masher.y = round(y);
+			masher.image_xscale = 1 * sign(xspeed);
+		}
+	} break;
+	
+	//Buzzy Beetle
+	case (spr_shell_buzzy):	{
+		
+		vulnerable = 1;
+		edible = 0; 
+	} break;
 }

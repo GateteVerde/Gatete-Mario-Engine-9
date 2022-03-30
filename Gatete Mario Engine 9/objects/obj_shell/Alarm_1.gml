@@ -27,6 +27,12 @@ else {
 			
 				instance_create_depth(x, y, -2, obj_beachkoopa_blue);
 			} break;
+			
+			//Yellow Koopa
+			case (spr_shell_yellow): {
+			
+				instance_create_depth(x, y, -2, obj_beachkoopa_yellow);
+			} break;
 	
 			//Default (Green Shell)
 			default: instance_create_depth(x, y, -2, obj_beachkoopa); break;
@@ -42,22 +48,28 @@ else {
 		//Check sprite
 		switch (sprite_index) {
 			
-			//Red
+			//Red Koopa
 			case (spr_shell_red_classic): {
 			
 				instance_create_depth(x, y, -2, obj_koopa_red_classic);
 			} break;
 			
-			//Big Green
+			//Big Green Koopa
 			case (spr_shell_big): {
 			
 				instance_create_depth(x, y, -2, obj_koopa_big);
 			} break;
 			
-			//Big Red
+			//Big Red Koopa
 			case (spr_shell_red_big): {
 			
 				instance_create_depth(x, y, -2, obj_koopa_big_red);
+			} break;
+			
+			//Buzzy Beetle
+			case (spr_shell_buzzy): {
+			
+				instance_create_depth(x, y, -2, obj_buzzybeetle);
 			} break;
 		
 			//Default

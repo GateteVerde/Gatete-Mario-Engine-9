@@ -19,7 +19,7 @@ if (hunger == 0) && (ready == 0) {
 		}
 		
 		//Otherwise, if this item is a koopa shell
-		else if (other.object_index == obj_shell) {
+		else if ((other.object_index == obj_shell) && (other.edible == 1)) {
 			
 			obj_yoshi.mouthholder = obj_shell_kicked;
 			obj_yoshi.mouthsprite = other.sprite_index;
