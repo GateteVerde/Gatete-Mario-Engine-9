@@ -32,8 +32,12 @@ if (mario)
 			//Palette
 			palette = other.palette;
 			
-			//Height
+			//Width / Height
+			image_xscale = other.image_xscale;
 			image_yscale = other.image_yscale;
+			
+			//Angle
+			image_angle = other.image_angle;
 		}
 
 		//Destroy pipe
@@ -47,7 +51,7 @@ if (mario)
 		if (stomped == 0) {
 			
 			//If the solid mask scale is greater than 1
-			if (image_yscale > 0.34) {
+			if (image_angle == 0) && (image_yscale > 0.34) {
 				
 				//Decrement scale
 				image_yscale -= 1/3;
