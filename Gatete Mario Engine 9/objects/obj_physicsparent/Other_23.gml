@@ -18,3 +18,13 @@ yspeed = 0;
 //Remember gravity
 save_grav = yadd;
 yadd = 0;
+
+//Remember alarms
+for (var i=0; i<12; i++) {
+
+	if (alarm[i] > -1) {
+		
+		save_alm[i] += alarm[i];
+		alarm[i] = -1;
+	}
+}

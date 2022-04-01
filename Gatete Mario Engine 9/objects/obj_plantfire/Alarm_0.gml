@@ -1,5 +1,5 @@
-/// @description Leave a trail
+/// @description Obtain motion
 
-alarm[0] = 2;
-with (instance_create_depth(x, y+4, -1, obj_smoke))
-    sprite_index = spr_cinder;
+xspeed = hspeed;
+yspeed = vspeed;
+speed = 0;

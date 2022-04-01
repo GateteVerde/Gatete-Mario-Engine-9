@@ -6,6 +6,9 @@ image_speed = 0;
 //Play 'Dead' fanfare
 audio_play_sound(snd_dead, 0, false);
 
+//Freeze all physicsparent object
+with (obj_physicsparent) event_user(13);
+
 //Stop stream
 with (obj_levelcontrol) {
 

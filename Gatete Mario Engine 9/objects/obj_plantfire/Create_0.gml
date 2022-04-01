@@ -1,7 +1,13 @@
-/// @description Fire Piranha Plant fireball
+/// @description Venus Fire Trap fireball
 
-//Leave a trail
+//Inherit event
+event_inherited();
+
+//Obtain motion
 alarm[0] = 1;
+
+//Generate effect
+numb = 0;
 
 //Create a light
 if (instance_exists(obj_lightcontrol)) {

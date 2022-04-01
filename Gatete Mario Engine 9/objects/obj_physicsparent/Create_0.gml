@@ -7,6 +7,10 @@ yadd = 0;
 save_xsp = 0;
 save_ysp = 0;
 save_grav = 0;
+for (var i=0; i<12; i++) {
+
+	save_alm[i] = -1;
+}
 
 //Animation speed save
 save_ims = 0;

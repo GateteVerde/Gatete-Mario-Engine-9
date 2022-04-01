@@ -101,6 +101,7 @@
     {"id":{"name":"obj_parakoopa_red_horiz","path":"objects/obj_parakoopa_red_horiz/obj_parakoopa_red_horiz.yy",},"order":4,},
     {"id":{"name":"obj_parakoopa_big_jump","path":"objects/obj_parakoopa_big_jump/obj_parakoopa_big_jump.yy",},"order":2,},
     {"id":{"name":"obj_koopa_blue","path":"objects/obj_koopa_blue/obj_koopa_blue.yy",},"order":0,},
+    {"id":{"name":"obj_venusfiretrap_large","path":"objects/obj_venusfiretrap_large/obj_venusfiretrap_large.yy",},"order":4,},
     {"id":{"name":"spr_superball","path":"sprites/spr_superball/spr_superball.yy",},"order":4,},
     {"id":{"name":"spr_mario_tanooki_climb","path":"sprites/spr_mario_tanooki_climb/spr_mario_tanooki_climb.yy",},"order":5,},
     {"id":{"name":"spr_mask_view","path":"sprites/spr_mask_view/spr_mask_view.yy",},"order":5,},
