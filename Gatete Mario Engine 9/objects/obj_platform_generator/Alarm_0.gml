@@ -1,7 +1,9 @@
 /// @description Generate the platform if the generator is inside the view.
 
 //If the generator is inside the view
-if (x > camera_get_view_x(view_camera[0]) - sprite_width)
+if (!instance_exists(obj_mario_dead))
+&& (!instance_exists(obj_mario_transform))
+&& (x > camera_get_view_x(view_camera[0]) - sprite_width)
 && (x < camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])) {
 
     //Generate a platform

@@ -1,13 +1,10 @@
 /// @description Pendulum Platform (Platform)
 
+//Inherit the parent event
+event_inherited();
+
 //Parent of the object
 parent = noone;
-
-//Make it non-solid
-issolid = false;
-
-//Make it able to carry horizontally
-no_horiz = false;
 
 //Start position
 xx = xstart;

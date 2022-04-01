@@ -1,4 +1,10 @@
 /// @description Generate a log if this object is inside the view
+if (!instance_exists(obj_mario_dead))
+&& (!instance_exists(obj_mario_transform)) {
+
+	alarm[0] = 1;
+	exit;
+}
 
 if (x < camera_get_view_x(view_camera[0]) - sprite_width)
 || (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])) {

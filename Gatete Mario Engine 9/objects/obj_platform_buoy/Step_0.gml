@@ -1,7 +1,8 @@
 /// @description Buoy Platform Logic
 
 //If a water surface exists
-if (water != -1) {
+if (water != -1) 
+&& (freeze == false) {
 	
 	//If the y position is greater than the water y position
 	if (y > water.y-8) {
