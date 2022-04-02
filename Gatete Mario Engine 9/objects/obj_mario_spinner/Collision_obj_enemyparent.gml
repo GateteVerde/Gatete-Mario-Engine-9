@@ -33,23 +33,6 @@ else {
 		//Set killer id and kill
 		killer_id = other.id;
 		event_user(0);
-	
-		//If this object sprite is one of the following
-		if (global.powerup == cs_cape)
-		|| (global.powerup == cs_raccoon)
-		|| (global.powerup == cs_tanooki)
-		|| (global.powerup == cs_fraccoon)
-		|| (global.powerup == cs_iraccoon) {
-		
-			//Set vertical speed
-			imdead.vspeed = (swimming) ? -1.5 : -6;
-	
-			//Set horizontal speed
-			if (other.bbox_left + other.bbox_right/2 < bbox_left + bbox_right/2)
-				imdead.hspeed = 0.5;
-			else if (other.bbox_left + other.bbox_right/2 > bbox_left + bbox_right/2)
-				imdead.hspeed = -0.5;
-		}
 	}
 
 	//Get 200 points
