@@ -5,6 +5,7 @@
 
 function shake_camera(intensity, time, falloff) {
 	
+	//If the level controller exists
 	if (instance_exists(obj_levelcontrol)) {
 		
 		obj_levelcontrol.shake_intensity = intensity;
@@ -12,10 +13,9 @@ function shake_camera(intensity, time, falloff) {
 		obj_levelcontrol.shake_starttime = time;
 		obj_levelcontrol.shake_falloff = falloff;
 		
-	} else {
-		
-		show_debug_message("ERROR: No camera to shake!");
-		
 	}
-
+	
+	//Otherwise, display error
+	else
+		show_debug_message("ERROR: No camera to shake!");
 }

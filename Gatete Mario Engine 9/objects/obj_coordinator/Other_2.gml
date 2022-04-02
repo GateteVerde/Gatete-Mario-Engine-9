@@ -184,5 +184,5 @@
 	
 #endregion
 
-// Apply camera settings
+//Apply camera settings
 alarm[0] = 1;

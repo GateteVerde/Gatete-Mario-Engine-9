@@ -1,5 +1,6 @@
 /// @function									freeze_create(surface[OPTIONAL]);
 /// @param {surface} surface[OPTIONAL]			The surface to create the pre-freeze from
+
 function freeze_create() {
 	
 	//The snapshot itself
