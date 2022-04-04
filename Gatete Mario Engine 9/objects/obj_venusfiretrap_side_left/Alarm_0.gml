@@ -4,6 +4,6 @@
 if (ready == 0)
 	ready = 1;
 	
-//Otherwise, come inside the pipe
+//Otherwise, come in
 else if (ready == 2)
 	ready = 3;

@@ -22,7 +22,7 @@ if (other.edible == 1) {
 }
 
 //Otherwise
-else {
+else if (other.vulnerable < 2) {
 
 	//Play 'Kick' sound
 	audio_play_sound(snd_kick, 0, false);

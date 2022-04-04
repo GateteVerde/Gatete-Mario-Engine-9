@@ -1,4 +1,4 @@
-/// @description Venus Fire Traps
+/// @description Venus Fire Trap
 
 //Inherit the parent event
 event_inherited();

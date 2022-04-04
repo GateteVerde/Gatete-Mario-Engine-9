@@ -7,7 +7,7 @@ event_inherited();
 if (object_index != obj_spiny_ceiling) {
 
 	//Check for a nearby swimming surface
-	var water = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 1, 0);
+	var water = collision_line(bbox_left, y+8, bbox_right, y+8, obj_swim, 0, 0);
 
 	//If the spiny is in contact with water
 	if (water) {
@@ -19,7 +19,7 @@ if (object_index != obj_spiny_ceiling) {
 		xspeed = 0;
 	
 		//Set the vertical speed
-		yspeed -= 0.1;
+		yspeed -= 0.2;
 		if (yspeed < -2)
 			yspeed = -2;
 	}
