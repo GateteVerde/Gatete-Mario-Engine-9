@@ -15,9 +15,6 @@ if (gswitch_on == true) {
 	//Reset G-Switch warning
 	gswitch_warn = 0;
 	
-	//Reset silver coins
-	global.coins_silver = 0;
-	
     //Restart the invincibility music if it was stopped due to overlap.
     if (instance_exists(obj_invincibility)) {
     

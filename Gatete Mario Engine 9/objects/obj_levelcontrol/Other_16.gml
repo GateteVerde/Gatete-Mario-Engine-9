@@ -6,6 +6,9 @@ if (gswitch_on == false) {
 	//Activate event
 	gswitch_on = true;
 	
+	//Reset silver coins
+	global.coins_silver = 0;
+	
     //Start the switch song if it's not playing.
     alarm[1] = 1;
     if (!audio_is_playing(snd_pswitch)) {
