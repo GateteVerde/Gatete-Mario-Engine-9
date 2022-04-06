@@ -97,6 +97,9 @@ tjtime = 0;
 //1: Side (SMB1)
 climbstyle = 0;
 
+//Checks if Mario jumped
+isjump = 0;
+
 //Checks for slippery surfaces
 isslip = 0;
 

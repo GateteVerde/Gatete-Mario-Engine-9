@@ -294,6 +294,9 @@ if (inwall == 0)
         
         //Enable variable jumping
         jumping = 1;
+		
+		//Mario jumped
+		isjump = 1;
         
         //Jump high if you have the frog powerup, and you are not riding anything
         if (global.powerup == cs_frog)    

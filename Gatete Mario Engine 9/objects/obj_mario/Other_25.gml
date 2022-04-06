@@ -63,6 +63,7 @@ beefly = 0;
 
 //Allow the player to jump again
 jumping = 0;
+isjump = 0;
 
 //Reset spin jump variable
 jumpstyle = 0;
