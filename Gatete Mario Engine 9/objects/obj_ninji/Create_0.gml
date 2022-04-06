@@ -16,6 +16,9 @@ edible = 0;
 jump = 0;
 jumping = 0;
 
+//If allowed throws kunais
+toss = 0;
+
 //Animate
 image_speed = 0;
 

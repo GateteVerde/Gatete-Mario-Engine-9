@@ -1,18 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_ninji",
-    "path": "sprites/spr_ninji/spr_ninji.yy",
+    "name": "spr_ninji_kunai",
+    "path": "sprites/spr_ninji_kunai/spr_ninji_kunai.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_mask_npc_common_16x16",
-    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemyparent_deact",
-    "path": "objects/obj_enemyparent_deact/obj_enemyparent_deact.yy",
+    "name": "obj_physicsparent",
+    "path": "objects/obj_physicsparent/obj_physicsparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,19 +25,19 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"kunai","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Land",
-    "path": "folders/Objects/Enemies/Land.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Land.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ninji",
+  "name": "obj_ninji_kunai",
   "tags": [],
   "resourceType": "GMObject",
 }

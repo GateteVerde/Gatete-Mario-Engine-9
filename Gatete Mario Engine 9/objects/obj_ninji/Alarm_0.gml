@@ -28,7 +28,11 @@ if (jumping == 0) {
         case (3): {
         
 			//Set vertical speed
-			yspeed = (swimming) ? -2.75 : -5.25;                   
+			yspeed = (swimming) ? -2.75 : -5.25;
+			
+			//If the Ninji can throw kunais
+			if (kunai == true)
+				toss = 1;
         } break;
     }
     
