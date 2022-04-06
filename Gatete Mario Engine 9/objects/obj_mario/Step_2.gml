@@ -738,8 +738,25 @@ else {
     //Otherwise, if Mario is carrying something over his head
     else if (holding == 1) {
     
-        //Set up the sprite
-        sprite_index = global.carry_sprite[global.powerup];
+		#region SPRITE
+		
+	        //Set up the sprite
+			if (global.powerup != cs_raccoon)
+			&& (global.powerup != cs_tanooki)
+			&& (global.powerup != cs_fraccoon)
+			&& (global.powerup != cs_iraccoon)
+				sprite_index = global.carry_sprite[global.powerup];
+			
+			//Otherwise
+			else {
+
+				if (state == playerstate.jump)
+					sprite_index = global.carry_jump_sprite[global.powerup];
+				else
+					sprite_index = global.carry_sprite[global.powerup];
+			}
+		
+		#endregion
         
         //If Mario is not walking
         if (state == playerstate.idle) {
@@ -883,8 +900,28 @@ else {
         //Set the sprite
         if (!turning) {
 			
-			if (state != playerstate.climb)
-				sprite_index = global.hold_sprite[global.powerup];
+			if (state != playerstate.climb) {
+				
+				#region SPRITE
+		
+			        //Set up the sprite
+					if (global.powerup != cs_raccoon)
+					&& (global.powerup != cs_tanooki)
+					&& (global.powerup != cs_fraccoon)
+					&& (global.powerup != cs_iraccoon)
+						sprite_index = global.hold_sprite[global.powerup];
+			
+					//Otherwise
+					else {
+
+						if (state == playerstate.jump)
+							sprite_index = global.hold_jump_sprite[global.powerup];
+						else
+							sprite_index = global.hold_sprite[global.powerup];
+					}
+		
+				#endregion
+			}
 			else
 				sprite_index = global.climb_sprite[global.powerup];
 		}
@@ -895,8 +932,25 @@ else {
     //Otherwise, if Mario is carrying a boomerang
     else if (holding == 3) {
     
-        //Set up the sprite
-        sprite_index = global.hold2_sprite[global.powerup];
+		#region SPRITE
+		
+	        //Set up the sprite
+			if (global.powerup != cs_raccoon)
+			&& (global.powerup != cs_tanooki)
+			&& (global.powerup != cs_fraccoon)
+			&& (global.powerup != cs_iraccoon)
+				sprite_index = global.hold2_sprite[global.powerup];
+			
+			//Otherwise
+			else {
+
+				if (state == playerstate.jump)
+					sprite_index = global.hold2_jump_sprite[global.powerup];
+				else
+					sprite_index = global.hold2_sprite[global.powerup];
+			}
+		
+		#endregion
         
         //If Mario is not walking
         if (state == playerstate.idle) {
