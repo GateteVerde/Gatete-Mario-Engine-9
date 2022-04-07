@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_fireball",
-    "path": "sprites/spr_fireball/spr_fireball.yy",
+    "name": "spr_pricklyvenusfiretrap",
+    "path": "sprites/spr_pricklyvenusfiretrap/spr_pricklyvenusfiretrap.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_physicsparent",
-    "path": "objects/obj_physicsparent/obj_physicsparent.yy",
+    "name": "obj_venusfiretrap_large",
+    "path": "objects/obj_venusfiretrap_large/obj_venusfiretrap_large.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,20 +25,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Piranha Plants",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Underground/Piranha Plants.yy",
+    "path": "folders/Objects/Enemies/Underground/Piranha Plants.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plantfire",
+  "name": "obj_pricklyvenusfiretrap",
   "tags": [],
   "resourceType": "GMObject",
 }

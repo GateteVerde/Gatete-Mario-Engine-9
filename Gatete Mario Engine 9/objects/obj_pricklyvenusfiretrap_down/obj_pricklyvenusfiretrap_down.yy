@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "spr_pricklyvenusfiretrap",
+    "path": "sprites/spr_pricklyvenusfiretrap/spr_pricklyvenusfiretrap.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": {
+    "name": "spr_pricklyvenusfiretrap",
+    "path": "sprites/spr_pricklyvenusfiretrap/spr_pricklyvenusfiretrap.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_venusfiretrap_large_down",
+    "path": "objects/obj_venusfiretrap_large_down/obj_venusfiretrap_large_down.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Piranha Plants",
+    "path": "folders/Objects/Enemies/Underground/Piranha Plants.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_pricklyvenusfiretrap_down",
+  "tags": [],
+  "resourceType": "GMObject",
+}

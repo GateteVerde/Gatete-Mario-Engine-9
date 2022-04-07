@@ -6,6 +6,9 @@ event_inherited();
 //Obtain motion
 alarm[0] = 1;
 
+//Leave trail
+alarm[1] = 1;
+
 //Generate effect
 numb = 0;
 

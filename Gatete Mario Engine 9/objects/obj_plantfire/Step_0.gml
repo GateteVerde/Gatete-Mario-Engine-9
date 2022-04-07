@@ -10,8 +10,11 @@ if (freeze == false) {
 //No gravity
 yadd = 0;
 
-//Generate effect
-numb++;
-if (numb mod 2)
-	with (instance_create_depth(x, y+4, -1, obj_smoke))
-	    sprite_index = spr_cinder;	
+//Leave a trail
+if (sprite_index == spr_fireball) {
+
+	numb++;
+	if (numb mod 2)
+		with (instance_create_depth(x, y+4, -1, obj_smoke))
+		    sprite_index = spr_cinder;
+}
