@@ -1,5 +1,11 @@
 /// @description Funky Light
 
+//Light position
+fx = irandom_range(40, global.gw - 40)
+fy = irandom_range(40, global.gh - 40)
+xspeed = choose(1,-1)
+yspeed = choose(1,-1)
+
 //Radius
 radius = 32;
 

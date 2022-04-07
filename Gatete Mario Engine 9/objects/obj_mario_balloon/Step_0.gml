@@ -103,8 +103,13 @@ else {
 	#endregion
 	
 	//Set sprite based on powerup
-	if (deflate == 0)
-		sprite_index = global.balloon_sprite[global.powerup];
+	if (deflate == 0) {
+		
+		if (global.powerup == cs_cape)
+			sprite_index = spr_mario_cape_balloon;
+		else
+			sprite_index = global.balloon_sprite[global.powerup];
+	}
 	else {
 	
 		sprite_index = global.spin_sprite[global.powerup];

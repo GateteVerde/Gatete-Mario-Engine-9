@@ -1,23 +1,15 @@
 /// @description Move around the view
 
-//Reverse horizontal speed
-if (x < camera_get_view_x(view_camera[0]) + 20)
-|| (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 20) {
-	
-	hspeed = -hspeed;
-	if (x < camera_get_view_x(view_camera[0]) + 20)
-		x = camera_get_view_x(view_camera[0]) + 20;
-	else if (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 20)
-		x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 20;
-}
-	
-//Reverse vertical speed
-if (y < camera_get_view_y(view_camera[0]) + 20)
-|| (y > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 20) {
-	
-	vspeed = -vspeed;
-	if (y < camera_get_view_y(view_camera[0]) + 20)
-		y = camera_get_view_y(view_camera[0]) + 20;
-	else if (y > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 20)
-		y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 20;
-}
+//Set position
+x = camera_get_view_x(view_camera[0]) + fx;
+y = camera_get_view_y(view_camera[0]) + fy;
+
+//Update position
+fx += xspeed;
+fy += yspeed;
+
+//Reverse direction
+if ((fx < 40) || (fx > global.gw - 40))
+	xspeed = -xspeed;
+if ((fy < 40) || (fy > global.gh - 40))
+	yspeed = -yspeed;

@@ -739,7 +739,7 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 				if (disablegrav <= 30) {
 				
 					// And your yspeed is still below the boost speed
-					if (yspeed > -boostflightspd) {
+					if (yspeed > -boostflightspd) && (global.powerup == cs_cape) {
 				
 						// Boost upwards
 						yspeed -= 0.05;
@@ -762,11 +762,8 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 				
 				//Enable gravity as soon disablegrav hits 1
 				disablegrav--;
-				if (disablegrav == 1) {
-					
-					disablegrav = 0;
+				if (disablegrav > 0)
 					enable_gravity = true;
-				}
 			}
         }
 		
@@ -1184,6 +1181,7 @@ if (global.powerup == cs_squirrel)
 	|| (global.powerup == cs_frog)
 	|| (global.powerup == cs_tanooki)
 	|| (global.powerup == cs_bee)
+	|| (global.powerup == cs_squirrel)
 	|| (global.powerup == cs_fraccoon)
 	|| (global.powerup == cs_iraccoon)
 	|| (global.powerup == cs_mega)

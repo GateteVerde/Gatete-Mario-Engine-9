@@ -21,10 +21,19 @@ if (global.mount == 0) {
 	    //Otherwise, make the main player visible
 	    else {
 			
-			//Un-freeze
+			//Un-freeze and give temporary invincibility
 			with (obj_mario) {
 				
+				//Do give temporary invincibility if not in mega form
+				if (global.powerup != cs_mega) {
+				
+					event_user(7);
+				}
+			
+				//Un-freeze Mario
 				event_user(14);
+				
+				//Enable control on Mario
 				enable_control = true;
 			}
 

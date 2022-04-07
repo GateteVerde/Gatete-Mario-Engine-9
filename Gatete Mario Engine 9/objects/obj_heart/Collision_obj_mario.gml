@@ -19,8 +19,5 @@ with (instance_create_depth(x, y+8, -6, obj_blend_ring)) {
 	image_blend = make_colour_rgb(243, 126, 249);
 }
 
-//Give Mario temporary invulnerability
-with (other) event_user(7);
-
 //Destroy
 instance_destroy();

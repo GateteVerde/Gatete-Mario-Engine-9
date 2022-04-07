@@ -155,6 +155,9 @@ function init_globals() {
 
 	//Data structure for collected red coin rings (Resets when end_level is called)
 	global.redrings = ds_map_create();
+	
+	//Data structure for collected power stars
+	global.powerstars = ds_map_create();
 
 	//Item that is being carried between rooms
 	global.carrieditem = noone;

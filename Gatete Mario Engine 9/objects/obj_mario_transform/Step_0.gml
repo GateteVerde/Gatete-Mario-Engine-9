@@ -74,9 +74,6 @@ else if (sequence == 6) {
             
 	        //Make visible
 	        visible = true;
-			
-			//Grant invincibility
-			event_user(7);
             
 	        //Set alpha back to 1, but check first if the player is not doing a special action.
 	        if (instance_exists(obj_mario_puller))

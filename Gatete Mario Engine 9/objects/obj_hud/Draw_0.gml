@@ -6,10 +6,10 @@ draw_set_colour(c_white);
 
 //Lives
 draw_sprite_ext(spr_gui_mario, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 8, string_format(lives, 2, 0));
+draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(lives, 2, 0));
 
 //Coins
-draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 16, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
+draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
 draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 19, string_add_zeroes(global.coins, 2));
 
 //Safeguard
@@ -24,19 +24,31 @@ draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[
 	}
 #endregion
 
+//Star Coin position
+var star_y = camera_get_view_y(view_camera[0]) + 30;
+if (ds_map_size(global.powerstars) > 0) {
+	
+	//Set the position for the star coin display
+	star_y += 11;
+	
+	//Draw the current stars
+	draw_sprite_ext(spr_gui_stars, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
+	draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 30, string_add_zeroes(ds_map_size(global.powerstars), 3));
+}
+
 //Star Coins
 #region STAR COINS
 
 	if (global.level != noone) {
     
 	    //Draw the coin spot
-	    draw_sprite_ext(spr_gui_global_sc, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
+	    draw_sprite_ext(spr_gui_global_sc, 0, camera_get_view_x(view_camera[0]) + 8, star_y, 1, 1, 0, c_white, 1);
     
 	    //Draw the coins
 	    for (var i = 0; i < 3; i++) {
                 
 	        if (ds_map_find_value(global.sc[i], global.level) > 0)
-	            draw_sprite_ext(spr_gui_global_sc_coin, 0, camera_get_view_x(view_camera[0]) + 8 + (16*i), camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
+	            draw_sprite_ext(spr_gui_global_sc_coin, 0, camera_get_view_x(view_camera[0]) + 8 + (16*i), star_y, 1, 1, 0, c_white, 1);
 	    }
 	}
 #endregion
