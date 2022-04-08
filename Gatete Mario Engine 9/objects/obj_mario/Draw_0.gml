@@ -47,7 +47,3 @@ if (sprite_index > -1) {
 
 //Reset the palette
 pal_swap_reset();
-
-//Draw a ice block if frozen up
-if (freezetime > 0)
-	draw_sprite_ext(spr_enemy_ice, 0, screen_round(x), screen_round(y)+1, 1, 1, 0, c_white, 1);

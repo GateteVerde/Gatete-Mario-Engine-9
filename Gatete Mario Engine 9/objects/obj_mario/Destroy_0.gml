@@ -6,6 +6,9 @@ if (instance_exists(obj_mario_fly)) {
 	with (obj_mario_fly) instance_destroy();
 }
 
+//End all timers
+timer_system_room_end();
+
 //Stop 'Spin' sound
 audio_stop_sound(snd_spin);
 
