@@ -3,6 +3,9 @@
 //Inherit event
 event_inherited();
 
+//How vulnerable is this NPC to various items
+vulnerable = 1;
+
 //How edible is this NPC to Yoshi?
 edible = 1;
 

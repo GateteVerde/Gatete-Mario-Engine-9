@@ -9,8 +9,8 @@ if (speed > 0) {
         //Set a turning pose
         if (turn == 0) {
         
-            turn = 1;
-            alarm[0] = 3;
+            turn += 45;
+            alarm[0] = 6;
         }
     
         //Rotate
@@ -30,8 +30,8 @@ if (speed > 0) {
         //Set a turning pose
         if (turn == 0) {
         
-            turn = 2;
-            alarm[0] = 3;
+            turn -= 45;
+            alarm[0] = 6;
         }    
             
         //Rotate it so it's moving up the wall.
@@ -51,8 +51,8 @@ if (speed < 0) {
         //Set a turning pose
         if (turn == 0) {
         
-            turn = -1;
-            alarm[0] = 3;
+            turn -= 45;
+            alarm[0] = 6;
         }
     
         //Rotate
@@ -72,8 +72,8 @@ if (speed < 0) {
         //Set a turning pose
         if (turn == 0) {
         
-            turn = -2;
-            alarm[0] = 3;
+            turn += 45;
+            alarm[0] = 6;
         }
              
         //Rotate it so it's moving up the wall.

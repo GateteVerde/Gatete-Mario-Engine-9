@@ -1,4 +1,4 @@
-/// @description Spiketop logic
+/// @description Ant Trooper logic
 
 //If moving clockwise
 if (speed > 0) {
