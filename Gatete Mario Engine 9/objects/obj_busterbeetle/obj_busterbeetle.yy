@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_nokobomb",
-    "path": "sprites/spr_nokobomb/spr_nokobomb.yy",
+    "name": "spr_busterbeetle",
+    "path": "sprites/spr_busterbeetle/spr_busterbeetle.yy",
   },
   "solid": false,
   "visible": true,
@@ -11,8 +11,8 @@
   },
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_goomba",
-    "path": "objects/obj_goomba/obj_goomba.yy",
+    "name": "obj_enemyparent_deact",
+    "path": "objects/obj_enemyparent_deact/obj_enemyparent_deact.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +27,10 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":14,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -40,7 +39,7 @@
     "path": "folders/Objects/Enemies/Underground.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_nokobomb",
+  "name": "obj_busterbeetle",
   "tags": [],
   "resourceType": "GMObject",
 }
