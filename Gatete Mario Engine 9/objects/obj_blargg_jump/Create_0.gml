@@ -36,6 +36,6 @@ depth = 150;
 //Move towards Mario
 if (!instance_exists(obj_mario))
 || (obj_mario.x < x)
-    xspeed = -1
+    xspeed = -0.75;
 else
-    xspeed = 1;
+    xspeed = 0.75;

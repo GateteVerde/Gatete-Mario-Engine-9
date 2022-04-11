@@ -7,7 +7,7 @@ imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
 imdead.sprite_index = spr_nokobomb_down;
 
 //Hereby frame
-imdead.image_index = image_index;
+imdead.image_index = 0;
 
 //Hereby facing direction
 imdead.image_xscale = xscale;

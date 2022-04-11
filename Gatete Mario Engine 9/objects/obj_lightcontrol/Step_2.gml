@@ -6,7 +6,7 @@ ambient_light = c_black + (c_white / 255) * intensity;
 //Prepare the surface
 if (!surface_exists(surf_light)) {
 
-	surf_light = surface_create(room_width, room_height);
+	surf_light = surface_create(global.gw, global.gh);
 }
 
 //Set the surface target

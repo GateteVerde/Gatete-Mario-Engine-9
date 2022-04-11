@@ -16,8 +16,11 @@ if (yspeed > 4) {
 }
 
 //Set facing direction
-xscale = 1 * sign(xspeed);
-    
+if (xspeed > 0)
+	xscale = 1;
+else if (xspeed < 0)
+	xscale = -1;
+
 //Destroy if below the view
 if (y > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 32)
     instance_destroy();

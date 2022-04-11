@@ -90,7 +90,7 @@
 
 #region CHECK FOR FAKE TILES
 
-	//Check if 
+	//Check if "fakeTileAlpha" global variable exists
 	if (variable_global_exists("fakeTileAlpha")) {
 
 		//Temporary variables

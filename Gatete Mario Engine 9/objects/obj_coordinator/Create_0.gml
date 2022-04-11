@@ -29,7 +29,7 @@ init_shockwave();
 	global.enemy_to_coin = false;
 
 	//Makes Mario bounce on note blocks from any side
-	global.noteblock_all_sides = true;
+	global.noteblock_all_sides = false;
 
 	//Flight time (In seconds, how much time allow Mario to fly as Raccoon/Tanooki Mario)
 	global.flighttime = 4;
