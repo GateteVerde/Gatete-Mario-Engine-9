@@ -20,7 +20,7 @@ if (vspeed != 0) {
     }
 }
 
-//Update water position
+//Update water position and scale
 water.y = y + 4;
 
 //Check for Mario

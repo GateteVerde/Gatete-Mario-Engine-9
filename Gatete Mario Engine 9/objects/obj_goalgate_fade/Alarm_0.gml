@@ -20,6 +20,10 @@ if (fade == 0) {
     //Fade tides if it exists
     if (instance_exists(obj_water_foreground))
         with (obj_water_foreground) alpha -= 0.00625;
+		
+	//Fade swim object if it exists
+	if (instance_exists(obj_makeswim))
+		with (obj_makeswim) alpha -= 0.00625;
 }
 
 //Fade out
@@ -35,4 +39,8 @@ else if (fade == 2) {
     //Unfade tides
     if (instance_exists(obj_water_foreground))
         with (obj_water_foreground) alpha += 0.0125;
+		
+	//Fade swim object if it exists
+	if (instance_exists(obj_makeswim))
+		with (obj_makeswim) alpha += 0.0125;
 }
