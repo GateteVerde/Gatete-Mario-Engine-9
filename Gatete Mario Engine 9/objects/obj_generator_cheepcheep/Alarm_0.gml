@@ -20,7 +20,10 @@ if (instance_exists(obj_mario)) {
 		alarm[0] = 40;
 		
 		//Generate a cheep-cheep
-		instance_create_depth(camera_get_view_x(view_camera[0]) + random_range(48, global.gw - 48), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 16, -2, obj_cheepcheep_jump2);
+		if (choose(0, 1) == 0)
+			instance_create_depth(camera_get_view_x(view_camera[0]) + 48, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 16, -2, obj_generatorcheep);
+		else
+			instance_create_depth(camera_get_view_x(view_camera[0]) + global.gw - 48, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 16, -2, obj_generatorcheep);
 	}
 	
 	//Otherwise
@@ -30,4 +33,12 @@ if (instance_exists(obj_mario)) {
 		alarm[0] = 1;
 		exit;
 	}
+}
+
+//Otherwise
+else {
+
+	//Hold event
+	alarm[0] = 1;
+	exit;
 }

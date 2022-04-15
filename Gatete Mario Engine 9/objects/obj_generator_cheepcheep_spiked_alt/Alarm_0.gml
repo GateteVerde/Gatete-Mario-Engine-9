@@ -1,4 +1,4 @@
-/// @description Generate a jumping Spiked Cheep-Cheep
+/// @description Generate a swimming Spiked Cheep-Cheep
 
 //If Mario does exist
 if (instance_exists(obj_mario)) {
@@ -17,13 +17,16 @@ if (instance_exists(obj_mario)) {
 		}
 		
 		//Repeat
-		alarm[0] = 40;
+		alarm[0] = 80;
+		
+		//Swap direction
+		dir = -dir;
 		
 		//Generate a cheep-cheep
-		if (choose(0, 1) == 0)
-			instance_create_depth(camera_get_view_x(view_camera[0]) + 48, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 16, -2, obj_generatorcheep_spiked);
+		if (dir == 1)
+			instance_create_depth(camera_get_view_x(view_camera[0]) - 16, camera_get_view_y(view_camera[0]) + random_range(32, global.gh-32), -2, obj_generatorcheep_spiked_alt);
 		else
-			instance_create_depth(camera_get_view_x(view_camera[0]) + global.gw - 48, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 16, -2, obj_generatorcheep_spiked);
+			instance_create_depth(camera_get_view_x(view_camera[0]) + global.gw + 16, camera_get_view_y(view_camera[0]) + random_range(32, global.gh-32), -2, obj_generatorcheep_spiked_alt);
 	}
 	
 	//Otherwise

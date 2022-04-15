@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cheepcheep",
-    "path": "sprites/spr_cheepcheep/spr_cheepcheep.yy",
+    "name": "spr_cheepcheep_spiked",
+    "path": "sprites/spr_cheepcheep_spiked/spr_cheepcheep_spiked.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Special/Do Not Use!/Enemies/Underwater.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cheepcheep_jump2",
+  "name": "obj_generatorcheep_spiked_alt",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_cheepcheep_jump2",
-    "path": "objects/obj_cheepcheep_jump2/obj_cheepcheep_jump2.yy",
+    "name": "obj_generatorcheep",
+    "path": "objects/obj_generatorcheep/obj_generatorcheep.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Special/Do Not Use!/Enemies/Underwater.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_spikedcheep",
+  "name": "obj_generatorcheep_spiked",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -31,3 +31,11 @@ if (instance_exists(obj_mario)) {
 		exit;
 	}
 }
+
+//Otherwise
+else {
+
+	//Hold event
+	alarm[0] = 1;
+	exit;
+}
