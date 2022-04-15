@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_marker_galoomba",
-    "path": "sprites/spr_marker_galoomba/spr_marker_galoomba.yy",
+    "name": "spr_marker_cheepcheep",
+    "path": "sprites/spr_marker_cheepcheep/spr_marker_cheepcheep.yy",
   },
   "solid": false,
   "visible": false,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Enemies/Generators.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_generator_galoomba_parachute",
+  "name": "obj_generator_cheepcheep",
   "tags": [],
   "resourceType": "GMObject",
 }

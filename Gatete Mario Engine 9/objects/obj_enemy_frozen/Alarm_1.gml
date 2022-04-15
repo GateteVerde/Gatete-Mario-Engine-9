@@ -18,5 +18,15 @@ if (ret != -1) {
 		with (unfreeze) sprite_index = other.ret_spr;
 }
 
+//Otherwise, if this enemy dies after being frozen
+else if (ret == -2) {
+
+	unfreeze = instance_create_layer(x, y, -6, obj_enemy_dead);
+	with (unfreeze) {
+		
+		sprite_index = other.sprite_index;
+	}
+}
+
 //Destroy
 instance_destroy();

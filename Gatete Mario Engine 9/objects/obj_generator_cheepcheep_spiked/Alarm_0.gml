@@ -1,4 +1,4 @@
-/// @description Generate a Parachute Galoomba
+/// @description Generate a jumping Spiked Cheep-Cheep
 
 //If Mario does exist
 if (instance_exists(obj_mario)) {
@@ -16,11 +16,11 @@ if (instance_exists(obj_mario)) {
 			exit;
 		}
 		
-		//Generate a Parachute Galoomba
-		instance_create_depth(camera_get_view_x(view_camera[0]) + random_range(32, global.gw - 32), camera_get_view_y(view_camera[0]) - 32, -2, obj_galoomba_parachute);
+		//Repeat
+		alarm[0] = 40;
 		
-		//Generate a new one after 3 seconds
-		alarm[0] = 180;
+		//Generate a cheep-cheep
+		instance_create_depth(camera_get_view_x(view_camera[0]) + random_range(48, global.gw - 48), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 16, -2, obj_cheepcheep_jump2);
 	}
 	
 	//Otherwise
