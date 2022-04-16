@@ -27,7 +27,7 @@ switch (image_index) {
 			//Otherwise
 			else {
 				
-				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coinnpc)) {
+				with (instance_create_depth(x + 8, ystart + 24, -4, obj_coinnpc)) {
 			
 					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
 					yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
@@ -55,7 +55,7 @@ switch (image_index) {
 		//Otherwise
 		else {
 		
-			with (instance_create_depth(x + 8, ystart + 16, -4, obj_coin_10)) {
+			with (instance_create_depth(x + 8, ystart + 24, -4, obj_coin_10)) {
 		
 				ready = 1;
 				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
@@ -86,7 +86,7 @@ switch (image_index) {
 			//Otherwise
 			else {
 		
-				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coin_10)) {
+				with (instance_create_depth(x + 8, ystart + 24, -4, obj_coin_10)) {
 		
 					ready = 1;
 					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
@@ -116,7 +116,7 @@ switch (image_index) {
 			//Otherwise
 			else {
 		
-				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coin_10)) {
+				with (instance_create_depth(x + 8, ystart + 24, -4, obj_coin_10)) {
 		
 					ready = 1;
 					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
