@@ -6,6 +6,9 @@ event_inherited();
 //Turn towards walls
 turn_toward = 1;
 
+//Do not unfreeze
+freeze_object = -2;
+
 //Sets turning endpoint
 prevswim = 0;
 xx = x;

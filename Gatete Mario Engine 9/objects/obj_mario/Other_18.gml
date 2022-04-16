@@ -1,7 +1,7 @@
 /// @description Toggle movement when crouched down
 
-//If the player is crouched down
-if (crouch) {
+//If the player is crouched down or groundpounding)
+if (crouch == true) || (groundpound > 0) {
 
     //If the player is inside a shoe, allow move
     if (global.mount == 2)

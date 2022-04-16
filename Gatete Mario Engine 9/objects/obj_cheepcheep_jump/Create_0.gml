@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//Do not unfreeze
+freeze_object = -2;
+
 //Whether the cheep-cheep is jumping
 jumping = 0;
 

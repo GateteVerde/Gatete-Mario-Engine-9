@@ -1,7 +1,7 @@
 /// @description Set offset
 
 //If not kicked
-if (ready == 0) {
+if (ready == 0) && (ret != -2) {
 	
 	//Repeat the process
 	alarm[0] = 1;

@@ -9,6 +9,9 @@ vulnerable = 1;
 //How vulnerable is this NPC to Mario
 stomp = 2;
 
+//Do not unfreeze
+freeze_object = -2;
+
 //Whether this enemy is about to explode
 ready = 0;
 
