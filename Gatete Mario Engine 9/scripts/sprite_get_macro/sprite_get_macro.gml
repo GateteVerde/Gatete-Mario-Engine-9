@@ -50,6 +50,7 @@ function sprite_get_macro() {
 	    case (spr_3up): return cs_3up;
 		case (spr_heart): return cs_heart;
 		case (spr_poison): return cs_poison;
+		case (spr_rotten): return cs_rotten;
 		case (spr_starman): return cs_starman;
 		case (spr_pswitch): return cs_pswitch;
 		case (spr_gswitch): return cs_gswitch;

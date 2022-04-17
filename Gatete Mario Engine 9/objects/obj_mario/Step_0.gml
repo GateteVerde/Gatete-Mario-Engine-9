@@ -806,7 +806,7 @@ else if (xspeed < 0)
 	
 //If moving upwards
 if (yspeed < 0)
-&& (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_solid, 1, 0))
+&& (collision_rectangle(bbox_left, bbox_top - yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0))
 && (!collision_point(x, y + 8, obj_mblock, 1, 0)) { 
 		
 	//Check for a block above
@@ -815,7 +815,7 @@ if (yspeed < 0)
 	//Prevent the player from getting stuck on a ceiling when jumping/climbing
 	if (state > playerstate.walk) {
 			
-		while (collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_top+1, obj_solid, 1, 0))
+		while (collision_rectangle(bbox_left, bbox_top + 1 - yspeed / 2, bbox_right, bbox_top + 1, obj_solid, 1, 0))
 			y++;
 	}
 		
@@ -827,11 +827,12 @@ if (yspeed < 0)
 			memory_yspeed = yspeed;
 		}
 	}
-	yspeed = 0;
+	yspeed = (block_u) ? -yspeed / 2 : 0;
 		
 	//Bump block if there's one in position
 	if ((block_u) && (block_u.ready == 0)) {
 				
+		//With the block
 		with (block_u) {
 						
 			//Set state to bumped
@@ -868,7 +869,7 @@ if (yspeed < 0)
 	
 //Prevent the player from overlappin' the ceiling
 if (state > playerstate.walk)
-	while (collision_rectangle(bbox_left+1, bbox_top-1, bbox_right-1, bbox_top+1, obj_solid, 1, 0))
+	while (collision_rectangle(bbox_left+1, bbox_top + 1 - yspeed / 2, bbox_right-1, bbox_top + 1, obj_solid, 1, 0))
 	&& (!collision_point(x, y + 8, obj_solid, 1, 0))
 		y++;
 	

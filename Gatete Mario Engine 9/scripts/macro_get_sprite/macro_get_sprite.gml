@@ -47,6 +47,7 @@ function macro_get_sprite() {
 	    case (cs_3up): return spr_3up;
 		case (cs_heart): return spr_heart;
 		case (cs_poison): return spr_poison;
+		case (cs_rotten): return spr_rotten;
 		case (cs_starman): return spr_starman;
 		case (cs_pswitch): return spr_pswitch;
 		case (cs_gswitch): return spr_gswitch;

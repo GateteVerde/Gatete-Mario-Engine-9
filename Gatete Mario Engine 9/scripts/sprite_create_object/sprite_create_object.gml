@@ -80,6 +80,9 @@ function sprite_create_object() {
 		//Poison
 		case (spr_poison): return instance_create_depth(argument[1], argument[2], argument[3], obj_poison);
 		
+		//Rotten
+		case (spr_rotten): return instance_create_depth(argument[1], argument[2], argument[3], obj_rotten);
+		
 		//Starman
 		case (spr_starman): return instance_create_depth(argument[1], argument[2], argument[3], obj_starman);
 		
