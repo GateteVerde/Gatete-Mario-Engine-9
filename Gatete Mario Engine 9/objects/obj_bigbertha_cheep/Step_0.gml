@@ -9,14 +9,12 @@ if (freeze == false) {
 
 //Decrement horizontal speed
 xspeed = max(0.75, abs(xspeed)-0.0324)*sign(xspeed);
-
-//Scale
-scale += 0.05;
-if (scale > 1)
-    scale = 1;
     
-//Wave.
-if (y > ystart)
-    yspeed -= 0.025;
-else if (y < ystart)
-    yspeed += 0.025;
+//Wave
+yspeed += (y > ystart) ? -0.025 : 0.025;
+
+//Facing direction
+if (xspeed > 0)
+	xscale = 1;
+else if (xspeed < 0)
+	xscale = -1;

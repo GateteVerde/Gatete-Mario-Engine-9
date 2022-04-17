@@ -806,11 +806,11 @@ else if (xspeed < 0)
 	
 //If moving upwards
 if (yspeed < 0)
-&& (collision_rectangle(bbox_left, bbox_top + yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0))
+&& (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_solid, 1, 0))
 && (!collision_point(x, y + 8, obj_mblock, 1, 0)) { 
 		
 	//Check for a block above
-	var block_u = collision_rectangle(bbox_left, bbox_top - 2 + yspeed/2, bbox_right, bbox_top, obj_blockparent, 0, 0);
+	var block_u = collision_rectangle(bbox_left, bbox_top - 2, bbox_right, bbox_top, obj_blockparent, 0, 0);
 	
 	//Prevent the player from getting stuck on a ceiling when jumping/climbing
 	if (state > playerstate.walk) {

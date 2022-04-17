@@ -12,6 +12,9 @@ stomp = 2;
 //How edible is this NPC to Yoshi?
 edible = 0;
 
+//Freeze object
+freeze_object = -2;
+
 //Blow the ball
 alarm[0] = 2;
 

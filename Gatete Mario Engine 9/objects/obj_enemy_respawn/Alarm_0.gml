@@ -13,6 +13,13 @@ switch (sprite_index) {
 	
 		instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) + 64, y, -2, obj_bossbass);
 	} break;
+	
+	//Porcu Puffer
+	case (spr_porcupuffer): {
+	
+		with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) + 64, y, -2, obj_porcupuffer))		
+			charge = 1;
+	} break;
 }
 
 //Destroy

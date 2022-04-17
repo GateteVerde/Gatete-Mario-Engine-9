@@ -15,6 +15,9 @@ edible = 0;
 //Turn on ledges
 turn_on_ledges = true;
 
+//Freeze object
+freeze_object = -2;
+
 //Blow the ball
 alarm[0] = 2;
 
