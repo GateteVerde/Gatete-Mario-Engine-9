@@ -26,7 +26,7 @@ if (instance_exists(obj_mario)) {
 		
 		//If Mario is doing a ground pound
 		if (obj_mario.groundpound == 2) 
-		|| ((global.powerup == cs_propeller) && (jumpstyle > 0)) {
+		|| ((global.powerup == cs_propeller) && (obj_mario.jumpstyle > 0)) {
 			
 			//If not bumped
 			if (ready == 0) {

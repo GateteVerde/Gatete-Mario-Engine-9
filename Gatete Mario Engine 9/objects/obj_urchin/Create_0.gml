@@ -12,10 +12,8 @@ stomp = 2;
 //How vulnerable is this enemy to Yoshi?
 edible = 2;
 
-//Do not animate
-image_speed = 0;
-
 //Blink
+face = 0;
 alarm[0] = 60;
 
 //Start moving

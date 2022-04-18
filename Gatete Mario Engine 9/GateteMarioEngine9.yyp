@@ -2237,6 +2237,7 @@
     {"id":{"name":"spr_palaceswitch_y","path":"sprites/spr_palaceswitch_y/spr_palaceswitch_y.yy",},"order":22,},
     {"id":{"name":"obj_keyhole","path":"objects/obj_keyhole/obj_keyhole.yy",},"order":3,},
     {"id":{"name":"spr_modifier_flipblock","path":"sprites/spr_modifier_flipblock/spr_modifier_flipblock.yy",},"order":1,},
+    {"id":{"name":"spr_urchin_face","path":"sprites/spr_urchin_face/spr_urchin_face.yy",},"order":15,},
     {"id":{"name":"spr_beachkoopa_super","path":"sprites/spr_beachkoopa_super/spr_beachkoopa_super.yy",},"order":6,},
     {"id":{"name":"snd_yoshi_hurt","path":"sounds/snd_yoshi_hurt/snd_yoshi_hurt.yy",},"order":10,},
     {"id":{"name":"spr_checkpoint","path":"sprites/spr_checkpoint/spr_checkpoint.yy",},"order":0,},

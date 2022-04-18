@@ -17,6 +17,7 @@ save_sp = 0;
 save_dir = 0;
 
 //Blink
+face = 0;
 alarm[0] = 60;
 
 //Start moving
