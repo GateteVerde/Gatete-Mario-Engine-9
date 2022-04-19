@@ -1,4 +1,4 @@
-/// @description Subcon Enemy Parent
+/// @description Subcon Enemy Parent (Deactivated)
 
 //Inherit the parent event
 event_inherited();

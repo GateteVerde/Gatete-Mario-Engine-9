@@ -27,11 +27,8 @@ if (freeze == false) {
 	}
 
 	//Cap vertical speed
-	if (yspeed > 3.5) {
-
-		yspeed = 3.5;
-		yadd = 0;
-	}
+	if (yspeed > 3)
+		yspeed = 3;
 #endregion
 
 //Facing direction

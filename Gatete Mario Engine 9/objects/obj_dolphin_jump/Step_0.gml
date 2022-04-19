@@ -25,11 +25,8 @@ if (water) && (y > water.y+12) {
 }
 
 //Cap vertical speed
-if (yspeed > 3.5) {
-
-	yspeed = 3.5;
-	yadd = 0;
-}
+if (yspeed > 3)
+	yspeed = 3;
 
 //Set facing direction
 if (xspeed > 0)

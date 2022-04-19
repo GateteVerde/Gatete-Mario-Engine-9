@@ -21,5 +21,5 @@ noswim = 1;
 //Start moving
 alarm[10] = 2;
 
-//Set up semisolid mask
-mytop.mask_index = sprite_index;
+//Set up semisolid horizontal scale
+mytop.image_xscale = 2;

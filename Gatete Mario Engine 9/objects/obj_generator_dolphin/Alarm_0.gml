@@ -16,12 +16,16 @@ if (instance_exists(obj_mario)) {
             
             //Increment spawn
             spawn++;
+			
+			//Do not generate if there's 5 dolphins on screen
+			if (instance_number(obj_generatordolphin) < 5) {
             
-            //Generate a dolphin
-			if (dir == 1)
-				instance_create_depth(camera_get_view_x(view_camera[0]) - 16, camera_get_view_y(view_camera[0]) + random_range(32, global.gh-32), -2, obj_generatordolphin);
-			else
-				instance_create_depth(camera_get_view_x(view_camera[0]) + global.gw + 16, camera_get_view_y(view_camera[0]) + random_range(32, global.gh-32), -2, obj_generatordolphin);
+	            //Generate a dolphin
+				if (dir == 1)
+					instance_create_depth(camera_get_view_x(view_camera[0]) - 16, camera_get_view_y(view_camera[0]) + random_range(32, global.gh-32), -2, obj_generatordolphin);
+				else
+					instance_create_depth(camera_get_view_x(view_camera[0]) + global.gw + 16, camera_get_view_y(view_camera[0]) + random_range(32, global.gh-32), -2, obj_generatordolphin);
+			}
         }
         else {
         

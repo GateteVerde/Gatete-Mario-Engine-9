@@ -1,10 +1,10 @@
-/// @description Pull / Moving platform logic
+/// @description Moving Platform logic
 
 //If the collision exists
 if (instance_exists(mytop)) {
 
     //Snap semisolid to position
-    mytop.x = x;
+    mytop.x = bbox_left;
     mytop.y = bbox_top;
 
     //If Mario is on this enemy
@@ -36,21 +36,23 @@ if (instance_exists(mytop)) {
                     alarm[0] = 20;    
             }
         }
-        
-        //Check for a moving platform
-        var check = collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_top-5, obj_mario.bbox_right, obj_mario.bbox_bottom+yspeed, obj_semisolid, 0, 1);
-        if (check)
-		&& (check != mytop)
-            exit;
                 
-        //Snap Mario vertically
-        obj_mario.y = ceil(bbox_top-15);
+		//Check for a semisolid
+		var check = collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_mario.bbox_right, obj_mario.bbox_bottom+1, obj_semisolid, 0, 0);
+		
+		//If there's not a semisolid in position, exit
+		if (check) 
+		&& (check != mytop)
+			exit;
+			
+		//Snap Mario vertically
+		obj_mario.y = ceil(bbox_top-15);
 
-        //Snap Mario horizontally and prevent it from getting embed on a solid.
-        obj_mario.x += x-xprevious;
-        if (collision_rectangle(obj_mario.bbox_right, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
-            with (obj_mario) x--;
-        else if (collision_rectangle(obj_mario.bbox_left-1, obj_mario.bbox_top+4, obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
-            with (obj_mario) x++;       
+		//Snap Mario horizontally and prevent it from getting embed on a solid
+		obj_mario.x += x-xprevious;
+		if (collision_rectangle(obj_mario.bbox_right+xspeed, obj_mario.bbox_top+4, obj_mario.bbox_right+1+xspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
+			with (obj_mario) x--;
+		else if (collision_rectangle(obj_mario.bbox_left-1-xspeed, obj_mario.bbox_top+4, obj_mario.bbox_left-xspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
+			with (obj_mario) x++;
     }
 }
