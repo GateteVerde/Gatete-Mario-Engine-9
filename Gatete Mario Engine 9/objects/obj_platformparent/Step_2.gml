@@ -12,8 +12,8 @@
 	&& (player.bbox_bottom < yprevious+5) {
 		
 		//Check there's no semisolid on the way
-		var check = collision_line(obj_mario.bbox_left, bbox_top, obj_mario.bbox_right, bbox_top, obj_semisolid, 0, 1);
-		var check2 = collision_line(obj_mario.bbox_left, bbox_top, obj_mario.bbox_right, bbox_top, obj_slopeparent, 1, 1);
+		var check = collision_line(obj_mario.bbox_left, bbox_top-5, obj_mario.bbox_right, bbox_top+1, obj_semisolid, 0, 1);
+		var check2 = collision_line(obj_mario.bbox_left, bbox_top-5, obj_mario.bbox_right, bbox_top+1, obj_slopeparent, 1, 1);
 		
 		//If there's a platform on the way, exit
 		if (!check) 

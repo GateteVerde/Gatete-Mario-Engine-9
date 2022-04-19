@@ -31,7 +31,7 @@ if (qs) {
 gravity = (swimming) ? 0.03125 : 0.25;
 
 //Cap vertical speed
-vspeed = (swimming) ? min(1, vspeed) : min(4, vspeed);
+vspeed = (swimming) ? min(2, vspeed) : min(4, vspeed);
 
 //If moving down
 if (vspeed > 0) {

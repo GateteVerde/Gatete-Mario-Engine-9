@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mask_npc",
-    "path": "sprites/spr_mask_npc/spr_mask_npc.yy",
+    "name": "spr_npc",
+    "path": "sprites/spr_npc/spr_npc.yy",
   },
   "solid": false,
   "visible": true,

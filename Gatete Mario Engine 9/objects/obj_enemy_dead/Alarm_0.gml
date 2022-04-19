@@ -5,3 +5,7 @@ if (sprite_index == spr_beachkoopa_super_dead)
 || (sprite_index == spr_beachkoopa_red_super_dead)
 || (sprite_index == spr_beachkoopa_blue_super_dead)
 	image_speed = 1;
+	
+//Urchin
+else if (sprite_index == spr_urchin)
+	image_speed = 1;

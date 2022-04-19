@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_platform",
-    "path": "sprites/spr_platform/spr_platform.yy",
+    "name": "spr_square_b",
+    "path": "sprites/spr_square_b/spr_square_b.yy",
   },
   "solid": false,
   "visible": false,
