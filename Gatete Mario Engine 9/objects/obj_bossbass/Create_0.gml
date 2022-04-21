@@ -9,7 +9,7 @@ stomp = 2;
 //How vulnerable is this enemy to yoshi?
 edible = 2;
 
-//Turn silver
+//Turn into a silver coin?
 turn_silver = 0;
 
 //Do not unfreeze

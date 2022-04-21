@@ -71,6 +71,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_modifier_brick","path":"objects/obj_modifier_brick/obj_modifier_brick.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":128.0,"resourceVersion":"1.0","name":"inst_3A592BC0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lavalotus","path":"objects/obj_lavalotus/obj_lavalotus.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":160.0,"resourceVersion":"1.0","name":"inst_32AEFB59","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lavalotus","path":"objects/obj_lavalotus/obj_lavalotus.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":168.0,"y":176.0,"resourceVersion":"1.0","name":"inst_45B5F57A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_torpedobox","path":"objects/obj_torpedobox/obj_torpedobox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":32.0,"resourceVersion":"1.0","name":"inst_3DD4F714","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Main","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":32,"SerialiseHeight":14,"TileSerialiseData":[
 1512,1538,1539,1510,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1511,1512,1601,
@@ -183,6 +184,7 @@
     {"name":"inst_3A592BC0","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_32AEFB59","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_45B5F57A","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
+    {"name":"inst_3DD4F714","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
