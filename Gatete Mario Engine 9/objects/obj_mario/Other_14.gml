@@ -122,8 +122,8 @@ if (enable_control == true) { //If the player controls are enabled.
 	        yspeed += 0.15;
         
 	        //Check for a nearby floor and stop climbing if there's one.
-	        var semisolid = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_semisolid, 0, 0);
-	        if (semisolid)
+	        if (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0))
+			|| (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+1, obj_enemy_top, 0, 0))
 	            state = playerstate.jump;
 	    }
     

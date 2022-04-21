@@ -361,6 +361,24 @@ if (enable_gravity == 1) {
 			//Reset values
 			event_user(15);
 		}
+		
+		//Check for a subcon enemy
+		var subcon = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+yspeed, obj_enemy_top, 0, 0);
+		
+		//If there's ground below and Mario is not moving upwards
+		if (subcon)
+		&& (bbox_bottom < subcon.yprevious+5) {
+		
+			//Snap above the semisolid
+			y = subcon.bbox_top-16;
+	
+			//Stop vertical movement
+			yadd = 0;
+			yspeed = 0;
+		
+			//Reset values
+			event_user(15);
+		}
 
 		//Check for a water surface
 		var ws = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+yspeed, obj_swim, 0, 0);

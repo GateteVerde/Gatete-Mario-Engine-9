@@ -1,4 +1,4 @@
-/// @description Kill enemy NPCs with a tail spin
+/// @description Stun enemy NPCs with a tail spin
 
 //If the block is moving
 if (speed != 0) 

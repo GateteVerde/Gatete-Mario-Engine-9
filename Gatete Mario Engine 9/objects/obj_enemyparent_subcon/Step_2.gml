@@ -3,7 +3,7 @@
 //Make sure the semisolid follows
 if (instance_exists(mytop)) {
         
-    mytop.x = bbox_left;
+    mytop.x = x;
     mytop.y = bbox_top;
 	
 	//If the enemy is pullable 
@@ -32,10 +32,9 @@ if (instance_exists(mytop)) {
     }
 	
 	//Check for a semisolid
-	var check = collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_bottom+1, obj_mario.bbox_right, obj_mario.bbox_bottom+yspeed, obj_semisolid, 0, 0);
+	var check = collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_mario.bbox_right, obj_mario.bbox_bottom+2, obj_semisolid, 0, 0);
 	if (check)
-	&& (yspeed > 0)
-	&& (check != mytop)
+	&& (check != obj_solid)
 		exit;
         
     //If the player is on this moving platform
