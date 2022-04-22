@@ -37,8 +37,6 @@ if (yspeed >= 0) {
 	//If there's ground below and Mario is not moving upwards
 	if (semisolid)
 	&& (bbox_bottom < semisolid.yprevious + 5)
-	&& (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+yspeed, obj_enemyparent_subcon, 0, 0))
-	&& (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+yspeed, obj_enemyparent_subcon_deact, 0, 0))
 		y = semisolid.bbox_top - floor(sprite_height-(sprite_get_yoffset(sprite_index)));
 }
 
