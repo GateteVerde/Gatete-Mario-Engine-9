@@ -16,6 +16,9 @@ if (image_alpha == 1) {
 	
 		//Play 'Cards - No Match' fanfare
 		audio_play_sound(snd_cardsong_nomatch, 0, false);
+		
+		//Destroy every NPC in position
+		ai_npc_destroy();
 
 		//Disable Mario's controls
 		with (obj_mario) enable_control = false;

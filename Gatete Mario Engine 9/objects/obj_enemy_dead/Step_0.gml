@@ -1,11 +1,26 @@
 /// @description Dead enemy logic
 
-//Set up angle
-angle += 10*sign(hspeed);
-if (abs(angle) > 360) {
+#region ANGLE
+
+	//Do not spin with the following sprites
+	if (sprite_index != spr_pokey)
+	&& (sprite_index != spr_firesnake)
+	&& (sprite_index != spr_firesnake_body) {
+
+		//Set up angle
+		angle += 10*sign(hspeed);
+		if (abs(angle) > 360) {
 		
-	angle = 0;
-}
+			angle = 0;
+		}
+	}
+
+	//Otherwise
+	else {
+
+		angle = 180;
+	}
+#endregion
 
 //Quicksand collision
 var qs = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0);

@@ -35,6 +35,9 @@ freeze = false;
 //Change gravity when in contact with water
 noswim = false;
 
+//Give coin on level completion
+goal_coin = 1;
+
 //Turn towards walls?
 //-1: Jump them
 //0: Stop

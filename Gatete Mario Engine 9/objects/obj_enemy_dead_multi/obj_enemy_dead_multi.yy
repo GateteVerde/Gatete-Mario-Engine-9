@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_coin_npc",
-    "path": "sprites/spr_coin_npc/spr_coin_npc.yy",
+    "name": "spr_npc_deact",
+    "path": "sprites/spr_npc_deact/spr_npc_deact.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Objects/Special/Do Not Use!/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_score",
+  "name": "obj_enemy_dead_multi",
   "tags": [],
   "resourceType": "GMObject",
 }

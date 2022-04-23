@@ -198,7 +198,7 @@ else {
 
 //If there's a pokey above, use body frame
 if (position_meeting(x, y-8, obj_pokey))
-    image_index = 1;    
+    image_index = 1;
 
 //Otherwise, use head frame
 else

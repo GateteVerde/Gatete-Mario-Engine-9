@@ -1,6 +1,7 @@
 /// @description If this object is the head, kill the entire body
 
-if (image_index == 0) {
+if (image_index == 0) 
+&& (!instance_exists(obj_mario_clear)) {
 
     with (mebelow) {
     
