@@ -7,6 +7,7 @@ if (direction != 270) {
     exit;
 }
 
+direction = 270;
 x = 304;
 y = 48;
 ready = 0;
