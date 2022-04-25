@@ -28,4 +28,6 @@ alarm[3] = 4;
 
 //Blink view
 blink = 0;
-alarm[11] = 1;
+blink_on = 1;
+alarm[10] = 1;
+alarm[11] = 24;

@@ -1,4 +1,3 @@
-/// @description Blink view
+/// @description Turn off background flash
 
-blink = !blink
-alarm[11] = 1;
+blink_on = 0;

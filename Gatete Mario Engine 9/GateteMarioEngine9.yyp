@@ -955,7 +955,6 @@
     {"id":{"name":"snd_freeze","path":"sounds/snd_freeze/snd_freeze.yy",},"order":23,},
     {"id":{"name":"obj_water_b","path":"objects/obj_water_b/obj_water_b.yy",},"order":2,},
     {"id":{"name":"spr_smoke_b","path":"sprites/spr_smoke_b/spr_smoke_b.yy",},"order":15,},
-    {"id":{"name":"obj_explosion_lite_eff","path":"objects/obj_explosion_lite_eff/obj_explosion_lite_eff.yy",},"order":11,},
     {"id":{"name":"obj_turnip_bomb","path":"objects/obj_turnip_bomb/obj_turnip_bomb.yy",},"order":3,},
     {"id":{"name":"obj_platform_generator","path":"objects/obj_platform_generator/obj_platform_generator.yy",},"order":0,},
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},"order":14,},
