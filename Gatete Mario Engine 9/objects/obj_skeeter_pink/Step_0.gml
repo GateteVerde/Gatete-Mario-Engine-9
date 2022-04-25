@@ -111,31 +111,39 @@ if (freeze == false) {
 
 #region ANIMATION
 
-	//If moving horizontally
-	if (abs(xspeed) > 0) {
-
+	//If frozen, stop animation
+	if (freeze == true)
 		image_speed = 0;
-		image_index = 1;
-	}
-
+	
 	//Otherwise
 	else {
-		
-		//If not moving
-		if (ready == 0) {
-		
-			if (alarm[0] < 60)
-				image_speed = 1;
-			else {
-			
-				image_speed = 0;
-				image_index = 1;
-			}
+
+		//If moving horizontally
+		if (abs(xspeed) > 0) {
+
+			image_speed = 0;
+			image_index = 1;
 		}
-		
+
 		//Otherwise
-		else
-			image_speed = 1;
+		else {
+		
+			//If not moving
+			if (ready == 0) {
+		
+				if (alarm[0] < 60)
+					image_speed = 1;
+				else {
+			
+					image_speed = 0;
+					image_index = 1;
+				}
+			}
+		
+			//Otherwise
+			else
+				image_speed = 1;
+		}
 	}
 #endregion
 
