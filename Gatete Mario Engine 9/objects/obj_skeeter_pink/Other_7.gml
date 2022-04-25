@@ -7,7 +7,7 @@ if (sprite_index == spr_skeeter_pink_deploy) {
 	sprite_index = spr_skeeter_pink;
 	
 	//Drop bomb
-	instance_create_depth(x, y, -1, obj_skeeter_bomb);
+	instance_create_depth(x, y, 50, obj_skeeter_bomb);
 
 	//Not ready
 	ready = 0;
