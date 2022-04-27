@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Forest",
-    "path": "folders/Objects/Enemies/Forest.yy",
+    "name": "Water",
+    "path": "folders/Objects/Enemies/Water.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_skeeter_pink",

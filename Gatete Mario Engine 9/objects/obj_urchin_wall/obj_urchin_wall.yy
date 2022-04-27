@@ -36,8 +36,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Underwater",
-    "path": "folders/Objects/Enemies/Underwater.yy",
+    "name": "Water",
+    "path": "folders/Objects/Enemies/Water.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_urchin_wall",

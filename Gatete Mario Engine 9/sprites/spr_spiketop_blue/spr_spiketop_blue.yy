@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Underground",
-    "path": "folders/Sprites/Enemies/Underground.yy",
+    "name": "Cave",
+    "path": "folders/Sprites/Enemies/Cave.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_spiketop_blue",

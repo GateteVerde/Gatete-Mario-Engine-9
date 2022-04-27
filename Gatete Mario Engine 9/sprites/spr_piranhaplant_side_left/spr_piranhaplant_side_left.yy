@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Piranha Plants",
-    "path": "folders/Sprites/Enemies/Underground/Piranha Plants.yy",
+    "path": "folders/Sprites/Enemies/Cave/Piranha Plants.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_piranhaplant_side_left",

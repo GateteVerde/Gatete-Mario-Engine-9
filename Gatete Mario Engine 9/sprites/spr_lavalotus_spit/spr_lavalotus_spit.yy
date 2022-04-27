@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Underwater",
-    "path": "folders/Sprites/Enemies/Underwater.yy",
+    "name": "Water",
+    "path": "folders/Sprites/Enemies/Water.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lavalotus_spit",

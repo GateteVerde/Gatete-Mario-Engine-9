@@ -36,8 +36,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Underground",
-    "path": "folders/Objects/Enemies/Underground.yy",
+    "name": "Cave",
+    "path": "folders/Objects/Enemies/Cave.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_spiketop",

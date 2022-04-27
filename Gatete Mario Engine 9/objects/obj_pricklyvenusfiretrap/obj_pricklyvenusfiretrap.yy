@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Piranha Plants",
-    "path": "folders/Objects/Enemies/Underground/Piranha Plants.yy",
+    "path": "folders/Objects/Enemies/Cave/Piranha Plants.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pricklyvenusfiretrap",

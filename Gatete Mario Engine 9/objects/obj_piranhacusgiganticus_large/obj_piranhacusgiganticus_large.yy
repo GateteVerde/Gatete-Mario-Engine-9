@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Big",
-    "path": "folders/Objects/Enemies/Underground/Piranha Plants/Big.yy",
+    "path": "folders/Objects/Enemies/Cave/Piranha Plants/Big.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_piranhacusgiganticus_large",

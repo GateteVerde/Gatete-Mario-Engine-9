@@ -97,8 +97,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Forest",
-    "path": "folders/Sprites/Enemies/Forest.yy",
+    "name": "Water",
+    "path": "folders/Sprites/Enemies/Water.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skeeter_pink_deploy",
