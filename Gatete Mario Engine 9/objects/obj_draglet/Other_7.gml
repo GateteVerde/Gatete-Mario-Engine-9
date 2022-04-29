@@ -7,7 +7,7 @@ if (instance_exists(obj_mario)) {
 	audio_play_sound(snd_burn, 0, false);
 
 	//Spit a fireball
-	with (instance_create_depth(x + 8 * sign(xscale), y+8, 50, obj_plantfire))
+	with (instance_create_depth(x + 4 * sign(xscale), y+8, 50, obj_plantfire))
 		motion_set(point_direction(x, y, obj_mario.x, obj_mario.y), 1.5);
 }
 

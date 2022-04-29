@@ -1,4 +1,4 @@
-/// @description Small Grinder logic
+/// @description Track Fuzzy logic
 
 //Check for a track
 var track = collision_rectangle(x+xorig, y+yorig-3, x+xorig, y+yorig+0.9, obj_trackparent, 1, 0);
@@ -7,9 +7,6 @@ var track = collision_rectangle(x+xorig, y+yorig-3, x+xorig, y+yorig+0.9, obj_tr
 xspeed = hspeed;
 yspeed = vspeed;
 yadd = gravity;
-
-//Stay always behind scenery
-depth = 150;
 
 //If the grinder is on line
 if (state = "IN_LINE") {
@@ -145,7 +142,7 @@ else if (state == "FALLING") {
 	    if (hspeed == 0) {
         
 	        direct = 270;
-	        move_snap(1, 2);
+	        move_snap(1, 1.5);
 	    }
 	    else {
 
@@ -155,7 +152,7 @@ else if (state == "FALLING") {
 	        || (track.object_index == obj_track_circle_2x)) {
              
 	            direct = 270;
-	            move_snap(1, 2);   
+	            move_snap(1, 1.5);   
 	        }
         
 	        //If the track is a horizontal one
@@ -170,7 +167,7 @@ else if (state == "FALLING") {
 	        else {
             
 	            direct = 270;
-	            move_snap(1, 2);
+	            move_snap(1, 1.5);
 	        }             
 	    }
                              
@@ -183,136 +180,12 @@ else if (state == "FALLING") {
 	    ready = 0;
 	}
     
-	#region LOGIC
+	//Cap vertical speed
+	vspeed = min(4, vspeed);
 	
-		#region WALL COLLISION
-		
-			//Check for a platform
-			platform_l = collision_rectangle(bbox_left+hspeed, bbox_top+1, bbox_left, bbox_bottom-4, obj_platformparent, 1, 0);
-			platform_r = collision_rectangle(bbox_right, bbox_top+1, bbox_right+hspeed, bbox_bottom-4, obj_platformparent, 1, 0);
-	
-			//If moving right and there's a wall in position
-			if (hspeed > 0)
-			&& ((collision_rectangle(bbox_right, bbox_top+1, bbox_right+hspeed, bbox_bottom-4, obj_solid, 1, 0))
-			|| ((platform_r) && (platform_r.issolid == true))) {
-		
-				//Stop horizontal movement or reverse movement
-				hspeed = -hspeed;
-		
-				//Prevent NPC from getting embed on the wall
-				while (collision_rectangle(bbox_right, bbox_top+1, bbox_right, bbox_bottom-4, obj_solid, 1, 0))
-					x--;
-			}
-	
-			//Otherwise, if moving left
-			else if (hspeed < 0)
-			&& ((collision_rectangle(bbox_left+hspeed, bbox_top+1, bbox_left, bbox_bottom-4, obj_solid, 1, 0))
-			|| ((platform_l) && (platform_l.issolid == true))) {
-		
-				//Stop horizontal movement or reverse movement
-				hspeed = -hspeed;
-		
-				//Prevent NPC from getting embed on the wall
-				while (collision_rectangle(bbox_left, bbox_top+1, bbox_left, bbox_bottom-4, obj_solid, 1, 0))
-					x++;
-			}		
-		#endregion
-		
-		#region CEILING COLLISION
-		
-			//Check for a platform above
-			var platform_u = collision_rectangle(bbox_left, bbox_top+vspeed, bbox_right, bbox_top+vspeed, obj_platformparent, 1, 0);
-	
-			//If moving upwards
-			if (vspeed < 0) 
-			&& ((collision_rectangle(bbox_left, bbox_top+vspeed, bbox_right, bbox_top+vspeed, obj_solid, 1, 0)) 
-			|| ((platform_u) && (platform_u.issolid == true))) {
-			
-				//Prevent the NPC from getting stuck on a ceiling when jumping
-				while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_solid, 1, 0))
-				|| ((platform_u) && (platform_u.issolid)) {
-						
-					y++;
-				}
-		
-				//Stops rising
-				vspeed = 0;
-			}		
-		#endregion
-		
-		#region FLOOR COLLISION
-		
-			//Handle position when in-ground
-			if (vspeed >= 0) {
-
-				//Check for a conveyor
-				var conveyor = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_conveyorparent, 0, 0);
-		
-				//If there's a conveyor
-				if (conveyor)
-				&& (conveyor.image_speed != 0) {
-		
-					//If the conveyor is moving and there's not solid on the way
-					if ((conveyor.image_speed < 0) && (!collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-1, obj_solid, 0, 0)))
-					|| ((conveyor.image_speed > 0) && (!collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 0, 0)))
-						x += conveyor.image_speed;
-				}
-	
-				//Vspeed capacity
-				vspeed = min(4, vspeed);
-	
-				//Check for any nearby ground collision
-				var semisolid = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+vspeed, obj_semisolid, 0, 0);
-	
-				//If there's ground below and Mario is not moving upwards
-				if (semisolid)
-				&& (bbox_bottom < semisolid.yprevious + 5)
-					y = semisolid.bbox_top - floor(sprite_height-(sprite_get_yoffset(sprite_index)));
-			}
-
-			#region SLOPES
-			
-				//Embed Mario/NPCs into the slope if he is walking to ensure correct slope mechanics
-				if (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_slopeparent, 1, 0))
-				&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_slopeparent, 1, 0)) 
-				&& (vspeed == 0) 
-					y += 4;
-
-				//Handle slope collisions
-				if (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
-				&& (!collision_rectangle(bbox_left, bbox_bottom-8, bbox_right, bbox_bottom-8, obj_slopeparent, 1, 0)) {
-		
-					//If moving down
-					if (vspeed > 0) {
-			
-						//Stop vertical speed
-						vspeed = 0;
-						gravity = 0;
-					}
-			
-					//Round position variables
-					y = round(y);
-			
-					//Prevent getting embed on a slope
-					while (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
-						y--;	
-				}			
-			#endregion
-
-			//Check if there's a semisolid
-			if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_semisolid, 0, 0)) 
-			&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_semisolid, 0, 0))) 
-			|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, obj_slopeparent, 1, 0)) {
-	
-				//If moving down
-				if (vspeed > 0)
-					vspeed = 0;
-			}
-			else if ((state != "IN_LINE") && (freeze == false)) //<-- For (whatever Mario's profession is now) sake, do not remove this condition.
-				gravity = 0.25;
-			
-		#endregion
-	#endregion
+	//Apply gravity when not in line
+	if ((state != "IN_LINE") && (freeze == false)) //<-- For (whatever Mario's profession is now) sake, do not remove this condition.
+		gravity = 0.25;
 }
 
 //If the platform is outside the view
