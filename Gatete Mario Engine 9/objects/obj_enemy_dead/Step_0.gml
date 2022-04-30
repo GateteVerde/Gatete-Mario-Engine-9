@@ -5,7 +5,12 @@
 	//Do not spin with the following sprites
 	if (sprite_index != spr_pokey)
 	&& (sprite_index != spr_firesnake)
-	&& (sprite_index != spr_firesnake_body) {
+	&& (sprite_index != spr_firesnake_body) 
+	&& (sprite_index != spr_wiggler)
+	&& (sprite_index != spr_wiggler_body)
+	&& (sprite_index != spr_wiggler_mad)
+	&& (sprite_index != spr_wiggler_mad_body)
+	&& (sprite_index != spr_wiggler_flower) {
 
 		//Set up angle
 		angle += 10*sign(hspeed);

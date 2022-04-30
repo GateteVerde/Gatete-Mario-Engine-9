@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Forest",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Forest.yy",
+    "name": "Water",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Water.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_skeeter_bomb",

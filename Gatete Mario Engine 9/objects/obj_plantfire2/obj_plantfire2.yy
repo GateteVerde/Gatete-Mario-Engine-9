@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Piranha Plants",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Underground/Piranha Plants.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Cave/Piranha Plants.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_plantfire2",

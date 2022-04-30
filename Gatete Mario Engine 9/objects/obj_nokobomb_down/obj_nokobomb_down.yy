@@ -36,8 +36,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Underground",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Underground.yy",
+    "name": "Cave",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Cave.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_nokobomb_down",

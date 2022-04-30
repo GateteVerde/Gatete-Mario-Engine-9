@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Underwater",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Underwater.yy",
+    "name": "Water",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Water.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_generatorcheep_spiked",
