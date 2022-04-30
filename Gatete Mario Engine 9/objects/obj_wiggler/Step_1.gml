@@ -13,6 +13,7 @@ if (xspeed != 0) {
 	//Set the body position
 	for (i=1; i < seg; i++) {
 
+		//Set the body position
 	    mybody[i].x = oldx[i*closeness];
 	    mybody[i].y = oldy[i*closeness];
 	}
