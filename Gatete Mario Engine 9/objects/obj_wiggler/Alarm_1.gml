@@ -4,7 +4,7 @@ if (state == 1) {
 
     alarm[1] = 4;
     color++;
-    if (color > 4)
+    if (color > 3)
         color = 0;
 }
 else

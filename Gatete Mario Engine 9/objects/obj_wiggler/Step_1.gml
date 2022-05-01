@@ -23,7 +23,7 @@ if (xspeed != 0) {
 	oldy[0] = y;
 	for (i = amount_previous; i > 0; i--) {
 
-		oldx[i] = oldx[i-0.001];
-		oldy[i] = oldy[i-0.001];				    
+		oldx[i] = oldx[i-0.001] - (x-xprevious) * 2;
+		oldy[i] = oldy[i-0.001] - (y-yprevious) * 2;				    
 	}
 }

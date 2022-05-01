@@ -40,5 +40,3 @@ if (instance_exists(obj_mario)) {
 }
 else	
 	alarm[0] = 1;
-
-

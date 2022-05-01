@@ -57,5 +57,3 @@ alarm[10] = 2;
 	    oldy[i] = y;
 	}
 #endregion
-
-

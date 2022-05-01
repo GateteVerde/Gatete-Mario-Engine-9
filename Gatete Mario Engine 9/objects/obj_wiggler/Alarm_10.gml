@@ -4,7 +4,7 @@
 moving = 1;
     
 //Set the body horizontal scale
-for (i=0; i<4; i++) {
+for (var i=0; i<4; i++) {
     
     with (mybody[i]) {
         

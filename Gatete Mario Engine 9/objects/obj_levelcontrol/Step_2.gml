@@ -248,11 +248,11 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 		#region POSITION SETUP
 		
 			//Get ID from "Background 0"
-			var lay_id = layer_get_id("Background_0");
+			lay_id = layer_get_id("Background_0");
 			
 			//Get data from said layer
-			var back_id = layer_background_get_id(lay_id);
-			var back_spr = layer_background_get_sprite(back_id);
+			back_id = layer_background_get_id(lay_id);
+			back_spr = layer_background_get_sprite(back_id);
 
 			//Horizontal parallax
 			layer_x("Background_0", camera_x / 2);
@@ -297,5 +297,11 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 instance_deactivate_object(obj_deactivateparent);
 instance_deactivate_object(obj_enemyparent_deact);
 
+//Instance Deactivation coordinates
+var _vx = camera_get_view_x(view_camera[0]);
+var _vy = camera_get_view_y(view_camera[0]);
+var _vw = camera_get_view_width(view_camera[0]);
+var _vh = camera_get_view_height(view_camera[0]);
+
 //Activate deactivated instances inside the view
-instance_activate_region(camera_get_view_x(view_camera[0]) - 64, camera_get_view_y(view_camera[0]) - 64, camera_get_view_width(view_camera[0]) + 64, camera_get_view_height(view_camera[0]) + 64, true);
+instance_activate_region(_vx - 64, _vy - 64, _vw + 128, _vh + 128, true);
