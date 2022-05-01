@@ -2,9 +2,9 @@
 
 if (state == 1) {
 
-    alarm[1] = 2;
+    alarm[1] = 4;
     color++;
-    if (color > 8)
+    if (color > 4)
         color = 0;
 }
 else

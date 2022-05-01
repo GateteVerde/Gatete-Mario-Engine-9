@@ -33,7 +33,7 @@ if (sprite_index != spr_charginchuck_damage) {
             firehp -= 2;
 			
 			//Push Mario depending of position
-			 other.xspeed += lengthdir_x(4, point_direction(x, y, other.x, other.y));
+			other.xspeed += lengthdir_x(4, point_direction(x, y, other.x, other.y));
 
 			//Deny event
 			alarm[10] = -1;
