@@ -50,7 +50,7 @@ alarm[10] = 2;
 	closeness = 16;
 	amount_previous = 85;
 
-	//Make body coodirnate queue
+	//Make body coordinate queue
 	for (i=1; i<amount_previous; i++;) {
 
 	    oldx[i] = x;
