@@ -345,11 +345,12 @@ if (enable_gravity == 1) {
 	if (yspeed > 0) {
 
 		//Check for any nearby ground collision
-		var semisolid = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+yspeed, obj_semisolid, 0, 0);
+		var semisolid = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+yspeed, obj_semisolid, 0, 0);
 	
 		//If there's ground below and Mario is not moving upwards
 		if (semisolid)
-		&& (bbox_bottom < semisolid.yprevious+5) {
+		&& (bbox_bottom < semisolid.yprevious+5) 
+		&& (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, semisolid.y-1, obj_solid, 1, 0)) {
 		
 			//Snap above the semisolid
 			y = semisolid.bbox_top-16;

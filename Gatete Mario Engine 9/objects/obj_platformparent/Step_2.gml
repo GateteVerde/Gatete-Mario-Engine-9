@@ -8,8 +8,8 @@
 
 	//If the player exists
 	if (player)
-	&& (player.state != playerstate.jump)
-	&& (player.bbox_bottom < yprevious+5) {
+	&& (player.bbox_bottom < yprevious+5)
+	&& (player.state != playerstate.jump) {
 		
 		//Check there's no semisolid on the way
 		var check = collision_line(obj_mario.bbox_left, bbox_top-5, obj_mario.bbox_right, bbox_top+1, obj_semisolid, 0, 1);
@@ -53,7 +53,7 @@
 				if (!collision_rectangle(list[| i].bbox_left, bbox_top-5, list[| i].bbox_right, bbox_top+1, obj_semisolid, 0, 1)) {
 	
 				    //Snap the player vertically
-				    list[| i].y = ceil(bbox_top-15);
+				    list[| i].y = ceil(bbox_top-16);
 					
 					//If the platform can transport NPCs horizontally
 					if (no_horiz == false) {
