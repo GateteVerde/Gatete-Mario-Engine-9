@@ -28,6 +28,9 @@ state = 0
 //Colour
 color = 0;
 
+//Variable to ensure segments stay connected to the head on all times
+bodyadd = 0;
+
 //Start moving
 alarm[10] = 2;
 
@@ -55,7 +58,7 @@ alarm[10] = 2;
 	amount_previous = 85;
 
 	//Make body coordinate queue
-	for (i=1; i<amount_previous; i++;) {
+	for (i=1; i<=amount_previous; i++;) {
 
 	    oldx[i] = x;
 	    oldy[i] = y;

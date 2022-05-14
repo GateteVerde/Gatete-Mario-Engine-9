@@ -71,11 +71,9 @@ if (state == 0) {
     //Stop animation
     image_speed = 0;
     
-    //Update length and sprite
+    //Update sprite
     for (i = 1; i < seg; i++)  {
     
-        mybody[i].x = oldx[i*closeness];
-        mybody[i].y = oldy[i*closeness];
         mybody[i].image_speed = 0;
         mybody[i].sprite_index = spr_wiggler_mad_body;
     }
