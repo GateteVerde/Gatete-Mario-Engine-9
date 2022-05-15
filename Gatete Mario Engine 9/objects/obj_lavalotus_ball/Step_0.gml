@@ -1,4 +1,4 @@
-/// @description Venus Fire Trap fireball logic
+/// @description Lava Lotus fireball logic
 
 //Handle psuedo movement
 if (freeze == false) {

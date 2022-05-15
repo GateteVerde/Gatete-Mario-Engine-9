@@ -4,4 +4,4 @@
 depth = 100;
 
 //Generate a Rinka
-alarm[0] = 180;
+alarm[0] = 120;

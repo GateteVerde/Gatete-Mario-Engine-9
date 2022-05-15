@@ -10,7 +10,11 @@ if (active) {
     }
 }
 
-//Disc angle
-angle += spd*(clockwise*-1);
-if (angle > 360)
-    angle -= 360;
+//Do not move if Mario is dead or transforming
+if (!instance_exists(obj_mario_dead))
+&& (!instance_exists(obj_mario_transform)) {
+
+	angle += spd*(clockwise*-1);
+	if (angle > 360)
+	    angle -= 360;
+}

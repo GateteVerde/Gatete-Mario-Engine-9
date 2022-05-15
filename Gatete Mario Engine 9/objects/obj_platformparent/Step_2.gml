@@ -47,6 +47,7 @@
 		
 			//If the item is above this platform
 			if (list[| i].yspeed >= 0)
+			&& (list[| i].ignore_platforms == false)
 			&& (list[| i].bbox_bottom < yprevious+5) {
 				
 				//If there's a platform on the way, ignore this event

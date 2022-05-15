@@ -3,6 +3,9 @@
 //Inherit event
 event_inherited();
 
+//Ignore moving platforms
+ignore_platforms = true;
+
 //Generate effect
 numb = 0;
 

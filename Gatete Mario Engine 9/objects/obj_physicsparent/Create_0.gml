@@ -43,3 +43,6 @@ turn_toward = 1;
 
 //Turn towards ceilings
 turn_toward_ceiling = false;
+
+//Ignore moving platforms
+ignore_platforms = false;

@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//Ignore moving platforms
+ignore_platforms = true;
+
 //How vulnerable is this enemy to various items?
 vulnerable = 2;
 
@@ -13,7 +16,7 @@ stomp = 2;
 edible = 0;
 
 //Set motion
-alarm[10] = 89;
+alarm[10] = 60;
 
 //Create a light
 if (instance_exists(obj_lightcontrol)) {
