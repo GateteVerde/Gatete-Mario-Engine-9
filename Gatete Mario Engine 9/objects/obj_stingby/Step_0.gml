@@ -60,22 +60,25 @@ if (freeze == false) {
 				xscale = -1;
 		#endregion
 		
-		//Start chasing Mario
-		if ((dir == 1) && (xscale == 1) && (point_in_rectangle(obj_mario.x, obj_mario.y, x, y, x+64, y+64)))
-		|| ((dir == -1) && (xscale == -1) && (point_in_rectangle(obj_mario.x, obj_mario.y, x-64, y, x, y+64))) {
+		//Start chasing Mario if it exists
+		if (instance_exists(obj_mario)) {
+		
+			if ((dir == 1) && (xscale == 1) && (point_in_rectangle(obj_mario.x, obj_mario.y, x, y, x+64, y+64)))
+			|| ((dir == -1) && (xscale == -1) && (point_in_rectangle(obj_mario.x, obj_mario.y, x-64, y, x, y+64))) {
 			
-			//Begin charge
-			charge = 1;
+				//Begin charge
+				charge = 1;
 			
-			//Set jumping y position
-			jumpyy = y;
+				//Set jumping y position
+				jumpyy = y;
 			
-			//Stop moving horizontally
-			xspeed = 0;
+				//Stop moving horizontally
+				xspeed = 0;
 			
-			//Perform small jump
-			yspeed = -3;
-			yadd = 0.2;
+				//Perform small jump
+				yspeed = -3;
+				yadd = 0.2;
+			}
 		}
 	}
 	
@@ -131,7 +134,8 @@ if (freeze == false) {
 		#endregion
 		
 		//If Mario is far away, end charging
-		if (point_distance(obj_mario.x, obj_mario.y, x, y) > 128)
+		if (!instance_exists(obj_mario))
+		|| (point_distance(obj_mario.x, obj_mario.y, x, y) > 128)
 			charge = 0;
 	}
 	
