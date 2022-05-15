@@ -1,9 +1,5 @@
 /// @description Wiggler
 
-/*
-//	Do not place this enemy above moving platforms until a fix is deployed.
-*/
-
 //Inherit the parent event
 event_inherited();
 
