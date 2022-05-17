@@ -1,7 +1,7 @@
 /// @description Default death script
 
 //Create a cloud
-instance_create_depth(x, y+6, -6, obj_lakitu_cloud);
+instance_create_depth(x, y+5, -6, obj_lakitu_cloud);
 
 //Create dead object
 imdead = instance_create_depth(x, y, -6, obj_enemy_dead);

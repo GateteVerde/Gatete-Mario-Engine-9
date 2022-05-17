@@ -18,28 +18,22 @@ if (player_on == true)
             
         //Handle movement to the left
         if ((input_check(input.left)) && (!input_check(input.right))) {
-        
-            //Set facing direction
-            xscale = -1;
-            
-            //If there's no collision in position
-            if (collision_rectangle(obj_mario.bbox_left, bbox_top+5, obj_mario.bbox_left, bbox_bottom-4, obj_solid, 1, 0))
-                hspeed = 0;
-            else               
-                hspeed += -0.1;               
+			
+			//Set the horizontal speed
+			hspeed += -0.1;
+			
+			//Set facing direction
+			xscale = -1;
         }
         
         //Otherwise, handle movement to the right
         else if ((input_check(input.right)) && (!input_check(input.left))) {
-                
-            //Set facing direction
-            xscale = 1;
-            
-            //If there's no collision in position
-            if (collision_rectangle(obj_mario.bbox_right, bbox_top+5, obj_mario.bbox_right, bbox_bottom-4, obj_solid, 1, 0))
-                hspeed = 0;
-            else               
-                hspeed += 0.1;               
+			
+			//Set the horizontal speed
+			hspeed += 0.1;
+			
+			//Set facing direction
+			xscale = 1;
         } 
         
         //Otherwise, slow down
@@ -69,7 +63,7 @@ if (player_on == true)
         else if ((input_check(input.down)) && (!input_check(input.up))) {
 			
 			//Check for a semisolid
-			var check = collision_rectangle(bbox_left, obj_mario.bbox_bottom-1, bbox_right, obj_mario.bbox_bottom+1, obj_semisolid, 1, 0);
+			var check = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+vspeed, obj_semisolid, 1, 0);
         
             //If there's no collision in position
             if ((check) && (check != mytop))
