@@ -211,8 +211,8 @@ disablegrav = 0;
 //How many consecutive stomps has Mario made
 hitcombo = 0;
 
-//If the player is warping from a pit.
-pitwarp = false;
+//If the player is riding a cloud
+oncloud = 0;
 
 //Angle
 angle = 0;

@@ -26,12 +26,20 @@ if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, ob
 			
 			//Reset jump delay
 			statedelay = 0;
-		
-			//Figure out if the player is standing or walking
-			if (xspeed == 0)
+			
+			//If Mario is riding a cloud
+			if (oncloud)
 				state = playerstate.idle;
-			else
-				state = playerstate.walk;
+		
+			//Otherwise
+			else {
+		
+				//Figure out if the player is standing or walking
+				if (xspeed == 0)
+					state = playerstate.idle;
+				else
+					state = playerstate.walk;
+			}
 		}
 		
 		//Otherwise, set 'Jump' state

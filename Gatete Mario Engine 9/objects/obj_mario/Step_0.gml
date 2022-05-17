@@ -533,7 +533,7 @@ if (enable_gravity == 1) {
 	                    }
                     
 	                    //Otherwise, if the player's horizontal speed is lower than 2.6
-	                    else if ((!run) || (wallkick > 0) || ((state < 2) && (abs(xspeed) < 2.6)) && (global.pwing == 0)) { 
+	                    else if ((!run) || (oncloud == 1) || (wallkick > 0) || ((state < 2) && (abs(xspeed) < 2.6)) && (global.pwing == 0)) { 
                     
 	                        //If the player is flying and lands on the floor.
 	                        if (flying) {
