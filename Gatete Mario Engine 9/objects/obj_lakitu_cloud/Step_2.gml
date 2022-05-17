@@ -11,4 +11,7 @@ if (instance_exists(obj_mario)) {
 }
 
 mytop.x = x-8;
-mytop.y = y+10;
+if (player_on == true)
+	mytop.y = y+8;
+else
+	mytop.y = -1000;

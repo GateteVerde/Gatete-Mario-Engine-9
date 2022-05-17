@@ -22,8 +22,11 @@ if (player_on == true)
 			//Set the horizontal speed
 			hspeed += -0.1;
 			
-			//Set facing direction
-			xscale = -1;
+			//Set Mario's facing direction
+			with (obj_mario) {
+				
+				xscale = -1;
+			}
         }
         
         //Otherwise, handle movement to the right
@@ -32,8 +35,11 @@ if (player_on == true)
 			//Set the horizontal speed
 			hspeed += 0.1;
 			
-			//Set facing direction
-			xscale = 1;
+			//Set Mario's facing direction
+			with (obj_mario) {
+				
+				xscale = 1;
+			}
         } 
         
         //Otherwise, slow down
@@ -63,7 +69,7 @@ if (player_on == true)
         else if ((input_check(input.down)) && (!input_check(input.up))) {
 			
 			//Check for a semisolid
-			var check = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+vspeed, obj_semisolid, 1, 0);
+			var check = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_semisolid, 1, 0);
         
             //If there's no collision in position
             if ((check) && (check != mytop))
@@ -154,13 +160,5 @@ else {
         if (vspeed < 0.05) 
         && (vspeed > -0.05)
             vspeed = 0
-    }
-    
-    //Prevent hspeed from going over 1
-    if (abs(hspeed) > 1)
-        hspeed = 1* sign(hspeed)
-    
-    //Prevent vspeed from going over 1
-    if (abs(vspeed) > 1)
-        vspeed = 1* sign(vspeed)    
+    } 
 }

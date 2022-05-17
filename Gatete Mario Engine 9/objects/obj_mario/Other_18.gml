@@ -10,24 +10,30 @@ if (crouch == true) {
     //Otherwise...
     else {
 
-        if (state == playerstate.jump) { //If the player is jumping.
-        
-            //Allow the player's horizontal movement.
+		//If the player is in the air, allow movement
+        if (state == playerstate.jump)
             move = true;
-        }
-        else { //Otherwise, disallow the player's movement.
-        
-            //Disallow the player's horizontal movement.
+       
+		//Otherwise, disallow movement
+        else
             move = false;    
-        }
     }
 }
 
 //Otherwise, allow movement
 else {
 	
-	if (groundpound == 0)
-		move = true;
-	else
-		move = false;
+	//If Mario is riding a cloud, disable movement
+	if (oncloud == true)
+		move = false
+		
+	//Otherwise
+	else {
+	
+		//If Mario is not doing a groundpound
+		if (groundpound == 0)
+			move = true;
+		else
+			move = false;
+	}
 }

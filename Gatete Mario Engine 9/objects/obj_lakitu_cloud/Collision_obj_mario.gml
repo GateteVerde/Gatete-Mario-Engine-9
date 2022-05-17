@@ -1,5 +1,10 @@
 /// @description Make Mario ride the cloud
 
+//Ignore this event if Mario has the mega powerup
+if (global.powerup == cs_mega)
+exit;
+
+//If Mario can ride up the cloud
 if (player_on == false)
 && (can_on == true)
 && (other.yspeed > 0)
@@ -27,9 +32,6 @@ if (player_on == false)
 	//This cloud cannot be ridden
 	can_on = false;
             
-	//Set vertical speed
-	vspeed = 0.5;
-            
 	//Start timers
 	if (set == false) {
             
@@ -38,4 +40,7 @@ if (player_on == false)
 	    alarm[1] = 540;
 	    alarm[2] = 720;
 	}
+	
+	//Set vertical speed
+	vspeed = 0.5;
 }

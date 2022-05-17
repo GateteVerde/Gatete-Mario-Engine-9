@@ -31,21 +31,30 @@ if (instance_exists(obj_mario)) {
             
                 //With Mario
                 with (obj_mario) {
-            
+					
+					//Stop riding cloud
                     oncloud = false;
-                    jumping = 1;
-                    y--;
+					
+					//Set vertical speed
                     yspeed = -3.4675;
+					y--;
+					
+					//Jump
+                    jumping = 1;
+					
+					//Do spin jump if required
+					if (input_check(input.up))
+						jumpstyle = 1;
+					else
+						jumpstyle = 0;
                 }
-                
-                //Set vertical speed
-                vspeed = 0.5;
                 
                 //Dismount from the cloud
                 player_on = false;
                 
                 //Allow mount
-                can_on = true;
+                can_on = false;
+				alarm[0] = 30;
             }
         }
     }
@@ -56,7 +65,7 @@ event_user(0);
 
 //If moving right
 if (hspeed > 0)
-&& (collision_rectangle(bbox_right, obj_mario.bbox_top+4, bbox_right+hspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
+&& (collision_rectangle(bbox_right, obj_mario.bbox_top+4, bbox_right+1+hspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
 			
 	//Stop horizontal speed
 	hspeed = 0;
@@ -68,12 +77,12 @@ if (hspeed > 0)
 
 //If moving right
 else if (hspeed < 0)
-&& (collision_rectangle(bbox_left-hspeed, obj_mario.bbox_top+4, bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
+&& (collision_rectangle(bbox_left-1+hspeed, obj_mario.bbox_top+4, bbox_left-1, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
 			
 	//Stop horizontal speed
 	hspeed = 0;
 				
 	//Prevent getting embed on a wall
-	while (collision_rectangle(bbox_left-hspeed, obj_mario.bbox_top+4, bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
+	while (collision_rectangle(bbox_left+hspeed, obj_mario.bbox_top+4, bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
 		x++;  
 }

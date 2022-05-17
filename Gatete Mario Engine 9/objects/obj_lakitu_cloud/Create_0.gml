@@ -16,4 +16,7 @@ can_on = true;
 set = false;
 
 //Create a fake semisolid
-mytop = instance_create_depth(x-8, y+10, 1000, obj_semisolid);
+mytop = instance_create_depth(x-8, y+8, 1000, obj_semisolid);
+
+//Leave trail
+alarm[3] = 4;
