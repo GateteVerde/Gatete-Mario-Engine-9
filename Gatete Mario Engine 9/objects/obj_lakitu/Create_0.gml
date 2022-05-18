@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//Do not turn into silver coins
+turn_silver = false;
+
 //Cloud animation
 cloudanim = 0;
 

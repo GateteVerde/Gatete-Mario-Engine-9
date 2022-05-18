@@ -36,8 +36,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Weather",
-    "path": "folders/Objects/Main/Controllers/Effects/Weather.yy",
+    "name": "Effects",
+    "path": "folders/Objects/Main/Controllers/Effects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_rainmaker",

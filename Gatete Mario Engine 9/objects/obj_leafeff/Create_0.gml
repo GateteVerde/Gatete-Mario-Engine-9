@@ -4,8 +4,13 @@
 image_speed = 0;
 image_index = choose(0, 1);
 
-//Timer
-time = 0;
+//Alpha
+image_alpha = 1;
+alarm[0] = 1;
 
-//Rate
-rate = random_range(0.03, 0.06);
+//Set motion
+vspeed = 0.25;
+if (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2)
+	hspeed = -8;
+else
+	hspeed = 8;
