@@ -54,15 +54,15 @@ else {
             if (!instance_exists(obj_mario))
             || (obj_mario.x < x) {
             
-                xspeed -= 0.1;
-                if (xspeed < -2)
-                    xspeed = -2;
+                xspeed -= 0.05;
+                if (xspeed < -1.5)
+                    xspeed = -1.5;
             }
             else {
             
-                xspeed += 0.1;
-                if (xspeed > 2)
-                    xspeed = 2;
+                xspeed += 0.05;
+                if (xspeed > 1.5)
+                    xspeed = 1.5;
             }
         }
     }

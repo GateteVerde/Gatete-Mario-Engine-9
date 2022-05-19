@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Forest",
-    "path": "folders/Objects/Enemies/Forest.yy",
+    "name": "Sky",
+    "path": "folders/Objects/Enemies/Sky.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lakitu_red",

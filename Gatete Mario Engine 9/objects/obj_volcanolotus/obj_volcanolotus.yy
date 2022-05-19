@@ -35,8 +35,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Desert",
-    "path": "folders/Objects/Enemies/Desert.yy",
+    "name": "Forest",
+    "path": "folders/Objects/Enemies/Forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_volcanolotus",

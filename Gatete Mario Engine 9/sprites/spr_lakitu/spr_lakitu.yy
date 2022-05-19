@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Lakitu",
-    "path": "folders/Sprites/Enemies/Forest/Lakitu.yy",
+    "path": "folders/Sprites/Enemies/Sky/Lakitu.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lakitu",

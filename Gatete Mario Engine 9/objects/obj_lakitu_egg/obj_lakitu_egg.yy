@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Forest",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Forest.yy",
+    "name": "Sky",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Sky.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lakitu_egg",

@@ -1,4 +1,4 @@
-/// @function shard_create(sprite, x, y, depth, speed, direction);
+/// @function move_contact_object(dir, maxdist, object);
 /// @param dir
 /// @param maxdist
 /// @param object

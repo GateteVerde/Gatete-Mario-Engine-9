@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Desert",
-    "path": "folders/Sprites/Enemies/Desert.yy",
+    "name": "Forest",
+    "path": "folders/Sprites/Enemies/Forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lotusball_rinka",
