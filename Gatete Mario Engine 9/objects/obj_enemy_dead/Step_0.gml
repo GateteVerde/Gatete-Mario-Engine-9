@@ -10,7 +10,9 @@
 	&& (sprite_index != spr_wiggler_body)
 	&& (sprite_index != spr_wiggler_mad)
 	&& (sprite_index != spr_wiggler_mad_body)
-	&& (sprite_index != spr_wiggler_flower) {
+	&& (sprite_index != spr_wiggler_flower) 
+	&& (sprite_index != spr_flamechomp) 
+	&& (sprite_index != spr_fireball) {
 
 		//Set up angle
 		angle += 10*sign(hspeed);
