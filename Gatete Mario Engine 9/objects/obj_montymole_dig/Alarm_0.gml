@@ -21,6 +21,9 @@ if (sprite_index == spr_montymole_dig_wall) {
     //Do not animate
     image_speed = 0;
     image_index = 1;
+	
+	//Set depth
+	depth = 150;
 }
 else
 	instance_destroy();
