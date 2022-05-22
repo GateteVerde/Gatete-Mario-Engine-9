@@ -117,3 +117,27 @@ else if ((swimming) && (!water)) {
 	//Double horizontal speed
 	xspeed = xspeed*2;
 }
+
+//Check for a nearby lava object
+var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom+7, obj_lava, 1, 0);
+
+//If the NPC makes contact with lava
+if (lava) {
+	
+	//If this object is not a baburu shoe
+	if (sprite_index != spr_shoe_baburu) {
+	
+		//Play 'Burn' sound
+		audio_play_sound(snd_burn, 0, false);
+		
+		//Go *poof*
+		instance_create_depth(round(bbox_left + bbox_right) / 2, round(bbox_top + bbox_bottom) / 2, -6, obj_smoke);
+		with (instance_create_depth(round(bbox_left + bbox_right) / 2, round(bbox_top + bbox_bottom) / 2, -6, obj_smoke)) {
+			
+			sprite_index = spr_splash_lava;
+		}
+		
+		//Destroy
+		instance_destroy();
+	}	
+}

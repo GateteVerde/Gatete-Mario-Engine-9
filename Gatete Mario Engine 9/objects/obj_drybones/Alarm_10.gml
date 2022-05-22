@@ -7,5 +7,5 @@ event_inherited();
 if (bone == true) {
 	
 	alarm[0] = 150;
-	alarm[11] = 40;
+	alarm[11] = 60;
 }
