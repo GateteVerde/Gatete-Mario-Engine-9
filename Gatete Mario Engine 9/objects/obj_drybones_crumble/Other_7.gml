@@ -17,11 +17,24 @@ else if (image_speed < 0) {
 		//Revive this enemy
 		with (instance_create_depth(x, y, depth, obj_drybones)) {
 		
-			xspeed = 0.5 * sign(other.xscale);
+			xspeed = (swimming) ? 0.25 * sign(other.xscale) : 0.5 * sign(other.xscale);
 			bone = other.bone;
 		}
 		
 		//Destroy
 		instance_destroy();
     }
+	
+	//Otherwise, if this is a pile of Bony Beetles
+	else if (sprite_index == spr_bonybeetle_crumble) {
+	
+		//Revive this enemy
+		with (instance_create_depth(x, y, depth, obj_bonybeetle)) {
+		
+			xspeed = (swimming) ? 0.25 * sign(other.xscale) : 0.5 * sign(other.xscale);
+		}
+		
+		//Destroy
+		instance_destroy();		
+	}
 }

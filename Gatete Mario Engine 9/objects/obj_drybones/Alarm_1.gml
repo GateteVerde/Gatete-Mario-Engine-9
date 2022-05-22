@@ -35,3 +35,6 @@ xspeed = 0.5 * sign(xscale);
 
 //Throw a bone again
 alarm[0] = 150;
+
+//Turn towards Mario
+alarm[11] = 40;

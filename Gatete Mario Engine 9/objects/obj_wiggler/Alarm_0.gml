@@ -16,8 +16,10 @@ if (state == 1) {
 	//Chase player cycle
 	alarm[0] = 60;
 }
-else
-{
+
+//If mad, turn towards Mario
+else {
+	
 	//If Mario does exist
 	if (instance_exists(obj_mario)) {
 
