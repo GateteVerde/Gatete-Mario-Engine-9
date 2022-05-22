@@ -24,7 +24,7 @@ for (var i=0; i<11; i++) {
 	
 	if (save_alm[i] > -1) {
 
-		alarm[i] = min(1, save_alm[i]);
+		alarm[i] = max(save_alm[i], 1);
 		save_alm[i] = -1;
 	}
 }
