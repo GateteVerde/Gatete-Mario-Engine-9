@@ -9,6 +9,10 @@ vulnerable = 0;
 //How vulnerable is this enemy to the player?
 stomp = 0;
 
+//Momentum
+oldxspeed = 0;
+oldyspeed = 0;
+
 //How vulnerable is this enemy to yoshi?
 edible = 0;
 

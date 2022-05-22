@@ -49,7 +49,7 @@ else if (ready) {
     //Stop movement
     xspeed = 0;
 	yspeed = 0;
-    
+	
     //Exit
     exit;
 }

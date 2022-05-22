@@ -13,6 +13,10 @@ if (followers == 1) {
 //Otherwise
 else {
 
+	//Store momentum
+	oldxspeed = xspeed;
+    oldyspeed = yspeed;
+	
 	//Stop
 	ready = 1;
 	

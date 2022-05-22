@@ -1,6 +1,8 @@
 /// @description Resume movement
 
 //Resume movement
+xspeed = oldxspeed;
+yspeed = oldyspeed;
 ready = 0;
 
 //Set animation
