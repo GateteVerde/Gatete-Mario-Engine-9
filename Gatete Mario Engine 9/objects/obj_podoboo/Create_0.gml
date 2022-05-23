@@ -1,10 +1,10 @@
-/// @description Lava Bubble
+/// @description Podoboo
 
 //Inherit the parent event
 event_inherited();
 
 //How vulnerable is this enemy to various items?
-vulnerable = 2;
+vulnerable = 3;
 
 //How vulnerable is this enemy to Mario?
 stomp = 2;
@@ -26,5 +26,5 @@ alarm[3] = 1;
 
 //Shake
 offset = 0;
-offsetdir = 1;
+offsetdir = 0; //Set this to 1 if you want a shaking Podoboo
 alarm[4] = 1;

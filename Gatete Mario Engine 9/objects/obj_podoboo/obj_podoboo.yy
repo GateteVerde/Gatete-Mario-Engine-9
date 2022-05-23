@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lavabubble",
-    "path": "sprites/spr_lavabubble/spr_lavabubble.yy",
+    "name": "spr_podoboo",
+    "path": "sprites/spr_podoboo/spr_podoboo.yy",
   },
   "solid": false,
   "visible": true,
@@ -40,7 +40,7 @@
     "path": "folders/Objects/Enemies/Castle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lavabubble",
+  "name": "obj_podoboo",
   "tags": [],
   "resourceType": "GMObject",
 }

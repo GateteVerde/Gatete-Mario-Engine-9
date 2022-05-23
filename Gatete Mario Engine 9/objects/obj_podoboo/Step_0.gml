@@ -1,4 +1,4 @@
-/// @description Lava Bubble logic
+/// @description Podoboo logic
 
 //Manage pseudo movement variables
 if (freeze == false) {
