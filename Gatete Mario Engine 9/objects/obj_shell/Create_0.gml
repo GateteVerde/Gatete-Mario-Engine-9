@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//How vulnerable is this enemy to Yoshi?
+edible = 1;
+
 //Do not animate
 image_speed = 0;
 image_index = 0;
