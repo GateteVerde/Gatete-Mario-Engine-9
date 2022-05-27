@@ -23,26 +23,8 @@ if (held == true)
 	//Get other object id
 	enemy_id = other.id;
 	
-	#region KILL
-	
-		//Kill NPC
-		imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
-		
-		//Hereby sprite
-		imdead.sprite_index = sprite_index;
-
-		//Hereby frame
-		imdead.image_index = image_index;
-
-		//Hereby facing direction
-		imdead.image_xscale = xscale;
-		
-		//Set horizontal speed
-		if (enemy_id.x < x)
-			imdead.hspeed = 1;
-		else
-			imdead.hspeed = -1;		
-	#endregion
+	//Turn into debris
+	event_user(0);
 	
 	//Destroy
 	instance_destroy();

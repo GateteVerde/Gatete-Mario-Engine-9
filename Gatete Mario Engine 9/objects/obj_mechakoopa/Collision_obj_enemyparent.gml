@@ -23,26 +23,18 @@ if (held == true)
 	//Get other object id
 	enemy_id = other.id;
 	
-	#region KILL
-	
-		//Kill NPC
-		imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
-		
-		//Hereby sprite
-		imdead.sprite_index = sprite_index;
+	//Kill this enemy
+	for (var i=0; i<5; i++) {
 
-		//Hereby frame
-		imdead.image_index = image_index;
-
-		//Hereby facing direction
-		imdead.image_xscale = xscale;
-		
-		//Set horizontal speed
-		if (enemy_id.x < x)
-			imdead.hspeed = 1;
-		else
-			imdead.hspeed = -1;		
-	#endregion
+	    with (instance_create_depth(x, y, -6, obj_mechakoopa_debris)) {
+    
+			sprite_index = other.debris_sprite;
+	        hspeed = random_range(-1.5, 1.5);
+	        vspeed = random_range(-3, -1);
+	        image_speed = 0;
+	        image_index = i;
+	    }
+	}
 	
 	//Destroy
 	instance_destroy();

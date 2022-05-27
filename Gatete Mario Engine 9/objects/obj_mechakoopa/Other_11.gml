@@ -1,0 +1,7 @@
+/// @description Turn into a stunned mecha koopa
+
+with (instance_create_depth(x, y, -2, obj_mechakoopa_down)) {
+
+	dir = 1 * sign(other.xspeed);
+}
+instance_destroy();
