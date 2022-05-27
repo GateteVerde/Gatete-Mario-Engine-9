@@ -16,7 +16,7 @@ edible = 2;
 ready = 0;
 
 //Do not turn into silver coins
-turn_silver = false;
+turn_silver = 0;
 
 //No platform collision
 ignore_platforms = true;

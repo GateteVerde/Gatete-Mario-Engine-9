@@ -12,6 +12,9 @@ stomp = 2;
 //How vulnerable is this enemy to Yoshi?
 edible = 2;
 
+//Do not turn into silver coins
+turn_silver = 0;
+
 //Whether the Lava Bubble is jumping
 ready = 0;
 

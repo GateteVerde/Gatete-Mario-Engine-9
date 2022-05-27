@@ -1,4 +1,4 @@
-/// @description Diagonal Podoboo
+/// @description Thwimp
 
 //Inherit the parent event
 event_inherited();
@@ -15,5 +15,15 @@ edible = 2;
 //Do not turn into silver coins
 turn_silver = 0;
 
-//Start moving
+//No swimming
+noswim = true;
+
+//Jumping direction
+dir = 1;
+
+//Whether the Thwimp is jumping
+jumping = 0;
+alarm[0] = 100;
+
+//Set the jumping direction
 alarm[10] = 2;

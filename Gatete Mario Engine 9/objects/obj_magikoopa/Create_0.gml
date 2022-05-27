@@ -1,4 +1,4 @@
-/// @description Diagonal Podoboo
+/// @description Magikoopa
 
 //Inherit the parent event
 event_inherited();
@@ -7,7 +7,7 @@ event_inherited();
 vulnerable = 3;
 
 //How vulnerable is this enemy to Mario?
-stomp = 2;
+stomp = 0;
 
 //How vulnerable is this enemy to Yoshi?
 edible = 2;
@@ -15,5 +15,14 @@ edible = 2;
 //Do not turn into silver coins
 turn_silver = 0;
 
-//Start moving
-alarm[10] = 2;
+//Whether the magikoopa is preparing a spell
+ready = 0;
+
+//Generate sparkles
+alarm[2] = 4;
+
+//Do not animate
+image_speed = 0;
+
+//Do not show
+image_alpha = 0;
