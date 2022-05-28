@@ -10,7 +10,8 @@ if (xscale < 0) {
     mybullet = instance_create_depth(x-8, y+8, -2, obj_blastakoopa_bullet);                    
     with (mybullet) {
     
-        xspeed = -1;
+		direction = 180;
+        speed = 1.5;
         with (instance_create_depth(x, y, -2, obj_smoke))
             sprite_index = spr_smoke_b;
     }
@@ -26,7 +27,8 @@ else if (xscale > 0) {
     mybullet = instance_create_depth(x+8, y+8, -2, obj_blastakoopa_bullet);
     with (mybullet) {
 
-        xspeed = 1;
+        direction = 0;
+		speed = 1.5;
         with (instance_create_depth(x, y, -2, obj_smoke))
             sprite_index = spr_smoke_b;
     }    

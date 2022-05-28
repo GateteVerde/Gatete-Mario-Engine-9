@@ -15,6 +15,12 @@ edible = 0;
 //Ignore platforms
 ignore_platforms = 1;
 
+//Last Direction
+lastdir = direction;
+new_dir = 0;
+diff = 0;
+yy = 1;
+
 //Do not animate
 image_speed = 0;
 

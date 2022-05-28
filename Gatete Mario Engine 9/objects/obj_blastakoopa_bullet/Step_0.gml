@@ -1,59 +1,43 @@
 /// @description Blasta Koopa bullet logic
 
-//Manage pseudo movement variables
+//Last direction
+lastdir = direction;
+
+//If not frozen
 if (freeze == false) {
+	
+	//If the bullet is homing
+	if (homing == true) {
 
-	x += xspeed;
-	y += yspeed;
-}
-
-#region LOGIC
-
-	//If the bullet can follow mario
-	if (homing) {
-
-	    //If Mario does exist
-	    if (instance_exists(obj_mario)) {
-    
-	        //If Mario is at the right
-	        if (obj_mario.x > x) {
-        
-	            xspeed += 0.025;
-	            if (xspeed > 1.25)
-	                xspeed = 1.25;
-	        }
-        
-	        //Otherwise, if Mario is at the left
-	        else if (obj_mario.x < x) {
-        
-	            xspeed += -0.025;
-	            if (xspeed < -1.25)
-	                xspeed = -1.25;
-	        }
-    
-	        //If Mario is below
-	        if (obj_mario.y > y) {
-        
-	            yspeed += 0.025;
-	            if (yspeed > 1.25)
-	                yspeed = 1.25;
-	        }
-        
-	        //Otherwise, if Mario is above
-	        else if (obj_mario.y < y) {
-        
-	            yspeed += -0.025;
-	            if (yspeed < -1.25)
-	                yspeed = -1.25;
-	        }
-	    }
+		//Declare a new variable that hold the direction between your own position and the position of obj_mario
+		if (instance_exists(obj_mario)) {
+			
+			//Followe either Mario or the camera
+			new_dir = (instance_exists(obj_mario_transform)) ? point_direction(x, y, obj_levelcontrol.x, obj_levelcontrol.y) : point_direction(x, y, obj_mario.x, obj_mario.y);
+			
+			//Declare diff, diff is the difference in angle between where this object is going.
+			diff = angle_difference(direction, new_dir);
+		}
+		else {
+		
+			//Follow the camera
+			new_dir = point_direction(x, y, obj_levelcontrol.x, obj_levelcontrol.y);
+			
+			//Declare diff, diff is the difference in angle between where this object is going.
+			diff = angle_difference(direction, new_dir);
+		}
 	}
 	
-	//Facing direction
-	if (xspeed > 0)
-		sprite_index = spr_blastakoopa_missile_r;
-	else if (xspeed < 0)
-		sprite_index = spr_blastakoopa_missile_l;
+	//Turn it
+	direction -= min(2 * sign(diff), abs(diff));
+}
+
+#region SCALE
+
+	if (hspeed > 0)
+		yy = 1;
+	else if (hspeed < 0)
+		yy = -1;
 #endregion
 
 //Destroy if outside the view
