@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Castle",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Castle.yy",
+    "name": "Mechakoopas",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Castle/Mechakoopas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mechakoopa_debris",

@@ -7,7 +7,7 @@ audio_play_sound(snd_lightning, 0, false);
 shake_camera(6, ceil(audio_sound_length(snd_thud) * room_speed), true);
 
 //Depth
-depth = 450;
+depth = 50;
 
 //Combo
 hitcombo = 0;
