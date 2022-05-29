@@ -37,8 +37,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Castle",
-    "path": "folders/Objects/Enemies/Castle.yy",
+    "name": "Mechakoopas",
+    "path": "folders/Objects/Enemies/Castle/Mechakoopas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_blastakoopa",

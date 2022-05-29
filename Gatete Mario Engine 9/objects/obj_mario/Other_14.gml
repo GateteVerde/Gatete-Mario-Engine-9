@@ -153,6 +153,14 @@ if (enable_control == true) { //If the player controls are enabled.
 			}
 	    }
 		
+		//Make the player able to punch fences
+		if ((input_check_pressed(input.action_1)) && (netsmack < 4)) {
+		
+			netsmack = 4;
+			if (!audio_is_playing(snd_bump))
+				audio_play_sound(snd_bump, 0, false);
+		}
+		
 		//Check if there's a not climbable surface overlapping the player.
 		if (instance_exists(obj_mario_balloon))
 		|| (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_climb, 0, 0))

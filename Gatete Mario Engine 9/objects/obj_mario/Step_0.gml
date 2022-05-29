@@ -1,6 +1,6 @@
 /// @description Mario's logic!
 
-#region MANAGE PALETTES, TRIPLE JUMP AND ANGLE
+#region MANAGE PALETTES, NET SMACKING, TRIPLE JUMP AND ANGLE
 
 	//If the player is invulnerable
 	if (instance_exists(obj_invincibility)) {
@@ -85,6 +85,10 @@
 			tjtime = 0;
 		}		
 	}
+	
+	//Allow net smacking
+	if (netsmack > 0)
+		netsmack--;
 	
 #endregion
 

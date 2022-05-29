@@ -31,3 +31,14 @@ alarm[3] = 1;
 offset = 0;
 offsetdir = 0; //Set this to 1 if you want a shaking Podoboo
 alarm[4] = 1;
+
+//Create a light
+if (instance_exists(obj_lightcontrol)) {
+
+	with (instance_create_layer(0, 0, "Main", obj_light_npc)) {
+		
+		parent = other.id;
+		radius = 16;
+		new_radius = 16;
+	}
+}
