@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_mask_magikoopa_spell",
-    "path": "sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",
+    "name": "spr_bowserstatue_fire",
+    "path": "sprites/spr_bowserstatue_fire/spr_bowserstatue_fire.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_plantfire",
-    "path": "objects/obj_plantfire/obj_plantfire.yy",
+    "name": "obj_physicsparent",
+    "path": "objects/obj_physicsparent/obj_physicsparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,12 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario_spinner","path":"objects/obj_mario_spinner/obj_mario_spinner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -39,7 +36,7 @@
     "path": "folders/Objects/Special/Do Not Use!/Enemies/Castle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_magikoopa_magic",
+  "name": "obj_bowserstatue_fire",
   "tags": [],
   "resourceType": "GMObject",
 }

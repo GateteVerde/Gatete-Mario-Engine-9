@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","path":"sprites/spr_magikoopa_magic_mask/spr_magikoopa_magic_mask.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","path":"sprites/spr_magikoopa_magic_mask/spr_magikoopa_magic_mask.yy",},"LayerId":{"name":"e19dd872-44f2-465d-9603-9f2b388f82ae","path":"sprites/spr_magikoopa_magic_mask/spr_magikoopa_magic_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_magikoopa_magic_mask","path":"sprites/spr_magikoopa_magic_mask/spr_magikoopa_magic_mask.yy",},"resourceVersion":"1.0","name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","path":"sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","path":"sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",},"LayerId":{"name":"e19dd872-44f2-465d-9603-9f2b388f82ae","path":"sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_mask_magikoopa_spell","path":"sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",},"resourceVersion":"1.0","name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_magikoopa_magic_mask","path":"sprites/spr_magikoopa_magic_mask/spr_magikoopa_magic_mask.yy",},
+    "spriteId": {"name":"spr_mask_magikoopa_spell","path":"sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b176b85a-c623-4d1d-b746-05bf5923afc7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","path":"sprites/spr_magikoopa_magic_mask/spr_magikoopa_magic_mask.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b176b85a-c623-4d1d-b746-05bf5923afc7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","path":"sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 5,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_magikoopa_magic_mask","path":"sprites/spr_magikoopa_magic_mask/spr_magikoopa_magic_mask.yy",},
+    "parent": {"name":"spr_mask_magikoopa_spell","path":"sprites/spr_mask_magikoopa_spell/spr_mask_magikoopa_spell.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_magikoopa_magic_mask",
+    "name": "spr_mask_magikoopa_spell",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Castle",
-    "path": "folders/Sprites/Enemies/Castle.yy",
+    "name": "Projectiles",
+    "path": "folders/Sprites/Masks/Enemies/Common/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_magikoopa_magic_mask",
+  "name": "spr_mask_magikoopa_spell",
   "tags": [],
   "resourceType": "GMSprite",
 }
