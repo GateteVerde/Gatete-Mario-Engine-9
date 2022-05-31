@@ -44,35 +44,19 @@ if (sprite_index != spr_hotfoot) {
 		xspeed = 0;
 	}
 
-	//Check if Mario is not looking at the hotfoot
+	//Check if Mario is not looking at the Hot Foot
 	if (instance_exists(obj_mario)) {
 
 	    //If Mario is not spinjumping
 	    if (obj_mario.jumpstyle != 1) {
     
-	        //If Mario is at the right of the hotfoot
-	        if (obj_mario.x > x+4) {
+	        //If Mario is at the right of the Hot Foot
+	        if (obj_mario.x > x+8)
+				movenow = (obj_mario.xscale == 1) ? 1 : 0;
         
-	            //If Mario is looking at the right, move
-	            if (obj_mario.xscale == 1)
-	                movenow = 1;
-                
-	            //Otherwise, do not move
-	            else
-	                movenow = 0;
-	        }
-        
-	        //Otherwise if Mario is at the left of the hotfoot
-	        else if (obj_mario.x < x-4) {
-        
-	            //If Mario is looking at the left, move
-	            if (obj_mario.xscale == -1)
-	                movenow = 1;
-            
-	            //Otherwise, do not move
-	            else
-	                movenow = 0;
-	        }
+	        //Otherwise if Mario is at the left of the Hot Foot
+	        else if (obj_mario.x < x-8)
+				movenow = (obj_mario.xscale == -1) ? 1 : 0;
         
 	        //Otherwise, do not move
 	        else
@@ -85,10 +69,8 @@ if (sprite_index != spr_hotfoot) {
 	}
 
 	//Otherwise, do not move
-	else {
-		
+	else	
 	    movenow = 0;
-	}
 #endregion
 
 //Sprite
