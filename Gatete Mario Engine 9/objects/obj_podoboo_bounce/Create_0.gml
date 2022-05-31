@@ -15,6 +15,9 @@ edible = 2;
 //Do not turn into silver coins
 turn_silver = 0;
 
+//Do not unfreeze
+freeze_object = -2;
+
 //Start moving
 alarm[10] = 2;
 
