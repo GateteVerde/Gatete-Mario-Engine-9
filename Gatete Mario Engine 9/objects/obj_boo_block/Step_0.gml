@@ -8,11 +8,12 @@ event_inherited();
 	//If not moving
 	if (movenow == 0) {
 		
-		//Increment frame
+		/*Increment frame
 		if (frame == 0) {
 		
 			frame = 1;
 		}
+		*/
 		
 		//Increment frame
 		frame += 0.125;

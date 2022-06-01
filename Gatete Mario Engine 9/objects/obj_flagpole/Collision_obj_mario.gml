@@ -33,7 +33,8 @@ if (other.bbox_bottom > bbox_top+8) {
 	}
 
 	//Otherwise
-	else if (global.powerup != cs_mega) {
+	else if (global.powerup != cs_mega) 
+	&& (!instance_exists(obj_mario_transform)) {
 
 		//Create goal player
 		with (instance_create_depth(x+8, other.y, -5, obj_mario_flagpole)) {

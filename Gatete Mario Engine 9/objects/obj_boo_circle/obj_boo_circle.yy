@@ -25,10 +25,14 @@
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
+    {"varType":1,"value":"10","rangeEnabled":true,"rangeMin":6.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"boocount","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":6,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "1",
         "-1",
       ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"clockwise","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"3","rangeEnabled":true,"rangeMin":1.0,"rangeMax":6.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"gapsize","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"80","rangeEnabled":true,"rangeMin":48.0,"rangeMax":96.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ringsize","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":4,"value":"0.0175","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ringspeed","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

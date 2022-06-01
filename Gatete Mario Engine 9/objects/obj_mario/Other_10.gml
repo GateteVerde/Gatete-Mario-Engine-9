@@ -1,7 +1,7 @@
-/// @description Damage the player
+/// @description Hurt Mario
 
-//If not invincible
-if (invulnerable == 0) {
+//If not invincible or groundpounding
+if ((invulnerable == 0) && (groundpound == 0)) {
 
 	//Give Mario temporary invulnerability
 	event_user(7);

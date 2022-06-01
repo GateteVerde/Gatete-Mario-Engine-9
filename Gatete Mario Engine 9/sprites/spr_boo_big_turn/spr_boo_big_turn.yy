@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Ghost",
-    "path": "folders/Sprites/Enemies/Ghost.yy",
+    "name": "Big",
+    "path": "folders/Sprites/Enemies/Ghost/Boo/Big.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_boo_big_turn",

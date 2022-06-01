@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Ghost",
-    "path": "folders/Sprites/Enemies/Ghost.yy",
+    "name": "Boo",
+    "path": "folders/Sprites/Enemies/Ghost/Boo.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_boo_block",
