@@ -10,5 +10,5 @@ frame = !frame;
 with (instance_create_depth(x, y, depth + 1, obj_boo_stream_trail)) {
 
     image_xscale = other.xscale;
-    image_index = random(round(5));
+    image_index = random(round(13));
 }

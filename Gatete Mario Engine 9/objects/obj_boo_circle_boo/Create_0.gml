@@ -27,6 +27,6 @@ clockwise = 1;
 image_speed = 0;
 
 //Set up the frame
-image_index = choose(0, 2, 4);
+image_index = choose(0, 2, 4, 6, 8, 10, 12);
 frame = 0;
 alarm[0] = 7;
