@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_boo_big",
-    "path": "sprites/spr_boo_big/spr_boo_big.yy",
+    "name": "spr_boo_angry_lookout",
+    "path": "sprites/spr_boo_angry_lookout/spr_boo_angry_lookout.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,19 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Big",
-    "path": "folders/Objects/Enemies/Ghost/Big.yy",
+    "name": "Ghost",
+    "path": "folders/Objects/Enemies/Ghost.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_boo_big",
+  "name": "obj_boo_angry",
   "tags": [],
   "resourceType": "GMObject",
 }
