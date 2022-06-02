@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_square_c",
-    "path": "sprites/spr_square_c/spr_square_c.yy",
+    "name": "spr_eventmarker",
+    "path": "sprites/spr_eventmarker/spr_eventmarker.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -23,6 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Objects/Main.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tilelayerhider",
+  "name": "obj_tilelayermanager_front",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,10 +1,11 @@
 /// @description Mario's main behaviour script
 
 //Check if there's a collision below and if Mario is on the ground
-if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1.5, obj_semisolid, 0, 0))
+if (yadd == 0)
+&& (!collision_point(x, bbox_bottom, obj_wanderingpit, 1, 0))
+&& ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1.5, obj_semisolid, 0, 0))
 || (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1.5, obj_enemy_top, 0, 0))
-|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1.5, obj_slopeparent, 1, 0)))
-&& (yadd == 0) {
+|| (collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1.5, obj_slopeparent, 1, 0))) {
 
 	//If the player is flying and moving upwards...
 	if ((flying) && (yspeed < 0))

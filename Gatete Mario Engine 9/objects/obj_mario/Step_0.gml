@@ -92,27 +92,6 @@
 	
 #endregion
 
-#region CHECK FOR FAKE TILES
-
-	//Check if "fakeTileAlpha" global variable exists
-	if (variable_global_exists("fakeTileAlpha")) {
-
-		//Temporary variables
-		var _fakeTile = 0;
-
-		//Get tilemap
-		_fakeTile += tilemap_get_at_pixel(global.mapFake, x, y);
-	
-		//Set alpha
-		var _targetAlpha = 1;
-		if (_fakeTile > 0) {
-		
-			_targetAlpha = 0.25;
-		}
-		global.fakeTileAlpha = lerp(global.fakeTileAlpha, _targetAlpha, 0.1);
-	}
-#endregion
-
 #region CHECK IF IN AIR
 	
 	if (state == 2)
@@ -346,7 +325,7 @@ if (enable_gravity == 1) {
 		noisy = 0;
 		
 	//If moving down
-	if (yspeed > 0) {
+	if (yspeed >= 0) {
 
 		//Check for any nearby ground collision
 		var semisolid = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+yspeed, obj_semisolid, 0, 0);
@@ -354,7 +333,8 @@ if (enable_gravity == 1) {
 		//If there's ground below and Mario is not moving upwards
 		if (semisolid)
 		&& (bbox_bottom < semisolid.yprevious+5) 
-		&& (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, semisolid.y-1, obj_solid, 1, 0)) {
+		&& (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, semisolid.y-1, obj_solid, 1, 0)) 
+		&& (!collision_point(x, semisolid.y-1, obj_wanderingpit, 1, 0)) {
 		
 			//Snap above the semisolid
 			y = semisolid.bbox_top-16;

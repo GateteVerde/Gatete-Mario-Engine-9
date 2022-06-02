@@ -638,6 +638,7 @@
     {"id":{"name":"obj_mario_hawkmouth","path":"objects/obj_mario_hawkmouth/obj_mario_hawkmouth.yy",},"order":2,},
     {"id":{"name":"spr_coin_30","path":"sprites/spr_coin_30/spr_coin_30.yy",},"order":3,},
     {"id":{"name":"spr_mask_mario_tiny","path":"sprites/spr_mask_mario_tiny/spr_mask_mario_tiny.yy",},"order":7,},
+    {"id":{"name":"obj_tilelayermanager_front","path":"objects/obj_tilelayermanager_front/obj_tilelayermanager_front.yy",},"order":5,},
     {"id":{"name":"obj_modifier_novisible","path":"objects/obj_modifier_novisible/obj_modifier_novisible.yy",},"order":7,},
     {"id":{"name":"spr_goalgate_tape","path":"sprites/spr_goalgate_tape/spr_goalgate_tape.yy",},"order":6,},
     {"id":{"name":"obj_urchin_wall","path":"objects/obj_urchin_wall/obj_urchin_wall.yy",},"order":9,},

@@ -21,7 +21,7 @@ else {
 	surface_set_target(FinalSurface);
 	   
 	//Clear alpha in white
-	draw_clear_alpha(c_white,0);
+	draw_clear_alpha(c_white, 0);
 		
 	//Draw the tiles
 	draw_surface(BufferSurface,-camera_x+extra/2,-camera_y+extra/2);
@@ -34,13 +34,12 @@ else {
 	//Set substractive blending mode
 	gpu_set_blendmode(bm_subtract);
 	
-	//If there's wandering pits placed
-	if (instance_number(obj_wanderingpit) > 0) {
+	//If there's a tile layer hider placed
+	if (instance_number(obj_tilelayerhider) > 0) {
 	
-		//With ALL obj_wanderingpit
-		with (obj_wanderingpit) {
-	
-			draw_rectangle_color(x - other.camera_x, y - other.camera_y, x + 40 - other.camera_x, y + 23 - other.camera_y, c_white, c_white, c_white, c_white, 0);
+		with (obj_tilelayerhider) {
+		
+			draw_circle_colour(xx - other.camera_x, yy - other.camera_y, radius, c_white, c_white, false);
 		}
 	}
 
