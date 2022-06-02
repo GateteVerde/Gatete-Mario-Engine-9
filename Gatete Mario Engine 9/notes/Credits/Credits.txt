@@ -2,6 +2,7 @@
 Gate
 Mack
 Sammu
+Electro
 
 - Sprites -
 72DpiArmy
