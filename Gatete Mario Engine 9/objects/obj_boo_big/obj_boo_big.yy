@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Big",
-    "path": "folders/Objects/Enemies/Ghost/Big.yy",
+    "path": "folders/Objects/Enemies/Ghost/Boo/Big.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_boo_big",

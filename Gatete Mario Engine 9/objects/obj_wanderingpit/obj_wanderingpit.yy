@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_boo_stretch",
-    "path": "sprites/spr_boo_stretch/spr_boo_stretch.yy",
+    "name": "spr_wanderingpit",
+    "path": "sprites/spr_wanderingpit/spr_wanderingpit.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,22 +25,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boo",
-    "path": "folders/Objects/Enemies/Ghost/Boo.yy",
+    "name": "Ghost",
+    "path": "folders/Objects/Enemies/Ghost.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_boo_stretch",
+  "name": "obj_wanderingpit",
   "tags": [],
   "resourceType": "GMObject",
 }

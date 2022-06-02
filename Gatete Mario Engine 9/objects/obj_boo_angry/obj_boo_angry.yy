@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ghost",
-    "path": "folders/Objects/Enemies/Ghost.yy",
+    "name": "Boo",
+    "path": "folders/Objects/Enemies/Ghost/Boo.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_boo_angry",
