@@ -1,7 +1,7 @@
 /// @description Purely decorative (and breakable) pipe
 
 //Depth
-depth = layer_get_depth("Main");
+depth = -2;
 
 //Whether this pipe has been broken
 palette = 0;

@@ -1,5 +1,9 @@
 /// @description Wandering Pit
 
+/*
+//  This object must be used along with obj_tilelayermanager
+*/
+
 //Inherit the parent event
 event_inherited();
 

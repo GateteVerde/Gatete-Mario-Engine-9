@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cea63c4d-fbd3-48df-9347-7521ba5be50b","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cea63c4d-fbd3-48df-9347-7521ba5be50b","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"LayerId":{"name":"7e3e32e8-116a-420b-a371-4f26544b76d9","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_paragoomba_red_frozen","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"resourceVersion":"1.0","name":"cea63c4d-fbd3-48df-9347-7521ba5be50b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1c1ab0b9-247b-4c54-8dcf-5016b6c77072","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1c1ab0b9-247b-4c54-8dcf-5016b6c77072","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"LayerId":{"name":"7e3e32e8-116a-420b-a371-4f26544b76d9","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_paragoomba_red_frozen","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"resourceVersion":"1.0","name":"1c1ab0b9-247b-4c54-8dcf-5016b6c77072","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_paragoomba_red_frozen","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b4be847c-5f2a-43e5-994f-7c14d08ce25d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cea63c4d-fbd3-48df-9347-7521ba5be50b","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ddf27a9-1851-4904-9d7b-00cb6db4f914","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c1ab0b9-247b-4c54-8dcf-5016b6c77072","path":"sprites/spr_paragoomba_red_frozen/spr_paragoomba_red_frozen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
