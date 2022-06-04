@@ -1,5 +1,8 @@
 /// @description Break pipe if Mario is giant
 
+//Set depth
+depth = -1;
+
 //Check for Mario
 var mario = collision_rectangle(bbox_left-4, bbox_top-4, bbox_right+4, bbox_bottom, obj_mario, 0, 0);
 

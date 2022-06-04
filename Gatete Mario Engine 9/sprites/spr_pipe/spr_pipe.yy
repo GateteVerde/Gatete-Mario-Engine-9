@@ -71,7 +71,7 @@
     "left": 16,
     "top": 16,
     "right": 0,
-    "bottom": 16,
+    "bottom": 17,
     "guideColour": [
       4294902015,
       4294902015,
