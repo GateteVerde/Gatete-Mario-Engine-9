@@ -1,4 +1,4 @@
-/// @description Draw Parachute Galoomba
+/// @description Draw Parachute Bob-Omb
 
 //If the galoomba is moving down
 if (ready == 0)
@@ -10,9 +10,9 @@ else {
     //Draw the parachute
     if (ready < 2) {
     
-        draw_sprite_ext(spr_galoomba_parachute_land, 1, screen_round(x), screen_round(y) + 1 + para_y, 1, 1, 0, c_white, 1);
+        draw_sprite_ext(spr_bobomb_parachute_land, 1, screen_round(x), screen_round(y) + 1 + para_y, 1, 1, 0, c_white, 1);
     }
     
     //Draw the galoomba
-    draw_sprite_ext(spr_galoomba_parachute_land, 0, screen_round(x), screen_round(y) + 1, 1, 1, 0, c_white, 1);
+    draw_sprite_ext(spr_bobomb_parachute_land, 0, screen_round(x), screen_round(y) + 1, 1, 1, 0, c_white, 1);
 }
