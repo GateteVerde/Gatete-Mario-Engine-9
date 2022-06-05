@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Airship",
-    "path": "folders/Objects/Enemies/Airship.yy",
+    "name": "Bullet Bill",
+    "path": "folders/Objects/Enemies/Airship/Ballistics/Bullet Bill.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_blaster",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bulletbill",
-    "path": "sprites/spr_bulletbill/spr_bulletbill.yy",
+    "name": "spr_banzaibill",
+    "path": "sprites/spr_banzaibill/spr_banzaibill.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bullet Bills",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Ballistics/Bullet Bills.yy",
+    "name": "Banzai Bills",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Ballistics/Banzai Bills.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bulletbill",
+  "name": "obj_banzaibill",
   "tags": [],
   "resourceType": "GMObject",
 }

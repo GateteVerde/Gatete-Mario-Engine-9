@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_bulletbill",
-    "path": "sprites/spr_bulletbill/spr_bulletbill.yy",
+    "name": "spr_blaster_banzai",
+    "path": "sprites/spr_blaster_banzai/spr_blaster_banzai.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemyparent",
-    "path": "objects/obj_enemyparent/obj_enemyparent.yy",
+    "name": "obj_deactivateparent",
+    "path": "objects/obj_deactivateparent/obj_deactivateparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,16 +25,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bullet Bills",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Ballistics/Bullet Bills.yy",
+    "name": "Banzai Bill",
+    "path": "folders/Objects/Enemies/Airship/Ballistics/Banzai Bill.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bulletbill",
+  "name": "obj_blaster_banzai",
   "tags": [],
   "resourceType": "GMObject",
 }

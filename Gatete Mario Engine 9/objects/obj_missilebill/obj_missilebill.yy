@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Bullet Bills",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Bullet Bills.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Ballistics/Bullet Bills.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_missilebill",
