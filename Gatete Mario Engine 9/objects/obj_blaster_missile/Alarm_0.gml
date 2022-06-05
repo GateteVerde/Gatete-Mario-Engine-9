@@ -1,4 +1,4 @@
-/// @description Shoot a bullet bill
+/// @description Shoot a missile bill
 
 //If Mario does not exist, deny event
 if (!instance_exists(obj_mario)) {
@@ -21,8 +21,8 @@ else {
     //Otherwise, if none of the conditions above match, let the shooting begin.
     else {
     
-        //If there's 6 or less bullet bills on screen
-        if (instance_number(obj_bulletbill) >= 6) {
+        //If this cannon did not shoot a missile bill
+        if (mybullet != -1) {
         
             alarm[0] = 1;
             exit;
@@ -37,21 +37,20 @@ else {
                 //Play 'Thud' sound
                 audio_play_sound(snd_thud, 0, false);
                 
-                //Create bullet bill
-                with (instance_create_depth(x+8, y, -2, obj_bulletbill)) {
-                
-					//Set frame
-                    image_index = 4;
+                //Create missile bill
+				mybullet = instance_create_depth(x+8, y, -2, obj_missilebill);
+				with (mybullet) {
 					
 					//Set motion
-                    xspeed = random_range(-0.5, -10);
+                    direction = 180;
+					speed = 1.5;
 					
 					//Create smoke effect
                     instance_create_depth(x, y+8, -6, obj_smoke);
                 }
                 
                 //Repeat
-                alarm[0] = 60 + round(random(120));
+                alarm[0] = 300;
             }
             
             //If there's a solid at the left, deny event
@@ -72,20 +71,19 @@ else {
                 audio_play_sound(snd_thud, 0, false);
                 
                 //Create bullet bill
-                with (instance_create_depth(x+8, y, -2, obj_bulletbill)) {
-                
-					//Set frame
-                    image_index = 0;
+				mybullet = instance_create_depth(x+8, y, -2, obj_missilebill);
+				with (mybullet) {
 					
 					//Set motion
-                    xspeed = random_range(0.5, 10);
+                    direction = 0;
+					speed = 1.5;
 					
 					//Create smoke effect
                     instance_create_depth(x, y+8, -6, obj_smoke);
                 }
                 
                 //Repeat
-                alarm[0] = 60 + round(random(120));
+                alarm[0] = 300;
             }
             
             //If there's a solid at the left, deny event
