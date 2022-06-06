@@ -12,7 +12,9 @@
 	&& (sprite_index != spr_wiggler_mad_body)
 	&& (sprite_index != spr_wiggler_flower) 
 	&& (sprite_index != spr_flamechomp) 
-	&& (sprite_index != spr_fireball) {
+	&& (sprite_index != spr_fireball) 
+	&& (sprite_index != spr_banzaibill) 
+	&& (sprite_index != spr_bullseyebill) {
 
 		//Set up angle
 		angle += 10*sign(hspeed);
@@ -25,7 +27,9 @@
 	//Otherwise
 	else {
 
-		angle = 180;
+		if (sprite_index != spr_banzaibill)
+		&& (sprite_index != spr_bullseyebill)
+			angle = 180;
 	}
 #endregion
 

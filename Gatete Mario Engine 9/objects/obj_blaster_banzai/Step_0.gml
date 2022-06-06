@@ -23,6 +23,4 @@ else if (ready == 2) {
 }
 
 //Set depth
-if (depth = 150)
-&& (!place_meeting(x, y, obj_blaster_banzai))
-	depth = -2;
+depth = -2;

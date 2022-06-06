@@ -1,4 +1,4 @@
-/// @description Missile Bill logic
+/// @description Bullseye Bill logic
 
 //Last direction
 lastdir = direction;
@@ -29,7 +29,7 @@ if (freeze == false) {
 	}
 	
 	//Turn it
-	direction -= min(2 * sign(diff), abs(diff));
+	direction -= min(1 * sign(diff), abs(diff));
 }
 
 #region SCALE

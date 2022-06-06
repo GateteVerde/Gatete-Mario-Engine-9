@@ -44,7 +44,7 @@ else {
                     image_index = 4;
 					
 					//Set motion
-                    xspeed = random_range(-0.5, -10);
+                    xspeed = -2;
 					
 					//Create smoke effect
                     instance_create_depth(x, y+8, -6, obj_smoke);
@@ -78,7 +78,7 @@ else {
                     image_index = 0;
 					
 					//Set motion
-                    xspeed = random_range(0.5, 10);
+                    xspeed = 2;
 					
 					//Create smoke effect
                     instance_create_depth(x, y+8, -6, obj_smoke);

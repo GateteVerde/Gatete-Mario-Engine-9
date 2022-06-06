@@ -1,6 +1,7 @@
-/// @description Banzai Bill Blaster
+/// @description Bullseye Bill Blaster
 
-//Shoot a Banzai Bill
+//Shoot a Bullseye Bill
+mybullet = -1;
 alarm[0] = 90;
 
 //Scale
