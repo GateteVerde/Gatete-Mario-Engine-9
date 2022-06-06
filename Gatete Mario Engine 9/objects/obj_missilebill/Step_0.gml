@@ -40,6 +40,9 @@ if (freeze == false) {
 		image_index = 1;
 #endregion
 
+//Set depth
+depth = (homing == 1) ? -3 : -2;
+
 //Destroy if outside the view
 if (x < camera_get_view_x(view_camera[0]) - 16)
 || (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) + 16)

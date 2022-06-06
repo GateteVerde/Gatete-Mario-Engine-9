@@ -13,7 +13,7 @@ if (freeze == false) {
 		if (instance_exists(obj_mario)) {
 			
 			//Followe either Mario or the camera
-			new_dir = (instance_exists(obj_mario_transform)) ? point_direction(x, y, obj_levelcontrol.x, obj_levelcontrol.y) : point_direction(x, y, obj_mario.x, obj_mario.y);
+			new_dir = (instance_exists(obj_mario_transform)) ? point_direction(x, y, obj_levelcontrol.x, obj_levelcontrol.y) : point_direction(x, y, obj_mario.x, obj_mario.y-32);
 			
 			//Declare diff, diff is the difference in angle between where this object is going.
 			diff = angle_difference(direction, new_dir);
@@ -21,7 +21,7 @@ if (freeze == false) {
 		else {
 		
 			//Follow the camera
-			new_dir = point_direction(x, y, obj_levelcontrol.x, obj_levelcontrol.y);
+			new_dir = point_direction(x, y, obj_levelcontrol.x, obj_levelcontrol.y - 32);
 			
 			//Declare diff, diff is the difference in angle between where this object is going.
 			diff = angle_difference(direction, new_dir);
@@ -39,6 +39,9 @@ if (freeze == false) {
 	else if (hspeed < 0)
 		image_index = 1;
 #endregion
+
+//Set depth
+depth = (homing) ? -3 : -2;
 
 //Destroy if outside the view
 if (x < camera_get_view_x(view_camera[0]) - 16)
