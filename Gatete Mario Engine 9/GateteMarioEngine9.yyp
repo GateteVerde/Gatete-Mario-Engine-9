@@ -3012,7 +3012,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/music","resourceVersion":"1.0","name":"bonus.ogg","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.5.1.14",
   },
   "resourceVersion": "1.5",
   "name": "GateteMarioEngine9",
