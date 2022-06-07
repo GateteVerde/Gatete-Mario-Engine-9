@@ -33,5 +33,5 @@ if (yadd == 0)
     xspeed = 1.5;
 	
 //Make sure to set the alt exit if the card is a secret one
-if (mycard.secret_exit == true)
+if (mygoal.secret_exit == true)
     global.clear = 2;

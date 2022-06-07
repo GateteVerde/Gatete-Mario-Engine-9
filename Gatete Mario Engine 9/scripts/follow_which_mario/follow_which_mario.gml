@@ -31,8 +31,20 @@ function follow_which_mario() {
 		follow = obj_mario_rocket;
 		
 	//Otherwise, if Mario completed a level
-	else if (instance_exists(obj_mario_clear))
-		follow = obj_mario_clear;
+	else if (instance_exists(obj_mario_clear)) {
+		
+		//If Mario has cleared a level with the goal gate
+		if (instance_exists(obj_mario_gate)) {
+	
+			//If Mario has started walking again, do not follow
+			if (obj_mario_gate.ready3 == 0)
+				follow = obj_mario_gate;
+			else
+				follow = noone;
+		}
+		else
+			follow = obj_mario_clear;
+	}
     
 	//Otherwise, if Mario does not exist anymore
 	else 
