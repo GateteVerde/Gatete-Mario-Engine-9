@@ -1,19 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_bobomb_cannon",
-    "path": "sprites/spr_bobomb_cannon/spr_bobomb_cannon.yy",
+    "name": "spr_cannon_side",
+    "path": "sprites/spr_cannon_side/spr_cannon_side.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_mask_npc_common_16x16",
-    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_galoomba",
-    "path": "objects/obj_galoomba/obj_galoomba.yy",
+    "name": "obj_deactivateparent",
+    "path": "objects/obj_deactivateparent/obj_deactivateparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,22 +25,25 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":6,"value":"45","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+        "45",
+        "135",
+        "225",
+        "315",
+      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"direct","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Airship",
-    "path": "folders/Objects/Enemies/Airship.yy",
+    "name": "Ballistics",
+    "path": "folders/Objects/Enemies/Airship/Ballistics.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bobomb_cannon",
+  "name": "obj_cannon_side",
   "tags": [],
   "resourceType": "GMObject",
 }
