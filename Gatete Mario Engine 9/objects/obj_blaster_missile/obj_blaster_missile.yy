@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -32,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Bullet Bill",
-    "path": "folders/Objects/Enemies/Airship/Ballistics/Bullet Bill.yy",
+    "path": "folders/Objects/Enemies/Airship/Bullet Bill.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_blaster_missile",

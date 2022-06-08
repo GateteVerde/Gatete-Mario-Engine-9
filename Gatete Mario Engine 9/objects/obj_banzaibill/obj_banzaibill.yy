@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -31,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Banzai Bills",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Ballistics/Banzai Bills.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Banzai Bills.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_banzaibill",

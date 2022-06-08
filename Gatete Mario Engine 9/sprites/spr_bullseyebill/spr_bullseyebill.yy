@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Banzai Bills",
-    "path": "folders/Sprites/Enemies/Airship/Ballistics/Banzai Bills.yy",
+    "path": "folders/Sprites/Enemies/Airship/Banzai Bills.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bullseyebill",

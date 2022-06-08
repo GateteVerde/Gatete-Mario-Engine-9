@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_square",
     "path": "sprites/spr_square/spr_square.yy",
@@ -45,8 +46,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ballistics",
-    "path": "folders/Objects/Enemies/Airship/Ballistics.yy",
+    "name": "Airship",
+    "path": "folders/Objects/Enemies/Airship.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cannon",

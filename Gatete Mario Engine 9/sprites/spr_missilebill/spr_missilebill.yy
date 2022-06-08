@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Bullet Bills",
-    "path": "folders/Sprites/Enemies/Airship/Ballistics/Bullet Bills.yy",
+    "path": "folders/Sprites/Enemies/Airship/Bullet Bills.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_missilebill",

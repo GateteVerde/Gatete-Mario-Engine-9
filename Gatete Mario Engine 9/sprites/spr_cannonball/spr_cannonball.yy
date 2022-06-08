@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Ballistics",
-    "path": "folders/Sprites/Enemies/Airship/Ballistics.yy",
+    "name": "Airship",
+    "path": "folders/Sprites/Enemies/Airship.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cannonball",

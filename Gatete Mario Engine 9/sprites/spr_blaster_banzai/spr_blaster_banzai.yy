@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Blasters",
-    "path": "folders/Sprites/Enemies/Airship/Ballistics/Banzai Bills/Blasters.yy",
+    "path": "folders/Sprites/Enemies/Airship/Banzai Bills/Blasters.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_blaster_banzai",

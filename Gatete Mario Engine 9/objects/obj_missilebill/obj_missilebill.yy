@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -35,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Bullet Bills",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Ballistics/Bullet Bills.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Bullet Bills.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_missilebill",

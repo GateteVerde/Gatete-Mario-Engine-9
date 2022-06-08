@@ -18,5 +18,8 @@ noswim = 1;
 //Freeze object
 freeze_object = -2;
 
+//Create smoke effect
+alarm[0] = 2;
+
 //Do not animate
 image_speed = 0;

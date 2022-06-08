@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cannon_side",
-    "path": "sprites/spr_cannon_side/spr_cannon_side.yy",
+    "name": "spr_cannon_quad",
+    "path": "sprites/spr_cannon_quad/spr_cannon_quad.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,23 +27,18 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":6,"value":"45","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
-        "45",
-        "135",
-        "225",
-        "315",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"direct","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Airship",
     "path": "folders/Objects/Enemies/Airship.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cannon_side",
+  "name": "obj_cannon_quad",
   "tags": [],
   "resourceType": "GMObject",
 }

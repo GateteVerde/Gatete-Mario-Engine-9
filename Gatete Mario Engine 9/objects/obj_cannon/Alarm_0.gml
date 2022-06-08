@@ -52,8 +52,5 @@ with (instance_create_depth(x+8+lengthdir_x(8, direct),y+8+lengthdir_y(8, direct
 	#endregion
 }
 
-//Create smoke effect
-instance_create_depth(x+8+lengthdir_x(8, direct), y+8+lengthdir_y(8, direct), -6, obj_smoke);
-
 //Repeat after 3 seconds
 alarm[0] = 180;
