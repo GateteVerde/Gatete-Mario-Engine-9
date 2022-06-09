@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_trampoline_switch",
     "path": "sprites/spr_trampoline_switch/spr_trampoline_switch.yy",

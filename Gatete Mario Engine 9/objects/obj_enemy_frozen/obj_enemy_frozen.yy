@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_enemy_ice",
     "path": "sprites/spr_enemy_ice/spr_enemy_ice.yy",

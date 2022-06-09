@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_pricklyvenusfiretrap",
     "path": "sprites/spr_pricklyvenusfiretrap/spr_pricklyvenusfiretrap.yy",

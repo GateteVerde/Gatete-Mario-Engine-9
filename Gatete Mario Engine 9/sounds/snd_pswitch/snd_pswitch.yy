@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_pswitch.ogg",
-  "duration": 12.3043747,
+  "duration": 12.304375,
   "parent": {
     "name": "Fanfares",
     "path": "folders/Sounds/Fanfares.yy",

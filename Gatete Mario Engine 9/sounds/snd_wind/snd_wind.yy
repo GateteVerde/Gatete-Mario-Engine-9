@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_wind.wav",
-  "duration": 30.1179142,
+  "duration": 30.117914,
   "parent": {
     "name": "Menu",
     "path": "folders/Sounds/Menu.yy",

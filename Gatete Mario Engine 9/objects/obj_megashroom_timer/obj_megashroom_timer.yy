@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_mask_mario_mega",
     "path": "sprites/spr_mask_mario_mega/spr_mask_mario_mega.yy",

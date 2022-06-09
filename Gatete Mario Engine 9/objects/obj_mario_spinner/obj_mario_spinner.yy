@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_mario_raccoon_attack",
     "path": "sprites/spr_mario_raccoon_attack/spr_mario_raccoon_attack.yy",

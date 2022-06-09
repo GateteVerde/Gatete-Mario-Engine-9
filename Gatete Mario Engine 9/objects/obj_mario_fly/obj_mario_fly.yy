@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_mask_mario_big",
     "path": "sprites/spr_mask_mario_big/spr_mask_mario_big.yy",

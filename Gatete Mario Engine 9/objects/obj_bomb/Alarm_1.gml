@@ -1,5 +1,5 @@
 /// @description Blow up
 
-with (instance_create_layer(x, y, "Main", obj_explosion_lite)) hurtplayer = 0;
+with (instance_create_depth(x, y, -2, obj_explosion_lite)) hurtplayer = 0;
 instance_destroy();
 exit;

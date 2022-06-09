@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_mask_platform_tilted_l",
     "path": "sprites/spr_mask_platform_tilted_l/spr_mask_platform_tilted_l.yy",

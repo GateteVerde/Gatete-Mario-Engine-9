@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "spr_mask_goomba_big",
     "path": "sprites/spr_mask_goomba_big/spr_mask_goomba_big.yy",
