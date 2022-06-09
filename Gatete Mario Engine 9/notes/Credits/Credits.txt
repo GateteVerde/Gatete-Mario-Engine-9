@@ -1,6 +1,7 @@
 - Programming -
 Gate
 Mack
+Mors
 Sammu
 Electro
 
@@ -30,9 +31,7 @@ Dooki51
 HelloFangaming
 Hypernova
 Mikeystar
-Mors
 PixelatedPope
-Sammu
 Shaun Spalding
 Yal
 
