@@ -9,3 +9,7 @@ if (sprite_index == spr_beachkoopa_super_dead)
 //Urchin
 else if (sprite_index == spr_urchin)
 	image_speed = 1;
+
+//Rocky Wrench
+else if (sprite_index == spr_rockywrench)
+	image_speed = 1;

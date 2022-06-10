@@ -14,7 +14,8 @@
 	&& (sprite_index != spr_flamechomp) 
 	&& (sprite_index != spr_fireball) 
 	&& (sprite_index != spr_banzaibill) 
-	&& (sprite_index != spr_bullseyebill) {
+	&& (sprite_index != spr_bullseyebill) 
+	&& (sprite_index != spr_rockywrench_dead) {
 
 		//Set up angle
 		angle += 10*sign(hspeed);
@@ -29,6 +30,7 @@
 
 		if (sprite_index != spr_banzaibill)
 		&& (sprite_index != spr_bullseyebill)
+		&& (sprite_index != spr_rockywrench_dead)
 			angle = 180;
 	}
 #endregion
