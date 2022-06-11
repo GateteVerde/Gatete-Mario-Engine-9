@@ -11,7 +11,8 @@ if (instance_exists(mytop)) {
         
         //If the pull object does not exist and this object can be pulled
 		if (can_carry() == true)
-        && (instance_number(obj_mario_puller) == 0) {
+        && (instance_number(obj_mario_puller) == 0) 
+		&& (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario, 0, 0)) {
             
             //Force Mario to hold the enemy
             with (obj_mario) {

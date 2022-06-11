@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_left": 1,
+  "bbox_right": 17,
   "bbox_top": 0,
   "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
+  "width": 18,
   "height": 16,
   "textureGroupId": {
     "name": "Default",
@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"bef97e45-bd8b-43f3-867f-e1bd152d3a05","path":"sprites/spr_ninji/spr_ninji.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"bef97e45-bd8b-43f3-867f-e1bd152d3a05","path":"sprites/spr_ninji/spr_ninji.yy",},"LayerId":{"name":"dbb6a1c3-47f2-48a2-888d-66aa3041a174","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_ninji","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","name":"bef97e45-bd8b-43f3-867f-e1bd152d3a05","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e29467ef-3485-4188-b4c9-e05ffc3e876e","path":"sprites/spr_ninji/spr_ninji.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e29467ef-3485-4188-b4c9-e05ffc3e876e","path":"sprites/spr_ninji/spr_ninji.yy",},"LayerId":{"name":"dbb6a1c3-47f2-48a2-888d-66aa3041a174","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ninji","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","name":"e29467ef-3485-4188-b4c9-e05ffc3e876e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fe36fabf-2d3b-41a0-a25d-5287dad619a4","path":"sprites/spr_ninji/spr_ninji.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fe36fabf-2d3b-41a0-a25d-5287dad619a4","path":"sprites/spr_ninji/spr_ninji.yy",},"LayerId":{"name":"dbb6a1c3-47f2-48a2-888d-66aa3041a174","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ninji","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","name":"fe36fabf-2d3b-41a0-a25d-5287dad619a4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_ninji","path":"sprites/spr_ninji/spr_ninji.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e51ac3be-9e6f-4c63-96c7-8ecfeee9765b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bef97e45-bd8b-43f3-867f-e1bd152d3a05","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"c677f81c-c978-4d47-9008-f3145e86962b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e29467ef-3485-4188-b4c9-e05ffc3e876e","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fba5f7c1-0bd7-4375-87de-9fc22302ca08","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe36fabf-2d3b-41a0-a25d-5287dad619a4","path":"sprites/spr_ninji/spr_ninji.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,7 +58,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 8,
+    "xorigin": 9,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,

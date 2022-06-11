@@ -96,33 +96,6 @@ if (ready == 2) {
                 }
             }
         }
-        
-		/*
-        //Otherwise, if the crystal is a red one, open blue hawkmouth
-        else if (sprite_index == spr_crystal_red) {
-    
-            //Open Hawkmouth's mouth
-            with (obj_hawkmouth) {
-            
-                //Make sure this is the red one
-                if (sprite_index == spr_hawkmouth_secret) {
-                
-                    //Do not animate
-                    image_speed = 0;
-                    image_index = 1;
-                    
-                    //Prepare to open the mouth
-                    ready = 1;
-                    
-                    //Play fanfare
-                    alarm[0] = 4;
-                    
-                    //Open hawkmouth mouth.
-                    alarm[1] = 120;
-                }
-            }
-        }       
-		*/
     }
         
     //Otherwise, pull a veggie

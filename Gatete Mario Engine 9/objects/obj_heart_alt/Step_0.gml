@@ -36,4 +36,17 @@ else if (ready == 0) {
 			dir = -dir;
 		}
     }
+	
+	//Apply vertical speed
+	if (yspeed != 0) {
+		
+		//If Mario exists and it's not transforming
+		if (instance_exists(obj_mario))
+		&& (!instance_exists(obj_mario_transform)) {
+			
+			y += yspeed;
+			if (y < -32)
+				instance_destroy();
+		}
+	}
 }
