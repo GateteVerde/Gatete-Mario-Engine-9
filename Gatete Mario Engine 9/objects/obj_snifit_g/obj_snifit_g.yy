@@ -1,19 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_shyguy_big_b",
-    "path": "sprites/spr_shyguy_big_b/spr_shyguy_big_b.yy",
+    "name": "spr_snifit_g",
+    "path": "sprites/spr_snifit_g/spr_snifit_g.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_mask_npc_common_32x32",
-    "path": "sprites/spr_mask_npc_common_32x32/spr_mask_npc_common_32x32.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_shyguy_b",
-    "path": "objects/obj_shyguy_b/obj_shyguy_b.yy",
+    "name": "obj_enemyparent_subcon_deact",
+    "path": "objects/obj_enemyparent_subcon_deact/obj_enemyparent_subcon_deact.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,7 +26,10 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -38,7 +38,7 @@
     "path": "folders/Objects/Enemies/Subcon.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_shyguy_big_b",
+  "name": "obj_snifit_g",
   "tags": [],
   "resourceType": "GMObject",
 }

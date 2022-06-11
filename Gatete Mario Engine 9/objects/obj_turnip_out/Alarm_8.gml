@@ -23,13 +23,8 @@ else {
 	|| (sprite_index == spr_powblock_red_large_up) {
 	
         drawpiece2 = 3;
-        if ((sprite_width > 16) && (sprite_height > 16)) {
-			
-			if (sprite_index == spr_powblock_red_large_up)
-				alarm[5] = 9;
-			else
-				alarm[5] = 3;
-		}
+        if ((sprite_width > 16) && (sprite_height > 16))
+			alarm[5] = 9;
         else
             alarm[5] = 3;
     }

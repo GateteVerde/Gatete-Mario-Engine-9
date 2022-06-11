@@ -108,7 +108,7 @@ if (ready == 2) {
             
                 //Hereby same sprite and frame
                 sprite_index = other.sprite_index;
-                image_xscale = other.xscale;
+                image_xscale = other.image_xscale;
                 
                 //Hereby return enemy
                 turnback = other.turnback;

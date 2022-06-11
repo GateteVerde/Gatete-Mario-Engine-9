@@ -8,6 +8,7 @@ if (instance_exists(obj_mario_puller)) {
     
         sprite_index = spr_powblock_red_large_up;
 		partial = true;
+		big = true;
 		myveggie = obj_powblock_red_large_up;
     }
     

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_square",
-    "path": "sprites/spr_square/spr_square.yy",
+    "name": "spr_mask_puller",
+    "path": "sprites/spr_mask_puller/spr_mask_puller.yy",
   },
   "solid": false,
   "visible": true,

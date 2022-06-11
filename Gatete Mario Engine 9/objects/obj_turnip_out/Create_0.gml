@@ -16,6 +16,9 @@ ready = 0;
 enemy = 0;
 turnback = -1;
 
+//Whether the vegetable is big
+big = 0;
+
 //Whether the vegetable is a powerup
 powerup = 0;
 
