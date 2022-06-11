@@ -7,4 +7,4 @@ with (instance_create_depth(x+4*sign(xscale), y+6, -2, obj_snifit_pellet)) {
 }
 
 //Repeat the process
-alarm[2] = 90;
+alarm[2] = 150;

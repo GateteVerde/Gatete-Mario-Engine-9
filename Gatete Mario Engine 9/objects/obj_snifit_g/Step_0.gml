@@ -22,7 +22,7 @@ else {
         jumping = 0;
         
         //Jump again
-        alarm[1] = 150;
+        alarm[1] = 180;
     }
 }
 

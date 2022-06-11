@@ -13,4 +13,4 @@ stomp = 3;
 jumping = 0;
 
 //Start moving
-alarm[1] = 150;
+alarm[1] = 180;
