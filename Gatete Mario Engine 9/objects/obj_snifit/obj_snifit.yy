@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_mask_npc_common_16x16",
+    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_shyguy",
