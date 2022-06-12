@@ -158,3 +158,27 @@ else {
         xspeed = xspeed*2;
     }
 }
+
+//If the object is a bomb
+if (sprite_index == spr_bombguy)
+|| (sprite_index == spr_bombguy_th) {
+
+    //If the timer is still going...
+    if (aa > 0) { 
+    
+        aa--;
+        if (aa < 120) {
+			
+            sprite_index = spr_bombguy_th;
+			image_speed = 1;
+		}
+    }
+    
+    //Otherwise, explode.
+    else {
+    
+        instance_create_layer(x, y, "Main", obj_explosion);
+        instance_destroy();
+        exit;
+    }
+}
