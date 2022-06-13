@@ -1,40 +1,5 @@
 /// @description Dead enemy logic
 
-#region ANGLE
-
-	//Do not spin with the following sprites
-	if (sprite_index != spr_pokey)
-	&& (sprite_index != spr_firesnake)
-	&& (sprite_index != spr_firesnake_body) 
-	&& (sprite_index != spr_wiggler)
-	&& (sprite_index != spr_wiggler_body)
-	&& (sprite_index != spr_wiggler_mad)
-	&& (sprite_index != spr_wiggler_mad_body)
-	&& (sprite_index != spr_wiggler_flower) 
-	&& (sprite_index != spr_flamechomp) 
-	&& (sprite_index != spr_fireball) 
-	&& (sprite_index != spr_banzaibill) 
-	&& (sprite_index != spr_bullseyebill) 
-	&& (sprite_index != spr_rockywrench_dead) {
-
-		//Set up angle
-		angle += 10*sign(hspeed);
-		if (abs(angle) > 360) {
-		
-			angle = 0;
-		}
-	}
-
-	//Otherwise
-	else {
-
-		if (sprite_index != spr_banzaibill)
-		&& (sprite_index != spr_bullseyebill)
-		&& (sprite_index != spr_rockywrench_dead)
-			angle = 180;
-	}
-#endregion
-
 //Quicksand collision
 var qs = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0);
 if (qs) {
