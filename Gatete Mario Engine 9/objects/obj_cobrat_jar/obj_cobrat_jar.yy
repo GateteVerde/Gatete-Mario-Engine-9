@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_mask_npc_common_16x32",
+    "path": "sprites/spr_mask_npc_common_16x32/spr_mask_npc_common_16x32.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_enemyparent_subcon_deact",

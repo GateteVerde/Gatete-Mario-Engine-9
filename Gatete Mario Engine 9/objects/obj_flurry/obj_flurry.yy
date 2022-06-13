@@ -1,14 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_cobrat",
-    "path": "sprites/spr_cobrat/spr_cobrat.yy",
+    "name": "spr_flurry",
+    "path": "sprites/spr_flurry/spr_flurry.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "spr_mask_npc_common_16x32",
-    "path": "sprites/spr_mask_npc_common_16x32/spr_mask_npc_common_16x32.yy",
+    "name": "spr_mask_npc_common_16x16",
+    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
   },
   "persistent": false,
   "parentObjectId": {
@@ -29,11 +29,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_pipe_broken","path":"objects/obj_pipe_broken/obj_pipe_broken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -42,7 +40,7 @@
     "path": "folders/Objects/Enemies/Subcon.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cobrat",
+  "name": "obj_flurry",
   "tags": [],
   "resourceType": "GMObject",
 }
