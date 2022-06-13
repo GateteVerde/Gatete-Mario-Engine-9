@@ -11,7 +11,7 @@ if (ready == 0) {
         && (obj_mario.x < x+32) {
         
             //Set the vertical speed
-            yspeed = -3;
+            yspeed = -4;
             y = ystart;
             
             //Boost jump
@@ -64,7 +64,7 @@ else {
 	        depth = -2;
 	    }
 		else
-			yadd = 0.15;
+			yadd = 0.2;
 	}
     
     //Otherwise, if it can move
