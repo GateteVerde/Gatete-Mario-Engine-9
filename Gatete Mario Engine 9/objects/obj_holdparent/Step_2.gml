@@ -63,7 +63,7 @@ if (held == true) {
 					with (obj_mario) {
 					
 						kicking = 2;
-						timer(kicking_end, 10, false);
+						alarm[5] = 10;
 					}
 				}
 	        }
@@ -108,7 +108,7 @@ if (held == true) {
 				with (obj_mario) {
 					
 					kicking = 2;
-					timer(kicking_end, 10, false);
+					alarm[5] = 10;
 				}
 			}
         

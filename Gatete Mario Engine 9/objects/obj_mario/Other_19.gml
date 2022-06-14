@@ -42,12 +42,6 @@ allow_twirl_f = function() {
 	twirl = 0;
 }
 
-//End kicking
-kicking_end = function() {
-
-	kicking = 0;
-}
-
 //End turning
 turning_end = function() {
 

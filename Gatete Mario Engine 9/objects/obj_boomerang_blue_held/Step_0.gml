@@ -17,7 +17,7 @@ if (held) {
 				
 				holding = 0;
 				kicking = 1;
-				timer(kicking_end, 10, false);
+				alarm[5] = 10;
 			}
             
             //Create a thrown boomerang

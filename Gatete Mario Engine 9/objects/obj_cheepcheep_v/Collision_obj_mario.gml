@@ -36,7 +36,7 @@ if (swimming == 0) {
     with (other) {
 	
 		kicking = 2;
-		timer(kicking_end, 10, false);
+		alarm[5] = 10;
 	}
     
     //Destroy

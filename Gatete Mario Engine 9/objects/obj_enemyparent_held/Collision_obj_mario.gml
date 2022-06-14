@@ -211,7 +211,7 @@ else {
                 with (obj_mario) {
 					
 					kicking = 2;
-					timer(kicking_end, 10, false);
+					alarm[5] = 10;
 				}
                     
                 //Set the vertical speed
