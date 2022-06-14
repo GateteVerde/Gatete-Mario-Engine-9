@@ -4,7 +4,7 @@
 event_inherited();
 
 //Explosion timer
-if (aa > 0) {
+if ((aa > 0) && (freeze == false)) {
 
 	aa--;
 	if (aa < 120)

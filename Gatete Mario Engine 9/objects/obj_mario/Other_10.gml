@@ -1,7 +1,9 @@
 /// @description Hurt Mario
 
 //If not invincible or groundpounding
-if ((invulnerable == 0) && (groundpound == 0)) {
+if (invulnerable == 0) 
+&& (groundpound == 0)
+&& (instance_number(obj_mario_transform) == 0) {
 
 	//Give Mario temporary invulnerability
 	event_user(7);
