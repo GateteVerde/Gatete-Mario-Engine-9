@@ -20,4 +20,8 @@
 		}
 	}
 	
+	//Destroy if Mario is transforming
+	if (instance_exists(obj_mario_transform))
+		instance_destroy();
+	
 #endregion
