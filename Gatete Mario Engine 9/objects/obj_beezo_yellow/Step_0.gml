@@ -1,4 +1,4 @@
-/// @description Red Beezo logic
+/// @description Yellow Beezo logic
 
 //Manage pseudo movement variables
 if (freeze == false) {

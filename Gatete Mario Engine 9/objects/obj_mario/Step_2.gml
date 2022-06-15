@@ -744,8 +744,18 @@ else {
 			if (global.powerup != cs_raccoon)
 			&& (global.powerup != cs_tanooki)
 			&& (global.powerup != cs_fraccoon)
-			&& (global.powerup != cs_iraccoon)
-				sprite_index = global.carry_sprite[global.powerup];
+			&& (global.powerup != cs_iraccoon) {
+				
+				if ((global.powerup == cs_carrot) || (global.powerup == cs_bee)) {
+					
+					if (state == playerstate.jump)
+						sprite_index = global.carry_jump_sprite[global.powerup];
+					else
+						sprite_index = global.carry_sprite[global.powerup];
+				}
+				else
+					sprite_index = global.carry_sprite[global.powerup];
+			}
 			
 			//Otherwise
 			else {
@@ -904,12 +914,22 @@ else {
 				
 				#region SPRITE
 		
-			        //Set up the sprite
+					//Set up the sprite
 					if (global.powerup != cs_raccoon)
 					&& (global.powerup != cs_tanooki)
 					&& (global.powerup != cs_fraccoon)
-					&& (global.powerup != cs_iraccoon)
-						sprite_index = global.hold_sprite[global.powerup];
+					&& (global.powerup != cs_iraccoon) {
+				
+						if ((global.powerup == cs_carrot) || (global.powerup == cs_bee)) {
+					
+							if (state == playerstate.jump)
+								sprite_index = global.hold_jump_sprite[global.powerup];
+							else
+								sprite_index = global.hold_sprite[global.powerup];
+						}
+						else
+							sprite_index = global.hold_sprite[global.powerup];
+					}
 			
 					//Otherwise
 					else {
@@ -929,7 +949,7 @@ else {
             sprite_index = global.spin_sprite[global.powerup];
     }
     
-    //Otherwise, if Mario is carrying a boomerang
+    //Otherwise, if Mario is holding a boomerang
     else if (holding == 3) {
     
 		#region SPRITE
@@ -938,8 +958,18 @@ else {
 			if (global.powerup != cs_raccoon)
 			&& (global.powerup != cs_tanooki)
 			&& (global.powerup != cs_fraccoon)
-			&& (global.powerup != cs_iraccoon)
-				sprite_index = global.hold2_sprite[global.powerup];
+			&& (global.powerup != cs_iraccoon) {
+				
+				if ((global.powerup == cs_carrot) || (global.powerup == cs_bee)) {
+					
+					if (state == playerstate.jump)
+						sprite_index = global.hold2_jump_sprite[global.powerup];
+					else
+						sprite_index = global.hold2_sprite[global.powerup];
+				}
+				else
+					sprite_index = global.hold2_sprite[global.powerup];
+			}
 			
 			//Otherwise
 			else {

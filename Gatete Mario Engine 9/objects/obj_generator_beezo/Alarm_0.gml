@@ -21,9 +21,9 @@ if (instance_exists(obj_mario)) {
 		
 		//Generate a Beezo
 		if (choose(0, 1) == 0)
-			instance_create_depth(camera_get_view_x(view_camera[0]) + irandom_range(-16, 80), camera_get_view_y(view_camera[0]) - 24, -2, obj_beezo_red);
+			instance_create_depth(camera_get_view_x(view_camera[0]) + irandom_range(-16, 80), camera_get_view_y(view_camera[0]) - 24, -2, obj_beezo_yellow);
 		else
-			instance_create_depth(camera_get_view_x(view_camera[0]) + global.gw + irandom_range(-80, 16), camera_get_view_y(view_camera[0]) - 24, -2, obj_beezo_red);
+			instance_create_depth(camera_get_view_x(view_camera[0]) + global.gw + irandom_range(-80, 16), camera_get_view_y(view_camera[0]) - 24, -2, obj_beezo_yellow);
 	}
 	
 	//Otherwise

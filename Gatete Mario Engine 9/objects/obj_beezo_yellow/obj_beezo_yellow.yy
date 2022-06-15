@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_beezo_red",
-    "path": "sprites/spr_beezo_red/spr_beezo_red.yy",
+    "name": "spr_beezo_yellow",
+    "path": "sprites/spr_beezo_yellow/spr_beezo_yellow.yy",
   },
   "solid": false,
   "visible": true,
@@ -40,7 +40,7 @@
     "path": "folders/Objects/Special/Do Not Use!/Enemies/Subcon.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_beezo_red",
+  "name": "obj_beezo_yellow",
   "tags": [],
   "resourceType": "GMObject",
 }

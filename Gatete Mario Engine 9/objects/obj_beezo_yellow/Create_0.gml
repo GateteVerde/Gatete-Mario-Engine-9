@@ -1,4 +1,4 @@
-/// @description Red Beezo
+/// @description Yellow Beezo
 
 //Inherit the parent event
 event_inherited();
