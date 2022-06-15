@@ -26,9 +26,6 @@ flight_ruined = false;
 // Full nose dive
 nose_diving = false;
 
-// Cape speed
-cape_speed = 0;
-
 // Flying up
 flying = false;
 
