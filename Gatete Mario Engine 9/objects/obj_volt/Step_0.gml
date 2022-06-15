@@ -79,9 +79,14 @@ yadd = 0;
 				        }
 				    }
 				    else {
+						
+						if ((variable_instance_exists(ceiling, "dir")) && (dir != 0)) {
 
-				        xspeed = 6*sign(ceiling.dir);
-				        yspeed = 0;
+					        xspeed = 6*sign(ceiling.dir);
+					        yspeed = 0;
+						}
+						else
+							event_user(0);
 				    }
     
 				    //Bounce

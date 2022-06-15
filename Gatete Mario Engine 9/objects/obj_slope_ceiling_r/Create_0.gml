@@ -1,4 +1,4 @@
 /// @description Right Ceiling Slope
 
 //Sets the volt direction
-dir = 1;
+dir = -1;
