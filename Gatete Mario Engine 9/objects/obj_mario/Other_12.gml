@@ -778,9 +778,10 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
         }
 		
 		// If the conditions are met, start flying
+		var bonk = (disablegrav < 0 && yspeed <= 0 && collision_line(bbox_left, bbox_top, bbox_right, bbox_top, obj_solid, false, true));
 		if (global.powerup == cs_cape) 
 		&& (flying) 
-		&& (yspeed > 0)
+		&& (yspeed > 0 || bonk)
 		&& (holding == 0) 
 		&& (jumpstyle == 0) 
 		&& (global.mount == 0) {
@@ -799,7 +800,7 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 				//Create the flying Mario
 				fly = instance_create_depth(x, y, depth, obj_mario_fly);
 			
-				//Stop the P-meter sound pre-maturely so it's not playing when you're flying
+				//Stop the P-meter sound so it's not playing when you're flying
 				audio_stop_sound(snd_pmeter);
 			
 				with (fly) {
@@ -809,6 +810,17 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 					xadd = other.xadd;
 					xspeed = other.xspeed;
 					yspeed = other.yspeed;
+				
+					if (bonk)
+					{
+						// Don't hop when you're done flying
+						other.yadd = 0;
+						other.yspeed = 0;
+						yadd = 0;
+						// Get unstuck
+						while (collision_line(bbox_left, bbox_top, bbox_right, bbox_top, obj_solid, false, true))
+							y++;
+					}
 				
 					//Set object reference
 					owner = other.id;
