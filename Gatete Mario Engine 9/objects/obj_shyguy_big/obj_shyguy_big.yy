@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Subcon",
-    "path": "folders/Objects/Enemies/Subcon.yy",
+    "name": "Big",
+    "path": "folders/Objects/Enemies/Subcon/Big.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_shyguy_big",

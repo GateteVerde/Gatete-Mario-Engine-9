@@ -8,6 +8,9 @@ if (freeze == false) {
 	yspeed += yadd;
 }
 
+//Depth
+depth = -2;
+
 //Wall collision
 if ((xspeed < 0) && (collision_rectangle(bbox_left-xspeed, bbox_top, bbox_left, bbox_bottom, obj_solid, 0, 0)) || (collision_rectangle(bbox_left-xspeed, bbox_top, bbox_left, bbox_bottom, obj_slopeparent, 1, 0)))
 || ((xspeed > 0) && (collision_rectangle(bbox_right, bbox_top, bbox_right+xspeed, bbox_bottom, obj_solid, 0, 0)) || (collision_rectangle(bbox_right, bbox_top, bbox_right+xspeed, bbox_bottom, obj_slopeparent, 1, 0))) {

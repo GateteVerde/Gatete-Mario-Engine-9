@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Subcon",
-    "path": "folders/Sprites/Enemies/Subcon.yy",
+    "name": "Big",
+    "path": "folders/Sprites/Enemies/Subcon/Big.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_shyguy_big",

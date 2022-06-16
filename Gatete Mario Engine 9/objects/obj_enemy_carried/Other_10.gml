@@ -12,7 +12,8 @@ if (turnback != -1) {
         //Create a moving heart if the enemy is big
         if (other.turnback == obj_shyguy_big)
         || (other.turnback == obj_shyguy_big_b) 
-		|| (other.turnback == obj_ninji_purple_big) {
+		|| (other.turnback == obj_ninji_purple_big) 
+		|| (other.turnback == obj_tweeter_big) {
 			
 			//If the safeguard is active
 			if (global.safeguard > 0) {

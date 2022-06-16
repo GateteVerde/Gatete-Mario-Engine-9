@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_snifit_ball",
-    "path": "sprites/spr_snifit_ball/spr_snifit_ball.yy",
+    "name": "spr_snifit_pellet",
+    "path": "sprites/spr_snifit_pellet/spr_snifit_pellet.yy",
   },
   "solid": false,
   "visible": true,
