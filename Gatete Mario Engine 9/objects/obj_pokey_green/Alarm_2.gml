@@ -1,7 +1,7 @@
 /// @description Update how many parts are above
 
 //Keep updating
-alarm[1] = 1;
+alarm[2] = 1;
 
 repeat (99) {
         

@@ -1,4 +1,4 @@
-/// @description Moving Platform logic
+/// @description A hack, because all parts above the bottomest one do not have horizontal speed
 
 //Make sure the semisolid follows
 if (instance_exists(mytop)) {
@@ -41,18 +41,20 @@ if (instance_exists(mytop)) {
 		&& (check != obj_solid)
 			exit;
         
-	    //If the player is on this moving platform
+	    //If Mario is on this moving platform
 	    if (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario, 0, 0))
 	    && (obj_mario.bbox_bottom < yprevious+5)
 	    && (obj_mario.state < 2) {
         
-	        //Snap the player vertically
+	        //Snap Mario vertically
 	        obj_mario.y = ceil(bbox_top-15);
-        
-	        //Move the player horizontally if there is no solid in his way
-	        if (xspeed < 0)  && (!collision_rectangle(obj_mario.bbox_left+xspeed, obj_mario.bbox_top+4, obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_solid, 0, 0))
-	        || (xspeed > 0) && (!collision_rectangle(obj_mario.bbox_right, obj_mario.bbox_top+4, obj_mario.bbox_right+xspeed, obj_mario.bbox_bottom-1, obj_solid, 0, 0))
-	            obj_mario.x += xspeed;
+			
+			//Snap Mario horizontally if there's not a wall on the way
+			obj_mario.x += x-xprevious;
+			if (collision_rectangle(obj_mario.bbox_right, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid, 1, 1))
+			    obj_mario.x--;
+			else if (collision_rectangle(obj_mario.bbox_left-1, obj_mario.bbox_top+4, obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 1))
+			    obj_mario.x++;
 	    }
 	}
 }

@@ -182,3 +182,10 @@ if (sprite_index == spr_shombguy)
         exit;
     }
 }
+
+//If this object is a green pokey
+if (sprite_index == spr_pokey_green) {
+	
+	image_speed = 0;
+	image_index = 0;
+}
