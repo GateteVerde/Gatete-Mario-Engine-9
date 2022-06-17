@@ -26,6 +26,8 @@ if (player_on == true)
 			with (obj_mario) {
 				
 				xscale = -1;
+				if (x < camera_get_view_x(view_camera[0]) + 5)
+					x = camera_get_view_x(view_camera[0]) + 5;
 			}
         }
         
@@ -39,6 +41,8 @@ if (player_on == true)
 			with (obj_mario) {
 				
 				xscale = 1;
+				if (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5)
+					x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
 			}
         } 
         
