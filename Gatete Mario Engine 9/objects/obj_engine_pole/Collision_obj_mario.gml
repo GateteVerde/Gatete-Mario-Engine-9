@@ -3,9 +3,8 @@
 //If the player is climbing
 if (obj_mario.state == playerstate.climb) {
 
-    //If the player is not 
-    if (!collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid, 1, 1)) 
-    && (!collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid_moving, 1, 1)) {
+    //If the player is not overlapping a solid
+    if (!collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid, 1, 1)) {
     
         obj_mario.x += parent.x-parent.xprevious;
         obj_mario.y += parent.y-parent.yprevious;
