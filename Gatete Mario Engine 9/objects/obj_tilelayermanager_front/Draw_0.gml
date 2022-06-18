@@ -53,5 +53,5 @@ else {
 	surface_reset_target();
 	  
 	//Draw surface
-	draw_surface(FinalSurface, camera_x-extra/2, camera_y-extra/2);	
+	draw_surface(FinalSurface, screen_round(camera_x-extra/2), screen_round(camera_y-extra/2));	
 }
