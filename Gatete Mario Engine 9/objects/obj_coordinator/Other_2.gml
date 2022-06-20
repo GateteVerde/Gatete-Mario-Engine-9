@@ -21,6 +21,14 @@
 		vsync = real(file_text_read_string(file));
 		file_text_readln(file);
 		
+		//Set fps based on the read value
+		showfps = real(file_text_read_string(file))
+		file_text_readln(file);
+		
+		//Set autosave based on the read value
+		autosave = real(file_text_read_string(file))
+		file_text_readln(file);
+		
 		//Keyboard Keys
 		#region KEYBOARD KEYS
 		
@@ -117,6 +125,12 @@
 		
 		//Default v-sync value
 		vsync = 1;
+		
+		//Default display fps value
+		showfps = 0;
+		
+		//Default autosave value
+		autosave = 0;
 		
 		//Keyboard Keys
 		#region KEYBOARD KEYS

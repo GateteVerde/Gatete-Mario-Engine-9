@@ -8,6 +8,3 @@ if (global.restart == true) {
 	//Game is done with the restart
 	global.restart = false;
 }
-
-//Go to next room
-room_goto(rm_title);

@@ -16,6 +16,14 @@
 	//Save vsync settings
 	file_text_write_string(file, string(vsync));
 	file_text_writeln(file);
+	
+	//Save showfps settings
+	file_text_write_string(file, string(showfps));
+	file_text_writeln(file);
+	
+	//Save autosave settings
+	file_text_write_string(file, string(autosave));
+	file_text_writeln(file);
 
 	//Save 'Up' key
 	file_text_write_string(file, string(global.key[input.up]));

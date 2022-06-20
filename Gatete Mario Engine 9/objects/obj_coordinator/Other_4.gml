@@ -11,13 +11,13 @@ view_enabled = true;
 view_visible[0] = true;
 
 //Set the window size according to the size size
-window_set_size(global.gw*size, global.gh*size);
+window_set_size(global.gw * size, global.gh * size);
 
 //Set the view size
 camera_set_view_size(view_camera[0], global.gw, global.gh);
 
 //Rescale the surface
-surface_resize(application_surface, global.gw*size, global.gh*size);
+surface_resize(application_surface, global.gw * size, global.gh * size);
 
 //Set the viewing border
 camera_set_view_border(view_camera[0], camera_get_view_width(view_camera[0]) / 2, camera_get_view_height(view_camera[0]) / 2);

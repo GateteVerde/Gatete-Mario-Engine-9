@@ -4,7 +4,7 @@
 timer_system_update();
 
 //Update Window Caption
-window_set_caption("Gatete Mario Engine 9 | FPS: " + string(fps) + " / 60")
+window_set_caption("Gatete Mario Engine 9")
 
 //Keep music looper active
 instance_activate_object(obj_audio_loop_sound);
