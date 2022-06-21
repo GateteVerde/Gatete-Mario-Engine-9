@@ -240,6 +240,36 @@ camera_set_view_target(view_camera[0], noone);
 //Set the camera position
 camera_set_view_pos(view_camera[0], camera_x, camera_y);
 
+//Manage pause
+#region PAUSE
+
+	//If the 'Start' key is pressed
+	if (input_check_pressed(input.start)) {
+	
+		instance_create_depth(0, 0, -99, obj_pause);
+		io_clear();
+	}
+#endregion
+
+//Manage reserve items
+#region RESERVE ITEM
+
+	//If the reserve item system is activated
+	if (global.reserve_activated == true) {
+		
+		//If the barrier is enabled and Mario exists
+		if (barrier == true)
+		&& (instance_exists(obj_mario)) 
+		&& (obj_mario.enable_control == true) {
+	
+			//If there's a reserve item in reserve and the space key is pressed
+			if (global.reserve != cs_small)
+			&& (input_check_pressed(input.action_2))
+				event_user(2);
+		}
+	}
+#endregion
+
 //Manage background position
 #region PARALLAX BACKGROUNDS
 		
@@ -272,25 +302,6 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 	//Background 2
 	layer_x("Background_2", camera_x / 6);
 	
-#endregion
-
-//Manage reserve items
-#region RESERVE ITEM
-
-	//If the reserve item system is activated
-	if (global.reserve_activated == true) {
-		
-		//If the barrier is enabled and Mario exists
-		if (barrier == true)
-		&& (instance_exists(obj_mario)) 
-		&& (obj_mario.enable_control == true) {
-	
-			//If there's a reserve item in reserve and the space key is pressed
-			if (global.reserve != cs_small)
-			&& (input_check_pressed(input.action_2))
-				event_user(2);
-		}
-	}
 #endregion
 
 //Deactivate instances outside the view
