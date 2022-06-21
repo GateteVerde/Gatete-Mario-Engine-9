@@ -7,4 +7,4 @@ shock_enabled = true;
 var_time_var = 0;
 
 //Disable shockwave
-alarm[3] = 60;
+alarm[4] = 60;

@@ -1,5 +1,11 @@
 ///Reset all global variables if the game was restarted
 
+//Play 'Coin' sound
+audio_play_sound(snd_coin, 0, false);
+
+//Go to next screen
+with (obj_coordinator) alarm[3] = 240;
+
 if (global.restart == true) {
 	
 	//Reset all global variables
@@ -9,5 +15,5 @@ if (global.restart == true) {
 	global.restart = false;
 }
 
-//Go to next room
-room_goto(rm_title);
+//Create fade out transition
+instance_create_depth(0, 0, -99, obj_fade_out);

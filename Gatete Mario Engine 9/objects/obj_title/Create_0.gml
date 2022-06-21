@@ -1,5 +1,9 @@
 /// @description Title Screen menu object
 
+//Loop music
+audio_play_sound(snd_title, 0, true);
+
+//Sub menu enums
 enum menupage {
 
 	main	   =	0,
@@ -51,3 +55,17 @@ sub_menu = 0;
 
 //Waiting
 waiting = 0;
+
+//Allow navigation
+start = 0;
+
+//Cog wheel vars
+alpha = 0;
+anim = 0;
+
+//Title y position
+yy = 0;
+
+//Display "Start" text
+display = 1;
+alarm[0] = 30;

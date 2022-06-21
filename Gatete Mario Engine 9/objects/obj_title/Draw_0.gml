@@ -1,56 +1,114 @@
 /// @description Draw menu
 
-//Set text alignment
-draw_set_halign(fa_left);
-draw_set_valign(fa_bottom);
-
 //Set up font
 draw_set_font(global.gui_font_menu);
 
-//Line spacing
-var _gap = 12;
-var _yy = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16 - (_gap * array_length_2d(menu, sub_menu));
+#region COG WHEELS
 
-//Draw menu items
-for (var i=0; i<array_length_2d(menu, sub_menu); ++i) { 
+	#region ALPHA / ANIM
 	
-	//Sets the colour of the highlighted option
-	var _colour = (i == index) ? c_white : c_ltgray;
-	
-	//Draw the text
-	draw_text_shadowed(camera_get_view_x(view_camera[0]) + 32, _yy + (_gap * i), string_upper(menu[sub_menu, i]), c_black, _colour, 1, 1, 0.5, 1);
-	
-	//Draw cursor
-	if (i == index) {
+		//Update alpha
+		alpha += (sub_menu == 0) ? -0.0125 : 0.0125;
 		
-		draw_sprite_ext(spr_gui_cursor, 0, camera_get_view_x(view_camera[0]) + 12, _yy + (_gap * i) - 8, 1, 1, 0, c_white, 1);
+		//Update title y position
+		yy = (sub_menu == 0) ? lerp(yy, 0, 0.1) : lerp(yy, 96, 0.1);
+		
+		//Update anim
+		anim += 0.5;
+		
+		//Cap alpha
+		if (alpha < 0)
+			alpha = 0;
+		else if (alpha > 0.25)
+			alpha = 0.25;
+	#endregion
+	
+	//Draw cogwheels
+	draw_sprite_ext(spr_gui_cogwheel, anim, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, 1, 1, 0, c_white, alpha);
+	draw_sprite_ext(spr_gui_cogwheel, anim, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, 1, 1, 0, c_white, alpha);
+#endregion
+
+#region TITLE
+
+	//Draw title
+	draw_sprite_ext(spr_title, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 64 - yy, 0.5, 0.5, 0, c_white, 1);
+#endregion
+
+#region MENU
+
+//If the menu is waiting for input
+if (start == 0) {
+	
+	//Set text alignment
+	draw_set_halign(fa_center)
+	
+	//Draw text
+	if (display == 1) {
+		
+		draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2 + 48, "PRESS " + string(key_to_string(global.key[input.action_0])) + " TO BEGIN!", c_black, c_white, 1, 1, 0.5, 1);
 	}
+	
+	//Reset text alignment
+	draw_set_halign(fa_left);
 }
 
-//Set horizontal alignment
-draw_set_halign(fa_right);
+//Otherwise if input has been given from the player, display menu
+else if (start == 1) {
 
-//Draw keys
-if (sub_menu == 2) {
+	//Set text alignment
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_bottom);
 
-	for (var i=0; i<array_length_1d(key); ++i) {
+	//Line spacing
+	var _gap = 12;
+	var _yy = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 - (_gap * array_length_2d(menu, sub_menu));
+
+	//Draw menu items
+	for (var i=0; i<array_length_2d(menu, sub_menu); ++i) { 
 	
 		//Sets the colour of the highlighted option
 		var _colour = (i == index) ? c_white : c_ltgray;
-		
+	
 		//Draw the text
-		draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 32, _yy + (_gap * i), string_upper(key[i]), c_black, _colour, 1, 1, 0.5, 1);
+		draw_text_shadowed(camera_get_view_x(view_camera[0]) + 32, _yy + (_gap * i), string_upper(menu[sub_menu, i]), c_black, _colour, 1, 1, 0.5, 1);
+	
+		//Draw cursor
+		if (i == index) {
+		
+			draw_sprite_ext(spr_gui_cursor, 0, camera_get_view_x(view_camera[0]) + 12, _yy + (_gap * i) - 8, 1, 1, 0, c_white, 1);
+		}
+	}
+
+	//Set horizontal alignment
+	draw_set_halign(fa_right);
+
+	//Draw keys
+	if (sub_menu == 2) {
+
+		for (var i=0; i<array_length_1d(key); ++i) {
+	
+			//Sets the colour of the highlighted option
+			var _colour = (i == index) ? c_white : c_ltgray;
+		
+			//Draw the text
+			draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 32, _yy + (_gap * i), string_upper(key[i]), c_black, _colour, 1, 1, 0.5, 1);
+		}
+	
+		//If in waiting mode
+		if (waiting == 1) {
+		
+			draw_set_halign(fa_center);
+			draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, "PRESS A KEY....", c_black, c_red, 1, 1, 0.5, 1);
+			draw_set_halign(fa_left);
+		}
 	}
 	
-	//If in waiting mode
-	if (waiting == 1) {
-		
-		draw_set_halign(fa_center);
-		draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16, "PRESS A KEY....", c_black, c_red, 1, 1, 0.5, 1);
-		draw_set_halign(fa_left);
-	}
+	//Reset vertical text alignment
+	draw_set_valign(fa_top);
 }
+#endregion
 
-//Reset text alignment
-draw_set_valign(fa_top);
+//Draw copyright and reset horizontal text alignment
+draw_set_halign(fa_center);
+draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16, string_upper("2008 - 2022 GMETEAM / GREEN BARON GAMES"), c_black, c_white, 1, 1, 0.5, 1);
 draw_set_halign(fa_left);
