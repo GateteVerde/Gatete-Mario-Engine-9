@@ -243,11 +243,17 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 //Manage pause
 #region PAUSE
 
-	//If the 'Start' key is pressed
-	if (input_check_pressed(input.start)) {
+	//If Mario does exist
+	if (instance_exists(obj_mario))
+	&& (instance_number(obj_mario_transform) == 0) 
+	&& (global.clear == 0) {
+
+		//If the 'Start' key is pressed
+		if (input_check_pressed(input.start)) {
 	
-		instance_create_depth(0, 0, -99, obj_pause);
-		io_clear();
+			instance_create_depth(0, 0, -99, obj_pause);
+			io_clear();
+		}
 	}
 #endregion
 

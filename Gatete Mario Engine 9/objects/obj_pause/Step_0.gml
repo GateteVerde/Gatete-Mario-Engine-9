@@ -6,21 +6,125 @@ var _down	= input_check_pressed(input.down);
 var _select = input_check_pressed(input.action_0);
 var _pause  = input_check_pressed(input.start);
 
-//If the game is not paused
-if (_pause) {
+#region ALPHA + SCALE
 
-	//Play 'Pause' sound
-	audio_play_sound(snd_pause, 0, false);
+	//Manage alpha
+	alpha = (0.2 * scale);
+
+	//If the pause menu is opening
+	if (scale_type == 0) {
+
+		//Increment scale
+		scale += 0.1;
+		if (scale > 1) {
 	
-	//Delete sprite
-	sprite_delete(snapshot);
-		
-	//Activate all instances
-	instance_activate_all();
-		
-	//Destroy
-	instance_destroy();
+			scale = 1;
+			scale_type = 1;
+		}
+	}
+
+	//Otherwise, if the pause menu is closing
+	else if (scale_type == 2) {
+
+		//Decrement scale
+		scale -= 0.1;
+		if (scale < 0) {
 	
-	//Clear keys
-	io_clear();
+			//Delete sprite
+			sprite_delete(snapshot);
+		
+			//Activate all instances
+			instance_activate_all();
+		
+			//Destroy
+			instance_destroy();
+		}
+	}
+#endregion
+
+//If the menu is fully opened
+if (scale_type == 1) {
+
+	//Close the menu
+	if (_pause){
+
+		//Play 'Pause' menu
+		audio_play_sound(snd_pause, 0, false);
+	
+		//Set scale type
+		scale_type = 2;
+		io_clear();
+	}
+	
+	//Navigate through menu
+	var _move = _down - _up;
+	if (_move != 0) {
+	
+		//Play 'Fireball' sound
+		audio_play_sound(snd_fireball, 0, false);
+
+		//Move index
+		index += _move;
+	
+		//Clamp values
+		var _size = array_length_1d(menu);
+		if (index < 0)
+			index = _size - 1;
+		else if (index >= _size)
+			index = 0;
+	}
+	
+	//If the player selected a option
+	if (_select) {
+	
+		//Switch between selected option
+		switch (index) {
+		
+			//Continue
+			case (0): {
+			
+				//Play 'Pause' menu
+				audio_play_sound(snd_pause, 0, false);
+	
+				//Set scale type
+				scale_type = 2;
+				io_clear();
+			} break;
+			
+			//Options
+			case (1): {
+			
+				//If the level has not been beaten yet, play 'Wrong' sound.
+				if (global.beaten == false)
+					audio_play_sound(snd_wrong, 0, false);
+					
+				//Otherwise, if the level has been beaten
+				else {
+				
+					//Play 'Coin' sound
+					audio_play_sound(snd_coin, 0, false);
+					
+					//Force end level music
+					if (audio_is_playing(global.stream)) {
+    
+					    //Stop the stream...
+					    audio_stop_sound(global.stream);
+    
+					    //...and free it from memory
+					    audio_destroy_stream(global.stream);
+					    global.stream = noone;
+					}
+					
+					//Return to map
+					end_level();
+				}
+			} break;
+			
+			//Quit Game
+			case (2): {
+			
+				game_end();
+			} break;
+		}
+	}
 }
