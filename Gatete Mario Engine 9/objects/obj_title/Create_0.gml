@@ -12,9 +12,11 @@ enum menupage {
 }
 
 //Options sub-menu 0
-menu[menupage.main, 0] = "Start Game";
-menu[menupage.main, 1] = "Settings";
-menu[menupage.main, 2] = "Exit";
+menu[menupage.main, 0] = "FILE A";
+menu[menupage.main, 1] = "FILE B";
+menu[menupage.main, 2] = "FILE C";
+menu[menupage.main, 3] = "Settings";
+menu[menupage.main, 4] = "Exit";
 
 //Options sub-menu 1: Options 1 / 2
 menu[menupage.options, 0] = "Keyboard Configuration";

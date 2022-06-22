@@ -18,6 +18,10 @@ init_shockwave();
 //Gameplay variables
 #region GAMEPLAY VARIABLES
 
+	//Gameplay Macros (Edit this when releasing your game)
+	#macro WORLD_AMOUNT		1; //Number of worlds this game have
+	#macro LEVEL_AMOUNT		9; //Number of levels this game have
+
 	//Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
 	//false:	Integer rounding similar to GBA/SNES
 	//true:		Smoother sub-pixel float movement
@@ -181,6 +185,9 @@ last_room = noone;
 
 //Current File
 global.file = 0;
+
+//Current INI File
+global.ini_file = 0;
 
 //Game Width
 global.gw = room_width;

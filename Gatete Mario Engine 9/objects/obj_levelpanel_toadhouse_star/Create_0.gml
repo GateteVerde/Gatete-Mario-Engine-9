@@ -24,7 +24,7 @@ ready = 0;
 beaten = 0;
 
 //Panel type
-paneltype = 2;
+paneltype = 3;
 
 //Alpha
 image_alpha = 0;

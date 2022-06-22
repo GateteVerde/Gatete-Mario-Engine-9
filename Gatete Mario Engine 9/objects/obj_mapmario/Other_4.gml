@@ -18,7 +18,7 @@ if (global.clear > 0) {
 }
 
 //Otherwise, do not save them unless a checkpoint was reached.
-else {
+else if (global.level != noone) {
 
     for (var i = 0; i < 3; i++) {
     

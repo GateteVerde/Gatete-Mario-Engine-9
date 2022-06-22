@@ -7,7 +7,7 @@ check = collision_point(x+xorig, y+yorig, obj_levelpanel, 0, 0);
 with (check) {
 
 	//If Mario didn't warp
-	if (global.clear < 3) {
+	if ((global.clear < 3) && (paneltype != 3)) {
 	
 		if (is_undefined(ds_map_find_value(global.worldmap_beaten, string(id) + "_" + string(global.clear)))) {
 		
@@ -24,7 +24,7 @@ with (check) {
 if (global.clear == 1) {
 
 	//If this panel is a toad house, minigame house or switch palace, do not open paths
-	if (check.paneltype == 2) {
+	if (check.paneltype >= 2) {
 	
 		//Allow the game to be saved
 		savegame = true;
@@ -73,15 +73,10 @@ if (global.clear == 1) {
 	}
 }
 
-//Otherwise, if the level has been cleared with the secret exit
-else if (global.clear == 2) {
-			
-	//Open adyacent paths
+//Otherwise if the level has been cleared with the secret exit, open secret path
+else if (global.clear == 2)
 	alarm[3] = 32;
-}
 
-//Otherwise, if Mario warped through a pipe
-else if (global.clear == 3) {
-
+//Otherwise if Mario warped through a pipe, open all paths in all 4 directions
+else if (global.clear == 3)
 	alarm[4] = 32;
-}

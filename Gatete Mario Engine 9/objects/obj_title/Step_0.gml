@@ -55,29 +55,110 @@ else if (start == 1) {
 				//Switch between index options
 				switch (index) {
 			
-					//Start Game
+					//FILE A
 					case (0): {
-					
+						
+						//Play 'Enter Stage' sound
+						audio_play_sound(snd_enterstage, 0, false);
+						
+						//Stop 'Title' sound
+						audio_stop_sound(snd_title);
+						
+						//Set file
+						global.file = "GME9SaveA.sav";
+											
 						//If no curtain exists
 						if (instance_number(obj_curtain_in) == 0) {
+
+							if (file_exists(global.file)) {
+								
+								//Load file
+								load(global.file);
 					
-							//Play 'Enter Stage' sound
-							audio_play_sound(snd_enterstage, 0, false);
-						
-							//Stop 'Title' sound
-							audio_stop_sound(snd_title);
-					
-							//Go to the file selection screen
-							with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in)) {
+								//Go to world map
+								with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in))
+									target = rm_worldmap;
+							}
+							else {
 							
-								target = rm_worldmap;
+								//Go to the intro screen
+								with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in))
+									target = rm_worldmap;
+							}
+						}
+					
+					} break;
+					
+					//FILE B
+					case (1): {
+						
+						//Play 'Enter Stage' sound
+						audio_play_sound(snd_enterstage, 0, false);
+						
+						//Stop 'Title' sound
+						audio_stop_sound(snd_title);
+						
+						//Set file
+						global.file = "GME9SaveB.sav";
+											
+						//If no curtain exists
+						if (instance_number(obj_curtain_in) == 0) {
+
+							if (file_exists(global.file)) {
+								
+								//Load file
+								load(global.file);
+					
+								//Go to world map
+								with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in))
+									target = rm_worldmap;
+							}
+							else {
+							
+								//Go to the intro screen
+								with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in))
+									target = rm_worldmap;
+							}
+						}
+					
+					} break;
+					
+					//FILE C
+					case (2): {
+						
+						//Play 'Enter Stage' sound
+						audio_play_sound(snd_enterstage, 0, false);
+						
+						//Stop 'Title' sound
+						audio_stop_sound(snd_title);
+						
+						//Set file
+						global.file = "GME9SaveC.sav";
+											
+						//If no curtain exists
+						if (instance_number(obj_curtain_in) == 0) {
+
+							if (file_exists(global.file)) {
+								
+								//Load file
+								load(global.file);
+					
+								//Go to world map
+								with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in))
+									target = rm_worldmap;
+							}
+							else {
+							
+								//Go to the intro screen
+								with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in))
+									target = rm_worldmap;
 							}
 						}
 					
 					} break;
 				
 					//Options
-					case (1): {
+					case (3): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -88,7 +169,7 @@ else if (start == 1) {
 					} break;
 				
 					//Exit
-					case (2): {
+					case (4): {
 					
 						//End Game
 						game_end();
