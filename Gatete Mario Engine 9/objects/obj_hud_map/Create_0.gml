@@ -22,3 +22,6 @@ anim = 0;
 //Prompt to show
 prompt = 0;
 alarm[0] = 180;
+
+//Show "Game Saved!" text (Applies only if Auto-Saving is enabled)
+show_saved = 0;

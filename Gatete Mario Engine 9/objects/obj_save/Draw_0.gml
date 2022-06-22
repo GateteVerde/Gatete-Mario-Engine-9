@@ -1,16 +1,4 @@
-/// @description Render snapshot and draw the text
-
-//Render snapshot
-freeze_render();
-
-//Draw alpha
-draw_set_alpha(alpha);
-
-//Draw rectangle
-draw_rectangle_colour(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]), c_black, c_black, c_black, c_black, false);
-
-//Reset alpha
-draw_set_alpha(1);
+/// @description Render background and draw the text
 
 //Draw menu background
 draw_sprite_ext(spr_gui_global_pause, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, scale, scale, 0, c_white, 1);

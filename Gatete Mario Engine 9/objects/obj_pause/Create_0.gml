@@ -8,7 +8,7 @@ snapshot = -1;
 
 //Menu variables
 menu[0] = "Continue";
-menu[1] = (global.beaten == 1) ? "Return to World Map" : "Cannot Quit Level";
+menu[1] = (global.beaten == 1) ? "Return to Map" : "Cannot Quit Level";
 menu[2] = "Quit Game";
 
 //Index

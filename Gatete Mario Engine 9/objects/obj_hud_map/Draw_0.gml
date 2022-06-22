@@ -108,3 +108,6 @@ draw_set_font(global.gui_font);
 	draw_text_colour(camera_get_view_x(view_camera[0]) + 80, camera_get_view_y(view_camera[0]) + 24, string(levelname), c_white, c_white, c_white, c_white, 1);
 
 #endregion
+
+//Draw amount of cleared levels
+draw_text(camera_get_view_x(view_camera[0]) + 2, camera_get_view_y(view_camera[0]) + 2, string(global.cleared_levels));

@@ -17,10 +17,6 @@ function init_globals() {
 	//World
 	global.world = 1;
 
-	//Exits found
-	global.exits = ds_map_create();
-	global.exits2 = ds_map_create();
-
 	//Level Time
 	global.timer = 0;
 

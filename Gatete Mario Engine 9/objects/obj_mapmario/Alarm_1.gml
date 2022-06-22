@@ -1,36 +1,37 @@
 /// @description Save the game
 
-//Set idle state
-status = mapstate.idle;
-
-//Begin music
-with (obj_mapcontrol) alarm[0] = 2;
-
-/*
-
 //Normal exit
-if (!savegame)
-&& (!global.alt_save) {
-    
-    status = mapstate.idle;
-    exit;    
+if (savegame == 0)
+&& (obj_coordinator.autosave == 0) {
+
+	status = mapstate.idle;
+	with (obj_mapcontrol) alarm[0] = 2;
+	exit;
 }
 
-//If autosaving is enabled
-if (global.autosave == 1) {
+//If auto save is enabled
+if (obj_coordinator.autosave == 1) {
 
-    save(global.file);
-    status = mapstate.idle;
-    obj_hud_map.show_saved = true;
-    obj_hud_map.alarm[0] = 90;
-    
-} 
+	//Save the game
+	save(global.file);
+	
+	//Set status
+	status = mapstate.idle;
+	
+	//Display "Game Saved!" text at the bottom-right corner
+	with (obj_hud_map) {
+	
+		show_saved = true;
+		alarm[1] = 90;
+	}
+}
+
+//Otherwise, ask the player to save
 else {
 
-    //Create save object
-    instance_create_layer(0, 0, "Main", obj_save);    
+	//Create save menu
+	instance_create_depth(0, 0, -99, obj_save);
 }
-    
-savegame = false;
 
-*/
+//End save game mode
+savegame = 0;
