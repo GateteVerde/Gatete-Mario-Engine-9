@@ -19,8 +19,9 @@ init_shockwave();
 #region GAMEPLAY VARIABLES
 
 	//Gameplay Macros (Edit this when releasing your game)
-	#macro WORLD_AMOUNT		1; //Number of worlds this game have
 	#macro LEVEL_AMOUNT		9; //Number of levels this game have
+	#macro EXITS_AMOUNT	   22; //Number of exits this game have		
+	#macro STARS_AMOUNT		2; //Number of power stars this game have
 
 	//Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
 	//false:	Integer rounding similar to GBA/SNES
@@ -173,6 +174,10 @@ init_shockwave();
 	    walk
 	}
 #endregion
+
+//Progress (Used to calculate how much you progressed in-game)
+got = 0;
+total = 0;
 
 //Current pitch
 pitch = 1;

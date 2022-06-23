@@ -436,6 +436,77 @@ key[5] = string(key_to_string(global.key[input.down]));
 key[6] = string(key_to_string(global.key[input.left]));
 key[7] = string(key_to_string(global.key[input.right]));
 
+#region UPDATE FILE DATA
+
+	#region FILE A
+	
+		//Update FILE A info
+		if (file_exists("GME9DataA.ini")) {
+	
+			//Open INI
+			ini_open("GME9DataA.ini");
+		
+			//Read data
+			completion[0] = ini_read_real("Clear", "Completion", 0);
+		
+			//Close INI
+			ini_close();
+		
+			//Print it
+			menu[0, 0] = "FILE A ..... " + string_format(completion[0], 3, 0) + "%";
+		}
+	
+		//Otherwise
+		else	
+			menu[0, 0] = "FILE A ..... NEW!";
+	#endregion
+	#region FILE B
+	
+		//Update FILE B info
+		if (file_exists("GME9DataB.ini")) {
+	
+			//Open INI
+			ini_open("GME9DataB.ini");
+		
+			//Read data
+			completion[1] = ini_read_real("Clear", "Completion", 0);
+		
+			//Close INI
+			ini_close();
+		
+			//Print it
+			menu[0, 1] = "FILE B ..... " + string_format(completion[1], 3, 0) + "%";
+		}
+	
+		//Otherwise
+		else	
+			menu[0, 1] = "FILE B ..... NEW!";
+	#endregion	
+	#region FILE C
+	
+		//Update FILE A info
+		if (file_exists("GME9DataC.ini")) {
+	
+			//Open INI
+			ini_open("GME9DataC.ini");
+		
+			//Read data
+			completion[2] = ini_read_real("Clear", "Completion", 0);
+		
+			//Close INI
+			ini_close();
+		
+			//Print it
+			menu[0, 2] = "FILE C ..... " + string_format(completion[0], 3, 0) + "%";
+		}
+	
+		//Otherwise
+		else	
+			menu[0, 2] = "FILE C ..... NEW!";
+	#endregion
+	
+#endregion
+
 //Update options
 menu[menupage.options, 2] = (obj_coordinator.autosave == false) ? "Auto Save: Off" : "Auto Save: On";
 menu[menupage.options, 3] = (obj_coordinator.vsync == false) ? "V-Sync: Off" : "V-Sync: On";

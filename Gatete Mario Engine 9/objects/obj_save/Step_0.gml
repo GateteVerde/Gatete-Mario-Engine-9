@@ -87,8 +87,59 @@ if (scale_type == 1) {
 				//Play 'Save' sound
 				audio_play_sound(snd_save, 0, false);
 				
-				//Save the game
-				save(global.file);
+				#region SAVE DATA
+				
+					//Save the game
+					save(global.file);
+					
+					//If 'File A' exists, open 'Data A' ini
+					if (global.file = "GME9SaveA.sav") {
+
+						//Open INI
+					    ini_open("GME9DataA.ini");
+						
+						//Write Data
+						ini_write_real("Coins", "Data", global.starcoins);
+						ini_write_real("Stars", "Data", global.powerstars);
+						ini_write_real("Exits", "Data", global.cleared_levels);
+						ini_write_real("Clear", "Completion", global.gameclear);
+						
+						//Close INI
+					    ini_close();
+					}
+					
+					//Otherwise if 'File B' exists, open Info B
+					else if (global.file = "GME9SaveB.sav") {
+
+						//Open INI
+					    ini_open("GME9DataB.ini");
+						
+						//Write Data
+						ini_write_real("Coins", "Data", global.starcoins);
+						ini_write_real("Stars", "Data", global.powerstars);
+						ini_write_real("Exits", "Data", global.cleared_levels);
+						ini_write_real("Clear", "Completion", global.gameclear);
+						
+						//Close INI
+					    ini_close();
+					}
+					
+					//Otherwise, if 'File C' exists, open Info C
+					else if (global.file = "GME9SaveC.sav") {
+
+						//Open INI
+					    ini_open("GME9DataC.ini");
+						
+						//Write Data
+						ini_write_real("Coins", "Data", global.starcoins);
+						ini_write_real("Stars", "Data", global.powerstars);
+						ini_write_real("Exits", "Data", global.cleared_levels);
+						ini_write_real("Clear", "Completion", global.gameclear);
+						
+						//Close INI
+					    ini_close();
+					}
+				#endregion
 				
 				//Set scale type
 				scale_type = 2;
@@ -100,8 +151,50 @@ if (scale_type == 1) {
 				//Play 'Save' sound
 				audio_play_sound(snd_save, 0, false);
 			
-				//Save the game
-				save(global.file);
+				#region SAVE DATA
+				
+					//Save the game
+					save(global.file);
+					
+					//If 'File A' exists, open 'Data A' ini
+					if (global.file = "GME9SaveA.sav") {
+
+						//Open INI
+					    ini_open("GME9DataA.ini");
+						
+						//Write Data
+						ini_write_real("Clear", "Completion", global.gameclear);
+						
+						//Close INI
+					    ini_close();
+					}
+					
+					//Otherwise if 'File B' exists, open Info B
+					else if (global.file = "GME9SaveB.sav") {
+
+						//Open INI
+					    ini_open("GME9DataB.ini");
+						
+						//Write Data
+						ini_write_real("Clear", "Completion", global.gameclear);
+						
+						//Close INI
+					    ini_close();
+					}
+					
+					//Otherwise, if 'File C' exists, open Info C
+					else if (global.file = "GME9SaveC.sav") {
+
+						//Open INI
+					    ini_open("GME9DataC.ini");
+						
+						//Write Data
+						ini_write_real("Clear", "Completion", global.gameclear);
+						
+						//Close INI
+					    ini_close();
+					}
+				#endregion
 				
 				//Close application
 				game_end();

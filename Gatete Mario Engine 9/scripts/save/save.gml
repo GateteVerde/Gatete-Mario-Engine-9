@@ -76,7 +76,7 @@ function save() {
 	file_text_write_string(file, base64_encode(string(global.starcoins)));
 	file_text_writeln(file);
 	
-	//Turn the world map data structure into a string and write it
+	//Save Power Star amount
 	file_text_write_string(file, ds_map_write(global.powerstars));
 	file_text_writeln(file);
 	
@@ -94,6 +94,10 @@ function save() {
 		file_text_write_string(file, base64_encode(string(global.star_house[i])));
 		file_text_writeln(file);
 	}
+	
+	//Save Game Completion percentage
+	file_text_write_string(file, base64_encode(string(global.gameclear)));
+	file_text_writeln(file);
 	
 	//Close file
 	file_text_close(file);

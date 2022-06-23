@@ -95,6 +95,10 @@ function load() {
 		file_text_readln(file);
 	}
 	
+	//Load Game Completion percentage
+	global.gameclear = real(base64_decode(file_text_read_string(file)));
+	file_text_readln(file);
+	
 	//Close file
 	file_text_close(file);
 }

@@ -11,10 +11,16 @@ enum menupage {
 	keys	   =    2
 }
 
+//Save File info
+for (i=0; i<3; i++) {
+
+    complete[i] = 0;
+}
+
 //Options sub-menu 0
-menu[menupage.main, 0] = "FILE A";
-menu[menupage.main, 1] = "FILE B";
-menu[menupage.main, 2] = "FILE C";
+menu[menupage.main, 0] = "FILE A ..... NEW!";
+menu[menupage.main, 1] = "FILE B ..... NEW!";
+menu[menupage.main, 2] = "FILE C ..... NEW!";
 menu[menupage.main, 3] = "Settings";
 menu[menupage.main, 4] = "Exit";
 
