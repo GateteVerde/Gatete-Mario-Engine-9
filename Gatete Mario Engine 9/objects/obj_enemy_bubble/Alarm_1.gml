@@ -11,8 +11,9 @@ switch (sprout) {
             
         with (instance_create_depth(x+8+(sprite_get_xoffset(sprout)), y+10, -2, obj_galoomba)) {
         
-            xscale = 1*sign(other.hspeed);
-            alarm[10] = 2;
+            xscale = 1*sign(other.xspeed);
+            bubble = 1;
+			alarm[10] = -1;
         }
     } break;
         
@@ -22,7 +23,8 @@ switch (sprout) {
         with (instance_create_depth(x+8+(sprite_get_xoffset(sprout)), y+10, -2, obj_bobomb_cannon)) {
         
             xscale = 1*sign(other.xspeed);
-            alarm[10] = 2;
+            bubble = 1;
+			alarm[10] = -1;
         }
     } break;
         

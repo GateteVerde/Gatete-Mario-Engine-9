@@ -13,7 +13,7 @@ if (!held) {
     if (ready == 1) {
     
         //If the direction changes...
-        if (xspeed != prevxspeed) {
+        if (sign(xspeed) != sign(prevxspeed)) {
 			
 			//If the block is outside
 			if (outside_view() == false) {

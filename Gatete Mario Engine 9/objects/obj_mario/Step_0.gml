@@ -71,7 +71,7 @@
 	//Manage triple jump
 	if (triplejump > 0) {
 		
-		//Decrement timer (but only if in ground
+		//Decrement timer (but only if in ground)
 		if (state < playerstate.jump)
 			tjtime--;
 		

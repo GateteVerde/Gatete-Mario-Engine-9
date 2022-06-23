@@ -35,7 +35,7 @@ else if ((ready == 1) && (!mario)) {
         }
         
         //Create some smoke
-        instance_create_layer(x+8+a, y+8, -10, obj_smoke);
+        instance_create_depth(x+8+a, y+8, -10, obj_smoke);
         
         //Next one
         a += 16;

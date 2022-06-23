@@ -1014,20 +1014,25 @@ if (state == playerstate.jump)
 
     //If the player does have either the raccoon or the tanooki powerup
     if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon))
-    && (jumping != 1)
+	&& (jumping != 1)
     && (wallkick < 1)
 	&& (groundpound == 0)
     && (swimming == false)
     && (input_check_pressed(input.action_0))
     && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0)) {
+		
+		//Play 'tail' sound.
+        audio_stop_sound(snd_spin);
+        audio_play_sound(snd_spin, 0, false);
+		
+		//Force end triple jump
+		triplejump = 0;
+		somersault = 0;
+		angle = 0;
     
         //If the player is running or the pwing is active
-        if (run) 
+        if (run)
         || (global.pwing == 1) {
-        
-            //Play 'tail' sound.
-            audio_stop_sound(snd_spin);
-            audio_play_sound(snd_spin, 0, false);
             
             //Make the player able to fly for a fixed amount of seconds
 			if (!flying) {
@@ -1055,11 +1060,7 @@ if (state == playerstate.jump)
         }
         
         //Otherwise, if the player is not running.
-        else if (!run) { 
-        
-            //Play 'tail' sound.
-            audio_stop_sound(snd_spin);
-            audio_play_sound(snd_spin, 0, false);      
+        else if (!run) {   
             
             //Whip tail.
             wiggle = 16;

@@ -1,5 +1,12 @@
 /// @description Bubble logic
 
+//Handle pseudo movement variables
+if (freeze == false) {
+
+	x += xspeed;
+	y += yspeed;
+}
+
 //If the bubble was not moving...
 if (!ready) {
 
@@ -16,14 +23,14 @@ if (!ready) {
         ready = 1;
         
         //Set the vertical speed
-        vspeed = 0.5;
+        yspeed = 0.5;
         
         //Set the horizontal speed
         if (!instance_exists(obj_mario))
         || (obj_mario.x < x)
-            hspeed = -0.5;
+            xspeed = -0.5;
         else
-            hspeed = 0.5;
+            xspeed = 0.5;
     }
 }
 
@@ -42,13 +49,13 @@ else if (ready) {
     
     //If the bubble collides...
     if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 0, 0))
-    || ((collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_semisolid, 0, 0)) && (vspeed > 0))
-    || ((collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_slopeparent, 1, 0)) && (vspeed > 0))
+    || ((collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_semisolid, 0, 0)) && (yspeed > 0))
+    || ((collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_slopeparent, 1, 0)) && (yspeed > 0))
         alarm[1] = 1;
 }
 
 //Wave up and down
 if (y > ystart)
-    vspeed -= 0.025;
+    yspeed -= 0.025;
 else
-    vspeed += 0.025;
+    yspeed += 0.025;
