@@ -14,7 +14,6 @@ if (obj_coordinator.autosave == 1) {
 
 	//Save the game
 	save(global.file);
-	save_ini(global.ini_file);
 	
 	//Set status
 	status = mapstate.idle;

@@ -25,9 +25,10 @@ if (status == mapstate.idle)
 			//Forget level ID
 			obj_hud_map.levelid = noone;
 			
-			//If Mario is at the start position
-			if (position_meeting(x + 8, y + 8, obj_mapstart))
-			&& (position_meeting(x + 8, y + 8, obj_mapstart).visible = true)
+			//If Mario is at the start position on the map and there's no panel
+			if (!panel)
+			&& (x == xstart)
+			&& (y == ystart)
 				obj_hud_map.levelname = string_upper("Start");
 			else
 				obj_hud_map.levelname = "";

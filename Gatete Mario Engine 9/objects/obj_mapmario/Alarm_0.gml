@@ -41,12 +41,12 @@ if (global.clear == 1) {
 	//Otherwise
 	else {
 		
+		//If this panel is a ghost, fortress or castle: allow to save the game
+		if (check.paneltype == 1) then savegame = true;
+		
 		//If the level has not been beaten yet
 		if (check.beaten != 1) {
 			
-			//If this panel is a ghost, fortress or castle: allow to save the game
-			if (check.paneltype < 2) then savegame = true;
-				
 			//Mark the panel as beaten
 			with (check) {
 				
