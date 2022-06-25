@@ -10,7 +10,10 @@
 	//This grows the image, you can change the values to control how fast the circle should grow.
 	scale += (global.gw / 50)
 	if (scale > global.gw)
+	{
 	    instance_destroy();
+		exit;	// Stop executing the event if i've been destroyed
+	}
 #endregion
 
 //Check if the surface still exists
