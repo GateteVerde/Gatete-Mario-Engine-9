@@ -1,3 +1,4 @@
 /// @description Skip intro
 
-audio_stop_sound(snd_intro);
+if (!instance_exists(obj_fade_out))
+	audio_stop_sound(snd_intro);

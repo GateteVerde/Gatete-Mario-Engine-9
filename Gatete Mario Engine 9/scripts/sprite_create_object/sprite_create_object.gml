@@ -107,6 +107,9 @@ function sprite_create_object() {
 		//Key
 		case (spr_key): return instance_create_depth(argument[1], argument[2], argument[3], obj_key);
 		
+		//Billy Gun
+		case (spr_billygun): return instance_create_depth(argument[1], argument[2], argument[3], obj_billygun);
+		
 		//Green Yoshi
 		case (spr_egg): return instance_create_depth(argument[1], argument[2], argument[3], obj_egg);
 
