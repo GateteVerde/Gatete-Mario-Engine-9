@@ -1,4 +1,5 @@
 - Programming -
+Aspirin
 Gate
 Mack
 Mikeystar
@@ -40,6 +41,7 @@ Dooki51
 MadNyle
 MFGG.net
 Pinci
+Rem
 SMWCentral.net
 TheMushroomKingdom.net
 
@@ -51,5 +53,8 @@ Vexxter
 - Special Thanks -
 AForager
 Codehaus
+Comunidad GameMaker
+Mario Fan Games Galaxy
 Sharb
 Sobako
+The Spriters Resource
