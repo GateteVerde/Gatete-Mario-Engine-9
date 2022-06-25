@@ -108,3 +108,12 @@ draw_set_font(global.gui_font);
 	draw_text_colour(camera_get_view_x(view_camera[0]) + 80, camera_get_view_y(view_camera[0]) + 24, string(levelname), c_white, c_white, c_white, c_white, 1);
 
 #endregion
+
+//Display "GAME SAVED!"
+if (show_saved > 0)
+&& (obj_coordinator.autosave == true) {
+	
+	draw_set_halign(fa_right);
+	draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 2, camera_get_view_y(view_camera[0]) + 2, "GAME SAVED!", c_black, c_white, 1, 1, show_saved/2, show_saved);
+	draw_set_halign(fa_left)
+}

@@ -1,5 +1,8 @@
 /// @description Manage alpha
 
+//Decrement show saved
+show_saved -= 0.025;
+
 //Update x offset
 offset_x += 0.5;
 

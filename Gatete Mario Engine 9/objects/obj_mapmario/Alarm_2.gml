@@ -3,9 +3,14 @@
 //If no direction was set
 if (check.normalexit == noone) {
 	
-	alarm[10] = 32;
-	with (obj_mapcontrol)
-		alarm[0] = 32;
+	if (savegame == false) {
+					
+		alarm[10] = 32;
+		with (obj_mapcontrol)
+			alarm[0] = 32;
+	}
+	else
+		alarm[1] = 32;
 }
 
 //Otherwise
@@ -28,9 +33,17 @@ else {
 			//Otherwise, if the path has been opened before
 			else {
 			
-				alarm[10] = 32;
-				with (obj_mapcontrol)
-					alarm[0] = 32;
+				//If the game is not being saved, continue normally
+				if (savegame == false) {
+					
+					alarm[10] = 32;
+					with (obj_mapcontrol)
+						alarm[0] = 32;
+				}
+				
+				//Otherwise, save
+				else
+					alarm[1] = 32;
 			}
         } break;
             
@@ -48,9 +61,17 @@ else {
 			//Otherwise, if the path has been opened before
 			else {
 			
-				alarm[10] = 32;
-				with (obj_mapcontrol)
-					alarm[0] = 32;
+				//If the game is not being saved, continue normally
+				if (savegame == false) {
+					
+					alarm[10] = 32;
+					with (obj_mapcontrol)
+						alarm[0] = 32;
+				}
+				
+				//Otherwise, save
+				else
+					alarm[1] = 32;
 			}
         } break;
             
@@ -68,9 +89,17 @@ else {
 			//Otherwise, if the path has been opened before
 			else {
 			
-				alarm[10] = 32;
-				with (obj_mapcontrol)
-					alarm[0] = 32;
+				//If the game is not being saved, continue normally
+				if (savegame == false) {
+					
+					alarm[10] = 32;
+					with (obj_mapcontrol)
+						alarm[0] = 32;
+				}
+				
+				//Otherwise, save
+				else
+					alarm[1] = 32;
 			}
         } break;
             
@@ -88,9 +117,17 @@ else {
 			//Otherwise, if the path has been opened before
 			else {
 			
-				alarm[10] = 32;
-				with (obj_mapcontrol)
-					alarm[0] = 32;
+				//If the game is not being saved, continue normally
+				if (savegame == false) {
+					
+					alarm[10] = 32;
+					with (obj_mapcontrol)
+						alarm[0] = 32;
+				}
+				
+				//Otherwise, save
+				else
+					alarm[1] = 32;
 			}
         } break;    
 	}

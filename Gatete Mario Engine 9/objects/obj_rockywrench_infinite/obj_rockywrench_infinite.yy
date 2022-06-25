@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "spr_eventmarker",
-    "path": "sprites/spr_eventmarker/spr_eventmarker.yy",
+    "name": "spr_rockywrench",
+    "path": "sprites/spr_rockywrench/spr_rockywrench.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_deactivateparent",
+    "path": "objects/obj_deactivateparent/obj_deactivateparent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,18 +26,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/Special/Do Not Use!/System/GUI.yy",
+    "name": "Airship",
+    "path": "folders/Objects/Enemies/Airship.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_hud_map",
+  "name": "obj_rockywrench_infinite",
   "tags": [],
   "resourceType": "GMObject",
 }

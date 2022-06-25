@@ -1,7 +1,8 @@
 /// @description Loop the music
 
 //Wait until all paths are done
-if (global.clear == 0) {
+if (global.clear == 0) 
+&& (instance_number(obj_save) == 0) {
 
 	//If the music is not disabled or the p-switch is active
 	if (!audio_is_playing(global.mapstream)) {

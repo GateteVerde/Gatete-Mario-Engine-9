@@ -43,33 +43,16 @@ if (global.clear == 1) {
 		
 		//If this panel is a ghost, fortress or castle: allow to save the game
 		if (check.paneltype == 1) then savegame = true;
-		
-		//If the level has not been beaten yet
-		if (check.beaten != 1) {
 			
-			//Mark the panel as beaten
-			with (check) {
+		//Mark the panel as beaten
+		with (check) {
 				
-				ds_map_replace(global.worldmap, id, 2);
-				alarm[2] = 1;
-			}
-			
-			//Open adyacent paths
-			alarm[2] = 32;
+			ds_map_replace(global.worldmap, id, 2);
+			alarm[2] = 1;
 		}
-		
-		//Otherwise
-		else {
 			
-			//End clear sequence
-			global.clear = 0;
-		
-			//Make Mario able to move
-			alarm[10] = 32;
-			
-			//Loop the music
-			with (obj_mapcontrol) alarm[0] = 32;
-		}
+		//Open adyacent paths
+		alarm[2] = 32;
 	}
 }
 
