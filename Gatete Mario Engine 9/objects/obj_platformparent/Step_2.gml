@@ -78,148 +78,147 @@
 //If this platform is solid
 if (issolid == true) {
 	
-	//If Mario does exist
-	if (instance_exists(obj_mario)) {
+	#region MARIO
 	
-		//With Mario
-		with (obj_mario) {
+		//If Mario does exist
+		if (instance_exists(obj_mario)) {
+	
+			//With Mario
+			with (obj_mario) {
 		
-			//If moving right and this platform is on the way
-			if (xspeed > 0)
-			&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, other.id, 1, 0)))
-			|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom-5, other.id, 1, 0)))) {
+				//If moving right and this platform is on the way
+				if (xspeed > 0)
+				&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, other.id, 1, 0)))
+				|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom-5, other.id, 1, 0)))) {
 			       
-		        //Stop horizontal speed
-		        xspeed = 0;
+			        //Stop horizontal speed
+			        xspeed = 0;
 				
-				//If Mario does not have the tiny powerup
-				if (global.powerup != cs_tiny) {
+					//If Mario does not have the tiny powerup
+					if (global.powerup != cs_tiny) {
             
-			        //Prevent the player from getting embed on the wall
-			        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, other.id, 0, 0))
-			        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-			            x--;
-				}
-				else {
-					
-			        //Prevent the player from getting embed on the wall
-			        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-5, other.id, 0, 0))
-			        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-			            x--;					
-				}
-			}
-			
-			//Otherwise, if moving left and this platform is on the way
-			else if (xspeed < 0)
-			&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 1, 0)))
-			|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left, bbox_bottom-5, other.id, 1, 0)))) {
-			
-		        //Stop horizontal speed
-		        xspeed = 0;
-				
-				//If the player is not tiny
-				if (global.powerup != cs_tiny) {
-            
-			        //Prevent the player from getting embed on the wall
-			        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 0, 0))
-			        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-			            x++;
-				}
-				else {
-				
-			        //Prevent the player from getting embed on the wall
-			        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-5, other.id, 0, 0))
-			        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-			            x++;					
-				}
-			}
-			
-			//If Mario is moving up
-		    if (yspeed < 0) 
-		    && (collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_top, other.id, 1, 0)) {
-        
-		        //Prevent the player from getting embed on a ceiling
-		        if (state > playerstate.walk) {
-            
-		            while (collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, other.id, 0, 0))
-		                y++;
-		        }
-            
-		        //Stop vertical movement
-		        yspeed = 0;
-            
-		        //Play 'Bump' sound if not climbing
-		        if (state == playerstate.jump)
-		            audio_play_sound(snd_bump, 0, false);
-		    }
-		}
-		
-		//Make sure if Mario is below the block
-		if (obj_mario.y > y-11) {
-    
-		    //If moving down
-		    if (y-yprevious > 0) {
-        
-		        //With Mario
-		        with (obj_mario) {
-            
-		            //If Mario is below the platform
-					if (other.vspeed > 0) {
-						
-						while (collision_rectangle(bbox_left, bbox_top-1+other.id.vspeed, bbox_right, bbox_top, other.id, 0, 0))
-							y += other.id.vspeed;
+				        //Prevent the player from getting embed on the wall
+				        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, other.id, 0, 0))
+				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+				            x--;
 					}
-		        }
-		    }
-			
-			//If Mario is walljumping
-			if (obj_mario.wallkick == 1) {
-			
-				if ((x-xprevious != 0) 
-				&& (collision_rectangle(obj_mario.bbox_left - 5, obj_mario.bbox_top+4, obj_mario.bbox_right + 5, obj_mario.bbox_bottom, other.id, 1, 0))) {
+					else {
 					
-					obj_mario.x += x-xprevious;
-					if (y-yprevious != 0)
-						obj_mario.y += y-yprevious;
+				        //Prevent the player from getting embed on the wall
+				        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-5, other.id, 0, 0))
+				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+				            x--;					
+					}
+				}
+			
+				//Otherwise, if moving left and this platform is on the way
+				else if (xspeed < 0)
+				&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 1, 0)))
+				|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left, bbox_bottom-5, other.id, 1, 0)))) {
+			
+			        //Stop horizontal speed
+			        xspeed = 0;
+				
+					//If the player is not tiny
+					if (global.powerup != cs_tiny) {
+            
+				        //Prevent the player from getting embed on the wall
+				        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 0, 0))
+				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+				            x++;
+					}
+					else {
+				
+				        //Prevent the player from getting embed on the wall
+				        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-5, other.id, 0, 0))
+				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+				            x++;					
+					}
+				}
+			
+				//If Mario is moving up
+			    if (yspeed < 0) 
+			    && (collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_top, other.id, 1, 0)) {
+        
+			        //Prevent the player from getting embed on a ceiling
+			        if (state > playerstate.walk) {
+            
+			            while (collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, other.id, 0, 0))
+			                y++;
+			        }
+            
+			        //Stop vertical movement
+			        yspeed = 0;
+            
+			        //Play 'Bump' sound if not climbing
+			        if (state == playerstate.jump)
+			            audio_play_sound(snd_bump, 0, false);
+			    }
+			}
+		
+			//Make sure if Mario is below the block
+			if (obj_mario.y > y-11) {
+    
+			    //If moving down
+			    if (y-yprevious > 0) {
+        
+			        //With Mario
+			        with (obj_mario) {
+            
+			            //If Mario is below the platform
+						if ((other.vspeed > 0) || (other.y > y-yprevious)) {
+						
+							while (collision_rectangle(bbox_left, bbox_top-1+other.id.vspeed, bbox_right, bbox_top, other.id, 0, 0))
+								y += other.id.vspeed;
+						}
+			        }
+			    }
+			
+				//If Mario is walljumping
+				if (obj_mario.wallkick == 1) {
+			
+					if ((x-xprevious != 0) 
+					&& (collision_rectangle(obj_mario.bbox_left - 5, obj_mario.bbox_top+4, obj_mario.bbox_right + 5, obj_mario.bbox_bottom, other.id, 1, 0))) {
+					
+						obj_mario.x += x-xprevious;
+						if (y-yprevious != 0)
+							obj_mario.y += y-yprevious;
+					}
+				}
+			
+				//Otherwise
+				else {
+
+				    //Push Mario in the direction the platform moves    
+				    if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2-(x-xprevious), bbox_top+4, bbox_left-2, bbox_bottom-1, obj_mario, 0, 0)))
+				    || ((x-xprevious > 0) && (collision_rectangle(bbox_right+2, bbox_top+4, bbox_right+2+(x-xprevious), bbox_bottom-1, obj_mario, 0, 0)))
+				        obj_mario.x += x-xprevious;
 				}
 			}
-			
-			//Otherwise
-			else {
-
-			    //Push Mario in the direction the platform moves    
-			    if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2-(x-xprevious), bbox_top+4, bbox_left-2, bbox_bottom-1, obj_mario, 0, 0)))
-			    || ((x-xprevious > 0) && (collision_rectangle(bbox_right+2, bbox_top+4, bbox_right+2+(x-xprevious), bbox_bottom-1, obj_mario, 0, 0)))
-			        obj_mario.x += x-xprevious;
+		}
+	#endregion
+	
+	//Create list
+	var list_j = ds_list_create();
+		
+	//Count instances
+	var count_j = collision_rectangle_list(bbox_left, bbox_top, bbox_right, bbox_bottom-1, obj_physicsparent, 0, 0, list_j, 0);
+	if (count_j > 0) {
+		
+		for (var j=0; j<count_j; j++) {
+				
+			//If the NPC is below the top boundary
+			if (list_j[| j].bbox_bottom > yprevious+5) 
+			&& (list_j[| j].bbox_bottom < bbox_bottom) {
+				
+				//Push it
+				if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
+				|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
+					list_j[| j].x += x-xprevious;
 			}
 		}
 	}
-	
-	//Push NPCs horizontally
-	#region NPC PUSH
-	
-		//Create list
-		var list_j = ds_list_create();
 		
-		//Count instances
-		var count_j = collision_rectangle_list(bbox_left, bbox_top+4, bbox_right, bbox_bottom-1, obj_physicsparent, 0, 0, list_j, 0);
-		if (count_j > 0) {
-			
-			for (var j=0; j<count_j; j++) {
-				
-				//If the NPC is below the top boundary
-				if (list_j[| j].bbox_bottom > yprevious+5) 
-				&& (list_j[| j].bbox_bottom < bbox_bottom) {
-				
-					//Push it
-					if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top+4, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
-					|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
-						list_j[| j].x += x-xprevious;
-				}
-			}
-		}
-		
-		//Destroy list
-		ds_list_destroy(list_j);
-	#endregion
+	//Destroy list
+	ds_list_destroy(list_j);
 }
