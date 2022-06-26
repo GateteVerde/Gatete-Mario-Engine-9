@@ -3,9 +3,6 @@
 //Inherit event from parent
 event_inherited();
 
-//Destroy every NPC in position
-ai_npc_destroy();
-
 //Default flagpole
 flagpole = -1;
 

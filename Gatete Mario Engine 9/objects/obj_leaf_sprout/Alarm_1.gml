@@ -8,5 +8,5 @@ alarm[0] = 5;
 depth = -1;
     
 //Set the vertical speed.
-vspeed = 0;
-gravity = 0;
+yspeed = 0;
+yadd = 0;

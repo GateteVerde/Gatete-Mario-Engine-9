@@ -80,6 +80,7 @@
     
 	        //If Yoshi can flutter and it is moving down
 	        if (flutter == 0)
+			&& (obj_mario.jumping == 2)
 	        && (obj_mario.yspeed >= 2.5) {
         
 	            //Play 'Hover' sound

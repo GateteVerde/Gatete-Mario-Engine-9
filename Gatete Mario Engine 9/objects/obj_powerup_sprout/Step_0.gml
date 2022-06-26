@@ -1,5 +1,15 @@
 /// @description Turn into a real item when no solid is overlapping
 
+//If not frozen
+if (freeze == false) {
+
+	x += xspeed;
+	y += yspeed;
+}
+
+//Depth
+depth = 50;
+
 //If not overlapping with a solid
 if (readytogo == 1)
 && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 0, 0)) {
@@ -8,7 +18,7 @@ if (readytogo == 1)
     with (sprite_create_object(sprite_index, x, y, -2)) {
     
         //If moving up
-        if (other.vspeed < 0) {
+        if (other.yspeed < 0) {
         
             //Make the item bounce
             alarm[10] = 1;

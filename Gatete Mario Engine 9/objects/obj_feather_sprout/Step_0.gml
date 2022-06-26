@@ -1,4 +1,12 @@
-/// @description Leaf logic
+/// @description Feather logic
+
+//If not frozen
+if (freeze == false) {
+
+	x += xspeed;
+	y += yspeed;
+	yspeed += yadd;
+}
 
 //If the leaf is sprouting out from the block.
 if ((action = "sprout") && (y < ystart-72)) {
@@ -8,8 +16,8 @@ if ((action = "sprout") && (y < ystart-72)) {
     alarm[0] = 5;
 
     //Set the vertical speed.
-    vspeed = 0;
-    gravity = 0;
+    yspeed = 0;
+    yadd = 0;
 }
 
 //Otherwise, if the leaf is floating to the right.
@@ -21,13 +29,13 @@ else if (action = "right") {
     //Change direction
     if (x > xstart+16) {
     
-        hspeed -= 0.0625;
-        vspeed -= 0.06;
+        xspeed -= 0.0625;
+        yspeed -= 0.06;
     }
     else {
     
-        hspeed += 0.06;
-        vspeed -= 0.08;
+        xspeed += 0.06;
+        yspeed -= 0.08;
     }
     
     //Set the new action
@@ -38,7 +46,7 @@ else if (action = "right") {
         alarm[0] = 5;
         
         //Set the horizontal speed.
-        hspeed = 0;
+        xspeed = 0;
     }
 }
 
@@ -51,13 +59,13 @@ else if (action = "left") {
     //Change direction
     if (x < xstart+16) {
     
-        hspeed += 0.0625;
-        vspeed -= 0.06;
+        xspeed += 0.0625;
+        yspeed -= 0.06;
     }
     else {
     
-        hspeed -= 0.06;
-        vspeed -= 0.08;
+        xspeed -= 0.06;
+        yspeed -= 0.08;
     }
     
     //Set the new action
@@ -68,7 +76,7 @@ else if (action = "left") {
         alarm[0] = 5;
         
         //Set the horizontal speed.
-        hspeed = 0;
+        xspeed = 0;
     }
 }
 

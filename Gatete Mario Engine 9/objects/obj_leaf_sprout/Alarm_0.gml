@@ -4,7 +4,7 @@
 if (action == "nright") {
 
     //Set the vertical speed.
-    hspeed = 0.5;
+    xspeed = 0.5;
     
     //Set the new action.
     action = "right";
@@ -14,11 +14,11 @@ if (action == "nright") {
 else {
 
     //Set the vertical speed.
-    hspeed = -0.5;
+    xspeed = -0.5;
     
     //Sets a new action.
     action = "left";
 }
 
 //Set the vertical speed.
-vspeed = 1.75;
+yspeed = 1.75;

@@ -10,6 +10,9 @@ if (anim > 2.99) {
 	anim = 0;
 }
 
+//Destroy every NPC in position
+ai_npc_destroy();
+
 //When in the physics or countdown state
 if (ready >= 2) && (ready < 5) {
 

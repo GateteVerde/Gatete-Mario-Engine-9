@@ -1,16 +1,23 @@
 /// @description Propeller shroom logic
 
+//If not frozen
+if (freeze == false) {
+
+	x += xspeed;
+	y += yspeed;
+}
+
 //If the propeller shroom is sprouting out from the block.
 if ((action = "sprout") && (y < ystart-18)) {
 
     //Slowdown till it stops
-    if (vspeed < 0)
-        vspeed += 0.0648;
+    if (yspeed < 0)
+        yspeed += 0.0648;
 		
 	//If about to stop
-    else if (vspeed > -0.0648) {
+    else if (yspeed > -0.0648) {
     
-        vspeed = 0;
+        yspeed = 0;
         if (action == "sprout") {
         
             //End ascend
@@ -35,7 +42,7 @@ else if ((action == "left") || (action == "right")) {
     if (readytogo == 1) {
     
         //Set the vertical speed
-        vspeed += 0.0324;
+        yspeed += 0.0324;
         
         //Go up
         if (y > tempY+24)
@@ -52,15 +59,15 @@ else if ((action == "left") || (action == "right")) {
         //Move
         if (y > tempY+24) {
         
-            vspeed -= 0.0324;
+            yspeed -= 0.0324;
             if (timeout == 0)
                 readytogo = 3;
         }
         else if (y < tempY)
-            vspeed += 0.0324;
+            yspeed += 0.0324;
     }
     else if (readytogo == 3)
-        vspeed -= 0.0324;
+        yspeed -= 0.0324;
 }
 
 //Destroy if above the top boundary

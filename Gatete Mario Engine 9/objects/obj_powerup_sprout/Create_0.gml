@@ -1,5 +1,8 @@
 /// @description An item that came out from a block
 
+//Inherit event
+event_inherited();
+
 //Do not animate
 image_speed = 0;
 image_index = 0;
@@ -25,15 +28,15 @@ if (position_meeting(x, y-8, obj_solid)) {
     //Go down if both sides are blocked
     if (position_meeting(x-16, y+8, obj_solid))
     && (position_meeting(x+16, y+8, obj_solid))
-        vspeed = 0.5;
+        yspeed = 0.5;
 
     //Go right if the left side is blocked
     else if (position_meeting(x-16, y+8, obj_solid))
-        hspeed = 0.5;
+        xspeed = 0.5;
 
     //Go left if the right side is blocked
     else if (position_meeting(x+16, y+8, obj_solid))
-        hspeed = -0.5;
+        xspeed = -0.5;
 
     //Otherwise, go towards the player
     else {
@@ -42,17 +45,17 @@ if (position_meeting(x, y-8, obj_solid)) {
         if (instance_exists(obj_mario)) {
         
             if (obj_mario.x > x)
-                hspeed = 0.5;
+                xspeed = 0.5;
             else
-                hspeed = -0.5;
+                xspeed = -0.5;
         }
         
         //Otherwise, if it does not exist.
         else
-            hspeed = -0.5;
+            xspeed = -0.5;
     }
 }
 
 //Otherwise, move up
-else if (vspeed == 0)
-	vspeed = -0.5;
+else if (yspeed == 0)
+	yspeed = -0.5;

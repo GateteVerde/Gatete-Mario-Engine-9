@@ -38,7 +38,7 @@ if (!ready) {
 else if (ready) {
 
     //...and it's outside the view limits
-    if (outside_view()) {
+    if (outside_view() == true) {
         
         //Create a respawn bubble with the same item
         with (instance_create_layer(xstart, ystart, "Main", obj_enemy_bubble_respawn)) sprout = other.sprout;
@@ -53,6 +53,14 @@ else if (ready) {
     || ((collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_slopeparent, 1, 0)) && (yspeed > 0))
         alarm[1] = 1;
 }
+
+#region FACING DIRECTION
+
+	if (xspeed > 0)
+		xscale = 1;
+	else if (xspeed < 0)
+		xscale = -1;
+#endregion
 
 //Wave up and down
 if (y > ystart)

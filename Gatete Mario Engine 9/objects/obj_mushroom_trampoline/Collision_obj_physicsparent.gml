@@ -2,6 +2,7 @@
 
 //If this object is moving down and it's above
 if (other.yspeed > 0)
+&& (other.ignore_platforms == false)
 && (other.bbox_bottom < yprevious+5) {
 	
 	//If this object is ancestor of the physics parent

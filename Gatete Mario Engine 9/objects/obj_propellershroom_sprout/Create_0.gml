@@ -1,7 +1,10 @@
 /// @description A propeller mushroom that came out from a block
 
+//Inherit the parent event
+event_inherited();
+
 //Set the vertical speed
-vspeed = -2;
+yspeed = -2;
 
 //Action
 action = "sprout";
