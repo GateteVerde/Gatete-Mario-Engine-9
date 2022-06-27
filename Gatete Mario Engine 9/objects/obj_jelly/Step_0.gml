@@ -65,11 +65,11 @@ if (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario
 #endregion
 
 //Arrow collision
-if (collision_rectangle(bbox_left, y, bbox_right, y+15, obj_up, 0, 0))
+if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_up, 0, 0)) && (freeze == false))
     vspeed -= 0.0324;
-else if (collision_rectangle(bbox_left, y, bbox_right, y+15, obj_down, 0, 0))
+else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_down, 0, 0)) && (freeze == false))
     vspeed += 0.0324;
-else if (collision_rectangle(bbox_left, y, bbox_right, y+15, obj_left, 0, 0))
+else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_left, 0, 0)) && (freeze == false))
     hspeed -= 0.0324;
-else if (collision_rectangle(bbox_left, y, bbox_right, y+15, obj_right, 0, 0))
+else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_right, 0, 0)) && (freeze == false))
     hspeed += 0.0324;
