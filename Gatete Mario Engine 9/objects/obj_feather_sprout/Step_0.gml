@@ -83,3 +83,5 @@ else if (action = "left") {
 //Change depth
 if (action != "sprout")
 	depth = -2;
+else
+	depth = 50;

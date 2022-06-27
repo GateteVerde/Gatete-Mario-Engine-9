@@ -6,6 +6,9 @@ event_inherited();
 //Set the vertical speed
 yspeed = -2;
 
+//Depth
+depth = 50;
+
 //Action
 action = "sprout";
 

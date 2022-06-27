@@ -1,5 +1,11 @@
 /// @description Grow until it is out of the block
 
+//If not frozen
+if (freeze == false) {
+
+	y += yspeed;
+}
+
 //Increase scale
 scale += 0.015625;
 

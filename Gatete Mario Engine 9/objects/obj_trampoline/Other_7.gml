@@ -10,6 +10,13 @@ if (sprite_index == spr_trampoline) {
         
             //Play 'Trampoline' sound.
             audio_play_sound(snd_trampoline, 0, false);
+			
+			//If Yoshi exists, force end flutter
+			if (instance_exists(obj_yoshi)) {
+
+				if (obj_yoshi.flutter > 0)
+					obj_yoshi.flutter = 0;
+			}
             
             //Set the player vertical speed
             obj_mario.yspeed = -5.425;

@@ -1,5 +1,8 @@
 /// @description A mega mushroom coming out from a block
 
+//Inherit the parent event
+event_inherited();
+
 //Play 'Sprout' sound
 audio_play_sound(snd_sprout, 0, false);
 
@@ -10,4 +13,4 @@ shake_camera(6, ceil(audio_sound_length(snd_sprout) * room_speed), true);
 scale = 0.1;
 
 //Set the vertical speed
-vspeed = -0.25;
+yspeed = -0.25;

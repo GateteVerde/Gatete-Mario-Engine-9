@@ -1,5 +1,12 @@
 /// @description Jump boost after stomping
 
+//If Yoshi exists, force end flutter
+if (instance_exists(obj_yoshi)) {
+
+	if (obj_yoshi.flutter > 0)
+		obj_yoshi.flutter = 0;
+}
+
 //Set the vertical speed
 yspeed = -4.125;
 
