@@ -11,9 +11,9 @@ if (pathU)
 //Otherwise, if the path has been opened before
 else {
 			
-	alarm[10] = 32;
+	alarm[10] = 64;
 	with (obj_mapcontrol)
-		alarm[0] = 32;
+		alarm[0] = 64;
 }
                 
 //Check for a path below and open it if it is not visible
@@ -27,9 +27,9 @@ if (pathD)
 //Otherwise, if the path has been opened before
 else {
 			
-	alarm[10] = 32;
+	alarm[10] = 64;
 	with (obj_mapcontrol)
-		alarm[0] = 32;
+		alarm[0] = 64;
 }
                 
 //Check for a path at the left and open it if it is not visible
@@ -43,9 +43,9 @@ if (pathL)
 //Otherwise, if the path has been opened before
 else {
 			
-	alarm[10] = 32;
+	alarm[10] = 64;
 	with (obj_mapcontrol)
-		alarm[0] = 32;
+		alarm[0] = 64;
 }
                 
 //Check for a path at the right and open it if it is not visible
@@ -59,9 +59,9 @@ if (pathR)
 //Otherwise, if the path has been opened before
 else {
 			
-	alarm[10] = 32;
+	alarm[10] = 64;
 	with (obj_mapcontrol)
-		alarm[0] = 32;
+		alarm[0] = 64;
 }  
 
 //End clear phase

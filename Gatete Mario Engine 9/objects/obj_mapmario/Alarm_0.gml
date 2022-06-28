@@ -57,9 +57,41 @@ if (global.clear == 1) {
 }
 
 //Otherwise if the level has been cleared with the secret exit, open secret path
-else if (global.clear == 2)
-	alarm[3] = 32;
+else if (global.clear == 2) {
+
+	//If this panel is a toad house, minigame house or switch palace, do not open paths
+	if (check.paneltype >= 2) {
+	
+		//Allow the game to be saved
+		savegame = true;
+		
+		//Mark the panel as beaten
+		with (check) {
+		
+			ds_map_replace(global.worldmap, id, 2);
+			alarm[2] = 1;
+			exit;
+		}
+	}
+	
+	//Otherwise
+	else {
+		
+		//If this panel is a ghost, fortress or castle: allow to save the game
+		if (check.paneltype == 1) then savegame = true;
+			
+		//Mark the panel as beaten
+		with (check) {
+				
+			ds_map_replace(global.worldmap, id, 2);
+			alarm[2] = 1;
+		}
+			
+		//Open adyacent paths
+		alarm[3] = 32;
+	}
+}
 
 //Otherwise if Mario warped through a pipe, open all paths in all 4 directions
 else if (global.clear == 3)
-	alarm[4] = 32;
+	alarm[4] = 31;

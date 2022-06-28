@@ -21,6 +21,12 @@ if (!hunger)
 
     //Remember its sprite
     obj_yoshi.mouthsprite = other.sprite_index;
+	
+	//If this item is breakable, remember shard
+	if (other.object_index == obj_brick_blue_th) {
+	
+		obj_yoshi.mouthshard = other.shard_sprite;
+	}
 
     //Food sprite
     foodsprite = other.sprite_index;
