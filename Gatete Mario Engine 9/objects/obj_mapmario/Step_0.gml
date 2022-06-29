@@ -59,6 +59,10 @@ if (status == mapstate.idle)
 				//Force set wait status
 				status = mapstate.wait;
 			}
+			
+			//Open adyacent paths
+			if (input_check_pressed(input.action_1))
+				event_user(15);
     
 	        //Moving upwards
 	        if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {

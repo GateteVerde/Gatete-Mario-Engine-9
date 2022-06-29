@@ -33,6 +33,13 @@ if (ds_map_find_value(global.worldmap, id) > 0) {
 		//Mark as beaten
 		beaten = 1;
 	}
+	else {
+	
+		if (secretexit != noone)
+			sprite_index = spr_levelpanel_red;
+		else
+			sprite_index = spr_levelpanel;
+	}
 }
 
 //Otherwise
