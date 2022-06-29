@@ -1718,6 +1718,7 @@
     {"id":{"name":"obj_brick_red","path":"objects/obj_brick_red/obj_brick_red.yy",},"order":3,},
     {"id":{"name":"spr_mario_football_duck","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"order":10,},
     {"id":{"name":"obj_porcupo_r","path":"objects/obj_porcupo_r/obj_porcupo_r.yy",},"order":22,},
+    {"id":{"name":"spr_maparrows","path":"sprites/spr_maparrows/spr_maparrows.yy",},"order":5,},
     {"id":{"name":"spr_mario_penguin_swim4","path":"sprites/spr_mario_penguin_swim4/spr_mario_penguin_swim4.yy",},"order":9,},
     {"id":{"name":"snd_lightning","path":"sounds/snd_lightning/snd_lightning.yy",},"order":10,},
     {"id":{"name":"spr_mario_bee_skid","path":"sprites/spr_mario_bee_skid/spr_mario_bee_skid.yy",},"order":4,},
