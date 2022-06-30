@@ -73,5 +73,5 @@ if (global.carrieditem != noone) {
     
     //Remember the sprite and reset it.
     mouthsprite = global.carriedsprite;
-    global.carritedsprite = noone;
+    global.carriedsprite = noone;
 }

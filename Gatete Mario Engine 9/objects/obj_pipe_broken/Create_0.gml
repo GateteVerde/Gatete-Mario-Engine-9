@@ -1,7 +1,7 @@
 /// @description Purely decorative pipe
 
 //Default variable
-palette = 0;
+pal = 0;
 
 //Do not animate
 image_speed = 0;

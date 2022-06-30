@@ -33,7 +33,7 @@ if (mario)
 			hspeed = other.hsp;
 			
 			//Palette
-			palette = other.palette;
+			pal = other.pal;
 			
 			//Width / Height
 			image_xscale = other.image_xscale;
