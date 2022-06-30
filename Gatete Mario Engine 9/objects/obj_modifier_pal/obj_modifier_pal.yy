@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_eventmarker",
-    "path": "sprites/spr_eventmarker/spr_eventmarker.yy",
+    "name": "spr_modifier_pal",
+    "path": "sprites/spr_modifier_pal/spr_modifier_pal.yy",
   },
   "solid": false,
   "visible": false,
@@ -23,19 +23,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_pathparent","path":"objects/obj_pathparent/obj_pathparent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":1,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":5.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"pal","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "World Map",
     "path": "folders/Objects/World Map.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_mapcontrol",
+  "name": "obj_modifier_pal",
   "tags": [],
   "resourceType": "GMObject",
 }

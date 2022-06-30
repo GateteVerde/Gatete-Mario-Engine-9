@@ -1,0 +1,1 @@
+/// @description Changes the palette of the paths in the world map

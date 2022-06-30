@@ -12,9 +12,9 @@ if (global.clear == 0)
 		ini_open("GME9Music.ini");
     
 		//Read values
-		mapmusic  = ini_read_string(inisection, "song_name", 0);
-		loop_s      = ini_read_real(inisection, "loop_s", 0);
-		loop_e      = ini_read_real(inisection, "loop_e", 1);
+		mapmusic    = ini_read_string("World Map", "world_" + string(global.world), 0);
+		loop_s      = ini_read_real("World Map", "loop_s" + string(global.world), 0);
+		loop_e      = ini_read_real("World Map", "loop_e" + string(global.world), 1);
     
 		//Close INI
 		ini_close();

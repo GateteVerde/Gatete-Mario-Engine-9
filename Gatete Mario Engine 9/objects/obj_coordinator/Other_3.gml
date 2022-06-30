@@ -102,5 +102,8 @@
 	
 #endregion
 
+//Free all surfaces
+surface_free(all);
+
 //Free game from all active timers
 timer_system_room_end();

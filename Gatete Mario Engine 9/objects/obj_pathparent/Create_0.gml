@@ -7,6 +7,9 @@ image_index = 0;
 //In water
 in_water = 0;
 
+//Palette
+pal = 0;
+
 //Alpha
 image_alpha = 0;
 

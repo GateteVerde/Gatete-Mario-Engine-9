@@ -6,6 +6,9 @@ image_speed = 1;
 //In water
 in_water = 0;
 
+//Palette
+pal = 0;
+
 //Alpha
 image_alpha = 0;
 
