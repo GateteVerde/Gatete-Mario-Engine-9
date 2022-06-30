@@ -191,9 +191,6 @@ last_room = noone;
 //Current File
 global.file = 0;
 
-//Current INI File
-global.ini_file = 0;
-
 //Game Width
 global.gw = room_width;
 
