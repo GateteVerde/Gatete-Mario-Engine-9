@@ -4,10 +4,8 @@
 if (freeze == false) {
 
 	y += yspeed;
+	scale += 0.015625;
 }
-
-//Increase scale
-scale += 0.015625;
 
 //If the size is the default sprite size
 if (scale > 1) {

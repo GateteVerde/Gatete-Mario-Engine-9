@@ -20,7 +20,7 @@ beaten = 0;
 paneltype = 3;
 
 //Alpha
-image_alpha = 0;
+image_alpha = 1;
 
 //Check map value
 if (ds_map_find_value(global.worldmap, id) > 0) {

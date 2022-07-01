@@ -42,10 +42,16 @@ else {
 }
 
 //Clamp the X/Y position to the room so that shakes on the bottom of the screen still occur fine
-var camera_x = screen_round(clamp(x, camera_get_view_width(view_camera[0])/2, room_width - camera_get_view_width(view_camera[0])/2) - (camera_get_view_width(view_camera[0])/2));
+if (camera_lock_x == 0) {
+	
+	camera_x = screen_round(clamp(x, camera_get_view_width(view_camera[0])/2, room_width - camera_get_view_width(view_camera[0])/2) - (camera_get_view_width(view_camera[0])/2));
+}
 
 //Initial clamp in view
-var camera_y = screen_round(clamp(y, camera_get_view_height(view_camera[0])/2, room_height - camera_get_view_height(view_camera[0])/2) - (camera_get_view_height(view_camera[0])/2));
+if (camera_lock_y == 0) {
+	
+	camera_y = screen_round(clamp(y, camera_get_view_height(view_camera[0])/2, room_height - camera_get_view_height(view_camera[0])/2) - (camera_get_view_height(view_camera[0])/2));
+}
 
 //Clamp the screen shake
 if (shake_val != 0) {

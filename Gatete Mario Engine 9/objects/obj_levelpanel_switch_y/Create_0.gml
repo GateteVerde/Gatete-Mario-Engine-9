@@ -20,7 +20,7 @@ beaten = 0;
 paneltype = 2;
 
 //Alpha
-image_alpha = 0;
+image_alpha = 1;
 
 //Used for level beat animation
 eff = 8;

@@ -167,6 +167,6 @@ function key_to_string() {
 	    case (145): return "scroll lock"; break;
 
 	    //Any key
-	    default: return chr(argument0); break;
+	    default: return chr(argument[0]); break;
 	}
 }
