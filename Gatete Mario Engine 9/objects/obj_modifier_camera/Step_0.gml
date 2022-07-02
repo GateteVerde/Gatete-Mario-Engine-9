@@ -20,5 +20,8 @@ if (instance_exists(obj_mapmario))
 			camera_y = other.camera_y;
 			camera_lock_y = true;
 		}
+		
+		//Allow generation of clouds
+		clouds = other.clouds;
 	}
 }

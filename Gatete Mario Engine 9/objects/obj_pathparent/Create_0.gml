@@ -10,6 +10,9 @@ in_water = 0;
 //Palette
 pal = 0;
 
+//Depth
+depth = 50;
+
 //Alpha
 image_alpha = 0;
 

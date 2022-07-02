@@ -15,6 +15,9 @@ instance_create_depth(0, 0, -99, obj_fade_out);
 //Create HUD
 instance_create_layer(0, 0, "GUI", obj_hud_map);
 
+//Generate clouds?
+clouds = 1;
+
 //Is the camera locked
 camera_x = 0;
 camera_y = 0;
