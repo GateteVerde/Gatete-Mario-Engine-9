@@ -10,6 +10,7 @@ Electro
 - Sprites -
 72DpiArmy
 Camtendo
+Cheeyev
 Del
 Doc Melonhead
 Gate
@@ -24,6 +25,7 @@ Leanne
 Mariofan230
 RakoonCD
 Random Talking Bush
+Sednaiur
 SuperSledgeBro
 Toni
 
