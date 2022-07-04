@@ -1648,7 +1648,6 @@
     {"id":{"name":"spr_woodblock","path":"sprites/spr_woodblock/spr_woodblock.yy",},"order":13,},
     {"id":{"name":"spr_mario_squirrel_pull","path":"sprites/spr_mario_squirrel_pull/spr_mario_squirrel_pull.yy",},"order":18,},
     {"id":{"name":"obj_weaponblock_hammer","path":"objects/obj_weaponblock_hammer/obj_weaponblock_hammer.yy",},"order":3,},
-    {"id":{"name":"shd_grayscale","path":"shaders/shd_grayscale/shd_grayscale.yy",},"order":2,},
     {"id":{"name":"spr_roulette_b","path":"sprites/spr_roulette_b/spr_roulette_b.yy",},"order":19,},
     {"id":{"name":"spr_gui_cardbox","path":"sprites/spr_gui_cardbox/spr_gui_cardbox.yy",},"order":0,},
     {"id":{"name":"obj_mario_wallrunner","path":"objects/obj_mario_wallrunner/obj_mario_wallrunner.yy",},"order":5,},
