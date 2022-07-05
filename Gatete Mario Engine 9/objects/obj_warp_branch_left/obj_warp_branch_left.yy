@@ -30,7 +30,7 @@
   ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"mini","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"coins","rangeEnabled":true,"rangeMin":0.0,"rangeMax":2.0,"listItems":[
+    {"varType":1,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":2.0,"listItems":[
         "coins",
         "global.timer",
         "ds_map_size(global.acecoins)",

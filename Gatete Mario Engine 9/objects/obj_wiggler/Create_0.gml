@@ -46,7 +46,7 @@ alarm[10] = 2;
 	    if (b = 1)
 	        mybody[b].prevsegment = other.id; //Snap to the head.
 	    else
-	        mybody[b].prevsegment = mybody[b]-1 //Snap to other consecutive parts. 
+			mybody[b].prevsegment = mybody[b-1] //Snap to other consecutive parts.
 	}
 
 	//Make body structure
