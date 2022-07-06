@@ -337,18 +337,43 @@ if (inwall == 0)
 				//If the player is not doing a spin-jump
 				else if (jumpstyle == 0) {
 					
-					if (global.powerup == cs_carrot)
-						yspeed = -3.7675 + abs(xspeed)/7.5*-1;
+					if (global.powerup == cs_carrot) {
+						
+						//If Mario is ready to do a squat jump
+						if (squat_ready > 0) {
+							
+							yspeed = -4.1675;
+							squat_ready = 0;
+							if (squat_time > 0)
+								squat_time = 0;
+						}
+						
+						//Otherwise
+						else
+							yspeed = -3.7675 + abs(xspeed)/7.5*-1;
+					}
 					else {
 						
-						//Set the vertical speed
-						yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+						#region VERTICAL SPEED
+						
+							//If Mario is ready to do a squat jump
+							if (squat_ready > 0) {
+								
+								yspeed = -3.9675;
+								squat_ready = 0;
+								if (squat_time > 0)
+									squat_time = 0;
+							}
+							else
+								yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+						#endregion
 						
 						//If Mario does not have the 'Tiny' or 'Mega' powerups and it's not riding a yoshi/kuribo shoe and it's running
 						if (global.powerup != cs_tiny)
 						&& (global.powerup != cs_mega) 
 						&& (global.mount == 0)
-						&& (abs(xspeed) >= 2.6) {
+						&& (abs(xspeed) >= 2.6) 
+						&& (global.special_moves == true) {
 						
 							//Begin Triple Jump
 							if (triplejump == 0) {
@@ -385,10 +410,24 @@ if (inwall == 0)
 				//If the player is doing a spin-jump
 				else {
 					
-					if (global.powerup != cs_squirrel)
-						yspeed = -3.23775+abs(xspeed)/7.5*-1;
-					else
+					//If Mario is going to do a squat jump
+					if (squat_ready > 0) {
+					
 						yspeed = -3.7675+abs(xspeed)/7.5*-1;
+						squat_ready = 0;
+						if (squat_time > 0)
+							squat_time = 0;
+					}
+					
+					//Otherwise
+					else {
+					
+						//If Mario does not have the Squirrel suit
+						if (global.powerup != cs_squirrel)
+							yspeed = -3.23775+abs(xspeed)/7.5*-1;
+						else
+							yspeed = -3.7675+abs(xspeed)/7.5*-1;
+					}
 				}
 			}
 			else
@@ -411,7 +450,7 @@ if (inwall == 0)
         if ((holding == 2) && (xscale != 1)) {
         
             turning = 1;
-            timer(turning_end, 6, false);
+            alarm[6] = 6;
         }
         
         //If the player is not overlapping a wall
@@ -479,7 +518,7 @@ if (inwall == 0)
         if ((holding == 2) && (xscale != -1)) {
         
             turning = 1;
-            timer(turning_end, 6, false);
+            alarm[6] = 6;
         }
         
         //If the player is not overlapping a wall
@@ -811,8 +850,8 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 					xspeed = other.xspeed;
 					yspeed = other.yspeed;
 				
-					if (bonk)
-					{
+					if (bonk) {
+						
 						// Don't hop when you're done flying
 						other.yadd = 0;
 						other.yspeed = 0;
@@ -970,7 +1009,8 @@ if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_valu
 	&& (groundpound == 0) 
 	&& (global.powerup != cs_tiny) 
 	&& (global.powerup != cs_mega) 
-	&& (global.powerup != cs_bell) {
+	&& (global.powerup != cs_bell) 
+	&& (global.special_moves == true) {
 	
 		//Play 'Ground Pound' sound
 		audio_play_sound(snd_groundpound, 0, false);
@@ -1216,6 +1256,7 @@ if (global.powerup == cs_squirrel)
 
 //If Mario is in the air, the jump key is pressed and Mario can twirl in the air, perform twirl
 if (input_check_pressed(input.action_0))
+&& (global.special_moves == true)
 && (allow_twirl == true)
 && (twirl == 0)
 && (crouch == 0)
@@ -1248,5 +1289,57 @@ if (input_check_pressed(input.action_0))
 }
 
 //If Mario is twirling, move up a bit
-if (twirl == 1)
-	yspeed -= 0.5;
+if (twirl == 1) then yspeed -= 0.5;
+
+//If Mario is crouched down
+if (crouch == true) {
+	
+	//If the player is idle
+	if (state == playerstate.idle) {
+	
+		//If the squat time is greater than 119, allow big jump
+	    if (squat_time > 119) 
+	    && (squat_ready == 0) {
+    
+	        //Play 'Charge' sound
+	        audio_play_sound(snd_squat, 0, false);
+    
+	        //Set the squat state
+	        squat_ready = 1;
+	    }
+	}
+	
+	//Otherwise, if the player is jumping and the squat jump is not yet ready
+	else if (squat_time <= 119)
+	&& (state == playerstate.jump)
+		squat_time = 0;
+}
+
+//If Mario is not crouched down
+else if (crouch == false) {
+
+	//If the timer is equal or lower than 119
+	if (squat_time <= 119) {
+	
+		squat_ready = 0;
+		if (squat_time > 0)
+			squat_time = 0;
+	}
+	
+	//Otherwise
+	else if (squat_ready > 0) {
+	
+		//If Mario starts walking, reset ability
+		if (state == playerstate.walk) {
+		
+			squat_ready = 0;
+			if (squat_time > 0)
+				squat_time = 0;
+		}
+	}
+}
+
+//Keep incrementing squat timer if jump is ready
+if (crouch == true)
+|| (squat_ready > 0)
+	squat_time++;

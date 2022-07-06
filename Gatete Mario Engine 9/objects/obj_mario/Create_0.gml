@@ -183,6 +183,10 @@ swimtype = 0;
 squirreltime = 120;
 squirrelpropel = 0;
 
+//Squat Timer
+squat_time = 0;
+squat_ready = 0;
+
 //Somersault
 somersault = 0;
 

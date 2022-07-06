@@ -32,6 +32,11 @@ init_shockwave();
 	//0: Disabled
 	//1: Enabled
 	global.enemy_to_coin = false;
+	
+	//Makes Mario able or not able to perform his 3D moves (Wall-Jump, Triple Jump, etc...)
+	//0: Disabled
+	//1: Enabled
+	global.special_moves = true;
 
 	//Makes Mario bounce on note blocks from any side
 	global.noteblock_all_sides = false;

@@ -431,8 +431,11 @@ if (enable_gravity == 1) {
                 //Execute main behaviour script
                 event_user(2);
 				
-				//Execute walljump behaviour script
-				event_user(3);
+				//Execute walljump behaviour script (If allowed)
+				if (global.special_moves == true) {
+					
+					event_user(3);
+				}
 				
 				//Do not build P-Meter if you are using the tiny or mega powerup
 				if (global.powerup != cs_tiny)

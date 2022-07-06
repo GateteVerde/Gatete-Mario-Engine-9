@@ -35,10 +35,28 @@ if (sprite_index > -1) {
 			}
 			else {
 				
+				//Draw
 				draw_sprite_custom_origin(sprite_index, image_index, screen_round(x), screen_round(y) + 1 + shake, sprite_get_xoffset(sprite_index), sprite_height, xscale, yscale, 0, image_blend, image_alpha);
 				if (stuntime > 0) {
 					
 					draw_sprite_ext(spr_shake, stunanim, screen_round(x), screen_round(y)+1, 1, 1, 0, c_white, 1);
+				}
+				
+				//If Mario is ready to do a squat jump, draw again but with additive blending
+				if (squat_ready > 0)
+				&& (squat_time mod 6 == 1) {
+
+					//Set blend mode
+					gpu_set_blendmode(bm_add);
+					
+					//Render
+					if (image_alpha > 0) {
+						
+						draw_sprite_custom_origin(sprite_index, image_index, screen_round(x), screen_round(y) + 1 + shake, sprite_get_xoffset(sprite_index), sprite_height, xscale, yscale, 0, image_blend, 1);
+					}
+					
+					//Reset blending
+					gpu_set_blendmode(bm_normal);
 				}
 			}
 		}
