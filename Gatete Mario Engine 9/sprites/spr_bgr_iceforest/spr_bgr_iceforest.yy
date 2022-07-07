@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 511,
-  "bbox_top": 339,
-  "bbox_bottom": 407,
+  "bbox_top": 264,
+  "bbox_bottom": 383,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 512,
-  "height": 432,
+  "height": 384,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"161926cf-69d7-40b1-8c21-09057b21e0af","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"161926cf-69d7-40b1-8c21-09057b21e0af","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},"LayerId":{"name":"9c535e56-81a1-4e4c-92ae-c91cddc6f35e","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bgr_desert_fgr","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},"resourceVersion":"1.0","name":"161926cf-69d7-40b1-8c21-09057b21e0af","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b72cc8bf-98dd-4073-8cec-bf5a91bbdf77","path":"sprites/spr_bgr_iceforest/spr_bgr_iceforest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b72cc8bf-98dd-4073-8cec-bf5a91bbdf77","path":"sprites/spr_bgr_iceforest/spr_bgr_iceforest.yy",},"LayerId":{"name":"3d528bbc-55f6-4bd5-a782-9d7747eb9770","path":"sprites/spr_bgr_iceforest/spr_bgr_iceforest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bgr_iceforest","path":"sprites/spr_bgr_iceforest/spr_bgr_iceforest.yy",},"resourceVersion":"1.0","name":"b72cc8bf-98dd-4073-8cec-bf5a91bbdf77","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bgr_desert_fgr","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},
+    "spriteId": {"name":"spr_bgr_iceforest","path":"sprites/spr_bgr_iceforest/spr_bgr_iceforest.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c55f47b9-daa8-4d9d-a31f-c2994ec585a1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"161926cf-69d7-40b1-8c21-09057b21e0af","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"54d9e126-e046-4aeb-9c69-fa2db1352a0b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b72cc8bf-98dd-4073-8cec-bf5a91bbdf77","path":"sprites/spr_bgr_iceforest/spr_bgr_iceforest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bgr_desert_fgr","path":"sprites/spr_bgr_desert_fgr/spr_bgr_desert_fgr.yy",},
+    "parent": {"name":"spr_bgr_iceforest","path":"sprites/spr_bgr_iceforest/spr_bgr_iceforest.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_bgr_desert_fgr",
+    "name": "spr_bgr_iceforest",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9c535e56-81a1-4e4c-92ae-c91cddc6f35e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d528bbc-55f6-4bd5-a782-9d7747eb9770","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Special/Backgrounds & Tilesets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_bgr_desert_fgr",
+  "name": "spr_bgr_iceforest",
   "tags": [],
   "resourceType": "GMSprite",
 }
