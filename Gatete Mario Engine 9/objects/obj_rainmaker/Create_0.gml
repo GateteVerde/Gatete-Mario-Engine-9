@@ -7,7 +7,7 @@ pos = 0;
 alpha = 1;
 
 //Depth
-depth = -7;
+depth = -10;
 
 //Create lightning
 alarm[0] = 100;

@@ -4,7 +4,7 @@
 //	Before using this object, make sure you have the following set
 //
 //	A instance layer called "Tileset_Front_Manager" set at depth -7
-//	A instance layer called "Tileset_Front_" set at depth -6
+//	A tile layer called "Tileset_Front_" set at depth -6
 //
 //	Once you have those set, add this object in "Tileset_Front_Manager"
 */

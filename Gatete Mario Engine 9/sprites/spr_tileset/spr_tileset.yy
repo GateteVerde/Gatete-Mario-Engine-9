@@ -17,8 +17,8 @@
   "width": 1040,
   "height": 1072,
   "textureGroupId": {
-    "name": "Tilesets",
-    "path": "texturegroups/Tilesets",
+    "name": "txg_tilesets",
+    "path": "texturegroups/txg_tilesets",
   },
   "swatchColours": null,
   "gridX": 0,

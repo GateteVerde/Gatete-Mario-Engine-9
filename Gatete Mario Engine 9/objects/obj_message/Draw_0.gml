@@ -6,7 +6,7 @@ freeze_render();
 //Draw the message box
 if (scale > 0.1) {
 	
-	draw_sprite_ext(spr_gui_global_message, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 68, scale, scale, 0, c_white, 0.9);
+	draw_sprite_ext(spr_gui_global_message, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 68, scale, scale, 0, c_white, 1);
 }
 
 //If the text is being displayed

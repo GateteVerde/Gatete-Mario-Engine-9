@@ -11,8 +11,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "txg_tilesets",
+    "path": "texturegroups/txg_tilesets",
   },
   "out_tilehborder": 0,
   "out_tilevborder": 0,
