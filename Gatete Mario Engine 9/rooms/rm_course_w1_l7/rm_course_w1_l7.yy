@@ -95,9 +95,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":8.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":256.0,"resourceVersion":"1.0","name":"inst_653EF378","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tilelayerhider","path":"objects/obj_tilelayerhider/obj_tilelayerhider.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":10.0,"scaleY":6.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1008.0,"y":256.0,"resourceVersion":"1.0","name":"inst_1C422B17","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"varmsg","path":"objects/obj_messageblock/obj_messageblock.yy",},"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"value":"\"Walls can be sexy too.\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":256.0,"resourceVersion":"1.0","name":"inst_4CE88C8F","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
             {"propertyId":{"name":"lock","path":"objects/obj_door/obj_door.yy",},"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":319.0,"resourceVersion":"1.0","name":"inst_48B3827F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
@@ -110,6 +107,13 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_right","path":"objects/obj_right/obj_right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":816.0,"y":336.0,"resourceVersion":"1.0","name":"inst_5452A022","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_left","path":"objects/obj_left/obj_left.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":944.0,"y":336.0,"resourceVersion":"1.0","name":"inst_35E35D1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tilelayermanager","path":"objects/obj_tilelayermanager/obj_tilelayermanager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4A55FD8A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"tline","path":"objects/obj_event/obj_event.yy",},"objectId":{"name":"obj_event","path":"objects/obj_event/obj_event.yy",},"value":"tls_course_7_tline_1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_event","path":"objects/obj_event/obj_event.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":976.0,"y":304.0,"resourceVersion":"1.0","name":"inst_2DDF1CFB","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1008.0,"y":272.0,"resourceVersion":"1.0","name":"inst_3F56FA3E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"varmsg","path":"objects/obj_messageblock/obj_messageblock.yy",},"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"value":"\"Walls can be sexy too\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1136.0,"y":272.0,"resourceVersion":"1.0","name":"inst_7A5BC4BF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Main","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":75,"SerialiseHeight":27,"TileSerialiseData":[
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2378,2379,2379,2379,2379,2379,2379,2379,2379,2379,2379,2379,
@@ -269,7 +273,6 @@
     {"name":"inst_653EF378","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
     {"name":"inst_406739D5","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
     {"name":"inst_1C422B17","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
-    {"name":"inst_4CE88C8F","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
     {"name":"inst_48B3827F","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
     {"name":"inst_3B3497D4","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
     {"name":"inst_60F3E916","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
@@ -279,6 +282,9 @@
     {"name":"inst_5452A022","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
     {"name":"inst_35E35D1","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
     {"name":"inst_4A55FD8A","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
+    {"name":"inst_2DDF1CFB","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
+    {"name":"inst_3F56FA3E","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
+    {"name":"inst_7A5BC4BF","path":"rooms/rm_course_w1_l7/rm_course_w1_l7.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
