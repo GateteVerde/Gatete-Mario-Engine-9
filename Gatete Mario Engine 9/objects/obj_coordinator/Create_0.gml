@@ -180,6 +180,9 @@ global.pmeter_limit = 144;
 	}
 #endregion
 
+//Screenshot number
+num = 0;
+
 //Progress (Used to calculate how much you progressed in-game)
 got = 0;
 total = 0;

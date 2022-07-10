@@ -9,7 +9,7 @@ if (instance_exists(obj_mario)) {
 		radius = lerp(radius, 48, 0.2);
 		
 		//Manipulate position
-		xx = obj_mario.x + 8;
+		xx = obj_mario.x + 4;
 		yy = obj_mario.y;
 	}
 	

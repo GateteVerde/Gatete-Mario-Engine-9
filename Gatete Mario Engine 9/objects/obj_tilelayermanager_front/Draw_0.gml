@@ -38,7 +38,7 @@ else {
 	if (instance_number(obj_tilelayerhider) > 0) {
 	
 		with (obj_tilelayerhider) {
-		
+
 			draw_circle_colour(xx - other.camera_x, yy - other.camera_y, radius, c_white, c_white, false);
 		}
 	}
