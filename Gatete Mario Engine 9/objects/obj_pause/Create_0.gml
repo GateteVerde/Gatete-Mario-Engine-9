@@ -19,5 +19,8 @@ alpha = 0;
 scale = 0;
 scale_type = 0;
 
+//Pause timelines
+timeline_running = 0;
+
 //Delay snapshot creation
 alarm[0] = 2;

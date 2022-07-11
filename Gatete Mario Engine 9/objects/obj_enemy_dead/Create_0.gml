@@ -12,6 +12,6 @@ swimming = 0;
 //Check sprite
 alarm[0] = 1;
 
-//Set the vertical speed
+//Set the vertical speed if the enemy does not have any
 if (vspeed == 0)
 	vspeed = (position_meeting(x, bbox_top, obj_swim)) ? -1 : -4;

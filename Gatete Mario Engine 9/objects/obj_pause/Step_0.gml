@@ -35,6 +35,9 @@ var _pause  = input_check_pressed(input.start);
 		
 			//Activate all instances
 			instance_activate_all();
+			
+			//Resume timelines
+			timeline_running = 1;
 		
 			//Destroy
 			instance_destroy();

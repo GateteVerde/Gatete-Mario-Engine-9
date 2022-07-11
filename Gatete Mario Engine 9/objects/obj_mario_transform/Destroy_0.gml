@@ -71,3 +71,6 @@ else if (global.mount == 2) {
 		enable_control = true;
 	}	
 }
+
+//Resume timelines
+timeline_running = 1;

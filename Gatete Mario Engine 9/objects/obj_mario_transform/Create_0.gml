@@ -69,5 +69,8 @@ if (instance_exists(obj_kuriboshoe)) {
 	with (obj_kuriboshoe) visible = 0;
 }
 
+//Pause timelines
+timeline_running = 0;
+
 //Begin animation and screen freeze
 alarm[0] = 2;
