@@ -16,16 +16,24 @@ if (sprite_index == spr_brick) {
 //Otherwise
 else {
 
-	//Set palette
-	pal_swap_set(spr_palette_block, obj_levelcontrol.level_palette);
+	//If this is a flip block, do not change
+	if (sprite_index == spr_flipblock)
+		draw_sprite_ext(spr_flipblock, 0, screen_round(x), screen_round(y), 1, 1, 0, c_white, 1);
+	
+	//Otherwise
+	else {
 
-	//Manage "?" mark position
-	xx += 0.33;
+		//Set palette
+		pal_swap_set(spr_palette_block, obj_levelcontrol.level_palette);
 
-	//Draw the block
-	draw_sprite_ext(sprite_index, 0, screen_round(x), screen_round(y), 1, 1, 0, c_white, 1);
-	draw_sprite_tiled_area_ext(sprite_index, 1, screen_round(x) + xx, screen_round(y), x + 2, y + 2, x + 13, y + 14, c_white, 1);
+		//Manage "?" mark position
+		xx += 0.33;
 
-	//Reset palette
-	pal_swap_reset();
+		//Draw the block
+		draw_sprite_ext(sprite_index, 0, screen_round(x), screen_round(y), 1, 1, 0, c_white, 1);
+		draw_sprite_tiled_area_ext(sprite_index, 1, screen_round(x) + xx, screen_round(y), x + 2, y + 2, x + 13, y + 14, c_white, 1);
+
+		//Reset palette
+		pal_swap_reset();
+	}
 }
