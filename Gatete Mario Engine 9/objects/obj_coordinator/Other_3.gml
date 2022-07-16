@@ -4,6 +4,10 @@
 
 	//Open the file
 	var file = file_text_open_write("settings.dat");
+	
+	//Save colourblind settings
+	file_text_write_string(file, string(colourblind))
+	file_text_writeln(file);
 
 	//Save fullscreen settings
 	file_text_write_string(file, string(fullscreen));

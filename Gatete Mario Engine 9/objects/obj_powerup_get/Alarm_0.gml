@@ -17,6 +17,7 @@ else {
 		
 	//Otherwise, if the sprite is a mushroom, increment mushroom count
 	else if (sprite_index == spr_mushroom)
+	|| (sprite_index == spr_mushroom_cb)
 		global.inventory[1]++;
 		
 	//Otherwise, if the sprite is a gold flower, increment gold flower count

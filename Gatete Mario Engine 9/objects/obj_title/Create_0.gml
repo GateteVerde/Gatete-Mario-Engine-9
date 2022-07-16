@@ -27,11 +27,12 @@ menu[menupage.main, 4] = "Exit";
 //Options sub-menu 1: Options 1 / 2
 menu[menupage.options, 0] = "Keyboard Configuration";
 menu[menupage.options, 1] = "Window Size";
-menu[menupage.options, 2] = "Auto Save: On";
-menu[menupage.options, 3] = "V-Sync: On";
-menu[menupage.options, 4] = "FPS: On";
-menu[menupage.options, 5] = "View Credits";
-menu[menupage.options, 6] = "Back";
+menu[menupage.options, 2] = "Colourblind Mode: Off";
+menu[menupage.options, 3] = "Auto Save: On";
+menu[menupage.options, 4] = "V-Sync: On";
+menu[menupage.options, 5] = "FPS: On";
+menu[menupage.options, 6] = "View Credits";
+menu[menupage.options, 7] = "Back";
 
 //Options sub-menu 2: Keys
 menu[menupage.keys, 0] = "Jump/Confirm:";

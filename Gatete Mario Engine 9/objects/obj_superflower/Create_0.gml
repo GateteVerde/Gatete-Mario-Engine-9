@@ -10,3 +10,7 @@ event_inherited();
 //3: Powerdown
 //4: Transform
 sequence = 2;
+
+//If colour blind mode is active, change sprite
+if (obj_coordinator.colourblind == 1)
+	sprite_index = spr_superflower_cb;

@@ -5,9 +5,9 @@ function macro_get_sprite() {
 	switch (argument[0]) {
 	
 		case (cs_tiny): return spr_tinyshroom;
-	    case (cs_big): return spr_mushroom;
-	    case (cs_fire): return spr_fireflower;
-	    case (cs_ice): return spr_iceflower;
+	    case (cs_big): return (obj_coordinator.colourblind == 1) ? spr_mushroom_cb : spr_mushroom;
+	    case (cs_fire): return (obj_coordinator.colourblind == 1) ? spr_fireflower_cb : spr_fireflower;
+	    case (cs_ice): return (obj_coordinator.colourblind == 1) ? spr_iceflower_cb : spr_iceflower;
 	    case (cs_carrot): return spr_carrot;
 	    case (cs_raccoon): return spr_leaf;
 		case (cs_cape): return spr_feather;
@@ -15,7 +15,7 @@ function macro_get_sprite() {
 	    case (cs_tanooki): return spr_tanookisuit;
 	    case (cs_hammer): return spr_hammerflower;
 	    case (cs_boomerang): return spr_boomerangflower;
-	    case (cs_superball): return spr_superflower;
+	    case (cs_superball): return (obj_coordinator.colourblind == 1) ? spr_superflower_cb : spr_superflower;
 	    case (cs_bomb): return spr_bombshroom;
 	    case (cs_shell): return spr_blueshell;
 	    case (cs_bee): return spr_beeshroom;
@@ -28,7 +28,7 @@ function macro_get_sprite() {
 		case (cs_squirrel): return spr_superacorn;
 		case (cs_fraccoon): return spr_fieryleaf;
 		case (cs_iraccoon): return spr_chillleaf;
-		case (cs_gold): return spr_goldenflower;
+		case (cs_gold): return (obj_coordinator.colourblind == 1) ? spr_goldenflower_cb : spr_goldenflower;
 		case (cs_mega): return spr_megashroom;
 	    case (cs_yoshi_g): return spr_egg;
 	    case (cs_yoshi_r): return spr_egg_r;
@@ -43,10 +43,10 @@ function macro_get_sprite() {
 	    case (cs_shoe_pentaro): return spr_shoe_pentaro;
 		case (cs_pballoon): return spr_balloon;
 		case (cs_pwing): return spr_pwing;
-	    case (cs_1up): return spr_1up;
+	    case (cs_1up): return (obj_coordinator.colourblind == 1) ? spr_1up_cb : spr_1up;
 	    case (cs_3up): return spr_3up;
 		case (cs_heart): return spr_heart;
-		case (cs_poison): return spr_poison;
+		case (cs_poison): return (obj_coordinator.colourblind == 1) ? spr_poison_cb : spr_poison;
 		case (cs_rotten): return spr_rotten;
 		case (cs_starman): return spr_starman;
 		case (cs_pswitch): return spr_pswitch;

@@ -6,8 +6,10 @@ function sprite_get_macro() {
 	
 		case (spr_tinyshroom): return cs_tiny;
 	    case (spr_mushroom): return cs_big;
-	    case (spr_fireflower): return cs_fire;
-	    case (spr_iceflower): return cs_ice;
+	    case (spr_fireflower): 
+		case (spr_fireflower_cb): return cs_fire;
+	    case (spr_iceflower): 
+		case (spr_iceflower_cb): return cs_ice;
 	    case (spr_carrot): return cs_carrot;
 	    case (spr_leaf):
 		case (spr_leaf_sp): return cs_raccoon;
@@ -16,7 +18,8 @@ function sprite_get_macro() {
 	    case (spr_tanookisuit): return cs_tanooki;
 	    case (spr_hammerflower): return cs_hammer;
 	    case (spr_boomerangflower): return cs_boomerang;
-	    case (spr_superflower): return cs_superball;
+	    case (spr_superflower): 
+		case (spr_superflower_cb): return cs_superball;
 	    case (spr_bombshroom): return cs_bomb;
 	    case (spr_blueshell): return cs_shell;
 	    case (spr_beeshroom): return cs_bee;
@@ -31,7 +34,8 @@ function sprite_get_macro() {
 		case (spr_fieryleaf_sp): return cs_fraccoon;
 		case (spr_chillleaf): 
 		case (spr_chillleaf_sp): return cs_iraccoon;
-		case (spr_goldenflower): return cs_gold;
+		case (spr_goldenflower): 
+		case (spr_goldenflower_cb): return cs_gold;
 		case (spr_megashroom): return cs_mega;
 	    case (spr_egg): return cs_yoshi_g;
 	    case (spr_egg_r): return cs_yoshi_r;
@@ -46,7 +50,8 @@ function sprite_get_macro() {
 	    case (spr_shoe_pentaro): return cs_shoe_pentaro;
 		case (spr_balloon): return cs_pballoon;
 		case (spr_pwing): return cs_pwing;
-	    case (spr_1up): return cs_1up;
+	    case (spr_1up): 
+		case (spr_1up_cb): return cs_1up;
 	    case (spr_3up): return cs_3up;
 		case (spr_heart): return cs_heart;
 		case (spr_poison): return cs_poison;

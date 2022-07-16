@@ -16,7 +16,7 @@ if (coiny == 2) {
 	
 		//Sprout out a mushroom
 		with (instance_create_depth(x+16, y, 10, obj_powerup_sprout))
-			sprite_index = spr_mushroom;
+			sprite_index = (obj_coordinator.colourblind == 1) ? spr_mushroom_cb : spr_mushroom;
 	}
 	
 	//Turn into a used block

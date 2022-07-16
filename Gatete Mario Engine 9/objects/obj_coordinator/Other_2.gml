@@ -1,4 +1,4 @@
-/// @description Load screen type, keys and vertical syncronization
+/// @description Load screen type, colour blind mode, keys and vertical syncronization
 
 //SETTINGS LOAD
 #region LOAD
@@ -8,6 +8,10 @@
 	
 		//Load and read it
 		var file = file_text_open_read("settings.dat");
+		
+		//Set colourblind mode based on read value
+		colourblind = real(file_text_read_string(file));
+		file_text_readln(file);
 		
 		//Set fullscreen mode based on read value
 		fullscreen = real(file_text_read_string(file));
@@ -116,6 +120,9 @@
 	
 	//Otherwise, if the file does not exist
 	else {
+		
+		//Default colourblind value
+		colourblind = 0;
 	
 		//Default fullscreen value
 		fullscreen = 0;

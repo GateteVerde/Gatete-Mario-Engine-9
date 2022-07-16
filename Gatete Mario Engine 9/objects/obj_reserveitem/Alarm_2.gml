@@ -57,8 +57,11 @@ else {
 	
 	//If the sprite is one of the following, set the transformation sequence to 'Powerup'
 	if (sprite_index == spr_fireflower)
+	|| (sprite_index == spr_fireflower_cb)
 	|| (sprite_index == spr_iceflower)
+	|| (sprite_index == spr_iceflower_cb)
 	|| (sprite_index == spr_superflower)
+	|| (sprite_index == spr_superflower_cb)
 	|| (sprite_index == spr_voltshroom)
 		sequence = 2;
 		

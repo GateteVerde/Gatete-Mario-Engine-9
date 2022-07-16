@@ -3,8 +3,13 @@
 #region RENDER ENEMY
 
 	//If the bubble holds a mushroom
-	if (sprout == spr_mushroom)
-		draw_sprite_ext(spr_mushroom, image_index, screen_round(x)+8+(sprite_get_xoffset(sprout)), screen_round(y)+10, xscale, 1, 0, c_white, 1);
+	if (sprout == spr_mushroom) {
+		
+		if (obj_coordinator.colourblind == 0)
+			draw_sprite_ext(spr_mushroom, image_index, screen_round(x)+8+(sprite_get_xoffset(sprout)), screen_round(y)+10, xscale, 1, 0, c_white, 1);
+		else
+			draw_sprite_ext(spr_mushroom_cb, image_index, screen_round(x)+8+(sprite_get_xoffset(sprout)), screen_round(y)+10, xscale, 1, 0, c_white, 1);
+	}
 		
 	//Otherwise
 	else {

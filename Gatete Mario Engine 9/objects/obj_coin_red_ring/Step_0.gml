@@ -40,7 +40,7 @@ if (sprite_index == spr_coin_red_ring_active) {
 			            //If the player is small
 						if (global.powerup == cs_tiny)
 			            && (global.powerup == cs_small)            
-			                sprite_index = spr_mushroom;
+			                sprite_index = (obj_coordinator.colourblind == 1) ? spr_mushroom_cb : spr_mushroom;
             
 			            //Otherwise, if the player is big
 			            else if (global.powerup == cs_big)            

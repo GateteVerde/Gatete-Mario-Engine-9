@@ -12,13 +12,19 @@ function sprite_create_object() {
 		case (spr_tinyshroom): return instance_create_depth(argument[1], argument[2], argument[3], obj_tinyshroom);
 		
 		//Mushroom
-		case (spr_mushroom): return instance_create_depth(argument[1], argument[2], argument[3], obj_mushroom);
+		case (spr_mushroom): 
+		case (spr_mushroom_cb):
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_mushroom);
 		
 		//Fire Flower
-		case (spr_fireflower): return instance_create_depth(argument[1], argument[2], argument[3], obj_fireflower);
+		case (spr_fireflower):
+		case (spr_fireflower_cb): 
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_fireflower);
 		
 		//Ice Flower
-		case (spr_iceflower): return instance_create_depth(argument[1], argument[2], argument[3], obj_iceflower);
+		case (spr_iceflower): 
+		case (spr_iceflower_cb):
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_iceflower);
 		
 		//Carrot
 		case (spr_carrot): return instance_create_depth(argument[1], argument[2], argument[3], obj_carrot);
@@ -36,7 +42,9 @@ function sprite_create_object() {
 		case (spr_boomerangflower): return instance_create_depth(argument[1], argument[2], argument[3], obj_boomerangflower);
 		
 		//Super Flower
-		case (spr_superflower): return instance_create_depth(argument[1], argument[2], argument[3], obj_superflower);
+		case (spr_superflower):
+		case (spr_superflower_cb): 
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_superflower);
 		
 		//Bomb Mushroom
 		case (spr_bombshroom): return instance_create_depth(argument[1], argument[2], argument[3], obj_bombshroom);
@@ -66,19 +74,25 @@ function sprite_create_object() {
 		case (spr_superacorn): return instance_create_depth(argument[1], argument[2], argument[3], obj_superacorn);
 		
 		//Golden Flower
-		case (spr_goldenflower): return instance_create_depth(argument[1], argument[2], argument[3], obj_goldenflower);
+		case (spr_goldenflower):
+		case (spr_goldenflower_cb): 
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_goldenflower);
 		
 		//Heart
 		case (spr_heart): return instance_create_depth(argument[1], argument[2], argument[3], obj_heart);
 		
 		//1-UP
-		case (spr_1up): return instance_create_depth(argument[1], argument[2], argument[3], obj_1up);
+		case (spr_1up):
+		case (spr_1up_cb): 
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_1up);
 		
 		//3-UP
 		case (spr_3up): return instance_create_depth(argument[1], argument[2], argument[3], obj_3up);
 		
 		//Poison
-		case (spr_poison): return instance_create_depth(argument[1], argument[2], argument[3], obj_poison);
+		case (spr_poison): 
+		case (spr_poison_cb):
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_poison);
 		
 		//Rotten
 		case (spr_rotten): return instance_create_depth(argument[1], argument[2], argument[3], obj_rotten);

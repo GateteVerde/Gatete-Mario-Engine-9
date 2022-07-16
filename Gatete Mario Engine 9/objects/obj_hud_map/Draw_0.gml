@@ -6,7 +6,7 @@ draw_set_font(global.gui_font_menu);
 #region Inventory
 
 	//Draw base
-	draw_sprite_ext(spr_gui_map_inventory, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(spr_gui_map_inventory, obj_coordinator.colourblind, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y, 1, 1, 0, c_white, 1);
 
 	//Item Quantities
 	#region ITEM QUANTITIES

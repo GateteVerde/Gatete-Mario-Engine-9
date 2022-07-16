@@ -1,8 +1,8 @@
 /// @description You got points!
 
 //Score font
-font = font_add_sprite_ext(spr_score, "0123456789", 0, 0);
-font_big = font_add_sprite_ext(spr_score_big, "0123456789", 0, 0);
+font = font_add_sprite_ext(spr_score, "0123456789", 0, -1);
+font_big = font_add_sprite_ext(spr_score_big, "0123456789", 0, -1);
 
 //Gold (Turns flag into gold)
 gold = 0;

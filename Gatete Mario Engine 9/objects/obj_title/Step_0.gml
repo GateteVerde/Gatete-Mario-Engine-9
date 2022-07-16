@@ -229,9 +229,22 @@ else if (start == 1) {
 							alarm[0] = 2;
 			            }
 					} break;
+					
+					//Colourblind Mode
+					case (2): {
+					
+						//Play 'Coin' sound
+						audio_play_sound(snd_coin, 0, false);
+
+						//Toggle Auto-Save On/Off
+						with (obj_coordinator) {
+						
+							colourblind = !colourblind;
+						}
+					} break;
 				
 					//Auto Save
-					case (2): {
+					case (3): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -244,7 +257,7 @@ else if (start == 1) {
 					} break;
 				
 					//Toggle V-Sync
-					case (3): {
+					case (4): {
 				
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -258,7 +271,7 @@ else if (start == 1) {
 					} break;
 				
 					//FPS
-					case (4): {
+					case (5): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -271,14 +284,14 @@ else if (start == 1) {
 					} break;
 				
 					//Credits
-					case (5): {
+					case (6): {
 					
 						//Play 'Wrong' sound
 						audio_play_sound(snd_wrong, 0, false);
 					} break;
 				
 					//Back
-					case (6): {
+					case (7): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -511,6 +524,7 @@ key[7] = string(key_to_string(global.key[input.right]));
 #endregion
 
 //Update options
-menu[menupage.options, 2] = (obj_coordinator.autosave == false) ? "Auto Save: Off" : "Auto Save: On";
-menu[menupage.options, 3] = (obj_coordinator.vsync == false) ? "V-Sync: Off" : "V-Sync: On";
-menu[menupage.options, 4] = (obj_coordinator.showfps == false) ? "FPS: Off" : "FPS: On";
+menu[menupage.options, 2] = (obj_coordinator.colourblind == false) ? "Colourblind Mode: Off" : "Colourblind Mode: On";
+menu[menupage.options, 3] = (obj_coordinator.autosave == false) ? "Auto Save: Off" : "Auto Save: On";
+menu[menupage.options, 4] = (obj_coordinator.vsync == false) ? "V-Sync: Off" : "V-Sync: On";
+menu[menupage.options, 5] = (obj_coordinator.showfps == false) ? "FPS: Off" : "FPS: On";

@@ -40,7 +40,7 @@ if (global.powerup != cs_gold)
 	}
 
 	//If the reserve item is a mushroom
-	else if (sprite_index == spr_mushroom) {
+	else if ((sprite_index == spr_mushroom) || (sprite_index == spr_mushroom_cb)) {
 
 		//If Mario is tiny or small
 		if (global.powerup == cs_tiny)
