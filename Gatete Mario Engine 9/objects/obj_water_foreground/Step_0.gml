@@ -21,7 +21,14 @@ if (vspeed != 0) {
 }
 
 //Update water position and scale
-water.y = y + 4;
+#region WATER
+
+	//Set the water position
+	water.y = y + 4;
+	
+	//Set the water height
+	water.image_yscale = room_height / 16
+#endregion
 
 //Check for Mario
 var mario = collision_rectangle(water.bbox_left, water.bbox_top, water.bbox_right, water.bbox_bottom, obj_mario, 0, 1);
