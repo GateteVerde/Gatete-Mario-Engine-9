@@ -122,32 +122,12 @@ if (held == true) {
 		}
     }
     
-    //Otherwise, check who is holding this item
+    //Otherwise, if Mario does not longer exist, stop holding
     else {
-    
-        //Check what object is holding
-        follow_which_mario();
-
-        //Then check if it exists
-        if (instance_exists(follow)) {
-        
-            //Snap into position
-            x = follow.x;
-            y = follow.y;
-            
-            //Make it invisible
-            visible = 0;
-            
-            //With the followed object
-            with (follow) {
-            
-                holding = 1;
-                myitem = other.sprite_index;
-                myframe = other.image_index;
-            }
-        }
-    }
-	
+		
+        held = false;
+	}
+ 
 	//If Mario does have the tiny, mega or balloon powerup
 	if (global.powerup == cs_tiny)
 	|| (global.powerup == cs_mega) 
@@ -157,11 +137,6 @@ if (held == true) {
 		if (obj_mario.holding > 0)
 			obj_mario.holding = 0;
 	}
-	
-	//If Mario does not exist, release
-	if (follow == noone)
-    && (instance_number(obj_mario) == 0)
-        held = false;
 }
 
 //If not held, inherit default event

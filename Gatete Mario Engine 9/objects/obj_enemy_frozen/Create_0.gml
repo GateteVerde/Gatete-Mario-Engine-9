@@ -19,17 +19,12 @@ ready = 0;
 //Number of kills
 hitcombo = 0;
 
+//Check
+check = 0;
+
 //Offset
 offset = 0;
 alarm[0] = 480;
 
 //Destroy after 10 seconds
 alarm[1] = 600;
-
-//Leave a trail
-alarm[2] = 1;
-
-//Animate
-anim = 0;
-anim_b = 0;
-alarm[3] = 60;

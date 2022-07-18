@@ -8,6 +8,9 @@ if (!held) {
     
     //Inherit event
     event_inherited();
+	
+	//Check for 1 block gaps and blocks in the way
+	event_user(5);
     
     //If kicked
     if (ready == 1) {

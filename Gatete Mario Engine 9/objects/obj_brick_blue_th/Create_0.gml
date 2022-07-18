@@ -15,6 +15,9 @@ ready = 0;
 //Number of kills
 hitcombo = 0;
 
+//Check
+check = 0;
+
 //Whether the brick will harm the player
 hurtplayer = 0;
 

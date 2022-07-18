@@ -1,17 +1,5 @@
 /// @description Throwable brick logic
 
-//Animate ice block
-if (anim == true) {
-
-	anim_b += 0.15;
-	if (anim_b > 4) {
-		
-		anim = 0;
-		anim_b = 0;
-		alarm[3] = 60 + random(round(120));
-	}
-}
-
 //If the brick is not held
 if (!held) {
 
@@ -20,6 +8,9 @@ if (!held) {
     
     //Inherit event
     event_inherited();
+	
+	//Check for 1 block gaps and blocks in the way
+	event_user(5);
     
     //If kicked
     if (ready == 1) {
