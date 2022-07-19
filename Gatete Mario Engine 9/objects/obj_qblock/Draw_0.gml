@@ -23,6 +23,10 @@ else {
 	//Otherwise, if this is a flip block, do not change
 	else if (sprite_index == spr_flipblock)
 		draw_sprite_ext(spr_flipblock, 0, screen_round(x), screen_round(y), 1, 1, 0, c_white, 1);
+		
+	//Otherwise, if this is a spiked block, do not change
+	else if (sprite_index == spr_qblock_spiked)
+		draw_sprite_ext(spr_qblock_spiked, 0, screen_round(x), screen_round(y), 1, 1, 0, c_white, 1);
 	
 	//Otherwise
 	else {

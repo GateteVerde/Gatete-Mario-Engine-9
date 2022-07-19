@@ -29,7 +29,7 @@ if (yspeed >= 0) {
 	}
 	
 	//Vspeed capacity
-	//yspeed = min(4 - (swimming * 2), yspeed);
+	yspeed = min(4 - (swimming * 2), yspeed);
 	
 	//Check for any nearby ground collision
 	var semisolid = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+yspeed, obj_semisolid, 0, 0);
