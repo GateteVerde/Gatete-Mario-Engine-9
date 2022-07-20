@@ -107,6 +107,7 @@ global.pmeter_limit = 144;
 //Item Macros
 #region ITEM MACROS
 
+	#macro cs_snake -32
 	#macro cs_balloon -31
 	#macro cs_beanstalk_side -30
 	#macro cs_beanstalk -29

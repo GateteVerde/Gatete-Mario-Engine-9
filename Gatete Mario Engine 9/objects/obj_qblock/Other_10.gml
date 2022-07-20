@@ -18,3 +18,18 @@ else if (sprout = cs_balloon) {
 	else
 		instance_create_depth(x + 8, ystart + 16, -2, obj_balloon);
 }
+
+//Otherwise, if a coin snake is inside this block
+else if (sprout = cs_snake) {
+
+	if (bottom == false)
+		instance_create_depth(x, ystart, 10, obj_coin_snake);
+	else {
+	
+		with (instance_create_depth(x, ystart, 10, obj_coin_snake)) {
+		
+			yspeed = 1;
+			nextdir = 270;
+		}
+	}
+}
