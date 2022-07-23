@@ -35,8 +35,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Events",
-    "path": "folders/Objects/Special/Do Not Use!/Mario/Events.yy",
+    "name": "States",
+    "path": "folders/Objects/Special/Do Not Use!/Mario/States.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mario_balloon",
