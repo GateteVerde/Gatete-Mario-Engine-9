@@ -12,8 +12,14 @@ charge = 0;
 //Palette
 pal = 0;
 
+//Animation
+anim = 0;
+
 //Turn on ledges
 turn_on_ledges = true;
+
+//Fuse sound
+fuse = snd_fuse;
 
 //Offset
 xoffset = 0;

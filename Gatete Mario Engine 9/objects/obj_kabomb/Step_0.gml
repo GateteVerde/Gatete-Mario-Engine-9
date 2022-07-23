@@ -25,16 +25,16 @@ if (charge > 0) {
 	
 	#region PALETTE
 	
-		pal += 0.2;
+		pal += (charge > 1) ? 0.5 : 0.1;
 		if (pal > 1)
 			pal = 0;	
 	#endregion
 	
 	//If about to blow up
-	if (charge > 1) {
+	if (charge == 3) {
 				
 		//If moving up
-		if (charge == 3) {
+		if (yspeed < 0) {
 			
 			yadd = 0;
 			xoffset = 0;
@@ -48,6 +48,10 @@ if (charge > 0) {
 			yoffset = random_range(-2, 0);
 		}	
 	}
+	
+	//Stop 'Fuse' sound if outside view
+	if (outside_view() == true)
+		audio_stop_sound(fuse);
 }
 
 //Set facing direction
