@@ -85,54 +85,58 @@ if (issolid == true) {
 	
 			//With Mario
 			with (obj_mario) {
+				
+				//If Mario is above this platform
+				if (bbox_bottom < yprevious+5) {
 		
-				//If moving right and this platform is on the way
-				if (xspeed > 0)
-				&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, other.id, 1, 0)))
-				|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom-5, other.id, 1, 0)))) {
+					//If moving right and this platform is on the way
+					if (xspeed > 0)
+					&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, other.id, 1, 0)))
+					|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom-5, other.id, 1, 0)))) {
 			       
-			        //Stop horizontal speed
-			        xspeed = 0;
+				        //Stop horizontal speed
+				        xspeed = 0;
 				
-					//If Mario does not have the tiny powerup
-					if (global.powerup != cs_tiny) {
+						//If Mario does not have the tiny powerup
+						if (global.powerup != cs_tiny) {
             
-				        //Prevent the player from getting embed on the wall
-				        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, other.id, 0, 0))
-				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-				            x--;
-					}
-					else {
+					        //Prevent the player from getting embed on the wall
+					        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, other.id, 0, 0))
+					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+					            x--;
+						}
+						else {
 					
-				        //Prevent the player from getting embed on the wall
-				        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-5, other.id, 0, 0))
-				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-				            x--;					
+					        //Prevent the player from getting embed on the wall
+					        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-5, other.id, 0, 0))
+					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+					            x--;					
+						}
 					}
-				}
 			
-				//Otherwise, if moving left and this platform is on the way
-				else if (xspeed < 0)
-				&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 1, 0)))
-				|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left, bbox_bottom-5, other.id, 1, 0)))) {
+					//Otherwise, if moving left and this platform is on the way
+					else if (xspeed < 0)
+					&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 1, 0)))
+					|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left, bbox_bottom-5, other.id, 1, 0)))) {
 			
-			        //Stop horizontal speed
-			        xspeed = 0;
+				        //Stop horizontal speed
+				        xspeed = 0;
 				
-					//If the player is not tiny
-					if (global.powerup != cs_tiny) {
+						//If the player is not tiny
+						if (global.powerup != cs_tiny) {
             
-				        //Prevent the player from getting embed on the wall
-				        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 0, 0))
-				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-				            x++;
-					}
-					else {
+					        //Prevent the player from getting embed on the wall
+					        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 0, 0))
+					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+					            x++;
+						}
+						else {
 				
-				        //Prevent the player from getting embed on the wall
-				        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-5, other.id, 0, 0))
-				        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-				            x++;					
+					        //Prevent the player from getting embed on the wall
+					        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-5, other.id, 0, 0))
+					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
+					            x++;					
+						}
 					}
 				}
 			
@@ -166,7 +170,8 @@ if (issolid == true) {
 			        with (obj_mario) {
             
 			            //If Mario is below the platform
-						if ((other.vspeed > 0) || (other.y > y-yprevious)) {
+						if (other.vspeed > 0) 
+						|| (other.y-yprevious > 0) {
 						
 							while (collision_rectangle(bbox_left, bbox_top-1+other.id.vspeed, bbox_right, bbox_top, other.id, 0, 0))
 								y += other.id.vspeed;
