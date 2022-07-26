@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_reznor",
-    "path": "sprites/spr_reznor/spr_reznor.yy",
+    "name": "spr_npc_boss",
+    "path": "sprites/spr_npc_boss/spr_npc_boss.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_bossparent",
-    "path": "objects/obj_bossparent/obj_bossparent.yy",
+    "name": "obj_enemyparent",
+    "path": "objects/obj_enemyparent/obj_enemyparent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,18 +24,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Reznor",
-    "path": "folders/Objects/Special/Do Not Use!/Enemies/Boss/Reznor.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Special/Parents/NPCs/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_reznor_enemy",
+  "name": "obj_bossparent",
   "tags": [],
   "resourceType": "GMObject",
 }

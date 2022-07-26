@@ -45,6 +45,7 @@
         "\"Athletic\"",
         "\"Battle\"",
         "\"Bonus\"",
+        "\"Boss\"",
         "\"Ghost\"",
         "\"Overworld\"",
         "\"Underground\"",

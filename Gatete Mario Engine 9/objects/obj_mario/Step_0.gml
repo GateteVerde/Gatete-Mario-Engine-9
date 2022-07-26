@@ -672,141 +672,245 @@ if (enable_gravity == 1) {
     }
 }
 	
-//If moving right and there's a wall in position
-if (xspeed > 0)
-&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, obj_solid, 1, 0)))
-|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top+1, bbox_right+1, bbox_bottom-5, obj_solid, 1, 0)))) {
-		
-	//Check for a block
-	var block_r = collision_rectangle(bbox_right, y + 8, bbox_right+1, y + 8, obj_blockparent, 0, 0);
+//If moving right
+if (xspeed > 0) {
 	
-	//If Mario is sliding
-	if (sliding == true) {
+	//Check for a platform
+	var rp = collision_rectangle(bbox_right, bbox_top+1, bbox_right+1, bbox_bottom-5, obj_platformparent, 1, 0);
+	
+	//If there's a wall on the right
+	if ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top+1, bbox_right+1, bbox_bottom-5, obj_solid, 1, 0))) 
+	|| (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, obj_solid, 1, 0)))) {
 		
-		//If the player has the shell powerup
-		if (global.mount == 0)
-		&& (global.powerup == cs_shell) {
+		//Check for a block
+		var block_r = collision_rectangle(bbox_right, y + 8, bbox_right+1, y + 8, obj_blockparent, 0, 0);
+	
+		//If Mario is sliding
+		if (sliding == true) {
+		
+			//If the player has the shell powerup
+			if (global.mount == 0)
+			&& (global.powerup == cs_shell) {
 			
-			//Play 'Bump' sound
-			audio_play_sound(snd_bump, 0, false);
+				//Play 'Bump' sound
+				audio_play_sound(snd_bump, 0, false);
 				
-			//Reverse horizontal speed
-			xspeed = -xspeed;
+				//Reverse horizontal speed
+				xspeed = -xspeed;
 				
-			//Create effect
-			instance_create_depth(x+5, y, depth - 1, obj_shellthump);
+				//Create effect
+				instance_create_depth(x+5, y, depth - 1, obj_shellthump);
 				
-			//Bump block if there's one in position
-			if ((block_r) && (block_r.ready == 0)) {
+				//Bump block if there's one in position
+				if ((block_r) && (block_r.ready == 0)) {
 				
-				with (block_r) {
+					with (block_r) {
 						
-					//Set state to bumped
-					ready = 1;
+						//Set state to bumped
+						ready = 1;
 						
-					//Set horizontal speed
-					hspeed = 2;
-					alarm[0] = 4;
+						//Set horizontal speed
+						hspeed = 2;
+						alarm[0] = 4;
 						
-					//Create block specific events
-					event_user(0);
-					event_user(1);
+						//Create block specific events
+						event_user(0);
+						event_user(1);
+					}
 				}
-			}
 				
-			//Exit this event
-			exit;
+				//Exit this event
+				exit;
+			}
+			
+			//Otherwise, stop sliding behaviour
+			else				
+				sliding = false;
 		}
-			
-		//Otherwise, stop sliding behaviour
-		else				
-			sliding = false;
-	}
 		
-	//Stop horizontal movement
-	xspeed = 0;
+		//Stop horizontal movement
+		xspeed = 0;
 		
-	//If Mario is not tiny, prevent Mario from getting embed on the wall
-	if (global.powerup != cs_tiny) {
+		//If Mario is not tiny, prevent Mario from getting embed on the wall
+		if (global.powerup != cs_tiny) {
 			
-		while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
-		&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
-			x--;
+			while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
+			&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
+				x--;
+		}
+		else {
+			
+			while (collision_rectangle(bbox_right, bbox_top+1, bbox_right, bbox_bottom-5, obj_solid, 1, 0))
+			&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
+				x--;			
+		}
 	}
-	else {
+	
+	//If there's a platform
+	else if ((rp) && (rp.issolid == true)) {
+	
+		//If Mario is sliding
+		if (sliding == true) {
+		
+			//If the player has the shell powerup
+			if (global.mount == 0)
+			&& (global.powerup == cs_shell) {
 			
-		while (collision_rectangle(bbox_right, bbox_top+1, bbox_right, bbox_bottom-5, obj_solid, 1, 0))
-		&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
-			x--;			
+				//Play 'Bump' sound
+				audio_play_sound(snd_bump, 0, false);
+				
+				//Reverse horizontal speed
+				xspeed = -xspeed;
+				
+				//Create effect
+				instance_create_depth(x-5, y, depth - 1, obj_shellthump);
+				
+				//Exit this event
+				exit;
+			}
+			
+			//Otherwise, stop sliding behaviour
+			else				
+				sliding = false;
+		}
+		
+		//Stop horizontal movement
+		xspeed = 0;
+		
+		//If Mario is not tiny, prevent Mario from getting embed on the wall
+		if (global.powerup != cs_tiny) {
+			
+			while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, rp, 1, 0))
+			&& (!collision_point(x, bbox_top+4, rp, 0, 0))
+				x--;
+		}
+		else {
+			
+			while (collision_rectangle(bbox_right, bbox_top+1, bbox_right, bbox_bottom-5, rp, 1, 0))
+			&& (!collision_point(x, bbox_top, rp, 0, 0))
+				x--;			
+		}
 	}
 }
 	
 //Otherwise, if moving left
-else if (xspeed < 0)
-&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0)))
-|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+1, bbox_left, bbox_bottom-5, obj_solid, 1, 0)))) {
-		
-	//Check for a block
-	var block_l = collision_rectangle(bbox_left-1, y + 8, bbox_left, y + 8, obj_blockparent, 0, 0);
+else if (xspeed < 0) {
 	
-	//If Mario is sliding
-	if (sliding == true) {
+	//Check for a platform
+	var lp = collision_rectangle(bbox_left-1, bbox_top+1, bbox_left, bbox_bottom-5, obj_platformparent, 1, 0);
+	
+	//If there's a wall to the left
+	if ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+1, bbox_left, bbox_bottom-5, obj_solid, 1, 0)))
+	|| (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0)))) {
 		
-		//If the player has the shell powerup
-		if (global.mount == 0)
-		&& (global.powerup == cs_shell) {
+		//Check for a block
+		var block_l = collision_rectangle(bbox_left-1, y + 8, bbox_left, y + 8, obj_blockparent, 0, 0);
+	
+		//If Mario is sliding
+		if (sliding == true) {
+		
+			//If the player has the shell powerup
+			if (global.mount == 0)
+			&& (global.powerup == cs_shell) {
 			
-			//Play 'Bump' sound
-			audio_play_sound(snd_bump, 0, false);
+				//Play 'Bump' sound
+				audio_play_sound(snd_bump, 0, false);
 				
-			//Reverse horizontal speed
-			xspeed = -xspeed;
+				//Reverse horizontal speed
+				xspeed = -xspeed;
 				
-			//Create effect
-			instance_create_depth(x-5, y, depth - 1, obj_shellthump);
+				//Create effect
+				instance_create_depth(x-5, y, depth - 1, obj_shellthump);
 				
-			//Bump block if there's one in position
-			if ((block_l) && (block_l.ready == 0)) {
+				//Bump block if there's one in position
+				if ((block_l) && (block_l.ready == 0)) {
 				
-				with (block_l) {
+					with (block_l) {
 						
-					//Set state to bumped
-					ready = 1;
+						//Set state to bumped
+						ready = 1;
 						
-					//Set horizontal speed
-					hspeed = -2;
-					alarm[0] = 4;
+						//Set horizontal speed
+						hspeed = -2;
+						alarm[0] = 4;
 						
-					//Create block specific events
-					event_user(0);
-					event_user(1);
+						//Create block specific events
+						event_user(0);
+						event_user(1);
+					}
 				}
-			}
 				
-			//Exit this event
-			exit;
+				//Exit this event
+				exit;
+			}
+			
+			//Otherwise, stop sliding behaviour
+			else				
+				sliding = false;
 		}
-			
-		//Otherwise, stop sliding behaviour
-		else				
-			sliding = false;
-	}
 		
-	//Stop horizontal movement
-	xspeed = 0;
+		//Stop horizontal movement
+		xspeed = 0;
 			
-	//If Mario is not tiny, prevent him from getting embed on the wall
-	if (global.powerup != cs_tiny) {
+		//If Mario is not tiny, prevent him from getting embed on the wall
+		if (global.powerup != cs_tiny) {
 			
-		while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
-		&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
-			x++;
+			while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
+			&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
+				x++;
+		}
+		else {
+			
+			while (collision_rectangle(bbox_left, bbox_top, bbox_left, bbox_bottom-5, obj_solid, 1, 0))
+			&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
+				x++;			
+		}
 	}
-	else {
+	
+	//If there's a platform
+	else if ((lp) && (lp.issolid == true)) {
+	
+		//If Mario is sliding
+		if (sliding == true) {
+		
+			//If the player has the shell powerup
+			if (global.mount == 0)
+			&& (global.powerup == cs_shell) {
 			
-		while (collision_rectangle(bbox_left, bbox_top, bbox_left, bbox_bottom-5, obj_solid, 1, 0))
-		&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
-			x++;			
+				//Play 'Bump' sound
+				audio_play_sound(snd_bump, 0, false);
+				
+				//Reverse horizontal speed
+				xspeed = -xspeed;
+				
+				//Create effect
+				instance_create_depth(x-5, y, depth - 1, obj_shellthump);
+				
+				//Exit this event
+				exit;
+			}
+			
+			//Otherwise, stop sliding behaviour
+			else				
+				sliding = false;
+		}
+		
+		//Stop horizontal movement
+		xspeed = 0;
+		
+		//If Mario is not tiny, prevent him from getting embed on the wall
+		if (global.powerup != cs_tiny) {
+			
+			while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, lp, 1, 0))
+			&& (!collision_point(x, bbox_top+4, lp, 0, 0))
+				x++;
+		}
+		else {
+			
+			while (collision_rectangle(bbox_left, bbox_top, bbox_left, bbox_bottom-5, lp, 1, 0))
+			&& (!collision_point(x, bbox_top, lp, 0, 0))
+				x++;			
+		}
 	}
 }
 	

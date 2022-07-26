@@ -85,64 +85,10 @@ if (issolid == true) {
 	
 			//With Mario
 			with (obj_mario) {
-				
-				//If Mario is above this platform
-				if (bbox_bottom < yprevious+5) {
-		
-					//If moving right and this platform is on the way
-					if (xspeed > 0)
-					&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, other.id, 1, 0)))
-					|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom-5, other.id, 1, 0)))) {
-			       
-				        //Stop horizontal speed
-				        xspeed = 0;
-				
-						//If Mario does not have the tiny powerup
-						if (global.powerup != cs_tiny) {
-            
-					        //Prevent the player from getting embed on the wall
-					        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, other.id, 0, 0))
-					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-					            x--;
-						}
-						else {
-					
-					        //Prevent the player from getting embed on the wall
-					        while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom-5, other.id, 0, 0))
-					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-					            x--;					
-						}
-					}
-			
-					//Otherwise, if moving left and this platform is on the way
-					else if (xspeed < 0)
-					&& (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 1, 0)))
-					|| ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top, bbox_left, bbox_bottom-5, other.id, 1, 0)))) {
-			
-				        //Stop horizontal speed
-				        xspeed = 0;
-				
-						//If the player is not tiny
-						if (global.powerup != cs_tiny) {
-            
-					        //Prevent the player from getting embed on the wall
-					        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, other.id, 0, 0))
-					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-					            x++;
-						}
-						else {
-				
-					        //Prevent the player from getting embed on the wall
-					        while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom-5, other.id, 0, 0))
-					        && (!collision_point(x, bbox_top+4, other.id, 0, 0))
-					            x++;					
-						}
-					}
-				}
 			
 				//If Mario is moving up
 			    if (yspeed < 0) 
-			    && (collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_top, other.id, 1, 0)) {
+			    && (collision_rectangle(bbox_left, bbox_top-2, bbox_right, bbox_top, other.id, 1, 0)) {
         
 			        //Prevent the player from getting embed on a ceiling
 			        if (state > playerstate.walk) {
@@ -169,12 +115,10 @@ if (issolid == true) {
 			        //With Mario
 			        with (obj_mario) {
             
-			            //If Mario is below the platform
-						if (other.vspeed > 0) 
-						|| (other.y-yprevious > 0) {
+			            if (other.y-yprevious > 0) {
 						
-							while (collision_rectangle(bbox_left, bbox_top-1+other.id.vspeed, bbox_right, bbox_top, other.id, 0, 0))
-								y += other.id.vspeed;
+							while (collision_rectangle(bbox_left + 1, bbox_top-1+other.id.y-yprevious, bbox_right - 1, bbox_top, other.id, 0, 0))
+								y += other.id.y-yprevious;
 						}
 			        }
 			    }
@@ -195,8 +139,8 @@ if (issolid == true) {
 				else {
 
 				    //Push Mario in the direction the platform moves    
-				    if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2-(x-xprevious), bbox_top+4, bbox_left-2, bbox_bottom-1, obj_mario, 0, 0)))
-				    || ((x-xprevious > 0) && (collision_rectangle(bbox_right+2, bbox_top+4, bbox_right+2+(x-xprevious), bbox_bottom-1, obj_mario, 0, 0)))
+				    if ((x-xprevious < 0) && (collision_rectangle(bbox_left + (x-xprevious), bbox_top+4, bbox_left, bbox_bottom-1, obj_mario, 0, 0)))
+				    || ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right + (x-xprevious), bbox_bottom-1, obj_mario, 0, 0)))
 				        obj_mario.x += x-xprevious;
 				}
 			}

@@ -10,5 +10,12 @@ issolid = true;
 parent = noone;
 
 //Platform offset
-offset = 0;
-offsetready = 0;
+block_offset = 0;
+block_ready = 0;
+
+//Create Reznor
+reznor = instance_create_depth(x, y-16, -2, obj_reznor_enemy);
+with (reznor) {
+
+	parent = other.id;
+}
