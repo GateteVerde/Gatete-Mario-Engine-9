@@ -9,7 +9,7 @@ event_inherited();
 	if (block_ready == 0) {
 	
 		//If Mario collides with the left block from below
-		if (collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+1, obj_mario, 0, 0)) {
+		if (collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+2, obj_mario, 0, 0)) {
 		
 			//Set up offset for the left block
 			block_offset = -2;

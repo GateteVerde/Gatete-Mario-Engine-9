@@ -10,4 +10,4 @@ angle = 45;
 alarm[0] = 2;
 
 //Activate platforms
-active = false;
+active = 0;

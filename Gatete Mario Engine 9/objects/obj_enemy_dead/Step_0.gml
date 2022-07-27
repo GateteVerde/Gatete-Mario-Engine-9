@@ -1,7 +1,12 @@
 /// @description Dead enemy logic
 
-//Angle
-angle += 10 * sign(hspeed);
+#region ANGLE
+
+	//Angle
+	if (sprite_width < 24)
+	&& (sprite_height < 24)
+		angle += 10 * sign(hspeed);
+#endregion
 
 //Quicksand collision
 var qs = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0);

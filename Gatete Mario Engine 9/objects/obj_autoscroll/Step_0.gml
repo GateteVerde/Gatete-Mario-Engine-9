@@ -1,7 +1,7 @@
 /// @description Autoscroll logic
 
 //Update speed
-if (mypath != noone) {
+if (speed > 0) {
 	
 	//If Mario has cleared the stage, follow him
 	if (instance_exists(obj_mario_clear)) {
@@ -18,26 +18,26 @@ if (mypath != noone) {
 		if (instance_exists(obj_mario_transform)) {
 		
 			//Remember path speed
-			if (path_spd == 0) {
+			if (prevspd == 0) {
 				
-				path_spd = path_speed;
-				path_speed = 0;
+				prevspd = speed;
+				speed = 0;
 			}
 		}
 		
 		//Otherwise, if Mario is not dead
 		else if (!instance_exists(obj_mario_dead)) {
 		
-			if (path_spd != 0) {
+			if (prevspd != 0) {
 			
-				path_speed = path_spd;
-				path_spd = 0;
+				speed = prevspd;
+				prevspd = 0;
 			}
 			
 			//Set the path speed
-			path_speed += 0.01;
-			if (path_speed > maxspd)
-				path_speed -= 0.01;
+			speed += 0.01;
+			if (speed > maxspd)
+				speed -= 0.01;
 		}
 	}
 }
@@ -59,19 +59,11 @@ var wallleft, wallright;
 if (instance_exists(obj_mario)) 
 && (obj_levelcontrol.barrier == true) {
 
-    //Left wall collision.
-    if (collision_rectangle(obj_mario.bbox_left-1, obj_mario.bbox_top+4, obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
-    || (collision_rectangle(obj_mario.bbox_left-1, obj_mario.bbox_top+4, obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_solid_moving, 1, 0))
-        wallleft = 1;
-    else
-        wallleft = 0;
+    //Left wall collision
+	wallleft = (collision_rectangle(obj_mario.bbox_left-1, obj_mario.bbox_top+4, obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) ? 1 : 0;
     
-    //Right wall collision.
-    if (collision_rectangle(obj_mario.bbox_right, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
-    || (collision_rectangle(obj_mario.bbox_right, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid_moving, 1, 0))
-        wallright = 1;
-    else
-        wallright = 0;
+    //Right wall collision
+    wallright = (collision_rectangle(obj_mario.bbox_right, obj_mario.bbox_top+4, obj_mario.bbox_right+1, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) ? 1 : 0;
         
     //Prevents Mario from going outside the view.    
     if (obj_mario.x <= camera_get_view_x(view_camera[0]) + 8) {
@@ -116,3 +108,13 @@ if (instance_exists(obj_mario))
         exit;
     }
 }
+
+//Modifier collision
+if (collision_rectangle(x, y, x+15, y+15, obj_up, 0, 0))
+	direction = 90;
+else if (collision_rectangle(x, y, x+15, y+15, obj_down, 0, 0))
+	direction = 270;
+else if (collision_rectangle(x, y, x+15, y+15, obj_left, 0, 0))
+	direction = 180;
+else if (collision_rectangle(x, y, x+15, y+15, obj_right, 0, 0))
+	direction = 0;

@@ -1,12 +1,12 @@
-/// @description Make the level scroll automatically.
+/// @description Make the level scroll automatically
 
 //Path Speed
-path_spd = 0;
+prevspd = 0;
 
 //Make Mario able to die
 alarm[0] = 90;
 
-//Handle airship offset.
+//Handle airship offset
 alarm[1] = 1;
 
 //Start moving.

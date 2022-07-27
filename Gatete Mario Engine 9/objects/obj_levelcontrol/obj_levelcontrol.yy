@@ -44,6 +44,7 @@
     {"varType":6,"value":"\"Overworld\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "\"Athletic\"",
         "\"Battle\"",
+        "\"Before Boss\"",
         "\"Bonus\"",
         "\"Boss\"",
         "\"Ghost\"",

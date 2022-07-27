@@ -1,5 +1,8 @@
 /// @description Mario's animation!
 
+//Do not animate if frozen
+if (freeze == true) { image_speed = 0; }
+
 //Reset up firing
 if (firing > 0)
 && (state == playerstate.walk)

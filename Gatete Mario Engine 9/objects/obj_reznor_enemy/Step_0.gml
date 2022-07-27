@@ -23,12 +23,20 @@ if (parent != -1) {
 			killer_id = other.id;
 			event_user(0);
 		}
-
-		//Get 2000 points
-		with (instance_create_depth(round(other.bbox_left + other.bbox_right) / 2, other.bbox_top, -4, obj_score)) value = 2000;
 	
 		//Create spin thump
 		with (instance_create_depth(round(other.bbox_left + other.bbox_right) / 2, round(other.bbox_top + other.bbox_bottom) / 2, -6, obj_smoke)) 
 			sprite_index = spr_spinthump;
 	}
+}
+
+//If Reznor is not breaking the fourth wall
+if (image_index != 0) {
+	
+	//If Mario does not exist or it's at the left
+	if (!instance_exists(obj_mario))
+	|| (obj_mario.x < x)
+		xscale = -1;
+	else
+		xscale = 1;
 }
