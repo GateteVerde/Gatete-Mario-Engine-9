@@ -8,6 +8,29 @@
 		angle += 10 * sign(hspeed);
 #endregion
 
+//Lava
+var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_lava, 0, 0);
+if (lava) {
+
+	//If depth is not 150
+	if (depth != 150) {
+	
+		//Set depth
+		depth = 150;
+		
+		//Create lava splash
+		with (instance_create_depth(x, lava.y-7, -6, obj_smoke))
+			sprite_index = spr_splash_lava;
+	}
+	
+	//Stop horizontal speed
+	hspeed = 0;
+	
+	//Sink slowly
+	if (vspeed > 0.25)
+		vspeed = 0.25;
+}
+
 //Quicksand collision
 var qs = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0);
 if (qs) {

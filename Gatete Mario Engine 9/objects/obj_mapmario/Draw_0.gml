@@ -12,12 +12,30 @@ else {
 
 	    pal_swap_set(spr_palette_yoshi, global.mountcolour);
 	}
+	
+	#region MARIO
+	
+		//If Mario is riding yoshi
+		if (global.mount == 1) {
 
-	//Draw normally
-	if (xscale == 1)
-	    draw_sprite(sprite_index, image_index, screen_round(x), screen_round(y)-4);
-	else
-	    draw_sprite_ext(sprite_index, image_index, screen_round(x)+16, screen_round(y)-4, -1, 1, 0, c_white, 1);
+			//Draw normally
+			if (xscale == 1)
+			    draw_sprite(yoshi_index, image_index, screen_round(x), screen_round(y)-4);
+			else
+			    draw_sprite_ext(yoshi_index, image_index, screen_round(x)+16, screen_round(y)-4, -1, 1, 0, c_white, 1);
+		}
+		
+		//Otherwise
+		else {
+			
+			//Draw normally
+			if (xscale == 1)
+			    draw_sprite(sprite_index, image_index, screen_round(x), screen_round(y)-4);
+			else
+			    draw_sprite_ext(sprite_index, image_index, screen_round(x)+16, screen_round(y)-4, -1, 1, 0, c_white, 1);			
+		}
+		
+	#endregion
     
 	//Reset the shader
 	pal_swap_reset();

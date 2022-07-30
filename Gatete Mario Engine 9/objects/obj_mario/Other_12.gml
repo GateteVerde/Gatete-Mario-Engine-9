@@ -194,7 +194,6 @@ if (inwall == 0)
         && (crouch == 0)
 		&& (global.powerup != cs_tiny)
 		&& (global.powerup != cs_mega)
-		&& (global.powerup != cs_carrot)
         && ((holding == 0) || (holding == 4))) {
         
             //If a kuribo shoe is being ridden, dismount from it.
@@ -202,18 +201,35 @@ if (inwall == 0)
             
                 with (obj_kuriboshoe) event_user(0);
                 if (state < 2) {
-                    
-                    //Play 'Spin' sound
-                    audio_play_sound(snd_spin, 0, false);
-                    
-                    //Set horizontal speed
-                    xspeed = 1*(xscale*-1);
-                
-                    //Set spin jump variable
-                    jumpstyle = 1;
 					
-					//Execute 'throw_projectile_spin' function
-					timer(throw_projectile_spin, 15);
+					//Set horizontal speed
+		            xspeed = 1*(xscale*-1);
+					
+					//If Mario does have the carrot powerup
+					if (global.powerup == cs_carrot) {
+						
+						//Play 'Jump' sound
+						audio_play_sound(snd_jump, 0, false);
+						
+						//Do not spin jump
+						jumpstyle = 0;
+						
+						//Turn around
+						xscale = -xscale;
+					}
+					
+					//Otherwise
+					else {
+                    
+		                //Play 'Spin' sound
+		                audio_play_sound(snd_spin, 0, false);
+                
+		                //Set spin jump variable
+		                jumpstyle = 1;
+					
+						//Execute 'throw_projectile_spin' function
+						timer(throw_projectile_spin, 15);
+					}
                 }
                 else {
                 
@@ -230,18 +246,35 @@ if (inwall == 0)
             
                 with (obj_yoshi) event_user(1);
                 if (state < 2) {
+					
+					//Set horizontal speed
+		            xspeed = 1*(xscale*-1);
+					
+					//If Mario does have the carrot powerup
+					if (global.powerup == cs_carrot) {
+						
+						//Play 'Jump' sound
+						audio_play_sound(snd_jump, 0, false);
+						
+						//Do not spin jump
+						jumpstyle = 0;
+						
+						//Turn around
+						xscale = -xscale;
+					}
+					
+					//Otherwise
+					else {
                     
-                    //Play 'Spin' sound
-                    audio_play_sound(snd_spin, 0, false);
-                    
-                    //Set horizontal speed
-                    xspeed = 1*(xscale*-1);
+		                //Play 'Spin' sound
+		                audio_play_sound(snd_spin, 0, false);
                 
-                    //Set spin jump variable
-                    jumpstyle = true;
-										
-					//Execute 'throw_projectile_spin' function
-					timer(throw_projectile_spin, 15);
+		                //Set spin jump variable
+		                jumpstyle = 1;
+					
+						//Execute 'throw_projectile_spin' function
+						timer(throw_projectile_spin, 15);
+					}
                 }
                 else {
                 
@@ -250,22 +283,36 @@ if (inwall == 0)
                 
                     //Play 'Jump' sound
                     audio_play_sound(snd_jump, 0, false);
-                }              
+                }                   
             }
             
             else {
+				
+				//If Mario does not have the carrot powerup
+				if (global.powerup == cs_carrot) {
+					
+					//Play 'Jump' sound
+					audio_play_sound(snd_jump, 0, false);
+					
+					//Do not spin jump
+					jumpstyle = 0;
+				}
+				
+				//Otherwise
+				else {
 									
-				//Execute 'throw_projectile_spin' function
-				timer(throw_projectile_spin, 15);
+					//Execute 'throw_projectile_spin' function
+					timer(throw_projectile_spin, 15);
             
-	            //Set spin jump variable
-	            jumpstyle = 1;
+		            //Set spin jump variable
+		            jumpstyle = 1;
 
-	            //Play spin jump sound
-				if (global.powerup == cs_propeller)
-					audio_play_sound(snd_propeller, 0, false);
-				else
-					audio_play_sound(snd_spin, 0, false);
+		            //Play spin jump sound
+					if (global.powerup == cs_propeller)
+						audio_play_sound(snd_propeller, 0, false);
+					else
+						audio_play_sound(snd_spin, 0, false);
+				}
             }
         }
     

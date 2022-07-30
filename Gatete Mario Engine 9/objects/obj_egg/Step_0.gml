@@ -8,6 +8,9 @@ if (yadd == 0) {
 
     //If the egg didn't opened yet, open it
     if (ready == 0) {
+		
+		//Stop horizontal speed
+		xspeed = 0;
     
         //Open it
         ready = 1;

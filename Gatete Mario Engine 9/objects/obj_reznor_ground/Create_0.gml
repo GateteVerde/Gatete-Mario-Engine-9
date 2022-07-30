@@ -12,3 +12,6 @@ alarm[1] = 4;
 
 //Do not animate
 image_speed = 0;
+
+//Set depth
+depth = 200;

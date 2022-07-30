@@ -13,19 +13,18 @@ if (powerup != noone) {
     powerup = noone;
 }
 
-/*
-    
-//If Yoshi are a berry, count up until he eats 10
+//If Yoshi are a berry, count up until he eats 5
 else if (berry != noone) {
 
     //If the berry eaten is a green one, extend time for 20 seconds.
     if (berry == spr_berry_g) {
     
-        //Play 'Collect' sound
-        audio_play_sound(snd_collect, 0, false);
+        //Play 'Coin' sound
+        audio_play_sound(snd_coin, 0, false);
     
         //Extend time
-        with (instance_create(x-8,y-26,obj_score)) event_user(13);       
+        with (instance_create_depth(x-8, y-15, -6, obj_score)) 
+			value = -5;       
     }
     
     //Otherwise if the berry eaten is a red one, increment count till 5 berries are eaten.
@@ -41,7 +40,7 @@ else if (berry != noone) {
             alarm[5] = 1;
         
             //Show how many berries yoshi ate
-            with (instance_create(x,y-26,obj_score_coins)) {
+            with (instance_create_depth(x, y-15, -6, obj_score_coins)) {
             
                 amount = global.berries;
                 alarm[0] = 12;
@@ -55,7 +54,7 @@ else if (berry != noone) {
         else {
                     
             //Show how many berries yoshi ate
-            with (instance_create(x,y-26,obj_score_coins)) 
+            with (instance_create_depth(x, y-15, -6, obj_score_coins)) 
                 amount = global.berries;
         }
     }

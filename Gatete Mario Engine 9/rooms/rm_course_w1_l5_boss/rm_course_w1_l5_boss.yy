@@ -31,6 +31,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_reznor_ground","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":192.0,"resourceVersion":"1.0","name":"inst_5A42A164","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"first","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"objectId":{"name":"obj_reznor_ground","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"right","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"objectId":{"name":"obj_reznor_ground","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_reznor_ground","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":560.0,"y":192.0,"resourceVersion":"1.0","name":"inst_16EFD29E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"first","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"objectId":{"name":"obj_reznor_ground","path":"objects/obj_reznor_ground/obj_reznor_ground.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -180,7 +181,7 @@
     "inheritViewSettings": false,
     "enableViews": false,
     "clearViewBackground": false,
-    "clearDisplayBuffer": false,
+    "clearDisplayBuffer": true,
   },
   "physicsSettings": {
     "inheritPhysicsSettings": false,

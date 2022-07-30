@@ -23,6 +23,9 @@ else {
     ds_map_add(global.worldmap, "playery", y);
 }
 
+//Yoshi sprite
+yoshi_index = spr_mapmario_yoshi;
+
 //Whether the object is moving
 status = mapstate.idle;
 

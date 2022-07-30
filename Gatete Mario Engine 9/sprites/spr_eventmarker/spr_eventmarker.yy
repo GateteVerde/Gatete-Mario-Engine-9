@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GateteMarioEngine9",
+    "path": "GateteMarioEngine9.yyp",
   },
   "resourceVersion": "1.0",
   "name": "spr_eventmarker",

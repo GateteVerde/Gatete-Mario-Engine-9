@@ -4,7 +4,7 @@
 if (visible == 0) {
 
 	//If Mario exists and passes thru this door
-	if ((instance_exists(obj_mario)) && (obj_mario.x > x+48)) {
+	if ((instance_exists(obj_mario)) && (obj_mario.x > x+26)) {
 		
 		//Play 'Destroy' sound
 		audio_play_sound(snd_destroy, 0, false);
