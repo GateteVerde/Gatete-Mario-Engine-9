@@ -3,124 +3,137 @@
 //SETTINGS LOAD
 #region LOAD
 
+	var loadDefaultSettings = false;
+
 	//If 'settings.dat' file does exist
 	if (file_exists("settings.dat")) {
 	
 		//Load and read it
 		var file = file_text_open_read("settings.dat");
 		
-		//Set colourblind mode based on read value
-		colourblind = real(file_text_read_string(file));
-		file_text_readln(file);
-		
-		//Set fullscreen mode based on read value
-		fullscreen = real(file_text_read_string(file));
-		file_text_readln(file);
-		
-		//Set screen size based on read value
-		size = real(file_text_read_string(file));
-		file_text_readln(file);
-		
-		//Set v-sync based on the read value
-		vsync = real(file_text_read_string(file));
-		file_text_readln(file);
-		
-		//Set fps based on the read value
-		showfps = real(file_text_read_string(file))
-		file_text_readln(file);
-		
-		//Set autosave based on the read value
-		autosave = real(file_text_read_string(file))
-		file_text_readln(file);
-		
-		//Keyboard Keys
-		#region KEYBOARD KEYS
-		
-			//Set saved 'up' key
-			global.key[input.up] = real(file_text_read_string(file));
+		try
+		{
+			//Set colourblind mode based on read value
+			colourblind = real(file_text_read_string(file));
 			file_text_readln(file);
 		
-			//Set saved 'down' key
-			global.key[input.down] = real(file_text_read_string(file));
+			//Set fullscreen mode based on read value
+			fullscreen = real(file_text_read_string(file));
 			file_text_readln(file);
 		
-			//Set saved 'left' key
-			global.key[input.left] = real(file_text_read_string(file));
+			//Set screen size based on read value
+			size = real(file_text_read_string(file));
 			file_text_readln(file);
 		
-			//Set saved 'right' key
-			global.key[input.right] = real(file_text_read_string(file));
+			//Set v-sync based on the read value
+			vsync = real(file_text_read_string(file));
 			file_text_readln(file);
 		
-			//Set saved 'Action 0' Key (Default: Shift)
-			global.key[input.action_0] = real(file_text_read_string(file));
+			//Set fps based on the read value
+			showfps = real(file_text_read_string(file))
 			file_text_readln(file);
 		
-			//Set saved 'Action 1' Key (Default: Control)
-			global.key[input.action_1] = real(file_text_read_string(file));
+			//Set autosave based on the read value
+			autosave = real(file_text_read_string(file))
 			file_text_readln(file);
 		
-			//Set saved 'Action 2' Key (Default: Space)
-			global.key[input.action_2] = real(file_text_read_string(file));
-			file_text_readln(file);
+			//Keyboard Keys
+			#region KEYBOARD KEYS
 		
-			//Set saved 'Select' Key (Default: Backspace)
-			global.key[input.select] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'up' key
+				global.key[input.up] = real(file_text_read_string(file));
+				file_text_readln(file);
+		
+				//Set saved 'down' key
+				global.key[input.down] = real(file_text_read_string(file));
+				file_text_readln(file);
+		
+				//Set saved 'left' key
+				global.key[input.left] = real(file_text_read_string(file));
+				file_text_readln(file);
+		
+				//Set saved 'right' key
+				global.key[input.right] = real(file_text_read_string(file));
+				file_text_readln(file);
+		
+				//Set saved 'Action 0' Key (Default: Shift)
+				global.key[input.action_0] = real(file_text_read_string(file));
+				file_text_readln(file);
+		
+				//Set saved 'Action 1' Key (Default: Control)
+				global.key[input.action_1] = real(file_text_read_string(file));
+				file_text_readln(file);
+		
+				//Set saved 'Action 2' Key (Default: Space)
+				global.key[input.action_2] = real(file_text_read_string(file));
+				file_text_readln(file);
+		
+				//Set saved 'Select' Key (Default: Backspace)
+				global.key[input.select] = real(file_text_read_string(file));
+				file_text_readln(file);
     
-			//Set saved 'Start' Key (Default: Enter)
-			global.key[input.start] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Start' Key (Default: Enter)
+				global.key[input.start] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-		#endregion
+			#endregion
 		
-		//Controller Keys
-		#region CONTROLLER KEYS
+			//Controller Keys
+			#region CONTROLLER KEYS
 		
-			//Set saved 'Up' button
-			global.button[input.up] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Up' button
+				global.button[input.up] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-			//Set saved 'Down' button
-			global.button[input.down] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Down' button
+				global.button[input.down] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-			//Set saved 'Left' button
-			global.button[input.left] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Left' button
+				global.button[input.left] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-			//Set saved 'Right' button
-			global.button[input.right] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Right' button
+				global.button[input.right] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-			//Set saved 'Action 0' button (Default: A)
-			global.button[input.action_0] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Action 0' button (Default: A)
+				global.button[input.action_0] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-			//Set saved 'Action 1' button (Default: X)
-			global.button[input.action_1] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Action 1' button (Default: X)
+				global.button[input.action_1] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-			//Set saved 'Action 2' button (Default: B)
-			global.button[input.action_2] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Action 2' button (Default: B)
+				global.button[input.action_2] = real(file_text_read_string(file));
+				file_text_readln(file);
 		
-			//Set saved 'Select' button (Default: Backspace)
-			global.button[input.select] = real(file_text_read_string(file));
-			file_text_readln(file);
+				//Set saved 'Select' button (Default: Backspace)
+				global.button[input.select] = real(file_text_read_string(file));
+				file_text_readln(file);
     
-			//Set saved 'Start' button (Default: Enter)
-			global.button[input.start] = real(file_text_read_string(file));
+				//Set saved 'Start' button (Default: Enter)
+				global.button[input.start] = real(file_text_read_string(file));
 		
-		#endregion
+			#endregion
+		}
+		catch(e)
+		{
+			loadDefaultSettings = true;
+			file_delete("settings.dat");
+		}
 		
 		//Close the file
 		file_text_close(file);
 	}
 	
 	//Otherwise, if the file does not exist
-	else {
+	else
+		loadDefaultSettings = true;
 		
+	if (loadDefaultSettings)
+	{
 		//Default colourblind value
 		colourblind = 0;
 	
