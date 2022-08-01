@@ -2,44 +2,37 @@
 
 //Update speed
 if (speed > 0) {
-	
-	//If Mario has cleared the stage, follow him
-	if (instance_exists(obj_mario_clear)) {
-	
-		x = obj_mario_clear.x;
-		y = obj_mario_clear.y;
-		camera_set_view_speed(view_camera[0], 4, 4);
+		
+	//If Mario is transforming, stop briefly
+	if (instance_exists(obj_mario_dead))
+	|| (instance_exists(obj_mario_transform)) {
+		
+		//Remember path speed
+		if (prevspd == 0) {
+				
+			prevspd = speed;
+			speed = 0;
+		}
 	}
 	
 	//Otherwise
 	else {
-		
-		//If Mario is transforming, stop briefly
-		if (instance_exists(obj_mario_transform)) {
-		
-			//Remember path speed
-			if (prevspd == 0) {
-				
-				prevspd = speed;
-				speed = 0;
-			}
-		}
-		
-		//Otherwise, if Mario is not dead
-		else if (!instance_exists(obj_mario_dead)) {
-		
-			if (prevspd != 0) {
-			
-				speed = prevspd;
-				prevspd = 0;
-			}
-			
-			//Set the path speed
-			speed += 0.01;
-			if (speed > maxspd)
-				speed -= 0.01;
-		}
+	
+		//Increment speed
+		speed += 0.01;
+		if (speed > maxspd)
+			speed = maxspd;
 	}
+}
+
+//Otherwise
+else if (prevspd > 0)
+&& (!instance_exists(obj_mario_dead)) 
+&& (!instance_exists(obj_mario_transform)) {
+		
+	//Get speed
+	speed = prevspd;
+	prevspd = 0;
 }
 
 //Airship floating effect
@@ -82,7 +75,7 @@ if (instance_exists(obj_mario))
                 obj_mario.xspeed = 0;
         }
     }
-    if (obj_mario.x >= camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 8) {
+    else if (obj_mario.x >= camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 8) {
     
         if (wallleft) 
         && (candie == true) {

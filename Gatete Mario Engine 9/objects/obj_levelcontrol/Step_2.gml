@@ -52,14 +52,14 @@ if (room != rm_bonus) {
 				x = obj_autoscroll.x;
 				
 				//Stay relative to Mario's y position or not.
-				if (camlock == 0)
-					y = obj_autoscroll.y;
+				if (obj_autoscroll.follow_y == 0)
+					y = obj_autoscroll.y + obj_autoscroll.airshipoffset;
 				else {
 					
 					if (instance_exists(obj_mario))
-						y = obj_mario.y;
+						y = obj_mario.y + obj_autoscroll.airshipoffset;
 					else
-						y = follow.y
+						y = follow.y + obj_autoscroll.airshipoffset;
 				}
 			}
         

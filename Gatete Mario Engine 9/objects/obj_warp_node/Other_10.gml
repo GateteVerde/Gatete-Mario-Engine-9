@@ -5,6 +5,16 @@ if (global.exit_id == myid) {
     
     //If the player warped from another room
     if (global.postchange != -1) {
+		
+		//Set autoscroll position
+		if (instance_exists(obj_autoscroll)) {
+		
+			with (obj_autoscroll) {
+			
+				x = other.scroll_x;
+				y = other.scroll_y;
+			}
+		}
     
         //Destroy player objects
         event_user(1);

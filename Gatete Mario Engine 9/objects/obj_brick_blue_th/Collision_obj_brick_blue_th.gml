@@ -10,7 +10,7 @@ if (held) {
     with (instance_create_depth(x-8, y, -6, obj_score)) value = 1000;
     
     //Create spin thump
-    with (instance_create_depth(bbox_left+bbox_right/2, bbox_top+bbox_bottom/2, -6, obj_smoke)) sprite_index = spr_spinthump;
+    with (instance_create_depth(round(bbox_left+bbox_right) / 2, round(bbox_top+bbox_bottom) / 2, -6, obj_smoke)) sprite_index = spr_spinthump;
     
     //Destroy both brick
     event_user(0);

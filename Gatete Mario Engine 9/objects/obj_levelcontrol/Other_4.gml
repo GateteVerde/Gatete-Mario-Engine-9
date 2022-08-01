@@ -39,7 +39,17 @@ if (global.mariostart == 0) {
 
         //Destroy all player objects
         event_user(1);
-        
+		
+		//Set autoscroll position
+		if (instance_exists(obj_autoscroll)) {
+		
+			with (obj_autoscroll) {
+			
+				x = global.checkpoint.scroll_x;
+				y = global.checkpoint.scroll_y;
+			}
+		}
+
         //Create a new Mario at the desired location
 		instance_create_layer(global.checkpoint.xcoor, global.checkpoint.ycoor, "Main", obj_mario);
     }

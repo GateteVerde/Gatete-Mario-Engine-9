@@ -44,7 +44,7 @@ for (var i=0; i<3; i++) {
 	            sprite_index = macro_get_sprite(other.sprout[i]);
 				if (other.bottom == true)
 				&& (other.sprout[i] != cs_beanstalk)
-					vspeed = 0.5;
+					yspeed = 0.5;
 			}
 		}
 	}
