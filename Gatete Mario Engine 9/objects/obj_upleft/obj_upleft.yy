@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_down",
-    "path": "sprites/spr_down/spr_down.yy",
+    "name": "spr_upleft",
+    "path": "sprites/spr_upleft/spr_upleft.yy",
   },
   "solid": false,
   "visible": false,
@@ -34,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_down",
+  "name": "obj_upleft",
   "tags": [],
   "resourceType": "GMObject",
 }

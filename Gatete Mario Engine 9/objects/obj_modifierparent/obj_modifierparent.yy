@@ -1,17 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_down",
-    "path": "sprites/spr_down/spr_down.yy",
+    "name": "spr_eventmarker",
+    "path": "sprites/spr_eventmarker/spr_eventmarker.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_modifierparent",
-    "path": "objects/obj_modifierparent/obj_modifierparent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,17 +21,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Special/Parents.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_down",
+  "name": "obj_modifierparent",
   "tags": [],
   "resourceType": "GMObject",
 }

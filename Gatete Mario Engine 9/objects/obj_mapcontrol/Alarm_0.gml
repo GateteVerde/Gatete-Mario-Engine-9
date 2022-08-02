@@ -2,6 +2,7 @@
 
 //Wait until all paths are done
 if (global.clear == 0) 
+&& (obj_mapmario.is_ready == 0)
 && (instance_number(obj_save) == 0) 
 && (instance_number(obj_mapopener) == 0) {
 

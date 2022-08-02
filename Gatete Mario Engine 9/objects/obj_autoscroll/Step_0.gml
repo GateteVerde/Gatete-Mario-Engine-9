@@ -102,12 +102,15 @@ if (instance_exists(obj_mario))
     }
 }
 
-//Modifier collision
-if (collision_rectangle(x, y, x+15, y+15, obj_up, 0, 0))
-	direction = 90;
-else if (collision_rectangle(x, y, x+15, y+15, obj_down, 0, 0))
-	direction = 270;
-else if (collision_rectangle(x, y, x+15, y+15, obj_left, 0, 0))
-	direction = 180;
-else if (collision_rectangle(x, y, x+15, y+15, obj_right, 0, 0))
-	direction = 0;
+//Check for a modifier
+var check = collision_rectangle(x, y, x+15, y+15, obj_modifierparent, 0, 0);
+if (check) {
+	
+	//If this is not a stop modifier
+	if (check.dir != -1)
+		direction = check.dir;
+		
+	//Otherwise, halt
+	else
+		speed = 0;
+}

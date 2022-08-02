@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_down",
-    "path": "sprites/spr_down/spr_down.yy",
+    "name": "spr_downright",
+    "path": "sprites/spr_downright/spr_downright.yy",
   },
   "solid": false,
   "visible": false,
@@ -34,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_down",
+  "name": "obj_downright",
   "tags": [],
   "resourceType": "GMObject",
 }

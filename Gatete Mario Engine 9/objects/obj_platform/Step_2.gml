@@ -19,3 +19,23 @@ else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_left, 0, 0)) &
     hspeed -= 0.0324;
 else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_right, 0, 0)) && (freeze == false))
     hspeed += 0.0324;
+else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_upleft, 0, 0)) && (freeze == false)) {
+	
+    vspeed -= 0.0324;
+	hspeed -= 0.0324;
+}
+else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_upright, 0, 0)) && (freeze == false)) {
+	
+    vspeed -= 0.0324;
+	hspeed += 0.0324;
+}
+else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_downleft, 0, 0)) && (freeze == false)) {
+	
+    vspeed += 0.0324;
+	hspeed -= 0.0324;
+}
+else if ((collision_rectangle(bbox_left, y, bbox_right, y+15, obj_downright, 0, 0)) && (freeze == false)) {
+	
+    vspeed += 0.0324;
+	hspeed += 0.0324;
+}
