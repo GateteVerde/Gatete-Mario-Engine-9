@@ -22,6 +22,9 @@ if (mario)
     }
 }
 
+//Depth
+depth = -2;
+
 //Slowdown both platforms
 event_user(0);
 
