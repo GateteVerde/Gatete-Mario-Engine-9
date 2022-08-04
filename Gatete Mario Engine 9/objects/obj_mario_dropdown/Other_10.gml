@@ -29,8 +29,9 @@
 	}
 
 	///Destroy in contact with water or a slope
-	if (obj_mario.swimming == true)
-	|| (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0))
+	if ((instance_exists(obj_mario) 
+	&& (obj_mario.swimming == true))
+	|| (collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom, obj_slopeparent, 1, 0)))
 		instance_destroy();
 
 #endregion
