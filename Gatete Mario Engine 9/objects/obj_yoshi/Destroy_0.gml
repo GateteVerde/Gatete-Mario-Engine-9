@@ -10,9 +10,6 @@ audio_stop_sound(snd_yoshi_lick);
 //Stop 'Flutter' sound
 audio_stop_sound(snd_yoshi_hover);
 
-//Destroy Yoshi's eater if it exists
-with (obj_yoshi_eater) instance_destroy();
-
 //Destroy Yoshi's tongue if it exists
 with (obj_yoshi_tongue) instance_destroy();
 

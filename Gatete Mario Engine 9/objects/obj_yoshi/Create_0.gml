@@ -64,9 +64,6 @@ stateprev = 0;
 //Flashing variable
 isflashing = 0;
 
-//Create yoshi eater object
-instance_create_depth(x, y, -2, obj_yoshi_eater);
-
 //If an item was carried from the previous room.
 if (global.carrieditem != noone) {
 

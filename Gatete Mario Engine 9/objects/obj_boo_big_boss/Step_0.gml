@@ -85,7 +85,8 @@ else if (ready == 4) {
 	else {
 		
 		//If fully visible
-		if (ready == 2) {
+		if (ready == 2) 
+		&& (instance_exists(obj_mario)) {
 	
 			//If Mario is at the right
 		    if (obj_mario.x > x+32) {
