@@ -16,6 +16,11 @@ if (instance_exists(obj_mario)) {
 		//Otherwise, if Mario is not small
 		else {
 			
+			// Set head sprite in relation to currently available head sprite
+			var headSprite = global.run_sprite[global.powerup];
+			if (headSprite == -1)
+				headSprite = global.kick_sprite[global.powerup];
+			
 			//Offset
 			var yy = (global.powerup == cs_propeller) ? 2 : 0;
 			
@@ -26,7 +31,7 @@ if (instance_exists(obj_mario)) {
 				if (global.powerup == cs_bell)
 					draw_sprite_part_ext(spr_mario_cat_slide, 0, 0, 0, 16, 17, screen_round(x) - 8, screen_round(y) - 16 + (movement.y), 1, 1, c_white, 1);
 				else
-					draw_sprite_part_ext(global.run_sprite[global.powerup], 0, 0, 0, 32, 16 + yy, screen_round(x) - 16, screen_round(y) - 15 - yy + (movement.y), 1, 1, c_white, 1);
+					draw_sprite_part_ext(headSprite, 0, 0, 0, 32, 16 + yy, screen_round(x) - 16, screen_round(y) - 15 - yy + (movement.y), 1, 1, c_white, 1);
 			}
 			
 			//Otherwise, if Mario is facing left
@@ -36,7 +41,7 @@ if (instance_exists(obj_mario)) {
 				if (global.powerup == cs_bell)
 					draw_sprite_part_ext(spr_mario_cat_slide, 0, 0, 0, 16, 17, screen_round(x) + 8, screen_round(y) - 16 + (movement.y), -1, 1, c_white, 1);
 				else
-					draw_sprite_part_ext(global.run_sprite[global.powerup], 0, 0, 0, 32, 16 + yy, screen_round(x) + 16, screen_round(y) - 15 - yy + (movement.y), -1, 1, c_white, 1);
+					draw_sprite_part_ext(headSprite, 0, 0, 0, 32, 16 + yy, screen_round(x) + 16, screen_round(y) - 15 - yy + (movement.y), -1, 1, c_white, 1);
 			}
 		}
     }

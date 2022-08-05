@@ -180,6 +180,24 @@
 	        if (fluttertime > 0)
 	            fluttertime = 0;
 	    }
+		
+		var _berry = instance_position(x + 10*sign(image_xscale), y - 6, obj_berry);
+		// Bite berry if yoshi's mouth is not full
+		if (_berry != noone && mouthholder == noone && !licking)
+		{
+			// Open mouth then prep to close mouth
+			licking = true;
+			alarm[1] = 5;
+	
+			// Play eating sound
+			audio_play_sound(snd_yoshi_eat, 0, false);
+
+			//Remember eaten berry
+			berry = _berry.sprite_index;
+
+			// Destroy berry
+			instance_destroy(_berry);
+		}
 	}
 
 	//Otherwise, if Mario does not exist.
