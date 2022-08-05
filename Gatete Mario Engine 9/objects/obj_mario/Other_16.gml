@@ -232,7 +232,7 @@ if (enable_control == true) && (inwall == 0) { //If the player controls are not 
             if ((holding == 2) && (xscale != 1)) {
             
                 turning = 1;
-                timer(turning_end, 12, false);
+                alarm[6] = 12;
             }
             xscale = 1;
             
@@ -272,7 +272,7 @@ if (enable_control == true) && (inwall == 0) { //If the player controls are not 
             if ((holding == 2) && (xscale != -1)) {
             
                 turning = 1;
-                timer(turning_end, 12, false);
+                alarm[6] = 12;
             }
             xscale = -1;
             
