@@ -129,21 +129,25 @@ else if (ready == 4) {
 		
 		//Otherwise, if fully faded
 		else if (ready == 5) {
+			
+			//If Mario does exist
+			if (instance_exists(obj_mario)) {
 		
-			//If Mario does not exist
-			if (obj_mario.x < x-32) {
+				//If Mario does not exist
+				if (obj_mario.x < x-32) {
 				
-				xscale = -1;
-				if (prevxscale != -1)
-					prevxscale = -1;
-			}
+					xscale = -1;
+					if (prevxscale != -1)
+						prevxscale = -1;
+				}
 			
-			//Otherwise
-			else if (obj_mario.x > x+32) {
+				//Otherwise
+				else if (obj_mario.x > x+32) {
 			
-				xscale = 1;
-				if (prevxscale != 1)
-					prevxscale = 1;
+					xscale = 1;
+					if (prevxscale != 1)
+						prevxscale = 1;
+				}
 			}
 		}
 	}

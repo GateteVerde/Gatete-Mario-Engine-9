@@ -2401,6 +2401,7 @@
     {"id":{"name":"obj_lilsparky","path":"objects/obj_lilsparky/obj_lilsparky.yy",},"order":12,},
     {"id":{"name":"spr_goldenflower_cb","path":"sprites/spr_goldenflower_cb/spr_goldenflower_cb.yy",},"order":34,},
     {"id":{"name":"spr_cardgame_cards","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"order":9,},
+    {"id":{"name":"obj_goalorb_winged","path":"objects/obj_goalorb_winged/obj_goalorb_winged.yy",},"order":2,},
     {"id":{"name":"obj_enemyparent_subcon_deact","path":"objects/obj_enemyparent_subcon_deact/obj_enemyparent_subcon_deact.yy",},"order":4,},
     {"id":{"name":"spr_slope_l","path":"sprites/spr_slope_l/spr_slope_l.yy",},"order":2,},
     {"id":{"name":"spr_noteblock_hidden","path":"sprites/spr_noteblock_hidden/spr_noteblock_hidden.yy",},"order":1,},
