@@ -12,9 +12,20 @@ if (held) {
     //Create spin thump
     with (instance_create_depth(round(bbox_left+bbox_right) / 2, round(bbox_top+bbox_bottom) / 2, -6, obj_smoke)) sprite_index = spr_spinthump;
     
-    //Destroy both brick
+    //Destroy brick
     event_user(0);
-    with (other) event_user(0);
+	if (sprite_index == spr_brick_green_th) {
+		
+		instance_create_layer(x, y, "Main", obj_explosion_lite);
+	}
+	
+    //Destroy the other block
+    with (other) {
+			
+		event_user(0);
+		if (sprite_index == spr_brick_green_th)
+			instance_create_layer(x, y, "Main", obj_explosion_lite);
+	}
 }
 
 //Otherwise, just shatter the other one
@@ -92,7 +103,11 @@ else {
 		#endregion
 		
 		//Shatter other block
-        with (other) 
+        with (other) {
+			
 			event_user(0);
+			if (sprite_index == spr_brick_green_th)
+				instance_create_layer(x, y, "Main", obj_explosion_lite);
+		}
 	}
 }
