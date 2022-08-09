@@ -26,7 +26,7 @@ if (image_alpha == 1) {
 		}
 
 		//Clear the level
-		global.clear = secret_exit;
+		global.clear = (secret_exit == true) ? 2 : 1;
 
 		//Forget check points
 		global.checkpoint = noone;
