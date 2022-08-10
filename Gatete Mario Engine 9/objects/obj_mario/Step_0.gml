@@ -922,6 +922,9 @@ if (yspeed < 0)
 	//Check for a block above
 	var block_u = collision_rectangle(bbox_left, bbox_top - 2, bbox_right, bbox_top, obj_blockparent, 0, 0);
 	
+	//Check for a bridge above
+	var bridge_u = collision_rectangle(bbox_left, bbox_top - 2, bbox_right, bbox_top, obj_platform_bridge, 0, 0);
+	
 	//Prevent the player from getting stuck on a ceiling when jumping/climbing
 	if (state > playerstate.walk) {
 			
@@ -955,6 +958,13 @@ if (yspeed < 0)
 			//Create block specific events
 			event_user(0);
 		}
+	}
+	
+	//Bump bridge if there's one in position
+	if ((bridge_u) && (bridge_u.image_speed == 0)) {
+		
+		with (bridge_u)
+			event_user(0);
 	}
 		
 	//If the player does not have the frog/penguin powerups and it's not climbing
