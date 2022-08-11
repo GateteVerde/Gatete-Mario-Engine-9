@@ -1,4 +1,4 @@
-///Net koopa logic
+/// @description Yellow Net koopa logic
 
 //Manage pseudo movement variables
 if (freeze == false) {
