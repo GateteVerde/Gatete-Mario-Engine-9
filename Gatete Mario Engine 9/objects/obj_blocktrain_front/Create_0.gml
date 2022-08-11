@@ -1,5 +1,8 @@
 /// @description Block Train Front
 
+//Inherit the parent event
+event_inherited();
+
 //Make it solid
 issolid = true;
 
