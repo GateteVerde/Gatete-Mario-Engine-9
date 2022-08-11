@@ -87,10 +87,3 @@ else if (!position_meeting(x+8, y+8, obj_coin)) {
 
 //Make another object
 alarm[0] = 16;
-
-//Destroy on contact with coins, solids or semisolids
-if ((xspeed > 0) && ((position_meeting(x + 16, y + 8, obj_coin)) || (position_meeting(x + 16, y + 8, obj_solid))))
-|| ((yspeed < 0) && ((position_meeting(x + 8, y - 1, obj_coin)) || (position_meeting(x + 8, y - 1, obj_solid))))
-|| ((xspeed < 0) && ((position_meeting(x - 1, y + 8, obj_coin)) || (position_meeting(x - 1, y + 8, obj_solid))))
-|| ((yspeed > 0) && ((position_meeting(x + 8, y + 16, obj_coin)) || (position_meeting(x + 8, y + 16, obj_semisolid))))
-	instance_destroy();
