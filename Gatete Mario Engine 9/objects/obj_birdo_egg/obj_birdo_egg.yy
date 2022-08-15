@@ -1,16 +1,19 @@
 {
   "spriteId": {
-    "name": "spr_npc_subcon",
-    "path": "sprites/spr_npc_subcon/spr_npc_subcon.yy",
+    "name": "spr_birdo_egg",
+    "path": "sprites/spr_birdo_egg/spr_birdo_egg.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_mask_npc_common_16x16",
+    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
+  },
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemyparent_deact",
-    "path": "objects/obj_enemyparent_deact/obj_enemyparent_deact.yy",
+    "name": "obj_enemyparent_subcon",
+    "path": "objects/obj_enemyparent_subcon/obj_enemyparent_subcon.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,19 +29,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":12,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Special/Parents/NPCs/Enemy.yy",
+    "name": "Birdo",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Boss/Birdo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemyparent_subcon_deact",
+  "name": "obj_birdo_egg",
   "tags": [],
   "resourceType": "GMObject",
 }
