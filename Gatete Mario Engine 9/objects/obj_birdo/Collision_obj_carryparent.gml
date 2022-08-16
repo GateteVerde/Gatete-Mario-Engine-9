@@ -1,7 +1,11 @@
 /// @description Damage Birdo
 
 //If the Birdo is vulnerable
-if (invulnerable == false) {
+if (invulnerable == false) 
+&& (other.sprite_index != spr_birdo_bowtie_pickup) {
+	
+	//Play 'Kick' sound
+	audio_play_sound(snd_kick, 0, false);
 
 	//If the Birdo still has hp
 	if (hp > 1) {

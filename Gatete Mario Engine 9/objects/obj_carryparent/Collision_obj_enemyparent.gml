@@ -2,7 +2,8 @@
 
 if (yspeed > 0)
 && (held == false) 
-&& (other.vulnerable < 99) {
+&& (other.vulnerable < 99) 
+&& (sprite_index != spr_birdo_bowtie_pickup) {
 
 	#region GET POINTS BASED ON ENEMIES HIT
 	

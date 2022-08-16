@@ -73,6 +73,12 @@ event_inherited();
 		yadd = 0.15;
 	#endregion
 	
+	//Set pick up flag
+	if (bowtie == 1)
+		isheavy = 0;
+	else
+		isheavy = 2;
+	
 #endregion
 
 //Face towards Mario

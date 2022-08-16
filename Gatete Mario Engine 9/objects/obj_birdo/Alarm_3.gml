@@ -1,16 +1,11 @@
-/// @description Resume movement
+/// @description Move again
 
-//Set the sprite
-sprite_index = spr_birdo;
+//Play 'Spit' sound
+audio_play_sound(snd_yoshi_spit, 0, false);
 
 //Resume movement
-image_speed = 1;
+alarm[4] = 30;
 
-//Shoot an egg
-alarm[1] = irandom_range(60, 180);
-
-//End shooting
-shooting = 0;
-
-//Set the horizontal speed
-xspeed = 0.5 * dir;
+//Shoot a egg
+with (instance_create_depth(x + 8 * sign(xscale), y - 12, -4, obj_birdo_egg))
+	xspeed = 1.5 * sign(other.xscale);

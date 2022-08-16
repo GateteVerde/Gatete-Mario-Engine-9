@@ -1,27 +1,18 @@
-/// @description Shoot an egg
+/// @description Jump
 
-//If Birdo is not jumping or it has been hurt
-if (jumping > 0)
-|| (invulnerable == true) {
-	
-	alarm[1] = 1;
-	exit;
+//If Birdo is not shooting
+if (shooting == 0) {
+
+	//Stop animation
+	image_speed = 0;
+
+	//Stop horizontal speed
+	xspeed = 0;
+
+	//Hop
+	yspeed = -2;
+	y--;
+
+	//Jump
+	jumping = 1;
 }
-
-//Set the shooting sprite
-sprite_index = spr_birdo_shoot;
-
-//Set shooting phase
-shooting = 1;
-
-//Stop moving horizontal
-xspeed = 0;
-
-//Do not animate
-image_speed = 0;
-
-//Reset alarms
-alarm[0] = -1;
-
-//Shoot the egg
-alarm[2] = 30;

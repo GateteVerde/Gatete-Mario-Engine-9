@@ -1,11 +1,27 @@
-/// @description Move again
+/// @description Shoot an egg
 
-//Play 'Spit' sound
-audio_play_sound(snd_yoshi_spit, 0, false);
+//If Birdo is not jumping or it has been hurt
+if (jumping > 0)
+|| (invulnerable == true) {
+	
+	alarm[2] = 1;
+	exit;
+}
 
-//Resume movement
+//Set the shooting sprite
+sprite_index = spr_birdo_shoot;
+
+//Set shooting phase
+shooting = 1;
+
+//Stop moving horizontal
+xspeed = 0;
+
+//Do not animate
+image_speed = 0;
+
+//Reset alarms
+alarm[1] = -1;
+
+//Shoot the egg
 alarm[3] = 30;
-
-//Shoot a egg
-with (instance_create_depth(x + 8 * sign(xscale), y - 12, -4, obj_birdo_egg))
-	xspeed = 1.5 * sign(other.xscale);

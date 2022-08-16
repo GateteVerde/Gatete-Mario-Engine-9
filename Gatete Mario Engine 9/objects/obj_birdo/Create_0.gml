@@ -4,7 +4,7 @@
 event_inherited();
 
 //Is this enemy heavy?
-isheavy = 2;
+isheavy = 0;
 
 //How vulnerable is this enemy to various items
 vulnerable = 99;
@@ -26,6 +26,9 @@ jumping = 0;
 
 //Whether birdo is about to spit an egg
 shooting = 0;
+
+//Whether birdo is wearing her bowtie
+bowtie = 1;
 
 //Do not animate
 image_speed = 0;

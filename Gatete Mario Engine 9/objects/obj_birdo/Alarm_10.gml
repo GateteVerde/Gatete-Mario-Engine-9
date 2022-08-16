@@ -7,10 +7,10 @@ if (shooting == 0) {
 	image_speed = 1;
 
 	//Jump
-	alarm[0] = irandom_range(16, 64)
+	alarm[1] = irandom_range(16, 64)
 
 	//Shoot an egg
-	alarm[1] = irandom_range(60, 180);
+	alarm[2] = 180;
 
 	//Set the horizontal speed
 	xspeed = 0.5 * dir;
