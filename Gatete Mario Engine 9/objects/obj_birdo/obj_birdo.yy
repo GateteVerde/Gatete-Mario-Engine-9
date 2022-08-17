@@ -40,6 +40,7 @@
   ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"drop_crystal","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"type","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

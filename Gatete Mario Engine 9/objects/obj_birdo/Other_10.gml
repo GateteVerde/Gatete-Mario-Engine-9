@@ -4,10 +4,10 @@
 imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
 
 //Hereby sprite
-imdead.sprite_index = spr_birdo_damage;
+imdead.sprite_index = spr_birdo_dead;
 
 //Hereby frame
-imdead.image_index = image_index;
+imdead.image_index = type;
 
 //Hereby facing direction
 imdead.image_xscale = xscale;

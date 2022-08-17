@@ -30,6 +30,9 @@ shooting = 0;
 //Whether birdo is wearing her bowtie
 bowtie = 1;
 
+//Fires
+fires = 3;
+
 //Do not animate
 image_speed = 0;
 image_index = 0;

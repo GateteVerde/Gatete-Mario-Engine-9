@@ -1,7 +1,7 @@
 /// @description Finish pull
 
 //If Birdo is still wearing her bowtie
-if (bowtie == 1) {
+if ((bowtie == 1) && (type > 0)) {
 
 	//If the puller object does exist
 	if (instance_exists(obj_mario_puller)) {

@@ -74,7 +74,7 @@ event_inherited();
 	#endregion
 	
 	//Set pick up flag
-	if (bowtie == 1)
+	if ((bowtie == 1) && (type > 0))
 		isheavy = 0;
 	else
 		isheavy = 2;

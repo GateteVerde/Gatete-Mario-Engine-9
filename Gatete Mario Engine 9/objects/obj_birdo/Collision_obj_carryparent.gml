@@ -17,8 +17,7 @@ if (invulnerable == false)
 		sprite_index = spr_birdo_damage;
 		
 		//Do not animate
-		image_speed = 0;
-		image_index = 0;
+		image_speed = 1;
 		
 		#region STOP
 		
