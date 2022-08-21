@@ -64,7 +64,8 @@ else if ((jumping == 2) && (y > ystart)) {
 
 //Face towards Mario
 if (!instance_exists(obj_mario))
-|| (obj_mario.x < x)
+	xscale = -1;
+else if (obj_mario.x < x)
     xscale = -1;
 else
     xscale = 1;

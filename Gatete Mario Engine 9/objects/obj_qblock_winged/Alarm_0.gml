@@ -15,7 +15,8 @@ else {
     
 		//Move towards Mario
         if (!instance_exists(obj_mario))
-        || (obj_mario.x < x+8)
+			hspeed = -1;
+        else if (obj_mario.x < x+8)
             hspeed = -1;
         else
             hspeed = 1;
@@ -27,8 +28,9 @@ else {
     
         //Move towards Mario
         if (!instance_exists(obj_mario))
-        || (obj_mario.x < x+8)
             dir = -1;
+		else if (obj_mario.x < x+8)
+			dir = -1;
         else
             dir = 1;
     }

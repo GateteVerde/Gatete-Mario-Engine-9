@@ -10,7 +10,10 @@ with (instance_create_depth(x, y, -2, obj_beachkoopa_blue)) {
     sprite_index = spr_beachkoopa_blue;
     
     //Set the horizontal speed
-    xspeed = 3*sign(obj_mario.xscale);
+	if (instance_exists(obj_mario))
+		xspeed = 3*sign(obj_mario.xscale);
+	else
+		xspeed = 3;
     
     //Do not allow movement
     ready = 0;

@@ -19,7 +19,7 @@ if (instance_exists(obj_mario_puller)) {
 }
 
 //Otherwise, generate a coin
-else {
+else if (instance_exists(obj_mario)) {
 	
 	//Create 1up mushroom
 	with (instance_create_depth(obj_mario.x, obj_mario.bbox_top-16, -4, obj_1up)) {

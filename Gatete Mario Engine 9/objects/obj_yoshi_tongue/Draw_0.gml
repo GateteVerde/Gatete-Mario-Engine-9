@@ -1,5 +1,11 @@
 /// @description Render tongue
 
+//Don't perform draw code if Mario doesn't exist
+if (!instance_exists(obj_mario))
+{
+	exit;
+}
+
 //Draw eaten item
 if (hunger) {
 

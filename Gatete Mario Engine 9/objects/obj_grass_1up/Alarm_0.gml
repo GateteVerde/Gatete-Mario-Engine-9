@@ -1,7 +1,7 @@
 /// @description Create a 1-UP mushroom
 
 //If the puller object does exist
-if (instance_exists(obj_mario_puller)) {
+if (instance_exists(obj_mario_puller) && instance_exists(obj_mario)) {
 	
 	//Play 'Pickup' sound
 	audio_play_sound(snd_pickup, 0, false);

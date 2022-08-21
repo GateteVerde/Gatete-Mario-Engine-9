@@ -9,6 +9,10 @@ imdead.sprite_index = spr_beachkoopa_blue_super_dead;
 //Hereby facing direction
 imdead.image_xscale = xscale;
 
+//Don't execute any further code if killer doesn't exist anymore
+if (!instance_exists(killer_id))
+	exit;
+
 //Hereby ID horizontal speed
 if (killer_id != -1) {
 
