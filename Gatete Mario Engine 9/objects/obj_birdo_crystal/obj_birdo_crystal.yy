@@ -1,15 +1,12 @@
 {
   "spriteId": {
-    "name": "spr_panser_fire",
-    "path": "sprites/spr_panser_fire/spr_panser_fire.yy",
+    "name": "spr_crystal",
+    "path": "sprites/spr_crystal/spr_crystal.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_mask_npc_common_16x16",
-    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
     "name": "obj_physicsparent",
@@ -28,9 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -39,7 +35,7 @@
     "path": "folders/Objects/Special/Do Not Use!/Enemies/Boss/Birdo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_birdo_fire",
+  "name": "obj_birdo_crystal",
   "tags": [],
   "resourceType": "GMObject",
 }

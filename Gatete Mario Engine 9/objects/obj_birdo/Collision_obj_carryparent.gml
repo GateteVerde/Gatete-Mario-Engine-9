@@ -31,6 +31,9 @@ if (invulnerable == false)
 		
 		//Decrement hp
 		hp--;
+		
+		//End shooting
+		shooting = 0;
 	
 		//Set hurt state
 		alarm[11] = 60;
@@ -45,6 +48,17 @@ if (invulnerable == false)
 		
 		//Get 2000 points
 		with (instance_create_depth(x, y, -6, obj_score)) value = 2000;
+		
+		//Create crystal if allowed to
+		if (drop_crystal == true) {
+
+			with (instance_create_depth(x, y-16, -2, obj_birdo_crystal)) {
+	
+				xspeed = 0.5 * other.xscale-1;
+				yspeed = -4;
+				y--;
+			}
+		}
 		
 		//Defeat
 		event_user(0);

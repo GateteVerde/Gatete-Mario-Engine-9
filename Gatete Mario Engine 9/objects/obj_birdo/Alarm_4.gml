@@ -7,7 +7,7 @@ sprite_index = spr_birdo;
 image_speed = 1;
 
 //Shoot an egg
-alarm[2] = (type > 0) ? 90 : 180;
+alarm[2] = 180;
 
 //End shooting
 shooting = 0;

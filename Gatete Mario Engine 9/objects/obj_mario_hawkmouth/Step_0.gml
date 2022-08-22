@@ -17,10 +17,10 @@ if (ready == 0) {
 }
 
 //Animate cape if it is visible
-cape_anim += 0.065+abs(xspeed)/7.5;
+cape_anim += 0.065+abs(hspeed)/7.5;
 
 //Animate Yoshi if riding one
-anim += 0.065+abs(xspeed)/7.5;
+anim += 0.065+abs(hspeed)/7.5;
 if (anim > 2.99) {
 	
 	anim = 0;
