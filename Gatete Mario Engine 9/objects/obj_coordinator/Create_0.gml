@@ -18,48 +18,48 @@ init_shockwave();
 //Gameplay variables
 #region GAMEPLAY VARIABLES
 
-//Gameplay Macros (Edit this when releasing your game)
-#macro LEVEL_AMOUNT	   10; //Number of levels this game have, this variable is used for the star coins
-#macro EXITS_AMOUNT	   20; //Number of exits this game have		
-#macro STARS_AMOUNT		1; //Number of power stars this game have
+	//Gameplay Macros (Edit this when releasing your game)
+	#macro LEVEL_AMOUNT	   10; //Number of levels this game have, this variable is used for the star coins
+	#macro EXITS_AMOUNT	   20; //Number of exits this game have		
+	#macro STARS_AMOUNT		1; //Number of power stars this game have
 
-//Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
-//false:	Integer rounding similar to GBA/SNES
-//true:		Smoother sub-pixel float movement
-global.subpixels = true;
+	//Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
+	//false:	Integer rounding similar to GBA/SNES
+	//true:		Smoother sub-pixel float movement
+	global.subpixels = true;
 
-//Turn enemies into coins when hit with a fireball
-//0: Disabled
-//1: Enabled
-global.enemy_to_coin = false;
+	//Turn enemies into coins when hit with a fireball
+	//0: Disabled
+	//1: Enabled
+	global.enemy_to_coin = false;
 	
-//Makes Mario able or not able to perform his 3D moves (Wall-Jump, Triple Jump, etc...)
-//0: Disabled
-//1: Enabled
-global.special_moves = true;
+	//Makes Mario able or not able to perform his 3D moves (Wall-Jump, Triple Jump, etc...)
+	//0: Disabled
+	//1: Enabled
+	global.special_moves = true;
 
-//Makes Mario bounce on note blocks from any side
-global.noteblock_all_sides = false;
+	//Makes Mario bounce on note blocks from any side
+	global.noteblock_all_sides = false;
 
-//Flight time (In seconds, how much time allow Mario to fly as Raccoon/Tanooki Mario)
-global.flighttime = 4;
+	//Flight time (In seconds, how much time allow Mario to fly as Raccoon/Tanooki Mario)
+	global.flighttime = 4;
 
-//Climb time (In seconds, how much time allow Mario to climb walls as Cat Mario)
-global.cattime = 3;
+	//Climb time (In seconds, how much time allow Mario to climb walls as Cat Mario)
+	global.cattime = 3;
 
-//Maximum amount of hearts
-global.safeguard_max = 3;
+	//Maximum amount of hearts
+	global.safeguard_max = 3;
 
-//Allow reserve of items if enabled
-//0: Disabled
-//1: Enabled
-global.reserve_activated = true;
+	//Allow reserve of items if enabled
+	//0: Disabled
+	//1: Enabled
+	global.reserve_activated = true;
 
-//Play P-meter sound?
-global.pmeter_sound = true;
+	//Play P-meter sound?
+	global.pmeter_sound = true;
 
-//How long it takes for Mario's P-meter to fill up
-global.pmeter_limit = 144;
+	//How long it takes for Mario's P-meter to fill up
+	global.pmeter_limit = 144;
 
 #endregion
 
