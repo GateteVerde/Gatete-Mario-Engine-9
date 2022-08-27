@@ -1,4 +1,4 @@
-/// @description Corrdinator draw
+/// @description Coordinator draw
 
 //Do not draw
 exit;

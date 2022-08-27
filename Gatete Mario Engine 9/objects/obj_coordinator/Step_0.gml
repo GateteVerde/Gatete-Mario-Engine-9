@@ -1,5 +1,6 @@
 /// @desc Stay always in front and update timers
 
+//Set percentage variables
 var level_amount = LEVEL_AMOUNT;
 var exits_amount = EXITS_AMOUNT;
 var pstar_amount = STARS_AMOUNT;
