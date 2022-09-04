@@ -51,8 +51,8 @@ else {
 	//Otherwise
 	else {
 		
-		//If the score is over 999
-		if (value > 999) {
+		//If the score is over 799
+		if (value > 799) {
 			
 			//Set the big font
 			draw_set_font(font_big);
