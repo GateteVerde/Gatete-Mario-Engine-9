@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d7884abe-70e7-40a2-8af2-fdde734e29ca","path":"sprites/spr_weaponblock_flower/spr_weaponblock_flower.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d7884abe-70e7-40a2-8af2-fdde734e29ca","path":"sprites/spr_weaponblock_flower/spr_weaponblock_flower.yy",},"LayerId":{"name":"907fc7c2-0c7a-43b1-8ae7-0d34962acb27","path":"sprites/spr_weaponblock_flower/spr_weaponblock_flower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_weaponblock_flower","path":"sprites/spr_weaponblock_flower/spr_weaponblock_flower.yy",},"resourceVersion":"1.0","name":"d7884abe-70e7-40a2-8af2-fdde734e29ca","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7c22ab4d-7af0-4922-be88-1c4e57c3ecc7","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7c22ab4d-7af0-4922-be88-1c4e57c3ecc7","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},"LayerId":{"name":"7a02183b-bdd5-4a1e-9202-4fb6229cfb6e","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_iceblock_coin","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},"resourceVersion":"1.0","name":"7c22ab4d-7af0-4922-be88-1c4e57c3ecc7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_weaponblock_flower","path":"sprites/spr_weaponblock_flower/spr_weaponblock_flower.yy",},
+    "spriteId": {"name":"spr_iceblock_coin","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cbe656a1-1dea-47e4-9e98-d74f05f4fdec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7884abe-70e7-40a2-8af2-fdde734e29ca","path":"sprites/spr_weaponblock_flower/spr_weaponblock_flower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"9bd56b4c-8e7a-4a9f-b740-e4ccc133d988","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c22ab4d-7af0-4922-be88-1c4e57c3ecc7","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_weaponblock_flower","path":"sprites/spr_weaponblock_flower/spr_weaponblock_flower.yy",},
+    "parent": {"name":"spr_iceblock_coin","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_weaponblock_flower",
+    "name": "spr_iceblock_coin",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"907fc7c2-0c7a-43b1-8ae7-0d34962acb27","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a02183b-bdd5-4a1e-9202-4fb6229cfb6e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Weapon Blocks",
-    "path": "folders/Sprites/Blocks/Weapon Blocks.yy",
+    "name": "Items",
+    "path": "folders/Sprites/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_weaponblock_flower",
+  "name": "spr_iceblock_coin",
   "tags": [],
   "resourceType": "GMSprite",
 }
