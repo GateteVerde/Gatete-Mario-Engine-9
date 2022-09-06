@@ -13,6 +13,14 @@ function save() {
 	file_text_write_string(file, ds_map_write(global.worldmap_beaten));
 	file_text_writeln(file);
 	
+	//Turn the card minigame data structure into a string, and write it
+	file_text_write_string(file, ds_map_write(global.cardgame));
+	file_text_writeln(file);
+	
+	//Turn the card minigame pattern into a string and write it
+	file_text_write_string(file, base64_encode(string(global.cardpattern)));
+	file_text_writeln(file);
+	
 	//Turn the star coin data structure into a string and write it
 	for (var i = 0; i < 3; i++) {
 

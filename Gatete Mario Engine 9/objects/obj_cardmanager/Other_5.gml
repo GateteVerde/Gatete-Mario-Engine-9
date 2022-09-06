@@ -22,25 +22,13 @@ if (count == 18) {
 else {
 
     //Remember the number of cards flipped
-    if (ds_map_exists(global.cardgame, "count")) {
-    
-        ds_map_replace(global.cardgame, "count", count);
-    }
-    else
-        ds_map_add(global.cardgame, "count", count)
+    ds_map_replace(global.cardgame, "count", count);
 
     //For all cards
     with (obj_card) {
 
         //Remember cards that are flipped
-        if (sprite_index = spr_cardgame_cards) {
-        
-            if (ds_map_exists(global.cardgame, string(id))) {
-            
-                ds_map_replace(global.cardgame, string(id), 1);
-            }
-            else
-                ds_map_add(global.cardgame, string(id), 1);
-        }
+        if (sprite_index = spr_cardgame_cards)
+            ds_map_replace(global.cardgame, string(id), 1);
     }
 }

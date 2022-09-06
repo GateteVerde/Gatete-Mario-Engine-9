@@ -13,6 +13,14 @@ function load() {
 	ds_map_read(global.worldmap_beaten, file_text_read_string(file));
 	file_text_readln(file);
 	
+	//Load the card minigame data structure
+	ds_map_read(global.cardgame, file_text_read_string(file))
+	file_text_readln(file);
+	
+	//Load the card minigame pattern
+	global.cardpattern = real(base64_decode(file_text_read_string(file)));
+	file_text_readln(file);
+	
 	//Load the star coin data
 	for (var i = 0; i < 3; i++) {
 
