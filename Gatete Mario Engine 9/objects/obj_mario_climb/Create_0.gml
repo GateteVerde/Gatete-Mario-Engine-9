@@ -12,6 +12,13 @@ climb = 0;
 //Whether the player is flashing
 isflashing = 0;
 
+//Whether the player is holding an item
+holding = 0;
+
+//Handle the held item sprite and frame
+myitem = -1;
+myframe = 0;
+
 //Move to the bottom of the screen
 y = room_height+16;
 

@@ -4,7 +4,8 @@
 event_inherited();
 
 //If Mario is holding this item
-if (held == true) {
+if (held == true) 
+&& (instance_exists(obj_mario)) {
 
 	//If Mario is jumping and not swimming
 	if (obj_mario.swimming == 0)

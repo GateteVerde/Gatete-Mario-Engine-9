@@ -35,5 +35,5 @@ if (held)
 if (instance_exists(mysolid)) {
 
 	mysolid.x = x-8;
-	mysolid.y = bbox_top + 2;
+	mysolid.y = (held == 1) ? -1000 : bbox_top + 1.5;
 }

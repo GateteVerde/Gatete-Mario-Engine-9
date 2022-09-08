@@ -1,5 +1,14 @@
 /// @description Render me
 
+//If the player is holding something and it is moving vertically
+if (holding == 1) {
+		
+	if (global.powerup == cs_small)
+		draw_sprite_ext(myitem, myframe, screen_round(x), screen_round(y)-2, 1, 1, 0, c_white, 1);
+	else
+		draw_sprite_ext(myitem, myframe, screen_round(x), screen_round(y)-4, 1, 1, 0, c_white, 1);
+}
+
 //Set palette
 pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
 
