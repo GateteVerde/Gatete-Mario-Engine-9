@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_football_duck",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"LayerId":{"name":"c014b190-4d38-4c5d-9d59-7a5ff0c0ee0b","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_football_duck","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"08357cfe-a28e-46bb-889f-e330f758d076","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08357cfe-a28e-46bb-889f-e330f758d076","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"LayerId":{"name":"c014b190-4d38-4c5d-9d59-7a5ff0c0ee0b","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_football_duck","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","name":"08357cfe-a28e-46bb-889f-e330f758d076","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"LayerId":{"name":"c014b190-4d38-4c5d-9d59-7a5ff0c0ee0b","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_football_duck","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08357cfe-a28e-46bb-889f-e330f758d076",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"14cd374d-4bf3-425d-bbb8-f344bef217f0",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_football_duck","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"98394ec1-ac34-4d0e-aada-3b1953c18e35","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"51315f0b-e88d-48aa-83a0-de1bb87598b3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08357cfe-a28e-46bb-889f-e330f758d076","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0c9d3236-d4df-4ad9-b688-d0401a40cf7a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_football_duck","path":"sprites/spr_mario_football_duck/spr_mario_football_duck.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c014b190-4d38-4c5d-9d59-7a5ff0c0ee0b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c014b190-4d38-4c5d-9d59-7a5ff0c0ee0b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Football",
     "path": "folders/Sprites/Mario/Main/Football.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_football_duck",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_baseball",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b253b268-f87d-43c0-a807-e83472605e18","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b253b268-f87d-43c0-a807-e83472605e18","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":{"name":"07f41c81-864c-4900-9732-1360d7e1530c","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_baseball","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"b253b268-f87d-43c0-a807-e83472605e18","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ec712f6d-fae2-4ac1-a8eb-d709bc8436a8","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ec712f6d-fae2-4ac1-a8eb-d709bc8436a8","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":{"name":"07f41c81-864c-4900-9732-1360d7e1530c","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_baseball","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"ec712f6d-fae2-4ac1-a8eb-d709bc8436a8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dd818225-44b9-4daa-ab11-fdc952a22f98","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dd818225-44b9-4daa-ab11-fdc952a22f98","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":{"name":"07f41c81-864c-4900-9732-1360d7e1530c","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_baseball","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"dd818225-44b9-4daa-ab11-fdc952a22f98","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"66ba7d82-6722-46ad-b863-78e5f19a2afa","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66ba7d82-6722-46ad-b863-78e5f19a2afa","path":"sprites/spr_baseball/spr_baseball.yy",},"LayerId":{"name":"07f41c81-864c-4900-9732-1360d7e1530c","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_baseball","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","name":"66ba7d82-6722-46ad-b863-78e5f19a2afa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b253b268-f87d-43c0-a807-e83472605e18",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ec712f6d-fae2-4ac1-a8eb-d709bc8436a8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd818225-44b9-4daa-ab11-fdc952a22f98",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"66ba7d82-6722-46ad-b863-78e5f19a2afa",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_baseball","path":"sprites/spr_baseball/spr_baseball.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_baseball",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"047f8bc3-3aec-470c-b75a-e4f63c1d2803","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b253b268-f87d-43c0-a807-e83472605e18","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"194e6c4a-7d5b-49ee-92af-9000aaaa228f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec712f6d-fae2-4ac1-a8eb-d709bc8436a8","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"60cb6f45-4dea-40ca-94eb-0fdff2667b79","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dd818225-44b9-4daa-ab11-fdc952a22f98","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9d978756-ee8b-409a-9ff9-f417a9f8f6c5","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66ba7d82-6722-46ad-b863-78e5f19a2afa","path":"sprites/spr_baseball/spr_baseball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_baseball","path":"sprites/spr_baseball/spr_baseball.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_baseball",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"07f41c81-864c-4900-9732-1360d7e1530c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"07f41c81-864c-4900-9732-1360d7e1530c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Confused Chuck",
     "path": "folders/Sprites/Enemies/Land/Chucks/Confused Chuck.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_baseball",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

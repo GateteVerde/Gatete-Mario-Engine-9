@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_tanooki_walljump",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9ddd1225-e6f9-4d1c-a453-670b2a802367","path":"sprites/spr_mario_tanooki_walljump/spr_mario_tanooki_walljump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ddd1225-e6f9-4d1c-a453-670b2a802367","path":"sprites/spr_mario_tanooki_walljump/spr_mario_tanooki_walljump.yy",},"LayerId":{"name":"66b75258-7b84-455b-9524-0a1d610a6160","path":"sprites/spr_mario_tanooki_walljump/spr_mario_tanooki_walljump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_walljump","path":"sprites/spr_mario_tanooki_walljump/spr_mario_tanooki_walljump.yy",},"resourceVersion":"1.0","name":"9ddd1225-e6f9-4d1c-a453-670b2a802367","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ddd1225-e6f9-4d1c-a453-670b2a802367",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_tanooki_walljump","path":"sprites/spr_mario_tanooki_walljump/spr_mario_tanooki_walljump.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"19209ea2-8156-4567-bcf0-0d58e2e7d3b0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ddd1225-e6f9-4d1c-a453-670b2a802367","path":"sprites/spr_mario_tanooki_walljump/spr_mario_tanooki_walljump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_tanooki_walljump","path":"sprites/spr_mario_tanooki_walljump/spr_mario_tanooki_walljump.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"66b75258-7b84-455b-9524-0a1d610a6160","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"66b75258-7b84-455b-9524-0a1d610a6160","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tanooki",
     "path": "folders/Sprites/Mario/Main/Tanooki.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_tanooki_walljump",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

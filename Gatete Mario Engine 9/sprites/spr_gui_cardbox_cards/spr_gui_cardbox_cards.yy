@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_gui_cardbox_cards",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e045e0e9-4eda-49d0-adce-ca10c75de85c","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e045e0e9-4eda-49d0-adce-ca10c75de85c","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"LayerId":{"name":"de81ce80-fa8e-4942-803e-0e10e05a27ac","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gui_cardbox_cards","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","name":"e045e0e9-4eda-49d0-adce-ca10c75de85c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bc38e121-d727-4436-94a6-715778acaf58","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc38e121-d727-4436-94a6-715778acaf58","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"LayerId":{"name":"de81ce80-fa8e-4942-803e-0e10e05a27ac","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gui_cardbox_cards","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","name":"bc38e121-d727-4436-94a6-715778acaf58","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f88f8a54-7122-4e7d-884d-918129681259","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f88f8a54-7122-4e7d-884d-918129681259","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"LayerId":{"name":"de81ce80-fa8e-4942-803e-0e10e05a27ac","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gui_cardbox_cards","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","name":"f88f8a54-7122-4e7d-884d-918129681259","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e045e0e9-4eda-49d0-adce-ca10c75de85c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc38e121-d727-4436-94a6-715778acaf58",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f88f8a54-7122-4e7d-884d-918129681259",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_gui_cardbox_cards","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_gui_cardbox_cards",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,14 +42,14 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 3.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"af58f151-b2c9-4936-a9cd-321e3570c961","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e045e0e9-4eda-49d0-adce-ca10c75de85c","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"df990ef3-838d-4e2a-bc05-6d17e2c4f0bf","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc38e121-d727-4436-94a6-715778acaf58","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"24c4c2d0-30a0-4b0a-8a1d-4963ccaa7d70","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f88f8a54-7122-4e7d-884d-918129681259","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"af58f151-b2c9-4936-a9cd-321e3570c961","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e045e0e9-4eda-49d0-adce-ca10c75de85c","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"df990ef3-838d-4e2a-bc05-6d17e2c4f0bf","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc38e121-d727-4436-94a6-715778acaf58","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"24c4c2d0-30a0-4b0a-8a1d-4963ccaa7d70","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f88f8a54-7122-4e7d-884d-918129681259","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_gui_cardbox_cards","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_gui_cardbox_cards",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"de81ce80-fa8e-4942-803e-0e10e05a27ac","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"de81ce80-fa8e-4942-803e-0e10e05a27ac","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SMB3",
     "path": "folders/Sprites/Special/System/GUI/In-Level/SMB3.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_gui_cardbox_cards",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_platform_pulley_rope",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},"LayerId":{"name":"8c912ae9-46cd-40ce-b11b-11181fc24404","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_platform_pulley_rope","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},"resourceVersion":"1.0","name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_platform_pulley_rope","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_platform_pulley_rope",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7bdd7bd7-f5cd-443b-8a97-fb9ad4272333","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_platform_pulley_rope","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_platform_pulley_rope",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8c912ae9-46cd-40ce-b11b-11181fc24404","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8c912ae9-46cd-40ce-b11b-11181fc24404","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Common",
     "path": "folders/Sprites/Items/Platforms/Common.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_platform_pulley_rope",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

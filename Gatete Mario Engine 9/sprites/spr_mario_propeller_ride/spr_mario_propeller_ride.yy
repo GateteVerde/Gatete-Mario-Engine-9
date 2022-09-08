@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_propeller_ride",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f4d63ccf-38ed-4834-9b5f-168bb41f7614","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f4d63ccf-38ed-4834-9b5f-168bb41f7614","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"LayerId":{"name":"78dd11fd-146c-4505-bb42-ee6d41251ab2","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_ride","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"resourceVersion":"1.0","name":"f4d63ccf-38ed-4834-9b5f-168bb41f7614","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3256caa5-7adc-49bc-90c0-2e59d23f2b89","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3256caa5-7adc-49bc-90c0-2e59d23f2b89","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"LayerId":{"name":"78dd11fd-146c-4505-bb42-ee6d41251ab2","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_ride","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"resourceVersion":"1.0","name":"3256caa5-7adc-49bc-90c0-2e59d23f2b89","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f4d63ccf-38ed-4834-9b5f-168bb41f7614",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3256caa5-7adc-49bc-90c0-2e59d23f2b89",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_propeller_ride","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5b99adf9-d9c2-410d-8c47-fcc98c871a3a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f4d63ccf-38ed-4834-9b5f-168bb41f7614","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2c52ba8d-1348-41b6-a037-9ebe0688b39d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3256caa5-7adc-49bc-90c0-2e59d23f2b89","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 27,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_propeller_ride","path":"sprites/spr_mario_propeller_ride/spr_mario_propeller_ride.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"78dd11fd-146c-4505-bb42-ee6d41251ab2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"78dd11fd-146c-4505-bb42-ee6d41251ab2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Propeller",
     "path": "folders/Sprites/Mario/Main/Propeller.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_propeller_ride",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

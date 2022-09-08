@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_cardgame_flip",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c63de0e4-d6c7-4263-82ec-5211f99b1c37","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c63de0e4-d6c7-4263-82ec-5211f99b1c37","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":{"name":"6f508892-9e79-432e-8571-e1ef0084772c","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"c63de0e4-d6c7-4263-82ec-5211f99b1c37","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"965c4610-7657-41cf-986d-a1e5cf8ca60b","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"965c4610-7657-41cf-986d-a1e5cf8ca60b","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":{"name":"6f508892-9e79-432e-8571-e1ef0084772c","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"965c4610-7657-41cf-986d-a1e5cf8ca60b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b9011045-8110-460a-91ee-849e9cc8ac39","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b9011045-8110-460a-91ee-849e9cc8ac39","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":{"name":"6f508892-9e79-432e-8571-e1ef0084772c","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"b9011045-8110-460a-91ee-849e9cc8ac39","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":{"name":"6f508892-9e79-432e-8571-e1ef0084772c","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":{"name":"6f508892-9e79-432e-8571-e1ef0084772c","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"LayerId":{"name":"6f508892-9e79-432e-8571-e1ef0084772c","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c63de0e4-d6c7-4263-82ec-5211f99b1c37",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"965c4610-7657-41cf-986d-a1e5cf8ca60b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b9011045-8110-460a-91ee-849e9cc8ac39",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_cardgame_flip",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bd4352a1-51c9-46b9-b8ed-281d4df0ebf9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c63de0e4-d6c7-4263-82ec-5211f99b1c37","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5efd1bb1-3d98-4901-a15f-aaeabfb64cf2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"965c4610-7657-41cf-986d-a1e5cf8ca60b","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"12135804-3785-4806-98c2-81e27d597bfc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b9011045-8110-460a-91ee-849e9cc8ac39","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9ddca37a-8d34-472b-9976-6a3431e6db03","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"aad3b5b6-9c75-48be-abbc-cb8daff03bfc","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a8cc80c1-f91b-4dc5-ada7-181845cd95e4","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 20,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cardgame_flip","path":"sprites/spr_cardgame_flip/spr_cardgame_flip.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_cardgame_flip",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6f508892-9e79-432e-8571-e1ef0084772c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6f508892-9e79-432e-8571-e1ef0084772c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Special",
     "path": "folders/Sprites/Special.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_cardgame_flip",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mudball",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4c775e73-5ac8-4ba7-9962-ec66bda56310","path":"sprites/spr_mudball/spr_mudball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c775e73-5ac8-4ba7-9962-ec66bda56310","path":"sprites/spr_mudball/spr_mudball.yy",},"LayerId":{"name":"407f9db3-4a9f-4436-be79-2291a51ab43a","path":"sprites/spr_mudball/spr_mudball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mudball","path":"sprites/spr_mudball/spr_mudball.yy",},"resourceVersion":"1.0","name":"4c775e73-5ac8-4ba7-9962-ec66bda56310","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"97b55217-12cd-4203-88e4-94be0891378b","path":"sprites/spr_mudball/spr_mudball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"97b55217-12cd-4203-88e4-94be0891378b","path":"sprites/spr_mudball/spr_mudball.yy",},"LayerId":{"name":"407f9db3-4a9f-4436-be79-2291a51ab43a","path":"sprites/spr_mudball/spr_mudball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mudball","path":"sprites/spr_mudball/spr_mudball.yy",},"resourceVersion":"1.0","name":"97b55217-12cd-4203-88e4-94be0891378b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c775e73-5ac8-4ba7-9962-ec66bda56310",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97b55217-12cd-4203-88e4-94be0891378b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mudball","path":"sprites/spr_mudball/spr_mudball.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mudball",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f6d9db4a-51a8-44ac-a286-a70f45bc819f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c775e73-5ac8-4ba7-9962-ec66bda56310","path":"sprites/spr_mudball/spr_mudball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"280893d3-ce16-4a6d-9749-9970027f2879","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"97b55217-12cd-4203-88e4-94be0891378b","path":"sprites/spr_mudball/spr_mudball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mudball","path":"sprites/spr_mudball/spr_mudball.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mudball",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"407f9db3-4a9f-4436-be79-2291a51ab43a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"407f9db3-4a9f-4436-be79-2291a51ab43a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Diggin' Chuck",
     "path": "folders/Sprites/Enemies/Land/Chucks/Diggin' Chuck.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mudball",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

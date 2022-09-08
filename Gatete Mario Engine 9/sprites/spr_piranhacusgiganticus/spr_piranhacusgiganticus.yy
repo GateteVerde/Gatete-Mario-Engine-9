@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_piranhacusgiganticus",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"69113f10-e230-4351-a142-711d6b7ca9ed","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69113f10-e230-4351-a142-711d6b7ca9ed","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"LayerId":{"name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_piranhacusgiganticus","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","name":"69113f10-e230-4351-a142-711d6b7ca9ed","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3eae8644-2159-44be-8b48-ccb184a99ff8","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3eae8644-2159-44be-8b48-ccb184a99ff8","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"LayerId":{"name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_piranhacusgiganticus","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","name":"3eae8644-2159-44be-8b48-ccb184a99ff8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69113f10-e230-4351-a142-711d6b7ca9ed",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3eae8644-2159-44be-8b48-ccb184a99ff8",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_piranhacusgiganticus","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_piranhacusgiganticus",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5c7f97b7-809e-481b-bc2a-26589edce0d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69113f10-e230-4351-a142-711d6b7ca9ed","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"aa292e7b-9857-46b9-a64a-d8a281bdb71f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3eae8644-2159-44be-8b48-ccb184a99ff8","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"5c7f97b7-809e-481b-bc2a-26589edce0d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69113f10-e230-4351-a142-711d6b7ca9ed","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"aa292e7b-9857-46b9-a64a-d8a281bdb71f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3eae8644-2159-44be-8b48-ccb184a99ff8","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_piranhacusgiganticus","path":"sprites/spr_piranhacusgiganticus/spr_piranhacusgiganticus.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_piranhacusgiganticus",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Big",
     "path": "folders/Sprites/Enemies/Cave/Piranha Plants/Big.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_piranhacusgiganticus",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

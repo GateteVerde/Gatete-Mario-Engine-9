@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_marker_cheepcheep_spiked",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5181d522-fdc8-481d-bb46-1ae93732bacb","path":"sprites/spr_marker_cheepcheep_spiked/spr_marker_cheepcheep_spiked.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5181d522-fdc8-481d-bb46-1ae93732bacb","path":"sprites/spr_marker_cheepcheep_spiked/spr_marker_cheepcheep_spiked.yy",},"LayerId":{"name":"87acd9a8-208e-41d8-9fa0-aa5468d7564b","path":"sprites/spr_marker_cheepcheep_spiked/spr_marker_cheepcheep_spiked.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_marker_cheepcheep_spiked","path":"sprites/spr_marker_cheepcheep_spiked/spr_marker_cheepcheep_spiked.yy",},"resourceVersion":"1.0","name":"5181d522-fdc8-481d-bb46-1ae93732bacb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5181d522-fdc8-481d-bb46-1ae93732bacb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_marker_cheepcheep_spiked","path":"sprites/spr_marker_cheepcheep_spiked/spr_marker_cheepcheep_spiked.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_marker_cheepcheep_spiked",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5fcd1dd0-3a95-49fc-8e3f-81498a8bd32f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5181d522-fdc8-481d-bb46-1ae93732bacb","path":"sprites/spr_marker_cheepcheep_spiked/spr_marker_cheepcheep_spiked.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_marker_cheepcheep_spiked","path":"sprites/spr_marker_cheepcheep_spiked/spr_marker_cheepcheep_spiked.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_marker_cheepcheep_spiked",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"87acd9a8-208e-41d8-9fa0-aa5468d7564b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"87acd9a8-208e-41d8-9fa0-aa5468d7564b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Markers",
     "path": "folders/Sprites/Special/System/Markers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_marker_cheepcheep_spiked",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

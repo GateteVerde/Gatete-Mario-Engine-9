@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_football_swim",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"LayerId":{"name":"111c27a2-fcbb-4fe1-96fa-0832a72c7acf","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_football_swim","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"LayerId":{"name":"111c27a2-fcbb-4fe1-96fa-0832a72c7acf","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_football_swim","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"LayerId":{"name":"111c27a2-fcbb-4fe1-96fa-0832a72c7acf","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_football_swim","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c6f19999-8b3c-42e7-bccd-4c62313555ad",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_football_swim","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f0b8a796-d9ed-40cc-baed-fc9094385155","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"50fbbde1-ff7b-4a2e-beb3-8e2118aa4e1c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d913f97c-a1d1-4b39-bb5e-624a936526b0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_football_swim","path":"sprites/spr_mario_football_swim/spr_mario_football_swim.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"111c27a2-fcbb-4fe1-96fa-0832a72c7acf","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"111c27a2-fcbb-4fe1-96fa-0832a72c7acf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Football",
     "path": "folders/Sprites/Mario/Main/Football.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_football_swim",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

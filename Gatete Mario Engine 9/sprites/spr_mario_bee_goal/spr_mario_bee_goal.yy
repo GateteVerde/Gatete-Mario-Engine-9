@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_bee_goal",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"264e96aa-0801-4a41-810e-bec7a1adcd59","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"264e96aa-0801-4a41-810e-bec7a1adcd59","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"LayerId":{"name":"a614e5b8-5362-4ca4-b5a7-005178e9c698","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bee_goal","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"resourceVersion":"1.0","name":"264e96aa-0801-4a41-810e-bec7a1adcd59","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1797b343-4865-43fa-97b3-c8e3a95ee468","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1797b343-4865-43fa-97b3-c8e3a95ee468","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"LayerId":{"name":"a614e5b8-5362-4ca4-b5a7-005178e9c698","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bee_goal","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"resourceVersion":"1.0","name":"1797b343-4865-43fa-97b3-c8e3a95ee468","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"264e96aa-0801-4a41-810e-bec7a1adcd59",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1797b343-4865-43fa-97b3-c8e3a95ee468",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_bee_goal","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"30367905-1f2e-44a8-99de-40c7d1600786","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"264e96aa-0801-4a41-810e-bec7a1adcd59","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7a4244ab-d1a7-4f1a-823f-88071c487418","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1797b343-4865-43fa-97b3-c8e3a95ee468","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_bee_goal","path":"sprites/spr_mario_bee_goal/spr_mario_bee_goal.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a614e5b8-5362-4ca4-b5a7-005178e9c698","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a614e5b8-5362-4ca4-b5a7-005178e9c698","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bee",
     "path": "folders/Sprites/Mario/Main/Bee.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_bee_goal",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

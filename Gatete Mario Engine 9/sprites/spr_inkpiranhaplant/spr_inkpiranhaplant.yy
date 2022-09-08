@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_inkpiranhaplant",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","path":"sprites/spr_inkpiranhaplant/spr_inkpiranhaplant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","path":"sprites/spr_inkpiranhaplant/spr_inkpiranhaplant.yy",},"LayerId":{"name":"1c648bdf-38c2-49ce-8f5f-2e536fa945d3","path":"sprites/spr_inkpiranhaplant/spr_inkpiranhaplant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_inkpiranhaplant","path":"sprites/spr_inkpiranhaplant/spr_inkpiranhaplant.yy",},"resourceVersion":"1.0","name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1ad56fe-750e-411c-8eb3-a56f3c323617",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_inkpiranhaplant","path":"sprites/spr_inkpiranhaplant/spr_inkpiranhaplant.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_inkpiranhaplant",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1713d2a9-fb58-4e0f-a500-483ad08bf6f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","path":"sprites/spr_inkpiranhaplant/spr_inkpiranhaplant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_inkpiranhaplant","path":"sprites/spr_inkpiranhaplant/spr_inkpiranhaplant.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_inkpiranhaplant",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1c648bdf-38c2-49ce-8f5f-2e536fa945d3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c648bdf-38c2-49ce-8f5f-2e536fa945d3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Piranha Plants",
     "path": "folders/Sprites/Enemies/Cave/Piranha Plants.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_inkpiranhaplant",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

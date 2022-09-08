@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_ranger_spin",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":{"name":"61d407fd-5c7c-48d5-93d7-49b5f6116e94","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_spin","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"914b5d6a-b53d-4c0d-89e1-3a70c09cc41a","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"914b5d6a-b53d-4c0d-89e1-3a70c09cc41a","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":{"name":"61d407fd-5c7c-48d5-93d7-49b5f6116e94","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_spin","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"914b5d6a-b53d-4c0d-89e1-3a70c09cc41a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f2397e15-c9f1-4fb9-b13f-58abc94a7137","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2397e15-c9f1-4fb9-b13f-58abc94a7137","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":{"name":"61d407fd-5c7c-48d5-93d7-49b5f6116e94","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_spin","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"f2397e15-c9f1-4fb9-b13f-58abc94a7137","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bbb4e9b7-85ab-4075-966f-4c2cba0eeb00","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bbb4e9b7-85ab-4075-966f-4c2cba0eeb00","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"LayerId":{"name":"61d407fd-5c7c-48d5-93d7-49b5f6116e94","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_spin","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","name":"bbb4e9b7-85ab-4075-966f-4c2cba0eeb00","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"914b5d6a-b53d-4c0d-89e1-3a70c09cc41a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f2397e15-c9f1-4fb9-b13f-58abc94a7137",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bbb4e9b7-85ab-4075-966f-4c2cba0eeb00",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_ranger_spin","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_ranger_spin",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a9cd998c-f8fd-41d8-a46e-b3eb8831e019","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3c66a0b3-f5c8-4ab1-910b-ebe725bfcc82","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"914b5d6a-b53d-4c0d-89e1-3a70c09cc41a","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a8d7a370-ef11-4ebe-9b8c-550b0701ca7f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2397e15-c9f1-4fb9-b13f-58abc94a7137","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"542dae64-9a14-49a2-90bf-ae76193b79e7","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbb4e9b7-85ab-4075-966f-4c2cba0eeb00","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_ranger_spin","path":"sprites/spr_mario_ranger_spin/spr_mario_ranger_spin.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_ranger_spin",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"61d407fd-5c7c-48d5-93d7-49b5f6116e94","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"61d407fd-5c7c-48d5-93d7-49b5f6116e94","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ranger",
     "path": "folders/Sprites/Mario/Main/Ranger.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_ranger_spin",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

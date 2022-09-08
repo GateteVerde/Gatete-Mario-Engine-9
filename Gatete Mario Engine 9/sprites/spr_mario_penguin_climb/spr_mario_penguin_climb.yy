@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_penguin_climb",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"619176cb-964e-4f4d-a433-4a496e772fa1","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"619176cb-964e-4f4d-a433-4a496e772fa1","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"LayerId":{"name":"4e1c5cc0-4950-419d-8af4-90bfa92bb64e","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_climb","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"resourceVersion":"1.0","name":"619176cb-964e-4f4d-a433-4a496e772fa1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b74f4b7b-892a-4bc9-9336-e0563621f427","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b74f4b7b-892a-4bc9-9336-e0563621f427","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"LayerId":{"name":"4e1c5cc0-4950-419d-8af4-90bfa92bb64e","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_climb","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"resourceVersion":"1.0","name":"b74f4b7b-892a-4bc9-9336-e0563621f427","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"619176cb-964e-4f4d-a433-4a496e772fa1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b74f4b7b-892a-4bc9-9336-e0563621f427",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_penguin_climb","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d2b7dd34-b1a6-47d8-aaec-50131e085651","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"619176cb-964e-4f4d-a433-4a496e772fa1","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fd3a7f80-4a8d-4692-abcc-573f87dfd2cc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b74f4b7b-892a-4bc9-9336-e0563621f427","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_penguin_climb","path":"sprites/spr_mario_penguin_climb/spr_mario_penguin_climb.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e1c5cc0-4950-419d-8af4-90bfa92bb64e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e1c5cc0-4950-419d-8af4-90bfa92bb64e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Penguin",
     "path": "folders/Sprites/Mario/Main/Penguin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_penguin_climb",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

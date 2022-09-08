@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_warp_node",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -103,12 +106,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b1fc5fae-2e3c-4d70-a23d-abc8e96dd51f","path":"sprites/spr_warp_node/spr_warp_node.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b1fc5fae-2e3c-4d70-a23d-abc8e96dd51f","path":"sprites/spr_warp_node/spr_warp_node.yy",},"LayerId":{"name":"205e1122-1f58-4a03-9406-7c8c4ea3fa92","path":"sprites/spr_warp_node/spr_warp_node.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_warp_node","path":"sprites/spr_warp_node/spr_warp_node.yy",},"resourceVersion":"1.0","name":"b1fc5fae-2e3c-4d70-a23d-abc8e96dd51f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1fc5fae-2e3c-4d70-a23d-abc8e96dd51f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_warp_node","path":"sprites/spr_warp_node/spr_warp_node.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_warp_node",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -119,9 +122,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f279d3aa-df3c-43a4-b55d-bccc580b44b7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1fc5fae-2e3c-4d70-a23d-abc8e96dd51f","path":"sprites/spr_warp_node/spr_warp_node.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -137,22 +140,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_warp_node","path":"sprites/spr_warp_node/spr_warp_node.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_warp_node",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"205e1122-1f58-4a03-9406-7c8c4ea3fa92","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"205e1122-1f58-4a03-9406-7c8c4ea3fa92","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Warp",
     "path": "folders/Sprites/Special/System/Markers/Warp.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_warp_node",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

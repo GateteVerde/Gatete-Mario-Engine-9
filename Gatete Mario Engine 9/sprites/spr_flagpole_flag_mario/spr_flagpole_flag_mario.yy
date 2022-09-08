@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_flagpole_flag_mario",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"af4d83a0-c432-4d9a-9065-17add96401b9","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"af4d83a0-c432-4d9a-9065-17add96401b9","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"LayerId":{"name":"418f51ab-fcb6-4b17-b48d-df34ddfe2c64","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_flagpole_flag_mario","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"resourceVersion":"1.0","name":"af4d83a0-c432-4d9a-9065-17add96401b9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b39dfe2c-bc2b-4d15-9761-fab4fd2c78be","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b39dfe2c-bc2b-4d15-9761-fab4fd2c78be","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"LayerId":{"name":"418f51ab-fcb6-4b17-b48d-df34ddfe2c64","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_flagpole_flag_mario","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"resourceVersion":"1.0","name":"b39dfe2c-bc2b-4d15-9761-fab4fd2c78be","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"af4d83a0-c432-4d9a-9065-17add96401b9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b39dfe2c-bc2b-4d15-9761-fab4fd2c78be",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_flagpole_flag_mario","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_flagpole_flag_mario",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7a8c9fba-d407-4031-9341-a441b496103a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af4d83a0-c432-4d9a-9065-17add96401b9","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"58521004-5da0-4961-bb59-47190837c1a3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b39dfe2c-bc2b-4d15-9761-fab4fd2c78be","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 11,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_flagpole_flag_mario","path":"sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_flagpole_flag_mario",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"418f51ab-fcb6-4b17-b48d-df34ddfe2c64","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"418f51ab-fcb6-4b17-b48d-df34ddfe2c64","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SMB1",
     "path": "folders/Sprites/Items/Level Progress/SMB1.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_flagpole_flag_mario",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

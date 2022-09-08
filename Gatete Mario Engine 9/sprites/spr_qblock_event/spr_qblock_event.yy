@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_qblock_event",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"59f2c5a4-1c33-4056-825e-1392864b78e3","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"59f2c5a4-1c33-4056-825e-1392864b78e3","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"LayerId":{"name":"e0fdd76d-df77-47a5-bec7-c2f6eea91b89","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_qblock_event","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","name":"59f2c5a4-1c33-4056-825e-1392864b78e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9de1b654-8be3-429d-b5a1-4a202d0426f7","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9de1b654-8be3-429d-b5a1-4a202d0426f7","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"LayerId":{"name":"e0fdd76d-df77-47a5-bec7-c2f6eea91b89","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_qblock_event","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","name":"9de1b654-8be3-429d-b5a1-4a202d0426f7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59f2c5a4-1c33-4056-825e-1392864b78e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9de1b654-8be3-429d-b5a1-4a202d0426f7",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_qblock_event","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_qblock_event",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"170e4c76-7a7e-4a14-b08a-8def6f1f3ccd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59f2c5a4-1c33-4056-825e-1392864b78e3","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"06bb08c2-ae8e-4a56-87e1-bf7fd51e46e3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9de1b654-8be3-429d-b5a1-4a202d0426f7","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"170e4c76-7a7e-4a14-b08a-8def6f1f3ccd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59f2c5a4-1c33-4056-825e-1392864b78e3","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"06bb08c2-ae8e-4a56-87e1-bf7fd51e46e3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9de1b654-8be3-429d-b5a1-4a202d0426f7","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_qblock_event","path":"sprites/spr_qblock_event/spr_qblock_event.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_qblock_event",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e0fdd76d-df77-47a5-bec7-c2f6eea91b89","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e0fdd76d-df77-47a5-bec7-c2f6eea91b89","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Item Blocks",
     "path": "folders/Sprites/Blocks/Item Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_qblock_event",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

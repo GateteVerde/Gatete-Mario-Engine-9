@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_penguin_kick",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"615a8331-b962-4395-a077-fbffd3864cea","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"615a8331-b962-4395-a077-fbffd3864cea","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"LayerId":{"name":"5797511e-4974-4621-a5e0-72b5cd250681","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_kick","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"resourceVersion":"1.0","name":"615a8331-b962-4395-a077-fbffd3864cea","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"432a55f6-232e-4a78-bfdd-780fb900f796","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"432a55f6-232e-4a78-bfdd-780fb900f796","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"LayerId":{"name":"5797511e-4974-4621-a5e0-72b5cd250681","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_kick","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"resourceVersion":"1.0","name":"432a55f6-232e-4a78-bfdd-780fb900f796","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"615a8331-b962-4395-a077-fbffd3864cea",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"432a55f6-232e-4a78-bfdd-780fb900f796",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_penguin_kick","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"41ff74c4-5f1d-4bea-9028-b4038dc3728d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"615a8331-b962-4395-a077-fbffd3864cea","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2924e229-dc7b-4380-9f6e-96f11b807bac","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"432a55f6-232e-4a78-bfdd-780fb900f796","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_penguin_kick","path":"sprites/spr_mario_penguin_kick/spr_mario_penguin_kick.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5797511e-4974-4621-a5e0-72b5cd250681","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5797511e-4974-4621-a5e0-72b5cd250681","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Penguin",
     "path": "folders/Sprites/Mario/Main/Penguin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_penguin_kick",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

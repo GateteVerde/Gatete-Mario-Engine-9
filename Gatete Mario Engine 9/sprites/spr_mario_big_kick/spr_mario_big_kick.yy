@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_big_kick",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d1f53cb3-09e6-46db-8754-f3f11984e290","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1f53cb3-09e6-46db-8754-f3f11984e290","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"LayerId":{"name":"c9fc6c42-c70a-4952-805a-118d61db278b","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_big_kick","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"resourceVersion":"1.0","name":"d1f53cb3-09e6-46db-8754-f3f11984e290","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"LayerId":{"name":"c9fc6c42-c70a-4952-805a-118d61db278b","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_big_kick","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"resourceVersion":"1.0","name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1f53cb3-09e6-46db-8754-f3f11984e290",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_big_kick","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8be56bcc-63b1-434b-b1ed-ff937cac9c90","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1f53cb3-09e6-46db-8754-f3f11984e290","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bf15c74f-92e6-461f-8a4e-6092618a8f89","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_big_kick","path":"sprites/spr_mario_big_kick/spr_mario_big_kick.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c9fc6c42-c70a-4952-805a-118d61db278b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c9fc6c42-c70a-4952-805a-118d61db278b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Big",
     "path": "folders/Sprites/Mario/Main/Big.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_big_kick",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

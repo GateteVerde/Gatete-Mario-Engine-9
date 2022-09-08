@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_tanooki_goal",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3986acb4-c341-489d-8bb5-cd9387858ce7","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3986acb4-c341-489d-8bb5-cd9387858ce7","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"LayerId":{"name":"c667750e-7738-4a40-9e82-da951bdfc71f","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_goal","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"resourceVersion":"1.0","name":"3986acb4-c341-489d-8bb5-cd9387858ce7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"LayerId":{"name":"c667750e-7738-4a40-9e82-da951bdfc71f","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_goal","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"resourceVersion":"1.0","name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3986acb4-c341-489d-8bb5-cd9387858ce7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"95d40ba4-7ab0-4425-9285-c07212a37fb1",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_tanooki_goal","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"945a10c6-b770-4638-9f16-98c7bca10a9d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3986acb4-c341-489d-8bb5-cd9387858ce7","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b4082e22-5835-4ef6-95d7-c605a06212b8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_tanooki_goal","path":"sprites/spr_mario_tanooki_goal/spr_mario_tanooki_goal.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c667750e-7738-4a40-9e82-da951bdfc71f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c667750e-7738-4a40-9e82-da951bdfc71f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tanooki",
     "path": "folders/Sprites/Mario/Main/Tanooki.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_tanooki_goal",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

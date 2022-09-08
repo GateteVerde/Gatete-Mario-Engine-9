@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bgr_deadwoods",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},"LayerId":{"name":"cce82c44-b769-49a1-845f-52e56b5b71a5","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bgr_deadwoods","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},"resourceVersion":"1.0","name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bgr_deadwoods","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bgr_deadwoods",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fbfd47ac-4a0b-409a-9e9c-a2cdd36cf468","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"fbfd47ac-4a0b-409a-9e9c-a2cdd36cf468","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bgr_deadwoods","path":"sprites/spr_bgr_deadwoods/spr_bgr_deadwoods.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bgr_deadwoods",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cce82c44-b769-49a1-845f-52e56b5b71a5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cce82c44-b769-49a1-845f-52e56b5b71a5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Backgrounds & Tilesets",
     "path": "folders/Sprites/Special/Backgrounds & Tilesets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bgr_deadwoods",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

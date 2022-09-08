@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_carrot_goal",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"edaf919a-12a9-496e-bae3-43d5783d8677","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"edaf919a-12a9-496e-bae3-43d5783d8677","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"LayerId":{"name":"ef68ea8b-a968-47e2-ab02-d04d17b7ff38","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_carrot_goal","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"resourceVersion":"1.0","name":"edaf919a-12a9-496e-bae3-43d5783d8677","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"LayerId":{"name":"ef68ea8b-a968-47e2-ab02-d04d17b7ff38","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_carrot_goal","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"resourceVersion":"1.0","name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"edaf919a-12a9-496e-bae3-43d5783d8677",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_carrot_goal","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"87dadda3-908c-469b-9eba-9eadb7877dc6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edaf919a-12a9-496e-bae3-43d5783d8677","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"345515bd-4cc9-4a62-abdb-8cb75d6483ab","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 17,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_carrot_goal","path":"sprites/spr_mario_carrot_goal/spr_mario_carrot_goal.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ef68ea8b-a968-47e2-ab02-d04d17b7ff38","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ef68ea8b-a968-47e2-ab02-d04d17b7ff38","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Carrot",
     "path": "folders/Sprites/Mario/Main/Carrot.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_carrot_goal",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

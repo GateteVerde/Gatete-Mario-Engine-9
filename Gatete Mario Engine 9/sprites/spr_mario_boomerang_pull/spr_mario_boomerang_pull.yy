@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_boomerang_pull",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8b8a4919-78f9-49c3-9448-aa1309183b03","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8b8a4919-78f9-49c3-9448-aa1309183b03","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"LayerId":{"name":"b6ff1795-6426-471f-a333-9e5fd9308444","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_boomerang_pull","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"resourceVersion":"1.0","name":"8b8a4919-78f9-49c3-9448-aa1309183b03","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"08487afe-693f-4759-bbb4-071b9ce0c018","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08487afe-693f-4759-bbb4-071b9ce0c018","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"LayerId":{"name":"b6ff1795-6426-471f-a333-9e5fd9308444","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_boomerang_pull","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"resourceVersion":"1.0","name":"08487afe-693f-4759-bbb4-071b9ce0c018","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8b8a4919-78f9-49c3-9448-aa1309183b03",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08487afe-693f-4759-bbb4-071b9ce0c018",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_boomerang_pull","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_boomerang_pull",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bb384485-c337-41b0-a0fa-76dd31de0831","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8b8a4919-78f9-49c3-9448-aa1309183b03","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"05c4c4fd-6483-4715-9296-4469492a5b38","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08487afe-693f-4759-bbb4-071b9ce0c018","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_boomerang_pull","path":"sprites/spr_mario_boomerang_pull/spr_mario_boomerang_pull.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_boomerang_pull",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b6ff1795-6426-471f-a333-9e5fd9308444","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b6ff1795-6426-471f-a333-9e5fd9308444","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Boomerang",
     "path": "folders/Sprites/Mario/Main/Boomerang.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_boomerang_pull",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

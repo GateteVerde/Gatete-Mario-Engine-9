@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_yoshi_fm_flutter",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"LayerId":{"name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_yoshi_fm_flutter","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2f826566-16e1-4564-ae8f-921fafcdef34","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f826566-16e1-4564-ae8f-921fafcdef34","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"LayerId":{"name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_yoshi_fm_flutter","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","name":"2f826566-16e1-4564-ae8f-921fafcdef34","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c82aaa45-2f00-4286-98f0-8a14d542a70e","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c82aaa45-2f00-4286-98f0-8a14d542a70e","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"LayerId":{"name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_yoshi_fm_flutter","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","name":"c82aaa45-2f00-4286-98f0-8a14d542a70e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f826566-16e1-4564-ae8f-921fafcdef34",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c82aaa45-2f00-4286-98f0-8a14d542a70e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_yoshi_fm_flutter","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_yoshi_fm_flutter",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a694e48a-c30d-4cdc-bcec-959cea8b7457","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c424d034-49e4-472c-b4fe-0afc249c99f2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f826566-16e1-4564-ae8f-921fafcdef34","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fc430fb8-1cd8-46c5-904a-0742b7e00617","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c82aaa45-2f00-4286-98f0-8a14d542a70e","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_yoshi_fm_flutter","path":"sprites/spr_yoshi_fm_flutter/spr_yoshi_fm_flutter.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_yoshi_fm_flutter",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Full Mouth",
     "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi/Main/Full Mouth.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_yoshi_fm_flutter",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

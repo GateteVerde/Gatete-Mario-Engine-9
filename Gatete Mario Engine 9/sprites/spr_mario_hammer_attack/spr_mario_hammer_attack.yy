@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_hammer_attack",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bf185afc-d5dc-4343-9e0c-110d5a1c2131","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bf185afc-d5dc-4343-9e0c-110d5a1c2131","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":{"name":"088a6a8b-d6a9-418c-9689-77e7d28798df","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"bf185afc-d5dc-4343-9e0c-110d5a1c2131","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"68b12854-2af4-4822-9a60-925aa57ae349","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"68b12854-2af4-4822-9a60-925aa57ae349","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":{"name":"088a6a8b-d6a9-418c-9689-77e7d28798df","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"68b12854-2af4-4822-9a60-925aa57ae349","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3f84ccac-635f-4bef-8ee7-1be365c69ced","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f84ccac-635f-4bef-8ee7-1be365c69ced","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":{"name":"088a6a8b-d6a9-418c-9689-77e7d28798df","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"3f84ccac-635f-4bef-8ee7-1be365c69ced","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5138bdd8-dac6-4cbc-8a2b-352f7ba0ffb1","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5138bdd8-dac6-4cbc-8a2b-352f7ba0ffb1","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"LayerId":{"name":"088a6a8b-d6a9-418c-9689-77e7d28798df","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","name":"5138bdd8-dac6-4cbc-8a2b-352f7ba0ffb1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf185afc-d5dc-4343-9e0c-110d5a1c2131",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68b12854-2af4-4822-9a60-925aa57ae349",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3f84ccac-635f-4bef-8ee7-1be365c69ced",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5138bdd8-dac6-4cbc-8a2b-352f7ba0ffb1",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_hammer_attack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f4a2beea-32f4-4d2c-b27d-d501cb4252c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf185afc-d5dc-4343-9e0c-110d5a1c2131","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4a16d812-fade-4e71-b801-5098984bac08","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68b12854-2af4-4822-9a60-925aa57ae349","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0ade4552-94c8-4a23-b3de-fc6966da726f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f84ccac-635f-4bef-8ee7-1be365c69ced","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2946011b-df1e-4e90-a88c-c033f80fd12a","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5138bdd8-dac6-4cbc-8a2b-352f7ba0ffb1","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_hammer_attack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"088a6a8b-d6a9-418c-9689-77e7d28798df","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"088a6a8b-d6a9-418c-9689-77e7d28798df","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Hammer",
     "path": "folders/Sprites/Mario/Main/Hammer.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_hammer_attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

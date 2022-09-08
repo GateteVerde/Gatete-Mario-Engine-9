@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_tanooki_pull",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"LayerId":{"name":"58af52b3-91d0-487b-85fb-8e7441a39740","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_pull","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"resourceVersion":"1.0","name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"01b28d57-72ea-446e-90da-6dbd54a511bd","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"01b28d57-72ea-446e-90da-6dbd54a511bd","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"LayerId":{"name":"58af52b3-91d0-487b-85fb-8e7441a39740","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_pull","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"resourceVersion":"1.0","name":"01b28d57-72ea-446e-90da-6dbd54a511bd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01b28d57-72ea-446e-90da-6dbd54a511bd",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_tanooki_pull","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_tanooki_pull",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b3c77721-30d7-42c2-8a15-b6955ebc6ccb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ba68c4e3-6cf4-4129-91c7-75fed1d50f46","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01b28d57-72ea-446e-90da-6dbd54a511bd","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_tanooki_pull","path":"sprites/spr_mario_tanooki_pull/spr_mario_tanooki_pull.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_tanooki_pull",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"58af52b3-91d0-487b-85fb-8e7441a39740","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"58af52b3-91d0-487b-85fb-8e7441a39740","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tanooki",
     "path": "folders/Sprites/Mario/Main/Tanooki.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_tanooki_pull",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_magikoopa_alt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e2c8ff5b-572c-4596-9f52-7885e278df91","path":"sprites/spr_magikoopa_alt/spr_magikoopa_alt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e2c8ff5b-572c-4596-9f52-7885e278df91","path":"sprites/spr_magikoopa_alt/spr_magikoopa_alt.yy",},"LayerId":{"name":"f6e1d6e7-c44d-4c5d-be49-7b3fb6485bae","path":"sprites/spr_magikoopa_alt/spr_magikoopa_alt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_magikoopa_alt","path":"sprites/spr_magikoopa_alt/spr_magikoopa_alt.yy",},"resourceVersion":"1.0","name":"e2c8ff5b-572c-4596-9f52-7885e278df91","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2c8ff5b-572c-4596-9f52-7885e278df91",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_magikoopa_alt","path":"sprites/spr_magikoopa_alt/spr_magikoopa_alt.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_magikoopa_alt",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ba1e4185-d76e-4222-99a9-781acf398365","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e2c8ff5b-572c-4596-9f52-7885e278df91","path":"sprites/spr_magikoopa_alt/spr_magikoopa_alt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_magikoopa_alt","path":"sprites/spr_magikoopa_alt/spr_magikoopa_alt.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_magikoopa_alt",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f6e1d6e7-c44d-4c5d-be49-7b3fb6485bae","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f6e1d6e7-c44d-4c5d-be49-7b3fb6485bae","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Castle",
     "path": "folders/Sprites/Enemies/Castle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_magikoopa_alt",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

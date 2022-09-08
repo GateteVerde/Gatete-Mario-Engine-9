@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_lavalotus_spit",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},"LayerId":{"name":"cf7db9db-5452-4ae6-8f98-eb45f5ab281d","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lavalotus_spit","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},"resourceVersion":"1.0","name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5f7c825-66d9-4359-b1a8-a4ff54364802",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_lavalotus_spit","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_lavalotus_spit",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f973fb34-e847-412a-84a8-6fa0764828d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_lavalotus_spit","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_lavalotus_spit",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf7db9db-5452-4ae6-8f98-eb45f5ab281d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cf7db9db-5452-4ae6-8f98-eb45f5ab281d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Water",
     "path": "folders/Sprites/Enemies/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_lavalotus_spit",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

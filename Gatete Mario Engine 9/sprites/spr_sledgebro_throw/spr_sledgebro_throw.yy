@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sledgebro_throw",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"LayerId":{"name":"493827f9-d7cb-488e-bcc9-ee1427635d0a","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sledgebro_throw","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"resourceVersion":"1.0","name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b64db71e-1271-4c42-b203-ae1f407de433","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b64db71e-1271-4c42-b203-ae1f407de433","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"LayerId":{"name":"493827f9-d7cb-488e-bcc9-ee1427635d0a","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sledgebro_throw","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"resourceVersion":"1.0","name":"b64db71e-1271-4c42-b203-ae1f407de433","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d98aa74b-b110-4274-bcbe-126b2036fc6a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b64db71e-1271-4c42-b203-ae1f407de433",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sledgebro_throw","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_sledgebro_throw",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"00accdd8-d314-4456-894a-9689d406daa3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ae311202-4930-4aca-8e6d-6cd4549e1efe","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b64db71e-1271-4c42-b203-ae1f407de433","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 22,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sledgebro_throw","path":"sprites/spr_sledgebro_throw/spr_sledgebro_throw.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_sledgebro_throw",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"493827f9-d7cb-488e-bcc9-ee1427635d0a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"493827f9-d7cb-488e-bcc9-ee1427635d0a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bros.",
     "path": "folders/Sprites/Enemies/Land/Bros..yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sledgebro_throw",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_bomb_carry",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6c6f793e-c8e3-41e4-bf43-e99e34a9dbf6","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c6f793e-c8e3-41e4-bf43-e99e34a9dbf6","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"LayerId":{"name":"035372d2-8aa8-49eb-9af2-cc9da3cb54a2","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bomb_carry","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","name":"6c6f793e-c8e3-41e4-bf43-e99e34a9dbf6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9cc0fdb5-e39d-49d4-aa99-486cb804e465","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9cc0fdb5-e39d-49d4-aa99-486cb804e465","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"LayerId":{"name":"035372d2-8aa8-49eb-9af2-cc9da3cb54a2","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bomb_carry","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","name":"9cc0fdb5-e39d-49d4-aa99-486cb804e465","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"41cd0803-be60-4ae1-9700-f642f840622c","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"41cd0803-be60-4ae1-9700-f642f840622c","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"LayerId":{"name":"035372d2-8aa8-49eb-9af2-cc9da3cb54a2","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bomb_carry","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","name":"41cd0803-be60-4ae1-9700-f642f840622c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c6f793e-c8e3-41e4-bf43-e99e34a9dbf6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9cc0fdb5-e39d-49d4-aa99-486cb804e465",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"41cd0803-be60-4ae1-9700-f642f840622c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_bomb_carry","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1017e3c5-bbb2-4ef2-8e13-77c55df706d0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c6f793e-c8e3-41e4-bf43-e99e34a9dbf6","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b11f9d69-3e98-4b7c-a976-a832372933d3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cc0fdb5-e39d-49d4-aa99-486cb804e465","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e6d33385-b087-46be-8967-207f44a1bae4","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"41cd0803-be60-4ae1-9700-f642f840622c","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_bomb_carry","path":"sprites/spr_mario_bomb_carry/spr_mario_bomb_carry.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"035372d2-8aa8-49eb-9af2-cc9da3cb54a2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"035372d2-8aa8-49eb-9af2-cc9da3cb54a2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bomb",
     "path": "folders/Sprites/Mario/Main/Bomb.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_bomb_carry",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

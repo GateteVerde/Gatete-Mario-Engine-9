@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_propeller_goal",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bfc16e7c-0d55-463f-84d8-f77af6e757f7","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bfc16e7c-0d55-463f-84d8-f77af6e757f7","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"LayerId":{"name":"ecd53f2e-8ac9-409b-b733-d9dd77217d88","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_goal","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"resourceVersion":"1.0","name":"bfc16e7c-0d55-463f-84d8-f77af6e757f7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7bafd0eb-c1c4-481b-bd36-dd7d94a72c71","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7bafd0eb-c1c4-481b-bd36-dd7d94a72c71","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"LayerId":{"name":"ecd53f2e-8ac9-409b-b733-d9dd77217d88","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_goal","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"resourceVersion":"1.0","name":"7bafd0eb-c1c4-481b-bd36-dd7d94a72c71","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bfc16e7c-0d55-463f-84d8-f77af6e757f7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7bafd0eb-c1c4-481b-bd36-dd7d94a72c71",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_propeller_goal","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6270884d-4a92-4543-9fe1-3f83ddf82a92","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfc16e7c-0d55-463f-84d8-f77af6e757f7","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"31fa984a-679e-4d65-84df-83340438415e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7bafd0eb-c1c4-481b-bd36-dd7d94a72c71","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 19,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_propeller_goal","path":"sprites/spr_mario_propeller_goal/spr_mario_propeller_goal.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ecd53f2e-8ac9-409b-b733-d9dd77217d88","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ecd53f2e-8ac9-409b-b733-d9dd77217d88","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Propeller",
     "path": "folders/Sprites/Mario/Main/Propeller.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_propeller_goal",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

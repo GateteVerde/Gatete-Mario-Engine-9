@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_goalgate",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","path":"sprites/spr_goalgate/spr_goalgate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","path":"sprites/spr_goalgate/spr_goalgate.yy",},"LayerId":{"name":"82d12a0f-c804-47be-8eb9-1db43b27c28b","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goalgate","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"421d73c3-6a2e-4bac-ab68-197853e5068e","path":"sprites/spr_goalgate/spr_goalgate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"421d73c3-6a2e-4bac-ab68-197853e5068e","path":"sprites/spr_goalgate/spr_goalgate.yy",},"LayerId":{"name":"82d12a0f-c804-47be-8eb9-1db43b27c28b","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goalgate","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","name":"421d73c3-6a2e-4bac-ab68-197853e5068e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","path":"sprites/spr_goalgate/spr_goalgate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","path":"sprites/spr_goalgate/spr_goalgate.yy",},"LayerId":{"name":"82d12a0f-c804-47be-8eb9-1db43b27c28b","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goalgate","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"946bc61f-28cc-474d-bd06-914f0b4df4fd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"421d73c3-6a2e-4bac-ab68-197853e5068e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_goalgate","path":"sprites/spr_goalgate/spr_goalgate.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_goalgate",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ce318ae0-0da8-4b9c-8bd6-65678a410d44","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"686f7fd5-27b1-4dc9-9ee1-8aaeaf742420","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"421d73c3-6a2e-4bac-ab68-197853e5068e","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5d007d41-0373-45d0-9eb3-ea39ad3580e6","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_goalgate","path":"sprites/spr_goalgate/spr_goalgate.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_goalgate",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"82d12a0f-c804-47be-8eb9-1db43b27c28b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"82d12a0f-c804-47be-8eb9-1db43b27c28b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SMW",
     "path": "folders/Sprites/Items/Level Progress/SMW.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_goalgate",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

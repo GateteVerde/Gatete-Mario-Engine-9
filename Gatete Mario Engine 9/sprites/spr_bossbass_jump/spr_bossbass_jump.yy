@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bossbass_jump",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2d9f4346-58a7-4a6d-beae-6272e613a5f4","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d9f4346-58a7-4a6d-beae-6272e613a5f4","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"LayerId":{"name":"34046c6c-6677-4d0a-971d-48d1e678175c","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bossbass_jump","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"resourceVersion":"1.0","name":"2d9f4346-58a7-4a6d-beae-6272e613a5f4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4b238e1d-3a47-4406-8b6e-1d7bef6eeedb","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b238e1d-3a47-4406-8b6e-1d7bef6eeedb","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"LayerId":{"name":"34046c6c-6677-4d0a-971d-48d1e678175c","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bossbass_jump","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"resourceVersion":"1.0","name":"4b238e1d-3a47-4406-8b6e-1d7bef6eeedb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d9f4346-58a7-4a6d-beae-6272e613a5f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b238e1d-3a47-4406-8b6e-1d7bef6eeedb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bossbass_jump","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bossbass_jump",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6eb3be28-36d6-4efa-b0c1-8b4bfe49ed32","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d9f4346-58a7-4a6d-beae-6272e613a5f4","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"da24a3ac-e8d0-4d37-a3e8-ed5b82c23660","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4b238e1d-3a47-4406-8b6e-1d7bef6eeedb","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bossbass_jump","path":"sprites/spr_bossbass_jump/spr_bossbass_jump.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bossbass_jump",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"34046c6c-6677-4d0a-971d-48d1e678175c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"34046c6c-6677-4d0a-971d-48d1e678175c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Water",
     "path": "folders/Sprites/Enemies/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bossbass_jump",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

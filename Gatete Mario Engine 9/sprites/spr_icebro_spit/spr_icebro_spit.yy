@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_icebro_spit",
   "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"571af8dc-fdc3-4028-8ef3-71e8e0f02019","path":"sprites/spr_icebro_spit/spr_icebro_spit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"571af8dc-fdc3-4028-8ef3-71e8e0f02019","path":"sprites/spr_icebro_spit/spr_icebro_spit.yy",},"LayerId":{"name":"9b623fd0-93eb-46c2-9c7b-d3b611569103","path":"sprites/spr_icebro_spit/spr_icebro_spit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_icebro_spit","path":"sprites/spr_icebro_spit/spr_icebro_spit.yy",},"resourceVersion":"1.0","name":"571af8dc-fdc3-4028-8ef3-71e8e0f02019","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"571af8dc-fdc3-4028-8ef3-71e8e0f02019",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_icebro_spit","path":"sprites/spr_icebro_spit/spr_icebro_spit.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_icebro_spit",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d7ae1c87-191e-44ae-a8a1-7f75ae529ca1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"571af8dc-fdc3-4028-8ef3-71e8e0f02019","path":"sprites/spr_icebro_spit/spr_icebro_spit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_icebro_spit","path":"sprites/spr_icebro_spit/spr_icebro_spit.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_icebro_spit",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9b623fd0-93eb-46c2-9c7b-d3b611569103","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9b623fd0-93eb-46c2-9c7b-d3b611569103","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bros.",
     "path": "folders/Sprites/Enemies/Land/Bros..yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_icebro_spit",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_cheepcheep_green",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f32c70ab-408e-41d7-9919-7b3757dc64bc","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f32c70ab-408e-41d7-9919-7b3757dc64bc","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"LayerId":{"name":"79de9bb0-81f3-4b2a-8cb1-33974d6da857","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cheepcheep_green","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"resourceVersion":"1.0","name":"f32c70ab-408e-41d7-9919-7b3757dc64bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1a2930c2-5275-4f6a-8128-7a05c4332dff","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1a2930c2-5275-4f6a-8128-7a05c4332dff","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"LayerId":{"name":"79de9bb0-81f3-4b2a-8cb1-33974d6da857","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cheepcheep_green","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"resourceVersion":"1.0","name":"1a2930c2-5275-4f6a-8128-7a05c4332dff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f32c70ab-408e-41d7-9919-7b3757dc64bc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a2930c2-5275-4f6a-8128-7a05c4332dff",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cheepcheep_green","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_cheepcheep_green",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5ca31816-0c29-4c46-848f-75276368e19e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f32c70ab-408e-41d7-9919-7b3757dc64bc","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ff721122-c07d-4128-8f2c-77b8f09353eb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a2930c2-5275-4f6a-8128-7a05c4332dff","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cheepcheep_green","path":"sprites/spr_cheepcheep_green/spr_cheepcheep_green.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_cheepcheep_green",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79de9bb0-81f3-4b2a-8cb1-33974d6da857","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"79de9bb0-81f3-4b2a-8cb1-33974d6da857","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Water",
     "path": "folders/Sprites/Enemies/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_cheepcheep_green",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

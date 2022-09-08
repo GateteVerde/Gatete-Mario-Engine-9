@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_coin_red_ring_active",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},"LayerId":{"name":"159b5233-3775-4b52-b816-137e35518933","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_coin_red_ring_active","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},"resourceVersion":"1.0","name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_coin_red_ring_active","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_coin_red_ring_active",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ccd5825d-8e44-4852-9ad3-0e8262c6d2b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_coin_red_ring_active","path":"sprites/spr_coin_red_ring_active/spr_coin_red_ring_active.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_coin_red_ring_active",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"159b5233-3775-4b52-b816-137e35518933","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"159b5233-3775-4b52-b816-137e35518933","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Red Coins",
     "path": "folders/Sprites/Items/Collectibles/Coins/Special Coins/Red Coins.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_coin_red_ring_active",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

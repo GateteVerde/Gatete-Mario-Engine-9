@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_penguin_goal",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b91aadbe-d593-4514-be43-b323439a73b9","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b91aadbe-d593-4514-be43-b323439a73b9","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"LayerId":{"name":"b3127a97-6d01-414d-af60-3ff0c0d9b950","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_goal","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"resourceVersion":"1.0","name":"b91aadbe-d593-4514-be43-b323439a73b9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"LayerId":{"name":"b3127a97-6d01-414d-af60-3ff0c0d9b950","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_goal","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"resourceVersion":"1.0","name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b91aadbe-d593-4514-be43-b323439a73b9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_penguin_goal","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5d8f8497-db41-4f8c-9370-1e1009b93002","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b91aadbe-d593-4514-be43-b323439a73b9","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"81c58088-854c-4a60-92ea-a67fb3b95ce6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_penguin_goal","path":"sprites/spr_mario_penguin_goal/spr_mario_penguin_goal.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b3127a97-6d01-414d-af60-3ff0c0d9b950","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b3127a97-6d01-414d-af60-3ff0c0d9b950","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Penguin",
     "path": "folders/Sprites/Mario/Main/Penguin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_penguin_goal",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

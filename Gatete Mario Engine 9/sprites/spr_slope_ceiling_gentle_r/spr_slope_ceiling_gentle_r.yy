@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_slope_ceiling_gentle_r",
   "bboxMode": 0,
   "collisionKind": 0,
   "type": 0,
@@ -103,12 +106,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2f165749-2690-426d-afa7-fbbdd16fdb3c","path":"sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f165749-2690-426d-afa7-fbbdd16fdb3c","path":"sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",},"LayerId":{"name":"fe08ae46-b87e-425c-a348-c7c1fad8a86a","path":"sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_slope_ceiling_gentle_r","path":"sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",},"resourceVersion":"1.0","name":"2f165749-2690-426d-afa7-fbbdd16fdb3c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f165749-2690-426d-afa7-fbbdd16fdb3c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_slope_ceiling_gentle_r","path":"sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_slope_ceiling_gentle_r",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -119,9 +122,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1c8d7737-5b85-44fd-a1c6-1b971ea596a6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f165749-2690-426d-afa7-fbbdd16fdb3c","path":"sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -137,22 +140,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_slope_ceiling_gentle_r","path":"sprites/spr_slope_ceiling_gentle_r/spr_slope_ceiling_gentle_r.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_slope_ceiling_gentle_r",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fe08ae46-b87e-425c-a348-c7c1fad8a86a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fe08ae46-b87e-425c-a348-c7c1fad8a86a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ceiling",
     "path": "folders/Sprites/Masks/Collision/Slopes/Ceiling.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_slope_ceiling_gentle_r",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

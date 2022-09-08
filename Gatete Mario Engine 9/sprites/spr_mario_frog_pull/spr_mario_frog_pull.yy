@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_frog_pull",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"266113ed-9693-4f07-89de-1d7beee2b055","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"266113ed-9693-4f07-89de-1d7beee2b055","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"LayerId":{"name":"438a7a95-753e-4e8a-b545-d21b443b0240","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_pull","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"resourceVersion":"1.0","name":"266113ed-9693-4f07-89de-1d7beee2b055","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"58a52234-cd6c-4988-ad00-7c435d68fe56","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"58a52234-cd6c-4988-ad00-7c435d68fe56","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"LayerId":{"name":"438a7a95-753e-4e8a-b545-d21b443b0240","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_pull","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"resourceVersion":"1.0","name":"58a52234-cd6c-4988-ad00-7c435d68fe56","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"266113ed-9693-4f07-89de-1d7beee2b055",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"58a52234-cd6c-4988-ad00-7c435d68fe56",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_frog_pull","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_frog_pull",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"047ce640-ad1a-4c4a-ad31-affea1be321f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"266113ed-9693-4f07-89de-1d7beee2b055","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e8549240-4431-4577-abae-ce0b55f826ae","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58a52234-cd6c-4988-ad00-7c435d68fe56","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_frog_pull","path":"sprites/spr_mario_frog_pull/spr_mario_frog_pull.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_frog_pull",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"438a7a95-753e-4e8a-b545-d21b443b0240","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"438a7a95-753e-4e8a-b545-d21b443b0240","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Frog",
     "path": "folders/Sprites/Mario/Main/Frog.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_frog_pull",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

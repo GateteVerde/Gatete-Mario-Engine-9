@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_shell_swim",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1eba2214-7bfc-44b8-bd03-4e196e0915fc","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1eba2214-7bfc-44b8-bd03-4e196e0915fc","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"LayerId":{"name":"d34a82f5-57dc-4392-83bf-2f382bbfead5","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_shell_swim","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","name":"1eba2214-7bfc-44b8-bd03-4e196e0915fc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"32a6e644-1815-4c50-9bd6-2fe13517eb51","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"32a6e644-1815-4c50-9bd6-2fe13517eb51","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"LayerId":{"name":"d34a82f5-57dc-4392-83bf-2f382bbfead5","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_shell_swim","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","name":"32a6e644-1815-4c50-9bd6-2fe13517eb51","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"23cf4187-ed83-4c65-82b2-c39b7c03d48f","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"23cf4187-ed83-4c65-82b2-c39b7c03d48f","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"LayerId":{"name":"d34a82f5-57dc-4392-83bf-2f382bbfead5","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_shell_swim","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","name":"23cf4187-ed83-4c65-82b2-c39b7c03d48f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1eba2214-7bfc-44b8-bd03-4e196e0915fc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"32a6e644-1815-4c50-9bd6-2fe13517eb51",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23cf4187-ed83-4c65-82b2-c39b7c03d48f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_shell_swim","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b3b005c4-d4c3-42cc-ae6a-8b80c70f8ee5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1eba2214-7bfc-44b8-bd03-4e196e0915fc","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fc014eea-8861-4ff3-9221-3af1bb11365f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"32a6e644-1815-4c50-9bd6-2fe13517eb51","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d063a2ea-5c4c-4ffe-84ac-0aa44204950a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"23cf4187-ed83-4c65-82b2-c39b7c03d48f","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_shell_swim","path":"sprites/spr_mario_shell_swim/spr_mario_shell_swim.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d34a82f5-57dc-4392-83bf-2f382bbfead5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d34a82f5-57dc-4392-83bf-2f382bbfead5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Shell",
     "path": "folders/Sprites/Mario/Main/Shell.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_shell_swim",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

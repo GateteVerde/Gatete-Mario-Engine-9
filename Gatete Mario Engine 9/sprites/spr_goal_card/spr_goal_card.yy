@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_goal_card",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"eefa6e2a-700a-40c1-9c44-88458bcc7129","path":"sprites/spr_goal_card/spr_goal_card.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eefa6e2a-700a-40c1-9c44-88458bcc7129","path":"sprites/spr_goal_card/spr_goal_card.yy",},"LayerId":{"name":"0058c38a-25a7-4741-9027-817ef6875c9a","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goal_card","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","name":"eefa6e2a-700a-40c1-9c44-88458bcc7129","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b3eace32-6766-4230-98de-0c80425f7bf9","path":"sprites/spr_goal_card/spr_goal_card.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b3eace32-6766-4230-98de-0c80425f7bf9","path":"sprites/spr_goal_card/spr_goal_card.yy",},"LayerId":{"name":"0058c38a-25a7-4741-9027-817ef6875c9a","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goal_card","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","name":"b3eace32-6766-4230-98de-0c80425f7bf9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"664de9f8-46bb-4b99-a6e5-566baaeb500b","path":"sprites/spr_goal_card/spr_goal_card.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"664de9f8-46bb-4b99-a6e5-566baaeb500b","path":"sprites/spr_goal_card/spr_goal_card.yy",},"LayerId":{"name":"0058c38a-25a7-4741-9027-817ef6875c9a","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goal_card","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","name":"664de9f8-46bb-4b99-a6e5-566baaeb500b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eefa6e2a-700a-40c1-9c44-88458bcc7129",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3eace32-6766-4230-98de-0c80425f7bf9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"664de9f8-46bb-4b99-a6e5-566baaeb500b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_goal_card","path":"sprites/spr_goal_card/spr_goal_card.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_goal_card",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"cb293e9d-5e1f-45c8-96b6-67e35a820583","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eefa6e2a-700a-40c1-9c44-88458bcc7129","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"124c7588-9ae3-4678-83e9-5bc46c0a56e9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b3eace32-6766-4230-98de-0c80425f7bf9","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e2e63e18-b143-4744-89fc-43c5c60ac22f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"664de9f8-46bb-4b99-a6e5-566baaeb500b","path":"sprites/spr_goal_card/spr_goal_card.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_goal_card","path":"sprites/spr_goal_card/spr_goal_card.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_goal_card",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0058c38a-25a7-4741-9027-817ef6875c9a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0058c38a-25a7-4741-9027-817ef6875c9a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SMB3",
     "path": "folders/Sprites/Items/Level Progress/SMB3.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_goal_card",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

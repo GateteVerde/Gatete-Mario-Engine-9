@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_yoshi_runaway",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"LayerId":{"name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_yoshi_runaway","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5de9d0d2-9afb-4a85-bdc4-0f569d5871ef","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5de9d0d2-9afb-4a85-bdc4-0f569d5871ef","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"LayerId":{"name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_yoshi_runaway","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","name":"5de9d0d2-9afb-4a85-bdc4-0f569d5871ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d0e15d18-8241-440d-84d2-abaf73d2e879","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d0e15d18-8241-440d-84d2-abaf73d2e879","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"LayerId":{"name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_yoshi_runaway","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","name":"d0e15d18-8241-440d-84d2-abaf73d2e879","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5de9d0d2-9afb-4a85-bdc4-0f569d5871ef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0e15d18-8241-440d-84d2-abaf73d2e879",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_yoshi_runaway","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_yoshi_runaway",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a32b1934-f02f-4f28-8a33-c72f997adfdc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5a6b9318-eef1-47c6-a31e-89de4a3794a6","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f74e6a8c-2724-4b84-b0fd-c9c08f31a7c6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5de9d0d2-9afb-4a85-bdc4-0f569d5871ef","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"41c91513-a3de-4511-9a45-a5173d35f402","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0e15d18-8241-440d-84d2-abaf73d2e879","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_yoshi_runaway","path":"sprites/spr_yoshi_runaway/spr_yoshi_runaway.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_yoshi_runaway",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ac082b10-16ae-4362-890f-8ebeccdbd1c4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Main",
     "path": "folders/Sprites/Items/Collectibles/Mounts/Yoshi/Main.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_yoshi_runaway",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_charginchuck_walk",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6548c2ac-770b-413a-a95c-d87cb8479cc8","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6548c2ac-770b-413a-a95c-d87cb8479cc8","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"LayerId":{"name":"0b911a84-509e-4bb1-8d74-6e4118d7077c","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_charginchuck_walk","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","name":"6548c2ac-770b-413a-a95c-d87cb8479cc8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"785a8315-0187-4c55-97c2-d1902791da37","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"785a8315-0187-4c55-97c2-d1902791da37","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"LayerId":{"name":"0b911a84-509e-4bb1-8d74-6e4118d7077c","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_charginchuck_walk","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","name":"785a8315-0187-4c55-97c2-d1902791da37","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"14524a7d-cd6d-4937-a1d9-f385857dc23a","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"14524a7d-cd6d-4937-a1d9-f385857dc23a","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"LayerId":{"name":"0b911a84-509e-4bb1-8d74-6e4118d7077c","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_charginchuck_walk","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","name":"14524a7d-cd6d-4937-a1d9-f385857dc23a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6548c2ac-770b-413a-a95c-d87cb8479cc8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"785a8315-0187-4c55-97c2-d1902791da37",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"14524a7d-cd6d-4937-a1d9-f385857dc23a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_charginchuck_walk","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_charginchuck_walk",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"041d1618-7cdb-4dfe-bf64-ff033cd39dba","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6548c2ac-770b-413a-a95c-d87cb8479cc8","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f8e74591-c1d7-42b2-a6b6-42a946062701","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"785a8315-0187-4c55-97c2-d1902791da37","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"aa1deb2f-fb12-4960-a25e-709413f3343f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14524a7d-cd6d-4937-a1d9-f385857dc23a","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_charginchuck_walk","path":"sprites/spr_charginchuck_walk/spr_charginchuck_walk.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_charginchuck_walk",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0b911a84-509e-4bb1-8d74-6e4118d7077c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0b911a84-509e-4bb1-8d74-6e4118d7077c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Chucks",
     "path": "folders/Sprites/Enemies/Land/Chucks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_charginchuck_walk",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

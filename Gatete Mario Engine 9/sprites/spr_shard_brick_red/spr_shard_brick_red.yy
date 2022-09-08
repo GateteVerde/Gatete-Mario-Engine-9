@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_shard_brick_red",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d5099abd-9dc8-4f99-8812-a7ff54743210","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5099abd-9dc8-4f99-8812-a7ff54743210","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":{"name":"653f2106-37cf-40f3-9de7-89a39bdae993","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"d5099abd-9dc8-4f99-8812-a7ff54743210","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"48d36f37-c0b0-4bcf-af2a-74e582813aa4","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"48d36f37-c0b0-4bcf-af2a-74e582813aa4","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":{"name":"653f2106-37cf-40f3-9de7-89a39bdae993","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"48d36f37-c0b0-4bcf-af2a-74e582813aa4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5b767a8c-172d-4928-a56e-255169d63498","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b767a8c-172d-4928-a56e-255169d63498","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":{"name":"653f2106-37cf-40f3-9de7-89a39bdae993","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"5b767a8c-172d-4928-a56e-255169d63498","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a25e5561-e8d6-4e0c-ba01-6c2a7786ba35","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a25e5561-e8d6-4e0c-ba01-6c2a7786ba35","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":{"name":"653f2106-37cf-40f3-9de7-89a39bdae993","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"a25e5561-e8d6-4e0c-ba01-6c2a7786ba35","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1aae4aa5-79b3-44f0-b36a-9eaa034918e3","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1aae4aa5-79b3-44f0-b36a-9eaa034918e3","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":{"name":"653f2106-37cf-40f3-9de7-89a39bdae993","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"1aae4aa5-79b3-44f0-b36a-9eaa034918e3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3b6afabd-29fe-4e90-bb75-796052351a93","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3b6afabd-29fe-4e90-bb75-796052351a93","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"LayerId":{"name":"653f2106-37cf-40f3-9de7-89a39bdae993","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","name":"3b6afabd-29fe-4e90-bb75-796052351a93","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5099abd-9dc8-4f99-8812-a7ff54743210",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48d36f37-c0b0-4bcf-af2a-74e582813aa4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b767a8c-172d-4928-a56e-255169d63498",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a25e5561-e8d6-4e0c-ba01-6c2a7786ba35",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1aae4aa5-79b3-44f0-b36a-9eaa034918e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3b6afabd-29fe-4e90-bb75-796052351a93",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_shard_brick_red",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"178293fc-905e-426f-9910-e07d84cde9bc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5099abd-9dc8-4f99-8812-a7ff54743210","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0b560b5a-b321-422a-acbe-350212bc1231","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"48d36f37-c0b0-4bcf-af2a-74e582813aa4","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"31b44b2e-ecc1-4af5-82e0-63a4741b4adc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b767a8c-172d-4928-a56e-255169d63498","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5b77f334-56c2-497c-99af-86df71e59956","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a25e5561-e8d6-4e0c-ba01-6c2a7786ba35","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"13b9b8fa-b409-45c5-a8ef-de557d1da566","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1aae4aa5-79b3-44f0-b36a-9eaa034918e3","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5ec1b74b-86f3-4f0f-841a-806366c1f58a","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3b6afabd-29fe-4e90-bb75-796052351a93","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_shard_brick_red","path":"sprites/spr_shard_brick_red/spr_shard_brick_red.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_shard_brick_red",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"653f2106-37cf-40f3-9de7-89a39bdae993","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"653f2106-37cf-40f3-9de7-89a39bdae993","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Shards",
     "path": "folders/Sprites/Blocks/Shards.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_shard_brick_red",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

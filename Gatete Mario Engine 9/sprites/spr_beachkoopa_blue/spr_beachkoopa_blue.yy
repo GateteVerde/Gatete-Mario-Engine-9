@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_beachkoopa_blue",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0940f398-925b-4519-ab47-e63d7868b330","path":"sprites/spr_beachkoopa_blue/spr_beachkoopa_blue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0940f398-925b-4519-ab47-e63d7868b330","path":"sprites/spr_beachkoopa_blue/spr_beachkoopa_blue.yy",},"LayerId":{"name":"4088f41f-b9ca-47cf-a151-22c0570b3816","path":"sprites/spr_beachkoopa_blue/spr_beachkoopa_blue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_beachkoopa_blue","path":"sprites/spr_beachkoopa_blue/spr_beachkoopa_blue.yy",},"resourceVersion":"1.0","name":"0940f398-925b-4519-ab47-e63d7868b330","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0940f398-925b-4519-ab47-e63d7868b330",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_beachkoopa_blue","path":"sprites/spr_beachkoopa_blue/spr_beachkoopa_blue.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_beachkoopa_blue",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fef5e69a-3c49-4920-afb5-79fdced411dd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0940f398-925b-4519-ab47-e63d7868b330","path":"sprites/spr_beachkoopa_blue/spr_beachkoopa_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_beachkoopa_blue","path":"sprites/spr_beachkoopa_blue/spr_beachkoopa_blue.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_beachkoopa_blue",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4088f41f-b9ca-47cf-a151-22c0570b3816","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4088f41f-b9ca-47cf-a151-22c0570b3816","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Blue",
     "path": "folders/Sprites/Enemies/Land/Koopas/Blue.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_beachkoopa_blue",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

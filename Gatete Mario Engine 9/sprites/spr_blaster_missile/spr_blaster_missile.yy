@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_blaster_missile",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"45680330-f9f3-424c-a1cd-bc929e493906","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"45680330-f9f3-424c-a1cd-bc929e493906","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"LayerId":{"name":"e388879a-e7ec-48a5-94c6-3236b6d3af88","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_blaster_missile","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","name":"45680330-f9f3-424c-a1cd-bc929e493906","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a944f348-2547-4434-9175-2527aba489e4","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a944f348-2547-4434-9175-2527aba489e4","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"LayerId":{"name":"e388879a-e7ec-48a5-94c6-3236b6d3af88","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_blaster_missile","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","name":"a944f348-2547-4434-9175-2527aba489e4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"600ef91f-43ce-4b7c-abb3-1bd594df3425","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"600ef91f-43ce-4b7c-abb3-1bd594df3425","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"LayerId":{"name":"e388879a-e7ec-48a5-94c6-3236b6d3af88","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_blaster_missile","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","name":"600ef91f-43ce-4b7c-abb3-1bd594df3425","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45680330-f9f3-424c-a1cd-bc929e493906",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a944f348-2547-4434-9175-2527aba489e4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"600ef91f-43ce-4b7c-abb3-1bd594df3425",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_blaster_missile","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_blaster_missile",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d1703035-2dc2-47c1-972f-22c0507ac848","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45680330-f9f3-424c-a1cd-bc929e493906","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dd215c1f-66f4-4d9f-9931-0c6abeaa9c89","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a944f348-2547-4434-9175-2527aba489e4","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2a3a46b6-1ccd-4f06-b621-4fb9aadd5cbd","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"600ef91f-43ce-4b7c-abb3-1bd594df3425","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_blaster_missile","path":"sprites/spr_blaster_missile/spr_blaster_missile.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_blaster_missile",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e388879a-e7ec-48a5-94c6-3236b6d3af88","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e388879a-e7ec-48a5-94c6-3236b6d3af88","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Blasters",
     "path": "folders/Sprites/Enemies/Airship/Bullet Bills/Blasters.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_blaster_missile",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

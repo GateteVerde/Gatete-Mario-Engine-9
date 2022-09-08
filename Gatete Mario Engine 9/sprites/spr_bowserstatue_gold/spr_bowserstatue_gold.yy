@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bowserstatue_gold",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"621d4f2c-f269-4e5d-be9a-08821711c860","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"621d4f2c-f269-4e5d-be9a-08821711c860","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"LayerId":{"name":"46a7dea3-3c04-4a67-9772-d030ad1342f3","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bowserstatue_gold","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"resourceVersion":"1.0","name":"621d4f2c-f269-4e5d-be9a-08821711c860","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"045baf4f-44d9-4dcb-94bf-605a09e0abcb","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"045baf4f-44d9-4dcb-94bf-605a09e0abcb","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"LayerId":{"name":"46a7dea3-3c04-4a67-9772-d030ad1342f3","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bowserstatue_gold","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"resourceVersion":"1.0","name":"045baf4f-44d9-4dcb-94bf-605a09e0abcb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"621d4f2c-f269-4e5d-be9a-08821711c860",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"045baf4f-44d9-4dcb-94bf-605a09e0abcb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bowserstatue_gold","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bowserstatue_gold",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"847d0915-eaa9-4b85-bad2-0bf078dd907f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"621d4f2c-f269-4e5d-be9a-08821711c860","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"61323194-bc82-42c7-ab3a-726040cad740","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"045baf4f-44d9-4dcb-94bf-605a09e0abcb","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bowserstatue_gold","path":"sprites/spr_bowserstatue_gold/spr_bowserstatue_gold.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bowserstatue_gold",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"46a7dea3-3c04-4a67-9772-d030ad1342f3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"46a7dea3-3c04-4a67-9772-d030ad1342f3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Castle",
     "path": "folders/Sprites/Enemies/Castle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bowserstatue_gold",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

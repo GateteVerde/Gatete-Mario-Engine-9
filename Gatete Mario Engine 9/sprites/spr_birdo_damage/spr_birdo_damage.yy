@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_birdo_damage",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8c26edd0-99d2-47eb-89ca-786daa309a10","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8c26edd0-99d2-47eb-89ca-786daa309a10","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"LayerId":{"name":"06934988-bca8-4901-8957-f7dee658548a","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_birdo_damage","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","name":"8c26edd0-99d2-47eb-89ca-786daa309a10","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eb75391d-eabf-4f5f-9ed3-d3a4297a53fe","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eb75391d-eabf-4f5f-9ed3-d3a4297a53fe","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"LayerId":{"name":"06934988-bca8-4901-8957-f7dee658548a","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_birdo_damage","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","name":"eb75391d-eabf-4f5f-9ed3-d3a4297a53fe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c26edd0-99d2-47eb-89ca-786daa309a10",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb75391d-eabf-4f5f-9ed3-d3a4297a53fe",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_birdo_damage","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_birdo_damage",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"72bfcb5e-aa06-4dd6-a7e1-76e282f81aef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c26edd0-99d2-47eb-89ca-786daa309a10","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"8abd7108-3ec1-45e1-85f9-36e792f3067a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb75391d-eabf-4f5f-9ed3-d3a4297a53fe","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"72bfcb5e-aa06-4dd6-a7e1-76e282f81aef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c26edd0-99d2-47eb-89ca-786daa309a10","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8abd7108-3ec1-45e1-85f9-36e792f3067a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb75391d-eabf-4f5f-9ed3-d3a4297a53fe","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,14 +63,9 @@
     "yorigin": 20,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_birdo_damage","path":"sprites/spr_birdo_damage/spr_birdo_damage.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_birdo_damage",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"06934988-bca8-4901-8957-f7dee658548a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"06934988-bca8-4901-8957-f7dee658548a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
     "left": 0,
@@ -100,8 +96,4 @@
     "name": "Birdo",
     "path": "folders/Sprites/Enemies/Boss/Birdo.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_birdo_damage",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

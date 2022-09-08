@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bgr_minigame",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"683d6ee4-7c1f-4104-95d2-06c981148396","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"683d6ee4-7c1f-4104-95d2-06c981148396","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"LayerId":{"name":"273cb6e0-b616-43f7-acf6-dc95695749c0","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bgr_minigame","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","name":"683d6ee4-7c1f-4104-95d2-06c981148396","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"LayerId":{"name":"273cb6e0-b616-43f7-acf6-dc95695749c0","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bgr_minigame","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"683d6ee4-7c1f-4104-95d2-06c981148396",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bgr_minigame","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bgr_minigame",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ef5d680b-32b6-440d-a75e-669c1cd980ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"683d6ee4-7c1f-4104-95d2-06c981148396","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"d1153f65-d6c8-4d0f-9047-b5a4954cf1a2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"ef5d680b-32b6-440d-a75e-669c1cd980ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"683d6ee4-7c1f-4104-95d2-06c981148396","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d1153f65-d6c8-4d0f-9047-b5a4954cf1a2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,14 +63,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bgr_minigame","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bgr_minigame",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"273cb6e0-b616-43f7-acf6-dc95695749c0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"273cb6e0-b616-43f7-acf6-dc95695749c0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
     "left": 16,
@@ -100,8 +96,4 @@
     "name": "Backgrounds & Tilesets",
     "path": "folders/Sprites/Special/Backgrounds & Tilesets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bgr_minigame",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

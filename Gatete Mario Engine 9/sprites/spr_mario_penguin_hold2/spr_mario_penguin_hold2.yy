@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_penguin_hold2",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f4a4be2d-9e17-4561-a68c-57d13f28867a","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f4a4be2d-9e17-4561-a68c-57d13f28867a","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"LayerId":{"name":"952fc30d-dd59-4ff8-a0c8-5b212df41939","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_hold2","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","name":"f4a4be2d-9e17-4561-a68c-57d13f28867a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cd81a5b4-5c6e-4b0d-ab4d-4dcddf8c3201","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd81a5b4-5c6e-4b0d-ab4d-4dcddf8c3201","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"LayerId":{"name":"952fc30d-dd59-4ff8-a0c8-5b212df41939","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_hold2","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","name":"cd81a5b4-5c6e-4b0d-ab4d-4dcddf8c3201","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a527982c-ff14-483b-81f2-acd5156ceefa","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a527982c-ff14-483b-81f2-acd5156ceefa","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"LayerId":{"name":"952fc30d-dd59-4ff8-a0c8-5b212df41939","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_hold2","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","name":"a527982c-ff14-483b-81f2-acd5156ceefa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f4a4be2d-9e17-4561-a68c-57d13f28867a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd81a5b4-5c6e-4b0d-ab4d-4dcddf8c3201",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a527982c-ff14-483b-81f2-acd5156ceefa",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_penguin_hold2","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"50b2eff4-1169-483b-9c57-ac00ed044b4e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f4a4be2d-9e17-4561-a68c-57d13f28867a","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"67153a9c-73fd-4c15-939f-6be62e4bfb59","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd81a5b4-5c6e-4b0d-ab4d-4dcddf8c3201","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"081b2ffa-d5aa-43de-b844-bf6a1d47bac1","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a527982c-ff14-483b-81f2-acd5156ceefa","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_penguin_hold2","path":"sprites/spr_mario_penguin_hold2/spr_mario_penguin_hold2.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"952fc30d-dd59-4ff8-a0c8-5b212df41939","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"952fc30d-dd59-4ff8-a0c8-5b212df41939","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Penguin",
     "path": "folders/Sprites/Mario/Main/Penguin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_penguin_hold2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

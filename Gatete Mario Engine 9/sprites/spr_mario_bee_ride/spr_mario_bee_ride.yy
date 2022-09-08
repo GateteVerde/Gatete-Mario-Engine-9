@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_bee_ride",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"24e5fb7f-b3c0-48ca-8519-dc52f968c097","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"24e5fb7f-b3c0-48ca-8519-dc52f968c097","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"LayerId":{"name":"bdb66a88-96ef-47b3-a602-94f0c26829ac","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bee_ride","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"resourceVersion":"1.0","name":"24e5fb7f-b3c0-48ca-8519-dc52f968c097","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a290ddc9-abb3-4bda-be92-9a20f20ca48b","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a290ddc9-abb3-4bda-be92-9a20f20ca48b","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"LayerId":{"name":"bdb66a88-96ef-47b3-a602-94f0c26829ac","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bee_ride","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"resourceVersion":"1.0","name":"a290ddc9-abb3-4bda-be92-9a20f20ca48b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"24e5fb7f-b3c0-48ca-8519-dc52f968c097",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a290ddc9-abb3-4bda-be92-9a20f20ca48b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_bee_ride","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_bee_ride",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"da4a4f83-0c61-46b4-b677-939244c924fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"24e5fb7f-b3c0-48ca-8519-dc52f968c097","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"277d0ad5-7041-45cd-8701-5ccdd7ca75cc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a290ddc9-abb3-4bda-be92-9a20f20ca48b","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_bee_ride","path":"sprites/spr_mario_bee_ride/spr_mario_bee_ride.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_bee_ride",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bdb66a88-96ef-47b3-a602-94f0c26829ac","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bdb66a88-96ef-47b3-a602-94f0c26829ac","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bee",
     "path": "folders/Sprites/Mario/Main/Bee.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_bee_ride",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

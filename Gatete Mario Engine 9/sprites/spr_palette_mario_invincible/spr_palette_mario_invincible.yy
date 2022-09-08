@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_palette_mario_invincible",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1d371163-1b37-4821-b991-b01aaedd6c5f","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d371163-1b37-4821-b991-b01aaedd6c5f","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},"LayerId":{"name":"a6b8bfb4-6e97-4ed1-a91d-7639bfcba884","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_palette_mario_invincible","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},"resourceVersion":"1.0","name":"1d371163-1b37-4821-b991-b01aaedd6c5f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d371163-1b37-4821-b991-b01aaedd6c5f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_palette_mario_invincible","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_palette_mario_invincible",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"049f1e30-63c9-426d-aece-b507229f341c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d371163-1b37-4821-b991-b01aaedd6c5f","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_palette_mario_invincible","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_palette_mario_invincible",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a6b8bfb4-6e97-4ed1-a91d-7639bfcba884","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a6b8bfb4-6e97-4ed1-a91d-7639bfcba884","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Mario",
     "path": "folders/Sprites/Special/System/Palettes/Mario.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_palette_mario_invincible",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_small_hold",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bcb4d602-4936-4a7d-ab72-21d7996b154f","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bcb4d602-4936-4a7d-ab72-21d7996b154f","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"LayerId":{"name":"8905e2ae-f859-499e-a56e-451d04fc99f4","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_small_hold","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"resourceVersion":"1.0","name":"bcb4d602-4936-4a7d-ab72-21d7996b154f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d5253654-cb26-4f5a-b105-834a03e9aaa5","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5253654-cb26-4f5a-b105-834a03e9aaa5","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"LayerId":{"name":"8905e2ae-f859-499e-a56e-451d04fc99f4","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_small_hold","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"resourceVersion":"1.0","name":"d5253654-cb26-4f5a-b105-834a03e9aaa5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bcb4d602-4936-4a7d-ab72-21d7996b154f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5253654-cb26-4f5a-b105-834a03e9aaa5",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_small_hold","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4ad83d7a-c35f-4d5a-931d-a8190dc463fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bcb4d602-4936-4a7d-ab72-21d7996b154f","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fb23a15b-ee0e-4c74-8482-26c92a8dcdf6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5253654-cb26-4f5a-b105-834a03e9aaa5","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_small_hold","path":"sprites/spr_mario_small_hold/spr_mario_small_hold.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8905e2ae-f859-499e-a56e-451d04fc99f4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8905e2ae-f859-499e-a56e-451d04fc99f4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Small",
     "path": "folders/Sprites/Mario/Main/Small.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_small_hold",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

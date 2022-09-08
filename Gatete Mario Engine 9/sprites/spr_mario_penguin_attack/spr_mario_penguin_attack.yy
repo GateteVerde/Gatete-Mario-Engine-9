@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_penguin_attack",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8a9470dd-61c2-4440-b178-0114b7380070","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8a9470dd-61c2-4440-b178-0114b7380070","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":{"name":"1fae7850-9fd0-45c9-9ad3-13b0ccfe77f5","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_attack","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"8a9470dd-61c2-4440-b178-0114b7380070","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ab0f0abc-2f0c-4f8c-b880-c7d2c25c170d","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab0f0abc-2f0c-4f8c-b880-c7d2c25c170d","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":{"name":"1fae7850-9fd0-45c9-9ad3-13b0ccfe77f5","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_attack","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"ab0f0abc-2f0c-4f8c-b880-c7d2c25c170d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4232c561-eba6-4e68-ab07-7c835452c1c6","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4232c561-eba6-4e68-ab07-7c835452c1c6","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":{"name":"1fae7850-9fd0-45c9-9ad3-13b0ccfe77f5","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_attack","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"4232c561-eba6-4e68-ab07-7c835452c1c6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f440499-06cf-423a-a9c0-1acfee8e620a","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f440499-06cf-423a-a9c0-1acfee8e620a","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"LayerId":{"name":"1fae7850-9fd0-45c9-9ad3-13b0ccfe77f5","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_attack","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","name":"0f440499-06cf-423a-a9c0-1acfee8e620a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8a9470dd-61c2-4440-b178-0114b7380070",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab0f0abc-2f0c-4f8c-b880-c7d2c25c170d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4232c561-eba6-4e68-ab07-7c835452c1c6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f440499-06cf-423a-a9c0-1acfee8e620a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_penguin_attack","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_penguin_attack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"43b8ef12-31bb-44cc-8e3f-dabef6046978","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a9470dd-61c2-4440-b178-0114b7380070","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5ca6e043-e341-4821-8431-6a19ff0231e1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab0f0abc-2f0c-4f8c-b880-c7d2c25c170d","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"62fdc0d7-08b5-4dd9-a1ae-b4fd08e4fa6f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4232c561-eba6-4e68-ab07-7c835452c1c6","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a17b4c00-75e0-4c1f-bb12-f14c335d1769","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f440499-06cf-423a-a9c0-1acfee8e620a","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_penguin_attack","path":"sprites/spr_mario_penguin_attack/spr_mario_penguin_attack.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_penguin_attack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1fae7850-9fd0-45c9-9ad3-13b0ccfe77f5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1fae7850-9fd0-45c9-9ad3-13b0ccfe77f5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Penguin",
     "path": "folders/Sprites/Mario/Main/Penguin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_penguin_attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

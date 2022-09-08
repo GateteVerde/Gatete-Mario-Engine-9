@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_fireball_gold",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b17078ca-8db9-4a58-b28f-ad82a030b4c5","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b17078ca-8db9-4a58-b28f-ad82a030b4c5","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":{"name":"b2c4f786-bba3-415b-8ac7-0831bec8aa3e","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_fireball_gold","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"b17078ca-8db9-4a58-b28f-ad82a030b4c5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c1d92cb7-0942-4fb1-b9a8-6c64375a05bb","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c1d92cb7-0942-4fb1-b9a8-6c64375a05bb","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":{"name":"b2c4f786-bba3-415b-8ac7-0831bec8aa3e","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_fireball_gold","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"c1d92cb7-0942-4fb1-b9a8-6c64375a05bb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e9da6252-f58b-44de-99f8-f2514690c545","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e9da6252-f58b-44de-99f8-f2514690c545","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":{"name":"b2c4f786-bba3-415b-8ac7-0831bec8aa3e","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_fireball_gold","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"e9da6252-f58b-44de-99f8-f2514690c545","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2d6692a9-9b83-4060-91e4-9b382c463bd3","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d6692a9-9b83-4060-91e4-9b382c463bd3","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"LayerId":{"name":"b2c4f786-bba3-415b-8ac7-0831bec8aa3e","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_fireball_gold","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","name":"2d6692a9-9b83-4060-91e4-9b382c463bd3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b17078ca-8db9-4a58-b28f-ad82a030b4c5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1d92cb7-0942-4fb1-b9a8-6c64375a05bb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9da6252-f58b-44de-99f8-f2514690c545",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d6692a9-9b83-4060-91e4-9b382c463bd3",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_fireball_gold","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_fireball_gold",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"56498848-152b-4373-b014-15f898bb7c36","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b17078ca-8db9-4a58-b28f-ad82a030b4c5","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7b69dd9e-58a0-41e8-959e-e5cfc68e5e4d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1d92cb7-0942-4fb1-b9a8-6c64375a05bb","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6e4e567e-a654-43a7-ba0c-e870b4bbc084","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9da6252-f58b-44de-99f8-f2514690c545","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7a1233f7-7774-408d-8062-87adfe1277cd","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d6692a9-9b83-4060-91e4-9b382c463bd3","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_fireball_gold","path":"sprites/spr_fireball_gold/spr_fireball_gold.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_fireball_gold",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b2c4f786-bba3-415b-8ac7-0831bec8aa3e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b2c4f786-bba3-415b-8ac7-0831bec8aa3e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Projectiles",
     "path": "folders/Sprites/Mario/Projectiles.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_fireball_gold",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

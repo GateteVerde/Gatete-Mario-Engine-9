@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_big_climb",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2f522987-5f16-4cee-877c-d40e58286312","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f522987-5f16-4cee-877c-d40e58286312","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"LayerId":{"name":"08f08b32-f5cd-43c8-9ee0-ba0e8e97a3b1","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_big_climb","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"resourceVersion":"1.0","name":"2f522987-5f16-4cee-877c-d40e58286312","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"LayerId":{"name":"08f08b32-f5cd-43c8-9ee0-ba0e8e97a3b1","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_big_climb","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"resourceVersion":"1.0","name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f522987-5f16-4cee-877c-d40e58286312",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_big_climb","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fcfc42d9-34de-4905-a9c6-38ffbf6b9dd4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f522987-5f16-4cee-877c-d40e58286312","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e861d37f-883f-434f-8528-e716ad16180d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_big_climb","path":"sprites/spr_mario_big_climb/spr_mario_big_climb.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"08f08b32-f5cd-43c8-9ee0-ba0e8e97a3b1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"08f08b32-f5cd-43c8-9ee0-ba0e8e97a3b1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Big",
     "path": "folders/Sprites/Mario/Main/Big.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_big_climb",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_tanooki_duck",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,36 +27,20 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f19910d4-4f35-4c98-9432-5f93daacd604","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f19910d4-4f35-4c98-9432-5f93daacd604","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"f19910d4-4f35-4c98-9432-5f93daacd604","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d2aa3a97-dea3-46d8-8d75-e536f3b03e34","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d2aa3a97-dea3-46d8-8d75-e536f3b03e34","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"d2aa3a97-dea3-46d8-8d75-e536f3b03e34","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5f04312a-2303-4809-a9b5-66f4da5ca3b4","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5f04312a-2303-4809-a9b5-66f4da5ca3b4","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"5f04312a-2303-4809-a9b5-66f4da5ca3b4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f0555ac1-e0e4-40c4-bcc1-f5368766efa7","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f0555ac1-e0e4-40c4-bcc1-f5368766efa7","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"f0555ac1-e0e4-40c4-bcc1-f5368766efa7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e7709571-b0e5-456a-9389-6e654fa6ead7","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e7709571-b0e5-456a-9389-6e654fa6ead7","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"e7709571-b0e5-456a-9389-6e654fa6ead7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2b83d48f-4e1c-4517-84a2-35a51d788161","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2b83d48f-4e1c-4517-84a2-35a51d788161","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"2b83d48f-4e1c-4517-84a2-35a51d788161","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3a0d4301-6b2f-4323-86ee-fba87bfc70dc","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a0d4301-6b2f-4323-86ee-fba87bfc70dc","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"3a0d4301-6b2f-4323-86ee-fba87bfc70dc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fe0afe29-c6c5-4607-8550-69fe61cc6ed2","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fe0afe29-c6c5-4607-8550-69fe61cc6ed2","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"fe0afe29-c6c5-4607-8550-69fe61cc6ed2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5698e4cf-1309-474b-b712-b0e02e40f35b","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5698e4cf-1309-474b-b712-b0e02e40f35b","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"LayerId":{"name":"4541632b-b9c1-4505-81bb-0073b7f980ef","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","name":"5698e4cf-1309-474b-b712-b0e02e40f35b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f19910d4-4f35-4c98-9432-5f93daacd604",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2aa3a97-dea3-46d8-8d75-e536f3b03e34",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5f04312a-2303-4809-a9b5-66f4da5ca3b4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0555ac1-e0e4-40c4-bcc1-f5368766efa7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7709571-b0e5-456a-9389-6e654fa6ead7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b83d48f-4e1c-4517-84a2-35a51d788161",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a0d4301-6b2f-4323-86ee-fba87bfc70dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe0afe29-c6c5-4607-8550-69fe61cc6ed2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5698e4cf-1309-474b-b712-b0e02e40f35b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -64,7 +51,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0d4a409e-e222-4214-99f7-6094ae91f982","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f19910d4-4f35-4c98-9432-5f93daacd604","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2afc00ef-cb35-478b-8578-3053531d90cf","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2aa3a97-dea3-46d8-8d75-e536f3b03e34","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"354b70f6-b260-4a3f-9408-5f209bb6b85c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f04312a-2303-4809-a9b5-66f4da5ca3b4","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -74,7 +61,7 @@
             {"id":"6544defc-1c06-4099-8300-316a8fe6859e","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a0d4301-6b2f-4323-86ee-fba87bfc70dc","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"87aa7a25-86d8-41cb-a694-bbf3080d66f5","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe0afe29-c6c5-4607-8550-69fe61cc6ed2","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8dd15bfa-08e8-4c61-a22f-8b7429af7e05","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5698e4cf-1309-474b-b712-b0e02e40f35b","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -90,22 +77,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_tanooki_duck","path":"sprites/spr_mario_tanooki_duck/spr_mario_tanooki_duck.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4541632b-b9c1-4505-81bb-0073b7f980ef","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4541632b-b9c1-4505-81bb-0073b7f980ef","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tanooki",
     "path": "folders/Sprites/Mario/Main/Tanooki.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_tanooki_duck",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

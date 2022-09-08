@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ninji_purple_big",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7b6e8326-0831-41ab-9a76-93609014ed32","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b6e8326-0831-41ab-9a76-93609014ed32","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"LayerId":{"name":"047f8d5a-dd56-4be2-bf66-0d25ed5ba3fe","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ninji_purple_big","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"resourceVersion":"1.0","name":"7b6e8326-0831-41ab-9a76-93609014ed32","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ac0b91b1-2c4d-4d4e-8926-f5891fc3eb06","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ac0b91b1-2c4d-4d4e-8926-f5891fc3eb06","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"LayerId":{"name":"047f8d5a-dd56-4be2-bf66-0d25ed5ba3fe","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ninji_purple_big","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"resourceVersion":"1.0","name":"ac0b91b1-2c4d-4d4e-8926-f5891fc3eb06","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b6e8326-0831-41ab-9a76-93609014ed32",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac0b91b1-2c4d-4d4e-8926-f5891fc3eb06",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ninji_purple_big","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ninji_purple_big",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"48552601-957f-4846-9287-ad16b1a2fb9d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b6e8326-0831-41ab-9a76-93609014ed32","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"24d4db7a-574b-4b5c-a5ce-0f24b3a976fb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac0b91b1-2c4d-4d4e-8926-f5891fc3eb06","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ninji_purple_big","path":"sprites/spr_ninji_purple_big/spr_ninji_purple_big.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_ninji_purple_big",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"047f8d5a-dd56-4be2-bf66-0d25ed5ba3fe","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"047f8d5a-dd56-4be2-bf66-0d25ed5ba3fe","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Big",
     "path": "folders/Sprites/Enemies/Subcon/Big.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ninji_purple_big",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

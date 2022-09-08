@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mushroom_lift_down",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7b60cdb0-4cb2-443c-a5e5-fa01d8d9a92e","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b60cdb0-4cb2-443c-a5e5-fa01d8d9a92e","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},"LayerId":{"name":"e7973bb4-c5c6-4ed4-a716-341e4e5e21cf","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mushroom_lift_down","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},"resourceVersion":"1.0","name":"7b60cdb0-4cb2-443c-a5e5-fa01d8d9a92e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b60cdb0-4cb2-443c-a5e5-fa01d8d9a92e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mushroom_lift_down","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mushroom_lift_down",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bf6ae14e-5105-4357-a842-cd18e33bf280","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b60cdb0-4cb2-443c-a5e5-fa01d8d9a92e","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,14 +61,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mushroom_lift_down","path":"sprites/spr_mushroom_lift_down/spr_mushroom_lift_down.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mushroom_lift_down",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e7973bb4-c5c6-4ed4-a716-341e4e5e21cf","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e7973bb4-c5c6-4ed4-a716-341e4e5e21cf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
     "left": 16,
@@ -96,8 +94,4 @@
     "name": "Mushrooms",
     "path": "folders/Sprites/Items/Platforms/NSMB/Mushrooms.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mushroom_lift_down",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

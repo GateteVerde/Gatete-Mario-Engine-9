@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_charginchuck_jump",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","path":"sprites/spr_charginchuck_jump/spr_charginchuck_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","path":"sprites/spr_charginchuck_jump/spr_charginchuck_jump.yy",},"LayerId":{"name":"849a0a8a-61e0-4cb8-afe3-8bbe6cb27c60","path":"sprites/spr_charginchuck_jump/spr_charginchuck_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_charginchuck_jump","path":"sprites/spr_charginchuck_jump/spr_charginchuck_jump.yy",},"resourceVersion":"1.0","name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"770da9a0-7836-4689-b71b-0feb3e6fdccd",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_charginchuck_jump","path":"sprites/spr_charginchuck_jump/spr_charginchuck_jump.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_charginchuck_jump",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2549b4a3-a3b0-480d-b7de-ee402c4c9f67","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","path":"sprites/spr_charginchuck_jump/spr_charginchuck_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_charginchuck_jump","path":"sprites/spr_charginchuck_jump/spr_charginchuck_jump.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_charginchuck_jump",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"849a0a8a-61e0-4cb8-afe3-8bbe6cb27c60","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"849a0a8a-61e0-4cb8-afe3-8bbe6cb27c60","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Chucks",
     "path": "folders/Sprites/Enemies/Land/Chucks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_charginchuck_jump",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

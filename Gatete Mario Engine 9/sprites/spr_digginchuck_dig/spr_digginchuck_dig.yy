@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_digginchuck_dig",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"953ae6b4-1af1-41af-9697-a470cfd2f956","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"953ae6b4-1af1-41af-9697-a470cfd2f956","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"LayerId":{"name":"ceb6d1a0-bf7c-4311-bc27-5298fae87bbc","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_digginchuck_dig","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","name":"953ae6b4-1af1-41af-9697-a470cfd2f956","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e8ab698f-93d8-448d-8145-dd8232b11237","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e8ab698f-93d8-448d-8145-dd8232b11237","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"LayerId":{"name":"ceb6d1a0-bf7c-4311-bc27-5298fae87bbc","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_digginchuck_dig","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","name":"e8ab698f-93d8-448d-8145-dd8232b11237","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2f5b5935-a06f-4e26-89d9-95c8f9e0ae0b","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f5b5935-a06f-4e26-89d9-95c8f9e0ae0b","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"LayerId":{"name":"ceb6d1a0-bf7c-4311-bc27-5298fae87bbc","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_digginchuck_dig","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","name":"2f5b5935-a06f-4e26-89d9-95c8f9e0ae0b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"953ae6b4-1af1-41af-9697-a470cfd2f956",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8ab698f-93d8-448d-8145-dd8232b11237",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f5b5935-a06f-4e26-89d9-95c8f9e0ae0b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_digginchuck_dig","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_digginchuck_dig",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7fab3f7e-eee6-452c-a440-5fb108305113","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"953ae6b4-1af1-41af-9697-a470cfd2f956","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d9458c3c-1785-4291-92a6-9e41a7ca88ec","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e8ab698f-93d8-448d-8145-dd8232b11237","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a73ace26-9922-4e5b-9853-b8ff74576d57","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f5b5935-a06f-4e26-89d9-95c8f9e0ae0b","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_digginchuck_dig","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_digginchuck_dig",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ceb6d1a0-bf7c-4311-bc27-5298fae87bbc","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ceb6d1a0-bf7c-4311-bc27-5298fae87bbc","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Diggin' Chuck",
     "path": "folders/Sprites/Enemies/Land/Chucks/Diggin' Chuck.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_digginchuck_dig",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_cheepcheep_bomb",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"34cdf9b9-34e0-44b0-9113-9ce24e9a0227","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34cdf9b9-34e0-44b0-9113-9ce24e9a0227","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"LayerId":{"name":"85145da9-8fcc-4cee-8805-1b784db884a3","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cheepcheep_bomb","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"resourceVersion":"1.0","name":"34cdf9b9-34e0-44b0-9113-9ce24e9a0227","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b2b5e8cf-e1ba-4e58-a813-2411ea878eeb","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2b5e8cf-e1ba-4e58-a813-2411ea878eeb","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"LayerId":{"name":"85145da9-8fcc-4cee-8805-1b784db884a3","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cheepcheep_bomb","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"resourceVersion":"1.0","name":"b2b5e8cf-e1ba-4e58-a813-2411ea878eeb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34cdf9b9-34e0-44b0-9113-9ce24e9a0227",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2b5e8cf-e1ba-4e58-a813-2411ea878eeb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cheepcheep_bomb","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_cheepcheep_bomb",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"cfa69ad3-9b24-4453-bdf0-d90efb92403e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34cdf9b9-34e0-44b0-9113-9ce24e9a0227","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6efe34a6-1ac8-4884-98fd-5b0ce1b22f4b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2b5e8cf-e1ba-4e58-a813-2411ea878eeb","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cheepcheep_bomb","path":"sprites/spr_cheepcheep_bomb/spr_cheepcheep_bomb.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_cheepcheep_bomb",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85145da9-8fcc-4cee-8805-1b784db884a3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"85145da9-8fcc-4cee-8805-1b784db884a3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Water",
     "path": "folders/Sprites/Enemies/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_cheepcheep_bomb",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

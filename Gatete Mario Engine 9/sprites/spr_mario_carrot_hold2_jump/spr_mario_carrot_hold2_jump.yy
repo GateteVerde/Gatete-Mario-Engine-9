@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_carrot_hold2_jump",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"LayerId":{"name":"90ddfaee-6b01-4375-9ca1-115fb6780408","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_carrot_hold2_jump","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"resourceVersion":"1.0","name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f80364ee-1cbf-4908-a048-9c25154bc67b","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f80364ee-1cbf-4908-a048-9c25154bc67b","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"LayerId":{"name":"90ddfaee-6b01-4375-9ca1-115fb6780408","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_carrot_hold2_jump","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"resourceVersion":"1.0","name":"f80364ee-1cbf-4908-a048-9c25154bc67b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f80364ee-1cbf-4908-a048-9c25154bc67b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_carrot_hold2_jump","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f8bdda67-5256-48e0-8919-902adba5c57b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"12f6828a-fb2e-4d00-b9ea-071d669b6bc0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f80364ee-1cbf-4908-a048-9c25154bc67b","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_carrot_hold2_jump","path":"sprites/spr_mario_carrot_hold2_jump/spr_mario_carrot_hold2_jump.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"90ddfaee-6b01-4375-9ca1-115fb6780408","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"90ddfaee-6b01-4375-9ca1-115fb6780408","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Carrot",
     "path": "folders/Sprites/Mario/Main/Carrot.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_carrot_hold2_jump",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

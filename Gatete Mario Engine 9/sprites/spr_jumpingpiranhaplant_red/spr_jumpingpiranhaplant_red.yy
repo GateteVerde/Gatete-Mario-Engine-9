@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_jumpingpiranhaplant_red",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"08a11292-8ef8-4953-b2bb-2538c96b777f","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08a11292-8ef8-4953-b2bb-2538c96b777f","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":{"name":"e924aeb7-cead-4183-a9c7-f3a9988097ea","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_jumpingpiranhaplant_red","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"08a11292-8ef8-4953-b2bb-2538c96b777f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":{"name":"e924aeb7-cead-4183-a9c7-f3a9988097ea","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_jumpingpiranhaplant_red","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":{"name":"e924aeb7-cead-4183-a9c7-f3a9988097ea","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_jumpingpiranhaplant_red","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5c97c19d-4798-4208-8748-037150ccbae0","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c97c19d-4798-4208-8748-037150ccbae0","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"LayerId":{"name":"e924aeb7-cead-4183-a9c7-f3a9988097ea","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_jumpingpiranhaplant_red","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","name":"5c97c19d-4798-4208-8748-037150ccbae0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08a11292-8ef8-4953-b2bb-2538c96b777f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c97c19d-4798-4208-8748-037150ccbae0",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_jumpingpiranhaplant_red","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_jumpingpiranhaplant_red",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 18.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e0404d98-6751-4a13-a22a-e4da9d0039e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08a11292-8ef8-4953-b2bb-2538c96b777f","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9569fac2-c3d4-427a-87d8-5e9d353d3bce","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1afa0815-88bb-4199-af3c-a7953699d4b2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3657b601-1855-4ced-9329-91366892fa54","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c97c19d-4798-4208-8748-037150ccbae0","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_jumpingpiranhaplant_red","path":"sprites/spr_jumpingpiranhaplant_red/spr_jumpingpiranhaplant_red.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_jumpingpiranhaplant_red",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e924aeb7-cead-4183-a9c7-f3a9988097ea","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e924aeb7-cead-4183-a9c7-f3a9988097ea","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Piranha Plants",
     "path": "folders/Sprites/Enemies/Cave/Piranha Plants.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_jumpingpiranhaplant_red",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

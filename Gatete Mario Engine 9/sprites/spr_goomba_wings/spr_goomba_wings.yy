@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_goomba_wings",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"LayerId":{"name":"11ccffbb-8e17-4a3a-927a-d6419c99c63d","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goomba_wings","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"resourceVersion":"1.0","name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"99840047-df64-4c93-85f1-382c2ca3cc42","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"99840047-df64-4c93-85f1-382c2ca3cc42","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"LayerId":{"name":"11ccffbb-8e17-4a3a-927a-d6419c99c63d","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goomba_wings","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"resourceVersion":"1.0","name":"99840047-df64-4c93-85f1-382c2ca3cc42","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99840047-df64-4c93-85f1-382c2ca3cc42",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_goomba_wings","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_goomba_wings",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5967a360-5200-4648-abdd-cf51b761e76d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3178a913-ae69-4d7e-a639-b79d059c00e6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99840047-df64-4c93-85f1-382c2ca3cc42","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_goomba_wings","path":"sprites/spr_goomba_wings/spr_goomba_wings.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_goomba_wings",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"11ccffbb-8e17-4a3a-927a-d6419c99c63d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"11ccffbb-8e17-4a3a-927a-d6419c99c63d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Goombas",
     "path": "folders/Sprites/Enemies/Land/Goombas.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_goomba_wings",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

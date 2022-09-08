@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_gachapon",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","path":"sprites/spr_gachapon/spr_gachapon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","path":"sprites/spr_gachapon/spr_gachapon.yy",},"LayerId":{"name":"78171720-b6bb-4cdf-a494-a08ebe48987a","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gachapon","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","path":"sprites/spr_gachapon/spr_gachapon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","path":"sprites/spr_gachapon/spr_gachapon.yy",},"LayerId":{"name":"78171720-b6bb-4cdf-a494-a08ebe48987a","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gachapon","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","path":"sprites/spr_gachapon/spr_gachapon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","path":"sprites/spr_gachapon/spr_gachapon.yy",},"LayerId":{"name":"78171720-b6bb-4cdf-a494-a08ebe48987a","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gachapon","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c0aa4763-9cd4-46c9-a784-821a606ef97b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_gachapon","path":"sprites/spr_gachapon/spr_gachapon.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_gachapon",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 6.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"224b42b9-fe68-4d23-a6a4-908afd09a507","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d0525059-efdf-4680-8ed4-fb0beb9a6e9a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ba7a8571-cb3c-44f3-b103-1769f9334b0f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","path":"sprites/spr_gachapon/spr_gachapon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_gachapon","path":"sprites/spr_gachapon/spr_gachapon.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_gachapon",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"78171720-b6bb-4cdf-a494-a08ebe48987a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"78171720-b6bb-4cdf-a494-a08ebe48987a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Collectibles",
     "path": "folders/Sprites/Items/Subcon/Collectibles.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_gachapon",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

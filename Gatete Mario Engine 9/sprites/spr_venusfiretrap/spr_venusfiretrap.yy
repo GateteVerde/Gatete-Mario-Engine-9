@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_venusfiretrap",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9c26784e-963c-4d38-ad8f-346b596e9629","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9c26784e-963c-4d38-ad8f-346b596e9629","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":{"name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venusfiretrap","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"9c26784e-963c-4d38-ad8f-346b596e9629","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"24fbcc09-2fcb-4d30-a0eb-1c7d6f344b70","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"24fbcc09-2fcb-4d30-a0eb-1c7d6f344b70","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":{"name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venusfiretrap","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"24fbcc09-2fcb-4d30-a0eb-1c7d6f344b70","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"69113f10-e230-4351-a142-711d6b7ca9ed","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69113f10-e230-4351-a142-711d6b7ca9ed","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":{"name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venusfiretrap","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"69113f10-e230-4351-a142-711d6b7ca9ed","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3eae8644-2159-44be-8b48-ccb184a99ff8","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3eae8644-2159-44be-8b48-ccb184a99ff8","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"LayerId":{"name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venusfiretrap","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","name":"3eae8644-2159-44be-8b48-ccb184a99ff8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9c26784e-963c-4d38-ad8f-346b596e9629",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"24fbcc09-2fcb-4d30-a0eb-1c7d6f344b70",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69113f10-e230-4351-a142-711d6b7ca9ed",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3eae8644-2159-44be-8b48-ccb184a99ff8",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_venusfiretrap","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_venusfiretrap",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0c7f313d-003f-4a71-a0d4-b54781962945","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c26784e-963c-4d38-ad8f-346b596e9629","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f25771aa-5c78-4db4-a300-505c10a5b9ca","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"24fbcc09-2fcb-4d30-a0eb-1c7d6f344b70","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9adea6bd-2718-4b61-9a63-32aedcaf2d4e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69113f10-e230-4351-a142-711d6b7ca9ed","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"78dceabc-c534-4d2f-b36a-a9a5452fefc6","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3eae8644-2159-44be-8b48-ccb184a99ff8","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_venusfiretrap","path":"sprites/spr_venusfiretrap/spr_venusfiretrap.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_venusfiretrap",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3f9e69b6-6729-4bfd-a8f0-b1f954deeec0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Piranha Plants",
     "path": "folders/Sprites/Enemies/Cave/Piranha Plants.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_venusfiretrap",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

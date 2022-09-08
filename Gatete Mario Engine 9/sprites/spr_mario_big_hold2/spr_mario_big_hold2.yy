@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_big_hold2",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"120046a9-d6d7-4e2c-ac62-d983f659696d","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"120046a9-d6d7-4e2c-ac62-d983f659696d","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"LayerId":{"name":"074eeb18-0373-4d0d-810f-ee9d7826cdef","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_big_hold2","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","name":"120046a9-d6d7-4e2c-ac62-d983f659696d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6394165f-bb10-4a2c-80ca-8e32143237ff","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6394165f-bb10-4a2c-80ca-8e32143237ff","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"LayerId":{"name":"074eeb18-0373-4d0d-810f-ee9d7826cdef","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_big_hold2","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","name":"6394165f-bb10-4a2c-80ca-8e32143237ff","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"28353de3-c7d4-4bb5-8eb0-39e60635470d","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"28353de3-c7d4-4bb5-8eb0-39e60635470d","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"LayerId":{"name":"074eeb18-0373-4d0d-810f-ee9d7826cdef","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_big_hold2","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","name":"28353de3-c7d4-4bb5-8eb0-39e60635470d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"120046a9-d6d7-4e2c-ac62-d983f659696d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6394165f-bb10-4a2c-80ca-8e32143237ff",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28353de3-c7d4-4bb5-8eb0-39e60635470d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_big_hold2","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4ed34922-1ae4-47d4-b123-366817f9109d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"120046a9-d6d7-4e2c-ac62-d983f659696d","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e3602796-c044-4c08-8ce8-56aa42cc0a0a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6394165f-bb10-4a2c-80ca-8e32143237ff","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"928aa6f0-cb72-476c-a6a0-5da77f71dd77","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28353de3-c7d4-4bb5-8eb0-39e60635470d","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_big_hold2","path":"sprites/spr_mario_big_hold2/spr_mario_big_hold2.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"074eeb18-0373-4d0d-810f-ee9d7826cdef","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"074eeb18-0373-4d0d-810f-ee9d7826cdef","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Big",
     "path": "folders/Sprites/Mario/Main/Big.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_big_hold2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

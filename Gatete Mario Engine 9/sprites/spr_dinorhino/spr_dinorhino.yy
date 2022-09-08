@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_dinorhino",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2abb3cdb-1002-4199-b075-977123963c0f","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2abb3cdb-1002-4199-b075-977123963c0f","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"LayerId":{"name":"1fdc2b12-20a8-4e71-89b5-63af6ac321c0","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dinorhino","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"resourceVersion":"1.0","name":"2abb3cdb-1002-4199-b075-977123963c0f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"02644ac6-0a98-4ef4-bda9-6b6a536ddd3c","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"02644ac6-0a98-4ef4-bda9-6b6a536ddd3c","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"LayerId":{"name":"1fdc2b12-20a8-4e71-89b5-63af6ac321c0","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dinorhino","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"resourceVersion":"1.0","name":"02644ac6-0a98-4ef4-bda9-6b6a536ddd3c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2abb3cdb-1002-4199-b075-977123963c0f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"02644ac6-0a98-4ef4-bda9-6b6a536ddd3c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_dinorhino","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_dinorhino",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"43ebdac0-b44e-4333-a087-0ebd0751a8b8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2abb3cdb-1002-4199-b075-977123963c0f","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"66450a21-0474-45b7-b00a-a6c6b8820a31","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"02644ac6-0a98-4ef4-bda9-6b6a536ddd3c","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_dinorhino","path":"sprites/spr_dinorhino/spr_dinorhino.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_dinorhino",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1fdc2b12-20a8-4e71-89b5-63af6ac321c0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1fdc2b12-20a8-4e71-89b5-63af6ac321c0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Land",
     "path": "folders/Sprites/Enemies/Land.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_dinorhino",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

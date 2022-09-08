@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bell_house",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","path":"sprites/spr_bell_house/spr_bell_house.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","path":"sprites/spr_bell_house/spr_bell_house.yy",},"LayerId":{"name":"1b6cc284-175f-4ebf-87b5-e870221ff974","path":"sprites/spr_bell_house/spr_bell_house.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bell_house","path":"sprites/spr_bell_house/spr_bell_house.yy",},"resourceVersion":"1.0","name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"08582649-83da-4278-bf4a-a2f194fe21e3","path":"sprites/spr_bell_house/spr_bell_house.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08582649-83da-4278-bf4a-a2f194fe21e3","path":"sprites/spr_bell_house/spr_bell_house.yy",},"LayerId":{"name":"1b6cc284-175f-4ebf-87b5-e870221ff974","path":"sprites/spr_bell_house/spr_bell_house.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bell_house","path":"sprites/spr_bell_house/spr_bell_house.yy",},"resourceVersion":"1.0","name":"08582649-83da-4278-bf4a-a2f194fe21e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08582649-83da-4278-bf4a-a2f194fe21e3",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bell_house","path":"sprites/spr_bell_house/spr_bell_house.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bell_house",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5510e061-636f-4baa-bb61-8d13a4a555f1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","path":"sprites/spr_bell_house/spr_bell_house.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fc0ea665-d6cf-45c5-8847-b78c7377a551","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08582649-83da-4278-bf4a-a2f194fe21e3","path":"sprites/spr_bell_house/spr_bell_house.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,14 +63,9 @@
     "yorigin": 144,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bell_house","path":"sprites/spr_bell_house/spr_bell_house.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bell_house",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b6cc284-175f-4ebf-87b5-e870221ff974","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b6cc284-175f-4ebf-87b5-e870221ff974","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
     "left": 0,
@@ -100,8 +96,4 @@
     "name": "SML2",
     "path": "folders/Sprites/Items/Level Progress/SML2.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bell_house",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

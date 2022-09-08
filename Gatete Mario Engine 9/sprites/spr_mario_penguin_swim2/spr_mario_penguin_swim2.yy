@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_penguin_swim2",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":{"name":"4a70bbd9-6475-4db2-8091-a63f3f294c32","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_swim2","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c555a995-22f0-4a03-a687-b9b91ff6229d","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c555a995-22f0-4a03-a687-b9b91ff6229d","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":{"name":"4a70bbd9-6475-4db2-8091-a63f3f294c32","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_swim2","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"c555a995-22f0-4a03-a687-b9b91ff6229d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0665033a-73c7-46c5-b49a-39ef55627a93","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0665033a-73c7-46c5-b49a-39ef55627a93","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":{"name":"4a70bbd9-6475-4db2-8091-a63f3f294c32","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_swim2","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"0665033a-73c7-46c5-b49a-39ef55627a93","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"effbc799-e054-459a-982f-9f7f6d373a1e","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"effbc799-e054-459a-982f-9f7f6d373a1e","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"LayerId":{"name":"4a70bbd9-6475-4db2-8091-a63f3f294c32","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_penguin_swim2","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","name":"effbc799-e054-459a-982f-9f7f6d373a1e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c555a995-22f0-4a03-a687-b9b91ff6229d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0665033a-73c7-46c5-b49a-39ef55627a93",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"effbc799-e054-459a-982f-9f7f6d373a1e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_penguin_swim2","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"efca899a-cd06-49f0-85db-2b816afcc75b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"65969273-7b51-4088-80e3-c9d88b8566f9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c555a995-22f0-4a03-a687-b9b91ff6229d","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"47ecea49-1b03-4773-88aa-486647b6548e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0665033a-73c7-46c5-b49a-39ef55627a93","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e9488ddc-e93c-4145-bc8b-f20ecf0924ad","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"effbc799-e054-459a-982f-9f7f6d373a1e","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_penguin_swim2","path":"sprites/spr_mario_penguin_swim2/spr_mario_penguin_swim2.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a70bbd9-6475-4db2-8091-a63f3f294c32","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4a70bbd9-6475-4db2-8091-a63f3f294c32","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Penguin",
     "path": "folders/Sprites/Mario/Main/Penguin.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_penguin_swim2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

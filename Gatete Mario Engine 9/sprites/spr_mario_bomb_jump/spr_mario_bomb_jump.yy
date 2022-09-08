@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_bomb_jump",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2e143cc1-182e-4dab-a77c-d890e9266cfd","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2e143cc1-182e-4dab-a77c-d890e9266cfd","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"LayerId":{"name":"04aac5ab-1a5b-4820-9f93-11ea05ed4870","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bomb_jump","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"resourceVersion":"1.0","name":"2e143cc1-182e-4dab-a77c-d890e9266cfd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1d4f5c44-f7aa-44fb-b351-413762d7c413","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d4f5c44-f7aa-44fb-b351-413762d7c413","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"LayerId":{"name":"04aac5ab-1a5b-4820-9f93-11ea05ed4870","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_bomb_jump","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"resourceVersion":"1.0","name":"1d4f5c44-f7aa-44fb-b351-413762d7c413","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2e143cc1-182e-4dab-a77c-d890e9266cfd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d4f5c44-f7aa-44fb-b351-413762d7c413",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_bomb_jump","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1d84a3c4-87d2-4819-b6bf-9023ad617008","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2e143cc1-182e-4dab-a77c-d890e9266cfd","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9a274e57-1426-43f5-95a3-51434820da1e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d4f5c44-f7aa-44fb-b351-413762d7c413","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_bomb_jump","path":"sprites/spr_mario_bomb_jump/spr_mario_bomb_jump.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"04aac5ab-1a5b-4820-9f93-11ea05ed4870","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"04aac5ab-1a5b-4820-9f93-11ea05ed4870","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bomb",
     "path": "folders/Sprites/Mario/Main/Bomb.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_bomb_jump",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

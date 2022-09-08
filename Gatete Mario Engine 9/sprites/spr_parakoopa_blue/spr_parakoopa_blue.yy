@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_parakoopa_blue",
   "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ba111096-703a-45ca-a158-2cd4cc8b16fa","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba111096-703a-45ca-a158-2cd4cc8b16fa","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"LayerId":{"name":"349fa14f-d042-4ac0-9332-ae6045777137","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_parakoopa_blue","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","name":"ba111096-703a-45ca-a158-2cd4cc8b16fa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c2cedbd2-ba8f-45a9-ba64-4e22eb82d40a","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2cedbd2-ba8f-45a9-ba64-4e22eb82d40a","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"LayerId":{"name":"349fa14f-d042-4ac0-9332-ae6045777137","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_parakoopa_blue","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","name":"c2cedbd2-ba8f-45a9-ba64-4e22eb82d40a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba111096-703a-45ca-a158-2cd4cc8b16fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2cedbd2-ba8f-45a9-ba64-4e22eb82d40a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_parakoopa_blue","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_parakoopa_blue",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cf217553-97fd-45cc-9736-6baae319299b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba111096-703a-45ca-a158-2cd4cc8b16fa","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"9e3bc462-311b-4ed1-a301-de29e92841ff","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2cedbd2-ba8f-45a9-ba64-4e22eb82d40a","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"cf217553-97fd-45cc-9736-6baae319299b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba111096-703a-45ca-a158-2cd4cc8b16fa","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9e3bc462-311b-4ed1-a301-de29e92841ff","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2cedbd2-ba8f-45a9-ba64-4e22eb82d40a","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_parakoopa_blue","path":"sprites/spr_parakoopa_blue/spr_parakoopa_blue.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_parakoopa_blue",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"349fa14f-d042-4ac0-9332-ae6045777137","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"349fa14f-d042-4ac0-9332-ae6045777137","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Blue",
     "path": "folders/Sprites/Enemies/Land/Koopas/Blue.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_parakoopa_blue",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_ripvanfish_awaken",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2719a391-3a4a-40d4-8fe6-adc70bf7e078","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2719a391-3a4a-40d4-8fe6-adc70bf7e078","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"LayerId":{"name":"b95d0196-953a-49ff-bf3c-7b1a9d52d3f6","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ripvanfish_awaken","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"resourceVersion":"1.0","name":"2719a391-3a4a-40d4-8fe6-adc70bf7e078","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"39c5bf13-a9a9-4a53-91dd-645f18015d1c","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"39c5bf13-a9a9-4a53-91dd-645f18015d1c","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"LayerId":{"name":"b95d0196-953a-49ff-bf3c-7b1a9d52d3f6","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ripvanfish_awaken","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"resourceVersion":"1.0","name":"39c5bf13-a9a9-4a53-91dd-645f18015d1c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2719a391-3a4a-40d4-8fe6-adc70bf7e078",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"39c5bf13-a9a9-4a53-91dd-645f18015d1c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ripvanfish_awaken","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_ripvanfish_awaken",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0bf15aab-3652-4c34-80dd-ea088a938c62","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2719a391-3a4a-40d4-8fe6-adc70bf7e078","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8e019a4d-dc44-48a1-9b2f-37b16873570a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"39c5bf13-a9a9-4a53-91dd-645f18015d1c","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ripvanfish_awaken","path":"sprites/spr_ripvanfish_awaken/spr_ripvanfish_awaken.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_ripvanfish_awaken",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b95d0196-953a-49ff-bf3c-7b1a9d52d3f6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b95d0196-953a-49ff-bf3c-7b1a9d52d3f6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Water",
     "path": "folders/Sprites/Enemies/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_ripvanfish_awaken",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

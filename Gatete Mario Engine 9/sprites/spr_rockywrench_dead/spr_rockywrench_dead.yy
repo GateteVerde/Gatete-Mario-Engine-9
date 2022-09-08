@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_rockywrench_dead",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"LayerId":{"name":"9f8e86cc-a14b-41b8-8572-b8da37fa15d0","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rockywrench_dead","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"resourceVersion":"1.0","name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"LayerId":{"name":"9f8e86cc-a14b-41b8-8572-b8da37fa15d0","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rockywrench_dead","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"resourceVersion":"1.0","name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7248b4b-fef5-4ce1-b238-706347c32ee9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_rockywrench_dead","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_rockywrench_dead",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"dd369d74-19f9-4f22-af8c-e7009621dbbc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a22e29d1-8ee6-45f2-8ea4-559e2a598e74","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_rockywrench_dead","path":"sprites/spr_rockywrench_dead/spr_rockywrench_dead.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_rockywrench_dead",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9f8e86cc-a14b-41b8-8572-b8da37fa15d0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9f8e86cc-a14b-41b8-8572-b8da37fa15d0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Airship",
     "path": "folders/Sprites/Enemies/Airship.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_rockywrench_dead",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

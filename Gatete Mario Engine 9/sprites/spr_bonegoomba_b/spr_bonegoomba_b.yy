@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bonegoomba_b",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ff59bb8e-7fc8-4f19-ac53-b5d1c9986b00","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ff59bb8e-7fc8-4f19-ac53-b5d1c9986b00","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"LayerId":{"name":"57e59b4e-a773-4ec3-ae87-211b8cbd93de","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bonegoomba_b","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"resourceVersion":"1.0","name":"ff59bb8e-7fc8-4f19-ac53-b5d1c9986b00","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f82d9af7-1a94-4067-bed7-fdd689d6f155","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f82d9af7-1a94-4067-bed7-fdd689d6f155","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"LayerId":{"name":"57e59b4e-a773-4ec3-ae87-211b8cbd93de","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bonegoomba_b","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"resourceVersion":"1.0","name":"f82d9af7-1a94-4067-bed7-fdd689d6f155","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ff59bb8e-7fc8-4f19-ac53-b5d1c9986b00",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f82d9af7-1a94-4067-bed7-fdd689d6f155",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bonegoomba_b","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bonegoomba_b",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"88301a60-c621-4f0c-9d28-ec41aaaea001","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ff59bb8e-7fc8-4f19-ac53-b5d1c9986b00","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4d65e77c-59dc-4707-974c-3e61a20ba043","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f82d9af7-1a94-4067-bed7-fdd689d6f155","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bonegoomba_b","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bonegoomba_b",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"57e59b4e-a773-4ec3-ae87-211b8cbd93de","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"57e59b4e-a773-4ec3-ae87-211b8cbd93de","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Castle",
     "path": "folders/Sprites/Enemies/Castle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bonegoomba_b",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

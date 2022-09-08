@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_propeller_spin",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,33 +27,19 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3edc0b05-ac19-4933-a4cb-ab2673ab85ad","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3edc0b05-ac19-4933-a4cb-ab2673ab85ad","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"3edc0b05-ac19-4933-a4cb-ab2673ab85ad","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b11812d8-8ff1-4307-84f8-8b4cb41c384f","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b11812d8-8ff1-4307-84f8-8b4cb41c384f","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"b11812d8-8ff1-4307-84f8-8b4cb41c384f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"85c1600d-604c-44d7-920d-98e43b5d6164","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"85c1600d-604c-44d7-920d-98e43b5d6164","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"85c1600d-604c-44d7-920d-98e43b5d6164","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b6662d0e-c278-4a12-9ba7-e1b8b42b1981","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b6662d0e-c278-4a12-9ba7-e1b8b42b1981","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"b6662d0e-c278-4a12-9ba7-e1b8b42b1981","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"87f45780-dce0-4de2-ac87-c0bfa80fe59d","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"87f45780-dce0-4de2-ac87-c0bfa80fe59d","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"87f45780-dce0-4de2-ac87-c0bfa80fe59d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a30c8833-018e-454a-8263-411190c81700","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a30c8833-018e-454a-8263-411190c81700","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"a30c8833-018e-454a-8263-411190c81700","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7e102265-48f3-4548-af98-d0b90cc47fa6","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e102265-48f3-4548-af98-d0b90cc47fa6","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"7e102265-48f3-4548-af98-d0b90cc47fa6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ba9b2236-86c9-4997-b766-d505d39ab596","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba9b2236-86c9-4997-b766-d505d39ab596","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"LayerId":{"name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","name":"ba9b2236-86c9-4997-b766-d505d39ab596","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3edc0b05-ac19-4933-a4cb-ab2673ab85ad",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b11812d8-8ff1-4307-84f8-8b4cb41c384f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"85c1600d-604c-44d7-920d-98e43b5d6164",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6662d0e-c278-4a12-9ba7-e1b8b42b1981",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87f45780-dce0-4de2-ac87-c0bfa80fe59d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a30c8833-018e-454a-8263-411190c81700",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e102265-48f3-4548-af98-d0b90cc47fa6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba9b2236-86c9-4997-b766-d505d39ab596",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -61,7 +50,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b544d62a-bdef-491c-adc6-15f352796e96","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3edc0b05-ac19-4933-a4cb-ab2673ab85ad","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"646e087d-9347-4957-9652-aaf77261770a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b11812d8-8ff1-4307-84f8-8b4cb41c384f","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8f57a331-2e84-479e-98ce-26715d9597e9","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"85c1600d-604c-44d7-920d-98e43b5d6164","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -70,7 +59,7 @@
             {"id":"8871232b-74bb-4613-8e62-bf0f59a562aa","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a30c8833-018e-454a-8263-411190c81700","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"67c887d6-a61e-437f-8464-eefb0f07829c","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e102265-48f3-4548-af98-d0b90cc47fa6","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5cd49255-7d13-4fd4-ba7f-d797309fd191","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba9b2236-86c9-4997-b766-d505d39ab596","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -86,22 +75,13 @@
     "yorigin": 18,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_propeller_spin","path":"sprites/spr_mario_propeller_spin/spr_mario_propeller_spin.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b2469f91-cec9-4155-a855-93f7ba07d3ce","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Propeller",
     "path": "folders/Sprites/Mario/Main/Propeller.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_propeller_spin",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

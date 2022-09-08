@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_hammer_skid",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f2aaf689-954b-44c1-8596-aa1617bded3c","path":"sprites/spr_mario_hammer_skid/spr_mario_hammer_skid.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2aaf689-954b-44c1-8596-aa1617bded3c","path":"sprites/spr_mario_hammer_skid/spr_mario_hammer_skid.yy",},"LayerId":{"name":"3a0f995d-fcdb-4ff4-bf32-6156c92cbdb7","path":"sprites/spr_mario_hammer_skid/spr_mario_hammer_skid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_skid","path":"sprites/spr_mario_hammer_skid/spr_mario_hammer_skid.yy",},"resourceVersion":"1.0","name":"f2aaf689-954b-44c1-8596-aa1617bded3c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f2aaf689-954b-44c1-8596-aa1617bded3c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_hammer_skid","path":"sprites/spr_mario_hammer_skid/spr_mario_hammer_skid.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9622dd38-2e1c-4c76-a946-06482e8998cb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2aaf689-954b-44c1-8596-aa1617bded3c","path":"sprites/spr_mario_hammer_skid/spr_mario_hammer_skid.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_hammer_skid","path":"sprites/spr_mario_hammer_skid/spr_mario_hammer_skid.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a0f995d-fcdb-4ff4-bf32-6156c92cbdb7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3a0f995d-fcdb-4ff4-bf32-6156c92cbdb7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Hammer",
     "path": "folders/Sprites/Mario/Main/Hammer.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_hammer_skid",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

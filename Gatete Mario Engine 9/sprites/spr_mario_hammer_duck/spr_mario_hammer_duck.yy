@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_hammer_duck",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3f9a640a-0b01-495c-9dff-813c1aa06900","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f9a640a-0b01-495c-9dff-813c1aa06900","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"LayerId":{"name":"2140b656-9faa-4677-8779-89d20bf7188f","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_duck","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","name":"3f9a640a-0b01-495c-9dff-813c1aa06900","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"296c9a9b-c506-489e-96d6-ce9ab864f42d","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"296c9a9b-c506-489e-96d6-ce9ab864f42d","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"LayerId":{"name":"2140b656-9faa-4677-8779-89d20bf7188f","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_duck","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","name":"296c9a9b-c506-489e-96d6-ce9ab864f42d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d558789f-62d2-42b8-b04f-f24c63bf8dc4","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d558789f-62d2-42b8-b04f-f24c63bf8dc4","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"LayerId":{"name":"2140b656-9faa-4677-8779-89d20bf7188f","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_duck","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","name":"d558789f-62d2-42b8-b04f-f24c63bf8dc4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3f9a640a-0b01-495c-9dff-813c1aa06900",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"296c9a9b-c506-489e-96d6-ce9ab864f42d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d558789f-62d2-42b8-b04f-f24c63bf8dc4",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_hammer_duck","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c1c08ebe-0684-47f3-9967-035759f897d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f9a640a-0b01-495c-9dff-813c1aa06900","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"79a69456-9d7a-49ac-8dae-dcdaa9889173","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"296c9a9b-c506-489e-96d6-ce9ab864f42d","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9bd0ed55-cfb0-4e1f-b7b6-ab4faaf80f5d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d558789f-62d2-42b8-b04f-f24c63bf8dc4","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_hammer_duck","path":"sprites/spr_mario_hammer_duck/spr_mario_hammer_duck.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2140b656-9faa-4677-8779-89d20bf7188f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2140b656-9faa-4677-8779-89d20bf7188f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Hammer",
     "path": "folders/Sprites/Mario/Main/Hammer.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_hammer_duck",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

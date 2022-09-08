@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_drybones_crumble",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"LayerId":{"name":"05f448fe-1b04-45c9-b70a-197072c73bda","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_drybones_crumble","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"resourceVersion":"1.0","name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"LayerId":{"name":"05f448fe-1b04-45c9-b70a-197072c73bda","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_drybones_crumble","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"resourceVersion":"1.0","name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"62262a30-72eb-439f-a4e4-b077ed4b5e02",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_drybones_crumble","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_drybones_crumble",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a854fd09-47de-41dd-b8fd-715b5d136e35","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"009bc166-5741-4f15-b051-a70080629633","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_drybones_crumble","path":"sprites/spr_drybones_crumble/spr_drybones_crumble.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_drybones_crumble",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05f448fe-1b04-45c9-b70a-197072c73bda","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"05f448fe-1b04-45c9-b70a-197072c73bda","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Castle",
     "path": "folders/Sprites/Enemies/Castle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_drybones_crumble",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_raccoon_kick",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"faac995b-5603-4ee1-b282-2a60957523dc","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"faac995b-5603-4ee1-b282-2a60957523dc","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"LayerId":{"name":"c12c6125-e856-49d7-b9fb-0acdeed07efc","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_raccoon_kick","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"resourceVersion":"1.0","name":"faac995b-5603-4ee1-b282-2a60957523dc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"LayerId":{"name":"c12c6125-e856-49d7-b9fb-0acdeed07efc","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_raccoon_kick","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"resourceVersion":"1.0","name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"faac995b-5603-4ee1-b282-2a60957523dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a241dab0-08c2-46c9-8040-2f168f6a50c7",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_raccoon_kick","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"97329fa5-fa5e-4de6-aa8a-e164a3d20b5c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"faac995b-5603-4ee1-b282-2a60957523dc","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6801fa64-9d7d-4b4c-812b-b611dc64bf1c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_raccoon_kick","path":"sprites/spr_mario_raccoon_kick/spr_mario_raccoon_kick.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c12c6125-e856-49d7-b9fb-0acdeed07efc","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c12c6125-e856-49d7-b9fb-0acdeed07efc","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Raccoon",
     "path": "folders/Sprites/Mario/Main/Raccoon.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_raccoon_kick",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

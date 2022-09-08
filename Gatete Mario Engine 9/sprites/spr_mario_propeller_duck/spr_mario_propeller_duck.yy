@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_propeller_duck",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"LayerId":{"name":"2d68b06e-2ead-4e03-83ca-5799e8728b5d","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_duck","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"LayerId":{"name":"2d68b06e-2ead-4e03-83ca-5799e8728b5d","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_duck","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"LayerId":{"name":"2d68b06e-2ead-4e03-83ca-5799e8728b5d","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_propeller_duck","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_propeller_duck","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"69514abe-8276-4242-aa0a-5e341082f200","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"231ae306-9547-42a2-bb53-d2d32e69b260","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a8a90864-55ce-472d-8141-d6ac7bf25c09","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_propeller_duck","path":"sprites/spr_mario_propeller_duck/spr_mario_propeller_duck.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d68b06e-2ead-4e03-83ca-5799e8728b5d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d68b06e-2ead-4e03-83ca-5799e8728b5d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Propeller",
     "path": "folders/Sprites/Mario/Main/Propeller.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_propeller_duck",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

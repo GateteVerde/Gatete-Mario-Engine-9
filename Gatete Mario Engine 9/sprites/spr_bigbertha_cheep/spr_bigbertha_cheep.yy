@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bigbertha_cheep",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1561cae5-d021-4433-933c-a2a5771a750e","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1561cae5-d021-4433-933c-a2a5771a750e","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"LayerId":{"name":"e1db288c-4f6e-4f88-8468-9151dd9a573b","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bigbertha_cheep","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"resourceVersion":"1.0","name":"1561cae5-d021-4433-933c-a2a5771a750e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"LayerId":{"name":"e1db288c-4f6e-4f88-8468-9151dd9a573b","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bigbertha_cheep","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"resourceVersion":"1.0","name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1561cae5-d021-4433-933c-a2a5771a750e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bigbertha_cheep","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bigbertha_cheep",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7481c10d-408b-48ed-9d91-5ee79b743e2f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1561cae5-d021-4433-933c-a2a5771a750e","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d92efc7c-9db9-4ef8-995d-1fe46b4fe545","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bigbertha_cheep","path":"sprites/spr_bigbertha_cheep/spr_bigbertha_cheep.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bigbertha_cheep",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e1db288c-4f6e-4f88-8468-9151dd9a573b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e1db288c-4f6e-4f88-8468-9151dd9a573b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Water",
     "path": "folders/Sprites/Enemies/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bigbertha_cheep",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

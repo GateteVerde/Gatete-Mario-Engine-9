@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_tiny_swim",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"69d1ee7b-0eb4-4418-a081-44efaf5e9d00","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69d1ee7b-0eb4-4418-a081-44efaf5e9d00","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"LayerId":{"name":"0f166f1a-943c-430c-b055-9e0bf6efcfd3","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tiny_swim","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","name":"69d1ee7b-0eb4-4418-a081-44efaf5e9d00","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"824a6216-a655-436d-b922-7e246d9b837f","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"824a6216-a655-436d-b922-7e246d9b837f","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"LayerId":{"name":"0f166f1a-943c-430c-b055-9e0bf6efcfd3","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tiny_swim","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","name":"824a6216-a655-436d-b922-7e246d9b837f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2d107a05-68f9-4803-9cbc-1437cc786ff4","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d107a05-68f9-4803-9cbc-1437cc786ff4","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"LayerId":{"name":"0f166f1a-943c-430c-b055-9e0bf6efcfd3","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tiny_swim","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","name":"2d107a05-68f9-4803-9cbc-1437cc786ff4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69d1ee7b-0eb4-4418-a081-44efaf5e9d00",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"824a6216-a655-436d-b922-7e246d9b837f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d107a05-68f9-4803-9cbc-1437cc786ff4",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_tiny_swim","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_tiny_swim",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"cb39aae5-6620-41a2-a43c-c0b4362e1117","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69d1ee7b-0eb4-4418-a081-44efaf5e9d00","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e83b37a8-04e2-4a59-b001-76cb3ed85ba2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"824a6216-a655-436d-b922-7e246d9b837f","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0b16a9e7-058a-4bc6-b09b-676892b7b6af","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d107a05-68f9-4803-9cbc-1437cc786ff4","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": -6,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_tiny_swim","path":"sprites/spr_mario_tiny_swim/spr_mario_tiny_swim.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_tiny_swim",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f166f1a-943c-430c-b055-9e0bf6efcfd3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0f166f1a-943c-430c-b055-9e0bf6efcfd3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tiny",
     "path": "folders/Sprites/Mario/Main/Tiny.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_tiny_swim",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

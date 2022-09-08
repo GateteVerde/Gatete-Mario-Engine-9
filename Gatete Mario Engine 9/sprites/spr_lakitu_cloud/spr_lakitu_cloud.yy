@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_lakitu_cloud",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1adee67a-f163-4f7c-97ad-994579f074cf","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1adee67a-f163-4f7c-97ad-994579f074cf","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"LayerId":{"name":"0ce733ab-c244-49bc-b6b0-c9d731952aca","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lakitu_cloud","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"resourceVersion":"1.0","name":"1adee67a-f163-4f7c-97ad-994579f074cf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"LayerId":{"name":"0ce733ab-c244-49bc-b6b0-c9d731952aca","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lakitu_cloud","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"resourceVersion":"1.0","name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1adee67a-f163-4f7c-97ad-994579f074cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76daffdc-88fb-413d-9825-d6c00fc0e57d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_lakitu_cloud","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_lakitu_cloud",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ec339f4e-8619-419e-b057-6394110bf78e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1adee67a-f163-4f7c-97ad-994579f074cf","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1f815500-d5e5-47bd-bf27-1e7f095186d3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 1,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_lakitu_cloud","path":"sprites/spr_lakitu_cloud/spr_lakitu_cloud.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_lakitu_cloud",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0ce733ab-c244-49bc-b6b0-c9d731952aca","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0ce733ab-c244-49bc-b6b0-c9d731952aca","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Lakitu",
     "path": "folders/Sprites/Enemies/Sky/Lakitu.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_lakitu_cloud",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

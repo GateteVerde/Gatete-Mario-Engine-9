@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_frog_swim4",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cb4bdf09-ebf9-41d4-ab77-8f881d24da45","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb4bdf09-ebf9-41d4-ab77-8f881d24da45","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":{"name":"39ee98d4-67b3-4a2c-84f9-7900c66f3c82","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_swim4","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"cb4bdf09-ebf9-41d4-ab77-8f881d24da45","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d086985e-dc89-4c4a-a692-f4e3e986eac2","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d086985e-dc89-4c4a-a692-f4e3e986eac2","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":{"name":"39ee98d4-67b3-4a2c-84f9-7900c66f3c82","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_swim4","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"d086985e-dc89-4c4a-a692-f4e3e986eac2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"161ede3b-8751-44a2-8495-aa4d8fbf5819","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"161ede3b-8751-44a2-8495-aa4d8fbf5819","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":{"name":"39ee98d4-67b3-4a2c-84f9-7900c66f3c82","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_swim4","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"161ede3b-8751-44a2-8495-aa4d8fbf5819","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0f221f20-88a3-453d-834c-f77d2b0e1484","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f221f20-88a3-453d-834c-f77d2b0e1484","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"LayerId":{"name":"39ee98d4-67b3-4a2c-84f9-7900c66f3c82","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_swim4","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","name":"0f221f20-88a3-453d-834c-f77d2b0e1484","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb4bdf09-ebf9-41d4-ab77-8f881d24da45",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d086985e-dc89-4c4a-a692-f4e3e986eac2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"161ede3b-8751-44a2-8495-aa4d8fbf5819",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f221f20-88a3-453d-834c-f77d2b0e1484",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_frog_swim4","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5ea6c759-b575-4ab3-84cc-979cf425d292","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb4bdf09-ebf9-41d4-ab77-8f881d24da45","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"81da853b-5d4c-41c3-b57a-fffcdffed3f8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d086985e-dc89-4c4a-a692-f4e3e986eac2","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"baf34296-8b2d-4b21-a461-6cb7cfac6c83","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"161ede3b-8751-44a2-8495-aa4d8fbf5819","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ae4f5d94-0b73-4f78-bf08-7d8b85a78ede","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f221f20-88a3-453d-834c-f77d2b0e1484","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_frog_swim4","path":"sprites/spr_mario_frog_swim4/spr_mario_frog_swim4.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"39ee98d4-67b3-4a2c-84f9-7900c66f3c82","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"39ee98d4-67b3-4a2c-84f9-7900c66f3c82","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Frog",
     "path": "folders/Sprites/Mario/Main/Frog.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_frog_swim4",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

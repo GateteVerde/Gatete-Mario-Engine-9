@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_ranger_climb",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2b81a697-76de-468f-ac04-96cbd7dd6baf","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2b81a697-76de-468f-ac04-96cbd7dd6baf","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"LayerId":{"name":"b1991bc1-dbba-428d-af18-ffb9fb62ac76","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_climb","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"resourceVersion":"1.0","name":"2b81a697-76de-468f-ac04-96cbd7dd6baf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ff3822c5-a233-47de-a537-19c117b2f29e","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ff3822c5-a233-47de-a537-19c117b2f29e","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"LayerId":{"name":"b1991bc1-dbba-428d-af18-ffb9fb62ac76","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_climb","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"resourceVersion":"1.0","name":"ff3822c5-a233-47de-a537-19c117b2f29e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b81a697-76de-468f-ac04-96cbd7dd6baf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ff3822c5-a233-47de-a537-19c117b2f29e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_ranger_climb","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_ranger_climb",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6ac14dc0-b086-4fa7-8090-001900bdf489","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2b81a697-76de-468f-ac04-96cbd7dd6baf","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a5461e1d-8396-4ccc-ae83-2e98af850dc0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ff3822c5-a233-47de-a537-19c117b2f29e","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_ranger_climb","path":"sprites/spr_mario_ranger_climb/spr_mario_ranger_climb.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_ranger_climb",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b1991bc1-dbba-428d-af18-ffb9fb62ac76","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b1991bc1-dbba-428d-af18-ffb9fb62ac76","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ranger",
     "path": "folders/Sprites/Mario/Main/Ranger.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_ranger_climb",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

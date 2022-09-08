@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_solidbubble_starcoin",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"LayerId":{"name":"36cbc9fd-3ce9-4f29-8a5c-501189304434","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_solidbubble_starcoin","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"resourceVersion":"1.0","name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"LayerId":{"name":"36cbc9fd-3ce9-4f29-8a5c-501189304434","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_solidbubble_starcoin","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"resourceVersion":"1.0","name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_solidbubble_starcoin","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_solidbubble_starcoin",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"72b5fd3a-baf6-4967-afad-2163e4207558","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"70625325-32a9-4dfb-bd01-9e60c28f29dd","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_solidbubble_starcoin","path":"sprites/spr_solidbubble_starcoin/spr_solidbubble_starcoin.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_solidbubble_starcoin",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36cbc9fd-3ce9-4f29-8a5c-501189304434","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"36cbc9fd-3ce9-4f29-8a5c-501189304434","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Subcon",
     "path": "folders/Sprites/Items/Subcon.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_solidbubble_starcoin",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

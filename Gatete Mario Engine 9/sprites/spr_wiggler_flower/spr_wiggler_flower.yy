@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_wiggler_flower",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"29c5ae8a-4c19-411d-a12c-1910510e6247","path":"sprites/spr_wiggler_flower/spr_wiggler_flower.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"29c5ae8a-4c19-411d-a12c-1910510e6247","path":"sprites/spr_wiggler_flower/spr_wiggler_flower.yy",},"LayerId":{"name":"28483ac8-6e23-4074-a024-d93a8658e668","path":"sprites/spr_wiggler_flower/spr_wiggler_flower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_wiggler_flower","path":"sprites/spr_wiggler_flower/spr_wiggler_flower.yy",},"resourceVersion":"1.0","name":"29c5ae8a-4c19-411d-a12c-1910510e6247","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29c5ae8a-4c19-411d-a12c-1910510e6247",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_wiggler_flower","path":"sprites/spr_wiggler_flower/spr_wiggler_flower.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_wiggler_flower",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7bc299e7-f73b-4dfe-889d-ca1f427f821b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29c5ae8a-4c19-411d-a12c-1910510e6247","path":"sprites/spr_wiggler_flower/spr_wiggler_flower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_wiggler_flower","path":"sprites/spr_wiggler_flower/spr_wiggler_flower.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_wiggler_flower",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"28483ac8-6e23-4074-a024-d93a8658e668","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"28483ac8-6e23-4074-a024-d93a8658e668","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Wiggler",
     "path": "folders/Sprites/Enemies/Forest/Wiggler.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_wiggler_flower",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

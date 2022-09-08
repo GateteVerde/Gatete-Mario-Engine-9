@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_beachkoopa_yellow_walk",
   "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"LayerId":{"name":"36ee42f2-c4f2-40b4-a820-3ed104ca0bd1","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_beachkoopa_yellow_walk","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"LayerId":{"name":"36ee42f2-c4f2-40b4-a820-3ed104ca0bd1","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_beachkoopa_yellow_walk","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dc69a1d6-4c39-4f95-842d-a348850cb80b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_beachkoopa_yellow_walk","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_beachkoopa_yellow_walk",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"14937966-c598-4d90-ad12-84c151143d21","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"bfb2a0ff-21fe-4e6c-9be9-056847bb72de","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"14937966-c598-4d90-ad12-84c151143d21","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bfb2a0ff-21fe-4e6c-9be9-056847bb72de","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_beachkoopa_yellow_walk","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_beachkoopa_yellow_walk",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36ee42f2-c4f2-40b4-a820-3ed104ca0bd1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"36ee42f2-c4f2-40b4-a820-3ed104ca0bd1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Yellow",
     "path": "folders/Sprites/Enemies/Land/Koopas/Yellow.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_beachkoopa_yellow_walk",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

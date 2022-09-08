@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_galoomba_parachute",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,57 +27,27 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e7dbc259-18c4-4d5c-8669-f1e6c01465cd","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e7dbc259-18c4-4d5c-8669-f1e6c01465cd","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"e7dbc259-18c4-4d5c-8669-f1e6c01465cd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"530b905b-6d2d-40e8-bbae-a8debddc6d81","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"530b905b-6d2d-40e8-bbae-a8debddc6d81","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"530b905b-6d2d-40e8-bbae-a8debddc6d81","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"462ec265-db44-488f-8ae0-3f1ff31b51ee","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"462ec265-db44-488f-8ae0-3f1ff31b51ee","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"462ec265-db44-488f-8ae0-3f1ff31b51ee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c2dc97aa-047a-4f8a-bcfd-597f45eb4f0d","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2dc97aa-047a-4f8a-bcfd-597f45eb4f0d","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"c2dc97aa-047a-4f8a-bcfd-597f45eb4f0d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1a5750c1-d7c6-4c97-b719-08ee19d039e4","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1a5750c1-d7c6-4c97-b719-08ee19d039e4","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"1a5750c1-d7c6-4c97-b719-08ee19d039e4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3512a6ad-98b9-4494-ac8e-17b95339c3a8","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3512a6ad-98b9-4494-ac8e-17b95339c3a8","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"3512a6ad-98b9-4494-ac8e-17b95339c3a8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7fc995a9-ee6f-4082-913b-4b78c5132209","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7fc995a9-ee6f-4082-913b-4b78c5132209","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"7fc995a9-ee6f-4082-913b-4b78c5132209","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0b587d61-fae9-4693-9f6d-1924a01b3372","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b587d61-fae9-4693-9f6d-1924a01b3372","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"0b587d61-fae9-4693-9f6d-1924a01b3372","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"62928869-6d04-45b6-875a-7def42e2bd39","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"62928869-6d04-45b6-875a-7def42e2bd39","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"62928869-6d04-45b6-875a-7def42e2bd39","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"266fea6b-7ec2-48aa-a0a2-0a015c909289","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"266fea6b-7ec2-48aa-a0a2-0a015c909289","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"266fea6b-7ec2-48aa-a0a2-0a015c909289","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7f3073e7-54a2-4d9c-b17e-4339fbcd1fe5","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f3073e7-54a2-4d9c-b17e-4339fbcd1fe5","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"7f3073e7-54a2-4d9c-b17e-4339fbcd1fe5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f1b9a595-2f37-48c1-b286-32b18675fcba","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f1b9a595-2f37-48c1-b286-32b18675fcba","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"f1b9a595-2f37-48c1-b286-32b18675fcba","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"28527e07-4de8-4822-9e06-dfa056bf57ff","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"28527e07-4de8-4822-9e06-dfa056bf57ff","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"28527e07-4de8-4822-9e06-dfa056bf57ff","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7a2fe3c2-b766-4f22-b3b4-374eb7e889c2","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7a2fe3c2-b766-4f22-b3b4-374eb7e889c2","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"7a2fe3c2-b766-4f22-b3b4-374eb7e889c2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"86a27d7a-c30a-42fa-a2d3-295345b99580","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86a27d7a-c30a-42fa-a2d3-295345b99580","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"LayerId":{"name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","name":"86a27d7a-c30a-42fa-a2d3-295345b99580","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7dbc259-18c4-4d5c-8669-f1e6c01465cd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"530b905b-6d2d-40e8-bbae-a8debddc6d81",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"462ec265-db44-488f-8ae0-3f1ff31b51ee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2dc97aa-047a-4f8a-bcfd-597f45eb4f0d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a5750c1-d7c6-4c97-b719-08ee19d039e4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3512a6ad-98b9-4494-ac8e-17b95339c3a8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7fc995a9-ee6f-4082-913b-4b78c5132209",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b587d61-fae9-4693-9f6d-1924a01b3372",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"62928869-6d04-45b6-875a-7def42e2bd39",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"266fea6b-7ec2-48aa-a0a2-0a015c909289",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f3073e7-54a2-4d9c-b17e-4339fbcd1fe5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f1b9a595-2f37-48c1-b286-32b18675fcba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28527e07-4de8-4822-9e06-dfa056bf57ff",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a2fe3c2-b766-4f22-b3b4-374eb7e889c2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86a27d7a-c30a-42fa-a2d3-295345b99580",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_galoomba_parachute",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 20.0,
@@ -85,7 +58,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ebe589a9-78c0-40ee-9712-51daf45ff673","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d693dc11-bc32-4306-b59a-4a5b3f0a8401","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7dbc259-18c4-4d5c-8669-f1e6c01465cd","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"515ada28-3ff1-42a6-bce3-43453e33aa31","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"530b905b-6d2d-40e8-bbae-a8debddc6d81","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -102,7 +75,7 @@
             {"id":"337dd9d9-5da6-43a2-808b-f971e9f68514","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28527e07-4de8-4822-9e06-dfa056bf57ff","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"31ea00a5-81ec-4583-b1f0-93fe9b437795","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a2fe3c2-b766-4f22-b3b4-374eb7e889c2","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b17de139-9e91-4067-9e01-5977889c89c6","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86a27d7a-c30a-42fa-a2d3-295345b99580","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -118,22 +91,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_galoomba_parachute","path":"sprites/spr_galoomba_parachute/spr_galoomba_parachute.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_galoomba_parachute",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9c255ca4-086f-4043-9939-ed0aa38a3b42","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Goombas",
     "path": "folders/Sprites/Enemies/Land/Goombas.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_galoomba_parachute",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

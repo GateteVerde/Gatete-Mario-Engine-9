@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_ranger_ride",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"LayerId":{"name":"5630ccd0-c5e8-4030-8b0b-5e10b3e3a171","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_ride","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"resourceVersion":"1.0","name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7885249b-a8ae-418c-ab5e-fb496476d260","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7885249b-a8ae-418c-ab5e-fb496476d260","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"LayerId":{"name":"5630ccd0-c5e8-4030-8b0b-5e10b3e3a171","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_ranger_ride","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"resourceVersion":"1.0","name":"7885249b-a8ae-418c-ab5e-fb496476d260","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6e1e86c9-1767-42d7-a19f-875cedc05d99",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7885249b-a8ae-418c-ab5e-fb496476d260",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_ranger_ride","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_ranger_ride",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1f454db9-3480-4fff-a085-f0f9f43b8fe0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f831516b-cbc3-4ee0-9951-dc67460d502b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7885249b-a8ae-418c-ab5e-fb496476d260","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_ranger_ride","path":"sprites/spr_mario_ranger_ride/spr_mario_ranger_ride.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_ranger_ride",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5630ccd0-c5e8-4030-8b0b-5e10b3e3a171","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5630ccd0-c5e8-4030-8b0b-5e10b3e3a171","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ranger",
     "path": "folders/Sprites/Mario/Main/Ranger.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_ranger_ride",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

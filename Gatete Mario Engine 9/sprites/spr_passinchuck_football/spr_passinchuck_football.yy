@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_passinchuck_football",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2651a958-d067-4988-b7a5-2e9f019bc89c","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2651a958-d067-4988-b7a5-2e9f019bc89c","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"LayerId":{"name":"04efb9cd-d3ce-4bea-8556-bd7d28580db9","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_passinchuck_football","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"resourceVersion":"1.0","name":"2651a958-d067-4988-b7a5-2e9f019bc89c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"LayerId":{"name":"04efb9cd-d3ce-4bea-8556-bd7d28580db9","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_passinchuck_football","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"resourceVersion":"1.0","name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2651a958-d067-4988-b7a5-2e9f019bc89c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_passinchuck_football","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_passinchuck_football",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9dbf52b5-e60e-4619-9812-bf2936b9f4c9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2651a958-d067-4988-b7a5-2e9f019bc89c","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ca6a7291-3b49-4785-b1cb-196e468e504b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_passinchuck_football","path":"sprites/spr_passinchuck_football/spr_passinchuck_football.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_passinchuck_football",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"04efb9cd-d3ce-4bea-8556-bd7d28580db9","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"04efb9cd-d3ce-4bea-8556-bd7d28580db9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Passin' Chuck",
     "path": "folders/Sprites/Enemies/Land/Chucks/Passin' Chuck.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_passinchuck_football",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bonybeetle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"LayerId":{"name":"848c28d7-7375-49e9-a6a4-ecd35d204117","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bonybeetle","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"resourceVersion":"1.0","name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"LayerId":{"name":"848c28d7-7375-49e9-a6a4-ecd35d204117","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bonybeetle","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"resourceVersion":"1.0","name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73940927-2806-4c4e-bb3f-fb01c9ab193a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bonybeetle","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_bonybeetle",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"91394346-8dcb-4c2d-a04f-f8fbd97fc6c0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"849af0e0-ad2a-4457-abc6-3409240969eb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bonybeetle","path":"sprites/spr_bonybeetle/spr_bonybeetle.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_bonybeetle",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"848c28d7-7375-49e9-a6a4-ecd35d204117","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"848c28d7-7375-49e9-a6a4-ecd35d204117","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Castle",
     "path": "folders/Sprites/Enemies/Castle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bonybeetle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

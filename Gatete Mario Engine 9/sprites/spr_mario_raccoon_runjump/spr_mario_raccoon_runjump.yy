@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_raccoon_runjump",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"594ba372-d682-47f6-9c12-5dfdfe121b15","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"594ba372-d682-47f6-9c12-5dfdfe121b15","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":{"name":"e8023e72-55bc-4df4-85be-d7f42bfe8a86","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_raccoon_runjump","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"594ba372-d682-47f6-9c12-5dfdfe121b15","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"34607b31-96b2-4ff6-8dc3-067ebb078b4e","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34607b31-96b2-4ff6-8dc3-067ebb078b4e","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":{"name":"e8023e72-55bc-4df4-85be-d7f42bfe8a86","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_raccoon_runjump","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"34607b31-96b2-4ff6-8dc3-067ebb078b4e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2847f80e-9555-4836-b734-1dffef5455be","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2847f80e-9555-4836-b734-1dffef5455be","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":{"name":"e8023e72-55bc-4df4-85be-d7f42bfe8a86","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_raccoon_runjump","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"2847f80e-9555-4836-b734-1dffef5455be","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6259d13e-f821-46d5-a4cd-e4312ef9caaf","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6259d13e-f821-46d5-a4cd-e4312ef9caaf","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"LayerId":{"name":"e8023e72-55bc-4df4-85be-d7f42bfe8a86","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_raccoon_runjump","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","name":"6259d13e-f821-46d5-a4cd-e4312ef9caaf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"594ba372-d682-47f6-9c12-5dfdfe121b15",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34607b31-96b2-4ff6-8dc3-067ebb078b4e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2847f80e-9555-4836-b734-1dffef5455be",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6259d13e-f821-46d5-a4cd-e4312ef9caaf",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_raccoon_runjump","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7e904505-686e-462e-92bd-3709032fda2a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"594ba372-d682-47f6-9c12-5dfdfe121b15","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f8b4fbfd-47de-413d-8121-726571c31b42","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34607b31-96b2-4ff6-8dc3-067ebb078b4e","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"08ed1aef-f253-43a8-832b-b36ff3d645b3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2847f80e-9555-4836-b734-1dffef5455be","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fe48621f-c1ee-4722-95d5-ba980b3e80e8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6259d13e-f821-46d5-a4cd-e4312ef9caaf","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_raccoon_runjump","path":"sprites/spr_mario_raccoon_runjump/spr_mario_raccoon_runjump.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e8023e72-55bc-4df4-85be-d7f42bfe8a86","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e8023e72-55bc-4df4-85be-d7f42bfe8a86","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Raccoon",
     "path": "folders/Sprites/Mario/Main/Raccoon.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_raccoon_runjump",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

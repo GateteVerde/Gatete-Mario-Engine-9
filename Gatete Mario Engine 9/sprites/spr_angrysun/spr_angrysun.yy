@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_angrysun",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"22af9d17-62c2-4c6b-828e-03e17a26b0c8","path":"sprites/spr_angrysun/spr_angrysun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"22af9d17-62c2-4c6b-828e-03e17a26b0c8","path":"sprites/spr_angrysun/spr_angrysun.yy",},"LayerId":{"name":"76018897-5da8-4db5-8761-ead1b738041a","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_angrysun","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","name":"22af9d17-62c2-4c6b-828e-03e17a26b0c8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d5964560-c79d-4afa-add9-053b1a60d323","path":"sprites/spr_angrysun/spr_angrysun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5964560-c79d-4afa-add9-053b1a60d323","path":"sprites/spr_angrysun/spr_angrysun.yy",},"LayerId":{"name":"76018897-5da8-4db5-8761-ead1b738041a","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_angrysun","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","name":"d5964560-c79d-4afa-add9-053b1a60d323","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1075620a-a907-4d04-9761-d8c45580f461","path":"sprites/spr_angrysun/spr_angrysun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1075620a-a907-4d04-9761-d8c45580f461","path":"sprites/spr_angrysun/spr_angrysun.yy",},"LayerId":{"name":"76018897-5da8-4db5-8761-ead1b738041a","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_angrysun","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","name":"1075620a-a907-4d04-9761-d8c45580f461","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"22af9d17-62c2-4c6b-828e-03e17a26b0c8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5964560-c79d-4afa-add9-053b1a60d323",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1075620a-a907-4d04-9761-d8c45580f461",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_angrysun","path":"sprites/spr_angrysun/spr_angrysun.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_angrysun",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 9.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a41beb73-b977-4e05-bbba-7e75f914bc1c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"22af9d17-62c2-4c6b-828e-03e17a26b0c8","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dc7a0cb4-add3-45af-8336-3095b04055c0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5964560-c79d-4afa-add9-053b1a60d323","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ecd581a1-fa11-4c53-b30a-cfd7f108ab35","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1075620a-a907-4d04-9761-d8c45580f461","path":"sprites/spr_angrysun/spr_angrysun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_angrysun","path":"sprites/spr_angrysun/spr_angrysun.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_angrysun",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"76018897-5da8-4db5-8761-ead1b738041a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"76018897-5da8-4db5-8761-ead1b738041a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Desert",
     "path": "folders/Sprites/Enemies/Desert.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_angrysun",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

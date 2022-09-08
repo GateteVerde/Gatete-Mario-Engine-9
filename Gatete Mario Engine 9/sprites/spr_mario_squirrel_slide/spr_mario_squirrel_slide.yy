@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_squirrel_slide",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"244cb7ed-58eb-4f7c-9455-294cf8655341","path":"sprites/spr_mario_squirrel_slide/spr_mario_squirrel_slide.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"244cb7ed-58eb-4f7c-9455-294cf8655341","path":"sprites/spr_mario_squirrel_slide/spr_mario_squirrel_slide.yy",},"LayerId":{"name":"d0929f3a-059e-4164-aeb0-211e4e7514b3","path":"sprites/spr_mario_squirrel_slide/spr_mario_squirrel_slide.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_squirrel_slide","path":"sprites/spr_mario_squirrel_slide/spr_mario_squirrel_slide.yy",},"resourceVersion":"1.0","name":"244cb7ed-58eb-4f7c-9455-294cf8655341","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"244cb7ed-58eb-4f7c-9455-294cf8655341",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_squirrel_slide","path":"sprites/spr_mario_squirrel_slide/spr_mario_squirrel_slide.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_mario_squirrel_slide",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c5f0a64d-fc9f-4b9b-a50e-e58c092a5e09","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"244cb7ed-58eb-4f7c-9455-294cf8655341","path":"sprites/spr_mario_squirrel_slide/spr_mario_squirrel_slide.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_squirrel_slide","path":"sprites/spr_mario_squirrel_slide/spr_mario_squirrel_slide.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_mario_squirrel_slide",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0929f3a-059e-4164-aeb0-211e4e7514b3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d0929f3a-059e-4164-aeb0-211e4e7514b3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Squirrel",
     "path": "folders/Sprites/Mario/Main/Squirrel.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_squirrel_slide",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

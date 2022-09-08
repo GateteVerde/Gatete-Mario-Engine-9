@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_hammer_hold",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"da4fe092-f3e8-4f82-b7ec-d2fc734ed455","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"da4fe092-f3e8-4f82-b7ec-d2fc734ed455","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"LayerId":{"name":"1e1822e3-9993-4e74-80ac-71690590134a","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_hold","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","name":"da4fe092-f3e8-4f82-b7ec-d2fc734ed455","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f69ec0be-0f94-4d84-ba3f-bd50b5527162","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f69ec0be-0f94-4d84-ba3f-bd50b5527162","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"LayerId":{"name":"1e1822e3-9993-4e74-80ac-71690590134a","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_hold","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","name":"f69ec0be-0f94-4d84-ba3f-bd50b5527162","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"794dc390-efe5-45f4-95ff-8e1738c61400","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"794dc390-efe5-45f4-95ff-8e1738c61400","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"LayerId":{"name":"1e1822e3-9993-4e74-80ac-71690590134a","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_hold","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","name":"794dc390-efe5-45f4-95ff-8e1738c61400","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da4fe092-f3e8-4f82-b7ec-d2fc734ed455",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f69ec0be-0f94-4d84-ba3f-bd50b5527162",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"794dc390-efe5-45f4-95ff-8e1738c61400",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_hammer_hold","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ad2ccb56-4492-42c3-a710-588f1f2851a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da4fe092-f3e8-4f82-b7ec-d2fc734ed455","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"437af1de-f93d-47ba-829b-d18db72db3be","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f69ec0be-0f94-4d84-ba3f-bd50b5527162","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"08f6ae60-4ab3-49a5-966e-53a930fc83aa","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"794dc390-efe5-45f4-95ff-8e1738c61400","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_hammer_hold","path":"sprites/spr_mario_hammer_hold/spr_mario_hammer_hold.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1e1822e3-9993-4e74-80ac-71690590134a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1e1822e3-9993-4e74-80ac-71690590134a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Hammer",
     "path": "folders/Sprites/Mario/Main/Hammer.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_hammer_hold",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

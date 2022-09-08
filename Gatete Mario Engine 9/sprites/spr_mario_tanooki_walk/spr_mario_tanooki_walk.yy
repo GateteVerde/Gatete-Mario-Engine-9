@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_tanooki_walk",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"26cb4dbd-6944-47a4-ade3-7b5a2bb996c2","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26cb4dbd-6944-47a4-ade3-7b5a2bb996c2","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"LayerId":{"name":"bc646780-ea53-4ea8-84c0-68d0248f1f48","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_walk","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","name":"26cb4dbd-6944-47a4-ade3-7b5a2bb996c2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0a412792-87d0-40fa-a8b6-9eddaab116b1","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0a412792-87d0-40fa-a8b6-9eddaab116b1","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"LayerId":{"name":"bc646780-ea53-4ea8-84c0-68d0248f1f48","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_walk","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","name":"0a412792-87d0-40fa-a8b6-9eddaab116b1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5c539aed-7a64-41e5-87c7-6f65a36424d2","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c539aed-7a64-41e5-87c7-6f65a36424d2","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"LayerId":{"name":"bc646780-ea53-4ea8-84c0-68d0248f1f48","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_tanooki_walk","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","name":"5c539aed-7a64-41e5-87c7-6f65a36424d2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26cb4dbd-6944-47a4-ade3-7b5a2bb996c2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0a412792-87d0-40fa-a8b6-9eddaab116b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c539aed-7a64-41e5-87c7-6f65a36424d2",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_tanooki_walk","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"03b18cdb-33e1-4856-bad2-0dd5e71f53fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26cb4dbd-6944-47a4-ade3-7b5a2bb996c2","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9218b7d3-8bbe-44e5-a3b3-055037f3da64","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0a412792-87d0-40fa-a8b6-9eddaab116b1","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"57f96032-29a4-4c10-8865-31dc75c08f6b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c539aed-7a64-41e5-87c7-6f65a36424d2","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_tanooki_walk","path":"sprites/spr_mario_tanooki_walk/spr_mario_tanooki_walk.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bc646780-ea53-4ea8-84c0-68d0248f1f48","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bc646780-ea53-4ea8-84c0-68d0248f1f48","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Tanooki",
     "path": "folders/Sprites/Mario/Main/Tanooki.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_tanooki_walk",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

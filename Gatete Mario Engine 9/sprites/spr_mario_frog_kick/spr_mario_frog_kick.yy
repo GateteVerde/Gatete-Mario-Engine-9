@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_frog_kick",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"LayerId":{"name":"912ef658-3840-4cc2-8880-4c0189cc50cb","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_kick","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"resourceVersion":"1.0","name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"LayerId":{"name":"912ef658-3840-4cc2-8880-4c0189cc50cb","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_frog_kick","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"resourceVersion":"1.0","name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ff77977-e498-4af9-a8f1-cbb33a89c678",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"001fa744-55f2-4482-85f8-6569e4c6f5a6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_frog_kick","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a523fe68-df53-4b6f-b26e-73c58490956e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3e3d48a8-cb6a-47ec-ac5c-22775037b04a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_frog_kick","path":"sprites/spr_mario_frog_kick/spr_mario_frog_kick.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"912ef658-3840-4cc2-8880-4c0189cc50cb","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"912ef658-3840-4cc2-8880-4c0189cc50cb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Frog",
     "path": "folders/Sprites/Mario/Main/Frog.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_frog_kick",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

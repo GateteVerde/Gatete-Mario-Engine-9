@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_hammer_walk",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3c519026-0a1a-4a6c-9eea-807ab1e0dee0","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3c519026-0a1a-4a6c-9eea-807ab1e0dee0","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"LayerId":{"name":"e5f33b97-8e60-42f8-b521-deaeb7878854","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_walk","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","name":"3c519026-0a1a-4a6c-9eea-807ab1e0dee0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e86fb3ec-5433-4ab1-be52-eb349b93de96","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e86fb3ec-5433-4ab1-be52-eb349b93de96","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"LayerId":{"name":"e5f33b97-8e60-42f8-b521-deaeb7878854","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_walk","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","name":"e86fb3ec-5433-4ab1-be52-eb349b93de96","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"38630d9d-d7f1-4fc1-b922-2e495002f953","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38630d9d-d7f1-4fc1-b922-2e495002f953","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"LayerId":{"name":"e5f33b97-8e60-42f8-b521-deaeb7878854","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mario_hammer_walk","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","name":"38630d9d-d7f1-4fc1-b922-2e495002f953","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c519026-0a1a-4a6c-9eea-807ab1e0dee0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e86fb3ec-5433-4ab1-be52-eb349b93de96",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38630d9d-d7f1-4fc1-b922-2e495002f953",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mario_hammer_walk","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3f106098-f5c3-40fc-837b-f77d9a6b9343","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c519026-0a1a-4a6c-9eea-807ab1e0dee0","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6fe8b91f-4d14-45b1-a09f-53cf23c06cbe","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e86fb3ec-5433-4ab1-be52-eb349b93de96","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3378d83b-7334-49b0-9ddb-78715ce5ee2b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38630d9d-d7f1-4fc1-b922-2e495002f953","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mario_hammer_walk","path":"sprites/spr_mario_hammer_walk/spr_mario_hammer_walk.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e5f33b97-8e60-42f8-b521-deaeb7878854","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e5f33b97-8e60-42f8-b521-deaeb7878854","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Hammer",
     "path": "folders/Sprites/Mario/Main/Hammer.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_mario_hammer_walk",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_drybones_bone",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4390e8a0-708a-4ff6-aa1f-56a7d0242d37","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4390e8a0-708a-4ff6-aa1f-56a7d0242d37","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":{"name":"043e447a-c251-4fe5-9379-f650fb17a854","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_drybones_bone","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"4390e8a0-708a-4ff6-aa1f-56a7d0242d37","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a03243cb-53e9-4b21-a194-f53812cbd5df","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a03243cb-53e9-4b21-a194-f53812cbd5df","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":{"name":"043e447a-c251-4fe5-9379-f650fb17a854","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_drybones_bone","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"a03243cb-53e9-4b21-a194-f53812cbd5df","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"64bed062-a6ec-4330-924c-77d5c5e8879d","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"64bed062-a6ec-4330-924c-77d5c5e8879d","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":{"name":"043e447a-c251-4fe5-9379-f650fb17a854","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_drybones_bone","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"64bed062-a6ec-4330-924c-77d5c5e8879d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"66bab0ef-2d9d-4fde-89a0-ef17e41511fe","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66bab0ef-2d9d-4fde-89a0-ef17e41511fe","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"LayerId":{"name":"043e447a-c251-4fe5-9379-f650fb17a854","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_drybones_bone","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","name":"66bab0ef-2d9d-4fde-89a0-ef17e41511fe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4390e8a0-708a-4ff6-aa1f-56a7d0242d37",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a03243cb-53e9-4b21-a194-f53812cbd5df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"64bed062-a6ec-4330-924c-77d5c5e8879d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"66bab0ef-2d9d-4fde-89a0-ef17e41511fe",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_drybones_bone","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_drybones_bone",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"6f48d757-618f-4055-bef1-6b2bd4df03d1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4390e8a0-708a-4ff6-aa1f-56a7d0242d37","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"220b4449-27fb-4125-8a14-25d32daf110e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a03243cb-53e9-4b21-a194-f53812cbd5df","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"48a33714-e871-4dfb-a33f-776b3e190661","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64bed062-a6ec-4330-924c-77d5c5e8879d","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"336ddc21-311a-497f-aab0-61a57c5ccdd8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66bab0ef-2d9d-4fde-89a0-ef17e41511fe","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_drybones_bone","path":"sprites/spr_drybones_bone/spr_drybones_bone.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_drybones_bone",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"043e447a-c251-4fe5-9379-f650fb17a854","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"043e447a-c251-4fe5-9379-f650fb17a854","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Castle",
     "path": "folders/Sprites/Enemies/Castle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_drybones_bone",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

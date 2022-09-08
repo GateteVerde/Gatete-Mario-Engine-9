@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_midwaygate_tape",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"50c79071-3989-43cc-a06a-d3daf782ec03","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50c79071-3989-43cc-a06a-d3daf782ec03","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"LayerId":{"name":"3ce97850-d058-4b9e-a40c-1bcaec4c61cc","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_midwaygate_tape","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"resourceVersion":"1.0","name":"50c79071-3989-43cc-a06a-d3daf782ec03","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0ee8f17b-bda8-419d-8ab5-0c5fae338f3e","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0ee8f17b-bda8-419d-8ab5-0c5fae338f3e","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"LayerId":{"name":"3ce97850-d058-4b9e-a40c-1bcaec4c61cc","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_midwaygate_tape","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"resourceVersion":"1.0","name":"0ee8f17b-bda8-419d-8ab5-0c5fae338f3e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"50c79071-3989-43cc-a06a-d3daf782ec03",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0ee8f17b-bda8-419d-8ab5-0c5fae338f3e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_midwaygate_tape","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_midwaygate_tape",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"88dc1734-5460-48ff-936b-88a5289cc83e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"50c79071-3989-43cc-a06a-d3daf782ec03","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7bf6ded7-55ac-4d23-bdd0-a2966e4b63d5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ee8f17b-bda8-419d-8ab5-0c5fae338f3e","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_midwaygate_tape","path":"sprites/spr_midwaygate_tape/spr_midwaygate_tape.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_midwaygate_tape",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ce97850-d058-4b9e-a40c-1bcaec4c61cc","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3ce97850-d058-4b9e-a40c-1bcaec4c61cc","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SMW",
     "path": "folders/Sprites/Items/Level Progress/SMW.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_midwaygate_tape",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

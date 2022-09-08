@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_rockywrench_wrench",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"54ca8d5b-cd16-4123-a9ee-0e3a7b9966b2","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"54ca8d5b-cd16-4123-a9ee-0e3a7b9966b2","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":{"name":"ddc5a028-f0fb-4b6b-b197-e9b29396b0d6","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rockywrench_wrench","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"54ca8d5b-cd16-4123-a9ee-0e3a7b9966b2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"561471bb-8ac9-4c68-ae25-d0244d27d2c3","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"561471bb-8ac9-4c68-ae25-d0244d27d2c3","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":{"name":"ddc5a028-f0fb-4b6b-b197-e9b29396b0d6","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rockywrench_wrench","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"561471bb-8ac9-4c68-ae25-d0244d27d2c3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"92d84fe9-a3fe-48b7-a684-9a971d9bb759","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92d84fe9-a3fe-48b7-a684-9a971d9bb759","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":{"name":"ddc5a028-f0fb-4b6b-b197-e9b29396b0d6","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rockywrench_wrench","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"92d84fe9-a3fe-48b7-a684-9a971d9bb759","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"97f93bdb-2dcb-4e26-acc1-3fbd7e9f8a59","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"97f93bdb-2dcb-4e26-acc1-3fbd7e9f8a59","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"LayerId":{"name":"ddc5a028-f0fb-4b6b-b197-e9b29396b0d6","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rockywrench_wrench","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","name":"97f93bdb-2dcb-4e26-acc1-3fbd7e9f8a59","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54ca8d5b-cd16-4123-a9ee-0e3a7b9966b2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"561471bb-8ac9-4c68-ae25-d0244d27d2c3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92d84fe9-a3fe-48b7-a684-9a971d9bb759",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97f93bdb-2dcb-4e26-acc1-3fbd7e9f8a59",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_rockywrench_wrench","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_rockywrench_wrench",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f5609a66-5fe8-4943-bb63-1867f9262721","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54ca8d5b-cd16-4123-a9ee-0e3a7b9966b2","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"869b1065-6cb8-4ae7-94ad-8460ce746bca","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"561471bb-8ac9-4c68-ae25-d0244d27d2c3","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e22f0bc0-5e63-43d3-a24f-aa38400c4040","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92d84fe9-a3fe-48b7-a684-9a971d9bb759","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2a75ef89-eaea-4ee6-93f3-77e716858577","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"97f93bdb-2dcb-4e26-acc1-3fbd7e9f8a59","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 5,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_rockywrench_wrench","path":"sprites/spr_rockywrench_wrench/spr_rockywrench_wrench.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_rockywrench_wrench",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ddc5a028-f0fb-4b6b-b197-e9b29396b0d6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ddc5a028-f0fb-4b6b-b197-e9b29396b0d6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Airship",
     "path": "folders/Sprites/Enemies/Airship.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_rockywrench_wrench",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_toadhouse_dig",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bf8d2011-fb52-46b5-acf2-568d1c9a6603","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bf8d2011-fb52-46b5-acf2-568d1c9a6603","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"LayerId":{"name":"24ac05cc-e1c0-40b3-ae19-99b0afd0e1c5","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_toadhouse_dig","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"resourceVersion":"1.0","name":"bf8d2011-fb52-46b5-acf2-568d1c9a6603","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8916a304-3b9a-4d58-9fc8-e7676dbfa542","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8916a304-3b9a-4d58-9fc8-e7676dbfa542","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"LayerId":{"name":"24ac05cc-e1c0-40b3-ae19-99b0afd0e1c5","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_toadhouse_dig","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"resourceVersion":"1.0","name":"8916a304-3b9a-4d58-9fc8-e7676dbfa542","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf8d2011-fb52-46b5-acf2-568d1c9a6603",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8916a304-3b9a-4d58-9fc8-e7676dbfa542",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_toadhouse_dig","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_toadhouse_dig",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ad98a0d5-b4d0-4740-94c6-1a2c9baa96ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf8d2011-fb52-46b5-acf2-568d1c9a6603","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"aefebbc3-eb45-4c31-bc93-91bf5a9efabe","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8916a304-3b9a-4d58-9fc8-e7676dbfa542","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_toadhouse_dig","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_toadhouse_dig",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"24ac05cc-e1c0-40b3-ae19-99b0afd0e1c5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24ac05cc-e1c0-40b3-ae19-99b0afd0e1c5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Special",
     "path": "folders/Sprites/World Map/Panels/Special.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_toadhouse_dig",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
