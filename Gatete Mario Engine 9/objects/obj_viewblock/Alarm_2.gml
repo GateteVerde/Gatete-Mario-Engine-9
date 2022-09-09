@@ -11,5 +11,6 @@ if (ready == 0) {
 }
 
 //Reset sequence
-if (numb == array_length(sprout)) 
+if (sprout[numb] == noone)
+|| (numb == array_length(sprout)) 
     numb = 0;

@@ -317,7 +317,7 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background_0","spriteId":{"name":"spr_bgr_desert_clouds","path":"sprites/spr_bgr_desert_clouds/spr_bgr_desert_clouds.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/rm_course_w1_l1/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/rm_course_w1_l5/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_61D62D54","path":"rooms/rm_course_w1_l5/rm_course_w1_l5.yy",},
