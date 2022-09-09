@@ -21,6 +21,9 @@ check = 0;
 //Whether the brick will harm the player
 hurtplayer = 0;
 
+//Whether the brick was thrown upwards
+thrown_up = false;
+
 //Slowdown animation
 alarm[0] = 480;
 

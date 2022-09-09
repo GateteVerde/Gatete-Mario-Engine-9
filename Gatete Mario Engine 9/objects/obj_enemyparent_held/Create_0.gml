@@ -43,3 +43,12 @@ freeze_sprite = -1;
 
 //Freeze object (Used mainly for enemies that have many variants, leave as is to use current object)
 freeze_object = -1;
+
+//Was the NPC thrown upwards
+thrown_up = 0;
+
+//Is this NPC a shell?
+is_shell = false;
+
+//Combo
+hitcombo = 0;

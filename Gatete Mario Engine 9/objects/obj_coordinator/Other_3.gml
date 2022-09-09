@@ -109,6 +109,10 @@
 //Free all surfaces
 with (all) {
 	
+	//Free
+	surface_free(application_surface);
+	
+	//If there's a 'surf' variable, free the surface
 	if (variable_instance_exists(id, "surf"))
 	&& (surface_exists(surf))
 		surface_free(surf);

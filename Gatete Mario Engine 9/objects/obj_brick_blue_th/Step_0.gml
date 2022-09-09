@@ -52,6 +52,11 @@ if (!held) {
 		hurtplayer = 1;
 }
 
+//Reset combo
+if (yadd == 0)
+&& (ready == 0)
+	hitcombo = 0;
+
 //No bouncing if kicked
 if (ready == 1)
 	bounces = -1;	

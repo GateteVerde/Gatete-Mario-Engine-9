@@ -44,6 +44,9 @@ else {
         
 	        //Boost kick
 	        y--;
+			
+			//Thrown up?
+			thrown_up = true;
         
 	        //Set vertical speed based if it is underwater or not
 			yspeed = (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 0, 0)) ? -3.5 : -7;

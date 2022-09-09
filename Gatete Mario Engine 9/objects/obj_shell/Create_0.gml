@@ -30,3 +30,6 @@ anim = 0;
 
 //Whether there's a koopa inside
 koopainside = 0;
+
+//Is this enemy a shell?
+is_shell = 1;

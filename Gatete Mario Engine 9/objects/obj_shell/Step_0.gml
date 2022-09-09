@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//This is a shell
+is_shell = 1;
+
 //Set flags depending of sprite
 switch (sprite_index) {
 

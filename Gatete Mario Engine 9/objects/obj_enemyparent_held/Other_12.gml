@@ -44,6 +44,9 @@ else {
         
 	        //Boost kick
 	        y--;
+			
+			//Throw upwards
+			thrown_up = true;
         
 	        //Set vertical speed based if it is underwater or not
 			yspeed = (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 0, 0)) ? -3.5 : -7;
@@ -66,6 +69,9 @@ else {
 	        //Stop it
 	        xspeed = 0;
 	    }
+		
+		//Thrown up?
+		thrown_up = false;
     
 	    //Set the horizontal speed
 	    xspeed = 0.5*sign(obj_mario.xscale);
@@ -76,6 +82,9 @@ else {
 
 	    //If the item is not overlapping a solid.
 	    if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom,obj_solid, 0, 0)) {
+			
+			//Thrown up
+			thrown_up = false;
         
 	        //If the player has horizontal speed
 	        if (obj_mario.xspeed != 0) {
