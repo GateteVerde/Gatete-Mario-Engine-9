@@ -8,11 +8,11 @@ function ai_npc_ceiling(bounceuponceiling) {
 	
 	//If moving upwards
 	if (yspeed < 0) 
-	&& ((collision_rectangle(bbox_left, bbox_top+yspeed, bbox_right, bbox_top+yspeed, obj_solid, 1, 0)) 
+	&& ((collision_rectangle(bbox_left, bbox_top+yspeed, bbox_right, bbox_top, obj_solid, 1, 0)) 
 	|| ((platform_u) && (platform_u.issolid == true))) {
 		
 		//Check for a block above
-		var block_u = collision_rectangle(bbox_left, bbox_top-2+yspeed/2, bbox_right, bbox_top, obj_blockparent, 0, 0);
+		var block_u = collision_rectangle(bbox_left, bbox_top-2+yspeed, bbox_right, bbox_top, obj_blockparent, 0, 0);
 		
 		//If the object does bounce
 		if (argument[0] == false) {
