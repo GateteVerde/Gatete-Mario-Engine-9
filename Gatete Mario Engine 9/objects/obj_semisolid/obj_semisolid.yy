@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_semisolid",
   "spriteId": {
     "name": "spr_square_b",
     "path": "sprites/spr_square_b/spr_square_b.yy",
@@ -28,8 +31,4 @@
     "name": "Collision",
     "path": "folders/Objects/Collision.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_semisolid",
-  "tags": [],
-  "resourceType": "GMObject",
 }

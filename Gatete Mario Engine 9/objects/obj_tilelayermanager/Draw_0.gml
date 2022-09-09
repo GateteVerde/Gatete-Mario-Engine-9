@@ -39,8 +39,9 @@ else {
 	
 		//With ALL obj_wanderingpit
 		with (obj_wanderingpit) {
-	
-			draw_rectangle_color(x - other.camera_x, y - other.camera_y, x + 40 - other.camera_x, y + 23 - other.camera_y, c_white, c_white, c_white, c_white, 0);
+			
+			//Draw a rectangle
+			draw_rectangle_color(x - other.camera_x, y - other.camera_y, (bbox_right + 8) - other.camera_x, y + 23 - other.camera_y, c_white, c_white, c_white, c_white, 0);
 		}
 	}
 

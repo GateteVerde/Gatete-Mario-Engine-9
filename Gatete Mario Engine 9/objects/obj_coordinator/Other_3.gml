@@ -107,7 +107,12 @@
 #endregion
 
 //Free all surfaces
-surface_free(all);
+with (all) {
+	
+	if (variable_instance_exists(id, "surf"))
+	&& (surface_exists(surf))
+		surface_free(surf);
+}
 
 //Free game from all active timers
 timer_system_room_end();

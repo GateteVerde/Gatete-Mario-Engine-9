@@ -10,6 +10,9 @@ got = (global.cleared_levels + ds_map_size(global.powerstars) + global.starcoins
 total = exits_amount + pstar_amount + (level_amount * 3) + (1 + 1 + 1 + 1);
 global.gameclear = floor(got/total*100);
 
+//Update shaders
+update_shockwave();
+
 //Update timers
 timer_system_update();
 
@@ -21,9 +24,6 @@ instance_activate_object(obj_audio_loop_sound);
 
 //Keep light control active
 instance_activate_object(obj_lightcontrol);
-
-//Update shaders
-update_shockwave();
 
 //Stay always at the front
 depth = -1000;
@@ -67,8 +67,9 @@ depth = -1000;
 	
 	#region PAUSE / RESUME
 
-		//Pause sounds when 'Hurry' is playing
-		if (audio_is_playing(snd_hurry)) 
+		//Pause sounds when the game is paused or 'Hurry', 'Mushroom' or 'Hawk Song' is playing
+		if (instance_number(obj_pause) > 0)
+		|| (audio_is_playing(snd_hurry)) 
 		|| (audio_is_playing(snd_mushroom)) 
 		|| (audio_is_playing(snd_hawksong)) {
 		

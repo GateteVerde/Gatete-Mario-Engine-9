@@ -265,6 +265,7 @@
     {"id":{"name":"snd_split","path":"sounds/snd_split/snd_split.yy",},"order":51,},
     {"id":{"name":"obj_drybones_crumble","path":"objects/obj_drybones_crumble/obj_drybones_crumble.yy",},"order":1,},
     {"id":{"name":"spr_weaponblock_pswitch","path":"sprites/spr_weaponblock_pswitch/spr_weaponblock_pswitch.yy",},"order":12,},
+    {"id":{"name":"spr_wanderingpit_mask","path":"sprites/spr_wanderingpit_mask/spr_wanderingpit_mask.yy",},"order":5,},
     {"id":{"name":"obj_engine_pole","path":"objects/obj_engine_pole/obj_engine_pole.yy",},"order":10,},
     {"id":{"name":"spr_mario_tanooki_spin","path":"sprites/spr_mario_tanooki_spin/spr_mario_tanooki_spin.yy",},"order":14,},
     {"id":{"name":"obj_flagpole_flag_vanish","path":"objects/obj_flagpole_flag_vanish/obj_flagpole_flag_vanish.yy",},"order":2,},
