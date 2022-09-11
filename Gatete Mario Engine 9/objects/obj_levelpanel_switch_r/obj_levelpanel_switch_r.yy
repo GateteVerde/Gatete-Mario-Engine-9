@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_levelpanel_switch_r",
   "spriteId": {
     "name": "spr_levelpanel_switch_r",
     "path": "sprites/spr_levelpanel_switch_r/spr_levelpanel_switch_r.yy",
@@ -27,15 +30,11 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"rm_switchpalace_r","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"\"Heart Switch Palace\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"rm_switchpalace_r",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"\"Heart Switch Palace\"",},
   ],
   "parent": {
     "name": "Switch Palaces",
     "path": "folders/Objects/World Map/Panels/Special/Switch Palaces.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_levelpanel_switch_r",
-  "tags": [],
-  "resourceType": "GMObject",
 }

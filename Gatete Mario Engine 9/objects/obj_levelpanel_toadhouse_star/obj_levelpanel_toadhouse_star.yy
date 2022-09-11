@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_levelpanel_toadhouse_star",
   "spriteId": {
     "name": "spr_toadhouse_star",
     "path": "sprites/spr_toadhouse_star/spr_toadhouse_star.yy",
@@ -25,24 +28,20 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":4,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"myworld","tags":[],"resourceType":"GMObjectProperty",},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"myworld","varType":4,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [
-    {"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"\"Star Mushroom House\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"rm_bonus","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"\"Star Mushroom House\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"rm_bonus",},
   ],
   "parent": {
     "name": "Special",
     "path": "folders/Objects/World Map/Panels/Special.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_levelpanel_toadhouse_star",
-  "tags": [],
-  "resourceType": "GMObject",
 }

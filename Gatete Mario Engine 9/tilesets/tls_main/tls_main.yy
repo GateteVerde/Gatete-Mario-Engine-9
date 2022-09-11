@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tls_main",
   "spriteId": {
     "name": "spr_tileset",
     "path": "sprites/spr_tileset/spr_tileset.yy",
@@ -19,7 +22,7 @@
   "out_columns": 66,
   "tile_count": 4355,
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","tiles":[
         0,
         0,
         0,
@@ -67,27 +70,27 @@
         0,
         0,
         0,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":false,},
   ],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"Propeller 1","frames":[
         4203,
         4204,
-      ],"resourceVersion":"1.0","name":"Propeller 1","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"Propeller 2","frames":[
         4268,
         4269,
-      ],"resourceVersion":"1.0","name":"Propeller 2","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"Propeller 3","frames":[
         4333,
         4197,
-      ],"resourceVersion":"1.0","name":"Propeller 3","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"Propeller Tank","frames":[
         4197,
         4198,
         4199,
         4198,
-      ],"resourceVersion":"1.0","name":"Propeller Tank","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
@@ -17524,8 +17527,4 @@
     "name": "Tilesets",
     "path": "folders/Tilesets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tls_main",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_levelpanel_switch_g",
   "spriteId": {
     "name": "spr_levelpanel_switch_g",
     "path": "sprites/spr_levelpanel_switch_g/spr_levelpanel_switch_g.yy",
@@ -27,15 +30,11 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"\"Diamond Switch Palace\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"rm_switchpalace_g","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"\"Diamond Switch Palace\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"value":"rm_switchpalace_g",},
   ],
   "parent": {
     "name": "Switch Palaces",
     "path": "folders/Objects/World Map/Panels/Special/Switch Palaces.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_levelpanel_switch_g",
-  "tags": [],
-  "resourceType": "GMObject",
 }

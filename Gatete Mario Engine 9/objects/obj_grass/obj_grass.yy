@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_grass",
   "spriteId": {
     "name": "spr_grass",
     "path": "sprites/spr_grass/spr_grass.yy",
@@ -31,8 +34,4 @@
     "name": "Grass",
     "path": "folders/Objects/Items/Subcon/Grass.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_grass",
-  "tags": [],
-  "resourceType": "GMObject",
 }
