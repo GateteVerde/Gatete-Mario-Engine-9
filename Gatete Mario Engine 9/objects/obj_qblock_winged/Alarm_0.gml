@@ -1,9 +1,9 @@
 /// @description Start moving only when inside the view
 
 //If the object is outside the view
-if (outside_view()) {
+if (outside_view() == true) {
 
-    alarm[0] = 1;
+    alarm[0] = 2;
     exit;
 }
 

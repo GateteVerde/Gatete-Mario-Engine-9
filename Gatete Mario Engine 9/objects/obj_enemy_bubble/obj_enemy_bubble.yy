@@ -37,7 +37,8 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sprout","varType":6,"value":"spr_mushroom","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sprout","varType":6,"value":"spr_coin","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+        "spr_coin",
         "spr_mushroom",
         "spr_galoomba",
         "spr_bobomb_cannon",

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_piranhaplant_large",
   "spriteId": {
     "name": "spr_piranhaplant_large",
     "path": "sprites/spr_piranhaplant_large/spr_piranhaplant_large.yy",
@@ -31,8 +34,4 @@
     "name": "Piranha Plants",
     "path": "folders/Objects/Enemies/Cave/Piranha Plants.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_piranhaplant_large",
-  "tags": [],
-  "resourceType": "GMObject",
 }

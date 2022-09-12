@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_water_b",
   "spriteId": {
     "name": "spr_water_b",
     "path": "sprites/spr_water_b/spr_water_b.yy",
@@ -31,8 +34,4 @@
     "name": "Water",
     "path": "folders/Objects/Decoration/Liquids/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_water_b",
-  "tags": [],
-  "resourceType": "GMObject",
 }

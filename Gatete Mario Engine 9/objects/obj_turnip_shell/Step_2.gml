@@ -97,6 +97,25 @@ else if (held == false) {
         mytop.x = x-8;
         mytop.y = bbox_top;
         
+        //If the pull object does not exist and this object can be pulled
+		if (can_carry() == true)
+        && (instance_number(obj_mario_puller) == 0) 
+		&& (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario, 0, 0)) {
+            
+            //Force Mario to hold the enemy
+            with (obj_mario) {
+                
+                holding = 1;
+                visible = 0;
+            }
+                
+            //Create puller
+            instance_create_depth(obj_mario.x, obj_mario.y, -5, obj_mario_puller);
+                
+            //Finish pull
+            alarm[0] = 10;  
+        }
+        
         //If the player is on this moving platform
         if (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario, 0, 0))
         && (obj_mario.bbox_bottom < yprevious+5)
