@@ -28,5 +28,5 @@ for (var i=0; i<12; i++) {
 	save_alm[i] = -1;
 }
 
-//Start moving
-alarm[0] = 2;
+//Is the object frozen?
+freeze = false;

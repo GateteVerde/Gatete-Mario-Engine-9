@@ -12,48 +12,52 @@ yadd = 0;
 
 #region LOGIC
 
-	//If the piranha plant jumped outside the pipe
-	if (ready == 0)
-	&& (y < ystart-16) {
+	//If not frozen
+	if (freeze == false) {
 
-	    //Cap vertical speed
-	    if (yspeed > 0.5) {
+		//If the piranha plant jumped outside the pipe
+		if (ready == 0)
+		&& (y < ystart-16) {
+
+		    //Cap vertical speed
+		    if (yspeed > 0.5) {
     
-	        yspeed = 0.5;
-	        ready = 1;
-	    }
+		        yspeed = 0.5;
+		        ready = 1;
+		    }
     
-	    //Slowdown till the plant stops
-	    yspeed += 0.025;
+		    //Slowdown till the plant stops
+		    yspeed += 0.025;
     
-	    //If the piranha plant has stopped
-	    if (yspeed == 0) {
+		    //If the piranha plant has stopped
+		    if (yspeed == 0) {
     
-	        //If the piranha plant can shoot fireballs, do so
-	        if (fire == 0) && (type != 0) {
+		        //If the piranha plant can shoot fireballs, do so
+		        if (fire == 0) && (type != 0) {
         
-	            //Fire
-	            fire = 1;
-	            alarm[1] = 1;
-	        }
-	    }
-	}
+		            //Fire
+		            fire = 1;
+		            alarm[1] = 1;
+		        }
+		    }
+		}
 
-	//Otherwise, if the piranha plant is descending and it's entering the pipe.
-	else if ((ready == 1) && (y > ystart)) {
+		//Otherwise, if the piranha plant is descending and it's entering the pipe.
+		else if ((ready == 1) && (y > ystart)) {
 
-	    //Snap in position
-	    yspeed = 0;
-	    y = ystart;
+		    //Snap in position
+		    yspeed = 0;
+		    y = ystart;
     
-	    //Jump again
-	    alarm[0] = 60;
+		    //Jump again
+		    alarm[0] = 60;
     
-	    //Allow to jump
-	    ready = 0;
+		    //Allow to jump
+		    ready = 0;
     
-	    //Allow to fire again
-	    fire = 0;
+		    //Allow to fire again
+		    fire = 0;
+		}
 	}
 #endregion
 

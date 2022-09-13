@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_slope_steep_r",
   "spriteId": {
     "name": "spr_slope_steep_r",
     "path": "sprites/spr_slope_steep_r/spr_slope_steep_r.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Slopes",
     "path": "folders/Objects/Collision/Slopes.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_slope_steep_r",
-  "tags": [],
-  "resourceType": "GMObject",
 }
