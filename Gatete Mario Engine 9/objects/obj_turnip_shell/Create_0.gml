@@ -18,3 +18,6 @@ allow_collision = true;
 
 //Create semisolid collision
 mytop = instance_create_layer(-1000, -1000, "Main", obj_semisolid);
+
+//Whether this shell is falling through one tile gaps
+check = 0;

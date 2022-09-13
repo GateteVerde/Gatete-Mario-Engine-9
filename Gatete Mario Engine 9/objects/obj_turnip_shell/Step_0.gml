@@ -71,6 +71,9 @@ else {
 		//NPC Wall & Ceiling
 		ai_npc_wall(1);
 		ai_npc_ceiling(1);
+		
+		//Check for 1 block gaps and blocks in the way
+		event_user(5);
     
 		//If the direction changes...
 		if (sign(xspeed) != sign(prevxspeed)) {

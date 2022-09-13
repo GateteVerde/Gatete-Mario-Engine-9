@@ -1108,6 +1108,11 @@ if (state == playerstate.jump)
     && (input_check_pressed(input.action_0))
     && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_quicksand, 0, 0)) {
 		
+		//If Mario is riding yoshi and this one is carrying a shell on his mouth, do not allow flight
+		if (global.mount == 1) 
+		&& (obj_yoshi.mouthholder == obj_shell_kicked)
+			exit;
+		
 		//Play 'tail' sound.
         audio_stop_sound(snd_spin);
         audio_play_sound(snd_spin, 0, false);

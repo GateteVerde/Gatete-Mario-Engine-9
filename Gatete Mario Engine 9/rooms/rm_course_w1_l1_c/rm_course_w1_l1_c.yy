@@ -87,7 +87,7 @@
 2,-2147483648,1171,-4,1172,1,1173,-17,0,2,-2147483648,1171,-4,1172,1,1173,-17,0,2,-2147483648,1171,-4,1172,1,
 1175,-3,1107,2,1118,1119,-8,0,2,1114,1115,-3,1107,1,1176,-9,1172,2,1305,1311,-6,0,2,1310,
 1306,-15,1172,1,1309,-6,0,1,1307,-16,1172,2,1175,1311,-4,0,2,1310,1176,-17,1172,1,1175,-4,
-1107,1,1176,-9,1172,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+1243,1,1176,-9,1172,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset_Decor","tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":24,"SerialiseHeight":15,"TileCompressedData":[
 -20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,
 -20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,
