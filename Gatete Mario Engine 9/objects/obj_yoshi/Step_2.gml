@@ -38,10 +38,7 @@
 	        if (mouthholder == noone) {
         
 	            //Play 'Lick' sound
-	            if (!audio_is_playing(snd_yoshi_lick)) {
-            
-	                audio_play_sound(snd_yoshi_lick, 0, false);
-	            }
+	            audio_play_sound(snd_yoshi_tongue, 0, false);
             
 	            //Start licking
 	            licking = 1;
@@ -218,7 +215,7 @@
 	        }
 			
 			//Stop 'Flying' sound
-			audio_stop_sound(snd_yoshi_lick);
+			audio_stop_sound(snd_yoshi_fly);
 
 			//Stop 'Flutter' sound
 			audio_stop_sound(snd_yoshi_hover);

@@ -5,7 +5,7 @@ if (instance_exists(obj_keyhole))
 exit;
 
 //Stop 'Flying' sound
-audio_stop_sound(snd_yoshi_lick);
+audio_stop_sound(snd_yoshi_fly);
 
 //Stop 'Flutter' sound
 audio_stop_sound(snd_yoshi_hover);

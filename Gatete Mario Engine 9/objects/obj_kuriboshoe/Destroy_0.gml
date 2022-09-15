@@ -4,7 +4,7 @@
 global.mount = 0;
 
 //Stop 'Flying' sound
-audio_stop_sound(snd_yoshi_lick);
+audio_stop_sound(snd_yoshi_fly);
 
 //Destroy movement
 with (movement) instance_destroy();

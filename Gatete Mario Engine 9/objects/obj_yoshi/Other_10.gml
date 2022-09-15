@@ -3,6 +3,12 @@
 //Play 'Spit' sound
 audio_play_sound(snd_yoshi_spit, 0, false);
 
+//Stop 'Flying' sound
+if (flying == 1) {
+	
+	audio_stop_sound(snd_yoshi_fly);
+}
+
 //Spit out the item
 if (obj_mario.crouch) 
 || (obj_mario.sliding) {
@@ -269,6 +275,9 @@ mouthsprite = noone;
 
 //Reset shard sprite
 mouthshard = noone;
+
+//Force end flight
+flying = 0;
 
 //Licking
 licking = 1;

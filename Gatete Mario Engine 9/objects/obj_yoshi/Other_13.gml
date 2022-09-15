@@ -11,7 +11,7 @@ if (mouthholder == obj_shell_kicked)
         && (obj_mario.swimming == false) {
         
             //If not flying and moving down, start flying.
-            if (!flying)
+            if (flying == 0)
             && (obj_mario.yspeed > 0) {
             
                 flying = 1;
@@ -19,7 +19,7 @@ if (mouthholder == obj_shell_kicked)
             }
             
             //When flying
-            if (flying) {
+            if (flying == 1) {
             
                 //With the player
                 with (obj_mario) {
@@ -41,14 +41,17 @@ if (mouthholder == obj_shell_kicked)
             }
             
             //Otherwise, reset fly animation
-            else
+            else {
+				
+				audio_stop_sound(snd_yoshi_fly);
                 flyanim = 0;
+			}
         }
         
         //Otherwise, reset flight
         else {
         
-            audio_stop_sound(snd_yoshi_lick);
+            audio_stop_sound(snd_yoshi_fly);
             flying = 0;
             flyanim = 0;
         }
@@ -109,14 +112,17 @@ if (mouthholder == obj_shell_kicked)
             }
             
             //Otherwise, reset fly animation
-            else
+            else {
+				
+				audio_stop_sound(snd_yoshi_fly);
                 flyanim = 0;
+			}
         }
         
         //Otherwise, reset flight
         else {
         
-            audio_stop_sound(snd_yoshi_lick);
+            audio_stop_sound(snd_yoshi_fly);
             flying = 0;
             flyanim = 0;
         }    
