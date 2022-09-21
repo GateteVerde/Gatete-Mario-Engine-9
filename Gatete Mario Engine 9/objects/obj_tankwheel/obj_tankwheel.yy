@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_tankwheel",
   "spriteId": {
     "name": "spr_tankwheel",
     "path": "sprites/spr_tankwheel/spr_tankwheel.yy",
@@ -28,8 +31,4 @@
     "name": "Decoration",
     "path": "folders/Objects/Decoration.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_tankwheel",
-  "tags": [],
-  "resourceType": "GMObject",
 }

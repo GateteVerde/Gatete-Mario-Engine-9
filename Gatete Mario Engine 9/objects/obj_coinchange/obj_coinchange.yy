@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_coinchange",
   "spriteId": {
     "name": "spr_coin",
     "path": "sprites/spr_coin/spr_coin.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Items",
     "path": "folders/Objects/Special/Do Not Use!/Items.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_coinchange",
-  "tags": [],
-  "resourceType": "GMObject",
 }

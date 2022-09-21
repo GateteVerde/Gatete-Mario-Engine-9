@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_boo_circle",
   "spriteId": {
     "name": "spr_marker_boo",
     "path": "sprites/spr_marker_boo/spr_marker_boo.yy",
@@ -22,26 +25,22 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":1,"value":"10","rangeEnabled":true,"rangeMin":6.0,"rangeMax":16.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"boocount","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":6,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"boocount","varType":1,"value":"10","rangeEnabled":true,"rangeMin":6.0,"rangeMax":16.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"clockwise","varType":6,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "1",
         "-1",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"clockwise","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"3","rangeEnabled":true,"rangeMin":1.0,"rangeMax":6.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"gapsize","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"80","rangeEnabled":true,"rangeMin":48.0,"rangeMax":96.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ringsize","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":4,"value":"0.0175","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ringspeed","tags":[],"resourceType":"GMObjectProperty",},
+      ],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"gapsize","varType":1,"value":"3","rangeEnabled":true,"rangeMin":1.0,"rangeMax":6.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ringsize","varType":1,"value":"80","rangeEnabled":true,"rangeMin":48.0,"rangeMax":96.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ringspeed","varType":4,"value":"0.0175","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Boo",
     "path": "folders/Objects/Enemies/Ghost/Boo.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_boo_circle",
-  "tags": [],
-  "resourceType": "GMObject",
 }

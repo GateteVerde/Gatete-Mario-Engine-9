@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_slippery",
   "spriteId": {
     "name": "spr_slippery",
     "path": "sprites/spr_slippery/spr_slippery.yy",
@@ -28,8 +31,4 @@
     "name": "Collision",
     "path": "folders/Objects/Collision.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_slippery",
-  "tags": [],
-  "resourceType": "GMObject",
 }

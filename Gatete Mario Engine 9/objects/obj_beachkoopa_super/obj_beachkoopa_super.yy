@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_beachkoopa_super",
   "spriteId": {
     "name": "spr_beachkoopa_super",
     "path": "sprites/spr_beachkoopa_super/spr_beachkoopa_super.yy",
@@ -28,8 +31,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -37,8 +40,4 @@
     "name": "Green",
     "path": "folders/Objects/Special/Do Not Use!/Enemies/Land/Koopas/Green.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_beachkoopa_super",
-  "tags": [],
-  "resourceType": "GMObject",
 }

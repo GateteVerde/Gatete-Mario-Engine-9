@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_cruncher",
   "spriteId": {
     "name": "spr_cruncher",
     "path": "sprites/spr_cruncher/spr_cruncher.yy",
@@ -31,8 +34,4 @@
     "name": "Hazards",
     "path": "folders/Objects/Decoration/Hazards.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_cruncher",
-  "tags": [],
-  "resourceType": "GMObject",
 }

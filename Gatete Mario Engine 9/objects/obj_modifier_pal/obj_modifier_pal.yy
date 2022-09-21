@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_modifier_pal",
   "spriteId": {
     "name": "spr_modifier_pal",
     "path": "sprites/spr_modifier_pal/spr_modifier_pal.yy",
@@ -22,19 +25,15 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_pathparent","path":"objects/obj_pathparent/obj_pathparent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_pathparent","path":"objects/obj_pathparent/obj_pathparent.yy",},},
   ],
   "properties": [
-    {"varType":1,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":5.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"pal","tags":[],"resourceType":"GMObjectProperty",},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"pal","varType":1,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":5.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "World Map",
     "path": "folders/Objects/World Map.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_modifier_pal",
-  "tags": [],
-  "resourceType": "GMObject",
 }

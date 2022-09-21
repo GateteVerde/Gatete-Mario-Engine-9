@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_weaponblock_hammer",
   "spriteId": {
     "name": "spr_weaponblock_hammer",
     "path": "sprites/spr_weaponblock_hammer/spr_weaponblock_hammer.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_hammer","path":"objects/obj_hammer/obj_hammer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_hammer","path":"objects/obj_hammer/obj_hammer.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Weapon Blocks",
     "path": "folders/Objects/Blocks/Weapon Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_weaponblock_hammer",
-  "tags": [],
-  "resourceType": "GMObject",
 }

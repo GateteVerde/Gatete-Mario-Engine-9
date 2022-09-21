@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_berry",
   "spriteId": {
     "name": "spr_berry",
     "path": "sprites/spr_berry/spr_berry.yy",
@@ -31,8 +34,4 @@
     "name": "Collectibles",
     "path": "folders/Objects/Items/Collectibles.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_berry",
-  "tags": [],
-  "resourceType": "GMObject",
 }

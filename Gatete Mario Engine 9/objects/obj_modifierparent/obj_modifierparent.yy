@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_modifierparent",
   "spriteId": {
     "name": "spr_eventmarker",
     "path": "sprites/spr_eventmarker/spr_eventmarker.yy",
@@ -28,8 +31,4 @@
     "name": "Parents",
     "path": "folders/Objects/Special/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_modifierparent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

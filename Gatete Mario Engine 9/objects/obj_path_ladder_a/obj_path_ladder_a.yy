@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_path_ladder_a",
   "spriteId": {
     "name": "spr_path_ladder_a",
     "path": "sprites/spr_path_ladder_a/spr_path_ladder_a.yy",
@@ -28,8 +31,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -37,8 +40,4 @@
     "name": "Decoration Paths",
     "path": "folders/Objects/World Map/Paths/Decoration Paths.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_path_ladder_a",
-  "tags": [],
-  "resourceType": "GMObject",
 }

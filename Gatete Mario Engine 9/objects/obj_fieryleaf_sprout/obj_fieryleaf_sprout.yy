@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_fieryleaf_sprout",
   "spriteId": {
     "name": "spr_fieryleaf_sp",
     "path": "sprites/spr_fieryleaf_sp/spr_fieryleaf_sp.yy",
@@ -31,8 +34,4 @@
     "name": "Pick-ups",
     "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles/Powerups/Pick-ups.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_fieryleaf_sprout",
-  "tags": [],
-  "resourceType": "GMObject",
 }

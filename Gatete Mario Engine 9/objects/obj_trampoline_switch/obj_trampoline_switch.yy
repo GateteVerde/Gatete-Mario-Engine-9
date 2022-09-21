@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_trampoline_switch",
   "spriteId": {
     "name": "spr_trampoline_switch",
     "path": "sprites/spr_trampoline_switch/spr_trampoline_switch.yy",
@@ -31,8 +34,4 @@
     "name": "Holdables",
     "path": "folders/Objects/Items/Holdables.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_trampoline_switch",
-  "tags": [],
-  "resourceType": "GMObject",
 }

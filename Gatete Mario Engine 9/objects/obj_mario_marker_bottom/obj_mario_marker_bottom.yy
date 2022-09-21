@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_mario_marker_bottom",
   "spriteId": {
     "name": "spr_mask_marker_bottom",
     "path": "sprites/spr_mask_marker_bottom/spr_mask_marker_bottom.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Mario",
     "path": "folders/Objects/Special/Do Not Use!/Mario.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_mario_marker_bottom",
-  "tags": [],
-  "resourceType": "GMObject",
 }

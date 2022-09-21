@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_mapwater_river",
   "spriteId": {
     "name": "spr_mapwater_river",
     "path": "sprites/spr_mapwater_river/spr_mapwater_river.yy",
@@ -31,8 +34,4 @@
     "name": "Liquids",
     "path": "folders/Objects/World Map/Decoration/Liquids.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_mapwater_river",
-  "tags": [],
-  "resourceType": "GMObject",
 }

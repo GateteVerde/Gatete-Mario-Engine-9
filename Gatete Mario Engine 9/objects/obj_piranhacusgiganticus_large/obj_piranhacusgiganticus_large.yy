@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_piranhacusgiganticus_large",
   "spriteId": {
     "name": "spr_piranhacusgiganticus_large",
     "path": "sprites/spr_piranhacusgiganticus_large/spr_piranhacusgiganticus_large.yy",
@@ -31,8 +34,4 @@
     "name": "Big",
     "path": "folders/Objects/Enemies/Cave/Piranha Plants/Big.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_piranhacusgiganticus_large",
-  "tags": [],
-  "resourceType": "GMObject",
 }

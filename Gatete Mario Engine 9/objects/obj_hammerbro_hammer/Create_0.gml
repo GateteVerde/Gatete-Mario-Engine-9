@@ -1,5 +1,10 @@
 /// @description Hammer bro hammer
 
+//Inherit the parent event
+event_inherited();
+
+//Ignore platforms
+ignore_platforms = true;
+
 //Set the motion
-vspeed = -4;
-gravity = 0.125;
+yspeed = -3.75;

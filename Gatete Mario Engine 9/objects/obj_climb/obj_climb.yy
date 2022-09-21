@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_climb",
   "spriteId": {
     "name": "spr_square_c",
     "path": "sprites/spr_square_c/spr_square_c.yy",
@@ -28,8 +31,4 @@
     "name": "Collision",
     "path": "folders/Objects/Collision.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_climb",
-  "tags": [],
-  "resourceType": "GMObject",
 }

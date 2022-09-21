@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_weaponblock_cape",
   "spriteId": {
     "name": "spr_weaponblock_cape",
     "path": "sprites/spr_weaponblock_cape/spr_weaponblock_cape.yy",
@@ -25,8 +28,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario_spinner","path":"objects/obj_mario_spinner/obj_mario_spinner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario_spinner","path":"objects/obj_mario_spinner/obj_mario_spinner.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,8 +37,4 @@
     "name": "Weapon Blocks",
     "path": "folders/Objects/Blocks/Weapon Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_weaponblock_cape",
-  "tags": [],
-  "resourceType": "GMObject",
 }

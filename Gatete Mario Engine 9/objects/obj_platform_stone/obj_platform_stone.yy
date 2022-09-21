@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_stone",
   "spriteId": {
     "name": "spr_platform_stone",
     "path": "sprites/spr_platform_stone/spr_platform_stone.yy",
@@ -25,9 +28,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_endmarker","path":"objects/obj_endmarker/obj_endmarker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_endmarker","path":"objects/obj_endmarker/obj_endmarker.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,8 +38,4 @@
     "name": "SMW",
     "path": "folders/Objects/Items/Platforms/SMW.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_stone",
-  "tags": [],
-  "resourceType": "GMObject",
 }

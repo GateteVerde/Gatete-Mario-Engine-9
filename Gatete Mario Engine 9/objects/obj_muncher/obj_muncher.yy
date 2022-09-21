@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_muncher",
   "spriteId": {
     "name": "spr_muncher",
     "path": "sprites/spr_muncher/spr_muncher.yy",
@@ -31,8 +34,4 @@
     "name": "Hazards",
     "path": "folders/Objects/Decoration/Hazards.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_muncher",
-  "tags": [],
-  "resourceType": "GMObject",
 }

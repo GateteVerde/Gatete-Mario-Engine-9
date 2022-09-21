@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_warp_cannon",
   "spriteId": {
     "name": "spr_warp_cannon",
     "path": "sprites/spr_warp_cannon/spr_warp_cannon.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Warps",
     "path": "folders/Objects/Warps.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_warp_cannon",
-  "tags": [],
-  "resourceType": "GMObject",
 }

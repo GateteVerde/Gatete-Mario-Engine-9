@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_modifier",
   "spriteId": {
     "name": "spr_modifier",
     "path": "sprites/spr_modifier/spr_modifier.yy",
@@ -28,8 +31,4 @@
     "name": "World Map",
     "path": "folders/Objects/World Map.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_modifier",
-  "tags": [],
-  "resourceType": "GMObject",
 }

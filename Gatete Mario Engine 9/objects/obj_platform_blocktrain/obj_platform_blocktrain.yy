@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_blocktrain",
   "spriteId": {
     "name": "spr_platform_blocktrain",
     "path": "sprites/spr_platform_blocktrain/spr_platform_blocktrain.yy",
@@ -25,21 +28,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":1,"value":"4","rangeEnabled":true,"rangeMin":3.0,"rangeMax":16.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"length","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.5,"rangeMax":4.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spd","tags":[],"resourceType":"GMObjectProperty",},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"length","varType":1,"value":"4","rangeEnabled":true,"rangeMin":3.0,"rangeMax":16.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.5,"rangeMax":4.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "SMW",
     "path": "folders/Objects/Items/Platforms/SMW.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_blocktrain",
-  "tags": [],
-  "resourceType": "GMObject",
 }

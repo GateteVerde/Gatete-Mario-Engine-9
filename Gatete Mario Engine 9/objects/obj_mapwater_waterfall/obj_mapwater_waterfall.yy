@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_mapwater_waterfall",
   "spriteId": {
     "name": "spr_mapwater_waterfall",
     "path": "sprites/spr_mapwater_waterfall/spr_mapwater_waterfall.yy",
@@ -31,8 +34,4 @@
     "name": "Liquids",
     "path": "folders/Objects/World Map/Decoration/Liquids.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_mapwater_waterfall",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_reznor",
   "spriteId": {
     "name": "spr_reznor_platform_bg",
     "path": "sprites/spr_reznor_platform_bg/spr_reznor_platform_bg.yy",
@@ -22,25 +25,21 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":1,"value":"4","rangeEnabled":true,"rangeMin":1.0,"rangeMax":4.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"amount","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":6,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"amount","varType":1,"value":"4","rangeEnabled":true,"rangeMin":1.0,"rangeMax":4.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"clockwise","varType":6,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "1",
         "-1",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"clockwise","tags":[],"resourceType":"GMObjectProperty",},
+      ],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Reznor",
     "path": "folders/Objects/Enemies/Boss/Reznor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_reznor",
-  "tags": [],
-  "resourceType": "GMObject",
 }

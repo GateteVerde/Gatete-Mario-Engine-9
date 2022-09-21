@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_path_ladder_b",
   "spriteId": {
     "name": "spr_path_ladder_b",
     "path": "sprites/spr_path_ladder_b/spr_path_ladder_b.yy",
@@ -34,8 +37,4 @@
     "name": "Decoration Paths",
     "path": "folders/Objects/World Map/Paths/Decoration Paths.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_path_ladder_b",
-  "tags": [],
-  "resourceType": "GMObject",
 }

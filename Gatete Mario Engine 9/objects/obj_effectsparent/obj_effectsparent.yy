@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_effectsparent",
   "spriteId": {
     "name": "spr_smoke_b",
     "path": "sprites/spr_smoke_b/spr_smoke_b.yy",
@@ -28,8 +31,4 @@
     "name": "Parents",
     "path": "folders/Objects/Special/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_effectsparent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

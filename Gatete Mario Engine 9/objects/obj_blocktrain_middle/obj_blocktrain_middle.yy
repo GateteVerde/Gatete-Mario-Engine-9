@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_blocktrain_middle",
   "spriteId": {
     "name": "spr_platform_blocktrain",
     "path": "sprites/spr_platform_blocktrain/spr_platform_blocktrain.yy",
@@ -31,8 +34,4 @@
     "name": "SMW",
     "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMW.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_blocktrain_middle",
-  "tags": [],
-  "resourceType": "GMObject",
 }

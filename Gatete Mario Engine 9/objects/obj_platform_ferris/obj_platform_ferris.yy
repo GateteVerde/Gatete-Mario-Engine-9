@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_ferris",
   "spriteId": {
     "name": "spr_platform_ferris_editor",
     "path": "sprites/spr_platform_ferris_editor/spr_platform_ferris_editor.yy",
@@ -22,26 +25,22 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":6,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"clockwise","varType":6,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "1",
         "-1",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"clockwise","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.5,"rangeMax":3.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spd","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"1","rangeEnabled":true,"rangeMin":1.0,"rangeMax":4.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"amount","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"48","rangeEnabled":true,"rangeMin":48.0,"rangeMax":160.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"distance","tags":[],"resourceType":"GMObjectProperty",},
+      ],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.5,"rangeMax":3.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"amount","varType":1,"value":"1","rangeEnabled":true,"rangeMin":1.0,"rangeMax":4.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"distance","varType":1,"value":"48","rangeEnabled":true,"rangeMin":48.0,"rangeMax":160.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Platforms",
     "path": "folders/Objects/Items/Platforms.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_ferris",
-  "tags": [],
-  "resourceType": "GMObject",
 }

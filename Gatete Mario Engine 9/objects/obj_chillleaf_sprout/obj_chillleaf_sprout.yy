@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_chillleaf_sprout",
   "spriteId": {
     "name": "spr_chillleaf_sp",
     "path": "sprites/spr_chillleaf_sp/spr_chillleaf_sp.yy",
@@ -31,8 +34,4 @@
     "name": "Pick-ups",
     "path": "folders/Objects/Special/Do Not Use!/Items/Collectibles/Powerups/Pick-ups.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_chillleaf_sprout",
-  "tags": [],
-  "resourceType": "GMObject",
 }

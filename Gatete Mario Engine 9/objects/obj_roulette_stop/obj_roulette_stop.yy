@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_roulette_stop",
   "spriteId": {
     "name": "spr_square_c",
     "path": "sprites/spr_square_c/spr_square_c.yy",
@@ -28,8 +31,4 @@
     "name": "Picture Minigame",
     "path": "folders/Objects/Special/Bonus/Minigames/Picture Minigame.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_roulette_stop",
-  "tags": [],
-  "resourceType": "GMObject",
 }

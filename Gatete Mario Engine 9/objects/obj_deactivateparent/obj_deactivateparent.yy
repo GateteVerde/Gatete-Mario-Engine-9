@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_deactivateparent",
   "spriteId": {
     "name": "spr_goal_orb",
     "path": "sprites/spr_goal_orb/spr_goal_orb.yy",
@@ -28,8 +31,4 @@
     "name": "Parents",
     "path": "folders/Objects/Special/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_deactivateparent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_afhb_rider",
   "spriteId": {
     "name": "spr_afhb",
     "path": "sprites/spr_afhb/spr_afhb.yy",
@@ -28,24 +31,20 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":1,"value":"24","rangeEnabled":true,"rangeMin":1.0,"rangeMax":48.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"time","varType":1,"value":"24","rangeEnabled":true,"rangeMin":1.0,"rangeMax":48.0,"listItems":[
         "1",
         "24",
         "48",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"time","tags":[],"resourceType":"GMObjectProperty",},
+      ],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Bros",
     "path": "folders/Objects/Special/Do Not Use!/Enemies/Land/Bros.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_afhb_rider",
-  "tags": [],
-  "resourceType": "GMObject",
 }

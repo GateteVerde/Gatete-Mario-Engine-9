@@ -493,7 +493,7 @@ else if (status == mapstate.walk) {
                 status = mapstate.preidle;
                 
                 //Wait to be able to walk again
-                alarm[11] = 20;
+                alarm[11] = 8;
                 
                 //Reset steps
                 step = 0;

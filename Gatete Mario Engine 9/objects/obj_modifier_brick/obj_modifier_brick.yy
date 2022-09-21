@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_modifier_brick",
   "spriteId": {
     "name": "spr_modifier_brick",
     "path": "sprites/spr_modifier_brick/spr_modifier_brick.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blockparent","path":"objects/obj_blockparent/obj_blockparent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blockparent","path":"objects/obj_blockparent/obj_blockparent.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Modifiers",
     "path": "folders/Objects/Blocks/Modifiers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_modifier_brick",
-  "tags": [],
-  "resourceType": "GMObject",
 }

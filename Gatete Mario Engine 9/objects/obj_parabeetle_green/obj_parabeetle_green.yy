@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_parabeetle_green",
   "spriteId": {
     "name": "spr_parabeetle_green",
     "path": "sprites/spr_parabeetle_green/spr_parabeetle_green.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":10,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Sky",
     "path": "folders/Objects/Enemies/Sky.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_parabeetle_green",
-  "tags": [],
-  "resourceType": "GMObject",
 }

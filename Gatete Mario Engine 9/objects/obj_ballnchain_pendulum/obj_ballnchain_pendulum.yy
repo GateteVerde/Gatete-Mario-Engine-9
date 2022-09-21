@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_ballnchain_pendulum",
   "spriteId": {
     "name": "spr_eventmarker",
     "path": "sprites/spr_eventmarker/spr_eventmarker.yy",
@@ -28,19 +31,15 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":1,"value":"48","rangeEnabled":true,"rangeMin":48.0,"rangeMax":160.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"distance","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":4,"value":"0.495","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spd","tags":[],"resourceType":"GMObjectProperty",},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"distance","varType":1,"value":"48","rangeEnabled":true,"rangeMin":48.0,"rangeMax":160.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","varType":4,"value":"0.495","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Hazards",
     "path": "folders/Objects/Items/Hazards.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_ballnchain_pendulum",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_turnip_large",
   "spriteId": {
     "name": "spr_turnip_large",
     "path": "sprites/spr_turnip_large/spr_turnip_large.yy",
@@ -31,8 +34,4 @@
     "name": "Vegetables",
     "path": "folders/Objects/Special/Do Not Use!/Items/Subcon/Vegetables.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_turnip_large",
-  "tags": [],
-  "resourceType": "GMObject",
 }

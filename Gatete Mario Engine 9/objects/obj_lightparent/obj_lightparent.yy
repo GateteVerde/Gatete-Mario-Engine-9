@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_lightparent",
   "spriteId": {
     "name": "spr_light",
     "path": "sprites/spr_light/spr_light.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Parents",
     "path": "folders/Objects/Special/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_lightparent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

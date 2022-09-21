@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_tanookisuit",
   "spriteId": {
     "name": "spr_tanookisuit",
     "path": "sprites/spr_tanookisuit/spr_tanookisuit.yy",
@@ -31,8 +34,4 @@
     "name": "Powerups",
     "path": "folders/Objects/Items/Collectibles/Powerups.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_tanookisuit",
-  "tags": [],
-  "resourceType": "GMObject",
 }

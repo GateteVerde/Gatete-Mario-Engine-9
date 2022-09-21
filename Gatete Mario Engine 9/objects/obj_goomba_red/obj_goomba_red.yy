@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_goomba_red",
   "spriteId": {
     "name": "spr_goomba_red",
     "path": "sprites/spr_goomba_red/spr_goomba_red.yy",
@@ -28,7 +31,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,8 +39,4 @@
     "name": "Goombas",
     "path": "folders/Objects/Enemies/Land/Goombas.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_goomba_red",
-  "tags": [],
-  "resourceType": "GMObject",
 }

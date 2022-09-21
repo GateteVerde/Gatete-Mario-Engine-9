@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_light_static_area",
   "spriteId": {
     "name": "spr_light_area",
     "path": "sprites/spr_light_area/spr_light_area.yy",
@@ -26,15 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {"varType":7,"value":"$00FFFFFF","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"image_blend","tags":[],"resourceType":"GMObjectProperty",},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"image_blend","varType":7,"value":"$00FFFFFF","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Lighting",
     "path": "folders/Objects/Main/Controllers/Lighting.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_light_static_area",
-  "tags": [],
-  "resourceType": "GMObject",
 }

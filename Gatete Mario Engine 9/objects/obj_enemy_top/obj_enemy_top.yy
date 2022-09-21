@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemy_top",
   "spriteId": {
     "name": "spr_mask_npc_collision",
     "path": "sprites/spr_mask_npc_collision/spr_mask_npc_collision.yy",
@@ -28,8 +31,4 @@
     "name": "Enemies",
     "path": "folders/Objects/Special/Do Not Use!/Enemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_enemy_top",
-  "tags": [],
-  "resourceType": "GMObject",
 }

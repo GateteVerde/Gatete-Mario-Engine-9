@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_boo_stretch_ceiling",
   "spriteId": {
     "name": "spr_boo_stretch_ceiling",
     "path": "sprites/spr_boo_stretch_ceiling/spr_boo_stretch_ceiling.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Boo",
     "path": "folders/Objects/Enemies/Ghost/Boo.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_boo_stretch_ceiling",
-  "tags": [],
-  "resourceType": "GMObject",
 }

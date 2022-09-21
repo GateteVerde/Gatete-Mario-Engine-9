@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_track_v",
   "spriteId": {
     "name": "spr_track_v",
     "path": "sprites/spr_track_v/spr_track_v.yy",
@@ -31,8 +34,4 @@
     "name": "Tracks",
     "path": "folders/Objects/Items/Platforms/Common/Tracks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_track_v",
-  "tags": [],
-  "resourceType": "GMObject",
 }

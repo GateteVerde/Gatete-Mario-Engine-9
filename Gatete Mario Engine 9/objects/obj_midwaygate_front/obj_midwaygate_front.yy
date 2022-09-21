@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_midwaygate_front",
   "spriteId": {
     "name": "spr_midwaygate_b",
     "path": "sprites/spr_midwaygate_b/spr_midwaygate_b.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Level Progress",
     "path": "folders/Objects/Special/Do Not Use!/Items/Level Progress.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_midwaygate_front",
-  "tags": [],
-  "resourceType": "GMObject",
 }

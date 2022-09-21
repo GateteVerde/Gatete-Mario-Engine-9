@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_slopeparent_ceiling",
   "spriteId": {
     "name": "spr_slope_ceiling_l",
     "path": "sprites/spr_slope_ceiling_l/spr_slope_ceiling_l.yy",
@@ -31,8 +34,4 @@
     "name": "Collision",
     "path": "folders/Objects/Special/Parents/Collision.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_slopeparent_ceiling",
-  "tags": [],
-  "resourceType": "GMObject",
 }

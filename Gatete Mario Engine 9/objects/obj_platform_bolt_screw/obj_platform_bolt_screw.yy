@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_bolt_screw",
   "spriteId": {
     "name": "spr_platform_bolt_screw",
     "path": "sprites/spr_platform_bolt_screw/spr_platform_bolt_screw.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "SMB3",
     "path": "folders/Objects/Items/Platforms/SMB3.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_bolt_screw",
-  "tags": [],
-  "resourceType": "GMObject",
 }

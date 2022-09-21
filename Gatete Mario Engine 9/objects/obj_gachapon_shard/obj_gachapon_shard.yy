@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_gachapon_shard",
   "spriteId": {
     "name": "spr_gachapon_shard_top_v",
     "path": "sprites/spr_gachapon_shard_top_v/spr_gachapon_shard_top_v.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Collectibles",
     "path": "folders/Objects/Special/Do Not Use!/Items/Subcon/Collectibles.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_gachapon_shard",
-  "tags": [],
-  "resourceType": "GMObject",
 }

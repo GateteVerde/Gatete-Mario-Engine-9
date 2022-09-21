@@ -10,7 +10,7 @@ if (!instance_exists(obj_mario))
     with (instance_create_depth(x+15, y-22, -2, obj_hammerbro_hammer)) {
     
 		sprite_index = spr_sledgebro_hammer;
-        hspeed = -1;
+        xspeed = -1;
         image_xscale = -1;
     }
 }
@@ -19,7 +19,7 @@ else {
     with (instance_create_depth(x-15, y-22, -2, obj_hammerbro_hammer)) {
     
 		sprite_index = spr_sledgebro_hammer;
-        hspeed = 1;
+        xspeed = 1;
         image_xscale = 1;
     }    
 }

@@ -1308,6 +1308,7 @@ if (global.powerup == cs_squirrel)
 
 //If Mario is in the air, the jump key is pressed and Mario can twirl in the air, perform twirl
 if (input_check_pressed(input.action_0))
+&& ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
 && (global.special_moves == true)
 && (allow_twirl == true)
 && (twirl == 0)

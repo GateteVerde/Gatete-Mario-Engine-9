@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_path_beanstalk",
   "spriteId": {
     "name": "spr_path_beanstalk",
     "path": "sprites/spr_path_beanstalk/spr_path_beanstalk.yy",
@@ -34,8 +37,4 @@
     "name": "Decoration Paths",
     "path": "folders/Objects/World Map/Paths/Decoration Paths.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_path_beanstalk",
-  "tags": [],
-  "resourceType": "GMObject",
 }

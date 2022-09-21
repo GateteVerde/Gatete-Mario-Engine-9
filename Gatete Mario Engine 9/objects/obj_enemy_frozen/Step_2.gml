@@ -10,6 +10,9 @@ if (held == true) {
 		
 		//Make object visible
 		visible = 1;
+		
+		//Set the direction
+	    dir = obj_mario.xscale;
     
         //If the player control is not disabled and Mario does not have either Tiny or Mega powerups
 		if (obj_mario.enable_control == true) {
@@ -72,9 +75,6 @@ if (held == true) {
 					}
 				}
 	        }
-            
-	        //Set the direction
-	        dir = obj_mario.xscale;
             
 	        //If the player is crouched down
 	        if (obj_mario.crouch == true)

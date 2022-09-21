@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_swim",
   "spriteId": {
     "name": "spr_square_d",
     "path": "sprites/spr_square_d/spr_square_d.yy",
@@ -28,8 +31,4 @@
     "name": "Collision",
     "path": "folders/Objects/Collision.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_swim",
-  "tags": [],
-  "resourceType": "GMObject",
 }

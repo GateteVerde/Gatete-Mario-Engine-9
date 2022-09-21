@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_levelpanel_castle",
   "spriteId": {
     "name": "spr_levelpanel_castle",
     "path": "sprites/spr_levelpanel_castle/spr_levelpanel_castle.yy",
@@ -31,8 +34,4 @@
     "name": "Panels",
     "path": "folders/Objects/World Map/Panels.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_levelpanel_castle",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bossparent",
   "spriteId": {
     "name": "spr_npc_boss",
     "path": "sprites/spr_npc_boss/spr_npc_boss.yy",
@@ -31,8 +34,4 @@
     "name": "Enemy",
     "path": "folders/Objects/Special/Parents/NPCs/Enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bossparent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_track_dia_r",
   "spriteId": {
     "name": "spr_track_dia_r",
     "path": "sprites/spr_track_dia_r/spr_track_dia_r.yy",
@@ -31,8 +34,4 @@
     "name": "Tracks",
     "path": "folders/Objects/Items/Platforms/Common/Tracks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_track_dia_r",
-  "tags": [],
-  "resourceType": "GMObject",
 }

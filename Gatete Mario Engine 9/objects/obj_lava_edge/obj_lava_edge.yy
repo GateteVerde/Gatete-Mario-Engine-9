@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_lava_edge",
   "spriteId": {
     "name": "spr_lava_edge",
     "path": "sprites/spr_lava_edge/spr_lava_edge.yy",
@@ -31,8 +34,4 @@
     "name": "Lava",
     "path": "folders/Objects/Decoration/Liquids/Lava.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_lava_edge",
-  "tags": [],
-  "resourceType": "GMObject",
 }

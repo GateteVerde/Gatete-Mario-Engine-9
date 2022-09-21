@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_jelectro",
   "spriteId": {
     "name": "spr_jelectro",
     "path": "sprites/spr_jelectro/spr_jelectro.yy",
@@ -31,8 +34,4 @@
     "name": "Water",
     "path": "folders/Objects/Enemies/Water.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_jelectro",
-  "tags": [],
-  "resourceType": "GMObject",
 }

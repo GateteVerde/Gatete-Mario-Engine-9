@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_modifier_music",
   "spriteId": {
     "name": "spr_modifier_music",
     "path": "sprites/spr_modifier_music/spr_modifier_music.yy",
@@ -22,19 +25,15 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mapmario","path":"objects/obj_mapmario/obj_mapmario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mapmario","path":"objects/obj_mapmario/obj_mapmario.yy",},},
   ],
   "properties": [
-    {"varType":1,"value":"1","rangeEnabled":true,"rangeMin":1.0,"rangeMax":8.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"world","tags":[],"resourceType":"GMObjectProperty",},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"world","varType":1,"value":"1","rangeEnabled":true,"rangeMin":1.0,"rangeMax":8.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "World Map",
     "path": "folders/Objects/World Map.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_modifier_music",
-  "tags": [],
-  "resourceType": "GMObject",
 }

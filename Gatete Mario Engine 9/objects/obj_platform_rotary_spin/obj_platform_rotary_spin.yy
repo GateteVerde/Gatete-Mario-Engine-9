@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_rotary_spin",
   "spriteId": {
     "name": "spr_mask_platform_rotary_b",
     "path": "sprites/spr_mask_platform_rotary_b/spr_mask_platform_rotary_b.yy",
@@ -31,8 +34,4 @@
     "name": "SMB3",
     "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMB3.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_rotary_spin",
-  "tags": [],
-  "resourceType": "GMObject",
 }

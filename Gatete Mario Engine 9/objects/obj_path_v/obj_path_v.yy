@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_path_v",
   "spriteId": {
     "name": "spr_path_v",
     "path": "sprites/spr_path_v/spr_path_v.yy",
@@ -31,8 +34,4 @@
     "name": "Paths",
     "path": "folders/Objects/World Map/Paths.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_path_v",
-  "tags": [],
-  "resourceType": "GMObject",
 }

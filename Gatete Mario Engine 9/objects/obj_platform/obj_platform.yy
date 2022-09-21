@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform",
   "spriteId": {
     "name": "spr_platform",
     "path": "sprites/spr_platform/spr_platform.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Common",
     "path": "folders/Objects/Items/Platforms/Common.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform",
-  "tags": [],
-  "resourceType": "GMObject",
 }

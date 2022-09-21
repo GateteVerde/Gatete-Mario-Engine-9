@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_piston_right",
   "spriteId": {
     "name": "spr_platform_piston",
     "path": "sprites/spr_platform_piston/spr_platform_piston.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "SMW",
     "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMW.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_piston_right",
-  "tags": [],
-  "resourceType": "GMObject",
 }

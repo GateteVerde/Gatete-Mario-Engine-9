@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_firework_spawner",
   "spriteId": {
     "name": "spr_firework",
     "path": "sprites/spr_firework/spr_firework.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Eyecandy",
     "path": "folders/Objects/Special/Do Not Use!/Eyecandy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_firework_spawner",
-  "tags": [],
-  "resourceType": "GMObject",
 }

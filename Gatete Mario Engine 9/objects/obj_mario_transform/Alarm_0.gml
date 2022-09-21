@@ -13,9 +13,11 @@ with (obj_mario) {
 
 #region SET SEQUENCE
 
+	image_speed = 1.3;
+	
 	//Set the animation sequence.
 	switch (sequence) {
-	
+		
 		//Big to Tiny
 		case (-3): sprite_index = spr_mario_shrink_big_to_tiny; break;
 	

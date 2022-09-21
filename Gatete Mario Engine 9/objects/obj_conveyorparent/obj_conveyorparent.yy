@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_conveyorparent",
   "spriteId": {
     "name": "spr_conveyor",
     "path": "sprites/spr_conveyor/spr_conveyor.yy",
@@ -26,15 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {"varType":0,"value":"0.5","rangeEnabled":true,"rangeMin":0.5,"rangeMax":1.5,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"belt_power","tags":[],"resourceType":"GMObjectProperty",},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"belt_power","varType":0,"value":"0.5","rangeEnabled":true,"rangeMin":0.5,"rangeMax":1.5,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",
     "path": "folders/Objects/Special/Parents/Collision.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_conveyorparent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

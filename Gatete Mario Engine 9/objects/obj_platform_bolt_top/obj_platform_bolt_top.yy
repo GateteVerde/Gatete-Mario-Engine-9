@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_platform_bolt_top",
   "spriteId": {
     "name": "spr_square_b",
     "path": "sprites/spr_square_b/spr_square_b.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "SMB3",
     "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMB3.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_platform_bolt_top",
-  "tags": [],
-  "resourceType": "GMObject",
 }

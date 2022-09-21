@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_vine_side",
   "spriteId": {
     "name": "spr_vine_side",
     "path": "sprites/spr_vine_side/spr_vine_side.yy",
@@ -34,8 +37,4 @@
     "name": "Decoration",
     "path": "folders/Objects/Decoration.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_vine_side",
-  "tags": [],
-  "resourceType": "GMObject",
 }

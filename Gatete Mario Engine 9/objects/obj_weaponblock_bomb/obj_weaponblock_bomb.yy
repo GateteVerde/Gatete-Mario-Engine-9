@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_weaponblock_bomb",
   "spriteId": {
     "name": "spr_weaponblock_bomb",
     "path": "sprites/spr_weaponblock_bomb/spr_weaponblock_bomb.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Weapon Blocks",
     "path": "folders/Objects/Blocks/Weapon Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_weaponblock_bomb",
-  "tags": [],
-  "resourceType": "GMObject",
 }

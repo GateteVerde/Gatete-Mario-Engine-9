@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemyparent_deact",
   "spriteId": {
     "name": "spr_npc_deact",
     "path": "sprites/spr_npc_deact/spr_npc_deact.yy",
@@ -31,8 +34,4 @@
     "name": "Enemy",
     "path": "folders/Objects/Special/Parents/NPCs/Enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_enemyparent_deact",
-  "tags": [],
-  "resourceType": "GMObject",
 }

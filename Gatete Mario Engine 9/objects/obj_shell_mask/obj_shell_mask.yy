@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_shell_mask",
   "spriteId": {
     "name": "spr_mask_shell_big",
     "path": "sprites/spr_mask_shell_big/spr_mask_shell_big.yy",
@@ -22,9 +25,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blockparent","path":"objects/obj_blockparent/obj_blockparent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_emptyblock","path":"objects/obj_emptyblock/obj_emptyblock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_concreteblock","path":"objects/obj_concreteblock/obj_concreteblock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_blockparent","path":"objects/obj_blockparent/obj_blockparent.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_emptyblock","path":"objects/obj_emptyblock/obj_emptyblock.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_concreteblock","path":"objects/obj_concreteblock/obj_concreteblock.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,8 +35,4 @@
     "name": "Enemies",
     "path": "folders/Objects/Special/Do Not Use!/Enemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_shell_mask",
-  "tags": [],
-  "resourceType": "GMObject",
 }

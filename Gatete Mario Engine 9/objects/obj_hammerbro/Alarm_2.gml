@@ -9,7 +9,7 @@ if (!instance_exists(obj_mario))
 
     with (instance_create_depth(x+9, y-5, -2, obj_hammerbro_hammer)) {
     
-        hspeed = -1;
+        xspeed = -1;
         image_xscale = -1;
     }
 }
@@ -17,7 +17,7 @@ else {
 
     with (instance_create_depth(x-9, y-5, -2, obj_hammerbro_hammer)) {
     
-        hspeed = 1;
+        xspeed = 1;
         image_xscale = 1;
     }    
 }

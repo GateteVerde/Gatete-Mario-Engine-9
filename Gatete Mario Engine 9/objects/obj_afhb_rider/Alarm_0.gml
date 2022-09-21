@@ -19,7 +19,7 @@ if (xscale == 1) {
 	//Throw a hammer to the left
 	with (instance_create_depth(x-16, y, -2, obj_hammerbro_hammer)) {
 	
-		hspeed = -1;
+		xspeed = -1;
 		image_xscale = -1;
 	}
 }
@@ -33,7 +33,7 @@ else if (xscale == -1) {
 	//Throw a hammer to the right
 	with (instance_create_depth(x+16, y, -2, obj_hammerbro_hammer)) {
 	
-		hspeed = 1;
+		xspeed = 1;
 		image_xscale = 1;
 	}	
 }

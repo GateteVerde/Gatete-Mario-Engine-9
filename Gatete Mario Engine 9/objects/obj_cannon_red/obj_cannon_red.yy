@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_cannon_red",
   "spriteId": {
     "name": "spr_cannon_red",
     "path": "sprites/spr_cannon_red/spr_cannon_red.yy",
@@ -28,7 +31,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,8 +39,4 @@
     "name": "Airship",
     "path": "folders/Objects/Enemies/Airship.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_cannon_red",
-  "tags": [],
-  "resourceType": "GMObject",
 }

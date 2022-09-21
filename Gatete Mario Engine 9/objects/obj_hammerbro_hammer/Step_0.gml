@@ -1,12 +1,19 @@
 /// @description Hammer logic
 
-//Set the falling speed.
-if (vspeed > 4) {
-
-    vspeed = 4;
-    gravity = 0;
+//Handle psuedo movement
+if (freeze == false) {
+	
+	x += xspeed;
+	y += yspeed;
+	yspeed += yadd;
+	
+	if (yspeed > 4)
+		yspeed = 4;
 }
 
-//Destroy outside room.
-if (bbox_top > room_height)
-    instance_destroy();
+//Gravity
+yadd = 0.125;
+
+//Destroy when outside the view
+if (y > room_height+32)
+	instance_destroy();

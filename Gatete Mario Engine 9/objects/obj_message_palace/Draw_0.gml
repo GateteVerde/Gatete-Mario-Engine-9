@@ -4,7 +4,7 @@
 draw_set_colour(c_black);
 
 //Set the alpha
-draw_set_alpha(alpha/2);
+draw_set_alpha(alpha/1.5);
 
 //Draw the rectangle
 draw_roundrect((camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) - 100, (camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2) - 45, (camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2) + 100, (camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2) + 28, false);

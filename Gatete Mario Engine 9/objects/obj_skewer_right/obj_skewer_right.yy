@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_skewer_right",
   "spriteId": {
     "name": "spr_skewer_base_h",
     "path": "sprites/spr_skewer_base_h/spr_skewer_base_h.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Skewers",
     "path": "folders/Objects/Items/Hazards/Skewers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_skewer_right",
-  "tags": [],
-  "resourceType": "GMObject",
 }

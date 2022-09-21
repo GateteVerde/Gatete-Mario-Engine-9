@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_noteblock_blue_hidden",
   "spriteId": {
     "name": "spr_noteblock_blue_hidden",
     "path": "sprites/spr_noteblock_blue_hidden/spr_noteblock_blue_hidden.yy",
@@ -22,8 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_physicsparent","path":"objects/obj_physicsparent/obj_physicsparent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario","path":"objects/obj_mario/obj_mario.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_physicsparent","path":"objects/obj_physicsparent/obj_physicsparent.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,8 +34,4 @@
     "name": "Note Blocks",
     "path": "folders/Objects/Blocks/Note Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_noteblock_blue_hidden",
-  "tags": [],
-  "resourceType": "GMObject",
 }

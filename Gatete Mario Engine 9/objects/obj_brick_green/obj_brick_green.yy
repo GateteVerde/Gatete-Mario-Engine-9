@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_brick_green",
   "spriteId": {
     "name": "spr_brick_green",
     "path": "sprites/spr_brick_green/spr_brick_green.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Brick Blocks",
     "path": "folders/Objects/Blocks/Brick Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_brick_green",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_generator_bulletbill",
   "spriteId": {
     "name": "spr_marker_bulletbill",
     "path": "sprites/spr_marker_bulletbill/spr_marker_bulletbill.yy",
@@ -22,25 +25,21 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [
-    {"varType":6,"value":"\"Horizontal\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spawn_type","varType":6,"value":"\"Horizontal\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
         "\"Horizontal\"",
         "\"Horizontal / Vertical\"",
         "\"Diagonal\"",
-      ],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spawn_type","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":4,"value":"x","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"xmin","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":4,"value":"room_width","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"xmax","tags":[],"resourceType":"GMObjectProperty",},
+      ],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"xmin","varType":4,"value":"x","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"xmax","varType":4,"value":"room_width","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "Generators",
     "path": "folders/Objects/Enemies/Generators.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_generator_bulletbill",
-  "tags": [],
-  "resourceType": "GMObject",
 }

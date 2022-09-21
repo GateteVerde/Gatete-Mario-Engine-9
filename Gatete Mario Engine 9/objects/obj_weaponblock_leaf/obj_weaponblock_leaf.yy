@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_weaponblock_leaf",
   "spriteId": {
     "name": "spr_weaponblock_leaf",
     "path": "sprites/spr_weaponblock_leaf/spr_weaponblock_leaf.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario_spinner","path":"objects/obj_mario_spinner/obj_mario_spinner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_mario_spinner","path":"objects/obj_mario_spinner/obj_mario_spinner.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Weapon Blocks",
     "path": "folders/Objects/Blocks/Weapon Blocks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_weaponblock_leaf",
-  "tags": [],
-  "resourceType": "GMObject",
 }
