@@ -26,7 +26,7 @@ if (instance_exists(obj_mapmario)) {
 	else if (obj_mapmario.inventory == 1) {
 		
 		//Set inventory offset
-		inv_offset_y = lerp(inv_offset_y, global.gh / 2 + 40, 0.2);
+		inv_offset_y = lerp(inv_offset_y, global.gh / 2 - 51, 0.2);
 		
 		//Set y offset
 		offset_y = lerp(offset_y, 32, 0.2);

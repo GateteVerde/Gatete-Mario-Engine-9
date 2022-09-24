@@ -34,6 +34,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
   ],
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"coins","varType":1,"value":"50","rangeEnabled":true,"rangeMin":1.0,"rangeMax":999.0,"listItems":[],"multiselect":false,"filters":[],},

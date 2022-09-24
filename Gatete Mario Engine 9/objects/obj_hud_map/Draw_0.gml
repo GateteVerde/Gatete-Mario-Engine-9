@@ -5,33 +5,26 @@ draw_set_font(global.gui_font_menu);
 
 #region Inventory
 
-	//Draw base
-	draw_sprite_ext(spr_gui_map_inventory, obj_coordinator.colourblind, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y, 1, 1, 0, c_white, 1);
+	//Draw background
+	draw_sprite_ext(spr_gui_map_inventory, -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y, 1, 1, 0, c_white, 1);
 
-	//Item Quantities
-	#region ITEM QUANTITIES
-	
-		//Iterate through powerups 0 and 9
-		for (var i=0; i<10; i++)		
-			draw_text_colour(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 107 + (i) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 18 - inv_offset_y, string_format(global.inventory[i], 2, 0), c_white, c_white, c_white, c_white, 1);
+	//If there's powerups on the inventory
+	if (obj_mapmario.boxselection > 0) {
 		
-		//Iterate through powerups 10 and 19
-		for (var i=10; i<20; i++)
-			draw_text_colour(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 107 + (i-10) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 40 - inv_offset_y, string_format(global.inventory[i], 2, 0), c_white, c_white, c_white, c_white, 1);
-		
-		//Iterate through powerups 10 and 19
-		for (var i=20; i<27; i++)
-			draw_text_colour(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 107 + (i-20) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 62 - inv_offset_y, string_format(global.inventory[i], 2, 0), c_white, c_white, c_white, c_white, 1);
-	#endregion
-	
-	//Cursor
-	if ((obj_mapmario.boxselection >= 0) && (obj_mapmario.boxselection < 10))
-		draw_sprite_ext(spr_gui_map_inventory_cursor, anim, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - (99 - obj_mapmario.boxselection * 22), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 10 - inv_offset_y, 1, 1, 0, c_white, 1);
-	else if ((obj_mapmario.boxselection >= 10) && (obj_mapmario.boxselection < 20))
-		draw_sprite_ext(spr_gui_map_inventory_cursor, anim, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - (99 - (obj_mapmario.boxselection * 22) + 220), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 32 - inv_offset_y, 1, 1, 0, c_white, 1);
-	else if ((obj_mapmario.boxselection >= 20) && (obj_mapmario.boxselection < 27))
-		draw_sprite_ext(spr_gui_map_inventory_cursor, anim, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - (99 - (obj_mapmario.boxselection * 22) + 440), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) + 54 - inv_offset_y, 1, 1, 0, c_white, 1);
+		//Set sprite to use
+		var sprite = (obj_coordinator.colourblind) ? spr_gui_map_inventory_items_cb : spr_gui_map_inventory_items;
+
+		//Draw powerups
+		for (var i = 1; i <= global.inventory[0]; i++) {
 			
+			//Set alpha of item
+			var alpha = (obj_mapmario.boxselection == i) ? 1 : 0.5;
+		
+			//Draw items in inventory
+			draw_sprite_ext(sprite, global.inventory[i], camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 162 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y + 10, 1, 1, 0, c_white, alpha);
+		}
+	}
+
 #endregion
 
 //Border

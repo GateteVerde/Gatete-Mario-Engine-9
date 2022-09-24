@@ -81,11 +81,8 @@ if (ready2 == 1) {
 		}
 
 		//Collect Mode
-		with (obj_hud) {
-			
-			collect_mode = 1;
-			coins_left = other.coins;
-		}
+		global.collect_mode = 1;
+		global.coins_left = coins;
 
 		//Destroy this object
 		instance_destroy();

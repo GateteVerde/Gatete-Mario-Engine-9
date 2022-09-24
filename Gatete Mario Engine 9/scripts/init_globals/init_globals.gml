@@ -34,6 +34,10 @@ function init_globals() {
 
 	//Silver Coins
 	global.coins_silver = 0;
+	
+	//Handles coin collection mode
+	global.coins_left = 0;
+	global.collect_mode = 0;
 
 	//Display 'Mario Start!' text
 	global.mariostart = 0;
@@ -208,12 +212,9 @@ function init_globals() {
 		global.star_house[i] = 0;
 	}
 	
-	//Powerup Count
-	var powerup_count = 27;
-	
 	//Map inventory variables
-	for (var i=0; i < powerup_count; i++) {
-		
+	for (var i=0; i<15; i++) {
+	
 		global.inventory[i] = 0;
 	}
 	

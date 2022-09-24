@@ -89,8 +89,7 @@ function load() {
 	file_text_readln(file);
 	
 	//Load Inventory
-	var powerup_count = 27;
-	for (var i=0; i<powerup_count; i++) {
+	for (var i=0; i<15; i++) {
 	
 		global.inventory[i] = real(base64_decode(file_text_read_string(file)));
 		file_text_readln(file);

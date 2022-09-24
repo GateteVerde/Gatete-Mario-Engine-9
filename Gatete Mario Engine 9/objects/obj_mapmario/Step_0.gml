@@ -50,14 +50,17 @@ if (status == mapstate.idle)
 				//Play 'Inventory' sound
 				audio_play_sound(snd_inventory, 0, false);
 				
+				//Force set wait status
+				status = mapstate.wait;
+				
 				//Open inventory
 				inventory = 1;
 				
 				//Set selection
-				boxselection = 0;
-				
-				//Force set wait status
-				status = mapstate.wait;
+				if (global.inventory[0] == 0)
+					boxselection = 0;
+				else
+					boxselection = 1;
 			}
 			
 			//Open adyacent paths
@@ -165,269 +168,213 @@ if (status == mapstate.idle)
 				status = mapstate.idle;
 			}
 			
-			//Otherwise, if there is a item to select
-			else {
+			//If there's items on the inventory
+			if (boxselection != 0) {
 			
 				//If the 'Confirm' key is pressed
 				if (input_check_pressed(input.action_0)) {
 					
-					switch (boxselection) {
+					//If the powerup select is not the tiny shroom (24), golden flower (25), starman (26) or pwing (27)
+					if (global.inventory[boxselection] < 24) {
+						
+						//If a P-Wing is active
+						if (global.pwing == false) {
+							
+							//Play 'Powerup' sound
+							audio_play_sound(snd_powerup, 0, false);
+								
+							//Remember previous powerup
+							var previous = global.powerup;
+								
+							//Get powerup
+							global.powerup = global.inventory[boxselection];
+								
+							//If Mario does not have a powerup
+							if (previous == 0) {
+								
+								//Shift the inventory items over by one
+				                for (var i = boxselection; i < global.inventory[0]; i++) {
+                        
+				                    global.inventory[i] = global.inventory[i+1];
+				                }
+                            
+				                //Subtract from the number of items in the inventory
+				                global.inventory[0]--;
+							}
+								
+							//Otherwise
+							else {
+								
+								global.inventory[boxselection] = previous;
+							}
+							
+							//Finish item retrieval
+							inventory = 0;
+							status = mapstate.idle;
+						}
+							
+						//Otherwise, play 'Wrong' sound
+						else
+							audio_play_sound(snd_wrong, 0, false);
+					}
+				
+					//Otherwise, if the item selected is a tiny shroom
+					else if (global.inventory[boxselection] == 24) {
 					
-						//Mini Mushroom
-						case (0): {
-								
-							//If Mario does have the P-Wing or the mini form
-							if (global.pwing == true)
-							|| (global.powerup == cs_gold)
-								audio_play_sound(snd_wrong, 0, false);
-									
-							//Otherwise
-							else {
-								
-								//If there's mushrooms in the inventory
-								if (global.inventory[0] > 0) {
-									
-									//If Mario does have the Mushroom powerup
-									if (global.powerup != cs_tiny) {
-										
-										//Play 'Powerup' sound
-										audio_play_sound(snd_mini, 0, false);
-							
-										//Set powerup
-										global.powerup = cs_tiny;
-							
-										//Subtract one unit
-										global.inventory[0]--;
-							
-										//Close inventory and allow Mario to move
-										inventory = 0;
-										status = mapstate.idle;
-									}
-									else
-										audio_play_sound(snd_wrong, 0, false);
-								}
-								else
-									audio_play_sound(snd_wrong, 0, false);	
-							}
-						} break;
+						//If Mario does not have the gold flower
+						if (global.powerup != cs_gold) {
 						
-						//Mushroom
-						case (1): {
+							//Play 'Powerup' sound
+							audio_play_sound(snd_powerup, 0, false);
 						
-							//If Mario does have the P-Wing or the Mini form
-							if (global.pwing == true)
-							|| (global.powerup == cs_gold)
-								audio_play_sound(snd_wrong, 0, false);
-
-							//Otherwise
-							else {
-									
-								//If there's mushrooms in the inventory
-								if (global.inventory[1] > 0) {
-									
-									//If Mario does is small
-									if (global.powerup == cs_small) {
-										
-										//Play 'Powerup' sound
-										audio_play_sound(snd_powerup, 0, false);
+							//Give Mario the Gold powerup if we didn't
+				            global.powerup = cs_tiny;
 							
-										//Set powerup
-										global.powerup = cs_big;
+							//Shift the inventory items one by one
+							for (var i = boxselection; i < global.inventory[0]; i++) {
 							
-										//Subtract one unit
-										global.inventory[1]--;
-							
-										//Close inventory and allow Mario to move
-										inventory = 0;
-										status = mapstate.idle;
-									}
-									else
-										audio_play_sound(snd_wrong, 0, false);
-								}
-								else
-									audio_play_sound(snd_wrong, 0, false);
-							}	
-						} break;
-							
-						//Gold
-						case (24): {
-							
-							//If there's a P-Wing active
-							if (global.pwing == true)
-								audio_play_sound(snd_wrong, 0, false);
-								
-							//Otherwise
-							else {
-								
-								//If Mario has used a gold flower already
-								if (global.powerup == cs_gold)
-									audio_play_sound(snd_wrong, 0, false);
-									
-								//Otherwise
-								else {
-									
-									//If there's stars on the inventory
-									if (global.inventory[24] > 0) {
-										
-										//Play 'Powerup' sound
-										audio_play_sound(snd_powerup, 0, false);
-										
-										//Use a start when level begins
-										global.powerup = cs_gold;
-										
-										//Subtract one unit
-										global.inventory[24]--;
-										
-										//Close inventory and allow Mario to move
-										inventory = 0;
-										status = mapstate.idle;
-									}
-									else
-										audio_play_sound(snd_wrong, 0, false);
-								}
+								global.inventory[i] = global.inventory[i+1];
 							}
-						} break;
 							
-						//Star
-						case (25): {
-								
-							//If Mario has used a star already
-							if (global.mapstar == true)
-								audio_play_sound(snd_wrong, 0, false);
-
-							//Otherwise
-							else {
-								
-								//If there's stars on the inventory
-								if (global.inventory[25] > 0) {
-										
-									//Play 'Powerup' sound
-									audio_play_sound(snd_powerup, 0, false);
-										
-									//Use a start when level begins
-									global.mapstar = true;
-										
-									//Subtract one unit
-									global.inventory[25]--;
-										
-									//Close inventory and allow Mario to move
-									inventory = 0;
-									status = mapstate.idle;
-								}
-								else
-									audio_play_sound(snd_wrong, 0, false);
+							//Subtract from the number of items in the inventory
+				            global.inventory[0]--;
+							
+							//Finish item retrieval
+							inventory = 0;
+							status = mapstate.idle;
+						}
+						
+						//Otherwise, play 'Wrong' sound
+						else
+							audio_play_sound(snd_wrong, 0, false);
+					}
+					
+					//Otherwise, if the item selected is a gold flower
+					else if (global.inventory[boxselection] == 25) {
+					
+						//If Mario does not have the gold flower
+						if (global.powerup != cs_gold) {
+						
+							//Play 'Powerup' sound
+							audio_play_sound(snd_powerup, 0, false);
+						
+							//Give Mario the Gold powerup if we didn't
+				            global.powerup = cs_gold;
+							
+							//Shift the inventory items one by one
+							for (var i = boxselection; i < global.inventory[0]; i++) {
+							
+								global.inventory[i] = global.inventory[i+1];
 							}
-						} break;
 							
-						//P-Wing
-						case (26): {
+							//Subtract from the number of items in the inventory
+				            global.inventory[0]--;
 							
-							//If Mario does not have the gold powerup
-							if (global.powerup == cs_gold)
-								audio_play_sound(snd_wrong, 0, false);
+							//Finish item retrieval
+							inventory = 0;
+							status = mapstate.idle;
+						}
+						
+						//Otherwise, play 'Wrong' sound
+						else
+							audio_play_sound(snd_wrong, 0, false);
+					}
+					
+					//Otherwise, if the item selected is a star
+					else if (global.inventory[boxselection] == 26) {
+					
+						//If the Starman is not active
+						if (global.mapstar == false) {
+						
+							//Play 'Powerup' sound
+							audio_play_sound(snd_powerup, 0, false);
+						
+							//Give Mario star power on the next level if we didn't.
+				            global.mapstar = true;
 							
-							//Otherwise
-							else {
-								
-								//If Mario has used a p-wing already
-								if (global.pwing == true)
-									audio_play_sound(snd_wrong, 0, false);
-
-								//Otherwise
-								else {
-								
-									//If there's stars on the inventory
-									if (global.inventory[26] > 0) {
-										
-										//Play 'Powerup' sound
-										audio_play_sound(snd_powerup, 0, false);
-										
-										//Begin with P-Meter full
-										global.pwing = true;
-										
-										//Set up 'Raccoon' powerup
-										if (global.powerup != cs_raccoon) {
-										
-											global.powerup = cs_raccoon;
-										}
-										
-										//Subtract one unit
-										global.inventory[26]--;
-										
-										//Close inventory and allow Mario to move
-										inventory = 0;
-										status = mapstate.idle;
-									}
-									else
-										audio_play_sound(snd_wrong, 0, false);
-								}
+							//Shift the inventory items one by one
+							for (var i = boxselection; i < global.inventory[0]; i++) {
+							
+								global.inventory[i] = global.inventory[i+1];
 							}
-						} break;
 							
-						//Rest of Powerups
-						default: {
-								
-							//If Mario does have the P-Wing or the Mini form
-							if (global.pwing == true)
-							|| (global.powerup == cs_gold)
-								audio_play_sound(snd_wrong, 0, false);
-
-							//Otherwise
-							else {
-									
-								//If there's powerups in the inventory
-								if (global.inventory[boxselection] > 0) {
-									
-									//If Mario does have a powerup minor than a fireflower
-									if (global.powerup < cs_fire) {
-										
-										//Play 'Powerup' sound
-										audio_play_sound(snd_powerup, 0, false);
+							//Subtract from the number of items in the inventory
+				            global.inventory[0]--;
 							
-										//Set powerup
-										global.powerup = boxselection+1;
+							//Finish item retrieval
+							inventory = 0;
+							status = mapstate.idle;
+						}
+						
+						//Otherwise, play 'Wrong' sound
+						else
+							audio_play_sound(snd_wrong, 0, false);
+					}
+					
+					//Otherwise, if the item selected is a P-Wing
+					else if (global.inventory[boxselection] == 27) {
+					
+						//If the P-Wing is not activated
+						if (global.pwing == false) {
+						
+							//Play 'Powerup' sound
+							audio_play_sound(snd_powerup, 0, false);
+						
+							//Give Mario unlimited flight
+				            global.pwing = true;
 							
-										//Subtract one unit
-										global.inventory[boxselection]--;
+							//Give Mario the leaf powerup
+							if (global.powerup != cs_raccoon)
+							&& (global.powerup != cs_tanooki)
+							&& (global.powerup != cs_fraccoon)
+							&& (global.powerup != cs_iraccoon)
+								global.powerup = cs_raccoon
 							
-										//Close inventory and allow Mario to move
-										inventory = 0;
-										status = mapstate.idle;
-									}
-									
-									//Otherwise
-									else
-										audio_play_sound(snd_wrong, 0, false);
-								}
-								else
-									audio_play_sound(snd_wrong, 0, false);
-							}																	
-						} break;
+							//Shift the inventory items one by one
+							for (var i = boxselection; i < global.inventory[0]; i++) {
+							
+								global.inventory[i] = global.inventory[i+1];
+							}
+							
+							//Subtract from the number of items in the inventory
+				            global.inventory[0]--;
+							
+							//Finish item retrieval
+							inventory = 0;
+							status = mapstate.idle;
+						}
+						
+						//Otherwise
+						else
+							audio_play_sound(snd_wrong, 0, false);
 					}
 				}
 				
 				//If the 'Left' key is pressed, move one item to the left
 				else if ((input_check_pressed(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) {
-        
-				    //Play 'Move' sound
+				
+					//Play 'Move' sound
 					audio_play_sound(snd_move, 0, false);
-					
-					//Set cursor position
-					boxselection--;
-					if (boxselection < 0)
-						boxselection = 26;
+				
+					//If there's items on the inventory
+					if (boxselection > 1)
+					&& (global.inventory[0] != 0)
+				        boxselection--;
+					else
+						boxselection = global.inventory[0];
 				}
         
 				//If the 'Right' key is pressed, move one item to the right
 				else if ((input_check_pressed(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
-            
-				    //Play 'Move' sound
+				
+					//Play 'Move' sound
 					audio_play_sound(snd_move, 0, false);
-					
-					//Set cursor position
-					boxselection++;
-					if (boxselection > 26)
-						boxselection = 0;
+				
+					//If there's items on the inventory
+					if (boxselection < global.inventory[0])
+				        boxselection++;
+					else
+						boxselection = 1;
 				}
 			}
 		}

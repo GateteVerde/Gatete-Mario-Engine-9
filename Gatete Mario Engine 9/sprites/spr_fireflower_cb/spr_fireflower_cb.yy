@@ -31,7 +31,6 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"18afe9ff-512a-425f-8b7b-17cc35a84e6a",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"21202ab8-8dbe-4e6a-abaa-a13f6e93c322",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5df59aa9-eebd-4810-a037-d380c53dc93f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe6cfa1f-5069-481f-8009-788010046666",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -43,7 +42,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 5.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -52,7 +51,6 @@
             {"id":"cf35cd13-6107-42c3-b2ad-c6995f5f2100","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"18afe9ff-512a-425f-8b7b-17cc35a84e6a","path":"sprites/spr_fireflower_cb/spr_fireflower_cb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9632219a-bdd9-4a05-a672-90bf4153cdb3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"21202ab8-8dbe-4e6a-abaa-a13f6e93c322","path":"sprites/spr_fireflower_cb/spr_fireflower_cb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4622af7e-1288-4d72-8cb9-7a0181aaab98","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5df59aa9-eebd-4810-a037-d380c53dc93f","path":"sprites/spr_fireflower_cb/spr_fireflower_cb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e890f9d2-9068-45c0-ba5b-9267df7584bc","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe6cfa1f-5069-481f-8009-788010046666","path":"sprites/spr_fireflower_cb/spr_fireflower_cb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

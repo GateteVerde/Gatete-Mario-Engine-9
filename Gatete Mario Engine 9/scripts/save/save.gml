@@ -89,8 +89,7 @@ function save() {
 	file_text_writeln(file);
 	
 	//Save Inventory
-	var powerup_count = 27;
-	for (var i=0; i<powerup_count; i++) {
+	for (var i=0; i<15; i++) {
 	
 		file_text_write_string(file, base64_encode(string(global.inventory[i])));
 		file_text_writeln(file);

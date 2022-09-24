@@ -5,6 +5,10 @@ function reset_globals(remove_powerup) {
 	
 	//Reset powerup if set to true
 	global.powerup = (remove_powerup) ? cs_small : global.powerup;
+	
+	//Reset coin collection mode
+	global.collect_mode = 0;
+	global.coins_left = 0;
 
 	//Reset time
 	global.timer = 0;

@@ -96,11 +96,11 @@ draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[
 draw_set_font(global.gui_font_numbers_large)
 
 //Coin Collect-a-thon
-if (collect_mode > 0) {
+if (global.collect_mode > 0) {
 	
 	draw_sprite_ext(spr_gui_bonus, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, 1, 1, 0, c_white, 1);
-	if (coins_left > 0)
-		draw_text(camera_get_view_x(view_camera[0]) + 16, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, string_add_zeroes(coins_left, 3));
+	if (global.coins_left > 0)
+		draw_text(camera_get_view_x(view_camera[0]) + 16, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, string_add_zeroes(global.coins_left, 3));
 	else
 		draw_sprite_ext(spr_gui_bonus, 1, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, 1, 1, 0, c_white, 1);
 }

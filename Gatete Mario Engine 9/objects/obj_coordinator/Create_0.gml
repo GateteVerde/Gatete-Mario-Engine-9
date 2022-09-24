@@ -50,7 +50,7 @@ init_shockwave();
 	//Maximum amount of hearts
 	global.safeguard_max = 3;
 
-	//Allow reserve of items if enabled
+	//Allow reserve of items if enabled (Disabled if permanent 
 	//0: Disabled
 	//1: Enabled
 	global.reserve_activated = true;
@@ -74,31 +74,31 @@ init_shockwave();
 //Powerup Macros
 #region POWERUP MACROS
 
-#macro cs_tiny 0
-#macro cs_small	1
-#macro cs_big 2
-#macro cs_fire 3
-#macro cs_ice 4
-#macro cs_carrot 5
-#macro cs_raccoon 6
-#macro cs_cape 7
-#macro cs_frog 8
-#macro cs_tanooki 9
-#macro cs_hammer 10
-#macro cs_boomerang	11
-#macro cs_superball 12
-#macro cs_bomb 13
-#macro cs_shell	14
-#macro cs_bee 15
-#macro cs_volt 16
-#macro cs_penguin 17
-#macro cs_propeller 18
-#macro cs_bell 19
-#macro cs_football 20
-#macro cs_ranger 21
-#macro cs_squirrel 22
-#macro cs_fraccoon 23
-#macro cs_iraccoon 24
+#macro cs_small	0
+#macro cs_big 1
+#macro cs_fire 2
+#macro cs_ice 3
+#macro cs_carrot 4
+#macro cs_raccoon 5
+#macro cs_cape 6
+#macro cs_frog 7
+#macro cs_tanooki 8
+#macro cs_hammer 9
+#macro cs_boomerang	10
+#macro cs_superball 11
+#macro cs_bomb 12
+#macro cs_shell	13
+#macro cs_bee 14
+#macro cs_volt 15
+#macro cs_penguin 16
+#macro cs_propeller 17
+#macro cs_bell 18
+#macro cs_football 19
+#macro cs_ranger 20
+#macro cs_squirrel 21
+#macro cs_fraccoon 22
+#macro cs_iraccoon 23
+#macro cs_tiny 24
 #macro cs_gold 25
 #macro cs_mega 26
 
