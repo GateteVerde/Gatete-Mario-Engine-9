@@ -1,4 +1,4 @@
-/// @description Manage alpha
+/// @description Manage inventory offset
 
 //Decrement show saved
 show_saved -= 0.025;

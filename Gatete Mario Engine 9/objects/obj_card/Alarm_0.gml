@@ -11,24 +11,31 @@ if (obj_cardmanager.oncard == mycard) {
             //Play 'Correct' sound
             audio_play_sound(snd_correct, 0, false);
         
-            //Add 1 mushroom into the inventory
-			if (global.inventory[1] < 9) {
-				
-				global.inventory[1]++;
+            //If the inventory is not full, increment size
+		    if (global.inventory[0] < 15) {
+		
+		        global.inventory[0]++;
 			}
+			
+			//Add a mushroom to the inventory
+			global.inventory[global.inventory[0]] = sprite_get_macro(spr_mushroom);
+			
         } break;
         
         //Fire Flower
         case (1): { 
         
             //Play 'Correct' sound
-            audio_play_sound(snd_correct, 0, 0);
+            audio_play_sound(snd_correct, 0, false);
         
-            //Add 1 fire flower into the inventory
-			if (global.inventory[2] < 9) {
-				
-				global.inventory[2]++;
+            //If the inventory is not full, increment size
+		    if (global.inventory[0] < 15) {
+		
+		        global.inventory[0]++;
 			}
+			
+			//Add a fire flower to the inventory
+			global.inventory[global.inventory[0]] = sprite_get_macro(spr_fireflower);
         } break;
         
         //10 Coins
@@ -79,13 +86,16 @@ if (obj_cardmanager.oncard == mycard) {
         case (4): { 
         
             //Play 'Correct' sound
-            audio_play_sound(snd_correct, 0, 0);
+            audio_play_sound(snd_correct, 0, false);
         
-            //Add 1 fire flower into the inventory
-			if (global.inventory[25] < 9) {
-				
-				global.inventory[25]++;
-			}           
+            //If the inventory is not full, increment size
+		    if (global.inventory[0] < 15) {
+		
+		        global.inventory[0]++;
+			}
+			
+			//Add a starman to the inventory
+			global.inventory[global.inventory[0]] = 26;
         } break;
                 
         //1-UP

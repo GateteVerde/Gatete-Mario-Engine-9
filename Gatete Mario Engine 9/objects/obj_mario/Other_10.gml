@@ -131,7 +131,7 @@ if (invulnerable == 0)
 				else {
 			
 					//If Mario is big
-					if (global.powerup > cs_big) {
+					if ((global.powerup > cs_small) && (global.powerup != cs_tiny)) {
 						
 						//Play 'Powerdown' sound
 						audio_play_sound(snd_warp, 0, false);

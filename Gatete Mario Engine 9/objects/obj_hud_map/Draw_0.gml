@@ -18,10 +18,11 @@ draw_set_font(global.gui_font_menu);
 		for (var i = 1; i <= global.inventory[0]; i++) {
 			
 			//Set alpha of item
-			var alpha = (obj_mapmario.boxselection == i) ? 1 : 0.5;
+			alpha[i] = (obj_mapmario.boxselection == i) ? lerp(alpha[i], 1, 0.2) : lerp(alpha[i], 0.5, 0.2);
+			scale[i] = (obj_mapmario.boxselection == i) ? lerp(scale[i], 1.5, 0.2) : lerp(scale[i], 1, 0.2);
 		
 			//Draw items in inventory
-			draw_sprite_ext(sprite, global.inventory[i], camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 162 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y + 10, 1, 1, 0, c_white, alpha);
+			draw_sprite_custom_origin(sprite, global.inventory[i], camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 162 + (i-1) * 22, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - inv_offset_y + 10, 8, 8, scale[i], scale[i], 0, c_white, alpha[i]);
 		}
 	}
 

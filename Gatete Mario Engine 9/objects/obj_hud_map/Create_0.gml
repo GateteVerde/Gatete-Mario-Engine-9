@@ -25,3 +25,11 @@ alarm[0] = 180;
 
 //Show "Game Saved!" text (Applies only if Auto-Saving is enabled)
 show_saved = 0;
+
+//Draw powerups
+for (var i = 1; i <= global.inventory[0]; i++) {
+			
+	//Set alpha of item
+	alpha[i] = 1;
+	scale[i] = 1;
+}

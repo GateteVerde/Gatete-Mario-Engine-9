@@ -25,7 +25,7 @@ if (freeze == false) {
 
 //Destroy on contact with coins, solids or semisolids
 if ((xspeed > 0) && ((position_meeting(x + 15, y + 8, obj_coin)) || (position_meeting(x + 15, y + 8, obj_solid))))
-|| ((yspeed < 0) && ((position_meeting(x + 8, y, obj_coin)) || (position_meeting(x + 8, y, obj_solid))))
-|| ((xspeed < 0) && ((position_meeting(x, y + 8, obj_coin)) || (position_meeting(x, y + 8, obj_solid))))
+|| ((yspeed < 0) && ((position_meeting(x + 8, y - 1, obj_coin)) || (position_meeting(x + 8, y - 1, obj_solid))))
+|| ((xspeed < 0) && ((position_meeting(x - 1, y + 8, obj_coin)) || (position_meeting(x - 1, y + 8, obj_solid))))
 || ((yspeed > 0) && ((position_meeting(x + 8, y + 15, obj_coin)) || (position_meeting(x + 8, y + 15, obj_semisolid))))
 	instance_destroy();
