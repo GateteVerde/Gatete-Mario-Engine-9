@@ -1,4 +1,4 @@
-/// @description Life Shroom
+/// @description Heart
 
 //Inherit the parent event
 event_inherited();

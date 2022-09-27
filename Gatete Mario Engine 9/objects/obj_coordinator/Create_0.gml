@@ -27,6 +27,13 @@ init_shockwave();
 	//false:	Integer rounding similar to GBA/SNES
 	//true:		Smoother sub-pixel float movement
 	global.subpixels = true;
+	
+	//Health (If enabled, Mario will be able to take multiple hits to die and cannot turn into small mario)
+	global.hp_mode = 0;
+	
+	//HP / Maximum Health (Sets the maximum hitpoints for Mario if health mode is active)
+	global.hp = 3;
+	global.hp_max = 3;
 
 	//Turn enemies into coins when hit with a fireball
 	//0: Disabled
@@ -47,10 +54,10 @@ init_shockwave();
 	//Climb time (In seconds, how much time allow Mario to climb walls as Cat Mario)
 	global.cattime = 3;
 
-	//Maximum amount of hearts
+	//Maximum amount of hearts (Overridden if health mode is activated)
 	global.safeguard_max = 3;
 
-	//Allow reserve of items if enabled (Disabled if permanent 
+	//Allow reserve of items if enabled
 	//0: Disabled
 	//1: Enabled
 	global.reserve_activated = true;

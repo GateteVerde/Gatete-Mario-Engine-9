@@ -29,17 +29,29 @@ if (ready == 0) {
     //Sparkles
     event_user(0);
 	
-	//If Mario is tiny or small
-	if (global.powerup == cs_small) {
+	//If HP mode is not active
+	if (global.hp_mode == false) {
 	
-		//Play 'Powerup' sound.
-		audio_play_sound(snd_powerup, 0, false);
+		//If Mario is tiny or small
+		if (global.powerup == cs_small) {
+	
+			//Play 'Powerup' sound.
+			audio_play_sound(snd_powerup, 0, false);
         
-	    //Perform animation sequence
-	    with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 0;
+		    //Perform animation sequence
+		    with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 0;
 
-	    //Turn Mario into 'Super' Mario.
-	    global.powerup = cs_big;
+		    //Turn Mario into 'Super' Mario.
+		    global.powerup = cs_big;
+		}
+	}
+	
+	//Otherwise
+	else {
+	
+		//Restore all health
+		if (global.hp < global.hp_max)
+			global.hp = global.hp_max;
 	}
     
     //Remember checkpoint

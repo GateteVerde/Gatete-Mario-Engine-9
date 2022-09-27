@@ -54,15 +54,28 @@ if (ds_map_size(global.powerstars) > 0) {
 #endregion
 
 //Reserve Box
-#region RESERVE BOX
+#region RESERVE BOX / Health
 
 	//If the reserve item system is activated
 	if (global.reserve_activated == true) {
+		
+		//Set frame
+		var frame = (global.hp_mode == false) ? 0 : 1 + global.hp;
 
 		//Draw reserve box
-		draw_sprite_ext(spr_gui_global_reserve, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (8 * global.hp_mode), 1, 1, 0, c_white, 1);
+		
+		//Draw the reserve item
 		if (global.reserve != cs_small)
-			draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+			draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (8 * global.hp_mode), 1, 1, 0, c_white, 1);
+	}
+	
+	//Otherwise
+	else {
+	
+		//If health mode is activated
+		if (global.hp_mode == true)
+			draw_sprite_ext(spr_gui_global_reserve, 1 + global.hp, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);		
 	}
 #endregion
 

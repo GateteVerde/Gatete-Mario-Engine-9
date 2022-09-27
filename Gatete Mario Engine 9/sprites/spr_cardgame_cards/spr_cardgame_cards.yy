@@ -33,6 +33,7 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe389d52-e827-4cbf-b571-a55dad64d2d0",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -44,7 +45,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 6.0,
+    "length": 7.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -55,6 +56,7 @@
             {"id":"f60695af-24d4-4f77-a817-72203a816aff","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f5e8ff00-3771-41e5-b25f-5c8d9f32df3b","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9e17590b-d505-446e-9c17-415796eff969","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"81e997ed-bbdc-4bb8-ac42-7e2657485c7c","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe389d52-e827-4cbf-b571-a55dad64d2d0","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

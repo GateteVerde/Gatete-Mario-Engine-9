@@ -1,5 +1,17 @@
 /// @description Manage Star Coins
 
+//If health mode is active
+if (global.hp_mode == true) {
+	
+	//Restore all health
+	if (global.hp < global.hp_max)
+		global.hp = global.hp_max;
+	
+	//Turn Mario into Big Mario automatically
+	if (global.powerup < cs_big)
+		global.powerup = cs_big;
+}
+
 //Save star coins if the level has been beaten
 if (global.clear > 0) {
 

@@ -5,11 +5,21 @@ if (ready == 0) {
 
 	//Play 'Cherry' sound
 	audio_play_sound(snd_cherry, 0, false);
-
-	//Grant an extra hit
-	if (global.safeguard < global.safeguard_max) {
 	
-		global.safeguard++;
+	//If health mode is enabled
+	if (global.hp_mode == true) {
+	
+		global.hp++;
+		if (global.hp > global.hp_max)
+			global.hp = global.hp_max;
+	}
+	
+	//Otherwise
+	else {
+
+		//Grant an extra hit
+		if (global.safeguard < global.safeguard_max)
+			global.safeguard++;
 	}
 	
 	//Collect it

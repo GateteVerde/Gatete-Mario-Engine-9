@@ -6,7 +6,7 @@ if (obj_cardmanager.oncard == mycard) {
     switch (mycard) {
     
         //Mushroom
-        case (0): { 
+        case (0): {
         
             //Play 'Correct' sound
             audio_play_sound(snd_correct, 0, false);
@@ -17,8 +17,8 @@ if (obj_cardmanager.oncard == mycard) {
 		        global.inventory[0]++;
 			}
 			
-			//Add a mushroom to the inventory
-			global.inventory[global.inventory[0]] = sprite_get_macro(spr_mushroom);
+			//Add a mushroom or a leaf to the inventory
+			global.inventory[global.inventory[0]] = (global.hp_mode) ? sprite_get_macro(spr_leaf) : sprite_get_macro(spr_mushroom);
 			
         } break;
         

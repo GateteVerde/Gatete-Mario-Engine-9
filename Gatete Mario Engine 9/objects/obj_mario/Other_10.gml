@@ -59,57 +59,87 @@ if (invulnerable == 0)
 
 	//Otherwise
 	else {
-
-		//If Mario is frozen
-		if (freezetime > 0) {
 	
+		//If Mario does have a powerup
+		if (global.powerup > cs_big) {
+				
+			//If Mario is flying with the cape
+			if (global.powerup == cs_cape) 
+			&& (instance_number(obj_mario_fly) > 0) {
+					
+				//Play 'Power Lost' sound
+				audio_play_sound(snd_powerlost, 0, false);
+					
+				//Force end flight
+				with (obj_mario_fly) instance_destroy();
+					
+				//Give Mario back flying privileges
+				fly = noone;
+				enable_gravity = true;
+				flying = false;
+				jumpstyle = 1;
+				jumping = 0;
+				
+				//Exit
+				exit;
+			}
+				
+			//Otherwise
+			else {
 		
-		}
+				//Play 'Powerdown' sound
+				audio_play_sound(snd_warp, 0, false);
+			
+				//Perform animation sequence
+				with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 3;
 	
+				//Turn Mario into 'Super' Mario.
+				global.powerup = cs_big;
+				
+				//Exit
+				exit;
+			}
+		}
+		
 		//Otherwise
 		else {
-	
-			//If Mario does have a powerup
-			if (global.powerup > cs_big) {
+			
+			//If health mode is active
+			if (global.hp_mode == true) {
 				
-				//If Mario is flying with the cape
-				if (global.powerup == cs_cape) 
-				&& (instance_number(obj_mario_fly) > 0) {
+				//If Mario has over 1 hp left
+				if (global.hp > 1) {
 					
-					//Play 'Power Lost' sound
-					audio_play_sound(snd_powerlost, 0, false);
-					
-					//Force end flight
-					with (obj_mario_fly) instance_destroy();
-					
-					//Give Mario back flying privileges
-					fly = noone;
-					enable_gravity = true;
-					flying = false;
-					jumpstyle = 1;
-					jumping = 0;
+					//Play 'Damage' sound
+					audio_play_sound(snd_damage, 0, false);
 				
-					//Exit
-					exit;
+					//Knock back
+					yspeed = -2;
+					xspeed = -2 * sign(xscale);
+				
+					//Decrement hp
+					global.hp--;
 				}
-				
+					
 				//Otherwise
 				else {
-		
-					//Play 'Powerdown' sound
-					audio_play_sound(snd_warp, 0, false);
-			
-					//Perform animation sequence
-				    with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 3;
-	
-				    //Turn Mario into 'Super' Mario.
-				    global.powerup = cs_big;
-				
-					//Exit
-					exit;
+						
+					//No HP
+					global.hp = 0;
+
+					//Create death object
+					with (instance_create_depth(x, y, -5, obj_mario_dead)) {
+						
+						//If Mario has the tiny powerup
+						if (global.powerup == cs_tiny)
+							sprite_index = spr_mario_dead_tiny;
+					}
+						
+					//Destroy
+					instance_destroy();	
 				}
 			}
-		
+			
 			//Otherwise
 			else {
 		
@@ -137,10 +167,10 @@ if (invulnerable == 0)
 						audio_play_sound(snd_warp, 0, false);
 						
 						//Perform animation sequence
-					    with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 1;
+						with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 1;
 						
 						//Turn Mario into 'Small' Mario.
-					    global.powerup = cs_small;
+						global.powerup = cs_small;
 					}
 				
 					//Otherwise

@@ -15,3 +15,8 @@ if (vspeed == 0) && (ready == 0) {
     //Make it invisible
     alarm[1] = 1;
 }
+
+//Change mushrooms into fireflowers
+if (global.hp_mode == true)
+&& (sprite_index == spr_mushroom)
+	sprite_index = spr_fireflower;

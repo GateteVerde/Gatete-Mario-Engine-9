@@ -1,5 +1,8 @@
 /// @description Heart
 
+//Vertical speed
+yspeed = 0;
+
 //Angle
 angle = 0;
 

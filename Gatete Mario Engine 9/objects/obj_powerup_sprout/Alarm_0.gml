@@ -1,7 +1,15 @@
 /// @description Item check
 
+//Heart
+if (sprite_index == spr_heart) {
+	
+	//If health mode is activated, replace this with a mushroom
+	if (global.hp_mode == true)
+		sprite_index = spr_mushroom;
+}
+
 //Leaf
-if (sprite_index == spr_leaf) {
+else if (sprite_index == spr_leaf) {
 
     //Play 'Sprout' sound
     audio_play_sound(snd_sprout, 0, false);
