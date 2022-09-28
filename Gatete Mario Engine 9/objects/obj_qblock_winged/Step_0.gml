@@ -41,7 +41,7 @@ if (ready == 0)
 else {
 
 	//Check for Mario
-	var mario = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_mario, 0, 0);
+	var mario = collision_rectangle(bbox_left, bbox_bottom+2, bbox_right, bbox_bottom+3, obj_mario, 0, 0);
 
 	//If the player is in position
 	if (mario)
