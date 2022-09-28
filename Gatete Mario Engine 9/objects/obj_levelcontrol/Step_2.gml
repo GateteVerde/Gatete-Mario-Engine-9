@@ -245,7 +245,7 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 
 	//If Mario does exist
 	if (instance_exists(obj_mario))
-	&& (instance_number(obj_mario_transform) == 0) 
+	&& (!instance_exists(obj_mario_transform)) 
 	&& (global.clear == 0) {
 
 		//If the 'Start' key is pressed
