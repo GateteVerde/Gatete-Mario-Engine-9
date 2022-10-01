@@ -31,9 +31,9 @@ else {
 x = round(x);
 y = round(y);
 
-//This grows the image, you can change the values to control how fast the circle should grow.
-scale += -(global.gw / 50);
-if (scale < -(global.gw / 50)) {
+//This shrinks the image, you can change the values to control how fast the circle should grow.
+scale = lerp(scale, 0, 0.1);
+if (scale < 0.5) {
 	
 	//If there's not a fade in object present
 	if (instance_number(obj_fade_in) == 0) {

@@ -8,8 +8,8 @@
 	y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2;
 
 	//This grows the image, you can change the values to control how fast the circle should grow.
-	scale += (global.gw / 50)
-	if (scale > global.gw) {
+	scale = lerp(scale, (global.gw + 32), 0.03);
+	if (scale > (global.gw + 32)) {
 		
 	    instance_destroy();
 		exit;	// Stop executing the event if i've been destroyed

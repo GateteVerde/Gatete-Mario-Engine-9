@@ -24,8 +24,8 @@ else if (ready == 3) {
 //Update yy
 if (ready == 4) {
 
-    yy += 0.2;
-    if (yy > 872 + global.gh) {
+    yy += 0.25;
+    if (yy > 1120) { //To calculate this, look how many lines does "text" have and multiply the lines by 8.
     
         alpha += 0.025;
         if (alpha > 1) {
