@@ -286,8 +286,19 @@ else if (start == 1) {
 					//Credits
 					case (6): {
 					
-						//Play 'Wrong' sound
-						audio_play_sound(snd_wrong, 0, false);
+						//If no curtain exists
+						if (instance_number(obj_curtain_in) == 0) {
+							
+							//Play 'Enter Stage' sound
+							audio_play_sound(snd_enterstage, 0, false);
+						
+							//Stop 'Title' sound
+							audio_stop_sound(snd_title);
+							
+							//Go to the intro screen
+							with (instance_create_depth(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2, -99, obj_curtain_in))
+								target = rm_credits;
+						}
 					} break;
 				
 					//Back
