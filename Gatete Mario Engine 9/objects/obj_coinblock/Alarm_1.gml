@@ -6,7 +6,7 @@ vspeed = -4;
 gravity = grav;
 
 //Calculate horizontal trajectory
-var traj = round((camera_get_view_x(view_camera[0]) + 42) - x)
+var traj = round((camera_get_view_x(view_camera[0]) + 24) - x)
 hspeed = (traj / ((-1 * 2 * vspeed) / grav))
 
 //Now appear on the sequence

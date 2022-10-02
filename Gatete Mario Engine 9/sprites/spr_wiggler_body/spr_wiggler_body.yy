@@ -30,6 +30,7 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34b4f284-d37e-4867-88b4-bd7e4b60532a",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cce8419f-0614-4c53-b906-6cc5cf4dc1b3",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a047cbb3-2fbc-459f-a3a3-2adb5523950a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"094de156-74c0-4698-8e77-c8a0a815a25a",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -41,7 +42,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -49,6 +50,7 @@
             {"id":"e3e04119-47a4-4498-acfa-ac6565534f5d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34b4f284-d37e-4867-88b4-bd7e4b60532a","path":"sprites/spr_wiggler_body/spr_wiggler_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"12ec99c6-c867-4bc3-954d-62896029a043","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cce8419f-0614-4c53-b906-6cc5cf4dc1b3","path":"sprites/spr_wiggler_body/spr_wiggler_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5bcb722f-511c-499a-bc44-02224d1fd14c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a047cbb3-2fbc-459f-a3a3-2adb5523950a","path":"sprites/spr_wiggler_body/spr_wiggler_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"501a2aa4-39ea-4a96-b3d1-e38306d884fd","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"094de156-74c0-4698-8e77-c8a0a815a25a","path":"sprites/spr_wiggler_body/spr_wiggler_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

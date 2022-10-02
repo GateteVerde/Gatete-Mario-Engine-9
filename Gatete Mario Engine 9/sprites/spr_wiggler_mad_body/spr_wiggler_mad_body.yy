@@ -30,6 +30,7 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34b4f284-d37e-4867-88b4-bd7e4b60532a",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cce8419f-0614-4c53-b906-6cc5cf4dc1b3",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ec927728-59df-46f9-aaca-12aeba1c6d69",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3672639b-59a9-46c8-9a7b-f749bac0b29f",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -41,7 +42,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -49,6 +50,7 @@
             {"id":"03e4cded-137c-4d9e-80c7-8102b1a759d1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34b4f284-d37e-4867-88b4-bd7e4b60532a","path":"sprites/spr_wiggler_mad_body/spr_wiggler_mad_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7d8aa119-803d-46ee-af47-53481ad39285","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cce8419f-0614-4c53-b906-6cc5cf4dc1b3","path":"sprites/spr_wiggler_mad_body/spr_wiggler_mad_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8ac4f205-c490-4e49-813c-663610e17b22","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec927728-59df-46f9-aaca-12aeba1c6d69","path":"sprites/spr_wiggler_mad_body/spr_wiggler_mad_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"75a119b0-4bcd-44d8-bb6f-625b75c9c438","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3672639b-59a9-46c8-9a7b-f749bac0b29f","path":"sprites/spr_wiggler_mad_body/spr_wiggler_mad_body.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
