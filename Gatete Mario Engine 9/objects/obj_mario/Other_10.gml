@@ -133,6 +133,8 @@ if (invulnerable == 0)
 						//If Mario has the tiny powerup
 						if (global.powerup == cs_tiny)
 							sprite_index = spr_mario_dead_tiny;
+						else
+							sprite_index = spr_mario_dead_big;
 					}
 						
 					//Destroy
