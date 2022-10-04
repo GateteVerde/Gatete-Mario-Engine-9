@@ -10,6 +10,30 @@ audio_play_sound(snd_dead, 0, false);
 with (obj_physicsparent) event_user(13);
 with (obj_platformparent) event_user(13);
 
+#region SPRITE SET
+
+	//If health mode is active, 
+	if (global.hp_mode == true) {
+		
+		//If Mario has the tiny mushroom powerup
+		if (global.powerup == cs_tiny)
+			sprite_index = spr_mario_dead_tiny;
+		else
+			sprite_index = spr_mario_dead_big;
+	}
+	
+	//Otherwise
+	else {
+	
+		//If Mario has the tiny mushroom powerup
+		if (global.powerup == cs_tiny)
+			sprite_index = spr_mario_dead_tiny;
+		else
+			sprite_index = spr_mario_dead;
+	}
+	
+#endregion
+
 //Stop stream
 with (obj_levelcontrol) {
 

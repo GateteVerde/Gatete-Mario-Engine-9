@@ -56,11 +56,38 @@ if (ds_map_size(global.powerstars) > 0) {
 //Reserve Box
 #region RESERVE BOX / Health
 
+	#region FRAME
+		
+		//Set up variable
+		var frame;
+			
+		//If health mode is active
+		if (global.hp_mode == 1) {
+			
+			//If Mario has the tiny powerup
+			if (global.powerup == cs_tiny)
+				frame = 6;
+					
+			//Otherwise
+			else {
+				
+				//If Mario has a powerup
+				if (global.powerup > cs_big)
+					frame = 5;
+					
+				//Otherwise
+				else
+					frame = 1 + global.hp;
+			}
+		}
+		
+		//Otherwise
+		else
+			frame = 0;
+	#endregion
+
 	//If the reserve item system is activated
 	if (global.reserve_activated == true) {
-		
-		//Set frame
-		var frame = (global.hp_mode == false) ? 0 : 1 + global.hp;
 
 		//Draw reserve box
 		draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (8 * global.hp_mode), 1, 1, 0, c_white, 1);
@@ -71,12 +98,9 @@ if (ds_map_size(global.powerstars) > 0) {
 	}
 	
 	//Otherwise
-	else {
-	
-		//If health mode is activated
-		if (global.hp_mode == true)
-			draw_sprite_ext(spr_gui_global_reserve, 1 + global.hp, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);		
-	}
+	else
+		draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);		
+
 #endregion
 
 //Set black font

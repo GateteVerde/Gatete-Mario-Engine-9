@@ -32,6 +32,7 @@ for (var i=0; i<3; i++) {
 	
 		//Otherwise, if there's a powerup inside
 		else if ((sprout[i] > cs_big) && (sprout[i] < cs_mega))
+		&& (global.hp_mode == 0)
 		&& ((global.powerup == cs_tiny) || (global.powerup == cs_small))
 			sprout[i] = cs_big;
         
