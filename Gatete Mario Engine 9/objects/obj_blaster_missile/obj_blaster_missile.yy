@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_blaster_missile",
   "spriteId": {
-    "name": "spr_blaster_missile",
-    "path": "sprites/spr_blaster_missile/spr_blaster_missile.yy",
+    "name": "spr_enemymarker",
+    "path": "sprites/spr_enemymarker/spr_enemymarker.yy",
   },
   "solid": false,
   "visible": true,

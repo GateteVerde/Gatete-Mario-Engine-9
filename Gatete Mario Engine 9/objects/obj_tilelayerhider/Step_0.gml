@@ -3,7 +3,7 @@
 if (instance_exists(obj_mario)) {
 	
 	//If Mario is inside this area
-	if (point_in_rectangle(obj_mario.x, obj_mario.y, bbox_left, bbox_top, bbox_right + 8, bbox_bottom + 8)) {
+	if (point_in_rectangle(obj_mario.x, obj_mario.y, bbox_left, bbox_top, bbox_right, bbox_bottom)) {
 		
 		//Set radius
 		radius = lerp(radius, 48, 0.2);

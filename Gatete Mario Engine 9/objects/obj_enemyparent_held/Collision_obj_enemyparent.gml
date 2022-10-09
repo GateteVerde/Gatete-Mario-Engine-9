@@ -104,9 +104,6 @@ if (held == true)
 				
 			//Kill
 			#region
-				
-				//Get other object id
-				enemy_id = other.id;
 	
 				#region KILL
 	
@@ -123,7 +120,7 @@ if (held == true)
 					imdead.image_xscale = xscale;
 		
 					//Set horizontal speed
-					if (enemy_id.x < x)
+					if (other.x < x)
 						imdead.hspeed = 1;
 					else
 						imdead.hspeed = -1;		
@@ -152,9 +149,6 @@ if (held == true)
 			event_user(0);
 		}
 	
-		//Get other object id
-		enemy_id = other.id;
-	
 		#region KILL
 	
 			//Kill NPC
@@ -170,7 +164,7 @@ if (held == true)
 			imdead.image_xscale = xscale;
 		
 			//Set horizontal speed
-			if (enemy_id.x < x)
+			if (other.x < x)
 				imdead.hspeed = 1;
 			else
 				imdead.hspeed = -1;		

@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_blaster",
-  "bboxMode": 0,
+  "name": "spr_enemymarker",
+  "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 16,
   "height": 16,
   "textureGroupId": {
@@ -27,28 +28,24 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"506b00c7-91ba-4e25-87c1-78aba72583e7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45680330-f9f3-424c-a1cd-bc929e493906",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b19592a1-af4d-4fb0-b1d8-1b38ec4a25b7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f783e2f4-c5dc-4516-b1b4-5337507436a8",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_blaster",
+    "name": "spr_enemymarker",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"79c3b5b4-30f4-4e31-808d-15dd7743349d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"506b00c7-91ba-4e25-87c1-78aba72583e7","path":"sprites/spr_blaster/spr_blaster.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"afef0ce3-19af-4bef-bec7-fe3b25ab5a78","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45680330-f9f3-424c-a1cd-bc929e493906","path":"sprites/spr_blaster/spr_blaster.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"ab7504e3-d21f-4079-81f2-71c01b489005","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b19592a1-af4d-4fb0-b1d8-1b38ec4a25b7","path":"sprites/spr_blaster/spr_blaster.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c54041f8-a5cb-4e4a-8aaa-35f69d4fb210","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f783e2f4-c5dc-4516-b1b4-5337507436a8","path":"sprites/spr_enemymarker/spr_enemymarker.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -67,7 +64,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e388879a-e7ec-48a5-94c6-3236b6d3af88","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cff339e6-64cf-46c5-9fa3-074ce152bbaf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
     "left": 0,
@@ -82,12 +79,12 @@
     ],
     "highlightColour": 1728023040,
     "highlightStyle": 0,
-    "enabled": false,
+    "enabled": true,
     "tileMode": [
       0,
-      3,
       0,
-      1,
+      0,
+      0,
       1,
     ],
     "resourceVersion": "1.0",
@@ -95,7 +92,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Blasters",
-    "path": "folders/Sprites/Enemies/Airship/Bullet Bills/Blasters.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

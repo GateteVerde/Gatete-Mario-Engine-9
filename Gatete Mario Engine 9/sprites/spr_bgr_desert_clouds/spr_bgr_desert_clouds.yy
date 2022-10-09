@@ -13,10 +13,11 @@
   "bbox_left": 0,
   "bbox_right": 511,
   "bbox_top": 0,
-  "bbox_bottom": 430,
+  "bbox_bottom": 431,
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 512,
   "height": 432,
   "textureGroupId": {

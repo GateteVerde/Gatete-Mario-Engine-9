@@ -7,5 +7,5 @@ event_inherited();
 image_speed = 1;
 
 //Do not create inside solids
-while (position_meeting(x+8, bbox_bottom, obj_solid))
+while (position_meeting(x+8, bbox_bottom, obj_semisolid))
     y--;

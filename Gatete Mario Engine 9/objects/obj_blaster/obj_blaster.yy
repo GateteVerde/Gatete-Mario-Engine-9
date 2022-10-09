@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_blaster",
   "spriteId": {
-    "name": "spr_blaster",
-    "path": "sprites/spr_blaster/spr_blaster.yy",
+    "name": "spr_enemymarker",
+    "path": "sprites/spr_enemymarker/spr_enemymarker.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,9 +30,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

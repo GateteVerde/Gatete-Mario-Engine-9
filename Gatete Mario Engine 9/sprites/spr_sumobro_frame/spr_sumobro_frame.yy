@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_sumobro_frame",
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 4,
   "type": 0,
   "origin": 3,
   "preMultiplyAlpha": false,
@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 16,
   "height": 32,
   "textureGroupId": {
