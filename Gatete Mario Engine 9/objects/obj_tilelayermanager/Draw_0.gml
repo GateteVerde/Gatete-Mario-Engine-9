@@ -24,7 +24,7 @@ else {
 	draw_clear_alpha(c_white,0);
 		
 	//Draw the tiles
-	draw_surface(BufferSurface,-camera_x+extra/2,-camera_y+extra/2);
+	draw_surface(BufferSurface, screen_round(-camera_x+extra/2), screen_round(-camera_y+extra/2));
 		
 	//Make "holes" in the tile surface
 	//Change this code to draw rectangles inbetween the bridge edges
