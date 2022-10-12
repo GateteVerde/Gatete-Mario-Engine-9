@@ -1344,8 +1344,9 @@ if (input_check_pressed(input.action_0))
 //If Mario is twirling, move up a bit
 if (twirl == 1) then yspeed -= 0.5;
 
-//If Mario is crouched down
-if (crouch == true) {
+//If Mario is crouched down and this one is not riding a Yoshi or a Kuribo shoe
+if (crouch == true) 
+&& (global.mount == 0) {
 	
 	//If the player is idle
 	if (state == playerstate.idle) {
@@ -1382,8 +1383,9 @@ else if (crouch == false) {
 	//Otherwise
 	else if (squat_ready > 0) {
 	
-		//If Mario starts walking, reset ability
-		if (state == playerstate.walk) {
+		//If Mario starts walking or begins riding a Yoshi or a Kuribo shoe, reset ability
+		if (state == playerstate.walk) 
+		|| (global.mount != 0) {
 		
 			squat_ready = 0;
 			if (squat_time > 0)
