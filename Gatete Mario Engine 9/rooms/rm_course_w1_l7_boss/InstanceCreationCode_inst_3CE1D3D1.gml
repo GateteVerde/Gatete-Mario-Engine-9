@@ -1,1 +1,0 @@
-vulnerable = 99;
