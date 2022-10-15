@@ -7,7 +7,7 @@
     "path": "sprites/spr_marker_bulletbill/spr_marker_bulletbill.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

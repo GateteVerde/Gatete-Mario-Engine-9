@@ -18,6 +18,9 @@ depth = -2;
 //Allow to turn around
 turnaround = 0;
 
+//Ignore platforms
+ignore_platforms = 1;
+
 //Set starting direction
 if (place_snapped(32, 32))
     ready = 0;

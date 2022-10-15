@@ -15,6 +15,9 @@ edible = 0;
 //Do not swim
 noswim = 1;
 
+//Ignore platforms
+ignore_platforms = true;
+
 //Freeze object
 freeze_object = -2;
 

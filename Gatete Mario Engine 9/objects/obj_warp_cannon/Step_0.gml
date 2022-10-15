@@ -20,7 +20,7 @@ if (global.powerup != cs_mega) {
 	            audio_play_sound(snd_warp, 0, false);
         
 	            //Create a new warp player object
-	            warpme = instance_create_depth(x+16, y-16, 0, obj_mario_warp);
+	            warpme = instance_create_depth(x+16, y-16, 150, obj_mario_warp);
             
 	            //Facing direction
 	            warpme.image_xscale = player.xscale;

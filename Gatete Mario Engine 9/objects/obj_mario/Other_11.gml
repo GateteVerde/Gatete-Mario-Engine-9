@@ -13,6 +13,9 @@ yspeed = -4.125;
 //Boost jump
 y--;
 
+//End groundpound
+groundpound = 0;
+
 //Variable jumping
 if (input_check(input.action_0))
 	jumping = 1;
