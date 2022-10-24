@@ -2613,6 +2613,7 @@
     {"id":{"name":"obj_angrysun","path":"objects/obj_angrysun/obj_angrysun.yy",},"order":4,},
     {"id":{"name":"spr_water_b","path":"sprites/spr_water_b/spr_water_b.yy",},"order":2,},
     {"id":{"name":"spr_sumobro_frame","path":"sprites/spr_sumobro_frame/spr_sumobro_frame.yy",},"order":22,},
+    {"id":{"name":"rm_course_w1_l1_b","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},"order":1,},
     {"id":{"name":"spr_birdo_dead","path":"sprites/spr_birdo_dead/spr_birdo_dead.yy",},"order":3,},
     {"id":{"name":"obj_spiny_ceiling","path":"objects/obj_spiny_ceiling/obj_spiny_ceiling.yy",},"order":4,},
     {"id":{"name":"snd_timer","path":"sounds/snd_timer/snd_timer.yy",},"order":20,},
@@ -2880,6 +2881,7 @@
     {"roomId":{"name":"rm_battle_d","path":"rooms/rm_battle_d/rm_battle_d.yy",},},
     {"roomId":{"name":"rm_battle_c","path":"rooms/rm_battle_c/rm_battle_c.yy",},},
     {"roomId":{"name":"rm_course_w1_l1","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},},
+    {"roomId":{"name":"rm_course_w1_l1_b","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":6,},

@@ -49,7 +49,7 @@ if (held) {
     else {
             
         //Check what object is holding first
-        event_user(15);
+        follow_which_mario();
         
         //Then check if it exists
         if (instance_exists(follow)) {
