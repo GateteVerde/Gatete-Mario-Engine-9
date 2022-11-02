@@ -20,6 +20,7 @@ if (vspeed == 0) {
 		
 		ready = 0;
 		alarm[0] = 28;
+		alarm[1] = 1;
 	}
 }
 

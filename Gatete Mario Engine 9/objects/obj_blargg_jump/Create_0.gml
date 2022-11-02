@@ -26,12 +26,15 @@ edible = 2;
 //1:	Yes
 turn_silver = 0;
 
+//Ignore platforms
+ignore_platforms = true;
+
 //Set vertical speed
 yspeed = -2.85;
 yadd = 0.12;
 
 //Depth
-depth = 150;
+depth = 100;
 
 //Move towards Mario
 if (!instance_exists(obj_mario))

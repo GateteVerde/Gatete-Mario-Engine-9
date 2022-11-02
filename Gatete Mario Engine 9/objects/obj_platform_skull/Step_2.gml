@@ -46,6 +46,7 @@
 		
 			//If the item is above this platform
 			if (list[| i].yspeed >= 0)
+			&& (list[| i].ignore_platforms == false)
 			&& (list[| i].bbox_bottom < yprevious+5) {
 				
 				//If there's a platform on the way, ignore this event
@@ -205,7 +206,8 @@ if (issolid == true) {
 			
 			for (var j=0; j<count_j; j++) {
 		
-				if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top+4, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
+				if (list[| j].ignore_platforms == false)
+				&& ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top+4, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
 				|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
 					list_j[| j].x += x-xprevious;
 			}

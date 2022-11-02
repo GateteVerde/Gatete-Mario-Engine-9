@@ -26,12 +26,15 @@ edible = 2;
 //1:	Yes
 turn_silver = 0;
 
+//Ignore platforms
+ignore_platforms = true;
+
 //Do not animate
 image_speed = 0;
 image_index = 0;
 
 //Depth
-depth = 150;
+depth = 100;
 
 //Move 16 pixels down
 y += 16;

@@ -24,6 +24,9 @@ if (sprite_index == spr_montymole_dig_wall) {
 	
 	//Set depth
 	depth = 150;
+	
+	//Set vulnerability
+	vulnerable = 100;
 }
 else
 	instance_destroy();

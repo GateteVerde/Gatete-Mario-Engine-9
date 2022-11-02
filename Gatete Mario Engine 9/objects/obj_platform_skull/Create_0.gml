@@ -10,7 +10,7 @@ issolid = true;
 no_horiz = false;
 
 //Depth
-depth = 101;
+depth = 150;
 
 //Move 4 pixels downwards
 y += 4;

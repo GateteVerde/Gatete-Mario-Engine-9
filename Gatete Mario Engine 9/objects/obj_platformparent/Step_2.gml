@@ -157,7 +157,8 @@ if (issolid == true) {
 		for (var j=0; j<count_j; j++) {
 				
 			//If the NPC is below the top boundary
-			if (list_j[| j].bbox_bottom > yprevious+5) 
+			if (list_j[| j].ignore_platforms == false)
+			&& (list_j[| j].bbox_bottom > yprevious+5) 
 			&& (list_j[| j].bbox_bottom < bbox_bottom) {
 				
 				//Push it
