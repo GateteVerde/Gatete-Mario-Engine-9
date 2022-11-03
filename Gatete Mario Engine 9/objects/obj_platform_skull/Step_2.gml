@@ -205,11 +205,14 @@ if (issolid == true) {
 		if (count_j > 0) {
 			
 			for (var j=0; j<count_j; j++) {
-		
-				if (list[| j].ignore_platforms == false)
-				&& ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top+4, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
-				|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
-					list_j[| j].x += x-xprevious;
+				
+				//If the NPC does not ignore platforms, push
+				if (list[| j].ignore_platforms == false) {
+					
+					if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top+4, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
+					|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
+						list_j[| j].x += x-xprevious;
+				}
 			}
 		}
 		

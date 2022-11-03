@@ -12,6 +12,8 @@ imdead.image_index = image_index;
 //Hereby facing direction
 imdead.image_xscale = xscale;
 
+
+
 //Hereby ID horizontal speed
 if (killer_id != -1) {
 	
@@ -20,11 +22,11 @@ if (killer_id != -1) {
 		imdead.hspeed = obj_mario.xspeed;
 	
 	//Otherwise, if the killer id is the mega thwonk
-	else if (killer_id.object_index == obj_megashroom_timer)
+	else if (killer_id == obj_megashroom_timer)
 		imdead.hspeed = obj_megashroom_timer.xspeed * 2;
 	
 	//Otherwise, if the killer id is Mario spinning
-	else if (killer_id.object_index == obj_mario_spinner) {
+	else if (killer_id == obj_mario_spinner) {
 				
 		//If Mario has any of the following powerups
 		if (global.powerup == cs_raccoon)
@@ -53,7 +55,7 @@ if (killer_id != -1) {
 				imdead.hspeed = -1;
 		}
 	}
-			
+	
 	//Otherwise
 	else {
 	

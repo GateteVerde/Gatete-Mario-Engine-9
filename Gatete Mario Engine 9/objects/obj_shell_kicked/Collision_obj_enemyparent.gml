@@ -14,15 +14,15 @@ if (other.vulnerable < 99) {
 			
 			#region KILL
 			
+				//Get killer id
+				killer_id = other.id;
+			
 			    //Destroy both NPCs
 			    with (other) {
 		
 					killer_id = other.id;
 					event_user(0);
 				}
-	
-				//Get other object id
-				enemy_id = other.id;
 	
 				#region KILL
 	
@@ -41,7 +41,7 @@ if (other.vulnerable < 99) {
 					//Set horizontal speed
 					#region
 					
-						if (enemy_id.x < x)
+						if (other.x < x)
 							imdead.hspeed = 1;
 						else
 							imdead.hspeed = -1;
@@ -135,6 +135,9 @@ if (other.vulnerable < 99) {
 			hitcombo++;
 		
 		#endregion
+		
+		//Get killer id
+		killer_id = other.id;
 		
 		//Destroy both NPCs
 		with (other) {
