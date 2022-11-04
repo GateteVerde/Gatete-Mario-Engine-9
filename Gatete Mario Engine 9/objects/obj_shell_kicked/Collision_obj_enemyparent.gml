@@ -141,9 +141,31 @@ if (other.vulnerable < 99) {
 		
 		//Destroy both NPCs
 		with (other) {
+	
+			//Kill NPC
+			imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
 		
-			killer_id = other.id;
-			event_user(0);
+			//Hereby sprite
+			imdead.sprite_index = sprite_index;
+
+			//Hereby frame
+			imdead.image_index = image_index;
+
+			//Hereby facing direction
+			imdead.image_xscale = xscale;
+		
+			//Set horizontal speed
+			#region
+					
+				if (other.x < x)
+					imdead.hspeed = 1;
+				else
+					imdead.hspeed = -1;
+					
+			#endregion
+					
+			//Destroy
+			instance_destroy();
 		}
 	}
 	

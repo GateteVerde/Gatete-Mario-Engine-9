@@ -92,47 +92,51 @@ if (held == true)
 		//If this is not a shell
 		else if (is_shell == false) {
 			
-			//Play 'Kick' sound
-			audio_play_sound(snd_kick, 0, false);
+			//If this is a shell object, ignore
+			if (other.object_index != obj_shell_kicked) {
 			
-			//Destroy both NPCs
-			with (other) {
+				//Play 'Kick' sound
+				audio_play_sound(snd_kick, 0, false);
+			
+				//Destroy both NPCs
+				with (other) {
 		
-				killer_id = id;
-				event_user(0);
+					killer_id = id;
+					event_user(0);
+				}
+	
+				#region KILL
+	
+					//Kill NPC
+					imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
+		
+					//Hereby sprite
+					imdead.sprite_index = sprite_index;
+
+					//Hereby frame
+					imdead.image_index = image_index;
+
+					//Hereby facing direction
+					imdead.image_xscale = xscale;
+		
+					//Set horizontal speed
+					if (other.x < x)
+						imdead.hspeed = 1;
+					else
+						imdead.hspeed = -1;		
+				#endregion
+			
+				//Get 1000 points
+				with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score)) value = 1000;
+	
+				//Destroy
+				instance_destroy();
 			}
-	
-			#region KILL
-	
-				//Kill NPC
-				imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
-		
-				//Hereby sprite
-				imdead.sprite_index = sprite_index;
-
-				//Hereby frame
-				imdead.image_index = image_index;
-
-				//Hereby facing direction
-				imdead.image_xscale = xscale;
-		
-				//Set horizontal speed
-				if (other.x < x)
-					imdead.hspeed = 1;
-				else
-					imdead.hspeed = -1;		
-			#endregion
-				
-			//Get 1000 points
-			with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score)) value = 1000;
-	
-			//Destroy
-			instance_destroy();
 		}
 	}
 		
 	//Otherwise
-	else {
+	else if (other.object_index != obj_shell_kicked) {
 				
 		//Play 'Kick' sound
 		audio_play_sound(snd_kick, 0, false);
