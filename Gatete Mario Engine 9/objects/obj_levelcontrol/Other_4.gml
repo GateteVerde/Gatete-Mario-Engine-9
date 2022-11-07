@@ -191,8 +191,18 @@ if (global.starman > 0) {
     //Create a new starman object.
     with (instance_create_depth(0, 0, 100, obj_invincibility)) {
 		
+		//Set the timer
 		alarm[0] = max(global.starman, 30);
-		if (global.starman < 120)
+		
+		//Hereby the combo from last room
+		if (global.hitcombo > 0) {
+		
+			hitcombo = global.hitcombo;
+			global.hitcombo = 0;
+		}
+		
+		//Prevent the warning sound from playing
+		if (global.starman < 120) 
 			warning = 1;
 	}
     

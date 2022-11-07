@@ -29,6 +29,9 @@ function reset_globals(remove_powerup) {
 
 	//Reset pwing effect
 	global.pwing = 0;
+	
+	//Reset starman combo
+	global.hitcombo = 0;
 
 	//Reset Mario Start! text
 	global.mariostart = false;

@@ -170,6 +170,9 @@ function init_globals() {
 
 	//The object to return when carrying a SMB2 enemy between rooms
 	global.turnback = 0;
+	
+	//Global combo
+	global.hitcombo = 0;
 
 	//Initialize star coin system (Replace '999' with the amount of levels your game will have)
 	//0: Not collected
