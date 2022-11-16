@@ -21,8 +21,8 @@
   "width": 512,
   "height": 488,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "txg_background",
+    "path": "texturegroups/txg_background",
   },
   "swatchColours": null,
   "gridX": 0,
@@ -66,7 +66,31 @@
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cce82c44-b769-49a1-845f-52e56b5b71a5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "enabled": false,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "resourceVersion": "1.0",
+    "loadedVersion": null,
+    "resourceType": "GMNineSliceData",
+  },
   "parent": {
     "name": "Backgrounds & Tilesets",
     "path": "folders/Sprites/Special/Backgrounds & Tilesets.yy",

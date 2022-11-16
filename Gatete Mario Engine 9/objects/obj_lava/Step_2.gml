@@ -10,7 +10,8 @@ if (instance_exists(obj_mario)) {
 		lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom+7, obj_lava, 1, 0);
 		
 		//If there's lava in-position
-		if (lava) {
+		if (lava) 
+		&& (!collision_rectangle(bbox_left, bbox_bottom-1, bbox_right, bbox_bottom+1, obj_platform_skull, 0, 0)) {
 		
 			//If lava has collision attached and this one is not poison or chocolate
 			if (lava.mycol != -1) {
