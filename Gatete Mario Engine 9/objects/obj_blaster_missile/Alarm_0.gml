@@ -1,10 +1,11 @@
 /// @description Shoot a missile bill
 
-//If Mario does not exist, deny event
-if (!instance_exists(obj_mario)) {
+//If this object is outside the view or Mario does not exist, deny event
+if (outside_view())
+|| (!instance_exists(obj_mario)) {
 
-    alarm[0] = 1;
-    exit;
+	alarm[0] = 60;
+	exit;
 }
 
 //Otherwise
@@ -30,68 +31,46 @@ else {
     
         //If Mario is at the left
         if (obj_mario.x < x) {
-            
-            //If there's not a solid in position, shoot a bullet
-            if (!collision_rectangle(bbox_left-1, y, bbox_left-1, y+15, obj_solid, 0, 0)) {
-            
-                //Play 'Thud' sound
-                audio_play_sound(snd_thud, 0, false);
+                        
+            //Play 'Thud' sound
+            audio_play_sound(snd_thud, 0, false);
                 
-                //Create missile bill
-				mybullet = instance_create_depth(x+8, y, -2, obj_missilebill);
-				with (mybullet) {
+            //Create missile bill
+			mybullet = instance_create_depth(x+8, y, -2, obj_missilebill);
+			with (mybullet) {
 					
-					//Set motion
-                    direction = 180;
-					speed = 1.5;
+				//Set motion
+                direction = 180;
+				speed = 1.5;
 					
-					//Create smoke effect
-                    instance_create_depth(x, y+8, -6, obj_smoke);
-                }
+				//Create smoke effect
+                instance_create_depth(x, y+8, -6, obj_smoke);
+            }
                 
-                //Repeat
-                alarm[0] = 300;
-            }
-            
-            //If there's a solid at the left, deny event
-            else {
-            
-                alarm[0] = 1;
-                exit;
-            }
+            //Repeat
+            alarm[0] = 300;
         }
         
         //Otherwise, if Mario is at the right
         else if (obj_mario.x > x) {
-                    
-            //If there's not a solid in position, shoot a bullet
-            if (!collision_rectangle(bbox_right+1, y, bbox_right+1, y+15, obj_solid, 0, 0)) {
             
-                //Play 'Explosion' sound
-                audio_play_sound(snd_thud, 0, false);
+            //Play 'Explosion' sound
+            audio_play_sound(snd_thud, 0, false);
                 
-                //Create bullet bill
-				mybullet = instance_create_depth(x+8, y, -2, obj_missilebill);
-				with (mybullet) {
+            //Create bullet bill
+			mybullet = instance_create_depth(x+8, y, -2, obj_missilebill);
+			with (mybullet) {
 					
-					//Set motion
-                    direction = 0;
-					speed = 1.5;
+				//Set motion
+                direction = 0;
+				speed = 1.5;
 					
-					//Create smoke effect
-                    instance_create_depth(x, y+8, -6, obj_smoke);
-                }
-                
-                //Repeat
-                alarm[0] = 300;
+				//Create smoke effect
+                instance_create_depth(x, y+8, -6, obj_smoke);
             }
-            
-            //If there's a solid at the left, deny event
-            else {
-            
-                alarm[0] = 1;
-                exit;
-            }            
-        }          
+                
+            //Repeat
+            alarm[0] = 300;     
+		}
     }
 }

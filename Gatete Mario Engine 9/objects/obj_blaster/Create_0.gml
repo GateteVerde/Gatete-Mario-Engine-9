@@ -9,8 +9,3 @@ depth = 100;
 
 //Shoot a bullet bill
 alarm[0] = 60;
-
-//Create solid mask
-mysolid = instance_create_layer(x, y, "Main", obj_solid);
-with (mysolid)
-	image_yscale = other.image_yscale;

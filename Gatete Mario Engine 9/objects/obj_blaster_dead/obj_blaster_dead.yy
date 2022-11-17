@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_blaster",
+  "name": "obj_blaster_dead",
   "spriteId": {
-    "name": "spr_blaster",
-    "path": "sprites/spr_blaster/spr_blaster.yy",
+    "name": "spr_blaster_dead",
+    "path": "sprites/spr_blaster_dead/spr_blaster_dead.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,14 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bullet Bill",
-    "path": "folders/Objects/Enemies/Airship/Bullet Bill.yy",
+    "name": "Bullet Bills",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship/Bullet Bills.yy",
   },
 }
