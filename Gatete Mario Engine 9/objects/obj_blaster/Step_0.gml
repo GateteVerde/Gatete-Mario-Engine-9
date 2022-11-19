@@ -12,7 +12,7 @@ if (instance_exists(obj_mario)) {
 		audio_play_sound(snd_destroy, 0, false)
 	
 		//Create a spinning cannon
-		with (instance_create_depth(x+8, bbox_bottom+8, -6, obj_blaster_dead)) {
+		with (instance_create_depth(x+8, y+(sprite_get_height(sprite_index) / 2), -6, obj_blaster_dead)) {
 			
 			//Set the frame
 			image_index = other.image_index;

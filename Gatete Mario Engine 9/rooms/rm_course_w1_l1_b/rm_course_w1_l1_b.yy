@@ -48,7 +48,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33BCF0D1","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"type","path":"objects/obj_coin_star/obj_coin_star.yy",},"objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"value":"1",},
           ],"isDnd":false,"objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":192.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39F427F0","properties":[],"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33269DB9","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"varmsg","path":"objects/obj_messageblock/obj_messageblock.yy",},"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"value":"\"To get the star coin in this area, you might need to be really tiny.\"",},
           ],"isDnd":false,"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":560.0,"y":144.0,},
@@ -80,7 +79,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75D83499","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"varmsg","path":"objects/obj_messageblock/obj_messageblock.yy",},"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"value":"\"There should be a Tiny Shroom somewhere in this course, but you might need to scratch some blocks to gain access to said area.\"",},
           ],"isDnd":false,"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":144.0,},
-      ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_24D9AD26","properties":[],"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":160.0,},
+      ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":40,"SerialiseHeight":15,"TileCompressedData":[
 5,1532,1533,2081,2082,1531,-30,1532,10,1533,2081,2082,1531,1532,1532,1533,2081,2082,1616,-30,1617,9,1618,2081,2082,1531,1532,1532,1533,2081,2082,-16,0,-16,-2147483648,8,2081,2082,1531,1532,
 1532,1533,2081,2082,-16,0,-16,-2147483648,8,2081,2082,1531,1532,1532,1533,2081,2082,-16,0,-16,-2147483648,8,2081,2082,1531,1532,1532,1533,2081,2082,-16,0,-16,-2147483648,8,2081,2082,1531,1532,1532,
@@ -130,7 +130,6 @@
     {"name":"inst_681679C9","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_306F4265","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_33BCF0D1","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
-    {"name":"inst_39F427F0","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_33269DB9","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_4E88ABFF","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_5071F495","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
@@ -147,6 +146,7 @@
     {"name":"inst_59F61DD","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_411FE7D5","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_75D83499","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
+    {"name":"inst_24D9AD26","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
