@@ -585,7 +585,7 @@ if (enable_gravity == 1) {
                 event_user(4);
 				
 				//Check the climb surface
-				var climbsurface = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_climb, 0, 0);
+				var climbsurface = collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom, obj_climb, 0, 0);
 				
 				//If there's a climbable surface in position
 				if (input_check_pressed(input.action_1))
@@ -676,10 +676,10 @@ if (enable_gravity == 1) {
 if (xspeed > 0) {
 	
 	//Check for a platform
-	var rp = collision_rectangle(bbox_right, bbox_top+1, bbox_right+1, bbox_bottom-5, obj_platformparent, 1, 0);
+	var rp = collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom-5, obj_platformparent, 1, 0);
 	
 	//If there's a wall on the right
-	if ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top+1, bbox_right+1, bbox_bottom-5, obj_solid, 1, 0))) 
+	if ((global.powerup == cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom-5, obj_solid, 1, 0))) 
 	|| (((global.powerup != cs_tiny) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right+1, bbox_bottom+ismega, obj_solid, 1, 0)))) {
 		
 		//Check for a block
@@ -731,19 +731,10 @@ if (xspeed > 0) {
 		//Stop horizontal movement
 		xspeed = 0;
 		
-		//If Mario is not tiny, prevent Mario from getting embed on the wall
-		if (global.powerup != cs_tiny) {
-			
-			while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
-				x--;
-		}
-		else {
-			
-			while (collision_rectangle(bbox_right, bbox_top+1, bbox_right, bbox_bottom-5, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
-				x--;			
-		}
+		//Prevent Mario from getting embed on a wall	
+		while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
+		&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
+			x--;
 	}
 	
 	//If there's a platform
@@ -777,19 +768,10 @@ if (xspeed > 0) {
 		//Stop horizontal movement
 		xspeed = 0;
 		
-		//If Mario is not tiny, prevent Mario from getting embed on the wall
-		if (global.powerup != cs_tiny) {
-			
-			while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, rp, 1, 0))
-			&& (!collision_point(x, bbox_top+4, rp, 0, 0))
-				x--;
-		}
-		else {
-			
-			while (collision_rectangle(bbox_right, bbox_top+1, bbox_right, bbox_bottom-5, rp, 1, 0))
-			&& (!collision_point(x, bbox_top, rp, 0, 0))
-				x--;			
-		}
+		//Prevent Mario from getting embed on a wall			
+		while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, rp, 1, 0))
+		&& (!collision_point(x, bbox_top+4, rp, 0, 0))
+			x--;
 	}
 }
 	
@@ -797,11 +779,10 @@ if (xspeed > 0) {
 else if (xspeed < 0) {
 	
 	//Check for a platform
-	var lp = collision_rectangle(bbox_left-1, bbox_top+1, bbox_left, bbox_bottom-5, obj_platformparent, 1, 0);
+	var lp = collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom-5, obj_platformparent, 1, 0);
 	
 	//If there's a wall to the left
-	if ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+1, bbox_left, bbox_bottom-5, obj_solid, 1, 0)))
-	|| (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0)))) {
+	if (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom, obj_solid, 1, 0)) {
 		
 		//Check for a block
 		var block_l = collision_rectangle(bbox_left-1, y + 8, bbox_left, y + 8, obj_blockparent, 0, 0);
@@ -852,19 +833,10 @@ else if (xspeed < 0) {
 		//Stop horizontal movement
 		xspeed = 0;
 			
-		//If Mario is not tiny, prevent him from getting embed on the wall
-		if (global.powerup != cs_tiny) {
-			
-			while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
-				x++;
-		}
-		else {
-			
-			while (collision_rectangle(bbox_left, bbox_top, bbox_left, bbox_bottom-5, obj_solid, 1, 0))
-			&& (!collision_point(x, bbox_top, obj_solid, 0, 0))
-				x++;			
-		}
+		//Prevent Mario from getting embed on a ceiling
+		while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
+		&& (!collision_point(x, bbox_top+4, obj_solid, 0, 0))
+			x++;
 	}
 	
 	//If there's a platform
@@ -898,37 +870,28 @@ else if (xspeed < 0) {
 		//Stop horizontal movement
 		xspeed = 0;
 		
-		//If Mario is not tiny, prevent him from getting embed on the wall
-		if (global.powerup != cs_tiny) {
-			
-			while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, lp, 1, 0))
-			&& (!collision_point(x, bbox_top+4, lp, 0, 0))
-				x++;
-		}
-		else {
-			
-			while (collision_rectangle(bbox_left, bbox_top, bbox_left, bbox_bottom-5, lp, 1, 0))
-			&& (!collision_point(x, bbox_top, lp, 0, 0))
-				x++;			
-		}
+		//Prevent Mario from getting embed on a wall			
+		while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, lp, 1, 0))
+		&& (!collision_point(x, bbox_top+4, lp, 0, 0))
+			x++;
 	}
 }
 	
 //If moving upwards
 if (yspeed < 0)
-&& (collision_rectangle(bbox_left, bbox_top - yspeed/2, bbox_right, bbox_top, obj_solid, 1, 0))
+&& (collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top+4, obj_solid, 1, 0))
 && (!collision_point(x, y + 8, obj_mblock, 1, 0)) { 
 		
 	//Check for a block above
-	var block_u = collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top, obj_blockparent, 0, 0);
+	var block_u = collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top+4, obj_blockparent, 0, 0);
 	
 	//Check for a bridge above
-	var bridge_u = collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top, obj_platform_bridge, 0, 0);
+	var bridge_u = collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top+4, obj_platform_bridge, 0, 0);
 	
 	//Prevent the player from getting stuck on a ceiling when jumping/climbing
 	if (state > playerstate.walk) {
 			
-		while (collision_rectangle(bbox_left, bbox_top + 1 - yspeed / 2, bbox_right, bbox_top + 1, obj_solid, 1, 0))
+		while (collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top + 1, obj_solid, 1, 0))
 			y++;
 	}
 		
@@ -989,7 +952,7 @@ if (yspeed < 0)
 	
 //Prevent the player from overlappin' the ceiling
 if (state > playerstate.walk)
-	while (collision_rectangle(bbox_left+1, bbox_top + 1 - yspeed / 2, bbox_right-1, bbox_top + 1, obj_solid, 1, 0))
+	while (collision_rectangle(bbox_left+1, bbox_top - yspeed / 2, bbox_right-1, bbox_top + 1, obj_solid, 1, 0))
 	&& (!collision_point(x, y + 8, obj_solid, 1, 0))
 		y++;
 	
@@ -1072,7 +1035,7 @@ if ((!swimming) && (water)) {
 //Otherwise, if the player had enough swimming and wants to get out
 else if (swimming) 
 && (!water)
-&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
+&& (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
     
     //If there's not water above and there's not a solid on the way out
     if (!collision_rectangle(bbox_left, y+swim_y, bbox_right, y+swim_y, obj_solid, 1, 0)) {
@@ -1102,7 +1065,7 @@ else if (swimming)
                 jumping = 1;
                     
                 //Create splash effect
-				if (!collision_rectangle(bbox_left-2, bbox_top, bbox_right+2, bbox_bottom, obj_waterfall, 0, 0)) {
+				if (!collision_rectangle(bbox_left-2, bbox_top+4, bbox_right+2, bbox_bottom, obj_waterfall, 0, 0)) {
 						
 					with (instance_create_depth(x, y+swim_y-15, -4, obj_smoke))
 						sprite_index = spr_splash;
@@ -1133,7 +1096,7 @@ if (yspeed == 0)
 	
     //If the player gets stuck
     if (collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_top+4, obj_solid, 1, 0))
-	&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_mblock, 1, 0))
+	&& (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom, obj_mblock, 1, 0))
     && (inwall == 0) {
         
         //If the direction was not set
@@ -1157,7 +1120,7 @@ if (yspeed == 0)
         x += 1*sign(direct);       
             
         //If the player is not longer embed on a wall, make him able to move.
-        if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 1, 0)) {
+        if (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom, obj_solid, 1, 0)) {
             
             inwall = 0;
             direct2 = 0;
@@ -1177,7 +1140,7 @@ else
     wiggle = 0;
     
 //If the player is not in contact with water.
-if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_swim, 0, 0)) {
+if (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom, obj_swim, 0, 0)) {
     
     //If the player is swimming.
     if (swimming)  

@@ -1,6 +1,6 @@
 /// @description Reverse moment or break
 
-if (global.powerup > cs_small) {
+if ((global.powerup > cs_small) && (global.powerup != cs_tiny)) {
 
 	//Play 'Break' sound
 	audio_play_sound(snd_break, 0, false);
