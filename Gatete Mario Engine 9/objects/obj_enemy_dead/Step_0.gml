@@ -1,13 +1,5 @@
 /// @description Dead enemy logic
 
-#region ANGLE
-
-	//Angle
-	if (sprite_width < 24)
-	&& (sprite_height < 24)
-		angle += 10 * sign(hspeed);
-#endregion
-
 //Lava
 var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_lava, 0, 0);
 if (lava) {

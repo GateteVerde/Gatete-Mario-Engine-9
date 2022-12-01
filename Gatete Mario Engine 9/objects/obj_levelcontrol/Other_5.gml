@@ -2,6 +2,7 @@
 
 //End reverb effect
 audio_bus_main.effects[0] = undefined;
+audio_bus_main.effects[1] = undefined;
 
 //Remember P-Switch time limit if enabled
 if (pswitch_on)

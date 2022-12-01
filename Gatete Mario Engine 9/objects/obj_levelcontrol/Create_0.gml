@@ -37,12 +37,6 @@ shake_falloff = 0;
 
 //Used for calculating falloff
 shake_starttime = 0;
-
-//Create delay effect and modify properties
-_ef_delay = audio_effect_create(AudioEffectType.Delay);
-_ef_delay.bypass = (reverb == 1) ? false : true;
-_ef_delay.time = 0.45;
-_ef_delay.feedback = 0.7;
         
 //Create reverb effect and modify properties
 _ef_reverb = audio_effect_create(AudioEffectType.Reverb1);
@@ -51,5 +45,4 @@ _ef_reverb.size = 0.6;
 _ef_reverb.mix = 0.5;
         
 //Apply to main bus
-audio_bus_main.effects[0] = _ef_delay;
-audio_bus_main.effects[1] = _ef_reverb;
+audio_bus_main.effects[0] = _ef_reverb;
