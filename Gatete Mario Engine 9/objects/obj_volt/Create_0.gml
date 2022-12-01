@@ -10,6 +10,9 @@ bounces = 0;
 //Do not swim
 noswim = true;
 
+//Ignore platforms
+ignore_platforms = true;
+
 //Do not turn toward walls
 turn_toward = true;
 

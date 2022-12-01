@@ -1,5 +1,4 @@
 /// @description Hurt parent wiggler
 
-if (outside_view() == true)
-exit;
-    with (parent) event_user(0);
+if (instance_exists(parent))
+	with (parent) event_user(0);

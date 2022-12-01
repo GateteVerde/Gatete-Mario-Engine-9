@@ -80,6 +80,10 @@ depth = -1000;
 		    //Pause 'Starman'
 		    else if (audio_is_playing(snd_starman))
 		        audio_pause_sound(snd_starman);
+				
+			//Pause 'P-Switch'
+		    else if (audio_is_playing(snd_pswitch))
+		        audio_pause_sound(snd_pswitch);
         
 		    //Pause 'Mega Mushroom'
 		    else if (audio_is_playing(snd_megashroom))
@@ -96,6 +100,10 @@ depth = -1000;
 		    //Pause 'Starman'
 		    else if (audio_is_paused(snd_starman))
 		        audio_resume_sound(snd_starman);
+			
+			//Pause 'P-Switch'
+			else if (audio_is_paused(snd_pswitch))
+				audio_resume_sound(snd_pswitch);
         
 		    //Pause 'Mega Mushroom'
 		    else if (audio_is_paused(snd_megashroom))
@@ -110,6 +118,10 @@ depth = -1000;
 	//Set starman pitch based on global.pitch value
 	if (audio_is_playing(snd_starman))
 		audio_sound_pitch(snd_starman, pitch);
+		
+	//Set p-switch pitch based on global.pitch value
+	if (audio_is_playing(snd_pswitch))
+		audio_sound_pitch(snd_pswitch, pitch);
 		
 	//Set megashroom pitch based on global.pitch value
 	if (audio_is_playing(snd_megashroom))

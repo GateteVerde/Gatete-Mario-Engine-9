@@ -1,5 +1,8 @@
 /// @description Remember P-Switch and G-Switch values
 
+//End reverb effect
+audio_bus_main.effects[0] = undefined;
+
 //Remember P-Switch time limit if enabled
 if (pswitch_on)
     global.pswitch = alarm[5];

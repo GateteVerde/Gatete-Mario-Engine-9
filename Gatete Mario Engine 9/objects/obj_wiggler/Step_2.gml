@@ -13,9 +13,12 @@ if (plat) then bodyadd = plat.x-plat.xprevious; //hspeed
 
 //Set the body position
 for (i=1; i < seg; i++) {
+	
+	if (instance_exists(mybody[i])) {
 		
-	mybody[i].x = oldx[i*closeness];
-	mybody[i].y = oldy[i*closeness];
+		mybody[i].x = oldx[i*closeness];
+		mybody[i].y = oldy[i*closeness];
+	}
 }
 
 //Record coordinates for body parts to follow
