@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_lui",
+  "name": "obj_jumpinglui",
   "spriteId": {
-    "name": "spr_lui",
-    "path": "sprites/spr_lui/spr_lui.yy",
+    "name": "spr_jumpinglui",
+    "path": "sprites/spr_jumpinglui/spr_jumpinglui.yy",
   },
   "solid": false,
   "visible": true,

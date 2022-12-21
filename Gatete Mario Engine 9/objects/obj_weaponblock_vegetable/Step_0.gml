@@ -6,7 +6,7 @@ event_inherited();
 //Set up the items that can break this block
 items = [
 
-	obj_beetroot,
+	obj_beet,
 	obj_carryparent
 ]
 
@@ -23,7 +23,7 @@ for (var i=0; i < array_length(items); i++) {
 		event_user(15);
 		
 		//Make vegs bounce
-		if (veg.object_index == obj_beetroot) {
+		if (veg.object_index == obj_beet) {
 			
 			with (veg) {
 				

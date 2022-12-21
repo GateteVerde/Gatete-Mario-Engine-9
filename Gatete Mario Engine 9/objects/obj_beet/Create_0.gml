@@ -3,10 +3,12 @@
 //Inherit the parent event
 event_inherited();
 
-//Sequence to display
-//0: Small to big
-//1: Big to small
-//2: Powerup
-//3: Powerdown
-//4: Transform
-sequence = 4;
+//Set the vertical speed
+yspeed = -3;
+yadd = 0.1;
+
+//Bounces
+bumps = 3;
+
+//Do not swim
+noswim = true;

@@ -3,6 +3,9 @@
 //Inherit event
 event_inherited();
 
+//How vulnerable is this enemy to Yoshi?
+edible = 2;
+
 //Fire hits
 firehp = 2;
 

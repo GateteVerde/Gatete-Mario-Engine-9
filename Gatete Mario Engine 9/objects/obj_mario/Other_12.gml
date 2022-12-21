@@ -406,7 +406,7 @@ if (inwall == 0)
 							//If Mario is ready to do a squat jump
 							if (squat_ready > 0) {
 								
-								yspeed = -3.9675;
+								yspeed = (global.powerup == cs_lui) ? -4.1675 : -3.9675;
 								squat_ready = 0;
 								if (squat_time > 0)
 									squat_time = 0;

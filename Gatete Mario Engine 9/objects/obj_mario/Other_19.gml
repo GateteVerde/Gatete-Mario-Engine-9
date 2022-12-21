@@ -248,7 +248,7 @@ throw_projectile = function() {
 			
 			//Beetroot
 	        else if (global.powerup == cs_beet)
-	        && (instance_number(obj_beetroot) < 2) {
+	        && (instance_number(obj_beet) < 2) {
 				
 				//Play 'Fireball' sound
 				audio_play_sound(snd_fireball, 0, false);
@@ -257,7 +257,7 @@ throw_projectile = function() {
 	            firing = 9;
 				
 				//Create Beetroot
-	            with (instance_create_depth(x, y, -2, obj_beetroot)) {
+	            with (instance_create_depth(x, y, -2, obj_beet)) {
             
 					//Match the speed to the player's direction
 	                xspeed = 1.25*sign(other.xscale);
@@ -323,7 +323,7 @@ throw_projectile_spin = function() {
 				//Play 'Iceball' sound
 				audio_play_sound(snd_iceball, 0, false);
 		
-				//Create Snowball
+				//Create Iceball
 				with (instance_create_depth(x, y, -2, obj_iceball))
 					xspeed = 1.2*sign(other.dir);
 			}
@@ -339,7 +339,7 @@ throw_projectile_spin = function() {
 				//Play 'Hammer' sound
 				audio_play_sound(snd_fireball, 0, false);
 		
-				//Create Snowball
+				//Create Hammer
 				with (instance_create_depth(x, y, -2, obj_hammer)) {
 				
 					vspeed = -2.5;
@@ -354,7 +354,7 @@ throw_projectile_spin = function() {
 			//If there's less than 2 super balls on screen
 			if (instance_number(obj_superball) < 2) {
 				
-				//Play 'Superball' sound
+				//Play 'Fireball' sound
 				audio_play_sound(snd_fireball, 0, false);
 				
 				//Create Superball
@@ -372,12 +372,27 @@ throw_projectile_spin = function() {
 			//If there's less than 2 lightning bolt on screen
 			if (instance_number(obj_volt) < 2) {
 				
-				//Play 'Superball' sound
+				//Play 'Fireball' sound
 				audio_play_sound(snd_fireball, 0, false);
 				
-				//Create Superball
+				//Create bolt
 			    with (instance_create_depth(x, y, -2, obj_volt))
 			        xspeed = 6*sign(other.dir);
+			}
+		}
+		
+		//Beetroot
+		else if (global.powerup == cs_beet) {
+			
+			//If there's less than 2 beet on screen
+			if (instance_number(obj_beet) < 2) {
+	
+				//Play 'Hammer' sound
+				audio_play_sound(snd_fireball, 0, false);
+		
+				//Create Beetroot
+	            with (instance_create_depth(x, y, -2, obj_beet))
+	                xspeed = 1.25*sign(other.dir);
 			}
 		}
 		
