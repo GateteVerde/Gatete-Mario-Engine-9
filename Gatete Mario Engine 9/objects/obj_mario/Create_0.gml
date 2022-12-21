@@ -232,6 +232,7 @@ swim_y = 0;
 alarm[1] = 1;
 alarm[2] = 1;
 alarm[3] = 1;
+alarm[7] = 1;
 
 //Flags
 instance_create_layer(0, 0, "Main", obj_mario_marker_top);

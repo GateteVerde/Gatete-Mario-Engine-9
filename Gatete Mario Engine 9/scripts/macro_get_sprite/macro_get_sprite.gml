@@ -28,6 +28,8 @@ function macro_get_sprite() {
 		case (cs_squirrel): return spr_superacorn;
 		case (cs_fraccoon): return spr_fieryleaf;
 		case (cs_iraccoon): return spr_chillleaf;
+		case (cs_beet): return spr_beet;
+		case (cs_lui): return spr_lui;
 		case (cs_gold): return (obj_coordinator.colourblind == 1) ? spr_goldenflower_cb : spr_goldenflower;
 		case (cs_mega): return spr_megashroom;
 	    case (cs_yoshi_g): return spr_egg;

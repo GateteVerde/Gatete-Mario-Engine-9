@@ -73,6 +73,12 @@ function sprite_create_object() {
 		//Super Acorn
 		case (spr_superacorn): return instance_create_depth(argument[1], argument[2], argument[3], obj_superacorn);
 		
+		//Beetroot
+		case (spr_beet): return instance_create_depth(argument[1], argument[2], argument[3], obj_beet);
+		
+		//Jumping Lui
+		case (spr_lui): return instance_create_depth(argument[1], argument[2], argument[3], obj_lui);
+		
 		//Golden Flower
 		case (spr_goldenflower):
 		case (spr_goldenflower_cb): 

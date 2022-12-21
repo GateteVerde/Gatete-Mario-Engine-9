@@ -356,7 +356,7 @@ if (inwall == 0)
 		isjump = 1;
         
         //Jump high if you have the frog powerup, and you are not riding anything
-        if (global.powerup == cs_frog)    
+        if (global.powerup == cs_frog)   
             yspeed = -3.7675;
     
         //Jump depending of the horizontal speed.
@@ -411,8 +411,13 @@ if (inwall == 0)
 								if (squat_time > 0)
 									squat_time = 0;
 							}
-							else
-								yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+							else {
+							
+								if (global.powerup != cs_lui)
+									yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+								else
+									yspeed = -3.7675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+							}
 						#endregion
 						
 						//If Mario does not have the 'Tiny' or 'Mega' powerups and it's not riding a yoshi/kuribo shoe and it's running
@@ -469,8 +474,9 @@ if (inwall == 0)
 					//Otherwise
 					else {
 					
-						//If Mario does not have the Squirrel suit
+						//If Mario does not have the Squirrel suit or the Jumping Lui powerup
 						if (global.powerup != cs_squirrel)
+						&& (global.powerup != cs_lui)
 							yspeed = -3.23775+abs(xspeed)/7.5*-1;
 						else
 							yspeed = -3.7675+abs(xspeed)/7.5*-1;

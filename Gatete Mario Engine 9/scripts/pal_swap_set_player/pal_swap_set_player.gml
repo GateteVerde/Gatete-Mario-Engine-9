@@ -12,7 +12,8 @@ enum palette {
 	carrot = 3,
 	superball = 4,
 	volt = 5,
-	gold = 6	
+	lui = 6,
+	gold = 7	
 }
 
 function pal_swap_set_player() {
@@ -36,6 +37,7 @@ function pal_swap_set_player() {
 			case (cs_volt): pal = palette.volt; break;				// Volt palette
 			case (cs_fraccoon): pal = palette.fire; break;			// Fire Raccoon palette
 			case (cs_iraccoon): pal = palette.ice; break;			// Ice Raccoon palette
+			case (cs_lui): pal = palette.lui; break;				// Jumping Lui palette
 			case (cs_gold): pal = palette.gold; break;				// Gold palette		
 		}
 		
@@ -61,5 +63,4 @@ function pal_swap_set_player() {
 	
 	//Otherwise, set the palette swap
 	pal_swap_set(spr, pal);
-
 }

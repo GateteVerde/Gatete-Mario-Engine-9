@@ -246,6 +246,28 @@ throw_projectile = function() {
 	                held = 1;
 	        }
 			
+			//Beetroot
+	        else if (global.powerup == cs_beet)
+	        && (instance_number(obj_beetroot) < 2) {
+				
+				//Play 'Fireball' sound
+				audio_play_sound(snd_fireball, 0, false);
+        
+				//Set firing animation time
+	            firing = 9;
+				
+				//Create Beetroot
+	            with (instance_create_depth(x, y, -2, obj_beetroot)) {
+            
+					//Match the speed to the player's direction
+	                xspeed = 1.25*sign(other.xscale);
+					
+					//Make the fireball go upwards if the player is pressing up
+	                if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
+	                    yspeed = -4.5;
+	            }
+	        }         
+			
 			//Gold Fireball
 	        else if (global.powerup == cs_gold)
 	        && (instance_number(obj_fireball_gold) < 2) {
