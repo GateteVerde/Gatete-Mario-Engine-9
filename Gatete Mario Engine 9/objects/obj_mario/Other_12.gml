@@ -413,10 +413,19 @@ if (inwall == 0)
 							}
 							else {
 							
+								//If Mario does not have the Jumping Lui powerup
 								if (global.powerup != cs_lui)
 									yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
-								else
-									yspeed = -3.7675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+								
+								//Otherwise, if Mario does have the Jumping Lui powerup
+								else {
+								
+									//If Mario is not riding a Yoshi or a Kuribo Shoe
+									if (global.mount == 0)
+										yspeed = -3.7675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+									else
+										yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+								}
 							}
 						#endregion
 						

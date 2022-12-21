@@ -47,6 +47,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_271A93CA","properties":[],"isDnd":false,"objectId":{"name":"obj_weaponblock_vegetable","path":"objects/obj_weaponblock_vegetable/obj_weaponblock_vegetable.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44BFB093","properties":[],"isDnd":false,"objectId":{"name":"obj_weaponblock_vegetable","path":"objects/obj_weaponblock_vegetable/obj_weaponblock_vegetable.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_268D8B74","properties":[],"isDnd":false,"objectId":{"name":"obj_goomba_big","path":"objects/obj_goomba_big/obj_goomba_big.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50396469","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"sprout","path":"objects/obj_qblock/obj_qblock.yy",},"objectId":{"name":"obj_qblock","path":"objects/obj_qblock/obj_qblock.yy",},"value":"cs_yoshi_g",},
+          ],"isDnd":false,"objectId":{"name":"obj_qblock","path":"objects/obj_qblock/obj_qblock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":112.0,"y":336.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":76,"SerialiseHeight":27,"TileCompressedData":[
 -20,0,-56,-2147483648,-20,0,-56,-2147483648,-20,0,-56,-2147483648,-20,0,-56,-2147483648,-20,0,-56,-2147483648,-20,0,-56,-2147483648,-20,0,-56,-2147483648,-20,0,-56,-2147483648,-24,0,-52,-2147483648,-24,0,-52,-2147483648,-24,0,-52,-2147483648,-24,0,-52,-2147483648,-24,0,-52,-2147483648,-24,0,-52,-2147483648,-24,0,-52,-2147483648,-24,0,-52,-2147483648,-24,0,-93,-2147483648,1,2567,-75,-2147483648,1,2567,-75,-2147483648,
@@ -83,6 +86,7 @@
     {"name":"inst_271A93CA","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
     {"name":"inst_44BFB093","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
     {"name":"inst_268D8B74","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
+    {"name":"inst_50396469","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
