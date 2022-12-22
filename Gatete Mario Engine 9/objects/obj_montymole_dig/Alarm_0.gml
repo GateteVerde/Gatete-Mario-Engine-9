@@ -23,7 +23,7 @@ if (sprite_index == spr_montymole_dig_wall) {
     image_index = 1;
 	
 	//Set depth
-	depth = 150;
+	depth = 49;
 	
 	//Set vulnerability
 	vulnerable = 100;

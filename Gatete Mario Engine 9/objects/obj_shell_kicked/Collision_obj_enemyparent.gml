@@ -136,46 +136,11 @@ if (other.vulnerable < 99) {
 		
 		#endregion
 		
-		//Get killer id
-		killer_id = other.id;
-		
 		//Destroy both NPCs
 		with (other) {
 			
-			//If this object has a special kill event
-			if (object_index == obj_wiggler)
-			|| (object_index == obj_chomp)
-			|| (object_index == obj_flamechomp)
-				event_user(0);
-				
-			//Otherwise
-			else {
-	
-				//Kill NPC
-				imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
-		
-				//Hereby sprite
-				imdead.sprite_index = sprite_index;
-
-				//Hereby frame
-				imdead.image_index = image_index;
-
-				//Hereby facing direction
-				imdead.image_xscale = xscale;
-		
-				//Set horizontal speed
-				#region
-					
-					if (other.x < x)
-						imdead.hspeed = 1;
-					else
-						imdead.hspeed = -1;
-					
-				#endregion
-					
-				//Destroy
-				instance_destroy();
-			}
+			killer_id = other.id;
+			event_user(0);
 		}
 	}
 	
