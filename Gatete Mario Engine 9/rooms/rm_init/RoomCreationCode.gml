@@ -15,5 +15,8 @@ if (global.restart == true) {
 	global.restart = false;
 }
 
+//Create disclaimer
+instance_create_depth(0, 0, 10, obj_disclaimer);
+
 //Create fade out transition
 instance_create_depth(0, 0, -99, obj_fade_out);
