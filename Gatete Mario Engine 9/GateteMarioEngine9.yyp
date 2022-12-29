@@ -3388,6 +3388,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"boss.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"beforeboss.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"snow.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
   ],
   "MetaData": {
     "IDEVersion": "2022.11.1.56",
