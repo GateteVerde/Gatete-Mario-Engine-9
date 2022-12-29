@@ -39,19 +39,19 @@ if (global.powerup != cs_mega) {
             
 	            //Set up direction
 	            warpme.direction = 270;
-            
+				
 	            //Set up destination room
-	            if (destination != noone) {
+				if (destination != noone) {
+					
+					warpme.destination = destination;
+				}
             
-	                warpme.destination = destination;
-	            }
+		        //Start warp
+		        warpme.alarm[0] = 32;
             
-	            //Start warp
-	            warpme.alarm[0] = 32;
-            
-	            //Set up warp parameters
-	            warpme.exit_dir = exit_dir;
-	            warpme.exit_id = exit_id;
+		        //Set up warp parameters
+		        warpme.exit_dir = exit_dir;
+		        warpme.exit_id = exit_id;
             
 	            //Destroy the player object
 	            with (obj_mario) instance_destroy();

@@ -48,7 +48,7 @@ if (global.powerup != cs_mega) {
 	            //Start warp
 				#region
 				
-					//Warp to destination
+					//Start warp
 					warpme.alarm[0] = 32;
 				
 					//If Mario is tiny

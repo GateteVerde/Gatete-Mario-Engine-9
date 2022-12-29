@@ -41,13 +41,13 @@ if (global.powerup != cs_mega) {
 	            warpme.direction = 180;
             
 	            //Set up destination room
-	            if (destination != noone) {
+				if (destination != noone) {
+					
+					warpme.destination = destination;
+				}
             
-	                warpme.destination = destination;
-	            }
-            
-	            //Start warp
-				warpme.alarm[0] = 32;
+		        //Start warp
+		        warpme.alarm[0] = 32;
             
 	            //Set up warp parameters
 	            warpme.exit_dir = exit_dir;
