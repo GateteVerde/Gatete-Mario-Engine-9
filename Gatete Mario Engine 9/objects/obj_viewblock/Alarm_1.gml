@@ -19,7 +19,7 @@ else {
 		
 	    sprite_index = macro_get_sprite(other.sprout[other.numb]);
 		if (other.bottom == true)
-			vspeed = 0.5;
+			yspeed = 0.5;
 	}
 }
 

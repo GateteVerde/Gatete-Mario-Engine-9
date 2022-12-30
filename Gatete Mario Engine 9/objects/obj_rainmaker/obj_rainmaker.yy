@@ -7,7 +7,7 @@
     "path": "sprites/spr_eventmarker/spr_eventmarker.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -28,15 +28,15 @@ if (position_meeting(x, y-8, obj_solid)) {
     //Go down if both sides are blocked
     if (position_meeting(x-16, y+8, obj_solid))
     && (position_meeting(x+16, y+8, obj_solid))
-        yspeed = 0.35;
+        yspeed = 0.5;
 
     //Go right if the left side is blocked
     else if (position_meeting(x-16, y+8, obj_solid))
-        xspeed = 0.35;
+        xspeed = 0.5;
 
     //Go left if the right side is blocked
     else if (position_meeting(x+16, y+8, obj_solid))
-        xspeed = -0.35;
+        xspeed = -0.5;
 
     //Otherwise, go towards the player
     else {
@@ -45,17 +45,17 @@ if (position_meeting(x, y-8, obj_solid)) {
         if (instance_exists(obj_mario)) {
         
             if (obj_mario.x > x)
-                xspeed = 0.35;
+                xspeed = 0.5;
             else
-                xspeed = -0.35;
+                xspeed = -0.5;
         }
         
         //Otherwise, if it does not exist.
         else
-            xspeed = -0.35;
+            xspeed = -0.5;
     }
 }
 
 //Otherwise, move up
 else if (yspeed == 0)
-	yspeed = -0.35;
+	yspeed = -0.5;
