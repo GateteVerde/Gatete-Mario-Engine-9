@@ -1,4 +1,4 @@
-/// @description Generate effects
+/// @description Generate gold effects
 
 alarm[2] = 8;
 if (global.powerup == cs_gold) {

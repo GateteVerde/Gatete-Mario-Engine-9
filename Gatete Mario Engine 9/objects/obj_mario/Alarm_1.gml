@@ -4,8 +4,8 @@
 var water = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+1, obj_swim, 0, 0);
 
 //If the player is crouched down
-if (crouch == 1)
-&& (state < 2)
+if ((state < 2) && (statedelay == 0))
+&& (crouch == 1)
 && (swimming == 0)
 && (abs(xspeed) > 0) 
 && (!instance_exists(obj_mario_balloon)) 
