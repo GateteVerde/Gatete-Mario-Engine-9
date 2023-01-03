@@ -2751,6 +2751,7 @@
     {"id":{"name":"spr_mario_cat_hold","path":"sprites/spr_mario_cat_hold/spr_mario_cat_hold.yy",},"order":7,},
     {"id":{"name":"spr_mario_squirrel_skid","path":"sprites/spr_mario_squirrel_skid/spr_mario_squirrel_skid.yy",},"order":4,},
     {"id":{"name":"spr_venusfiretrap_side_right","path":"sprites/spr_venusfiretrap_side_right/spr_venusfiretrap_side_right.yy",},"order":9,},
+    {"id":{"name":"rm_course_w1_l2_b","path":"rooms/rm_course_w1_l2_b/rm_course_w1_l2_b.yy",},"order":1,},
     {"id":{"name":"obj_pipe","path":"objects/obj_pipe/obj_pipe.yy",},"order":5,},
     {"id":{"name":"spr_blaster_banzai","path":"sprites/spr_blaster_banzai/spr_blaster_banzai.yy",},"order":0,},
     {"id":{"name":"obj_score_minigame","path":"objects/obj_score_minigame/obj_score_minigame.yy",},"order":2,},
@@ -2932,6 +2933,7 @@
     {"roomId":{"name":"rm_course_w1_l1_c","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},},
     {"roomId":{"name":"rm_course_w1_l4","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},},
     {"roomId":{"name":"rm_course_w1_l2","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},},
+    {"roomId":{"name":"rm_course_w1_l2_b","path":"rooms/rm_course_w1_l2_b/rm_course_w1_l2_b.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":6,},

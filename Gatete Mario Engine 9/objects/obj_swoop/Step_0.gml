@@ -18,9 +18,6 @@ if (ready == 0) {
             //Set flying sprite
             sprite_index = spr_swoop_fly;
             
-            //Animate
-            image_speed = 0.3;
-            
             //Set the vertical speed
             vspeed = 1.5;
             

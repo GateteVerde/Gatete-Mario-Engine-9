@@ -1,4 +1,4 @@
-/// @description Lakitu logic
+/// @description Cloudrus logic
 
 //Manage pseudo movement variables
 if (freeze == false) {
