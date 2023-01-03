@@ -1859,6 +1859,7 @@
     {"id":{"name":"spr_mario_bee_hold","path":"sprites/spr_mario_bee_hold/spr_mario_bee_hold.yy",},"order":9,},
     {"id":{"name":"obj_rinka","path":"objects/obj_rinka/obj_rinka.yy",},"order":7,},
     {"id":{"name":"obj_mapcontrol","path":"objects/obj_mapcontrol/obj_mapcontrol.yy",},"order":0,},
+    {"id":{"name":"rm_course_w1_l2","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},"order":0,},
     {"id":{"name":"spr_platform_lift","path":"sprites/spr_platform_lift/spr_platform_lift.yy",},"order":1,},
     {"id":{"name":"spr_bgr_minigame","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},"order":19,},
     {"id":{"name":"obj_grass_coins","path":"objects/obj_grass_coins/obj_grass_coins.yy",},"order":7,},
@@ -2930,6 +2931,7 @@
     {"roomId":{"name":"rm_course_w1_l1_b","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},},
     {"roomId":{"name":"rm_course_w1_l1_c","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},},
     {"roomId":{"name":"rm_course_w1_l4","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},},
+    {"roomId":{"name":"rm_course_w1_l2","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":6,},
