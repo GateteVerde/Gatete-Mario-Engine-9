@@ -39,24 +39,28 @@ if (ready == 0) {
 
 //Otherwise, if swoop is flying
 else {
+	
+	//If not frozen
+	if (freeze == false) {
 
-    //If swoop is flying to the right
-    if (ready == 1) {
+	    //If swoop is flying to the right
+	    if (ready == 1) {
     
-        if (direction == 0)
-            direction = 0;
-        else if (direction != 0)
-            direction += 0.75;
-    }
+	        if (direction == 0)
+	            direction = 0;
+	        else if (direction != 0)
+	            direction += 0.75;
+	    }
     
-    //Otherwise, if swoop is flying to the left
-    else if (ready == -1) {
+	    //Otherwise, if swoop is flying to the left
+	    else if (ready == -1) {
     
-        if (direction == 180)
-            direction = 180;
-        else if (direction != 180)
-            direction -= 0.75;
-    }
+	        if (direction == 180)
+	            direction = 180;
+	        else if (direction != 180)
+	            direction -= 0.75;
+	    }
+	}
         
     //Set the facing direction
     if (hspeed > 0)
