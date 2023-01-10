@@ -3,7 +3,7 @@
 //If Mario is moving up and it's jumping
 if (global.powerup != cs_mega)
 && (other.yspeed < 0)
-&& (other.jumping > 0)
+&& ((other.jumping > 0) || (other.swimming == 1))
 && (other.bbox_top > bbox_bottom + other.yspeed) {
 
 	//Play 'Bump' sound

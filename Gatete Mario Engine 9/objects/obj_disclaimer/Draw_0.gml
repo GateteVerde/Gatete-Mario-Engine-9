@@ -4,7 +4,7 @@
 draw_sprite_ext(spr_title, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 48, 0.5, 0.5, 0, c_white, 1);
 
 //Set font
-draw_set_font(global.gui_font_menu);
+draw_set_font(global.gui_font);
 
 //Set text alignment
 draw_set_valign(fa_center);

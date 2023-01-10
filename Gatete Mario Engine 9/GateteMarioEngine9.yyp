@@ -1897,6 +1897,7 @@
     {"id":{"name":"spr_mario_bee_climb","path":"sprites/spr_mario_bee_climb/spr_mario_bee_climb.yy",},"order":5,},
     {"id":{"name":"obj_node_multi","path":"objects/obj_node_multi/obj_node_multi.yy",},"order":2,},
     {"id":{"name":"obj_levelpanel_switch_g","path":"objects/obj_levelpanel_switch_g/obj_levelpanel_switch_g.yy",},"order":1,},
+    {"id":{"name":"rm_course_w1_l2_c","path":"rooms/rm_course_w1_l2_c/rm_course_w1_l2_c.yy",},"order":2,},
     {"id":{"name":"spr_mariostart","path":"sprites/spr_mariostart/spr_mariostart.yy",},"order":7,},
     {"id":{"name":"snd_powerup_mega","path":"sounds/snd_powerup_mega/snd_powerup_mega.yy",},"order":37,},
     {"id":{"name":"spr_weaponblock_dash","path":"sprites/spr_weaponblock_dash/spr_weaponblock_dash.yy",},"order":15,},
@@ -2935,6 +2936,7 @@
     {"roomId":{"name":"rm_course_w1_l4","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},},
     {"roomId":{"name":"rm_course_w1_l2","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},},
     {"roomId":{"name":"rm_course_w1_l2_b","path":"rooms/rm_course_w1_l2_b/rm_course_w1_l2_b.yy",},},
+    {"roomId":{"name":"rm_course_w1_l2_c","path":"rooms/rm_course_w1_l2_c/rm_course_w1_l2_c.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":6,},
