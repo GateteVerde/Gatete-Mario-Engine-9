@@ -1,5 +1,8 @@
 /// @description End of level Castle
 
+//Set up sprite
+sprite_index = (instance_exists(obj_flagpole_secret)) ? spr_castle_secret : spr_castle;
+
 //Do not animate
 image_speed = 0;
 image_index = 0;
