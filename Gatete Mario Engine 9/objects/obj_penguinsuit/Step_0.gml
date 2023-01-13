@@ -28,7 +28,7 @@ if (yadd == 0) {
 	else if (can_bounce == true) {
 	
 		//Set the vertical speed
-		yspeed = -(1 - (swimming * 0.5));
+		yspeed = -(1.25 - (swimming * 0.675));
 		y--;
 	}
 	

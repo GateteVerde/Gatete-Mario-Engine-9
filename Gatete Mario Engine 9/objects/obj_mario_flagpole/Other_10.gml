@@ -41,14 +41,29 @@ else {
     
     //Otherwise
     else {
+		
+		//If Mario has the frog suit
+		if (global.powerup != cs_frog) {
     
-        //Use the jump sprite
-        sprite_index = global.jump_sprite[global.powerup];
+	        //Use the jump sprite
+	        sprite_index = global.jump_sprite[global.powerup];
     
-        //Use the correct image index
-		if (yspeed < 0)
-			image_index = 0;
-		else
-			image_index = 1;
+	        //Use the correct image index
+			if (yspeed < 0)
+				image_index = 0;
+			else
+				image_index = 1;
+		}
+		
+		//Otherwise
+		else {
+		
+			//Use the walk sprite
+			sprite_index = global.walk_sprite[global.powerup];
+			
+			//Set the animation
+			image_speed = 0;
+			image_index = 2;
+		}
     }
 }

@@ -282,8 +282,20 @@ else {
 									sprite_index = global.somersault_sprite[global.powerup];
 									
 								//Otherwise
-								else if (groundpound == 2)
-									sprite_index = global.slide_sprite[global.powerup];
+								else if (groundpound == 2) {
+									
+									//If Mario does not use the penguin suit
+									if (global.powerup != cs_penguin)
+										sprite_index = global.slide_sprite[global.powerup];
+										
+									//Otherwise
+									else {
+									
+										//If Mario does use the penguin suit
+										if (global.powerup == cs_penguin)
+											sprite_index = spr_mario_penguin_slide2;
+									}
+								}
 							}
 							
 							//Otherwise, if Mario is doing a twirl
