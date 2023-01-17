@@ -425,8 +425,8 @@ function timer_system_room_end() {
         if (instance_exists(_result.instance) && !_result.instance.persistent) {
             delete _result;
             ds_list_delete(global.__timer_list, i);
-        }
-        i--;
+			--i; // fixed a crash by moving this check up. i assume the -- was there to begin with to bring you back to focusing on the first element of the list stack, but it caused an infinite loop, not sure if this does too since i'm not going to dissect the entire timer plugin for a quick fix, but this paves the ground for knowing where to find any other potential breaks caused by the timer :D -aspirin
+		}
     }
 }
 
