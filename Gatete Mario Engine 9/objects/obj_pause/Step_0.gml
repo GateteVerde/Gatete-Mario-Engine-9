@@ -38,6 +38,21 @@ var _pause  = input_check_pressed(input.start);
 			
 			//Resume timelines
 			timeline_running = 1;
+			
+			#region RESUME SOUNDS
+			
+				//Resume 'Spin' sound
+				audio_resume_sound(snd_spin);
+
+				//Resume 'Skid' sound
+				audio_resume_sound(snd_skid);
+
+				//Resume 'Climb' sound
+				audio_resume_sound(snd_climb);
+
+				//Resume 'P-Meter' sound
+				audio_resume_sound(snd_pmeter);
+			#endregion
 		
 			//Destroy
 			instance_destroy();
@@ -111,7 +126,7 @@ if (scale_type == 1) {
 					if (audio_is_playing(global.stream)) {
     
 					    //Stop the stream...
-					    audio_stop_sound(global.stream);
+					    audio_resume_sound(global.stream);
     
 					    //...and free it from memory
 					    audio_destroy_stream(global.stream);
@@ -131,9 +146,3 @@ if (scale_type == 1) {
 		}
 	}
 }
-
-//Stop the following sounds
-audio_stop_sound(snd_spin);
-audio_stop_sound(snd_skid);
-audio_stop_sound(snd_climb);
-audio_stop_sound(snd_pmeter);

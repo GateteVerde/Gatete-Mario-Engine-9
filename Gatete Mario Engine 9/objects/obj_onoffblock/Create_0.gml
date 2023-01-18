@@ -1,4 +1,4 @@
-/// @description On/Off Block
+/// @description On/Off Block (Do not use Timed On/Off Blocks with these blocks)
 
 //Inherit the parent event
 event_inherited();

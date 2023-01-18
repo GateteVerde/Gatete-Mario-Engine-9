@@ -22,5 +22,21 @@ scale_type = 0;
 //Pause timelines
 timeline_running = 0;
 
+#region PAUSE SOUNDS
+
+	//Stop 'Spin' sound
+	audio_pause_sound(snd_spin);
+
+	//Stop 'Skid' sound
+	audio_pause_sound(snd_skid);
+
+	//Stop 'Climb' sound
+	audio_pause_sound(snd_climb);
+
+	//Stop 'P-Meter' sound
+	audio_pause_sound(snd_pmeter);
+	
+#endregion
+
 //Delay snapshot creation
 alarm[0] = 2;
