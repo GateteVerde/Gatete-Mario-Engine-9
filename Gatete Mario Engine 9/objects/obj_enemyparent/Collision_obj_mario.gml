@@ -313,6 +313,12 @@ if (stomp != -1)
                     
 		                    //Increment combo
 		                    other.hitcombo++;
+							
+							//Set y position for Mario
+							if (other.yspeed > 0) {
+								
+								other.y = other.yprevious;
+							}
 						
 							//Set killer id and kill enemy
 							killer_id = obj_mario;
@@ -339,7 +345,9 @@ if (stomp != -1)
         }
     
         //Otherwise, hurt the player
-        else
-            with (other) event_user(0);
+        else {
+			
+			with (other) event_user(0);
+		}
     } 
 }

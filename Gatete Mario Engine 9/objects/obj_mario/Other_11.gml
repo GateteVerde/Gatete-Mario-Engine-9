@@ -8,7 +8,7 @@ if (instance_exists(obj_yoshi)) {
 }
 
 //Set the vertical speed
-yspeed = (global.powerup == cs_tiny) ? -2.0625 : -4.125;
+yspeed = -4.125;
 
 //Boost jump
 y--;
