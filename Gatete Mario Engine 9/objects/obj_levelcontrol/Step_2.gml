@@ -119,64 +119,12 @@ if (room != rm_bonus) {
 					}				
 				#endregion
 				
-				//If the camera is not locked
-				if (camlock == false)					
-					y = obj_mario.y;
-					
-				//Otherwise, if the camera is locked
-				else {
-            
-			        //If the player is flying, running, swimming, climbing or wall running
-					if (obj_mario.flying == true)
-			        || (obj_mario.run == true)
-					|| (obj_mario.swimming == 1)
-					|| (obj_mario.wallkick == 1)
-					|| (obj_mario.squirrelpropel == 1)
-					|| ((obj_mario.jumpstyle > 0) && (global.powerup == cs_propeller))
-					|| ((obj_mario.state == playerstate.climb) || (instance_exists(obj_mario_wallrunner)))
-			            y = obj_mario.y;
-
-			        //Otherwise
-			        else {
-
-			            //If Mario's is idle or walking
-			            if (obj_mario.state == playerstate.idle) 
-			            || (obj_mario.state == playerstate.walk) {
-
-			                //Position Mario just reached
-							floorY = obj_mario.y;
-
-			                //If Mario is above the camera
-			                if (obj_mario.y < y) {
-
-			                    //If the camera is 6 pixels below Mario's y position, move 6 pixels upwards until the camera catches the player.
-			                    if (y > obj_mario.y+6)
-			                        y -= 6;
-
-			                    //Otherwise
-			                    else
-			                        y = obj_mario.y;
-			                }
-			            } 
-			            else {
-
-			                //If Mario didn't reach Y position on the ground, catch Mario (only applies going up)
-			                if (round(y) < floorY)
-			                    y -= 6;
-			            }
-
-			            //If Mario is below the camera, catch him instantly
-			            if (obj_mario.y > y)
-			                y = obj_mario.y
-			        }
-				}
+				//Set Y position of the camera
+				y = obj_mario.y;
 				
-				//If classic scroll is disabled
+				//Set X position of the camera				
 				if (classicscroll == false)
-					x = obj_mario.x;
-					
-				//Otherwise
-				else if (obj_mario.x > x)
+				|| ((classicscroll == true) && (obj_mario.x > x))
 					x = obj_mario.x;
 		    }
 		    else {

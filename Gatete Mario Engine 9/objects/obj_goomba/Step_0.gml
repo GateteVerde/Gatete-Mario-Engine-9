@@ -196,10 +196,17 @@ else {
     }
 }
 
-//If there's a goomba above, use normal frame
-if (mebelow == noone)
-    sprite_index = spr_goomba;
+#region CHANGE GOOMBA SPRITE (DO NOT REMOVE)
 
-//Otherwise, use head frame
-else
-    sprite_index = spr_goomba_stack;
+	//This should affect only goombas
+	if (object_index == obj_goomba) {
+
+		//If there's a goomba above, use normal frame
+		if (mebelow == noone)
+		    sprite_index = spr_goomba;
+
+		//Otherwise, use head frame
+		else
+		    sprite_index = spr_goomba_stack;
+	}
+#endregion
