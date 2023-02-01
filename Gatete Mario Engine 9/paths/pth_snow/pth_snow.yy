@@ -1,7 +1,13 @@
 {
-  "kind": 1,
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "pth_snow",
   "closed": false,
-  "precision": 4,
+  "kind": 1,
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
   "points": [
     {"speed":100.0,"x":0.0,"y":0.0,},
     {"speed":100.0,"x":-8.0,"y":16.0,},
@@ -15,12 +21,5 @@
     {"speed":100.0,"x":-8.0,"y":144.0,},
     {"speed":100.0,"x":-16.0,"y":160.0,},
   ],
-  "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "pth_snow",
-  "tags": [],
-  "resourceType": "GMPath",
+  "precision": 4,
 }

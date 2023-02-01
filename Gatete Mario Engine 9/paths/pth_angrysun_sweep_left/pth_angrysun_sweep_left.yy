@@ -1,7 +1,13 @@
 {
-  "kind": 1,
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "pth_angrysun_sweep_left",
   "closed": false,
-  "precision": 4,
+  "kind": 1,
+  "parent": {
+    "name": "Angry Sun",
+    "path": "folders/Paths/NPC Paths/Angry Sun.yy",
+  },
   "points": [
     {"speed":100.0,"x":240.0,"y":0.0,},
     {"speed":100.0,"x":240.0,"y":40.0,},
@@ -14,12 +20,5 @@
     {"speed":100.0,"x":0.0,"y":40.0,},
     {"speed":100.0,"x":0.0,"y":0.0,},
   ],
-  "parent": {
-    "name": "Angry Sun",
-    "path": "folders/Paths/NPC Paths/Angry Sun.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "pth_angrysun_sweep_left",
-  "tags": [],
-  "resourceType": "GMPath",
+  "precision": 4,
 }
