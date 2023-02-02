@@ -63,9 +63,14 @@ if (status == mapstate.idle)
 					boxselection = 1;
 			}
 			
-			//Open adyacent paths
-			if (input_check_pressed(input.action_1))
-				event_user(15);
+			#region DEBUG KEYS
+			
+				/*Open adyacent paths
+				if (input_check_pressed(input.action_1))
+					event_user(15);
+				*/
+				
+			#endregion
     
 	        //Moving upwards
 	        if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
