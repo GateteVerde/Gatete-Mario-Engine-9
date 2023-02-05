@@ -487,6 +487,7 @@ key[7] = string(key_to_string(global.key[input.right]));
 		else	
 			menu[0, 0] = "FILE A ..... NEW!";
 	#endregion
+	
 	#region FILE B
 	
 		//Update FILE B info
@@ -508,7 +509,8 @@ key[7] = string(key_to_string(global.key[input.right]));
 		//Otherwise
 		else	
 			menu[0, 1] = "FILE B ..... NEW!";
-	#endregion	
+	#endregion
+	
 	#region FILE C
 	
 		//Update FILE A info
