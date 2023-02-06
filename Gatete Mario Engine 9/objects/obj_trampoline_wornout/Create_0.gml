@@ -1,7 +1,10 @@
-/// @description Large Trampoline
+/// @description Worn-Out Trampoline
 
 //Inherit the parent event
 event_inherited();
+
+//Set the sprite
+sprite_index = spr_trampoline;
 
 //Do not animate
 image_speed = 0;

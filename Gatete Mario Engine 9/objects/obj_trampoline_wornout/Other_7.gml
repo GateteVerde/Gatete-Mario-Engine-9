@@ -1,6 +1,6 @@
-/// @description Restart up animation
+/// @description Restart up animation and destroy if the trampoline can't be used anymore
 
-if (sprite_index == spr_trampoline_big) {
+if (sprite_index == spr_trampoline) {
 
     //If the trampoline is about to launch the player upwards.
     if (ready2 == 1) {
@@ -19,7 +19,7 @@ if (sprite_index == spr_trampoline_big) {
 			}
             
             //Set the player vertical speed
-            obj_mario.yspeed = -5.425 * 1.25;
+            obj_mario.yspeed = -5.425;
             
             //Boost Jump
             obj_mario.y--;
@@ -31,24 +31,43 @@ if (sprite_index == spr_trampoline_big) {
                 obj_mario.jumping = 2;
         }
     }
+	
+	#region MANGE USAGE
+	
+		//If the trampoline can be used more times, change animation
+		if (max_uses > 1) {
+			
+			//Decrement uses
+			max_uses--;
     
-    //Allow use
-    ready = 0;
-    alarm[0] = 8;
+		    //Allow use
+		    ready = 0;
+		    alarm[0] = 8;
     
-    //Restart animation
-    image_speed = 1;
-    image_index = 0;
+		    //Restart animation
+		    image_speed = 1;
+		    image_index = 0;
     
-    //Set the end sprite
-    sprite_index = spr_trampoline_big_end;
+		    //Set the end sprite
+		    sprite_index = spr_trampoline_end;
+		}
+		
+		//Otherwise
+		else if (max_uses == 1) {
+		
+			instance_create_depth(x, y+8, -6, obj_smoke);
+			instance_destroy();
+			exit;
+		}
+	
+	#endregion
 }
-else if (sprite_index == spr_trampoline_big_end) {
+else if (sprite_index == spr_trampoline_end) {
 
     //Do not animate
     image_speed = 0;
     image_index = 0;
     
     //Set the sprite
-    sprite_index = spr_trampoline_big;
+    sprite_index = spr_trampoline;
 }
