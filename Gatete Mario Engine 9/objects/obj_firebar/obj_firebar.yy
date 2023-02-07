@@ -38,6 +38,7 @@
       ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":6,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"length","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":18.0,"rangeMin":3.0,"value":"6","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1.5","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"double","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
   ],
   "solid": false,
   "spriteId": {

@@ -34,7 +34,7 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"levelname","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"No name set!\"","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"levelnumb","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"value":"1","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"levelnumb","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":11.0,"rangeMin":1.0,"value":"1","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"levelid","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"normalexit","filters":[],"listItems":[
         "noone",

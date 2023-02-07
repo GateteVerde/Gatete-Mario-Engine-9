@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#macro __WTIMER_VERSION "2.1.2"
+#macro __WTIMER_VERSION "2.1.3"
 
 show_debug_message("wTimer v" + __WTIMER_VERSION + " by Mors");
 
@@ -30,7 +30,7 @@ current_frames = 0;
 /// @param {function} callback The callback function to execute.
 /// @param {real} duration Amount of frames it will take for the timer to execute the callback function.
 /// @param {bool} repeat[OPTIONAL] If the timer will repeat after being completed or will be destroyed. Optional, and false by default.
-/// @param {anything} arguments...[OPTIONAL] Arguments that can be used with the callback function. You can have a maximum of 16. Optional.
+/// @param {mixed} arguments...[OPTIONAL] Arguments that can be used with the callback function. You can have a maximum of 16. Optional.
 /// @returns {real} The ID corresponding to the timer.
 function timer(_callback, duration, _repeat = false) {
     var _arguments = undefined;
@@ -63,7 +63,7 @@ function timer(_callback, duration, _repeat = false) {
 /// @param {function} callback The callback function to execute.
 /// @param {real} duration Amount of milliseconds it will take for the timer to execute the callback function.
 /// @param {bool} repeat[OPTIONAL] If the timer will repeat after being completed or will be destroyed. Optional, and false by default.
-/// @param {anything} arguments...[OPTIONAL] Arguments that can be used with the callback function. You can have a maximum of 16. Optional.
+/// @param {mixed} arguments...[OPTIONAL] Arguments that can be used with the callback function. You can have a maximum of 16. Optional.
 /// @returns {real} The ID corresponding to the timer.
 function timer_ms(_callback, duration, _repeat = false) {
     var _arguments = undefined;
@@ -96,7 +96,7 @@ function timer_ms(_callback, duration, _repeat = false) {
 /// @param {function} callback The callback function to execute.
 /// @param {function} trigger The trigger function that will execute the callback function if there's a true return.
 /// @param {bool} repeat[OPTIONAL] If the timer will repeat after being completed or will be destroyed. Optional, and false by default.
-/// @param {anything} arguments...[OPTIONAL] Arguments that can be used with the callback function. You can have a maximum of 16. Optional.
+/// @param {mixed} arguments...[OPTIONAL] Arguments that can be used with the callback function. You can have a maximum of 16. Optional.
 /// @returns {real} The ID corresponding to the timer.
 function timer_trigger(_callback, trigger, _repeat = false) {
     var _arguments = undefined;
@@ -322,7 +322,7 @@ function timer_get_multiplier(timer) {
 /// @desc Changes the current remaining duration or the trigger of the given timer.
 /// @param {real} timer The index of the timer to pause.
 /// @param {real/function} duration The new remaining duration or the trigger function for the given timer.
-/// @param {real} change_repeat_time[OPTIONAL] When true, only the time used for the future repeats of the given timer is changed. Optional.
+/// @param {bool} change_repeat_time[OPTIONAL] When true, only the time used for the future repeats of the given timer is changed. Optional.
 /// @returns {bool} Whether if the given timer's remaining time was successfully changed or not.
 function timer_change(timer, duration, change_repeat_time = false) {
     for (var i = 0; i < ds_list_size(global.__timer_list); i++) {
@@ -425,8 +425,8 @@ function timer_system_room_end() {
         if (instance_exists(_result.instance) && !_result.instance.persistent) {
             delete _result;
             ds_list_delete(global.__timer_list, i);
-			--i; // fixed a crash by moving this check up. i assume the -- was there to begin with to bring you back to focusing on the first element of the list stack, but it caused an infinite loop, not sure if this does too since i'm not going to dissect the entire timer plugin for a quick fix, but this paves the ground for knowing where to find any other potential breaks caused by the timer :D -aspirin
-		}
+			i--;
+        }
     }
 }
 
