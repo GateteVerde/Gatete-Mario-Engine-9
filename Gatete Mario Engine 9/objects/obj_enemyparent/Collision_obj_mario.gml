@@ -187,8 +187,7 @@ if (stomp != -1)
             }
     
             //Regular stomp
-            else if ((stomp == 0) || (stomp == 4) || (stomp == 5))
-            && (other.swimming == false) {
+            else if ((stomp == 0) || (stomp == 4) || (stomp == 5)) {
             
                 //Play 'Stomp' sound
                 audio_play_sound(snd_stomp, 0, false);
