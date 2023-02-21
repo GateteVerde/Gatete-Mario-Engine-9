@@ -253,6 +253,10 @@ if (stomp != -1)
 						
 						//Stomp the enemy
 						if (other.groundpound == 2) {
+							
+							//Make Mario stop in air a bit
+							other.y = bbox_top-16;
+							xspeed = 0;
 						
 							//Set killer id and kill enemy
 							killer_id = obj_mario;

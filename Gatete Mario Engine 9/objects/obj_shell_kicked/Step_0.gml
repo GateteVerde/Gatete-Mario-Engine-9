@@ -55,4 +55,11 @@ switch (sprite_index) {
 		vulnerable = 1;
 		edible = 0; 
 	} break;
+	
+	//Koopatrol
+	case (spr_shell_koopatrol):	{
+		
+		vulnerable = 1;
+		edible = 1; 
+	} break;
 }

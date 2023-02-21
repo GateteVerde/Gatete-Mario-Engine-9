@@ -87,7 +87,7 @@ else {
 	    //If the player can hold the item
 	    if (can_hold()) 
 	    && (inwall == false)
-		&& (sprite_height < 17)
+		&& (sprite_height < 20)
 		&& (other.climbstyle == 0) {
     
 	        //Make the player hold it

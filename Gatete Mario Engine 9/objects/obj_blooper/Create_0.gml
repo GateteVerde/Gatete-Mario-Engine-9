@@ -4,7 +4,7 @@
 event_inherited();
 
 //How vulnerable is this enemy to Mario?
-stomp = 0;
+stomp = 1;
 
 //Whether the blooper is swimming
 ready = 0;

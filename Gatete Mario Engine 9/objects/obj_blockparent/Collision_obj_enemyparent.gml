@@ -7,7 +7,7 @@ if (other.vulnerable < 99) {
 	if (speed != 0) {
 
 		//If the item can be stunned
-		if (other.edible == 1) {
+		if ((other.edible == 1) || (other.object_index == obj_koopatrol)) {
 		
 			//Play 'Kick' sound
 			audio_play_sound(snd_kick, 0, false);

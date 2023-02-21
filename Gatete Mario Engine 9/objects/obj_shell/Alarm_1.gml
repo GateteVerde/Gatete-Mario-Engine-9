@@ -71,6 +71,18 @@ else {
 			
 				instance_create_depth(x, y, -2, obj_buzzybeetle);
 			} break;
+			
+			//Spiny
+			case (spr_shell_spiny): {
+			
+				instance_create_depth(x, y, -2, obj_spiny);
+			} break;
+			
+			//Koopatrol
+			case (spr_shell_koopatrol): {
+				
+				instance_create_depth(x, y, -2, obj_koopatrol);
+			} break;
 		
 			//Default
 			default: instance_create_depth(x, y, -2, obj_koopa_classic); break;

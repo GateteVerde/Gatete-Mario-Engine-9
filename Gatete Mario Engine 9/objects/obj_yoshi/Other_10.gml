@@ -200,7 +200,8 @@ else {
             else if (sprite_index == spr_shell)
 			|| (sprite_index == spr_shell_blue)
 			|| (sprite_index == spr_shell_yellow)
-			|| (sprite_index == spr_shell_classic) {
+			|| (sprite_index == spr_shell_classic) 
+			|| (sprite_index == spr_shell_koopatrol) {
                             
                 //Set the horizontal speed
                 prevxspeed = 2.7*obj_mario.xscale;

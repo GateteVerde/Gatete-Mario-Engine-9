@@ -5,7 +5,9 @@ if ((other.object_index == obj_dinorhino) && (global.powerup != cs_ranger))
 exit;
 
 //If the item can be stunned
-if (other.edible == 1) {
+if (other.edible == 1) 
+|| (other.object_index == obj_koopatrol) 
+|| (other.sprite_index == spr_shell_koopatrol) {
 		
 	//Play 'Kick' sound
 	audio_play_sound(snd_kick, 0, false);

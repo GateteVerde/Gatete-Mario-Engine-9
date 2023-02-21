@@ -1054,7 +1054,7 @@ else {
 		
 	//Otherwise, set up the small mask
 	else if (global.powerup == cs_small)
-		mask_index = spr_mask_mario;
+		mask_index = (groundpound == 2) ? spr_mask_mario_gp : spr_mask_mario;
 		
 	//Otherwise, set up the mega mask
 	else if (global.powerup == cs_mega)
@@ -1090,7 +1090,8 @@ else {
         
         //Otherwise, set the default mask
         else
-            mask_index = spr_mask_mario_big;
+            mask_index = (groundpound == 2) ? spr_mask_mario_big_gp : spr_mask_mario_big;
+		
     }
     
     //Stop the 'Skid' sound when not changing direction.
