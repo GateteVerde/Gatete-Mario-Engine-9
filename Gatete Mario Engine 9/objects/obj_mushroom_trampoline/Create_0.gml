@@ -1,7 +1,7 @@
 /// @description Trampoline Mushroom Platform
 
 //Set depth
-depth = 200;
+depth = 149;
 
 //Wiggle
 ready = 0;

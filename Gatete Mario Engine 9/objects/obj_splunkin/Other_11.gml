@@ -4,7 +4,7 @@
 if (ready == 0) {
 
 	//Set the sprite
-	sprite_index = spr_splunkin;
+	sprite_index = spr_splunkin_b;
 	
 	//Play 'Break' sound
 	audio_play_sound(snd_break, 0, false);

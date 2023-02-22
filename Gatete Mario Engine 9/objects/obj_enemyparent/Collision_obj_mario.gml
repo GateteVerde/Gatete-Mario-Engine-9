@@ -96,6 +96,21 @@ if (stomp != -1)
                 
                     //Create spin smoke effect
                     instance_create_depth(round(bbox_left+bbox_right)/2, round(bbox_top+bbox_bottom)/2, -6, obj_spinsmoke);
+					
+					#region BOUNCE OR NOT
+					
+						//If this enemy is NOT a rex
+						if (object_index != obj_rex) {
+						
+							other.yspeed = 0;
+							other.y--;
+						}
+						else {
+						
+							with (other) event_user(1);
+						}
+					
+					#endregion
                     
 					#region COMBO
 					

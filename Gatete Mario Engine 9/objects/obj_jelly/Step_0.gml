@@ -7,27 +7,18 @@ if (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario
 	
 	//Start wiggling
 	if (ready != 1) then ready = 1;
+	
+	//Play 'Trampoline' sound
+	audio_play_sound(snd_trampoline, 0, false);
 
     //Make Mario bounce
     with (obj_mario) {
 
-        //Set the vertical speed
-        yspeed = -4.125;
-        
-        //Boost jump
-        y--;
-        
-        //Switch to jump state
-        state = playerstate.jump;
+		//Make Mario jump	
+		event_user(1);
 		
-		//Play 'Trampoline' sound
-		audio_play_sound(snd_trampoline, 0, false);
-        
-        //Check if the 'Jump' key is pressed.
-        if (input_check(input.action_0))
-            jumping = 1;
-        else
-            jumping = 2;
+		//Force set jumping state
+		state = playerstate.jump;
     }
 }
 
