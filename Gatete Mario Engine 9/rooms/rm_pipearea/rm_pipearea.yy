@@ -72,8 +72,8 @@
 -162,2446,1,2450,-12,2531,1,2451,-11,2446,2,2450,3041,-12,0,2,3040,2451,-9,2446,2,2450,3041,-14,0,2,
 3040,2451,-8,2446,1,2447,-16,0,1,2445,-8,2446,1,2447,-16,0,1,2445,-8,2446,1,2447,-16,0,2,2530,
 2451,-7,2446,1,2447,-14,0,4,2164,2165,2165,2445,-7,2446,1,2447,-14,0,4,2249,2250,2250,2445,-6,2446,2,
-2450,2532,-10,0,2,2787,2788,-5,2361,1,2536,-6,2446,4,2447,2165,2165,2164,-6,0,3,2360,2361,2872,-13,2446,
-11,2447,2250,2250,2249,0,0,2787,2788,2361,2361,2536,-15,2446,1,2535,-5,2361,1,2872,-224,2446,],"TileDataFormat":1,},"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+2450,2532,-10,0,2,2787,2788,-5,2361,1,2536,-6,2446,4,2447,2165,2165,2169,-6,0,3,2360,2361,2872,-13,2446,
+11,2447,2250,2250,2254,0,0,2787,2788,2361,2361,2536,-15,2446,1,2535,-5,2361,1,2872,-224,2446,],"TileDataFormat":1,},"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset_Decor","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":26,"TileCompressedData":[
 -334,-2147483648,1,1665,-25,-2147483648,1,1730,-32,-2147483648,1,1665,-25,-2147483648,1,1730,-256,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset_Platform_Foreground","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":26,"TileCompressedData":[

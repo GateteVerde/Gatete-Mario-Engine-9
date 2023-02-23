@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_pipe_broken",
-  "bbox_bottom": 46,
+  "bbox_bottom": 39,
   "bbox_left": 0,
   "bbox_right": 31,
   "bbox_top": 0,
