@@ -3336,6 +3336,7 @@
     {"id":{"name":"spr_path_ur","path":"sprites/spr_path_ur/spr_path_ur.yy",},"order":4,},
     {"id":{"name":"spr_toadhouse_card","path":"sprites/spr_toadhouse_card/spr_toadhouse_card.yy",},"order":6,},
     {"id":{"name":"obj_ballnchain_ball_pendulum","path":"objects/obj_ballnchain_ball_pendulum/obj_ballnchain_ball_pendulum.yy",},"order":2,},
+    {"id":{"name":"rm_course_w1_l3","path":"rooms/rm_course_w1_l3/rm_course_w1_l3.yy",},"order":0,},
     {"id":{"name":"spr_onoffblock","path":"sprites/spr_onoffblock/spr_onoffblock.yy",},"order":13,},
     {"id":{"name":"spr_beachkoopa_sq","path":"sprites/spr_beachkoopa_sq/spr_beachkoopa_sq.yy",},"order":8,},
     {"id":{"name":"spr_sparkle_c","path":"sprites/spr_sparkle_c/spr_sparkle_c.yy",},"order":22,},
@@ -3417,6 +3418,7 @@
     {"roomId":{"name":"rm_course_w1_l2_e","path":"rooms/rm_course_w1_l2_e/rm_course_w1_l2_e.yy",},},
     {"roomId":{"name":"rm_course_w1_l4_b","path":"rooms/rm_course_w1_l4_b/rm_course_w1_l4_b.yy",},},
     {"roomId":{"name":"rm_course_w1_l4_c","path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},},
+    {"roomId":{"name":"rm_course_w1_l3","path":"rooms/rm_course_w1_l3/rm_course_w1_l3.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

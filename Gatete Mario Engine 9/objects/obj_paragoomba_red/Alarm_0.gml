@@ -1,15 +1,14 @@
 /// @description Start jumping
 
-//If the goomba is on the ground
+//If there's no gravity
 if (yadd == 0) {
 
-    //Start jumping
-    jumping = 1;
+	//Start jumping
+	jumping = 1;
     
 	//Set the vertical speed
-	yspeed = (swimming) ? -0.75 : -1.5;
+	yspeed = (swimming == true) ? -0.75 : -1.5;
+	y--;
 }
-
-//Otherwise, wait
 else
-    alarm[0] = 10;
+	alarm[0] = 10;

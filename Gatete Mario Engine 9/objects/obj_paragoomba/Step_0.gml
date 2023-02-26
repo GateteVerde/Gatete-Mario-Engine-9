@@ -67,8 +67,8 @@ else if (flying == 2) {
 if (flying == 0)
 || (flying == 3) {
 	
-	//Inherit the parent event
-	event_inherited();
+	//Perform physics parent step event
+	event_perform_object(obj_physicsparent, ev_step, ev_step_normal);
 	
 	//Fly again after a while
 	if ((yadd == 0) && (flying == 3)) {

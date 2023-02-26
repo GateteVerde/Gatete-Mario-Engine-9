@@ -7,6 +7,6 @@ event_inherited();
 if (yadd == 0) {
     
     //Boost jump
-	yspeed = (swimming) ? -2 : -4;
+	yspeed = (swimming) ? -2.5 : -5;
     y--;
 }

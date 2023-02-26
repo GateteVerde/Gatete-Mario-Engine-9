@@ -1,7 +1,7 @@
 /// @description Red Paragoomba logic
 
 //Inherit event
-event_inherited();
+event_perform_object(obj_physicsparent, ev_step, ev_step_normal);
 
 //Jump when in the ground
 if (yadd == 0) {
@@ -15,6 +15,7 @@ if (yadd == 0) {
         
         //Set the vertical speed
 		yspeed = (swimming) ? -0.75 : -1.5;
+		y--;
     }
     
     //Otherwise, if the goomba is about to do a big jump
@@ -25,6 +26,7 @@ if (yadd == 0) {
         
         //Set the vertical speed
 		yspeed = (swimming) ? -2 : -4;
+		y--;
     }
     
     //Otherwise

@@ -1,5 +1,8 @@
 /// @description Move towards the player and start flying
 
+//Jump
+alarm[0] = 10;
+
 //If the NPC is not moving
 if (xspeed == 0) {
 
@@ -21,6 +24,3 @@ else {
 	else
 		xspeed = (swimming == true) ? 0.25 : 0.5;	
 }
-
-//Start flying
-alarm[0] = 10;
