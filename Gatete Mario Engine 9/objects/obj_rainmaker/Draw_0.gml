@@ -2,7 +2,7 @@
 
 //Clouds
 if (smog == 1)
-    draw_sprite_tiled_area_ext(spr_fgr_clouds, 0, screen_round(camera_get_view_x(view_camera[0]) / 2 + pos*2), camera_get_view_y(view_camera[0]), 0, 0, room_width, room_height, c_white, alpha/4);
+    draw_sprite_tiled_ext(spr_fgr_clouds, 0, screen_round(camera_get_view_x(view_camera[0]) / 2 + pos*2), camera_get_view_y(view_camera[0]), 1, 1, c_white, alpha/8);
 
 //Smog
 else if (smog == 2) {

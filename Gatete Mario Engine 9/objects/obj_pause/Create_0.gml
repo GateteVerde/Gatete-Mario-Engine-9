@@ -36,6 +36,9 @@ timeline_running = 0;
 	//Stop 'P-Meter' sound
 	audio_pause_sound(snd_pmeter);
 	
+	//Stop 'Rain' sound
+	audio_pause_sound(snd_rain);
+	
 #endregion
 
 //Delay snapshot creation

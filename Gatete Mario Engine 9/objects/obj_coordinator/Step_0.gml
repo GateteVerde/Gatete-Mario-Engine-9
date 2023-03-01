@@ -87,7 +87,7 @@ depth = -1000;
         
 		    //Pause 'Mega Mushroom'
 		    else if (audio_is_playing(snd_megashroom))
-		        audio_pause_sound(snd_megashroom);		
+		        audio_pause_sound(snd_megashroom);
 		}
 	
 		//Otherwise
@@ -107,7 +107,7 @@ depth = -1000;
         
 		    //Pause 'Mega Mushroom'
 		    else if (audio_is_paused(snd_megashroom))
-		        audio_resume_sound(snd_megashroom);				
+		        audio_resume_sound(snd_megashroom);
 		}
 	#endregion
 	

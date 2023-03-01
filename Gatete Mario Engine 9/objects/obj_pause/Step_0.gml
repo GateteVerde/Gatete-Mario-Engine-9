@@ -52,6 +52,9 @@ var _pause  = input_check_pressed(input.start);
 
 				//Resume 'P-Meter' sound
 				audio_resume_sound(snd_pmeter);
+				
+				//Resume 'Rain' sound
+				audio_resume_sound(snd_rain);
 			#endregion
 		
 			//Destroy
