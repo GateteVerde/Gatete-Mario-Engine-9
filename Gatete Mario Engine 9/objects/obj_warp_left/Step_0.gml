@@ -13,7 +13,8 @@ if (global.powerup != cs_mega) {
 	|| (gamepad_axis_value(0, gp_axislh) > 0.5) {
 
 	    //If the player does exist
-	    if (instance_exists(obj_mario)) {
+	    if (instance_exists(obj_mario)) 
+		&& (!instance_exists(obj_mario_transform)) {
     
 	        //Check for it
 	        player = collision_rectangle(x-2, y, x-2, y+32, obj_mario, 0, 0);

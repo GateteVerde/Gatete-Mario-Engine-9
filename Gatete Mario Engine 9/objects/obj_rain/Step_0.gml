@@ -28,7 +28,7 @@ if (vspeed > 0) {
         vspeed = 0;
     
         //Create a drop object
-        with (instance_create_depth(x, y+5, -6, obj_smoke)) {
+        with (instance_create_depth(x, y+5, -4, obj_smoke)) {
         
             sprite_index = spr_rain_sp;
             image_speed = 0.3;

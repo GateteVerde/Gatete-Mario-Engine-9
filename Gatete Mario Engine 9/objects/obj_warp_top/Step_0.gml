@@ -13,7 +13,8 @@ if (global.powerup != cs_mega) {
 	|| (gamepad_axis_value(0, gp_axislv) > 0.5) {
 
 	    //If the player does exist
-	    if (instance_exists(obj_mario)) 
+	    if (instance_exists(obj_mario))
+		&& (!instance_exists(obj_mario_transform))
 		&& (obj_mario.state != playerstate.jump) {
     
 	        //Check for it

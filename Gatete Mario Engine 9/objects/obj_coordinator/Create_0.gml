@@ -26,7 +26,7 @@ init_shockwave();
 //Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
 //false:	Integer rounding similar to GBA/SNES
 //true:		Smoother sub-pixel float movement
-global.subpixels = false;
+global.subpixels = true;
 	
 //Health (If enabled, Mario will be able to take multiple hits to die and cannot turn into small mario)
 global.hp_mode = 0;

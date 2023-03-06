@@ -8,7 +8,8 @@ if ((input_check_pressed(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)
 && (global.powerup < cs_big) {
 
     //If Mario does exist
-    if (instance_exists(obj_mario)) {
+    if (instance_exists(obj_mario)) 
+	&& (!instance_exists(obj_mario_transform)) {
     
         //Check for it
         mario = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_mario, 0, 0);
