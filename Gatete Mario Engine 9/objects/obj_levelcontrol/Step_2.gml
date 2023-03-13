@@ -213,7 +213,8 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 		
 		//If the barrier is enabled and Mario exists
 		if (barrier == true)
-		&& (instance_exists(obj_mario)) 
+		&& (instance_exists(obj_mario))
+		&& (!instance_exists(obj_mario_shmup))
 		&& (obj_mario.enable_control == true) {
 	
 			//If there's a reserve item in reserve and the space key is pressed

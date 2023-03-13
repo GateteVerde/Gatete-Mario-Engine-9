@@ -222,7 +222,7 @@ global.restart = false;
 global.moons = ds_map_create();
 
 //Create particle system
-global.part_sys = part_system_create();
+global.particle_sys = part_system_create();
 
 //Font Variables
 global.gui_font	= font_add_sprite(spr_gui_font, ord("!"), 0, 0);

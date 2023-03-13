@@ -2,14 +2,23 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_mario_shmup",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Main",
     "path": "folders/Objects/Main.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_mario",
+    "path": "objects/obj_mario/obj_mario.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -34,6 +43,9 @@
     "name": "spr_mario_skypop",
     "path": "sprites/spr_mario_skypop/spr_mario_skypop.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_mask_mario_big",
+    "path": "sprites/spr_mask_mario_big/spr_mask_mario_big.yy",
+  },
   "visible": true,
 }

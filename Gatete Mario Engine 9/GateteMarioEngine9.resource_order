@@ -902,7 +902,6 @@
     {"name":"pth_balloon","order":1,"path":"paths/pth_balloon/pth_balloon.yy",},
     {"name":"obj_hoopster_red","order":9,"path":"objects/obj_hoopster_red/obj_hoopster_red.yy",},
     {"name":"spr_mario_tanooki_hold2","order":11,"path":"sprites/spr_mario_tanooki_hold2/spr_mario_tanooki_hold2.yy",},
-    {"name":"pt_powerup","order":10,"path":"particles/pt_powerup/pt_powerup.yy",},
     {"name":"obj_mapopener","order":2,"path":"objects/obj_mapopener/obj_mapopener.yy",},
     {"name":"spr_mario_raccoon_spin","order":14,"path":"sprites/spr_mario_raccoon_spin/spr_mario_raccoon_spin.yy",},
     {"name":"obj_zappakoopa_beam_eff","order":1,"path":"objects/obj_zappakoopa_beam_eff/obj_zappakoopa_beam_eff.yy",},

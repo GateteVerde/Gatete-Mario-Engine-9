@@ -1,0 +1,13 @@
+/// @description It's a me, Mario but in a plane/submarine
+
+//Inherit the parent event
+event_inherited();
+
+//Hp
+hp = 3;
+
+//Disable all mounts
+global.mount = 0;
+
+//Delay autoscroll
+alarm[11] = 1;

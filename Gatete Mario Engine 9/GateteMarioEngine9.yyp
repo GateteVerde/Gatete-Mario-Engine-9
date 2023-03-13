@@ -1141,7 +1141,6 @@
     {"id":{"name":"pth_balloon","path":"paths/pth_balloon/pth_balloon.yy",},},
     {"id":{"name":"obj_hoopster_red","path":"objects/obj_hoopster_red/obj_hoopster_red.yy",},},
     {"id":{"name":"spr_mario_tanooki_hold2","path":"sprites/spr_mario_tanooki_hold2/spr_mario_tanooki_hold2.yy",},},
-    {"id":{"name":"pt_powerup","path":"particles/pt_powerup/pt_powerup.yy",},},
     {"id":{"name":"obj_mapopener","path":"objects/obj_mapopener/obj_mapopener.yy",},},
     {"id":{"name":"spr_mario_raccoon_spin","path":"sprites/spr_mario_raccoon_spin/spr_mario_raccoon_spin.yy",},},
     {"id":{"name":"obj_zappakoopa_beam_eff","path":"objects/obj_zappakoopa_beam_eff/obj_zappakoopa_beam_eff.yy",},},
