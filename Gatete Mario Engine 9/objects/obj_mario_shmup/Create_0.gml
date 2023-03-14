@@ -6,6 +6,9 @@ event_inherited();
 //Hp
 hp = 3;
 
+//Delay
+delay = 0;
+
 //Disable all mounts
 global.mount = 0;
 

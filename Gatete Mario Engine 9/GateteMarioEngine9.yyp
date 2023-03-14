@@ -447,6 +447,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tilesets","folderPath":"folders/Tilesets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Time Lines","folderPath":"folders/Time Lines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Events","folderPath":"folders/Time Lines/Events.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shmup","folderPath":"folders/Objects/Special/Do Not Use!/Mario/Projectiles/Shmup.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"GME9Music.ini","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -461,6 +462,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"worldmap2.ogg","CopyToMask":-1,"filePath":"datafiles/music/map",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"worldmap3.ogg","CopyToMask":-1,"filePath":"datafiles/music/map",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"overworld.ogg","CopyToMask":3035461389054378222,"filePath":"datafiles/music",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"shooting.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"snow.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"underground.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"underwater.ogg","CopyToMask":-1,"filePath":"datafiles/music",},
@@ -2691,6 +2693,7 @@
     {"id":{"name":"spr_walltriangle_r","path":"sprites/spr_walltriangle_r/spr_walltriangle_r.yy",},},
     {"id":{"name":"obj_keygate","path":"objects/obj_keygate/obj_keygate.yy",},},
     {"id":{"name":"obj_lavalotus","path":"objects/obj_lavalotus/obj_lavalotus.yy",},},
+    {"id":{"name":"obj_missile","path":"objects/obj_missile/obj_missile.yy",},},
     {"id":{"name":"spr_shell_koopatrol","path":"sprites/spr_shell_koopatrol/spr_shell_koopatrol.yy",},},
     {"id":{"name":"obj_platform_log","path":"objects/obj_platform_log/obj_platform_log.yy",},},
     {"id":{"name":"spr_shell_red","path":"sprites/spr_shell_red/spr_shell_red.yy",},},

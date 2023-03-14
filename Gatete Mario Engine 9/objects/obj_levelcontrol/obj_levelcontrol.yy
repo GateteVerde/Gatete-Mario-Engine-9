@@ -51,6 +51,7 @@
         "\"Boss\"",
         "\"Ghost\"",
         "\"Overworld\"",
+        "\"Shooting\"",
         "\"Snow\"",
         "\"Underground\"",
         "\"Underwater\"",

@@ -1,35 +1,82 @@
 /// @description Shmup Mario logic
 
-//Vertical movement
-if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
+//Decrement shooting delay
+delay--;
 
-	if (!place_meeting(x, y-2, obj_solid))
-	&& (y > 16)
-		y -= 2;
-}
+#region MOVEMENT
+
+	//Vertical movement
+	if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
+
+		if (!place_meeting(x, y-2, obj_solid))
+			y -= 2;
+	}
 	
-else if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
+	else if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5)) {
 
-	if (!place_meeting(x, y+2, obj_solid))
-	&& (y < room_height-16)
-		y += 2;
-}
+		if (!place_meeting(x, y+2, obj_solid))
+			y += 2;
+	}
 
-//Horizontal Movement
-if ((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) {
+	//Horizontal Movement
+	if ((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) {
 
-	if (!place_meeting(x-2, y, obj_solid))
-		x -= 2;
-}
+		if (!place_meeting(x-2, y, obj_solid))
+			x -= 2;
+	}
 	
-else if ((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
+	else if ((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
 
-	if (!place_meeting(x+3, y, obj_solid))
-		x += 3;
-}
-else {
+		if (!place_meeting(x+3, y, obj_solid))
+			x += 3;
+	}
+	else {
 
-	if (!place_meeting(x+2, y, obj_solid))
-	&& (!instance_exists(obj_mariostart))
-		x++;
+		//If the "Mario Start!" object does not exist
+		if (instance_number(obj_mariostart) == 0) {
+		
+			//If Mario is next to a solid or the screen does not scroll anymore
+			if (!place_meeting(x+1, y, obj_solid))
+			&& ((instance_exists(obj_autoscroll)) && (obj_autoscroll.x < room_width - global.gw/2))
+				x++;
+		}
+	}
+
+#endregion
+
+#region BOUNDARY
+
+	//Left
+	if (x < camera_get_view_x(view_camera[0]) + 16)
+		x = camera_get_view_x(view_camera[0]) + 16;
+		
+	//Right
+	else if (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 16)
+		x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 16;
+		
+	//Top
+	if (y < camera_get_view_y(view_camera[0]) + 16)
+		y = camera_get_view_y(view_camera[0]) + 16;
+		
+	//Right
+	else if (y > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16)
+		y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16;
+#endregion
+
+//Shoot projectiles
+if (delay <= 0) {
+
+	//If the 'Control button is pressed
+	if (input_check(input.action_1)) {
+	
+			//Play 'Fireball' sound
+		audio_play_sound(snd_fireball, 0, false);
+				
+		//Set firing animation frame
+	    delay = 16;
+				
+		//Create a lightning volt
+	    with (instance_create_depth(x+8, y+8, -2, obj_missile))
+	        xspeed = 6*sign(other.xscale);
+	}
 }
