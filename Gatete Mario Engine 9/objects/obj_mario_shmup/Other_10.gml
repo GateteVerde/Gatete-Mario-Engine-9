@@ -23,10 +23,7 @@ if (invulnerable == false) {
 		instance_create_depth(x, y, -6, obj_explosion);
 	
 		//Create Dead Mario
-		with (instance_create_depth(x, y, -5, obj_mario_dead)) {
-	
-			sprite_index = spr_mario_dead_big;
-		}
+		instance_create_depth(x, y, -5, obj_mario_dead);
 	
 		//Destroy
 		instance_destroy();

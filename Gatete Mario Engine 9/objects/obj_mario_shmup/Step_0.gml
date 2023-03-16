@@ -22,12 +22,14 @@ delay--;
 	if ((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) {
 
 		if (!place_meeting(x-2, y, obj_solid))
+		&& (x > camera_get_view_x(view_camera[0]) + 5)
 			x -= 2;
 	}
 	
 	else if ((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
 
 		if (!place_meeting(x+3, y, obj_solid))
+		&& ((x < camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5))
 			x += 3;
 	}
 	else {
@@ -47,12 +49,12 @@ delay--;
 #region BOUNDARY
 
 	//Left
-	if (x < camera_get_view_x(view_camera[0]) + 16)
-		x = camera_get_view_x(view_camera[0]) + 16;
+	if (x < camera_get_view_x(view_camera[0]) + 5)
+		x = camera_get_view_x(view_camera[0]) + 5;
 		
 	//Right
-	else if (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 16)
-		x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 16;
+	else if (x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5)
+		x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
 		
 	//Top
 	if (y < camera_get_view_y(view_camera[0]) + 16)

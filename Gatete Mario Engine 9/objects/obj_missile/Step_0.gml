@@ -106,3 +106,21 @@ yadd = 0;
 		}
 	}
 #endregion
+
+//Collision with bricks
+var brick = collision_rectangle(bbox_right, bbox_top, bbox_right+xspeed, bbox_bottom, obj_brick, 0, 0);
+
+if (brick) {
+
+	//Play 'Bump' sound
+	audio_play_sound(snd_bump, 0, false);
+
+	//Get 10 points
+	score += 10;
+
+	//Destroy brick
+	with (brick) event_user(1);
+
+	//Destroy
+	event_user(0);
+}
