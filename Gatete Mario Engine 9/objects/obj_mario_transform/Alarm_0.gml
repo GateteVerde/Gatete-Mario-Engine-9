@@ -36,16 +36,44 @@ with (obj_mario) {
 	    //Power up
 	    case (2): {
     
-	        sprite_index = spr_mario_powerup;
-	        loop = 3;
+			//If Mario is driving a shmup
+			if (instance_exists(obj_mario_shmup)) {
+				
+				//Set sprite
+				sprite_index = (obj_mario_shmup.subpop == 1) ? spr_mario_subpop_grow : spr_mario_skypop_grow;
+				
+				//Set loops
+				loop = 8;
+			}
+			
+			//Otherwise
+			else {
+				
+				sprite_index = spr_mario_powerup;
+				loop = 3;
+			}
 	    } 
 		break;
     
 	    //Power down
 	    case (3): {
     
-	        sprite_index = spr_mario_powerdown;
-	        loop = 6;
+			//If Mario is driving a shmup
+			if (instance_exists(obj_mario_shmup)) {
+				
+				//Set sprite
+				sprite_index = (obj_mario_shmup.subpop == 1) ? spr_mario_subpop_shrink : spr_mario_skypop_shrink;
+				
+				//Set loops
+				loop = 8;
+			}
+			
+			//Otherwise
+			else {
+				
+				sprite_index = spr_mario_powerdown;
+				loop = 6;
+			}
 	    } 
 		break;
     

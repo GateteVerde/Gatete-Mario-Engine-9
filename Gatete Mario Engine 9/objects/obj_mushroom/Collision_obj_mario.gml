@@ -39,7 +39,7 @@ else {
 				else {
 					
 					if (instance_exists(obj_mario_shmup))
-						sequence = 4;
+						sequence = 2;
 					else
 						sequence = 0;
 				}

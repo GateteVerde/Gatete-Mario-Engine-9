@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Extra",
-    "path": "folders/Sprites/Mario/Extra.yy",
+    "name": "Skypop",
+    "path": "folders/Sprites/Mario/Extra/Shmup/Skypop.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
