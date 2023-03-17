@@ -39,18 +39,6 @@ if (instance_exists(obj_mario)) {
 			image_index = choose(0, 1, 2, 3);
         }
     }
-	
-	//Otherwise, if Mario is piloting a vehicle
-	else if (instance_exists(obj_mario_shmup)) {
-	
-		with (instance_create_depth(x - 12 + random(round(24)), y + random_range(-12, 12), -6, obj_sparkle)) {
-        
-			sprite_index = spr_sparkle_star;
-			shrink_rate = 0.075;
-            image_speed = 0;
-			image_index = choose(0, 1, 2, 3);
-        }		
-	}
 }
 
 //Repeat

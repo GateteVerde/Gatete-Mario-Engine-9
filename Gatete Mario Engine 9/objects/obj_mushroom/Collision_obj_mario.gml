@@ -36,8 +36,13 @@ else {
 		
 				if (global.powerup == cs_tiny)
 					sequence = -1;
-				else
-					sequence = 0;
+				else {
+					
+					if (instance_exists(obj_mario_shmup))
+						sequence = 4;
+					else
+						sequence = 0;
+				}
 			}
 	
 		    //Turn Mario into 'Super' Mario.

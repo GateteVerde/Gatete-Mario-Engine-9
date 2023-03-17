@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_palette_mario_invincible",
-  "bbox_bottom": 89,
+  "bbox_bottom": 94,
   "bbox_left": 0,
   "bbox_right": 4,
   "bbox_top": 0,
@@ -13,11 +13,11 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d371163-1b37-4821-b991-b01aaedd6c5f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6c49e19-f058-4588-99ce-6eed17d90f7d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 90,
+  "height": 95,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a6b8bfb4-6e97-4ed1-a91d-7639bfcba884","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d371163-1b37-4821-b991-b01aaedd6c5f","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},},},"Disabled":false,"id":"049f1e30-63c9-426d-aece-b507229f341c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6c49e19-f058-4588-99ce-6eed17d90f7d","path":"sprites/spr_palette_mario_invincible/spr_palette_mario_invincible.yy",},},},"Disabled":false,"id":"201da392-53ef-45dd-a101-49fe0cd7eca9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

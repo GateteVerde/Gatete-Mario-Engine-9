@@ -83,18 +83,8 @@ if (ds_map_size(global.powerstars) > 0) {
 		
 		//Otherwise
 		else {
-		
-			//If the level controller is in shmup mode, show hp in hud
-			if (instance_exists(obj_levelcontrol))
-			&& (obj_levelcontrol.shmup_mode == 1) {
 			
-				if (instance_exists(obj_mario_shmup))
-					frame = 1 + obj_mario_shmup.hp;
-				else
-					frame = 1;
-			}
-			else
-				frame = 0;
+			frame = 0;
 		}
 	#endregion
 
@@ -158,7 +148,8 @@ if (global.collect_mode > 0) {
 #region P-METER
 	
 	//If the player does exist
-	if (instance_exists(obj_mario)) {
+	if (instance_exists(obj_mario)) 
+	&& (!instance_exists(obj_mario_shmup)) {
 	
 		//If the P-Wing is active or the P-Meter is above 111
 		if (global.pwing == 1)

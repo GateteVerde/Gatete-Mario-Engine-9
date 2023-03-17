@@ -177,7 +177,13 @@ if (invulnerable == 0)
 						audio_play_sound(snd_warp, 0, false);
 						
 						//Perform animation sequence
-						with (instance_create_depth(0, 0, -5, obj_mario_transform)) sequence = 1;
+						with (instance_create_depth(0, 0, -5, obj_mario_transform)) {
+							
+							if (instance_exists(obj_mario_shmup))	
+								sequence = 4;
+							else
+								sequence = 1;
+						}
 						
 						//Turn Mario into 'Small' Mario.
 						global.powerup = cs_small;
