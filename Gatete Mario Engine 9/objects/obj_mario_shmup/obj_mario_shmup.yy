@@ -8,6 +8,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -43,9 +44,6 @@
     "name": "spr_mario_skypop",
     "path": "sprites/spr_mario_skypop/spr_mario_skypop.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_mask_mario_big",
-    "path": "sprites/spr_mask_mario_big/spr_mask_mario_big.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

@@ -1947,6 +1947,7 @@
     {"name":"obj_vegshroom","order":3,"path":"objects/obj_vegshroom/obj_vegshroom.yy",},
     {"name":"spr_platform_buoy","order":5,"path":"sprites/spr_platform_buoy/spr_platform_buoy.yy",},
     {"name":"obj_platform_generator_solid","order":1,"path":"objects/obj_platform_generator_solid/obj_platform_generator_solid.yy",},
+    {"name":"spr_palette_mario_shmup","order":3,"path":"sprites/spr_palette_mario_shmup/spr_palette_mario_shmup.yy",},
     {"name":"obj_phanto","order":15,"path":"objects/obj_phanto/obj_phanto.yy",},
     {"name":"spr_yoshi_lick_flutter","order":5,"path":"sprites/spr_yoshi_lick_flutter/spr_yoshi_lick_flutter.yy",},
     {"name":"spr_ninji_purple_jump","order":8,"path":"sprites/spr_ninji_purple_jump/spr_ninji_purple_jump.yy",},

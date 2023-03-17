@@ -1,5 +1,32 @@
 /// @description Shmup Mario logic
 
+//If the player is invulnerable, manage flash
+if (instance_exists(obj_invincibility)) {
+		
+	//If the starman is about to end
+	if (obj_invincibility.alarm[0] < 120) {
+
+		//Set up palette
+		isflashing += 0.05;
+		if (isflashing > 3.99)
+			isflashing = 0;
+	}
+			
+	//Otherwise
+	else {
+	
+		//Set up palette
+		isflashing += 0.25;
+		if (isflashing > 3.99)
+			isflashing = 0;
+	}
+}
+else {
+
+	if (isflashing > 0)
+		isflashing = 0;
+}
+
 //Decrement shooting delay
 delay--;
 

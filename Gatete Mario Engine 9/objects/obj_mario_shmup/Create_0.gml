@@ -12,5 +12,8 @@ delay = 0;
 //Disable all mounts
 global.mount = 0;
 
+//Force shmup mode on levelcontroller
+with (obj_levelcontrol) shmup_mode = 1;
+
 //Delay autoscroll
 alarm[11] = 1;

@@ -38,6 +38,9 @@ shake_falloff = 0;
 //Used for calculating falloff
 shake_starttime = 0;
 
+//Shmup mode
+shmup_mode = 0;
+
 //Create reverb effect and modify properties
 _ef_reverb = audio_effect_create(AudioEffectType.Reverb1);
 _ef_reverb.bypass = (reverb == 1) ? false : true;

@@ -82,8 +82,20 @@ if (ds_map_size(global.powerstars) > 0) {
 		}
 		
 		//Otherwise
-		else
-			frame = 0;
+		else {
+		
+			//If the level controller is in shmup mode, show hp in hud
+			if (instance_exists(obj_levelcontrol))
+			&& (obj_levelcontrol.shmup_mode == 1) {
+			
+				if (instance_exists(obj_mario_shmup))
+					frame = 1 + obj_mario_shmup.hp;
+				else
+					frame = 1;
+			}
+			else
+				frame = 0;
+		}
 	#endregion
 
 	//If the reserve item system is activated
@@ -94,7 +106,7 @@ if (ds_map_size(global.powerstars) > 0) {
 		
 		//Draw the reserve item
 		if (global.reserve != cs_small)
-			draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (8 * global.hp_mode), 1, 1, 0, c_white, 1);
+			draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (16 * global.hp_mode), 1, 1, 0, c_white, 1);
 	}
 	
 	//Otherwise
@@ -155,10 +167,8 @@ if (global.collect_mode > 0) {
 		else
 			draw_sprite_ext(spr_gui_pmeter, 0+(obj_mario.pmeter/24), camera_get_view_x(view_camera[0]) + (8 + pmeterx), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16, 1, 1, 0, c_white, 1);
 	}
-	else {
-	
+	else
 		draw_sprite_ext(spr_gui_pmeter, 0+(fake_pm/24), camera_get_view_x(view_camera[0]) + (8 + pmeterx), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16, 1, 1, 0, c_white, 1);
-	}
 	
 #endregion
 

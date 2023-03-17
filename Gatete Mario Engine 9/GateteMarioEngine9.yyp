@@ -2304,6 +2304,7 @@
     {"id":{"name":"spr_platform_buoy","path":"sprites/spr_platform_buoy/spr_platform_buoy.yy",},},
     {"id":{"name":"obj_platform_generator_solid","path":"objects/obj_platform_generator_solid/obj_platform_generator_solid.yy",},},
     {"id":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},},
+    {"id":{"name":"spr_palette_mario_shmup","path":"sprites/spr_palette_mario_shmup/spr_palette_mario_shmup.yy",},},
     {"id":{"name":"obj_phanto","path":"objects/obj_phanto/obj_phanto.yy",},},
     {"id":{"name":"spr_yoshi_lick_flutter","path":"sprites/spr_yoshi_lick_flutter/spr_yoshi_lick_flutter.yy",},},
     {"id":{"name":"spr_ninji_purple_jump","path":"sprites/spr_ninji_purple_jump/spr_ninji_purple_jump.yy",},},
