@@ -237,6 +237,8 @@
     {"name":"Vegetables","order":1,"path":"folders/Sprites/Items/Subcon/Vegetables.yy",},
     {"name":"Mario","order":11,"path":"folders/Sprites/Mario.yy",},
     {"name":"Extra","order":1,"path":"folders/Sprites/Mario/Extra.yy",},
+    {"name":"Shmup","order":1,"path":"folders/Sprites/Mario/Extra/Shmup.yy",},
+    {"name":"Subpop","order":1,"path":"folders/Sprites/Mario/Extra/Shmup/Subpop.yy",},
     {"name":"Transformations","order":2,"path":"folders/Sprites/Mario/Extra/Transformations.yy",},
     {"name":"Shrink","order":1,"path":"folders/Sprites/Mario/Extra/Transformations/Shrink.yy",},
     {"name":"Bee","order":12,"path":"folders/Sprites/Mario/Main/Bee.yy",},
@@ -293,8 +295,6 @@
     {"name":"Paths","order":1,"path":"folders/Sprites/World Map/Paths.yy",},
     {"name":"Tilesets","order":1,"path":"folders/Tilesets.yy",},
     {"name":"Time Lines","order":7,"path":"folders/Time Lines.yy",},
-    {"name":"Shmup","order":1,"path":"folders/Sprites/Mario/Extra/Shmup.yy",},
-    {"name":"Subpop","order":1,"path":"folders/Sprites/Mario/Extra/Shmup/Subpop.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pipe_broken","order":9,"path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},

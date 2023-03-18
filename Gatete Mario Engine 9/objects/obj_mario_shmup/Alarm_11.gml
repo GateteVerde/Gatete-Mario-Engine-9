@@ -5,5 +5,6 @@ with (instance_create_layer(camera_get_view_x(view_camera[0]) + camera_get_view_
 	
 	speed = 1;
 	maxspd = 1;
+	follow_y = 1;
 	alarm[2] = -1;
 }

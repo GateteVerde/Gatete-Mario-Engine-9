@@ -1,4 +1,4 @@
-/// @description Lightning volt logic
+/// @description Missile logic
 
 //Handle psuedo movement
 if (freeze == false) {
@@ -118,8 +118,55 @@ if (brick) {
 	//Get 10 points
 	score += 10;
 
-	//Destroy brick
-	with (brick) event_user(1);
+	//With the brick
+	with (brick) {
+		
+		#region ITEM
+		
+			//If there's an item inside this brick, create it.
+			if (item != "None") {
+				
+				//Play 'Sprout' sound
+				audio_play_sound(snd_sprout, 0, false);
+			
+				//If there's a mushroom inside this brick, create it
+				if (item == "Mushroom") {
+				
+					with (instance_create_depth(x+8, y, -2, obj_mushroom)) {
+					
+						yspeed = -6;
+						xspeed = 0.5;
+						yadd = 0.1;
+					}
+				}
+				
+				//Otherwise if there's a Starman inside this brick, create it
+				else if (item == "Starman") {
+				
+					with (instance_create_depth(x+8, y, -2, obj_starman)) {
+					
+						yspeed = -6;
+						xspeed = 0.5;
+						yadd = 0.1;
+					}
+				}
+				
+				//Otherwise if there's a 1-UP inside this brick, create it
+				else if (item == "1-UP") {
+				
+					with (instance_create_depth(x+8, y, -2, obj_1up)) {
+					
+						yspeed = -6;
+						xspeed = 0.5;
+						yadd = 0.1;
+					}					
+				}
+			}
+		#endregion
+	
+		//Destroy
+		event_user(1);
+	}
 
 	//Destroy
 	event_user(0);

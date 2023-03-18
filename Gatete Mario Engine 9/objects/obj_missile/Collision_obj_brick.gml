@@ -1,2 +1,0 @@
-/// @description Destroy the brick
-
