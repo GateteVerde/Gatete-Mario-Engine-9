@@ -96,7 +96,7 @@ if (ds_map_size(global.powerstars) > 0) {
 		
 		//Draw the reserve item
 		if (global.reserve != cs_small)
-			draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (16 * global.hp_mode), 1, 1, 0, c_white, 1);
+			draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (8 * global.hp_mode), 1, 1, 0, c_white, 1);
 	}
 	
 	//Otherwise

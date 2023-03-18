@@ -105,7 +105,10 @@ if (delay <= 0) {
 	    delay = 16;
 				
 		//Create a lightning volt
-	    with (instance_create_depth(x+8, y+8, -2, obj_missile))
+	    with (instance_create_depth(x, y+8, -6, obj_missile)) {
+			
 	        xspeed = 6*sign(other.xscale);
+			sprite_index = (other.subpop) ? spr_torpedo : spr_missile;
+		}
 	}
 }
