@@ -40,6 +40,10 @@ turn_silver = 1;
 hp = 0;
 firehp = 0;
 
+//Shmup Enemy
+shmup_enemy = 0;
+shmup_value = 100;
+
 //Makes the NPCs invulnerable to projectiles after being hit by one
 invulnerable = 0;
 
