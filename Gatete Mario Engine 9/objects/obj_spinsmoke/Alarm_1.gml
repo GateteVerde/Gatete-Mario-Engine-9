@@ -1,3 +1,6 @@
-/// @description Do not show stars
+/// @description Set star position
 
-starstop = 1;
+starx += 2;
+stary += 1;
+if (starstop == 0)
+    alarm[1] = 1;

@@ -1,6 +1,8 @@
-/// @description Set star position
+/// @description Delay sound effect
 
-starx += 2;
-stary += 1;
-if (starstop == 0)
-    alarm[0] = 1;
+//If this is not silent
+if (silent == false) {
+
+	//Play 'Spinstomp' sound
+	audio_play_sound(snd_spinstomp, 0, false);
+}
