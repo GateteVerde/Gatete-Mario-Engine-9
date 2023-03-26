@@ -27,6 +27,9 @@ if (freeze == false) {
 				
 					//Play 'Pop' sound
 					audio_play_sound(snd_pop, 0, false);
+					
+					//Force end holding
+					with (obj_mario) holding = 0;
 				
 					//Release
 					ready = 2;
@@ -49,35 +52,30 @@ if (freeze == false) {
 				if (obj_mario.yspeed == 0)
 				|| (input_check_pressed(input.action_0)) {
 					
-					//Play 'Jump' sound
-					audio_play_sound(snd_jump, 0, false)
-					
 					//Create balloons
 					with (instance_create_depth(x, y, -2, obj_glider_balloons)) image_index = 1 + other.glide_up;
+					
+					//Force end holding
+					with (obj_mario) holding = 0;
 					
 					//Release balloon
 					ready = 2;
 					
-					//Make Mario jump
-					obj_mario.yspeed = -3.7675;
-					obj_mario.y--;
+					//If the 'Jump' key is pressed, do jump
+					if (input_check_pressed(input.action_0)) {
+						
+						//Play 'Jump' sound
+						audio_play_sound(snd_jump, 0, false)
 					
-					//Make Mario vary their jump
-					obj_mario.jumping = 1;
+						//Make Mario jump
+						obj_mario.yspeed = -3.7675;
+						obj_mario.y--;
+					
+						//Make Mario vary their jump
+						obj_mario.jumping = 1;
+					}
 				}
 
-			#endregion
-			
-			#region PLAYER SNAP
-				
-				//Stay on Mario's X position
-				x = obj_mario.x;
-			
-				//If this balloon does not glide up
-				if (glide_up == false)
-					y = ceil(obj_mario.y);
-				else
-					obj_mario.y = ceil(y);
 			#endregion
 	
 			//If the gliding up flag is active
