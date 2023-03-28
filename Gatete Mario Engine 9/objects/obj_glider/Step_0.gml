@@ -40,7 +40,7 @@ if (freeze == false) {
 						with (instance_create_depth(x, y-32, -6, obj_spinsmoke)) silent = true;
 
 						//Create extra effects if this balloon glides up
-						if (glide_up == true) {
+						if (balloons == 3) {
 							
 							with (instance_create_depth(x-8, y-24, -6, obj_spinsmoke)) silent = true;
 							with (instance_create_depth(x+8, y-24, -6, obj_spinsmoke)) silent = true;
@@ -52,11 +52,19 @@ if (freeze == false) {
 				if (obj_mario.yspeed == 0)
 				|| (input_check_pressed(input.action_0)) {
 					
-					//Create balloons
-					with (instance_create_depth(x, y, -2, obj_glider_balloons)) image_index = 1 + other.glide_up;
-					
 					//Force end holding
-					with (obj_mario) holding = 0;
+					obj_mario.holding = 0;
+					
+					//Create balloons
+					with (instance_create_depth(x, y, -2, obj_glider_balloons)) {
+						
+						if (other.balloons == 3)
+							image_index = 2;
+						else if (other.balloons == 2)
+							image_index = 1;
+						else
+							image_index = 0;		
+					}
 					
 					//Release balloon
 					ready = 2;
@@ -78,17 +86,28 @@ if (freeze == false) {
 
 			#endregion
 	
-			//If the gliding up flag is active
-			if (glide_up == true) {
+			//If this glider has 3 balloons
+			if (balloons == 3) {
 		
 				//Set the vertical speed
 				yspeed -= 0.1;
 				if (yspeed < -1)
 					yspeed = -1;
 			}
+			
+			//Otherwise, if this glider has 2 balloons
+			else if (balloons == 2) {
+				
+				//Stop Mario's vertical motion
+				obj_mario.xspeed = 0;
+				
+				//Set the y position
+				if (freeze == false)
+					yspeed += (y > ystart) ? -0.05 : 0.05;
+			}
 		
-			//Otherwise
-			else if (glide_up == false) {
+			//Otherwise, if this glider has 1 balloon
+			else {
 				
 				//Set Mario's vertical speed
 				obj_mario.yspeed -= obj_mario.yadd / 1.75;

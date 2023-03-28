@@ -734,6 +734,7 @@
     {"name":"snd_coin_all","order":17,"path":"sounds/snd_coin_all/snd_coin_all.yy",},
     {"name":"spr_rocketengine_st","order":13,"path":"sprites/spr_rocketengine_st/spr_rocketengine_st.yy",},
     {"name":"spr_mario_bee_runjump","order":3,"path":"sprites/spr_mario_bee_runjump/spr_mario_bee_runjump.yy",},
+    {"name":"spr_glider_balloons","order":24,"path":"sprites/spr_glider_balloons/spr_glider_balloons.yy",},
     {"name":"obj_coin_outline","order":4,"path":"objects/obj_coin_outline/obj_coin_outline.yy",},
     {"name":"spr_modifier_music","order":3,"path":"sprites/spr_modifier_music/spr_modifier_music.yy",},
     {"name":"obj_shyguy_b","order":2,"path":"objects/obj_shyguy_b/obj_shyguy_b.yy",},

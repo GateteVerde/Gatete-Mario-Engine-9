@@ -960,6 +960,7 @@
     {"id":{"name":"spr_rocketengine_st","path":"sprites/spr_rocketengine_st/spr_rocketengine_st.yy",},},
     {"id":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},},
     {"id":{"name":"spr_mario_bee_runjump","path":"sprites/spr_mario_bee_runjump/spr_mario_bee_runjump.yy",},},
+    {"id":{"name":"spr_glider_balloons","path":"sprites/spr_glider_balloons/spr_glider_balloons.yy",},},
     {"id":{"name":"obj_coin_outline","path":"objects/obj_coin_outline/obj_coin_outline.yy",},},
     {"id":{"name":"spr_modifier_music","path":"sprites/spr_modifier_music/spr_modifier_music.yy",},},
     {"id":{"name":"obj_shyguy_b","path":"objects/obj_shyguy_b/obj_shyguy_b.yy",},},

@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_glider",
-    "path": "sprites/spr_glider/spr_glider.yy",
+    "name": "spr_glider_balloons",
+    "path": "sprites/spr_glider_balloons/spr_glider_balloons.yy",
   },
   "spriteMaskId": null,
   "visible": true,

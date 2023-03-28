@@ -6,14 +6,19 @@ if (instance_exists(obj_mario)) {
 	//If the balloon is being held
 	if (ready == 1) {
 
-		//Stay on Mario's X position
-		x = obj_mario.x+8 * sign(obj_mario.xscale);
+		#region MARIO X POSITION
+		
+			if (balloons == 2)
+				obj_mario.x = (obj_mario.xscale == 1) ? x-8 : x+8;
+			else
+				x = obj_mario.x+8 * sign(obj_mario.xscale);
+		#endregion
 		
 		//Force Mario holding sprite
 		with (obj_mario) holding = 3;
 		
 		//If this balloon flies up
-		if (glide_up == true) {
+		if (balloons > 1) {
 			
 			//If Mario is small
 			if (global.powerup == cs_small)
@@ -23,7 +28,7 @@ if (instance_exists(obj_mario)) {
 		}
 		
 		//Otherwise
-		else if (glide_up == false) {
+		else {
 			
 			//If Mario is small
 			if (global.powerup == cs_small)
