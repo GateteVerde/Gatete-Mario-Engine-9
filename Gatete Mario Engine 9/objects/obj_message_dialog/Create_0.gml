@@ -18,8 +18,5 @@ mug_anim = 0;
 //Snapshot freeze
 snapshot = -1;
 
-//Line number
-line_num = 0;
-
 //Delay creating the snapshot
 alarm[0] = 2; 

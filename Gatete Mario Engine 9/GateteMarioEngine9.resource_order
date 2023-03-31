@@ -281,6 +281,7 @@
     {"name":"Weather","order":2,"path":"folders/Sprites/Special/Eyecandy/Weather.yy",},
     {"name":"Lighting","order":2,"path":"folders/Sprites/Special/Lighting.yy",},
     {"name":"System","order":3,"path":"folders/Sprites/Special/System.yy",},
+    {"name":"Dialogue","order":3,"path":"folders/Sprites/Special/System/GUI/Dialogue.yy",},
     {"name":"Fonts","order":2,"path":"folders/Sprites/Special/System/GUI/Fonts.yy",},
     {"name":"In-Map","order":1,"path":"folders/Sprites/Special/System/GUI/In-Map.yy",},
     {"name":"Markers","order":2,"path":"folders/Sprites/Special/System/Markers.yy",},
@@ -295,7 +296,6 @@
     {"name":"Paths","order":1,"path":"folders/Sprites/World Map/Paths.yy",},
     {"name":"Tilesets","order":1,"path":"folders/Tilesets.yy",},
     {"name":"Time Lines","order":7,"path":"folders/Time Lines.yy",},
-    {"name":"Dialogue","order":3,"path":"folders/Sprites/Special/System/GUI/Dialogue.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pipe_broken","order":9,"path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},

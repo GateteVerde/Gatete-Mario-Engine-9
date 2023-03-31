@@ -2,22 +2,19 @@
 
 //Temporary variables
 var i = 0;
-var line_num = 0;
 
 //Iterate through all the text
 for (i=1; i<=string_length(text); i++) {
 	
-	//If there's a hash in position
-    if (string_char_at(text, i) = "#") {
-		
-		//Swap to next line
-        line_num += 1;
-        if (line_num == 7) {
+	//If the height of the text is greater than 64 pixels
+	if (string_height(string_copy(text, 1, min(i+1, string_length(text)))) > 64) {
 			
-            new_text = string_hash_to_newline(string_copy(text, i+1, string_length(text)-i));
-            text = string_hash_to_newline(string_copy(text, 1, i));
-            break;
-        }
+		//Split off the lines after the new line to be displayed later
+        new_text = string_copy(text, i+1, string_length(text)-i);
+        text = string_copy(text, 1, i);
+		
+		//Break out of the loop
+        break;
     }
 }
 

@@ -37,7 +37,7 @@ if (showing == 1) {
 		draw_set_font(global.gui_font);
 	
 		//Draw the text
-		draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 96, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 72, string_hash_to_newline(string_copy(text, 1, a)), c_black, c_white, 1, 1, 0.5, 1);
+		draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 96, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 72, string_copy(text, 1, a), c_black, c_white, 1, 1, 0.5, 1);
 	
 	#endregion
 	
