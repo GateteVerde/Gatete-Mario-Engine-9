@@ -2096,6 +2096,7 @@
     {"name":"spr_coin_star","order":7,"path":"sprites/spr_coin_star/spr_coin_star.yy",},
     {"name":"spr_hothead_blink","order":22,"path":"sprites/spr_hothead_blink/spr_hothead_blink.yy",},
     {"name":"obj_rocketengine_alt","order":10,"path":"objects/obj_rocketengine_alt/obj_rocketengine_alt.yy",},
+    {"name":"spr_gui_dialogue_stub","order":4,"path":"sprites/spr_gui_dialogue_stub/spr_gui_dialogue_stub.yy",},
     {"name":"spr_boo_stretch_ceiling","order":7,"path":"sprites/spr_boo_stretch_ceiling/spr_boo_stretch_ceiling.yy",},
     {"name":"spr_panser_g","order":20,"path":"sprites/spr_panser_g/spr_panser_g.yy",},
     {"name":"obj_pararus","order":14,"path":"objects/obj_pararus/obj_pararus.yy",},

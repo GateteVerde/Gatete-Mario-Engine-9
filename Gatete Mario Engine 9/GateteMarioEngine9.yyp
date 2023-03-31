@@ -2469,6 +2469,7 @@
     {"id":{"name":"spr_coin_star","path":"sprites/spr_coin_star/spr_coin_star.yy",},},
     {"id":{"name":"spr_hothead_blink","path":"sprites/spr_hothead_blink/spr_hothead_blink.yy",},},
     {"id":{"name":"obj_rocketengine_alt","path":"objects/obj_rocketengine_alt/obj_rocketengine_alt.yy",},},
+    {"id":{"name":"spr_gui_dialogue_stub","path":"sprites/spr_gui_dialogue_stub/spr_gui_dialogue_stub.yy",},},
     {"id":{"name":"spr_boo_stretch_ceiling","path":"sprites/spr_boo_stretch_ceiling/spr_boo_stretch_ceiling.yy",},},
     {"id":{"name":"spr_panser_g","path":"sprites/spr_panser_g/spr_panser_g.yy",},},
     {"id":{"name":"obj_pararus","path":"objects/obj_pararus/obj_pararus.yy",},},

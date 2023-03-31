@@ -7,7 +7,7 @@ dia_anim += 0.15;
 freeze_render();
 
 //Draw the message box
-draw_sprite_ext(spr_gui_dialogue, 1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 56, 1, 1, 0, c_white, 1);
+draw_sprite_ext(spr_gui_dialogue, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 56, 1, 1, 0, c_white, 1);
 
 //If the text is being displayed
 if (showing == 1) {
@@ -39,9 +39,12 @@ if (showing == 1) {
 		//Draw the text
 		draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 96, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 72, string_copy(text, 1, a), c_black, c_white, 1, 1, 0.5, 1);
 		
-		//Draw character name
 		if (char_name != noone) {
-		
+			//Draw the message stub
+			// Character name length + sides buffer, multiplied by texel width
+			var _stub_width = ((8 * string_length(string(char_name))) + 16) * (1.0 / sprite_get_width(spr_gui_dialogue_stub));
+			draw_sprite_ext(spr_gui_dialogue_stub, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - (sprite_get_width(spr_gui_dialogue) / 2), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 56 - (sprite_get_height(spr_gui_dialogue) / 2) + 7, _stub_width, 1, 0, c_white, 1);
+			//Draw character name
 			draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 136, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 83, string(char_name), c_black, c_white, 1, 1, 0.5, 1);
 		}
 	#endregion
