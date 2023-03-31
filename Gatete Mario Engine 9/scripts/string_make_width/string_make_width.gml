@@ -20,9 +20,9 @@ function string_make_width() {
 	    ret2 = ret + word + " ";
 		
 		//If the width of the text is greater than the value given on argument[1]
-	    if (string_width(string_hash_to_newline(ret2)) > argument[1]) {
+	    if (string_width(string(ret2)) > argument[1]) {
 			
-	        ret2 = ret + "#" + word + " ";
+	        ret2 = ret + "\n" + word + " ";
 		}
 	    ret = ret2;
 	}

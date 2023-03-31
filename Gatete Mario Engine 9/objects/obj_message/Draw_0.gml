@@ -13,10 +13,7 @@ if (scale > 0.1) {
 if (showing == 1) {
 
     //Increment the number of letters that should be displayed
-    if (a <= string_length(text)) {
-		
-        a++;
-	}
+    if (a <= string_length(text)) a++;
 	
 	//Set the font
 	draw_set_font(global.gui_font);

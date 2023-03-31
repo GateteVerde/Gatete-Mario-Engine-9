@@ -21,6 +21,7 @@ event_inherited();
 
 			varmsg = other.varmsg;
 			mugshot = other.mugshot;
+			char_name = other.char_name;
 			mute_sound = other.mute_sound;
 		}
     

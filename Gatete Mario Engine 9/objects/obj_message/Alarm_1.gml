@@ -4,7 +4,7 @@
 draw_set_font(global.gui_font);
 
 //Set up the text
-text = string_make_width(varmsg, 200);
+text = string(string_make_width(varmsg, 200));
 
 //The text that should display next if it is too long
 new_text = "";

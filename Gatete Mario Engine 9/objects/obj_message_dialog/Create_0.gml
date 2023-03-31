@@ -3,6 +3,7 @@
 //Default variables
 varmsg = "No message set.";
 mugshot = noone;
+char_name = noone;
 mute_sound = false;
 
 //Is the message showing
