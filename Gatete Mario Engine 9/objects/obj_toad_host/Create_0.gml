@@ -22,6 +22,9 @@ ready = 0;
 //Move 1 pixel down
 y++;
 
+//Set facing direction
+image_xscale = -1;
+
 //Set message based on minigame chosen
 switch (global.minigame) {
 

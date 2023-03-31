@@ -13,7 +13,7 @@ stomp = 2;
 edible = 2;
 
 //NPC Health
-firehp = 10;
+firehp = 9;
 
 //Shmup Enemy
 shmup_enemy = 1;
