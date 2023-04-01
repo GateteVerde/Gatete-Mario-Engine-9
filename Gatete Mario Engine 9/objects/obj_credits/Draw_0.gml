@@ -1,7 +1,7 @@
 /// @description Draw the credits
 
 //Set the font
-draw_set_font(global.gui_font_menu);
+draw_set_font(global.gui_font);
 
 //Set the alpha
 draw_set_alpha(alpha);
@@ -21,7 +21,16 @@ draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(vie
 //Draw 'The end'
 if ((ready >= 4) && (alpha > 0)) {
 
+	//The End
     draw_sprite_ext(spr_theend, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + (global.gh / 2) - 16, 1, 1, 0, c_white, alpha);
-    if (display)
+ 
+	//Display 'Press Any Key!' text
+	if (display) {
+		
+		//Set font
+		draw_set_font(global.gui_font_menu);
+		
+		//Draw 'PRESS ANY KEY!' text
         draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0])+176, "PRESS ANY KEY!", c_black, c_white, 1, 1, alpha/2, alpha);
+	}
 }
