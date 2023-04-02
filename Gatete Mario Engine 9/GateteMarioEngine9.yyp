@@ -2159,6 +2159,7 @@
     {"id":{"name":"spr_jelectro","path":"sprites/spr_jelectro/spr_jelectro.yy",},},
     {"id":{"name":"spr_cruncher","path":"sprites/spr_cruncher/spr_cruncher.yy",},},
     {"id":{"name":"spr_platform_pulley_rope","path":"sprites/spr_platform_pulley_rope/spr_platform_pulley_rope.yy",},},
+    {"id":{"name":"obj_chicken","path":"objects/obj_chicken/obj_chicken.yy",},},
     {"id":{"name":"spr_iceflower","path":"sprites/spr_iceflower/spr_iceflower.yy",},},
     {"id":{"name":"snd_yoshi_hover","path":"sounds/snd_yoshi_hover/snd_yoshi_hover.yy",},},
     {"id":{"name":"spr_beachkoopa_yellow_walk","path":"sprites/spr_beachkoopa_yellow_walk/spr_beachkoopa_yellow_walk.yy",},},

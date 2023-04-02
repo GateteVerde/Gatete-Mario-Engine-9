@@ -96,7 +96,8 @@ delay--;
 if (delay <= 0) {
 
 	//If the 'Control button is pressed
-	if (input_check(input.action_1)) {
+	if (input_check(input.action_1)) 
+	&& (!instance_exists(obj_mario_transform)) {
 	
 			//Play 'Fireball' sound
 		audio_play_sound(snd_fireball, 0, false);

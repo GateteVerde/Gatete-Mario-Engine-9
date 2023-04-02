@@ -180,7 +180,7 @@ if (invulnerable == 0)
 						with (instance_create_depth(0, 0, -5, obj_mario_transform)) {
 							
 							if (instance_exists(obj_mario_shmup))	
-								sequence = 39;
+								sequence = 3;
 							else
 								sequence = 1;
 						}
