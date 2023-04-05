@@ -13,7 +13,8 @@ enum palette {
 	superball = 4,
 	volt = 5,
 	lui = 6,
-	gold = 7	
+	wind = 7,
+	gold = 8	
 }
 
 function pal_swap_set_player() {
@@ -38,6 +39,7 @@ function pal_swap_set_player() {
 			case (cs_fraccoon): pal = palette.fire; break;			// Fire Raccoon palette
 			case (cs_iraccoon): pal = palette.ice; break;			// Ice Raccoon palette
 			case (cs_lui): pal = palette.lui; break;				// Jumping Lui palette
+			case (cs_wind): pal = palette.wind; break;				// Wind palette
 			case (cs_gold): pal = palette.gold; break;				// Gold palette		
 		}
 		

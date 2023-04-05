@@ -63,6 +63,9 @@ else {
 	|| (sprite_index == spr_superflower)
 	|| (sprite_index == spr_superflower_cb)
 	|| (sprite_index == spr_voltshroom)
+	|| (sprite_index == spr_jumpinglui)
+	|| (sprite_index == spr_windflower)
+	|| (sprite_index == spr_windflower_cb)
 		sequence = 2;
 		
 	//Otherwise, set the sequence to 'Transform'

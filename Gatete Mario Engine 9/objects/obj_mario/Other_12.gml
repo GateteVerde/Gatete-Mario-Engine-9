@@ -827,7 +827,8 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 	|| (global.powerup == cs_tanooki) 
 	|| (global.powerup == cs_cape)
 	|| (global.powerup == cs_fraccoon) 
-	|| (global.powerup == cs_iraccoon) {
+	|| (global.powerup == cs_iraccoon) 
+	|| (global.powerup == cs_wind) {
 	
         //If the gravity is disabled
         if (disablegrav > -1) {
@@ -1116,7 +1117,7 @@ if (state == playerstate.jump)
 && (enable_control == 1) {
 
     //If the player does have either the raccoon or the tanooki powerup
-    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon))
+    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon) || ((global.powerup == cs_wind) && (doublejump == 2)))
 	&& (jumping != 1)
     && (wallkick < 1)
 	&& (groundpound == 0)
@@ -1137,48 +1138,65 @@ if (state == playerstate.jump)
 		triplejump = 0;
 		somersault = 0;
 		angle = 0;
+		
+		//If Mario has the wind powerup
+		if (global.powerup == cs_wind) {
+			
+			//Whip tail
+	        wiggle = 16;
+            
+	        //Disable grav
+	        disablegrav = 16;
+            
+	        //Set the vertical speed
+	        yspeed = 0.75;			
+		}
+		
+		//Otherwise
+		else {
     
-        //If the player is running or the pwing is active
-        if (run)
-        || (global.pwing == 1) {
+	        //If the player is running or the pwing is active
+	        if (run)
+	        || (global.pwing == 1) {
             
-            //Make the player able to fly for a fixed amount of seconds
-			if (!flying) {
+	            //Make the player able to fly for a fixed amount of seconds
+				if (!flying) {
 				
-				flying = true;
-				alarm[11] = 60 * global.flighttime;
-			}
+					flying = true;
+					alarm[11] = 60 * global.flighttime;
+				}
             
-            //Whip tail.
-            wiggle = 16;
+	            //Whip tail.
+	            wiggle = 16;
             
-            //Disable grav.
-            disablegrav = 16;
+	            //Disable grav.
+	            disablegrav = 16;
             
-            //Set the vertical speed.
-            if (alarm[11] > 30)  
-                yspeed = -1.5;
-            else {
+	            //Set the vertical speed.
+	            if (alarm[11] > 30)  
+	                yspeed = -1.5;
+	            else {
             
-                if (yspeed < 0)
-                    yspeed  = max(yspeed + 0.05, 0);
-                else
-                    yspeed = 0;
-            }
-        }
+	                if (yspeed < 0)
+	                    yspeed  = max(yspeed + 0.05, 0);
+	                else
+	                    yspeed = 0;
+	            }
+	        }
         
-        //Otherwise, if the player is not running.
-        else if (!run) {   
+	        //Otherwise, if the player is not running.
+	        else if (!run) {   
             
-            //Whip tail.
-            wiggle = 16;
+	            //Whip tail.
+	            wiggle = 16;
             
-            //Disable grav.
-            disablegrav = 16;
+	            //Disable grav.
+	            disablegrav = 16;
             
-            //Set the vertical speed.
-            yspeed = 0.75;
-        }
+	            //Set the vertical speed.
+	            yspeed = 0.75;
+	        }
+		}
     }
     
     //Handles carrot and bee Mario's floating
@@ -1303,6 +1321,43 @@ if (global.powerup == cs_squirrel)
         yspeed = 2;
 }
 
+//Wind Mario Double Jump
+if (global.powerup == cs_wind) {
+
+	//Double Jump
+	if (doublejump == 0)
+	&& (jumping != 1)
+	&& (input_check_pressed(input.action_0)) {
+	
+		//Play 'Jump' sound
+		audio_play_sound(snd_jump, 0, false);
+		
+		//Play 'Stomp' sound
+		audio_play_sound(snd_stomp, 0, false);
+		
+		//Do double jump
+		doublejump = 1;
+		
+		//Move up
+		yspeed = -3.4675;
+		
+		//Enable variable jumping
+		jumping = 1;
+		
+		//Create effects
+		repeat (8) {
+			
+			with (instance_create_depth(x, y+16, -6, obj_smoke)) {
+				
+				sprite_index = spr_smoke_c;
+				image_speed = 0.5;
+				gravity = 0.05;
+				motion_set(random_range(180, 360), 1);
+			}
+		}
+	}
+}
+
 #region ALLOW TWIRL
 	
 	//If Mario does have any of these powerups, exclude him from doing a twirl
@@ -1315,6 +1370,7 @@ if (global.powerup == cs_squirrel)
 	|| (global.powerup == cs_squirrel)
 	|| (global.powerup == cs_fraccoon)
 	|| (global.powerup == cs_iraccoon)
+	|| (global.powerup == cs_wind)
 	|| (global.powerup == cs_mega)
 		allow_twirl = 0;
 	else
@@ -1409,6 +1465,10 @@ else if (crouch == false) {
 		}
 	}
 }
+
+//Increment double jump
+if (doublejump == 1) && (yspeed > 0)
+	doublejump = 2;
 
 //Keep incrementing squat timer if jump is ready
 if (crouch == true)

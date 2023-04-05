@@ -29,6 +29,7 @@
 	&& (global.powerup != cs_ranger)
 	&& (global.powerup != cs_fraccoon)
 	&& (global.powerup != cs_iraccoon)
+	&& (global.powerup != cs_wind)
 		instance_destroy();
 	
 #endregion

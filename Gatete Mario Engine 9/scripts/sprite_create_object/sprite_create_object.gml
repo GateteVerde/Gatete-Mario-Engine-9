@@ -79,6 +79,11 @@ function sprite_create_object() {
 		//Jumping Lui
 		case (spr_jumpinglui): return instance_create_depth(argument[1], argument[2], argument[3], obj_jumpinglui);
 		
+		//Wind Flower
+		case (spr_windflower):
+		case (spr_windflower_cb):
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_windflower);
+		
 		//Golden Flower
 		case (spr_goldenflower):
 		case (spr_goldenflower_cb): 

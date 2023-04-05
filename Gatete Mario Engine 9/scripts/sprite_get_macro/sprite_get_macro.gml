@@ -36,6 +36,8 @@ function sprite_get_macro() {
 		case (spr_chillleaf_sp): return cs_iraccoon;
 		case (spr_beetroot): return cs_beet;
 		case (spr_jumpinglui): return cs_lui;
+		case (spr_windflower):
+		case (spr_windflower_cb): return cs_wind;
 		case (spr_goldenflower): 
 		case (spr_goldenflower_cb): return cs_gold;
 		case (spr_megashroom): return cs_mega;

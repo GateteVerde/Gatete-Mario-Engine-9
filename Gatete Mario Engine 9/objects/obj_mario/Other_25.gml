@@ -79,6 +79,9 @@ catclimbing = 0;
 squirreltime = 0;
 squirrelpropel = 0;
 
+//Reset double jump variable
+doublejump = 0;
+
 //Reset combo variable if not sliding
 if (!sliding) 
 	hitcombo = 0;

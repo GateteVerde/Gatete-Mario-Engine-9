@@ -107,9 +107,10 @@ init_shockwave();
 	#macro cs_iraccoon 23
 	#macro cs_beet 24
 	#macro cs_lui 25
-	#macro cs_tiny 26
-	#macro cs_gold 27
-	#macro cs_mega 28
+	#macro cs_wind 26
+	#macro cs_tiny 27
+	#macro cs_gold 28
+	#macro cs_mega 29
 
 #endregion
 

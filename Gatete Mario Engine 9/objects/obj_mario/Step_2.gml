@@ -583,14 +583,37 @@ else {
                                                 
 	                                                //Set the appropiate sprite
 	                                                if (!run)
-	                                                && (global.pwing == 0)
-	                                                    sprite_index = global.jump_sprite[global.powerup];
-	                                                else {
+	                                                && (global.pwing == 0) {
 													
-														if (global.powerup != cs_bell)
-															sprite_index = (global.powerup == cs_tiny) ? global.jump_sprite[global.powerup] : global.runjump_sprite[global.powerup];
+														//If Mario does have the Wind powerup
+														if (global.powerup == cs_wind) {
+															
+															if (wiggle > 0)
+																sprite_index = spr_mario_wind_float;
+															else
+																sprite_index = global.jump_sprite[global.powerup];
+														}
 														else
 															sprite_index = global.jump_sprite[global.powerup];
+													}
+	                                                else {
+													
+														//If Mario does not have the Cat powerup
+														if (global.powerup != cs_bell) {
+															
+															//If Mario does have the Wind powerup
+															if (global.powerup == cs_wind) {
+																
+																if (wiggle > 0)
+																	sprite_index = spr_mario_wind_float;
+																else
+																	sprite_index = global.runjump_sprite[global.powerup];
+															}
+															else
+																sprite_index = (global.powerup == cs_tiny) ? global.jump_sprite[global.powerup] : global.runjump_sprite[global.powerup];
+														}
+														else
+															sprite_index = global.jump_sprite[global.powerup];					
 													}
 	                                            }
 	                                        }

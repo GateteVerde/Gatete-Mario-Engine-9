@@ -196,6 +196,9 @@ groundpound = 0;
 //Twirl
 twirl = 0;
 
+//Handles double jumping
+doublejump = 0;
+
 //Prevents the player from moving if stunned
 stuntime = 0;
 stunanim = 0;
