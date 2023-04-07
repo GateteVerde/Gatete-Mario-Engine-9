@@ -1,4 +1,4 @@
-/// @description Galoomba
+/// @description Goombud
 
 //Inherit event
 event_inherited();
@@ -7,7 +7,7 @@ event_inherited();
 edible = 1;
 
 //Turn towards ledges
-turn_on_ledges = true;
+turn_on_ledges = 1;
 
 //Move towards Mario
 alarm[10] = 2;
