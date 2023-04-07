@@ -52,6 +52,10 @@ function save() {
 	file_text_write_string(file, base64_encode(string(global.palace_b)));
 	file_text_writeln(file);
 	
+	//Save shmup tutorial message
+	file_text_write_string(file, base64_encode(string(global.first_shmup_time)));
+	file_text_writeln(file)
+	
 	//Save lives
 	file_text_write_string(file, base64_encode(string(lives)));
 	file_text_writeln(file);

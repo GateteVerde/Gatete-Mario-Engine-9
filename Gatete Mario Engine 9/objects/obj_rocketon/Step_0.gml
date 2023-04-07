@@ -50,8 +50,14 @@ if (freeze == false) {
 				//Shoot a bullet bill
 				with (instance_create_depth(x, y+10, -2, obj_bulletbill)) {
 				
-					vulnerable = 100;
+					//Set frame
 					image_index = 7;
+					
+					//Set vulnerabilities
+					vulnerable = 100;
+					stomp = 2;
+					
+					//Set motion
 					xspeed = 2;
 					yspeed = 2;
 				}
@@ -78,8 +84,14 @@ if (freeze == false) {
 				//Shoot a bullet bill
 				with (instance_create_depth(x, y+10, -2, obj_bulletbill)) {
 				
-					vulnerable = 100;
+					//Set frame
 					image_index = 1;
+					
+					//Set vulnerabilities
+					vulnerable = 100;
+					stomp = 2;
+					
+					//Set motion
 					xspeed = 2;
 					yspeed = -2;
 				}

@@ -146,6 +146,9 @@ function init_globals() {
 	
 	//Did Mario died?
 	global.died = 0;
+	
+	//Did the shmup tutorial fired?
+	global.first_shmup_time = 0;
 
 	//Data structure for opened doors
 	global.doors = ds_map_create();

@@ -49,22 +49,30 @@ else {
 		    global.powerup = cs_big;
 		}
     
-		//Otherwise, get a reserve mushroom
+		//Otherwise, get a reserve mushroom (But only in non-shmup stages)
 		else {
+			
+			//If Mario is on a plane/submarine
+			if (instance_exists(obj_mario_shmup))
+				audio_play_sound(snd_reserve, 0, false);
+				
+			//Otherwise
+			else {
 		
-			//If there's not a item in reserve
-			if (global.reserve == cs_small) {
+				//If there's not a item in reserve
+				if (global.reserve == cs_small) {
 					
-				//Play 'Reserve' box
-				audio_play_sound(snd_reserve, 0, false);
+					//Play 'Reserve' box
+					audio_play_sound(snd_reserve, 0, false);
 		
-				//Reserve a mushroom
-		        global.reserve = cs_big;
-			}
+					//Reserve a mushroom
+			        global.reserve = cs_big;
+				}
 	
-			//Otherwise, if there's an item in reserve
-			else
-				audio_play_sound(snd_reserve, 0, false);
+				//Otherwise, if there's an item in reserve
+				else
+					audio_play_sound(snd_reserve, 0, false);
+			}
 		}
 	}
 

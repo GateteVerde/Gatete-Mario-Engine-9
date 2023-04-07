@@ -52,6 +52,10 @@ function load() {
 	global.palace_b = real(base64_decode(file_text_read_string(file)));
 	file_text_readln(file);
 	
+	//Load shmup tutorial message
+	global.first_shmup_time = real(base64_decode(file_text_read_string(file)));
+	file_text_readln(file);
+	
 	//Load lives
 	lives = real(base64_decode(file_text_read_string(file)));
 	file_text_readln(file);

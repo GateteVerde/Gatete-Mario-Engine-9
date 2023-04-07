@@ -6,7 +6,7 @@ var i = 0;
 //Iterate over all the characters in the message
 for (i=1; i<string_length(text); i++) {
 
-    if (string_height(string_copy(text,1,min(i+1,string_length(text)))) > 64) {
+    if (string_height(string_copy(text,1,min(i+1,string_length(text)))) > 56) {
     
         //Split off the lines after the new line to be displayed later
         new_text = string_copy(text,i+1,string_length(text)-i);
