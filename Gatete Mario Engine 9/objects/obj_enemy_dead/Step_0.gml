@@ -43,6 +43,9 @@ if (qs) {
 	}
 }
 
+//Angle
+angle -= 10 * sign(hspeed)*-1
+
 //Gravity
 gravity = (swimming) ? 0.03125 : 0.25;
 
