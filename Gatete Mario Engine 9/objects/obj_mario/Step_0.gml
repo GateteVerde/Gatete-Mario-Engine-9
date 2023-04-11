@@ -12,7 +12,7 @@
 			if (obj_megashroom_timer.alarm[0] < 120) {
 	
 				//Set up palette
-				isflashing += 0.2;
+				isflashing += 0.1;
 				if (isflashing > 6)
 					isflashing = 0;
 			}
@@ -27,18 +27,18 @@
 			if (obj_invincibility.alarm[0] < 120) {
 
 				//Set up palette
-				isflashing += 0.05;
-				if (isflashing > 3.99)
-					isflashing = 0;
+				isflashing += 0.01;
+				if (isflashing > 4.99)
+					isflashing = 1;
 			}
 			
 			//Otherwise
 			else {
 	
 				//Set up palette
-				isflashing += 0.25;
-				if (isflashing > 3.99)
-					isflashing = 0;
+				isflashing += 0.05;
+				if (isflashing > 4.99)
+					isflashing = 1;
 			}
 		}
 	}
@@ -46,7 +46,7 @@
 		
 		//If Mario is frozen, apply freeze palette
 		if (freezetime > 0)
-			isflashing = 4;
+			isflashing = 5;
 		else
 			isflashing = 0;
 	}

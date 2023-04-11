@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//Leave a trail
+alarm[0] = 4;
+
 //Create a light
 if (instance_exists(obj_lightcontrol)) {
 

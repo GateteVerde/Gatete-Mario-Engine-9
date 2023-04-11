@@ -1,4 +1,4 @@
-/// @description Exit from the pipe
+/// @description Mario Pipe Logic
 
 //Animate cape if it is visible
 cape_anim += 0.065+abs(hspeed)/7.5;
@@ -12,18 +12,18 @@ cape_anim += 0.065+abs(hspeed)/7.5;
 		if (obj_invincibility.alarm[0] < 120) {
 
 			//Set up palette
-			isflashing += 0.05;
-			if (isflashing > 3.99)
-				isflashing = 0;
+			isflashing += 0.01;
+			if (isflashing > 4.99)
+				isflashing = 1;
 		}
 			
 		//Otherwise
 		else {
 	
 			//Set up palette
-			isflashing += 0.25;
-			if (isflashing > 3.99)
-				isflashing = 0;
+			isflashing += 0.05;
+			if (isflashing > 4.99)
+				isflashing = 1;
 		}
 	}
 	else

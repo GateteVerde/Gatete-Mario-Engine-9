@@ -36,8 +36,8 @@ if (instance_exists(obj_mapmario)) {
 //Update flashing
 if (global.mapstar == 1) {
 
-	isflashing += 0.25;
-	if (isflashing > 3.99)
+	isflashing += 0.15;
+	if (isflashing > 4.99)
 		isflashing = 0;
 }
 else

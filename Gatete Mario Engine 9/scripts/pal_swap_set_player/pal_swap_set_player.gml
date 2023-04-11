@@ -49,7 +49,7 @@ function pal_swap_set_player() {
 		//Set invincibility palette sprite(?)
 		if (instance_number(obj_megashroom_timer) == 0) {
 			
-			pal = floor(isflashing);
+			pal = isflashing;
 			spr = argument[1];
 		}
 		else {
