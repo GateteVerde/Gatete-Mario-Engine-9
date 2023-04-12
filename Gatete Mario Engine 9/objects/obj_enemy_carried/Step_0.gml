@@ -160,8 +160,8 @@ else {
 }
 
 //If the object is a bomb
-if (sprite_index == spr_shombguy)
-|| (sprite_index == spr_shombguy_th) {
+if (sprite_index == spr_bombguy)
+|| (sprite_index == spr_bombguy_th) {
 
     //If the timer is still going...
     if ((aa > 0) && (freeze == false)) { 
@@ -169,7 +169,7 @@ if (sprite_index == spr_shombguy)
         aa--;
         if (aa < 120) {
 			
-            sprite_index = spr_shombguy_th;
+            sprite_index = spr_bombguy_th;
 			image_speed = 1;
 		}
     }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_shombguy",
+  "name": "spr_bombguy",
   "bbox_bottom": 15,
   "bbox_left": 3,
   "bbox_right": 12,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_shombguy",
+    "name": "spr_bombguy",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"77a65324-74e2-4260-8180-4cb29aa2ccd8","path":"sprites/spr_shombguy/spr_shombguy.yy",},},},"Disabled":false,"id":"1fbe0e48-758d-44a0-bd8d-030eac24dc02","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b8d87f3a-035d-4712-b749-d32b37ce331e","path":"sprites/spr_shombguy/spr_shombguy.yy",},},},"Disabled":false,"id":"9ffefa84-f4a4-4217-833e-cc92df48f473","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"77a65324-74e2-4260-8180-4cb29aa2ccd8","path":"sprites/spr_bombguy/spr_bombguy.yy",},},},"Disabled":false,"id":"1fbe0e48-758d-44a0-bd8d-030eac24dc02","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b8d87f3a-035d-4712-b749-d32b37ce331e","path":"sprites/spr_bombguy/spr_bombguy.yy",},},},"Disabled":false,"id":"9ffefa84-f4a4-4217-833e-cc92df48f473","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

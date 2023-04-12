@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shombguy",
+  "name": "obj_bombguy",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":2,"isDnD":false,},
@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shombguy",
-    "path": "sprites/spr_shombguy/spr_shombguy.yy",
+    "name": "spr_bombguy",
+    "path": "sprites/spr_bombguy/spr_bombguy.yy",
   },
   "spriteMaskId": {
     "name": "spr_mask_npc_common_16x16",

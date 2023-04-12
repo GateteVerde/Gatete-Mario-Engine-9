@@ -30,7 +30,7 @@ function macro_get_sprite() {
 		case (cs_iraccoon): return spr_chillleaf;
 		case (cs_beet): return spr_beetroot;
 		case (cs_lui): return spr_jumpinglui;
-		case (cs_wind): return (obj_coordinator.colourblind == 1) ? spr_windflower_cb : spr_windflower;
+		case (cs_wind): return spr_windflower;
 		case (cs_gold): return (obj_coordinator.colourblind == 1) ? spr_goldenflower_cb : spr_goldenflower;
 		case (cs_mega): return spr_megashroom;
 	    case (cs_yoshi_g): return spr_egg;

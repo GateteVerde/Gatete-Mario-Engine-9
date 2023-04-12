@@ -4,7 +4,7 @@
 event_inherited();
 
 //How vulnerable is this enemy to various items?
-vulnerable = 99;
+vulnerable = 100;
 
 //How vulnerable is this enemy to Mario?
 stomp = -1;

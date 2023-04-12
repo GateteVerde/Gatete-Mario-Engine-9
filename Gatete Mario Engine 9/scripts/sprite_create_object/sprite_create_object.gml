@@ -81,7 +81,6 @@ function sprite_create_object() {
 		
 		//Wind Flower
 		case (spr_windflower):
-		case (spr_windflower_cb):
 			return instance_create_depth(argument[1], argument[2], argument[3], obj_windflower);
 		
 		//Golden Flower

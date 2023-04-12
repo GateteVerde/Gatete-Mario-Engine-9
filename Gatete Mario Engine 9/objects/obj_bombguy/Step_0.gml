@@ -14,7 +14,7 @@ event_inherited();
 		    if (aa < 120) {
     
 		        //Set the flashing sprite
-		        sprite_index = spr_shombguy_th;
+		        sprite_index = spr_bombguy_th;
         
 		        //Make sure to stop horizontal speed if on ground
 		        if (yadd == 0) {

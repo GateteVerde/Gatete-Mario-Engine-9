@@ -37,7 +37,7 @@ else if (active > 0) {
 			bomb = 0;
 			
 			//Create a shomb-guy
-			with (instance_create_depth(x, y+8, -2, obj_shombguy))
+			with (instance_create_depth(x, y+8, -2, obj_bombguy))
 				xspeed = 1 * sign(other.xscale);
 		}
 	}
