@@ -32,7 +32,7 @@ if (global.powerup != cs_mega) {
 	            warpme.direction = 270;
 				
 				//Set cannon mode
-				warpme.cannon = 1;
+				warpme.cannon = (self.camlock == 1) ? 2 : 1;
 				warpme.alarm[2] = 32;
 				warpme.alarm[3] = 92;
             

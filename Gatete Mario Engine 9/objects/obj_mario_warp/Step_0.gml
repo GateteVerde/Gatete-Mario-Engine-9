@@ -63,7 +63,7 @@ if ((canmove == 1) && (cannon < 2)) {
     if ((direction == 90) || (direction == 270)) {
 		
 		//If Mario is in cannon mode and moving up
-		if ((cannon == 1) && (vspeed < 0))
+		if ((cannon >= 1) && (vspeed < 0))
 			speed = 4;
 		else
 			speed = 1;
