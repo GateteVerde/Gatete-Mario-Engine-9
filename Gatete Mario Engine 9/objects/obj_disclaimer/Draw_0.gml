@@ -24,10 +24,10 @@ Berkeley Software Distribution
 
 
 All graphics, music, sounds and scenario
-are copyright from Nintendo
+are copyright from Nintendo.
 
 
-You can replace this with your own logo");
+You can modify this screen with your logo!");
 
 //Reset text alignment
 draw_set_valign(fa_top);

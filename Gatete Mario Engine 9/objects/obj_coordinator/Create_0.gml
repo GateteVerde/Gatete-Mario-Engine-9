@@ -222,9 +222,6 @@ global.restart = false;
 //Data structure for picked up 3up moons
 global.moons = ds_map_create();
 
-//Create particle system
-global.particle_sys = part_system_create();
-
 //Font Variables
 global.gui_font	= font_add_sprite(spr_gui_font, ord("!"), 0, 0);
 global.gui_font_menu = font_add_sprite(spr_gui_font_menu, ord("!"), 0, 0);
