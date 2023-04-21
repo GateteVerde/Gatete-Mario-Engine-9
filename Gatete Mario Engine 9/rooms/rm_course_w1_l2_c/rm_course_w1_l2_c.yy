@@ -339,7 +339,7 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background_0","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":"_filter_ripples","gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_RipplesPosition","type":0,"value":"0",},
         {"name":"g_RipplesPosition","type":0,"value":"0",},
-        {"name":"g_RipplesSpeed","type":0,"value":"1.8",},
+        {"name":"g_RipplesSpeed","type":0,"value":"1.2",},
         {"name":"g_RipplesWidth","type":0,"value":"32",},
         {"name":"g_RipplesAmplitude","type":0,"value":"0.25",},
         {"name":"g_RipplesRadius","type":0,"value":"0",},
