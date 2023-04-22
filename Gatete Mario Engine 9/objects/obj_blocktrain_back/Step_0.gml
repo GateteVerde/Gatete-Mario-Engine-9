@@ -18,9 +18,9 @@ if (speed > 0) {
         
         //Do not allow creation of blocks.
         ready = 1;
-        
-        //Allow it later
-        alarm[0] = 4;
+		
+		//Allow it later
+        alarm[0] = 15;
         
         //Snap in grid
         move_snap(16, 16);

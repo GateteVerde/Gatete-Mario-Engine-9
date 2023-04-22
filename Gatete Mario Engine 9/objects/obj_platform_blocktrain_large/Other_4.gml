@@ -9,7 +9,7 @@ if (place_meeting(x, y, obj_up)) {
 		sprite_index = spr_platform_blocktrain_large;
         dir = 90;
         motion_set(90, other.spd);
-        length = other.length-1;
+        length = other.length;
     }
     
     //Destroy
@@ -25,7 +25,7 @@ else if (place_meeting(x, y, obj_down)) {
 		sprite_index = spr_platform_blocktrain_large;
         dir = 270;
         motion_set(270, other.spd);
-        length = other.length-1;
+        length = other.length;
     }
     
     //Destroy
@@ -41,7 +41,7 @@ else if (place_meeting(x, y, obj_left)) {
 		sprite_index = spr_platform_blocktrain_large;
         dir = 180;
         motion_set(180, other.spd);
-        length = other.length-1;
+        length = other.length;
     }
     
     //Destroy
@@ -57,7 +57,7 @@ else if (place_meeting(x, y, obj_right)) {
 		sprite_index = spr_platform_blocktrain_large;
         dir = 0;
         motion_set(0, other.spd);
-        length = other.length-1;
+        length = other.length;
     }
     
     //Destroy

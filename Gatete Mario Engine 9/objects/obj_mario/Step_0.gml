@@ -995,15 +995,13 @@ else {
     //Stop special jump
     jumpstyle = 0;
 }
-	
-//Check for a nearby swimming surface
-var water = collision_rectangle(bbox_left, y+swim_y-1, bbox_right, y+swim_y, obj_swim, 1, 0);
     
 //If the player is not swimming and makes contact with a water surface
-if ((!swimming) && (water)) {
+if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 1, 0))
+&& (swimming == false) {
         
     //Make the player swim.
-    swimming = true;
+    swimming = 1;
     swimtype = 0;
 		
 	// Make the player stop running so that the p-meter drains
@@ -1011,83 +1009,85 @@ if ((!swimming) && (water)) {
         
     //Make the player get up
     crouch = false;
+	
+	//If moving down
+	if (yspeed > 0) {
         
-    //Stop most horizontal movement
-    xspeed = xspeed/2.5;
-                
-    //Stop vertical movement
-    yadd = 0;
-    if (yspeed > 0) {
-        
-        //Stop vertical movement
-        yspeed = 0;
+		//Stop vertical movement
+		yspeed = 0;
+		yadd = 0;
+		
+		//Stop most horizontal movement
+		xspeed = xspeed/2.5;
 			
-		//Create a splash effect
-		if (water.object_index != obj_waterfall) 
-		&& (water.object_index != obj_hippo_bubble) {
-				
-			with (instance_create_depth(x, water.y-15, -4, obj_smoke))
-				sprite_index = spr_splash;
-		}
-    }
+		//Create a splash effect	
+		with (instance_create_depth(x, y-15, -4, obj_smoke))
+			sprite_index = spr_splash;
+	}
 }
     
 //Otherwise, if the player had enough swimming and wants to get out
-else if (swimming) 
-&& (!water)
-&& (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
-    
-    //If there's not water above and there's not a solid on the way out
-    if (!collision_rectangle(bbox_left, y+swim_y, bbox_right, y+swim_y, obj_solid, 1, 0)) {
-        
-        //If the player is moving up
-        if ((state == playerstate.jump) && (yspeed < 0)) {
+else if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 1, 0)) 
+&& (swimming)
+&& (!collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_top, obj_solid, 1, 0))
+&& (!collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {
             
-            //If 'Shift' is held
-            if (input_check(input.action_0)) {
+    //If moving up
+	if (yspeed < 0)
+	&& (input_check(input.action_0)) {
                 
-                //Switch between powerups
-				switch (global.powerup) {
+	    //Switch between powerups
+		switch (global.powerup) {
 						
-					case (cs_tiny):
-						audio_play_sound(snd_jump_tiny, 0, false);
-						break;
+			case (cs_tiny):
+				audio_play_sound(snd_jump_tiny, 0, false);
+				break;
 						
-					default: 
-						audio_play_sound(snd_jump, 0, false);
-						break;
-				}
+			default: 
+				audio_play_sound(snd_jump, 0, false);
+				break;
+		}
                     
-                //Make the player not swim
-                swimming = false;
+	    //Make the player not swim
+	    swimming = false;
                     
-                //Allow variable jump
-                jumping = 1;
+	    //Allow variable jump
+	    jumping = 1;
+			
+		//Set vertical speed
+		yspeed = (global.powerup != cs_tiny) ? -3.4675+abs(xspeed)/7.5*-1 : -2.7375+abs(xspeed)/7.5*-1;
                     
-                //Create splash effect
-				if (!collision_rectangle(bbox_left-2, bbox_top+4, bbox_right+2, bbox_bottom, obj_waterfall, 0, 0)) {
+	    //Create splash effect
+		if (!collision_rectangle(bbox_left-2, bbox_top+4, bbox_right+2, bbox_bottom, obj_waterfall, 0, 0)) {
 						
-					with (instance_create_depth(x, y+swim_y-15, -4, obj_smoke))
-						sprite_index = spr_splash;
-				}
-					
-				//If Mario is not tiny
-				if (global.powerup != cs_tiny)
-					yspeed = -3.4675+abs(xspeed)/7.5*-1;
-				else
-					yspeed = -2.7375+abs(xspeed)/7.5*-1;
-            }
-                
-            //Otherwise, if 'Shift' is not held.
-            else {
-                
-                //If the player is moving up.
-                if (yspeed < 0)
-                    yspeed = 0;
-            }
-        }
-    }
+			with (instance_create_depth(x, bbox_top-15, -4, obj_smoke))
+				sprite_index = spr_splash;
+		}
+	}
+	
+	//Otherwise
+	else {
+	
+		if (yspeed < 0)
+			yspeed = 0;
+	}
 }
+
+#region SWIM END
+
+	//If Mario is swimming and there's no water above
+	if (swimming)
+	&& (!collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, obj_swim, 0, 0)) {
+	
+		//If moving down...
+		if (yspeed > 0)
+	
+		//...or there's no vertical movement, force end swimming
+		|| ((yspeed == 0) && (state < playerstate.jump))
+			swimming = false;
+	}
+
+#endregion
 	
 //If the player gets stuck in a wall
 if (yspeed == 0)
@@ -1132,20 +1132,6 @@ if (yspeed == 0)
             direct = -direct;
     }		
 }
-        
-//Handle tail whip animation
-if ((state == playerstate.jump) && (wiggle > 0))
-    wiggle--;
-else
-    wiggle = 0;
-    
-//If the player is not in contact with water.
-if (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom, obj_swim, 0, 0)) {
-    
-    //If the player is swimming.
-    if (swimming)  
-        swimming = false;
-}
     
 //Prevent the player from going too high on the level
 if (y < -96)
@@ -1184,3 +1170,9 @@ else {
         }       
     }
 }
+
+//Handle tail whip animation
+if ((state == playerstate.jump) && (wiggle > 0))
+    wiggle--;
+else
+    wiggle = 0;

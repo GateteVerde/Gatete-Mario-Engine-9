@@ -50,12 +50,12 @@ if (speed > 0) {
         
         //Do not allow creation of blocks.
         ready = 1;
-        
-        //Allow it later
-        alarm[0] = 4;
+		
+		//Allow it later
+        alarm[0] = 15;
         
         //Snap in grid
-        move_snap(16,16);
+        move_snap(16, 16);
         
         //Create a new block
         with (instance_create_depth(x, y, depth + 1, obj_blocktrain_middle))

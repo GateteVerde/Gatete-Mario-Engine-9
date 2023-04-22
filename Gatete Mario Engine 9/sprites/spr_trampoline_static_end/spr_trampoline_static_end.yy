@@ -14,8 +14,8 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"89aae08f-60fc-4991-acb5-3f561b56c849",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fff7db77-0aac-4c7e-95f7-3f6bdf605646",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f01e772-5dcc-4684-b884-39b714f50432",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fff7db77-0aac-4c7e-95f7-3f6bdf605646",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -57,8 +57,8 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"89aae08f-60fc-4991-acb5-3f561b56c849","path":"sprites/spr_trampoline_static_end/spr_trampoline_static_end.yy",},},},"Disabled":false,"id":"fe0bdeb2-d5bb-4110-bcd9-c7fc06afc84c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fff7db77-0aac-4c7e-95f7-3f6bdf605646","path":"sprites/spr_trampoline_static_end/spr_trampoline_static_end.yy",},},},"Disabled":false,"id":"20b235d0-3637-4094-b83a-28ec20a787a5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2f01e772-5dcc-4684-b884-39b714f50432","path":"sprites/spr_trampoline_static_end/spr_trampoline_static_end.yy",},},},"Disabled":false,"id":"6ca8fe7e-762b-45b7-ad80-321175ad7ba1","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2f01e772-5dcc-4684-b884-39b714f50432","path":"sprites/spr_trampoline_static_end/spr_trampoline_static_end.yy",},},},"Disabled":false,"id":"6ca8fe7e-762b-45b7-ad80-321175ad7ba1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fff7db77-0aac-4c7e-95f7-3f6bdf605646","path":"sprites/spr_trampoline_static_end/spr_trampoline_static_end.yy",},},},"Disabled":false,"id":"20b235d0-3637-4094-b83a-28ec20a787a5","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
