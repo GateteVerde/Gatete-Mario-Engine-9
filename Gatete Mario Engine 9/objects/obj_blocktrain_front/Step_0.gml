@@ -1,11 +1,20 @@
 /// @description Block train logic
 
+//Boundaries
+var t = collision_point(x + sprite_width / 2, bbox_top, obj_blocktrain_middle, 0, 0);
+var b = collision_point(x + sprite_width / 2, bbox_bottom, obj_blocktrain_middle, 0, 0);
+var l = collision_point(bbox_left, y + sprite_height / 2, obj_blocktrain_middle, 0, 0);
+var r = collision_point(bbox_right, y + sprite_height / 2, obj_blocktrain_middle, 0, 0);
+
 //If moving
 if (speed > 0) {
 
     //If snapped on grid and it's allowed to create new blocks.
     if (ready == 0)
-    && (place_snapped(16, 16)) {
+    && (!t) 
+	&& (!b) 
+	&& (!l)
+	&& (!r) {
     
         //Check length
         if (length > 0) {
@@ -19,6 +28,9 @@ if (speed > 0) {
                 //Create block train back block
                 myback = instance_create_depth(xstart, ystart, depth, obj_blocktrain_back);
                 with (myback) {
+					
+					//Set up the same sprite
+					sprite_index = other.sprite_index;
                 
                     //Remember up this block.
                     parent = other.id;
@@ -46,7 +58,8 @@ if (speed > 0) {
         move_snap(16,16);
         
         //Create a new block
-        instance_create_depth(x, y, depth + 1, obj_blocktrain_middle);   
+        with (instance_create_depth(x, y, depth + 1, obj_blocktrain_middle))
+			sprite_index = other.sprite_index;
     }
 }
 

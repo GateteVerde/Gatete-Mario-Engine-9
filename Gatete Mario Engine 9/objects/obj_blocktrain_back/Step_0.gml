@@ -1,11 +1,20 @@
 /// @description Block train logic
 
+//Boundaries
+var t = collision_point(x + sprite_width / 2, bbox_top, obj_blocktrain_middle, 0, 0);
+var b = collision_point(x + sprite_width / 2, bbox_bottom, obj_blocktrain_middle, 0, 0);
+var l = collision_point(bbox_left, y + sprite_height / 2, obj_blocktrain_middle, 0, 0);
+var r = collision_point(bbox_right, y + sprite_height / 2, obj_blocktrain_middle, 0, 0);
+
 //If moving
 if (speed > 0) {
 
     //If snapped on grid and it's allowed to create new blocks.
     if (ready == 0)
-    && (place_snapped(16,16)) {
+    && (t) 
+	&& (b) 
+	&& (l)
+	&& (r) {
         
         //Do not allow creation of blocks.
         ready = 1;

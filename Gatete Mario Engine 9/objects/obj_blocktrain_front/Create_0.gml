@@ -18,5 +18,5 @@ dir = 0;
 //Allow creation of blocks
 ready = 0;
 
-//Create platform
-instance_create_depth(x, y, depth + 1, obj_blocktrain_middle);
+//Delay platform creation
+alarm[1] = 1;
