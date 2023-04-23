@@ -4,7 +4,6 @@ function macro_get_sprite() {
 
 	switch (argument[0]) {
 	
-		case (cs_tiny): return spr_tinyshroom;
 	    case (cs_big): return (obj_coordinator.colourblind == 1) ? spr_mushroom_cb : spr_mushroom;
 	    case (cs_fire): return (obj_coordinator.colourblind == 1) ? spr_fireflower_cb : spr_fireflower;
 	    case (cs_ice): return (obj_coordinator.colourblind == 1) ? spr_iceflower_cb : spr_iceflower;
@@ -33,6 +32,7 @@ function macro_get_sprite() {
 		case (cs_wind): return spr_windflower;
 		case (cs_gold): return (obj_coordinator.colourblind == 1) ? spr_goldenflower_cb : spr_goldenflower;
 		case (cs_mega): return spr_megashroom;
+		case (cs_tiny): return spr_tinyshroom;
 	    case (cs_yoshi_g): return spr_egg;
 	    case (cs_yoshi_r): return spr_egg_r;
 	    case (cs_yoshi_y): return spr_egg_y;

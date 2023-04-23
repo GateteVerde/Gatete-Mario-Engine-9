@@ -182,7 +182,9 @@ if (status == mapstate.idle)
 					if (global.inventory[boxselection] < 27) {
 						
 						//If a P-Wing is active
-						if (global.pwing == false) {
+						if (global.pwing == 0) 
+						&& (global.powerup != cs_tiny) 
+						&& (global.powerup != cs_gold) {
 							
 							//Play 'Powerup' sound
 							audio_play_sound(snd_powerup, 0, false);
@@ -215,6 +217,13 @@ if (status == mapstate.idle)
 							//Finish item retrieval
 							inventory = 0;
 							status = mapstate.idle;
+							
+							//Force display powerup on HUD
+							with (obj_hud_map) {
+							
+								prompt = 0;
+								alarm[0] = 180;
+							}
 						}
 							
 						//Otherwise, play 'Wrong' sound
@@ -225,13 +234,15 @@ if (status == mapstate.idle)
 					//Otherwise, if the item selected is a tiny shroom
 					else if (global.inventory[boxselection] == 27) {
 					
-						//If Mario does not have the gold flower
-						if (global.powerup != cs_gold) {
+						//If Mario does not have the tiny or gold or p-wing active
+						if (global.pwing == 0)
+						&& (global.powerup != cs_tiny) 
+						&& (global.powerup != cs_gold) {
 						
 							//Play 'Powerup' sound
-							audio_play_sound(snd_powerup, 0, false);
+							audio_play_sound(snd_mini, 0, false);
 						
-							//Give Mario the Gold powerup if we didn't
+							//Give Mario the Tiny powerup if we didn't
 				            global.powerup = cs_tiny;
 							
 							//Shift the inventory items one by one
@@ -246,6 +257,13 @@ if (status == mapstate.idle)
 							//Finish item retrieval
 							inventory = 0;
 							status = mapstate.idle;
+							
+							//Force display powerup on HUD
+							with (obj_hud_map) {
+							
+								prompt = 0;
+								alarm[0] = 180;
+							}
 						}
 						
 						//Otherwise, play 'Wrong' sound
@@ -256,8 +274,10 @@ if (status == mapstate.idle)
 					//Otherwise, if the item selected is a gold flower
 					else if (global.inventory[boxselection] == 28) {
 					
-						//If Mario does not have the gold flower
-						if (global.powerup != cs_gold) {
+						//If Mario does not have the tiny or gold or p-wing active
+						if (global.pwing == 0)
+						&& (global.powerup != cs_tiny) 
+						&& (global.powerup != cs_gold) {
 						
 							//Play 'Powerup' sound
 							audio_play_sound(snd_powerup, 0, false);
@@ -277,6 +297,13 @@ if (status == mapstate.idle)
 							//Finish item retrieval
 							inventory = 0;
 							status = mapstate.idle;
+							
+							//Force display powerup on HUD
+							with (obj_hud_map) {
+							
+								prompt = 0;
+								alarm[0] = 180;
+							}
 						}
 						
 						//Otherwise, play 'Wrong' sound
@@ -308,6 +335,13 @@ if (status == mapstate.idle)
 							//Finish item retrieval
 							inventory = 0;
 							status = mapstate.idle;
+							
+							//Force display powerup on HUD
+							with (obj_hud_map) {
+							
+								prompt = 0;
+								alarm[0] = 180;
+							}
 						}
 						
 						//Otherwise, play 'Wrong' sound
@@ -318,8 +352,10 @@ if (status == mapstate.idle)
 					//Otherwise, if the item selected is a P-Wing
 					else if (global.inventory[boxselection] == 30) {
 					
-						//If the P-Wing is not activated
-						if (global.pwing == false) {
+						//If Mario does not have the tiny or gold or p-wing active
+						if (global.pwing == 0)
+						&& (global.powerup != cs_tiny) 
+						&& (global.powerup != cs_gold) {
 						
 							//Play 'Powerup' sound
 							audio_play_sound(snd_powerup, 0, false);
@@ -346,6 +382,13 @@ if (status == mapstate.idle)
 							//Finish item retrieval
 							inventory = 0;
 							status = mapstate.idle;
+							
+							//Force display powerup on HUD
+							with (obj_hud_map) {
+							
+								prompt = 0;
+								alarm[0] = 180;
+							}
 						}
 						
 						//Otherwise

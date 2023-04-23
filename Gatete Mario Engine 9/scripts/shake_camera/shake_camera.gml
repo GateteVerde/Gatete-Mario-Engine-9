@@ -11,8 +11,7 @@ function shake_camera(intensity, time, falloff) {
 		obj_levelcontrol.shake_intensity = intensity;
 		obj_levelcontrol.shake_time = time;
 		obj_levelcontrol.shake_starttime = time;
-		obj_levelcontrol.shake_falloff = falloff;
-		
+		obj_levelcontrol.shake_falloff = falloff;		
 	}
 	
 	//Otherwise, display error

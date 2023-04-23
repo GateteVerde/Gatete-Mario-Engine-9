@@ -6,15 +6,7 @@ function end_level() {
 	if (instance_number(obj_fade_in) == 0) {
 
 	    //With the fade object
-	    with (instance_create_depth(0, 0, -99, obj_fade_in)) {
-    
-	        //If lives are set to 0, go to the game over screen.
-	        if (lives == 0)
-	            target = rm_gameover;
-            
-	        //Otherwise, go to the map.
-	        else
-	            target = rm_worldmap;
-	    }
+	    with (instance_create_depth(0, 0, -99, obj_fade_in))
+			target = (lives == 0) ? rm_gameover : rm_worldmap;
 	}
 }

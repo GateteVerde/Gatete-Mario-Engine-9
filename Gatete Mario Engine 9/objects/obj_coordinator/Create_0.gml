@@ -111,30 +111,30 @@ init_shockwave();
 	#macro cs_tiny 27
 	#macro cs_gold 28
 	#macro cs_mega 29
+	#macro cs_pwing 30
 
 #endregion
 
 //Item Macros
 #region ITEM MACROS
 
-	#macro cs_snake -32
-	#macro cs_balloon -31
-	#macro cs_beanstalk_side -30
-	#macro cs_beanstalk -29
-	#macro cs_billy -28
-	#macro cs_powblock -27
-	#macro cs_propellerblock -26
-	#macro cs_trampoline -25
-	#macro cs_key -24
-	#macro cs_gswitch -23
-	#macro cs_pswitch -22
-	#macro cs_starman -21
-	#macro cs_rotten -20
-	#macro cs_poison -19
-	#macro cs_heart -18
-	#macro cs_3up -17
-	#macro cs_1up -16
-	#macro cs_pwing -15
+	#macro cs_snake -31
+	#macro cs_balloon -30
+	#macro cs_beanstalk_side -29
+	#macro cs_beanstalk -28
+	#macro cs_billy -27
+	#macro cs_powblock -26
+	#macro cs_propellerblock -25
+	#macro cs_trampoline -24
+	#macro cs_key -23
+	#macro cs_gswitch -22
+	#macro cs_pswitch -21
+	#macro cs_starman -20
+	#macro cs_rotten -19
+	#macro cs_poison -18
+	#macro cs_heart -17
+	#macro cs_3up -16
+	#macro cs_1up -15
 	#macro cs_pballoon -14
 	#macro cs_shoe_pentaro -13
 	#macro cs_shoe_jugemu -12

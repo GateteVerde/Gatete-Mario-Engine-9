@@ -4,7 +4,6 @@ function sprite_get_macro() {
 	
 	switch (argument[0]) {
 	
-		case (spr_tinyshroom): return cs_tiny;
 	    case (spr_mushroom): return cs_big;
 	    case (spr_fireflower): 
 		case (spr_fireflower_cb): return cs_fire;
@@ -40,6 +39,7 @@ function sprite_get_macro() {
 		case (spr_goldenflower): 
 		case (spr_goldenflower_cb): return cs_gold;
 		case (spr_megashroom): return cs_mega;
+		case (spr_tinyshroom): return cs_tiny;
 	    case (spr_egg): return cs_yoshi_g;
 	    case (spr_egg_r): return cs_yoshi_r;
 	    case (spr_egg_y): return cs_yoshi_y;

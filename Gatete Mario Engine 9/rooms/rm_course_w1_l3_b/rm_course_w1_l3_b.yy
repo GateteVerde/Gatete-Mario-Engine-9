@@ -49,6 +49,7 @@
     {"name":"inst_151E5F84","path":"rooms/rm_course_w1_l3_b/rm_course_w1_l3_b.yy",},
     {"name":"inst_1F4A4672","path":"rooms/rm_course_w1_l3_b/rm_course_w1_l3_b.yy",},
     {"name":"inst_6502FB4A","path":"rooms/rm_course_w1_l3_b/rm_course_w1_l3_b.yy",},
+    {"name":"inst_5582A0F3","path":"rooms/rm_course_w1_l3_b/rm_course_w1_l3_b.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -109,6 +110,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6502FB4A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lightcontrol","path":"objects/obj_lightcontrol/obj_lightcontrol.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_lightcontrol","path":"objects/obj_lightcontrol/obj_lightcontrol.yy",},"propertyId":{"name":"intensity","path":"objects/obj_lightcontrol/obj_lightcontrol.yy",},"value":"25",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5582A0F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"propertyId":{"name":"varmsg","path":"objects/obj_messageblock/obj_messageblock.yy",},"value":"\"P-Switches will turn coins into bricks, bricks into coins, and they will also change the state of the P blocks. But only while the song is playing.\"",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":24,"TileCompressedData":[
 2,2088,1531,-7,1532,1,1533,-4,0,1,1531,-7,1532,4,1533,2087,2088,1616,-7,1617,1,1618,-4,0,
