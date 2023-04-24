@@ -16,10 +16,15 @@ if (freeze == false) {
 	//Move it
 	if (collision_rectangle(x, y, x+15, y+15, obj_up,0,0))
 	    vspeed -= 0.0324;
-	else if (collision_rectangle(x, y, x+15, y+15, obj_down,0,0))
+	if (collision_rectangle(x, y, x+15, y+15, obj_down,0,0))
 	    vspeed += 0.0324;
-	else if (collision_rectangle(x, y, x+15, y+15, obj_left,0,0))
+	if (collision_rectangle(x, y, x+15, y+15, obj_left,0,0))
 	    hspeed -= 0.0324;
-	else if (collision_rectangle(x, y, x+15, y+15, obj_right,0,0))
+	if (collision_rectangle(x, y, x+15, y+15, obj_right,0,0))
 	    hspeed += 0.0324;
+}
+else {
+
+	if (abs(speed) > 0)
+		speed = 0;
 }
