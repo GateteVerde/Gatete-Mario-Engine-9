@@ -22,6 +22,3 @@ alarm[0] = 1;
 
 //Item check
 alarm[2] = 1;
-
-//Sprite check
-alarm[3] = 1;

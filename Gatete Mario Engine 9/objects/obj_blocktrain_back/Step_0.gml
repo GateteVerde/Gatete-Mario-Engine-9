@@ -20,7 +20,7 @@ if (speed > 0) {
         ready = 1;
 		
 		//Allow it later
-        alarm[0] = 15;
+        alarm[0] = 4;
         
         //Snap in grid
         move_snap(16, 16);
