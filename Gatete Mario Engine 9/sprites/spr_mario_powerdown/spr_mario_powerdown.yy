@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Transformations",
-    "path": "folders/Sprites/Mario/Extra/Transformations.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Extra/Transformations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

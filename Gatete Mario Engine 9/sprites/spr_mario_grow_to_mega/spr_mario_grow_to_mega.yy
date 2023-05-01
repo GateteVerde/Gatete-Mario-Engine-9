@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "Grow",
-    "path": "folders/Sprites/Mario/Extra/Transformations/Grow.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Extra/Transformations/Grow.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

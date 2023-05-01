@@ -14,6 +14,9 @@ function init_globals() {
 	//Current minigame
 	global.minigame = 1;
 	
+	//Current player
+	global.player = 0;
+	
 	//World
 	global.world = 1;
 

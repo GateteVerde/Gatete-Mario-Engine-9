@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Shell",
-    "path": "folders/Sprites/Mario/Main/Shell.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Main/Shell.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

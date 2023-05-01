@@ -29,7 +29,7 @@
   "origin": 1,
   "parent": {
     "name": "Projectiles",
-    "path": "folders/Sprites/Mario/Projectiles.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Projectiles.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

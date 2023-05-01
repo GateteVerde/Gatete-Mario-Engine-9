@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Squirrel",
-    "path": "folders/Sprites/Mario/Main/Squirrel.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Main/Squirrel.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

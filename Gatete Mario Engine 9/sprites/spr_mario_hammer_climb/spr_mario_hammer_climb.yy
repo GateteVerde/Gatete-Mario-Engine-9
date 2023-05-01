@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Hammer",
-    "path": "folders/Sprites/Mario/Main/Hammer.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Main/Hammer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

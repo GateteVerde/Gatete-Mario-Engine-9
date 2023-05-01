@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "Football",
-    "path": "folders/Sprites/Mario/Main/Football.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Main/Football.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

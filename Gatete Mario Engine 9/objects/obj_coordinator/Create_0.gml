@@ -6,11 +6,11 @@ window_set_caption("Gatete Mario Engine 9");
 //Initialize Colour Swap Shader
 pal_swap_init_system();
 
-//Initialize Player Sprites
-index_powerups();
-
 //Initialize global variables
 init_globals();
+
+//Initialize Player Sprites
+index_powerups();
 
 //Initialize shader variables
 init_shockwave();

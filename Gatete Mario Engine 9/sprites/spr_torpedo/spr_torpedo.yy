@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Shmup",
-    "path": "folders/Sprites/Mario/Projectiles/Shmup.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Projectiles/Shmup.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Transformation",
-    "path": "folders/Sprites/Mario/Extra/Shmup/Subpop/Transformation.yy",
+    "path": "folders/Sprites/Player Sprites/Mario/Extra/Shmup/Subpop/Transformation.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
