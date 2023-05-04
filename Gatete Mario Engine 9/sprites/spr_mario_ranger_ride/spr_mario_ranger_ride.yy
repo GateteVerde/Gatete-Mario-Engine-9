@@ -27,7 +27,7 @@
   "origin": 9,
   "parent": {
     "name": "Ranger",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Ranger.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Ranger.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

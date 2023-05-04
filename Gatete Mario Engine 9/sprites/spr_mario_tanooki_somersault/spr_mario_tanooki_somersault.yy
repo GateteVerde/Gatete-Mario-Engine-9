@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Tanooki",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Tanooki.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Tanooki.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

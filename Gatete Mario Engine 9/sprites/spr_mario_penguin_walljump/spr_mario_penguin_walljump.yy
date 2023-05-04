@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Penguin",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Penguin.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Penguin.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

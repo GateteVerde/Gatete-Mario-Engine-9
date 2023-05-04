@@ -28,7 +28,7 @@
   "origin": 4,
   "parent": {
     "name": "Bomb",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Bomb.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Bomb.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

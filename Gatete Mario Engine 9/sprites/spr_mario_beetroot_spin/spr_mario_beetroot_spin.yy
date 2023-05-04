@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "Beetroot",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Beetroot.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Beetroot.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

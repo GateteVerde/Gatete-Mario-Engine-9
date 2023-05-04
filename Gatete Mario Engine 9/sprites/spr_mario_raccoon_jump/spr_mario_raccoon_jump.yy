@@ -30,7 +30,7 @@
   "origin": 9,
   "parent": {
     "name": "Raccoon",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Raccoon.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Raccoon.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

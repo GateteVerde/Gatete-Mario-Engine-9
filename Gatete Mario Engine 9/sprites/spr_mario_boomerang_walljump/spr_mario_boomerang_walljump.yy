@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Boomerang",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Boomerang.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Boomerang.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

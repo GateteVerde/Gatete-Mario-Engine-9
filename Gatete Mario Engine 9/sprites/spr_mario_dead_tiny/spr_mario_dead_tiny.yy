@@ -27,7 +27,7 @@
   "origin": 9,
   "parent": {
     "name": "Mario",
-    "path": "folders/Sprites/Player Sprites/Mario.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

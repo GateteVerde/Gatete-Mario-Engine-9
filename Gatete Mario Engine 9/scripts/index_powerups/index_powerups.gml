@@ -20,6 +20,11 @@ function index_powerups() {
 			case (1): resource = "spr_luigi_"; break;
 		}
 	#endregion
+	
+	//Event exclusive sprites
+	global.death_sprite =			asset_get_index(string(resource) + "dead");
+	global.death_big_sprite =		asset_get_index(string(resource) + "dead_big");
+	global.death_tiny_sprite =		asset_get_index(string(resource) + "dead_tiny");
 
 	//Loop through and get every asset
 	for (var i = 0; i < powerup_count; i++) {

@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Propeller",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Propeller.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Propeller.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

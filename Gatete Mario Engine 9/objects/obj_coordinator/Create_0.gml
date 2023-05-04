@@ -70,6 +70,12 @@ init_shockwave();
 
 #endregion
 
+//Player Physics
+#region PLAYER PHYSICS
+
+	
+#endregion
+
 //MacOS Key Macros
 #region MAC KEY MACROS
 

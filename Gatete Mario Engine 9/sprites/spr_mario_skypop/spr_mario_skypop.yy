@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Skypop",
-    "path": "folders/Sprites/Player Sprites/Mario/Extra/Shmup/Skypop.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Extra/Shmup/Skypop.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -27,7 +27,7 @@
   "origin": 9,
   "parent": {
     "name": "Frog",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Frog.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Frog.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

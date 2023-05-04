@@ -31,7 +31,7 @@
   "origin": 9,
   "parent": {
     "name": "Cape",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Cape.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Cape.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

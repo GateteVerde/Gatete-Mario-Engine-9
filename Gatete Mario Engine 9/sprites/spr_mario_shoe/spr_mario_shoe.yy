@@ -47,7 +47,7 @@
   "origin": 9,
   "parent": {
     "name": "Extra",
-    "path": "folders/Sprites/Player Sprites/Mario/Extra.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Extra.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

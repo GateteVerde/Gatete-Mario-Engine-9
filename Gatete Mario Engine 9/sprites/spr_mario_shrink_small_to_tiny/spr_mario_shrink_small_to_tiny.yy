@@ -38,7 +38,7 @@
   "origin": 1,
   "parent": {
     "name": "Shrink",
-    "path": "folders/Sprites/Player Sprites/Mario/Extra/Transformations/Shrink.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Extra/Transformations/Shrink.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

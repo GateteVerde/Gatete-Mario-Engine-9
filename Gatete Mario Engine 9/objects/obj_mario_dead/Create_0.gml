@@ -17,9 +17,9 @@ with (obj_platformparent) event_user(13);
 		
 		//If Mario has the tiny mushroom powerup
 		if (global.powerup == cs_tiny)
-			sprite_index = spr_mario_dead_tiny;
+			sprite_index = global.death_tiny_sprite;
 		else
-			sprite_index = spr_mario_dead_big;
+			sprite_index = global.death_big_sprite;
 	}
 	
 	//Otherwise
@@ -27,9 +27,9 @@ with (obj_platformparent) event_user(13);
 	
 		//If Mario has the tiny mushroom powerup
 		if (global.powerup == cs_tiny)
-			sprite_index = spr_mario_dead_tiny;
+			sprite_index = global.death_tiny_sprite;
 		else
-			sprite_index = spr_mario_dead;
+			sprite_index = global.death_sprite;
 	}
 	
 #endregion

@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "Wind",
-    "path": "folders/Sprites/Player Sprites/Mario/Main/Wind.yy",
+    "path": "folders/Sprites/Player Sprites/Main/Mario/Main/Wind.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

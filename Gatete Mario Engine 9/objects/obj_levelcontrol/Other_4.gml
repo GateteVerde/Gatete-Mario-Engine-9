@@ -50,10 +50,10 @@ if (global.mariostart == 0) {
 			}
 		}
 
-        //Check if Mario is on a plane/submarine and create it later
+        //Check if Mario is on a plane/submarine or not...
 		var mymario = (instance_exists(obj_mario_shmup)) ? obj_mario_shmup : obj_mario;
-
-		//Create it
+		
+		//...and create it later
 		instance_create_layer(global.checkpoint.xcoor, global.checkpoint.ycoor, "Main", mymario);
     }
 
