@@ -86,7 +86,7 @@ if (enable_control == true) { //If the player's controls are not disabled.
         audio_play_sound(snd_jump, 0, false);
                 
         //Set the vertical speed.
-        yspeed = -3.4675;
+        yspeed = -global.physics[global.player].phy_jump;
                 
         //Make the player able to vary the jump.
         jumping = 1;             
@@ -334,7 +334,7 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
     
     //Variable jumping
     if (yspeed < -2) && (jumping == 1)
-        yadd = 0.0625;
+        yadd = global.physics[global.player].phy_grav_alt;
     
     //Otherwise, use default gravity.     
     else {
@@ -352,7 +352,7 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
 		}
 		else {
 			
-			yadd = 0.3625;
+			yadd = global.physics[global.player].phy_grav;
 		}
         
         //End variable jumping if it never ends manually.

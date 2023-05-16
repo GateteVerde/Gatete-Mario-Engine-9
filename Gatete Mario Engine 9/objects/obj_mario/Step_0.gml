@@ -78,7 +78,7 @@
 		//If the timer runs out, or Mario is spin-jumping, or Mario's horizontal speed is lower than 2.6...
 		if (tjtime < 0) 
 		|| (jumpstyle > 0)
-		|| (abs(xspeed) < 2.6) {
+		|| (abs(xspeed) < global.physics[global.player].phy_xspeed_max) {
 			
 			//Cancel triple jump
 			triplejump = 0;
@@ -431,7 +431,7 @@ if (enable_gravity == 1) {
                 //Execute main behaviour script
                 event_user(2);
 				
-				//Execute walljump behaviour script (If allowed)
+				//Execute walljump behaviour script (If allowed and Mario is being controlled)
 				if (global.special_moves == true) {
 					
 					event_user(3);
@@ -469,7 +469,7 @@ if (enable_gravity == 1) {
 	                else {
                 
 	                    //If the player's horizontal speed is equal/greater than 2.6 and it's not wearing a kuribo shoe.
-	                    if (abs(xspeed) >= 2.6)
+	                    if (abs(xspeed) >= global.physics[global.player].phy_xspeed_max)
 						&& (wallkick == 0)
 	                    && (global.mount != 2)
 	                    || (global.pwing == 1) {
@@ -520,7 +520,7 @@ if (enable_gravity == 1) {
 	                    }
                     
 	                    //Otherwise, if the player's horizontal speed is lower than 2.6
-	                    else if ((!run) || (oncloud == 1) || (wallkick > 0) || ((state < 2) && (abs(xspeed) < 2.6)) && (global.pwing == 0)) { 
+	                    else if ((!run) || (oncloud == 1) || (wallkick > 0) || ((state < 2) && (abs(xspeed) < global.physics[global.player].phy_xspeed_max)) && (global.pwing == 0)) { 
                     
 	                        //If the player is flying and lands on the floor.
 	                        if (flying) {
@@ -1055,7 +1055,7 @@ else if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swi
 	    jumping = 1;
 			
 		//Set vertical speed
-		yspeed = (global.powerup != cs_tiny) ? -3.4675+abs(xspeed)/7.5*-1 : -2.7375+abs(xspeed)/7.5*-1;
+		yspeed = (global.powerup != cs_tiny) ? -global.physics[global.player].phy_jump + abs(xspeed)/7.5*-1 : -global.physics[global.player].phy_jump_tiny + abs(xspeed)/7.5*-1;
                     
 	    //Create splash effect
 		if (!collision_rectangle(bbox_left-2, bbox_top+4, bbox_right+2, bbox_bottom, obj_waterfall, 0, 0)) {

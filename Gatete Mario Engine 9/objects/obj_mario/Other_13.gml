@@ -147,7 +147,7 @@ if (wallkick == 1) {
 			//Otherwise
 			else {
 				
-				yadd = 0.3625;
+				yadd = global.physics[global.player].phy_grav;
 				if (yspeed > 1)
 					yspeed = 1;
 			}
@@ -157,7 +157,7 @@ if (wallkick == 1) {
 		else {
     
 	        //Set the gravity
-	        yadd = 0.3625;
+	        yadd = global.physics[global.player].phy_grav;
     
 	        //Prevent the player from falling too fast
 			if (global.powerup == cs_tiny) {
@@ -182,11 +182,11 @@ if (wallkick == 1) {
 		switch (global.powerup) {	
 			
 			case (cs_tiny): 
-				yspeed = -2.7375; break;
+				yspeed = -global.physics[global.player].phy_jump_tiny; break;
 			
 			//Rest of powerups
 			default: 
-				yspeed = -3.3628; break;
+				yspeed = -global.physics[global.player].phy_jump; break;
 		}
         
         //Perform spin jump if 'Up' is pressed and Mario does not have the Propeller or Cat powerups

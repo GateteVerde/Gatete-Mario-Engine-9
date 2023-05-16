@@ -143,12 +143,12 @@ if (enable_control == true) { //If the player controls are enabled.
 			//If the player is not doing a spin-jump
 			if (global.powerup != cs_tiny) {
 			
-				yspeed = -3.4675;
+				yspeed = -global.physics[global.player].phy_jump;
 				audio_play_sound(snd_jump, 0, false);
 			}
 			else {
 			
-				yspeed = -2.7375;
+				yspeed = -global.physics[global.player].phy_jump_tiny;
 				audio_play_sound(snd_jump_tiny, 0, false);
 			}
 	    }
@@ -271,12 +271,12 @@ if (enable_control == true) { //If the player controls are enabled.
 		    //Set movement
 			xspeed = -2*xscale;
 			if (global.powerup != cs_tiny)
-				yspeed = -3.4675;
+				yspeed = -global.physics[global.player].phy_jump;
 			else {
 			
 				audio_stop_sound(snd_jump);
 				audio_play_sound(snd_jump_tiny, 0, false);
-				yspeed = -2.7375
+				yspeed = -global.physics[global.player].phy_jump_tiny;
 			}
 		    
 		    //Move Mario 8 pixels

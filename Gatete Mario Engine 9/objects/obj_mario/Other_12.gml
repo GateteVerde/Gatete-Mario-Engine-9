@@ -95,33 +95,33 @@ if (!flying)
         if (global.powerup == cs_frog) {
         
             if (holding == 0)
-                xspeedmax = 1.3;
+                xspeedmax = global.physics[global.player].phy_xspeed_min;
             else {
                             
                 //If the P-Meter is filled up.
                 if (run)
-                    xspeedmax = 3.3;
+                    xspeedmax = global.physics[global.player].phy_xspeed_full;
                 
                 //Otherwise, if the P-Meter is not filled up.
                 else    
-                    xspeedmax = 2.6;                
+                    xspeedmax = global.physics[global.player].phy_xspeed_max;                
             }
         }
 		
 		//If Mario does have the Tiny powerup
 		else if ((global.powerup == cs_tiny) || (global.powerup == cs_mega))
-			xspeedmax = 2.6;
+			xspeedmax = global.physics[global.player].phy_xspeed_max;
         
         //Otherwise, if Mario does not have the frog, tiny or mega powerup
         else {
             
             //If the P-Meter is filled up.
             if (run) 
-                xspeedmax = 3.3;
+                xspeedmax = global.physics[global.player].phy_xspeed_full;
             
             //Otherwise, if the P-Meter is not filled up.
             else    
-                xspeedmax = 2.6;
+                xspeedmax = global.physics[global.player].phy_xspeed_max;
         }
     }               
     
@@ -130,9 +130,9 @@ if (!flying)
 		
 		if (global.powerup == cs_tiny)
 		|| (global.powerup == cs_mega)
-			xspeedmax = 1;
+			xspeedmax = 1; //Do not modify this value
 		else
-			xspeedmax = 1.3;
+			xspeedmax = global.physics[global.player].phy_xspeed_min;
 	}
 }
 
@@ -357,7 +357,7 @@ if (inwall == 0)
         
         //Jump high if you have the frog powerup, and you are not riding anything
         if (global.powerup == cs_frog)   
-            yspeed = -3.7675;
+            yspeed = -global.physics[global.player].phy_jump_frog;
     
         //Jump depending of the horizontal speed.
         else {
@@ -389,7 +389,7 @@ if (inwall == 0)
 						//If Mario is ready to do a squat jump
 						if (squat_ready > 0) {
 							
-							yspeed = -4.1675;
+							yspeed = -global.physics[global.player].phy_jump_squat;
 							squat_ready = 0;
 							if (squat_time > 0)
 								squat_time = 0;
@@ -397,7 +397,7 @@ if (inwall == 0)
 						
 						//Otherwise
 						else
-							yspeed = -3.7675 + abs(xspeed)/7.5*-1;
+							yspeed = -global.physics[global.player].phy_jump_frog + abs(xspeed)/7.5*-1;
 					}
 					else {
 						
@@ -406,7 +406,7 @@ if (inwall == 0)
 							//If Mario is ready to do a squat jump
 							if (squat_ready > 0) {
 								
-								yspeed = (global.powerup == cs_lui) ? -4.1675 : -3.9675;
+								yspeed = (global.powerup == cs_lui) ? -global.physics[global.player].phy_jump_carrot : -global.physics[global.player].phy_jump_squat;
 								squat_ready = 0;
 								if (squat_time > 0)
 									squat_time = 0;
@@ -415,16 +415,16 @@ if (inwall == 0)
 							
 								//If Mario does not have the Jumping Lui powerup
 								if (global.powerup != cs_lui)
-									yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+									yspeed = -global.physics[global.player].phy_jump + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
 								
 								//Otherwise, if Mario does have the Jumping Lui powerup
 								else {
 								
 									//If Mario is not riding a Yoshi or a Kuribo Shoe
 									if (global.mount == 0)
-										yspeed = -3.7675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+										yspeed = -global.physics[global.player].phy_jump_frog + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
 									else
-										yspeed = -3.4675 + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
+										yspeed = -global.physics[global.player].phy_jump + (-0.2 * triplejump) + abs(xspeed)/7.5*-1;
 								}
 							}
 						#endregion
@@ -433,7 +433,7 @@ if (inwall == 0)
 						if (global.powerup != cs_tiny)
 						&& (global.powerup != cs_mega) 
 						&& (global.mount == 0)
-						&& (abs(xspeed) >= 2.6) 
+						&& (abs(xspeed) >= global.physics[global.player].phy_xspeed_max) 
 						&& (global.special_moves == true) {
 						
 							//Begin Triple Jump
@@ -474,7 +474,7 @@ if (inwall == 0)
 					//If Mario is going to do a squat jump
 					if (squat_ready > 0) {
 					
-						yspeed = -3.7675+abs(xspeed)/7.5*-1;
+						yspeed = -global.physics[global.player].phy_jump_frog + abs(xspeed)/7.5*-1;
 						squat_ready = 0;
 						if (squat_time > 0)
 							squat_time = 0;
@@ -486,14 +486,14 @@ if (inwall == 0)
 						//If Mario does not have the Squirrel suit or the Jumping Lui powerup
 						if (global.powerup != cs_squirrel)
 						&& (global.powerup != cs_lui)
-							yspeed = -3.23775+abs(xspeed)/7.5*-1;
+							yspeed = -global.physics[global.player].phy_jump_spin + abs(xspeed)/7.5*-1;
 						else
-							yspeed = -3.7675+abs(xspeed)/7.5*-1;
+							yspeed = -global.physics[global.player].phy_jump_frog + abs(xspeed)/7.5*-1;
 					}
 				}
 			}
 			else
-				yspeed = -2.7375+abs(xspeed)/7.5*-1;
+				yspeed = -global.physics[global.player].phy_jump_spin + abs(xspeed)/7.5*-1;
 		}
     }
     
@@ -531,20 +531,20 @@ if (inwall == 0)
                 
                     //Add 'acc' to xspeed.
                     if (global.powerup != cs_frog)
-                        xspeed += 0.06;
+                        xspeed += global.physics[global.player].phy_accel;
                     else {
                     
                         //If Mario is not holding or is not riding a yoshi or a kuribo shoe.
                         if ((holding == 0) && (global.mount == 0))                              
-                            xspeed += 0.12;
+                            xspeed += (global.physics[global.player].phy_accel * 2);
                         else
-                            xspeed += 0.06;
+                            xspeed += global.physics[global.player].phy_accel;
                     }
                 }
                 else { //Otherwise, if the player's speed is lower than 0.
                 
                     //Add 'accskid' to xspeed;
-                    xspeed += 0.15;
+                    xspeed += global.physics[global.player].phy_accel_turn;
                 }
             }
             else { //Otherwise, if the player is overlapping a slippery surface.
@@ -554,20 +554,20 @@ if (inwall == 0)
                 
                     //Add 'acc' to xspeed.
                     if (global.powerup != cs_frog)
-                        xspeed += 0.03;
+                        xspeed += (global.physics[global.player].phy_accel) / 2;
                     else {
                     
                         //If Mario is not holding or is not riding a yoshi or a kuribo shoe.
                         if ((holding == 0) && (global.mount == 0))                              
-                            xspeed += 0.06;
+                            xspeed += global.physics[global.player].phy_accel;
                         else
-                            xspeed += 0.03;
+                            xspeed += (global.physics[global.player].phy_accel) / 2;
                     }
                 }
                 else { //Otherwise, if the player's speed is lower than 0.
                 
                     //Add 'accskid' to xspeed.
-                    xspeed += 0.075;
+                    xspeed += (global.physics[global.player].phy_accel_turn) / 2;
                 }                                              
             }
         }
@@ -599,20 +599,20 @@ if (inwall == 0)
                 
                     //Add 'acc' to xspeed.
                     if (global.powerup != cs_frog)
-                        xspeed += -0.06;
+                        xspeed += -global.physics[global.player].phy_accel;
                     else {
                     
                         //If Mario is not holding or is not riding a yoshi or a kuribo shoe.
                         if ((holding == 0) && (global.mount == 0))                              
-                            xspeed += -0.12;
+                            xspeed += -(global.physics[global.player].phy_accel * 2);
                         else
-                            xspeed += -0.06;
+                            xspeed += -global.physics[global.player].phy_accel;
                     }
                 }
                 else { //Otherwise, if the player's speed is greater than 0.
                 
                     //Add 'accskid' to xspeed;
-                    xspeed += -0.15;
+                    xspeed += -global.physics[global.player].phy_accel_turn;
                 }
             }
             else { //Otherwise, if the player is overlapping a slippery surface.
@@ -622,20 +622,20 @@ if (inwall == 0)
                 
                     //Add 'acc' to xspeed.
                     if (global.powerup != cs_frog)
-                        xspeed += -0.03;
+                        xspeed += -(global.physics[global.player].phy_accel / 2);
                     else {
                     
                         //If Mario is not holding or is not riding a yoshi or a kuribo shoe.
                         if ((holding == 0) && (global.mount == 0))                              
-                            xspeed += -0.06;
+                            xspeed += -global.physics[global.player].phy_accel;
                         else
-                            xspeed += -0.03;
+                            xspeed += -(global.physics[global.player].phy_accel / 2);
                     }
                 }
                 else { //Otherwise, if the player's speed is greater than 0.
                 
                     //Add 'accskid' to xspeed.
-                    xspeed += -0.075;
+                    xspeed += -(global.physics[global.player].phy_accel_turn / 2);
                 }                                              
             }
         }
@@ -653,29 +653,29 @@ if (inwall == 0)
             if (!crouch) {
             
                 //Reduce the player's speed until he stops.
-                xspeed = max(0,abs(xspeed)-0.0375)*sign(xspeed);
+                xspeed = max(0,abs(xspeed)-global.physics[global.player].phy_decel)*sign(xspeed);
                 
                 //Set up horizontal speed to 0 when xspeed hits the value given on 'dec'.
-                if ((xspeed < 0.0375) && (xspeed > -0.0375))             
+                if ((xspeed < global.physics[global.player].phy_decel) && (xspeed > -global.physics[global.player].phy_decel))             
                     xspeed = 0;
             }
             else { //If the player is crouched down.
             
                 //Reduce the player's speed until he stops.
-                xspeed = max(0,abs(xspeed)-0.072)*sign(xspeed);
+                xspeed = max(0,abs(xspeed)-(global.physics[global.player].phy_decel * 2))*sign(xspeed);
                 
                 //Set up horizontal speed to 0 when xspeed hits the value given on 'dec'.
-                if ((xspeed < 0.072) && (xspeed > -0.072))                
+                if ((xspeed < (global.physics[global.player].phy_decel * 2)) && (xspeed > -(global.physics[global.player].phy_decel * 2)))                
                     xspeed = 0;
             }
         }
         else { //Otherwise, if the player is overlapping a slippery surface.
         
             //Reduce the player's speed until he stops.
-            xspeed = max(0,abs(xspeed)-0.0046875)*sign(xspeed);
+            xspeed = max(0,abs(xspeed)-(global.physics[global.player].phy_decel / 8))*sign(xspeed);
             
             //Set up horizontal speed to 0 when xspeed hits the value given on 'dec'.
-            if ((xspeed < 0.0046875) && (xspeed > -0.0046875))          
+            if ((xspeed < (global.physics[global.player].phy_decel / 8)) && (xspeed > -(global.physics[global.player].phy_decel / 8)))          
                 xspeed = 0;
         }
     }
@@ -684,36 +684,36 @@ if (inwall == 0)
 //Otherwise, if the player's controls are disabled and the player is on contact with the ground.
 else if (yspeed == 0) { 
         
-    //If the player is not overlapping a slippery surface.
-    if (!isslip) {
-    
+	//If the player is not overlapping a slippery surface.
+    if (isslip == false) {
+        
         //If the player is not crouched down.
         if (!crouch) {
-        
-            //Reduce the player's speed until he stops.
-            xspeed = max(0,abs(xspeed)-0.03)*sign(xspeed);
             
+            //Reduce the player's speed until he stops.
+            xspeed = max(0,abs(xspeed)-global.physics[global.player].phy_decel)*sign(xspeed);
+                
             //Set up horizontal speed to 0 when xspeed hits the value given on 'dec'.
-            if ((xspeed < 0.03) && (xspeed > -0.03))         
+            if ((xspeed < global.physics[global.player].phy_decel) && (xspeed > -global.physics[global.player].phy_decel))             
                 xspeed = 0;
         }
         else { //If the player is crouched down.
-        
-            //Reduce the player's speed until he stops.
-            xspeed = max(0,abs(xspeed)-0.072)*sign(xspeed);
             
+            //Reduce the player's speed until he stops.
+            xspeed = max(0,abs(xspeed)-(global.physics[global.player].phy_decel * 2))*sign(xspeed);
+                
             //Set up horizontal speed to 0 when xspeed hits the value given on 'dec'.
-            if ((xspeed < 0.072) && (xspeed > -0.072))        
+            if ((xspeed < (global.physics[global.player].phy_decel * 2)) && (xspeed > -(global.physics[global.player].phy_decel * 2)))                
                 xspeed = 0;
         }
     }
     else { //Otherwise, if the player is overlapping a slippery surface.
-    
-        //Reduce the player's speed until he stops.
-        xspeed = max(0,abs(xspeed)-0.0046875)*sign(xspeed);
         
+        //Reduce the player's speed until he stops.
+        xspeed = max(0,abs(xspeed)-(global.physics[global.player].phy_decel / 8))*sign(xspeed);
+            
         //Set up horizontal speed to 0 when xspeed hits the value given on 'dec'.
-        if ((xspeed < 0.0046875) && (xspeed > -0.0046875))   
+        if ((xspeed < (global.physics[global.player].phy_decel / 8)) && (xspeed > -(global.physics[global.player].phy_decel / 8)))          
             xspeed = 0;
     }
 }
@@ -750,13 +750,13 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 			
 		    //Variable jumping
 		    if (yspeed < -2) && (jumping == 1)
-		        yadd = 0.03125;
+		        yadd = global.physics[global.player].phy_grav_alt / 2;
     
 		    //Otherwise, use default gravity.     
 		    else {
         
 		        //Use default gravity
-		        yadd = 0.18125;
+		        yadd = global.physics[global.player].phy_grav / 2;
                 
 		        //End variable jumping if it never ends manually.
 		        if (jumping = 1)
@@ -769,13 +769,13 @@ if (((state == playerstate.jump) || (statedelay > 0)) && (twirl != 1) && (ground
 			
 		    //Variable jumping
 		    if (yspeed < -2) && (jumping == 1)
-		        yadd = 0.0625;
+		        yadd = global.physics[global.player].phy_grav_alt;
     
 		    //Otherwise, use default gravity.     
 		    else {
         
 		        //Use default gravity
-		        yadd = (groundpound = 2) ? 0.725 : 0.3625;
+		        yadd = (groundpound = 2) ? (global.physics[global.player].phy_grav_alt * 2) : global.physics[global.player].phy_grav;
                 
 		        //End variable jumping if it never ends manually.
 		        if (jumping == 1)
@@ -1303,7 +1303,7 @@ if (global.powerup == cs_squirrel)
             squirrelpropel = 1;
 
             //Move up
-            yspeed = -3.85;
+            yspeed = -global.physics[global.player].phy_jump_frog;
 
             //Enable variable jumping
             jumping = 1;
@@ -1340,7 +1340,7 @@ if (global.powerup == cs_wind) {
 		doublejump = 1;
 		
 		//Move up
-		yspeed = -3.4675;
+		yspeed = -global.physics[global.player].phy_jump;
 		
 		//Enable variable jumping
 		jumping = 1;
