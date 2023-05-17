@@ -27,7 +27,7 @@
   "origin": 0,
   "parent": {
     "name": "Mario",
-    "path": "folders/Sprites/World Map/Mario.yy",
+    "path": "folders/Sprites/World Map/Players/Mario.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

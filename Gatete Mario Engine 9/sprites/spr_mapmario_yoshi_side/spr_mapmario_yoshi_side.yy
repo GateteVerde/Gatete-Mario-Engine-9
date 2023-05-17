@@ -27,7 +27,7 @@
   "origin": 9,
   "parent": {
     "name": "Yoshi",
-    "path": "folders/Sprites/World Map/Mario/Yoshi.yy",
+    "path": "folders/Sprites/World Map/Players/Mario/Yoshi.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

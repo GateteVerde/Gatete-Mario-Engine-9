@@ -68,9 +68,13 @@ switch (global.powerup) {
 		yspeed_max = 2.5;
 		break;
 
-	default:
-		yspeed_max = (groundpound = 2) ? 6 : 4;
-		break;	
+	default: {
+		
+		if (global.player == 0)
+			yspeed_max = (groundpound = 2) ? 6 : 4;
+		else
+			yspeed_max = (groundpound = 2) ? 6 : 3.5;
+	} break;	
 }
 
 // Cap at the determined speed
@@ -1444,25 +1448,29 @@ if (crouch == true)
 
 //If Mario is not crouched down
 else if (crouch == false) {
+	
+	//This ability can be used only by Luigi
+	if (global.player == 1) {
 
-	//If the timer is equal or lower than 119
-	if (squat_time <= 119) {
+		//If the timer is equal or lower than 119
+		if (squat_time <= 119) {
 	
-		squat_ready = 0;
-		if (squat_time > 0)
-			squat_time = 0;
-	}
-	
-	//Otherwise
-	else if (squat_ready > 0) {
-	
-		//If Mario starts walking or begins riding a Yoshi or a Kuribo shoe, reset ability
-		if (state == playerstate.walk) 
-		|| (global.mount != 0) {
-		
 			squat_ready = 0;
 			if (squat_time > 0)
 				squat_time = 0;
+		}
+	
+		//Otherwise
+		else if (squat_ready > 0) {
+	
+			//If Mario starts walking or begins riding a Yoshi or a Kuribo shoe, reset ability
+			if (state == playerstate.walk) 
+			|| (global.mount != 0) {
+		
+				squat_ready = 0;
+				if (squat_time > 0)
+					squat_time = 0;
+			}
 		}
 	}
 }

@@ -18,7 +18,8 @@ wall_l = collision_rectangle(bbox_left-4, bbox_top+4, bbox_left-1, bbox_bottom-1
 wall_lb = collision_rectangle(bbox_left-4, bbox_top+4, bbox_left-1, bbox_bottom-1, obj_platformparent, 1, 0);
 
 //If moving down, and not crouched down or flying
-if (yspeed > 0) 
+if ((global.player == 0) || ((global.player == 1) && (global.powerup == cs_bell)))
+&& (yspeed > 0) 
 && (!crouch) 
 && (!flying)
 && (holding == 0)
