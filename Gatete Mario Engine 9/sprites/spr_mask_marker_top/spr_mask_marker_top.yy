@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Boundaries",
-    "path": "folders/Sprites/Masks/Mario/Boundaries.yy",
+    "path": "folders/Sprites/Masks/Players/Boundaries.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

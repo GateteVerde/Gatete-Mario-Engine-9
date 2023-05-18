@@ -5,31 +5,72 @@ function index_powerups() {
 	//How many power-ups to create (the "i" created will match the enum through powerup_get_name)
 	var powerup_count = 30;
 	
-	#region RESOURCE
-	
-		//Temporary variable
-		var resource = noone;
+	//Temporary variable
+	var resource = noone;
 		
-		//Switch between player
-		switch (global.player) {
+	//Switch between player
+	switch (global.player) {
 			
-			//Mario
-			case (0): resource = "spr_mario_"; break;
+		//Mario
+		case (0): resource = "spr_mario_"; break;
 			
-			//Luigi
-			case (1): resource = "spr_luigi_"; break;
-		}
+		//Luigi
+		case (1): resource = "spr_luigi_"; break;
+	}
+	
+	#region MAP SPRITES
+	
+		//No Yoshi
+		global.map_sprite =				asset_get_index(string(resource) + "map");
+		global.map_up_sprite =			asset_get_index(string(resource) + "map_up");
+		global.map_side_sprite =		asset_get_index(string(resource) + "map_side");
+		global.map_climb_sprite =		asset_get_index(string(resource) + "map_climb");
+		global.map_select_sprite =		asset_get_index(string(resource) + "map_select");
+		global.map_wait_sprite =		asset_get_index(string(resource) + "map_wait");
+		
+		//Yoshi
+		global.map_yoshi_sprite =		asset_get_index(string(resource) + "map_yoshi");
+		global.map_yoshi_up_sprite =	asset_get_index(string(resource) + "map_yoshi_up");
+		global.map_yoshi_side_sprite =	asset_get_index(string(resource) + "map_yoshi_side");
+		
 	#endregion
 	
-	//Event exclusive sprites
-	global.death_sprite =			asset_get_index(string(resource) + "dead");
-	global.death_big_sprite =		asset_get_index(string(resource) + "dead_big");
-	global.death_tiny_sprite =		asset_get_index(string(resource) + "dead_tiny");
+	#region EVENT SPRITES
+	
+		//Death sprites
+		global.death_sprite =			asset_get_index(string(resource) + "dead");
+		global.death_big_sprite =		asset_get_index(string(resource) + "dead_big");
+		global.death_tiny_sprite =		asset_get_index(string(resource) + "dead_tiny");
+		
+		//Transformation sprites
+		global.tf_grow_sprite_a	=		asset_get_index(string(resource) + "grow");
+		global.tf_grow_sprite_b =		asset_get_index(string(resource) + "grow_to_mega");
+		global.tf_grow_sprite_c	=		asset_get_index(string(resource) + "grow_tiny_to_big");
+		global.tf_grow_sprite_skyp =	asset_get_index(string(resource) + "skypop_grow");
+		global.tf_grow_sprite_subp =	asset_get_index(string(resource) + "subpop_grow");
+		global.tf_shrink_sprite_a =		asset_get_index(string(resource) + "shrink");
+		global.tf_shrink_sprite_b =		asset_get_index(string(resource) + "shrink_big_to_tiny");
+		global.tf_shrink_sprite_c =		asset_get_index(string(resource) + "shrink_small_to_tiny");
+		global.tf_shrink_sprite_skyp =	asset_get_index(string(resource) + "skypop_shrink");
+		global.tf_shrink_sprite_subp =	asset_get_index(string(resource) + "subpop_shrink");
+		global.tf_powerup =				asset_get_index(string(resource) + "powerup");
+		global.tf_powerdown =			asset_get_index(string(resource) + "powerdown");
+			
+	#endregion
+	
+	#region SHMUP SPRITES
+		
+		global.skypop_sprite =	asset_get_index(string(resource) + string("_skypop"));
+		global.subpop_sprite =	asset_get_index(string(resource) + string("_subpop"));
+		global.skypop_small_sprite =	asset_get_index(string(resource) + string("_skypop_small"));
+		global.subpop_small_sprite =	asset_get_index(string(resource) + string("_subpop_small"));
+	#endregion
 
 	//Loop through and get every asset
 	for (var i = 0; i < powerup_count; i++) {
 
 		global.attack_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_attack");
+		global.attack2_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_attack2");
 		global.balloon_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_balloon");	
 		global.carry_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_carry");
 		global.carry_jump_sprite[i] =	asset_get_index(string(resource) + string(powerup_get_name(i)) + "_carry_jump");
@@ -51,6 +92,7 @@ function index_powerups() {
 		global.runjump_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_runjump");
 		global.skid_sprite[i] =			asset_get_index(string(resource) + string(powerup_get_name(i)) + "_skid");
 		global.slide_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_slide");
+		global.slide2_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_slide2");
 		global.somersault_sprite[i] =	asset_get_index(string(resource) + string(powerup_get_name(i)) + "_somersault");
 		global.spin_sprite[i] =			asset_get_index(string(resource) + string(powerup_get_name(i)) + "_spin");
 		global.spin2_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_spin2");

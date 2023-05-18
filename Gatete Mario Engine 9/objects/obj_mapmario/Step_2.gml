@@ -4,10 +4,10 @@
 if (is_climbing) {
 	
 	//Set up the sprite
-	sprite_index = spr_mapmario_climb;
+	sprite_index = global.map_climb_sprite;
 	
 	//Set up the yoshi sprite
-	yoshi_index = spr_mapmario_yoshi_up;
+	yoshi_index = global.map_yoshi_up_sprite;
     
     //Set up the scale
 	if (xscale != 1)
@@ -28,18 +28,18 @@ else {
 		if (is_ready == 1) {
 			
 			//Set the sprite
-			sprite_index = spr_mapmario_select;
+			sprite_index = global.map_select_sprite;
 			
 			//Set up the yoshi sprite
-			yoshi_index = spr_mapmario_yoshi;
+			yoshi_index = global.map_yoshi_sprite;
 		}
 		else {
 			
 			//Set the sprite
-			sprite_index = spr_mapmario;
+			sprite_index = global.map_sprite;
 			
 			//Set up the yoshi sprite
-			yoshi_index = spr_mapmario_yoshi;
+			yoshi_index = global.map_yoshi_sprite;
 		}
     }
         
@@ -47,10 +47,10 @@ else {
     else if (direct == 90) {
         
 		//Set up the sprite
-		sprite_index = spr_mapmario_up;
+		sprite_index = global.map_up_sprite;
 	
 		//Set up the yoshi sprite
-		yoshi_index = spr_mapmario_yoshi_up;
+		yoshi_index = global.map_yoshi_up_sprite;
         
         //Reset scale
         if (xscale != 1)
@@ -61,10 +61,10 @@ else {
     else {
             
 		//Set up the sprite
-		sprite_index = spr_mapmario_side;
+		sprite_index = global.map_side_sprite;
 	
 		//Set up the yoshi sprite
-		yoshi_index = spr_mapmario_yoshi_side;
+		yoshi_index = global.map_yoshi_side_sprite;
             
         //Set the scale
         if (direct == 0)

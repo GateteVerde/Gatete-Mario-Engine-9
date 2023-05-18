@@ -40,7 +40,7 @@ if (prompt == 0) {
 	#region Render Mario and Lives
 
 		//Set palette
-		pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
+		pal_swap_set_player(spr_palette, spr_palette_invincible);
 
 		//Draw Cape
 		if (global.powerup == cs_cape) {

@@ -497,7 +497,7 @@ if (inwall == 0)
 				}
 			}
 			else
-				yspeed = -global.physics[global.player].phy_jump_spin + abs(xspeed)/7.5*-1;
+				yspeed = -global.physics[global.player].phy_jump_tiny + abs(xspeed)/7.5*-1;
 		}
     }
     

@@ -293,7 +293,7 @@ else {
 									
 										//If Mario does use the penguin suit
 										if (global.powerup == cs_penguin)
-											sprite_index = spr_mario_penguin_slide2;
+											sprite_index = global.slide2_sprite[cs_penguin];
 									}
 								}
 							}
@@ -395,7 +395,7 @@ else {
                                 
 	                                    //Set up the somersault sprite
 										if (global.powerup == cs_cape)
-											sprite_index = spr_mario_cape_somersault;
+											sprite_index = global.somersault_sprite[cs_cape];
 										else
 											sprite_index = global.somersault_sprite[global.powerup];
 	                                }
@@ -589,7 +589,7 @@ else {
 														if (global.powerup == cs_wind) {
 															
 															if (wiggle > 0)
-																sprite_index = spr_mario_wind_float;
+																sprite_index = global.float_sprite[cs_wind];
 															else
 																sprite_index = global.jump_sprite[global.powerup];
 														}
@@ -605,7 +605,7 @@ else {
 															if (global.powerup == cs_wind) {
 																
 																if (wiggle > 0)
-																	sprite_index = spr_mario_wind_float;
+																	sprite_index = global.float_sprite[cs_wind];
 																else
 																	sprite_index = global.runjump_sprite[global.powerup];
 															}

@@ -2,7 +2,7 @@
 
 //If the player is waiting
 if (status = mapstate.wait)
-	draw_sprite(spr_mapmario_wait, 0, screen_round(x), screen_round(y));
+	draw_sprite(global.map_wait_sprite, 0, screen_round(x), screen_round(y));
 
 //Otherwise
 else {

@@ -29,7 +29,7 @@
   "origin": 9,
   "parent": {
     "name": "Attacks",
-    "path": "folders/Sprites/Masks/Mario/Attacks.yy",
+    "path": "folders/Sprites/Masks/Players/Attacks.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

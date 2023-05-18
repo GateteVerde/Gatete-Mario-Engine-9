@@ -6,7 +6,7 @@ if (global.mount == 2) {
 	#region RENDER MARIO
 		
 		//Set palette
-		pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
+		pal_swap_set_player(spr_palette, spr_palette_invincible);
 			
 		#region CAPE
 			
@@ -26,7 +26,7 @@ if (global.mount == 2) {
 
 		//If Mario is small
 		if (global.powerup == cs_small)
-			draw_sprite_ext(spr_mario_small_walk, 0, screen_round(x), screen_round(y)-8, image_xscale, 1, 0, c_white, 1);
+			draw_sprite_ext(global.walk_sprite[cs_small], 0, screen_round(x), screen_round(y)-8, image_xscale, 1, 0, c_white, 1);
 		
 		//Otherwise, if Mario is not small
 		else {
@@ -39,7 +39,7 @@ if (global.mount == 2) {
 				
 				//If Mario has the cat powerup
 				if (global.powerup == cs_bell)
-					draw_sprite_part_ext(spr_mario_cat_slide, 0, 0, 0, 16, 17, screen_round(x) - 8, screen_round(y) - 16, 1, 1, c_white, 1);
+					draw_sprite_part_ext(global.walk_sprite[cs_bell], 0, 0, 0, 16, 17, screen_round(x) - 8, screen_round(y) - 16, 1, 1, c_white, 1);
 				else
 					draw_sprite_part_ext(global.run_sprite[global.powerup], 0, 0, 0, 32, 16 + yy, screen_round(x) - 16, screen_round(y) - 15 - yy, 1, 1, c_white, 1);
 			}
@@ -49,7 +49,7 @@ if (global.mount == 2) {
 				
 				//If Mario has the Cat powerup
 				if (global.powerup == cs_bell)
-					draw_sprite_part_ext(spr_mario_cat_slide, 0, 0, 0, 16, 17, screen_round(x) + 8, screen_round(y) - 16, -1, 1, c_white, 1);
+					draw_sprite_part_ext(global.walk_sprite[cs_bell], 0, 0, 0, 16, 17, screen_round(x) + 8, screen_round(y) - 16, -1, 1, c_white, 1);
 				else
 					draw_sprite_part_ext(global.run_sprite[global.powerup], 0, 0, 0, 32, 16 + yy, screen_round(x) + 16, screen_round(y) - 15 - yy, -1, 1, c_white, 1);
 			}
@@ -84,7 +84,7 @@ else if (global.mount == 1) {
 	#endregion
 
 	//Set up the shader
-	pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
+	pal_swap_set_player(spr_palette, spr_palette_invincible);
 				
 	//Draw Mario
 	draw_sprite_ext(global.ride_sprite[global.powerup], 0, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
@@ -114,7 +114,7 @@ else {
 	#region RENDER MARIO
 		
 		//Set the palette
-		pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
+		pal_swap_set_player(spr_palette, spr_palette_invincible);
 			
 		//Draw the cape
 		if (global.powerup == cs_cape) {

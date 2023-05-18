@@ -1,7 +1,7 @@
 /// @description Render Mario
 
 //Set palette
-pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
+pal_swap_set_player(spr_palette, spr_palette_invincible);
 
 //Draw cape
 if (global.powerup == cs_cape) {

@@ -14,7 +14,7 @@ switch (global.powerup) {
         image_speed = 0.3;
         
         // Set the sprite
-        sprite_index = spr_mario_wind_attack;
+        sprite_index = global.attack_sprite[cs_wind];
 		
 		// Throw snowballs
 		alarm[0] = 1;
@@ -32,7 +32,7 @@ switch (global.powerup) {
         image_speed = 0.3;
         
         // Set the sprite
-        sprite_index = spr_mario_raccoon_attack;
+        sprite_index = global.attack_sprite[cs_raccoon];
 		
 		// Throw snowballs
 		alarm[0] = 1;
@@ -50,7 +50,7 @@ switch (global.powerup) {
         image_speed = 0.3;
         
         // Set the sprite
-        sprite_index = spr_mario_raccoon_attack;
+        sprite_index = global.attack_sprite[cs_raccoon];
 		
 		// Throw fireballs
 		alarm[0] = 1;
@@ -67,7 +67,7 @@ switch (global.powerup) {
 		image_speed = 0.2;
 		
 		//Set the sprite
-		sprite_index = spr_mario_ranger_attack;
+		sprite_index = global.attack_sprite[cs_ranger];
 		
 		break;
     
@@ -82,7 +82,7 @@ switch (global.powerup) {
         image_speed = 0.2;
         
         // Set the sprite
-        sprite_index = spr_mario_cat_attack2;
+        sprite_index = global.attack2_sprite[cs_bell];
 
 		break;
     
@@ -97,7 +97,7 @@ switch (global.powerup) {
         image_speed = 0.3;
         
         // Set the sprite
-        sprite_index = spr_mario_tanooki_attack;
+        sprite_index = global.attack_sprite[cs_tanooki];
 
 		break;
 		
@@ -111,7 +111,7 @@ switch (global.powerup) {
         image_speed = 0.3;
         
         // Set the sprite
-        sprite_index = spr_mario_big_spin;
+        sprite_index = global.spin_sprite[cs_big];
 
 		break;
     
@@ -126,7 +126,7 @@ switch (global.powerup) {
         image_speed = 0.3;
         
         //Set the sprite
-        sprite_index = spr_mario_raccoon_attack;
+        sprite_index = global.spin_sprite[cs_raccoon];
 		
 		break;
 		

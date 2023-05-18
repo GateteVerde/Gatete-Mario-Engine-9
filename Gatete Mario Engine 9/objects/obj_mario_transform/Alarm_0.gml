@@ -19,19 +19,19 @@ with (obj_mario) {
 	switch (sequence) {
 		
 		//Big to Tiny
-		case (-3): sprite_index = spr_mario_shrink_big_to_tiny; break;
+		case (-3): sprite_index = global.tf_shrink_sprite_b; break;
 	
 		//Small to Tiny
-		case (-2): sprite_index = spr_mario_shrink_small_to_tiny; break;
+		case (-2): sprite_index = global.tf_shrink_sprite_c; break;
 	
 		//Tiny to Big
-		case (-1): sprite_index = spr_mario_grow_tiny_to_big; break;
+		case (-1): sprite_index = global.tf_grow_sprite_c; break;
 
 	    //Small to Big
-	    case (0): sprite_index = spr_mario_grow; break;
+	    case (0): sprite_index = global.tf_grow_sprite_a; break;
     
 	    //Big to Small
-	    case (1): sprite_index = spr_mario_shrink; break;
+	    case (1): sprite_index = global.tf_shrink_sprite_a; break;
     
 	    //Power up
 	    case (2): {
@@ -40,7 +40,7 @@ with (obj_mario) {
 			if (instance_exists(obj_mario_shmup)) {
 				
 				//Set sprite
-				sprite_index = (obj_mario_shmup.subpop == 1) ? spr_mario_subpop_grow : spr_mario_skypop_grow;
+				sprite_index = (obj_mario_shmup.subpop == 1) ? global.tf_grow_sprite_subp : global.tf_grow_sprite_skyp;
 				
 				//Set loops
 				loop = 8;
@@ -49,7 +49,7 @@ with (obj_mario) {
 			//Otherwise
 			else {
 				
-				sprite_index = spr_mario_powerup;
+				sprite_index = global.tf_powerup;
 				loop = 3;
 			}
 	    } 
@@ -62,7 +62,7 @@ with (obj_mario) {
 			if (instance_exists(obj_mario_shmup)) {
 				
 				//Set sprite
-				sprite_index = (obj_mario_shmup.subpop == 1) ? spr_mario_subpop_shrink : spr_mario_skypop_shrink;
+				sprite_index = (obj_mario_shmup.subpop == 1) ? global.tf_shrink_sprite_subp : global.tf_shrink_sprite_skyp;
 				
 				//Set loops
 				loop = 8;
@@ -71,20 +71,20 @@ with (obj_mario) {
 			//Otherwise
 			else {
 				
-				sprite_index = spr_mario_powerdown;
+				sprite_index = global.tf_powerdown;
 				loop = 6;
 			}
 	    } 
 		break;
     
 	    //Transform
-	    case (4): sprite_index = spr_mario_transform; break;
+	    case (4): sprite_index = spr_player_global_transform; break;
 	
 		//Mega Grow
 		case (5): {
 		
 			//Set sprite
-			sprite_index = spr_mario_grow_to_mega;
+			sprite_index = global.tf_grow_sprite_b;
 			
 			//Turn Mario invisible
 			obj_mario.visible = false;

@@ -24,7 +24,7 @@ else {
 }
 
 //Yoshi sprite
-yoshi_index = spr_mapmario_yoshi;
+yoshi_index = global.map_yoshi_sprite;
 
 //Whether the object is moving
 status = mapstate.idle;

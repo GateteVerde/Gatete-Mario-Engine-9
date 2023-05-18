@@ -42,8 +42,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_mapmario",
-    "path": "sprites/spr_mapmario/spr_mapmario.yy",
+    "name": "spr_mario_map",
+    "path": "sprites/spr_mario_map/spr_mario_map.yy",
   },
   "spriteMaskId": {
     "name": "spr_square",

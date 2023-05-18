@@ -1,7 +1,7 @@
 /// @description Draw Mario
 
 //Set up the palette
-pal_swap_set_player(spr_palette_mario, spr_palette_mario_invincible);
+pal_swap_set_player(spr_palette, spr_palette_invincible);
 
 //Draw Mario
 if (sprite_index > -1) {

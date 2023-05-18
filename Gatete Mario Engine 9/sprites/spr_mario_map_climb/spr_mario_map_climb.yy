@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_mapmario_side",
+  "name": "spr_mario_map_climb",
   "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 15,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_mapmario_side",
+    "name": "spr_mario_map_climb",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3996bae5-ad85-41c2-9f74-b9d130613c7a","path":"sprites/spr_mapmario_side/spr_mapmario_side.yy",},},},"Disabled":false,"id":"f034372d-72de-4575-854f-9ff59cebdfb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54f8fe51-a96f-487a-8244-6a19b83b2c73","path":"sprites/spr_mapmario_side/spr_mapmario_side.yy",},},},"Disabled":false,"id":"67328763-0a22-4e1b-a3bc-cc8897b79303","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3996bae5-ad85-41c2-9f74-b9d130613c7a","path":"sprites/spr_mario_map_climb/spr_mario_map_climb.yy",},},},"Disabled":false,"id":"70c918bd-b3f3-4f96-8887-b73d016f50ea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54f8fe51-a96f-487a-8244-6a19b83b2c73","path":"sprites/spr_mario_map_climb/spr_mario_map_climb.yy",},},},"Disabled":false,"id":"6f0c35d5-2d11-4135-9c2c-86d7a1569c6b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

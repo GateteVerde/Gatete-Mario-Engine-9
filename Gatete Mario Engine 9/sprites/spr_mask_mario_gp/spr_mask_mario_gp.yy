@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Groundpound",
-    "path": "folders/Sprites/Masks/Mario/Groundpound.yy",
+    "path": "folders/Sprites/Masks/Players/Groundpound.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

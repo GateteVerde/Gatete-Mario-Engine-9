@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Mario",
-    "path": "folders/Sprites/Masks/Mario.yy",
+    "name": "Players",
+    "path": "folders/Sprites/Masks/Players.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
