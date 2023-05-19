@@ -4,7 +4,7 @@
   "name": "spr_gui_coins",
   "bbox_bottom": 7,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 14,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

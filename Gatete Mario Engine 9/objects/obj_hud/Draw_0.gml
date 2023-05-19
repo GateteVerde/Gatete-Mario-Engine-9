@@ -5,12 +5,12 @@ draw_set_font(global.gui_font_numbers);
 draw_set_colour(c_white);
 
 //Lives
-draw_sprite_ext(spr_gui_mario, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(lives, 2, 0));
+draw_sprite_ext(spr_gui_mario, global.player, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 8, string_format(lives, 2, 0));
 
 //Coins
 draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 19, string_add_zeroes(global.coins, 2));
+draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 19, string_format(global.coins, 2, 0));
 
 //Safeguard
 #region SAFEGUARD
