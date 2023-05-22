@@ -17,7 +17,7 @@ if (global.mount == 1) {
 	#endregion
 
 	//Set up the shader
-	pal_swap_set_player(spr_palette, spr_palette_invincible);
+	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 				
 	//Draw Mario
 	draw_sprite_ext(global.ride_sprite[global.powerup], 0, screen_round(xstart), screen_round(ystart)+1, 1, 1, 0, c_white, 1);

@@ -9,7 +9,7 @@ if (canmove == 1) {
 		#region RENDER MARIO
 		
 			//Set palette
-			pal_swap_set_player(spr_palette, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 			
 			#region CAPE
 			
@@ -98,7 +98,7 @@ if (canmove == 1) {
         #region RENDER MARIO
 
 			//Set up the shader
-			pal_swap_set_player(spr_palette, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 			
 			//If not moving vertically
 			if (vspeed == 0) {
@@ -160,7 +160,7 @@ if (canmove == 1) {
 		#region RENDER MARIO
 		
 			//Set the palette
-			pal_swap_set_player(spr_palette, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 		
 			//If not moving vertically
 			if (vspeed == 0) {

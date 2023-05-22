@@ -6,7 +6,7 @@ if (global.mount == 2) {
 	#region RENDER MARIO
 		
 		//Set palette
-		pal_swap_set_player(spr_palette, spr_palette_invincible);
+		pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 			
 		#region CAPE
 			
@@ -84,7 +84,7 @@ else if (global.mount == 1) {
 	#endregion
 
 	//Set up the shader
-	pal_swap_set_player(spr_palette, spr_palette_invincible);
+	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 				
 	//Draw Mario
 	draw_sprite_ext(global.ride_sprite[global.powerup], 0, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
@@ -114,7 +114,7 @@ else {
 	#region RENDER MARIO
 		
 		//Set the palette
-		pal_swap_set_player(spr_palette, spr_palette_invincible);
+		pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 			
 		//Draw the cape
 		if (global.powerup == cs_cape) {

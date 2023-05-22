@@ -73,43 +73,65 @@ init_shockwave();
 //Player Physics
 #region
 
-	//Mario's Physics
-	global.physics[0] = 
-	{				
-		phy_xspeed_min		: 1.3, //Walk Speed
-		phy_xspeed_max		: 2.6, //Run Speed
-		phy_xspeed_full		: 3.3, //Run Speed (P-Meter)		
-		phy_jump			: 3.4675, //Jump 
-		phy_jump_spin		: 3.23775, //Jump (Spin)		
-		phy_jump_carrot		: 4.1675, //Jump (Carrot)
-		phy_jump_frog		: 3.7675, //Jump (Frog)
-		phy_jump_squat		: 3.9675, //Jump (Squat Jump)
-		phy_jump_tiny		: 2.7375, //Jump (Tiny)		
-		phy_accel			: 0.06, //Acceleration
-		phy_accel_turn		: 0.15, //Acceleration (Turning)
-		phy_decel			: 0.0375, //Deceleration
-		phy_grav			: 0.3625, //Gravity
-		phy_grav_alt		: 0.0625 //Gravity (Jump)
-	};
+	#region PHYSICS
+
+		//Mario's Physics
+		global.physics[0] = 
+		{				
+			phy_xspeed_min		: 1.3, //Walk Speed
+			phy_xspeed_max		: 2.6, //Run Speed
+			phy_xspeed_full		: 3.3, //Run Speed (P-Meter)		
+			phy_jump			: 3.4675, //Jump 
+			phy_jump_spin		: 3.23775, //Jump (Spin)		
+			phy_jump_carrot		: 4.1675, //Jump (Carrot)
+			phy_jump_frog		: 3.7675, //Jump (Frog)
+			phy_jump_squat		: 3.9675, //Jump (Squat Jump)
+			phy_jump_tiny		: 2.7375, //Jump (Tiny)		
+			phy_accel			: 0.06, //Acceleration
+			phy_accel_turn		: 0.15, //Acceleration (Turning)
+			phy_decel			: 0.0375, //Deceleration
+			phy_grav			: 0.3625, //Gravity
+			phy_grav_alt		: 0.0625 //Gravity (Jump)
+		};
 	
-	//Luigi's Physics
-	global.physics[1] = 
-	{				
-		phy_xspeed_min		: 1.18, //Walk Speed
-		phy_xspeed_max		: 2.36, //Run Speed
-		phy_xspeed_full		: 3, //Run Speed (P-Meter)		
-		phy_jump			: 3.53685, //Jump 
-		phy_jump_spin		: 3.302505, //Jump (Spin)		
-		phy_jump_carrot		: 4.25085, //Jump (Carrot)
-		phy_jump_frog		: 3.84285, //Jump (Frog)
-		phy_jump_squat		: 4.04685, //Jump (Squat Jump)
-		phy_jump_tiny		: 2.79225, //Jump (Tiny)		
-		phy_accel			: 0.054, //Acceleration
-		phy_accel_turn		: 0.136, //Acceleration (Turning)
-		phy_decel			: 0.034, //Deceleration
-		phy_grav			: 0.3625, //Gravity
-		phy_grav_alt		: 0.0625 //Gravity (Jump)
-	};
+		//Luigi's Physics
+		global.physics[1] = 
+		{				
+			phy_xspeed_min		: 1.18, //Walk Speed
+			phy_xspeed_max		: 2.36, //Run Speed
+			phy_xspeed_full		: 3, //Run Speed (P-Meter)		
+			phy_jump			: 3.53685, //Jump 
+			phy_jump_spin		: 3.302505, //Jump (Spin)		
+			phy_jump_carrot		: 4.25085, //Jump (Carrot)
+			phy_jump_frog		: 3.84285, //Jump (Frog)
+			phy_jump_squat		: 4.04685, //Jump (Squat Jump)
+			phy_jump_tiny		: 2.79225, //Jump (Tiny)		
+			phy_accel			: 0.054, //Acceleration
+			phy_accel_turn		: 0.136, //Acceleration (Turning)
+			phy_decel			: 0.034, //Deceleration
+			phy_grav			: 0.3625, //Gravity
+			phy_grav_alt		: 0.0625 //Gravity (Jump)
+		};
+		
+	#endregion
+	
+	#region PALETTES
+	
+		//Mario
+		global.palette[0] = {
+			
+			main : spr_palette_mario,
+			mega : spr_palette_mario_mega
+		};
+		
+		//Luigi
+		global.palette[1] = {
+		
+			main : spr_palette_luigi,
+			mega : spr_palette_luigi_mega
+		};
+			
+	#endregion
 #endregion
 
 //MacOS Key Macros

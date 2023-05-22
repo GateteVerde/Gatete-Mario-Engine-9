@@ -4,7 +4,7 @@
 if (global.mount == 2) {
 	
 	//Set palette
-	pal_swap_set_player(spr_palette, spr_palette_invincible);
+	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
 
 	//Draw Mario
 	draw_sprite_ext(sprite_index, -1, screen_round(x), screen_round(y)+1, direct, image_yscale, 0, c_white, 1);
@@ -26,7 +26,7 @@ else if (global.mount == 1) {
     draw_sprite_ext(yoshisprite, 0, screen_round(x), screen_round(y)+1, direct, 1, 0, c_white, 1);
 	
 	//Set palette
-	pal_swap_set_player(spr_palette, spr_palette_invincible, spr_palette_mega);
+	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible, global.palette[global.player].mega);
     
     //Draw the player
     if (sequence == 3) {
@@ -52,7 +52,7 @@ else if (global.mount == 1) {
 else {
 	
 	//Set palette
-	pal_swap_set_player(spr_palette, spr_palette_invincible, spr_palette_mega);
+	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible, global.palette[global.player].mega);
 	
 	//Draw Mario
 	if (sequence != 5)

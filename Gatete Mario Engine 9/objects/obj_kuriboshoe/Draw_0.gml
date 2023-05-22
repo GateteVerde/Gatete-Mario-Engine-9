@@ -4,7 +4,7 @@
 if (instance_exists(obj_mario)) {
     
     //Set the shader
-    pal_swap_set_player(spr_palette, spr_palette_invincible);
+    pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
     
     //Only draw if the player is not crouched down
     if (obj_mario.crouch == false) {

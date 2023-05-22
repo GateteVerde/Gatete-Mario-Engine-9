@@ -1,7 +1,7 @@
 /// @description Draw Mario
 
 //Set up the palette
-pal_swap_set_player(spr_palette, spr_palette_invincible, spr_palette_mega);
+pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible, global.palette[global.player].mega);
 
 //Draw cape
 if (deflate == 1)
