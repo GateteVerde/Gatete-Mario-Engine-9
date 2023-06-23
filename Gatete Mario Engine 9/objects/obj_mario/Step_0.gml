@@ -778,8 +778,9 @@ else if (xspeed < 0) {
 	//Check for a platform
 	var lp = collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom-5, obj_platformparent, 1, 0);
 	
-	//If there's a wall to the left
-	if (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom, obj_solid, 1, 0)) {
+	//If there's a wall on the left
+	if ((global.powerup == cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom-5, obj_solid, 1, 0))) 
+	|| (((global.powerup != cs_tiny) && (collision_rectangle(bbox_left-1, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0)))) {
 		
 		//Check for a block
 		var block_l = collision_rectangle(bbox_left-1, y + 8, bbox_left, y + 8, obj_blockparent, 0, 0);
