@@ -284,9 +284,7 @@ var _vh = camera_get_view_height(view_camera[0]);
 //Activate deactivated instances inside the view
 instance_activate_region(_vx - 64, _vy - 64, _vw + 128, _vh + 128, true);
 
-/*
-
-//Swap into Luigi (DEBUG KEY)
+/*Swap into Luigi (DEBUG KEY)
 if (keyboard_check_pressed(vk_backspace)) {
 	
 	global.player = !global.player;
