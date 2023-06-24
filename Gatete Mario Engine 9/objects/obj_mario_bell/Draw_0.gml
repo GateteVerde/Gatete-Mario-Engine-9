@@ -23,7 +23,7 @@ if (global.mount == 1) {
 		#region MARIO
         
 		    //Set the palette
-			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 
 			//Draw Mario
 			draw_sprite_ext(global.ride_sprite[global.powerup], obj_yoshi.f, screen_round(x), screen_round(y)+1+obj_yoshi.myy, image_xscale, 1, 0, c_white, image_alpha);
@@ -58,7 +58,7 @@ if (global.mount == 1) {
 		#region MARIO
         
 			//Set the palette
-			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 					
 			//Draw cape
 			if (global.powerup == cs_cape) {
@@ -80,7 +80,7 @@ if (global.mount == 1) {
 else {
 	
 	//Set palette
-	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 	
 	//Draw cape
 	if (global.powerup == cs_cape) {

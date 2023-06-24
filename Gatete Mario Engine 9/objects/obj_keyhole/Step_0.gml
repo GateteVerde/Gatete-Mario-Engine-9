@@ -91,7 +91,7 @@ else if (ready == 3) {
 				#region MARIO
 			
 					//Set palette
-					pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+					pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
             
 					//Draw Mario
 				    draw_sprite_ext(global.ride_sprite[global.powerup], 0, mx - camera_get_view_x(view_camera[0]), my - camera_get_view_y(view_camera[0]), md, 1, 0, c_white, 1);
@@ -120,7 +120,7 @@ else if (ready == 3) {
 		        draw_sprite_ext(spr_key, 0, kx - camera_get_view_x(view_camera[0]), ky - camera_get_view_y(view_camera[0]), kd, 1, 0, c_white, 1);
 			
 				//Set palette
-				pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+				pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 			
 				//Draw Mario
 		        draw_sprite_ext(ms, mi, mx - camera_get_view_x(view_camera[0]), my - camera_get_view_y(view_camera[0]), md, 1, 0, c_white, 1);

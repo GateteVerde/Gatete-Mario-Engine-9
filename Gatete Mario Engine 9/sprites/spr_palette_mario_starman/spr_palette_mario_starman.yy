@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_palette_invincible",
-  "bbox_bottom": 101,
+  "name": "spr_palette_mario_starman",
+  "bbox_bottom": 89,
   "bbox_left": 0,
   "bbox_right": 6,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 102,
+  "height": 90,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a6b8bfb4-6e97-4ed1-a91d-7639bfcba884","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -25,14 +25,14 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Players",
-    "path": "folders/Sprites/Special/System/Palettes/Players.yy",
+    "name": "Mario",
+    "path": "folders/Sprites/Special/System/Palettes/Players/Mario.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_palette_invincible",
+    "name": "spr_palette_mario_starman",
     "autoRecord": true,
     "backdropHeight": 1080,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6c49e19-f058-4588-99ce-6eed17d90f7d","path":"sprites/spr_palette_invincible/spr_palette_invincible.yy",},},},"Disabled":false,"id":"201da392-53ef-45dd-a101-49fe0cd7eca9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6c49e19-f058-4588-99ce-6eed17d90f7d","path":"sprites/spr_palette_mario_starman/spr_palette_mario_starman.yy",},},},"Disabled":false,"id":"201da392-53ef-45dd-a101-49fe0cd7eca9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

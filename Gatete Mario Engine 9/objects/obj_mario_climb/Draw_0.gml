@@ -10,7 +10,7 @@ if (holding == 1) {
 }
 
 //Set palette
-pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 
 //Draw the cape
 if (global.powerup == cs_cape) {

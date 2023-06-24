@@ -121,14 +121,16 @@ init_shockwave();
 		global.palette[0] = {
 			
 			main : spr_palette_mario,
-			mega : spr_palette_mario_mega
+			mega : spr_palette_mario_mega,
+			star : spr_palette_mario_starman
 		};
 		
 		//Luigi
 		global.palette[1] = {
 		
 			main : spr_palette_luigi,
-			mega : spr_palette_luigi_mega
+			mega : spr_palette_luigi_mega,
+			star : spr_palette_luigi_starman
 		};
 			
 	#endregion

@@ -35,7 +35,7 @@ if (ready > 0) && (ready < 4) {
 			#region MARIO
 			
 				//Set palette
-				pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+				pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
             
 				//Draw Mario
 			    draw_sprite_ext(global.ride_sprite[global.powerup], 0, mx, my, md, 1, 0, c_white, 1);
@@ -64,7 +64,7 @@ if (ready > 0) && (ready < 4) {
 	        draw_sprite_ext(spr_key, 0, kx, ky, kd, 1, 0, c_white, 1);
 			
 			//Set palette
-			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 			
 			//Draw Mario
 	        draw_sprite_ext(ms, mi, mx, my, md, 1, 0, c_white, 1);

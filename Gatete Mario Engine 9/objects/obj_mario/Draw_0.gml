@@ -8,7 +8,7 @@ if (fly != noone)
 	return;
 
 //Set up the palette
-pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible, global.palette[global.player].mega);
+pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star, global.palette[global.player].mega);
 
 //Draw Mario
 if (sprite_index > -1) {

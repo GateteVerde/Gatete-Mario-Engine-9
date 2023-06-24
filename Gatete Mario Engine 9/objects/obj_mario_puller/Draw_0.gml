@@ -4,7 +4,7 @@
 if (instance_exists(obj_mario)) {
 
 	//Set up the palette
-	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
     
     //If the player is pulling
     if (sprite_index == global.pull_sprite[global.powerup])

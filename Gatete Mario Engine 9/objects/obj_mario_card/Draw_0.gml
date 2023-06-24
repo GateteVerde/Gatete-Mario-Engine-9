@@ -23,7 +23,7 @@ if (global.mount == 1) {
 		#region MARIO
         
 		    //Set the palette
-			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 				
 			//Draw cape
 			if (global.powerup == cs_cape) {
@@ -58,7 +58,7 @@ if (global.mount == 1) {
 		#region MARIO
         
 			//Set the palette
-			pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+			pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 					
 			//Draw cape
 			if (global.powerup == cs_cape) {
@@ -80,7 +80,7 @@ if (global.mount == 1) {
 else {
 	
 	//Set palette
-	pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 	
 	//Draw cape
 	if (global.powerup == cs_cape) {

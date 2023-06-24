@@ -16,7 +16,7 @@ if (instance_exists(owner)) {
     if (global.powerup == cs_cape) {
 		
 		//Set palette
-		pal_swap_set_player(global.palette[global.player].main, spr_palette_invincible);
+		pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
     
         //If the player is not riding a yoshi
         if (global.mount != 1) {
