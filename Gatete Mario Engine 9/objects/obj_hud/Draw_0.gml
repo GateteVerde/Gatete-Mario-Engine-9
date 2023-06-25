@@ -1,16 +1,19 @@
 /// @description Draw the HUD
 
-//Set default font and colour
-draw_set_font(global.gui_font_numbers);
+//Set gold font and colour
+draw_set_font(global.gui_font_numbers_gold);
 draw_set_colour(c_white);
 
-//Lives
-draw_sprite_ext(spr_gui_mario, global.player, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 8, string_format(lives, 2, 0));
-
 //Coins
-draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 19, string_format(global.coins, 2, 0));
+draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+draw_text(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[0]) + 9, string_add_zeroes(global.coins, 2));
+
+//Set default font
+draw_set_font(global.gui_font_numbers);
+
+//Lives
+draw_sprite_ext(spr_gui_mario, global.player, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 28, 1, 1, 0, c_white, 1);
+draw_text(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[0]) + 29, string_add_zeroes(lives, 2));
 
 //Safeguard
 #region SAFEGUARD
@@ -25,15 +28,15 @@ draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[
 #endregion
 
 //Star Coin position
-var star_y = camera_get_view_y(view_camera[0]) + 30;
+var star_y = camera_get_view_y(view_camera[0]) + 48;
 if (ds_map_size(global.powerstars) > 0) {
 	
 	//Set the position for the star coin display
-	star_y += 11;
+	star_y += 20;
 	
 	//Draw the current stars
-	draw_sprite_ext(spr_gui_stars, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
-	draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 30, string_add_zeroes(ds_map_size(global.powerstars), 3));
+	draw_sprite_ext(spr_gui_stars, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 48, 1, 1, 0, c_white, 1);
+	draw_text(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[0]) + 49, string_add_zeroes(ds_map_size(global.powerstars), 3));
 }
 
 //Star Coins
@@ -54,7 +57,7 @@ if (ds_map_size(global.powerstars) > 0) {
 #endregion
 
 //Reserve Box
-#region RESERVE BOX / Health
+#region RESERVE BOX / HEALTH
 
 	#region FRAME
 		
@@ -93,13 +96,25 @@ if (ds_map_size(global.powerstars) > 0) {
 
 		//If the reserve item system is activated
 		if (global.reserve_activated == true) {
+			
+			//If HP Mode is not active
+			if (global.hp_mode == false) {
+			
+				//Draw the reserve item
+				if (global.reserve != cs_small)				
+					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+			}
 
 			//Draw reserve box
-			draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (8 * global.hp_mode), 1, 1, 0, c_white, 1);
-		
-			//Draw the reserve item
-			if (global.reserve != cs_small)
-				draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 8 + (8 * global.hp_mode), 1, 1, 0, c_white, 1);
+			draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+			
+			//If HP Mode is not active
+			if (global.hp_mode == true) {
+			
+				//Draw the reserve item
+				if (global.reserve != cs_small)
+					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+			}
 		}
 	
 		//Otherwise
@@ -112,8 +127,8 @@ if (ds_map_size(global.powerstars) > 0) {
 draw_set_font(global.gui_font_numbers_black);
 
 //Score positions
-var score_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 128;
-var score_y = camera_get_view_y(view_camera[0]) + 8;
+var score_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 136;
+var score_y = camera_get_view_y(view_camera[0]) + 11;
 
 //Check if the camera's width isn't wide enough
 if (global.reserve_activated == true)
@@ -121,21 +136,23 @@ if (global.reserve_activated == true)
 	
 	//If not, move the score HUD to underneath the counter
 	score_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 72;
-	score_y += 11;	
+	score_y += 16;	
 }
 
 //Score
-draw_text(score_x, score_y, string_add_zeroes(score, 8));
+draw_text(score_x, score_y, string_add_zeroes(score, 9));
 
-//Set gold font
-draw_set_font(global.gui_font_numbers_gold);
+//Set format and gold font
+draw_set_font(global.gui_font_numbers);
+draw_set_halign(fa_right);
 
 //Time
-draw_sprite_ext(spr_gui_time, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 48, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(global.timer, 3));
+draw_sprite_ext(spr_gui_time, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 24, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 21, camera_get_view_y(view_camera[0]) + 11, string_format(global.timer, 3, 0));
 	
-//Set large font
-draw_set_font(global.gui_font_numbers_large)
+//Reset format and set large font
+draw_set_halign(fa_left);
+draw_set_font(global.gui_font_numbers_large);
 
 //Coin Collect-a-thon
 if (global.collect_mode > 0) {
