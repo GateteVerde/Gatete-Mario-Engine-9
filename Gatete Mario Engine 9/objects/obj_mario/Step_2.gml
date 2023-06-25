@@ -278,8 +278,23 @@ else {
 							if (groundpound > 0) {
 								
 								//If the player is spinning
-								if (groundpound == 1)
-									sprite_index = global.somersault_sprite[global.powerup];
+								if (groundpound == 1) {
+									
+									//If the player does have the cape powerup
+									if (global.powerup == cs_cape) {
+										
+										switch (global.player) {
+											
+											//Mario
+											case (0): sprite_index = spr_mario_cape_somersault; break;
+											
+											//Luigi
+											case (1): sprite_index = spr_luigi_cape_somersault; break;
+										}
+									}
+									else
+										sprite_index = global.somersault_sprite[global.powerup];
+								}
 									
 								//Otherwise
 								else if (groundpound == 2) {
@@ -393,9 +408,18 @@ else {
 	                                    image_speed = 0;
 	                                    image_index = 0;
                                 
-	                                    //Set up the somersault sprite
-										if (global.powerup == cs_cape)
-											sprite_index = global.somersault_sprite[cs_cape];
+										//If the player does have the cape powerup
+										if (global.powerup == cs_cape) {
+										
+											switch (global.player) {
+											
+												//Mario
+												case (0): sprite_index = spr_mario_cape_somersault; break;
+											
+												//Luigi
+												case (1): sprite_index = spr_luigi_cape_somersault; break;
+											}
+										}
 										else
 											sprite_index = global.somersault_sprite[global.powerup];
 	                                }

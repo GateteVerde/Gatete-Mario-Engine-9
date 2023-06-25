@@ -65,6 +65,11 @@ function index_powerups() {
 		global.skypop_small_sprite =	asset_get_index(string(resource) + string("skypop_small"));
 		global.subpop_small_sprite =	asset_get_index(string(resource) + string("subpop_small"));
 	#endregion
+	
+	#region CAPE FLIGHT SPRITES
+	
+		global.cape_flight_sprite =		asset_get_index(string(resource) + string("cape_fly"));
+	#endregion
 
 	//Loop through and get every asset
 	for (var i = 0; i < powerup_count; i++) {
