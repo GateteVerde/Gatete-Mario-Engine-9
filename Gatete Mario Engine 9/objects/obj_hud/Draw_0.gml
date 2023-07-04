@@ -142,7 +142,7 @@ if (global.reserve_activated == true)
 //Score
 draw_text(score_x, score_y, string_add_zeroes(score, 9));
 
-//Set format and gold font
+//Set format and font
 draw_set_font(global.gui_font_numbers);
 draw_set_halign(fa_right);
 
@@ -152,16 +152,15 @@ draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[
 	
 //Reset format and set large font
 draw_set_halign(fa_left);
-draw_set_font(global.gui_font_numbers_large);
 
 //Coin Collect-a-thon
 if (global.collect_mode > 0) {
 	
 	draw_sprite_ext(spr_gui_bonus, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, 1, 1, 0, c_white, 1);
 	if (global.coins_left > 0)
-		draw_text(camera_get_view_x(view_camera[0]) + 16, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, string_add_zeroes(global.coins_left, 3));
+		draw_text(camera_get_view_x(view_camera[0]) + 17, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 28, string_add_zeroes(global.coins_left, 3));
 	else
-		draw_sprite_ext(spr_gui_bonus, 1, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_gui_bonus, 1, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 28, 1, 1, 0, c_white, 1);
 }
 
 //P-Meter
