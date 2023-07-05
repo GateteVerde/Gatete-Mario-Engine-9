@@ -1,7 +1,8 @@
 /// @description Make Mario do stuff when it's animation ends.
 
 //If Mario is walking with the frog suit
-if (sprite_index == global.walk_sprite[cs_frog]) {
+if (state == playerstate.walk)
+&& (sprite_index == global.walk_sprite[cs_frog]) {
 
     //Play 'Frog' sound
     audio_play_sound(snd_frog, 0, false);
@@ -55,7 +56,8 @@ else if ((sprite_index == global.swim2_sprite[cs_frog]) || (global.swim2_sprite[
 }
 
 //Otherwise, if Mario is dashing while having the football suit
-else if (sprite_index == global.run_sprite[cs_football]) {
+else if (global.powerup == cs_football)
+&& (sprite_index == global.run_sprite[cs_football]) {
 
     //Play 'Bump' sound
     audio_stop_sound(snd_bump);

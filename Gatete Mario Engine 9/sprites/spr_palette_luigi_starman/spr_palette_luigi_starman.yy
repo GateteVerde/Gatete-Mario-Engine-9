@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_palette_luigi_starman",
-  "bbox_bottom": 89,
+  "bbox_bottom": 97,
   "bbox_left": 0,
   "bbox_right": 6,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 90,
+  "height": 98,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a6b8bfb4-6e97-4ed1-a91d-7639bfcba884","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
