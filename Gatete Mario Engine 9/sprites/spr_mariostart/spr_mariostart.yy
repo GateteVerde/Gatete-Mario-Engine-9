@@ -15,6 +15,7 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7874126-d3e8-485a-b8ca-cbd7542acf85",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"14378c4b-7711-4d52-b2f6-a15e67493093",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4702019-14b7-4198-ae1d-77e1c2abd017",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7adae2a-0df0-430a-a8bf-4c75878821c7",},
   ],
   "gridX": 0,
@@ -45,7 +46,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 3.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -58,7 +59,8 @@
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f7874126-d3e8-485a-b8ca-cbd7542acf85","path":"sprites/spr_mariostart/spr_mariostart.yy",},},},"Disabled":false,"id":"8fff5d43-c561-4c97-8e8f-5f669c20b736","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"14378c4b-7711-4d52-b2f6-a15e67493093","path":"sprites/spr_mariostart/spr_mariostart.yy",},},},"Disabled":false,"id":"03f6aa4e-cbec-4f87-9bb3-39b37429afee","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e7adae2a-0df0-430a-a8bf-4c75878821c7","path":"sprites/spr_mariostart/spr_mariostart.yy",},},},"Disabled":false,"id":"8e577b13-e305-4b1b-bd30-46ebd2ea8078","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c4702019-14b7-4198-ae1d-77e1c2abd017","path":"sprites/spr_mariostart/spr_mariostart.yy",},},},"Disabled":false,"id":"ff66ccdf-75e7-40e8-8a1d-cbd700756675","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e7adae2a-0df0-430a-a8bf-4c75878821c7","path":"sprites/spr_mariostart/spr_mariostart.yy",},},},"Disabled":false,"id":"8e577b13-e305-4b1b-bd30-46ebd2ea8078","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

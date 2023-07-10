@@ -153,6 +153,21 @@ if (status == mapstate.idle)
 					alarm[1] = 1;
 				}
 	        }
+			
+			//Change player
+			if (status == mapstate.idle)
+			&& (input_check_pressed(input.select)) {
+			
+				//Play 'Open Path' sound
+				audio_play_sound(snd_pathreveal, 0, false);
+				
+				//Create 'Smoke' effect
+				instance_create_depth(x+8, y+8, -6, obj_smoke);
+				
+				//Change player and replace sprites
+				global.player = !global.player;
+				index_powerups();
+			}
 		}
 			
 		//Otherwise, if it is opened
