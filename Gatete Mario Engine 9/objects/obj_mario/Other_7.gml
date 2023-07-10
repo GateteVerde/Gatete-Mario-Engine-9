@@ -46,6 +46,7 @@ else if ((sprite_index == global.swim2_sprite[cs_frog]) || (global.swim2_sprite[
 		
 		//Do play only if Mario has the Frog or Penguin powerups
 		if (swimming == 1)
+		&& ((abs(xspeed) > 0) || (abs(yspeed) > 0))
 		&& ((global.powerup == cs_frog) || (global.powerup == cs_penguin)) {
 
 		    //Play 'Swim' sound
