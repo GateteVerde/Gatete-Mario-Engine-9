@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_flagpole_flag_mario",
-    "path": "sprites/spr_flagpole_flag_mario/spr_flagpole_flag_mario.yy",
+    "name": "spr_flagpole_flag_player",
+    "path": "sprites/spr_flagpole_flag_player/spr_flagpole_flag_player.yy",
   },
   "spriteMaskId": null,
   "visible": true,

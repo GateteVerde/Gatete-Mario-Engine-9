@@ -2,6 +2,7 @@
 
 //Do not animate
 image_speed = 0;
+image_index = 0 + (2 * global.player);
 
 //Angle of the flag
 angle = 0

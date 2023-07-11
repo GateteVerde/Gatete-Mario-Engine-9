@@ -15,6 +15,7 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"517a1b11-782d-4277-a733-d8c16cb98668",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8aa57cbb-af55-42eb-9158-b423745bed02",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c99139d-2bfb-454d-86e1-ae7a055548f6",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -44,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 2.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -57,6 +58,7 @@
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"517a1b11-782d-4277-a733-d8c16cb98668","path":"sprites/spr_checkpoint_flag/spr_checkpoint_flag.yy",},},},"Disabled":false,"id":"66a2f3c8-a7c3-43da-9b0f-8a305b3de8e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8aa57cbb-af55-42eb-9158-b423745bed02","path":"sprites/spr_checkpoint_flag/spr_checkpoint_flag.yy",},},},"Disabled":false,"id":"bf444f50-5a88-44d5-bcf0-caa84500280b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6c99139d-2bfb-454d-86e1-ae7a055548f6","path":"sprites/spr_checkpoint_flag/spr_checkpoint_flag.yy",},},},"Disabled":false,"id":"08dd5d04-59e0-4800-840f-96b455ace927","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -23,7 +23,7 @@ if (vspeed < 0)
 			audio_play_sound(snd_transform, 0, false);
 			
 			//Change the flag sprite
-			image_index = 1;
+			image_index = 1 + (2 * global.player);
 			
 			//Create a smoke effect
 			with (instance_create_depth(x+13, y+2, -6, obj_smoke)) sprite_index = spr_pop;
