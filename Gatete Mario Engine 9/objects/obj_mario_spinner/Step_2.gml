@@ -20,9 +20,12 @@
 		}
 	}
 	
-	//Destroy if Mario is transforming or does not have the following powerups
+	//Destroy if Mario is transforming
 	if (instance_exists(obj_mario_transform))
-	&& (global.powerup != cs_raccoon)
+		instance_destroy();
+	
+	//Destroy if Mario does not have any of these powerups
+	if (global.powerup != cs_raccoon)
 	&& (global.powerup != cs_cape)
 	&& (global.powerup != cs_tanooki)
 	&& (global.powerup != cs_bell)

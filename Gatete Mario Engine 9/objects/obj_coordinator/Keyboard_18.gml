@@ -5,9 +5,6 @@ if (keyboard_check_pressed(ord("R"))) {
 	//Stop playing all sounds
 	audio_stop_all();
 	
-	//Replace sprites
-	index_powerups();
-	
 	//Go to the title screen
 	if (instance_number(obj_fade_in) == 0) {
 	

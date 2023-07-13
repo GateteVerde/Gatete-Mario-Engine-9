@@ -32,3 +32,7 @@ alarm[0] = 90;
 
 //Time runs out.
 alarm[1] = 180;
+
+//Set Luigi sprite
+if (global.player == 1)
+	sprite_index = spr_luigi_tanooki_attack2;
