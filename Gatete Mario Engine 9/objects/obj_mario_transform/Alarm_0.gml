@@ -49,8 +49,16 @@ with (obj_mario) {
 			//Otherwise
 			else {
 				
-				sprite_index = global.tf_powerup;
-				loop = 3;
+				//If the player is under the effects of the starman
+				if (instance_exists(obj_invincibility))
+					sprite_index = spr_player_global_transform;
+				
+				//Otherwise
+				else {
+				
+					sprite_index = global.tf_powerup;
+					loop = 3;
+				}
 			}
 	    } 
 		break;

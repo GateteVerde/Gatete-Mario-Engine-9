@@ -28,3 +28,7 @@ vspeed = -0.75;
 
 //Horizontal speed (DO NOT REMOVE)
 xspeed = 0;
+
+//Set the boomerang
+if (global.player == 1)
+	sprite_index = spr_boomerang_luigi;

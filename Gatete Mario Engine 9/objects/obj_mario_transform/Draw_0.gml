@@ -28,21 +28,21 @@ else if (global.mount == 1) {
 	//Set palette
 	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star, global.palette[global.player].mega);
     
-    //Draw the player
-    if (sequence == 3) {
+	//Draw the player
+	if (sequence == 3) {
     
-        if (direct == 1)
-            draw_sprite_ext(sprite_index, -1, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
-        else if (direct == -1)
-            draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, 1, 1, 0, c_white, 1);
-    }
-    else {
+	    if (direct == 1)
+	        draw_sprite_ext(sprite_index, -1, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
+	    else if (direct == -1)
+	        draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, 1, 1, 0, c_white, 1);
+	}
+	else {
     
-        if (direct == 1)
-            draw_sprite_ext(sprite_index, -1, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
-        else if (direct == -1)
-            draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, -1, 1, 0, c_white, 1);
-    }
+	    if (direct == 1)
+	        draw_sprite_ext(sprite_index, -1, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
+	    else if (direct == -1)
+	        draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, -1, 1, 0, c_white, 1);
+	}
 	
 	//Reset palette
 	pal_swap_reset();

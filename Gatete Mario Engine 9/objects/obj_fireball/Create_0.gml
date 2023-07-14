@@ -28,3 +28,7 @@ if (instance_exists(obj_lightcontrol)) {
 		new_radius = 8;
 	}
 }
+
+//Set green fireball
+if (global.player == 1)
+	sprite_index = spr_fireball_luigi;
