@@ -257,6 +257,7 @@
     {"name":"Shrink","order":1,"path":"folders/Sprites/Player Sprites/Main/Luigi/Extra/Transformations/Shrink.yy",},
     {"name":"Main","order":1,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main.yy",},
     {"name":"Big","order":23,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Big.yy",},
+    {"name":"Bomb","order":31,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Bomb.yy",},
     {"name":"Boomerang","order":30,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Boomerang.yy",},
     {"name":"Cape","order":26,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Cape.yy",},
     {"name":"Carrot","order":24,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Carrot.yy",},
@@ -319,7 +320,6 @@
     {"name":"Luigi","order":1,"path":"folders/Sprites/World Map/Players/Luigi.yy",},
     {"name":"Tilesets","order":17,"path":"folders/Tilesets.yy",},
     {"name":"Time Lines","order":23,"path":"folders/Time Lines.yy",},
-    {"name":"Bomb","order":31,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Bomb.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pipe_broken","order":9,"path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},
@@ -2134,6 +2134,7 @@
     {"name":"obj_rex","order":4,"path":"objects/obj_rex/obj_rex.yy",},
     {"name":"snd_frog","order":8,"path":"sounds/snd_frog/snd_frog.yy",},
     {"name":"obj_vegshroom","order":3,"path":"objects/obj_vegshroom/obj_vegshroom.yy",},
+    {"name":"spr_fireball_silver","order":13,"path":"sprites/spr_fireball_silver/spr_fireball_silver.yy",},
     {"name":"spr_platform_buoy","order":5,"path":"sprites/spr_platform_buoy/spr_platform_buoy.yy",},
     {"name":"obj_platform_generator_solid","order":1,"path":"objects/obj_platform_generator_solid/obj_platform_generator_solid.yy",},
     {"name":"obj_phanto","order":15,"path":"objects/obj_phanto/obj_phanto.yy",},

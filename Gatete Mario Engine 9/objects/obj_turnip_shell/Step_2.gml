@@ -34,8 +34,13 @@ if (held) {
 	        //If Mario is small.
 	        if (global.powerup == cs_small)
 	            y = obj_mario.y-12;
-	        else
-	            y = obj_mario.y-20;
+	        else {
+				
+				if (global.player == 0)
+					y = obj_mario.y-20;
+				else
+					y = obj_mario.y-25;
+			}
 	    }
 	}
     

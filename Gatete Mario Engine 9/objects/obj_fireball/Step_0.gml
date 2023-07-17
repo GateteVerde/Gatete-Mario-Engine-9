@@ -12,8 +12,12 @@ event_inherited();
 //If there's no gravity, bounce
 if (yadd == 0) {
 
-	yspeed = -2.5;
 	yadd = 0;
+	if (global.player == 0)
+		yspeed = -2.5;
+	else
+		yspeed = -3.5;
+	
 }
 else
 	yadd = 0.25;

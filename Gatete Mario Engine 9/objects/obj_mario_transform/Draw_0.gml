@@ -7,7 +7,8 @@ if (global.mount == 2) {
 	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
 
 	//Draw Mario
-	draw_sprite_ext(sprite_index, -1, screen_round(x), screen_round(y)+1, direct, image_yscale, 0, c_white, 1);
+	var frame = ((sequence == 2) && (instance_exists(obj_invincibility))) ? 0 : -1;
+	draw_sprite_ext(sprite_index, frame, screen_round(x), screen_round(y)+1, direct, image_yscale, 0, c_white, 1);
 	
 	//Reset palette
 	pal_swap_reset();
@@ -37,11 +38,15 @@ else if (global.mount == 1) {
 	        draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, 1, 1, 0, c_white, 1);
 	}
 	else {
+		
+		//Set up frame
+		var frame = ((sequence == 2) && (instance_exists(obj_invincibility))) ? 0 : -1;
     
-	    if (direct == 1)
-	        draw_sprite_ext(sprite_index, -1, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
-	    else if (direct == -1)
-	        draw_sprite_ext(sprite_index, -1, screen_round(x)+4, screen_round(y)-9, -1, 1, 0, c_white, 1);
+		//Render it
+		if (direct == 1)
+		    draw_sprite_ext(sprite_index, frame, screen_round(x)-4, screen_round(y)-9, 1, 1, 0, c_white, 1);
+		else if (direct == -1)
+			draw_sprite_ext(sprite_index, frame, screen_round(x)+4, screen_round(y)-9, -1, 1, 0, c_white, 1);
 	}
 	
 	//Reset palette
@@ -56,8 +61,11 @@ else {
 	
 	//Draw Mario
 	if (sequence != 5)
-	&& (sequence != 6)
-		draw_sprite_ext(sprite_index, -1, screen_round(x), screen_round(y)+1, direct, image_yscale, 0, c_white, 1);
+	&& (sequence != 6) {
+		
+		var frame = ((sequence == 2) && (instance_exists(obj_invincibility))) ? 0 : -1;
+		draw_sprite_ext(sprite_index, frame, screen_round(x), screen_round(y)+1, direct, image_yscale, 0, c_white, 1);
+	}
 	else {
 	
 		if (sequence == 5)
