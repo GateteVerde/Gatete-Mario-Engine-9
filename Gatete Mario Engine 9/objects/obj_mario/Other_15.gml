@@ -340,22 +340,9 @@ if ((state == playerstate.jump) || (statedelay > 0)) {
     else {
 		
 		//Set gravity
-		if (global.powerup == cs_shell) {
-			
-			//If there's no gravity
-			if (yadd == 0) {
-			
-				move_snap(8, 2);
-				yadd = 0.6;
-			}
-			yadd = 0.4;
-		}
-		else {
-			
-			yadd = global.physics[global.player].phy_grav;
-		}
-        
-        //End variable jumping if it never ends manually.
+		yadd = global.physics[global.player].phy_grav;
+		
+		//End variable jumping if it never ends manually.
         if (jumping = 1)
             jumping = 2;
     }

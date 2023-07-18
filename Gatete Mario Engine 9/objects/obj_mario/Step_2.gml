@@ -300,14 +300,19 @@ else {
 								else if (groundpound == 2) {
 									
 									//If Mario does not use the penguin suit
-									if (global.powerup != cs_penguin)
+									if (global.powerup != cs_shell)
+									&& (global.powerup != cs_penguin)
 										sprite_index = global.slide_sprite[global.powerup];
 										
 									//Otherwise
 									else {
+										
+										//If Mario does use the shell
+										if (global.powerup == cs_shell)
+											sprite_index = global.slide2_sprite[cs_shell];
 									
 										//If Mario does use the penguin suit
-										if (global.powerup == cs_penguin)
+										else if (global.powerup == cs_penguin)
 											sprite_index = global.slide2_sprite[cs_penguin];
 									}
 								}
