@@ -17,8 +17,5 @@ noswim = true;
 turn_toward = true;
 turn_toward_ceiling = true;
 
-//Leave a trail
-alarm[0] = 1;
-
 //Destroy after a while
-alarm[1] = 180;
+alarm[0] = 180;
