@@ -1,9 +1,12 @@
 /// @description Manage menu choices and unpause
 
 //Get key inputs
-var _up		= input_check_pressed(input.up);
-var _down	= input_check_pressed(input.down);
+var _up		= input_check_pressed(input.up) || gamepad_axis_value(0, gp_axislv) < 0;
+var _down	= input_check_pressed(input.down) || gamepad_axis_value(0, gp_axislv) > 0;
 var _select = input_check_pressed(input.action_0);
+
+//Decrement delay
+delay--;
 
 #region ALPHA + SCALE
 
@@ -49,13 +52,16 @@ if (scale_type == 1) {
 	
 	//Navigate through menu
 	var _move = _down - _up;
-	if (_move != 0) {
+	if ((_move != 0) && (delay <= 0)) {
 	
 		//Play 'Fireball' sound
 		audio_play_sound(snd_fireball, 0, false);
 
 		//Move index
 		index += _move;
+		
+		//Set delay
+		delay = 8;
 	
 		//Clamp values
 		var _size = array_length_1d(menu);

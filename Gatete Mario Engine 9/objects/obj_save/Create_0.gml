@@ -8,6 +8,9 @@ menu[0] = "Continue";
 menu[1] = "Save and Continue";
 menu[2] = "Save and Quit";
 
+//Delay
+delay = 0;
+
 //Index
 index = 0;
 

@@ -56,6 +56,9 @@ key[5] = string(key_to_string(global.key[input.down]));
 key[6] = string(key_to_string(global.key[input.left]));
 key[7] = string(key_to_string(global.key[input.right]));
 
+//Input delay
+delay = 0;
+
 //Menu index position
 index = 0;
 

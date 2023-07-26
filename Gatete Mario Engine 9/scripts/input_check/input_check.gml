@@ -15,3 +15,4 @@ function input_check(_enum) {
 	else
 		return _keyboard;
 }
+

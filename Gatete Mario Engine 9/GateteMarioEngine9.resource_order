@@ -255,6 +255,7 @@
     {"name":"Subpop","order":2,"path":"folders/Sprites/Player Sprites/Main/Luigi/Extra/Shmup/Subpop.yy",},
     {"name":"Transformations","order":2,"path":"folders/Sprites/Player Sprites/Main/Luigi/Extra/Transformations.yy",},
     {"name":"Shrink","order":1,"path":"folders/Sprites/Player Sprites/Main/Luigi/Extra/Transformations/Shrink.yy",},
+    {"name":"Bee","order":33,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Bee.yy",},
     {"name":"Big","order":23,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Big.yy",},
     {"name":"Bomb","order":31,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Bomb.yy",},
     {"name":"Boomerang","order":30,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Boomerang.yy",},
@@ -320,7 +321,6 @@
     {"name":"Luigi","order":1,"path":"folders/Sprites/World Map/Players/Luigi.yy",},
     {"name":"Tilesets","order":17,"path":"folders/Tilesets.yy",},
     {"name":"Time Lines","order":23,"path":"folders/Time Lines.yy",},
-    {"name":"Bee","order":33,"path":"folders/Sprites/Player Sprites/Main/Luigi/Main/Bee.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pipe_broken","order":9,"path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},

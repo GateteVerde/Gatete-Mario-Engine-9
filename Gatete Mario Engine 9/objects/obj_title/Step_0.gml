@@ -1,9 +1,12 @@
 /// @description Handle menu navigation
 
 //Get key inputs
-var _up		= input_check_pressed(input.up);
-var _down	= input_check_pressed(input.down);
+var _up		= input_check_pressed(input.up) || gamepad_axis_value(0, gp_axislv) < 0;
+var _down	= input_check_pressed(input.down) || gamepad_axis_value(0, gp_axislv) > 0;
 var _select = input_check_pressed(input.action_0);
+
+//Decrement delay
+delay--;
 
 //If the menu is waiting for input
 if (start == 0) {
@@ -26,13 +29,16 @@ else if (start == 1) {
 	if (waiting == 0) {
 	
 		var _move = _down - _up;
-		if (_move != 0) {
+		if ((_move != 0) && (delay <= 0)) {
 	
 			//Play 'Fireball' sound
 			audio_play_sound(snd_fireball, 0, false);
 
 			//Move index
 			index += _move;
+			
+			//Set delay
+			delay = 8;
 	
 			//Clamp values
 			var _size = array_length_2d(menu, sub_menu);

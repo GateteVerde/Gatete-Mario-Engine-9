@@ -52,6 +52,7 @@ Del
 Doc Melonhead
 Geoshi
 Hellfire
+Hot Cross Bun
 Icegoom
 JRMaster
 Kirb
@@ -62,6 +63,7 @@ Mariofan230
 RakoonCD
 Random Talking Bush
 Sednaiur
+Shikaternia
 SuperSledgeBro
 Toni
 Unjammercammy
