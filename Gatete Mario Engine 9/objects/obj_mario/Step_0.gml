@@ -28,7 +28,7 @@
 
 				//Set up palette
 				isflashing += 0.01;
-				if (isflashing > 4.99)
+				if (isflashing > 6.99)
 					isflashing = 1;
 			}
 			
@@ -37,7 +37,7 @@
 	
 				//Set up palette
 				isflashing += 0.05;
-				if (isflashing > 4.99)
+				if (isflashing > 6.99)
 					isflashing = 1;
 			}
 		}
@@ -46,7 +46,7 @@
 		
 		//If Mario is frozen, apply freeze palette
 		if (freezetime > 0)
-			isflashing = 5;
+			isflashing = 8;
 		else
 			isflashing = 0;
 	}

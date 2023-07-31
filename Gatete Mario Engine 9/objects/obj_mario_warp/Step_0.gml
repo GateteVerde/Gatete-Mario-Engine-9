@@ -13,7 +13,7 @@ cape_anim += 0.065+abs(hspeed)/7.5;
 
 			//Set up palette
 			isflashing += 0.01;
-			if (isflashing > 4.99)
+			if (isflashing > 6.99)
 				isflashing = 1;
 		}
 			
@@ -22,7 +22,7 @@ cape_anim += 0.065+abs(hspeed)/7.5;
 	
 			//Set up palette
 			isflashing += 0.05;
-			if (isflashing > 4.99)
+			if (isflashing > 6.99)
 				isflashing = 1;
 		}
 	}

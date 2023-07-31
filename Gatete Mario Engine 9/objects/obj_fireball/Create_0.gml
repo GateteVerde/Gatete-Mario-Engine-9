@@ -31,4 +31,5 @@ if (instance_exists(obj_lightcontrol)) {
 
 //Set green fireball
 if (global.player == 1)
+&& (object_index != obj_iceball)
 	sprite_index = spr_fireball_luigi;

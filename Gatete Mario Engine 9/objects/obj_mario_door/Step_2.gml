@@ -10,7 +10,7 @@
 
 			//Set up palette
 			isflashing += 0.01;
-			if (isflashing > 4.99)
+			if (isflashing > 6.99)
 				isflashing = 1;
 		}
 			
@@ -19,7 +19,7 @@
 	
 			//Set up palette
 			isflashing += 0.05;
-			if (isflashing > 4.99)
+			if (isflashing > 6.99)
 				isflashing = 1;
 		}
 	}
