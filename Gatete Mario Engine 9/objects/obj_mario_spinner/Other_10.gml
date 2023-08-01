@@ -1,4 +1,4 @@
-/// @description Set up for powerup
+/// @description Set up sprite for powerup
 
 // Check powerup
 switch (global.powerup) {
@@ -14,7 +14,14 @@ switch (global.powerup) {
         image_speed = 0.3;
         
         // Set the sprite
-        sprite_index = global.attack_sprite[cs_wind];
+		switch (global.player) {
+			
+			//Mario
+			case (0): sprite_index = spr_mario_wind_attack; break;
+			
+			//Luigi
+			case (1): sprite_index = spr_mario_wind_attack; break;
+		}
 		
 		// Throw snowballs
 		alarm[0] = 1;

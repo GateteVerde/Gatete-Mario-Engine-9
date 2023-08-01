@@ -617,8 +617,18 @@ else {
 														//If Mario does have the Wind powerup
 														if (global.powerup == cs_wind) {
 															
-															if (wiggle > 0)
-																sprite_index = global.float_sprite[cs_wind];
+															if (wiggle > 0) {
+																
+																//Check what player is being used
+																switch (global.player) {
+																	
+																	//Mario
+																	case (0): sprite_index = spr_mario_wind_float; break;
+																	
+																	//Luigi
+																	case (1): sprite_index = spr_mario_wind_float; break;
+																}
+															}
 															else
 																sprite_index = global.jump_sprite[global.powerup];
 														}
@@ -633,8 +643,18 @@ else {
 															//If Mario does have the Wind powerup
 															if (global.powerup == cs_wind) {
 																
-																if (wiggle > 0)
-																	sprite_index = global.float_sprite[cs_wind];
+																if (wiggle > 0) {
+																
+																	//Check what player is being used
+																	switch (global.player) {
+																	
+																		//Mario
+																		case (0): sprite_index = spr_mario_wind_float; break;
+																	
+																		//Luigi
+																		case (1): sprite_index = spr_mario_wind_float; break;
+																	}
+																}
 																else
 																	sprite_index = global.runjump_sprite[global.powerup];
 															}
