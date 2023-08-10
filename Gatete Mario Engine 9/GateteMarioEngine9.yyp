@@ -2081,6 +2081,7 @@
     {"id":{"name":"spr_mario_frog_goal","path":"sprites/spr_mario_frog_goal/spr_mario_frog_goal.yy",},},
     {"id":{"name":"obj_lakitu_pipe","path":"objects/obj_lakitu_pipe/obj_lakitu_pipe.yy",},},
     {"id":{"name":"spr_starman","path":"sprites/spr_starman/spr_starman.yy",},},
+    {"id":{"name":"fnt_tulip","path":"fonts/fnt_tulip/fnt_tulip.yy",},},
     {"id":{"name":"snd_pballoon","path":"sounds/snd_pballoon/snd_pballoon.yy",},},
     {"id":{"name":"spr_splunkin_b","path":"sprites/spr_splunkin_b/spr_splunkin_b.yy",},},
     {"id":{"name":"spr_chainchomp_chainpost","path":"sprites/spr_chainchomp_chainpost/spr_chainchomp_chainpost.yy",},},
