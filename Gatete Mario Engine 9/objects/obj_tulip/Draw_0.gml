@@ -1,6 +1,7 @@
 /// @description Render tulip
 
 //Render me
+draw_sprite_ext(stem_sprite, stem_anim, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
 draw_sprite_ext(sprite_index, -1, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
 
 //If the tulip can show up the text
