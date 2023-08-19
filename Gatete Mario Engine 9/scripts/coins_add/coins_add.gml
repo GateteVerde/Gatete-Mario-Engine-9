@@ -1,4 +1,4 @@
-// @function coins_add
+// @function coins_add(amount)
 // @param amount
 
 function coins_add() {

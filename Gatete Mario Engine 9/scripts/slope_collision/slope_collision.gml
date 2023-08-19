@@ -1,4 +1,4 @@
-/// @function slope_collision()
+/// @function slope_collision();
 
 function slope_collision() {
 	
