@@ -57,3 +57,6 @@ with (obj_mario) {
 
 //Flashing
 isflashing = 0;
+
+//Set up sprite
+sprite_index = global.attack_sprite[global.powerup]
