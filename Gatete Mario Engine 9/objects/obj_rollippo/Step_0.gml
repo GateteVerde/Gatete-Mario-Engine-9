@@ -21,9 +21,13 @@ if (ready == 1) {
 	        //Play 'Bump' sound
 	        audio_play_sound(snd_bump, 0, false);
 	    }
+		
+		//Jump a bit
+		yspeed = -1.5;
+		y--;
     
 	    //Create shell thump
-		with (instance_create_depth(x+(24+sign(prevxspeed)), y + 8, -6, obj_shellthump)) bump = true;
+		with (instance_create_depth(x+(24*sign(prevxspeed)), y + 8, -6, obj_shellthump)) bump = true;
 	}
 }
 

@@ -1,4 +1,4 @@
-/// @description 
+/// @description Collision with enemies
 
 //If the enemy is rolling and is vulnerable
 if ((ready == 1) && (other.vulnerable < 99)) {
