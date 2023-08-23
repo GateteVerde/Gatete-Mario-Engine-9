@@ -1,6 +1,6 @@
 /// @description Custom Stomp script
 
-//If the hipporoll is not rolling
+//If the Rollippo is not rolling
 if (ready == 0) {
 
 	#region COMBO
@@ -48,10 +48,7 @@ if (ready == 0) {
                     
     //Increment combo
     obj_mario.hitcombo++;
-        
-    //Double movement speed
-    xspeed = (obj_mario.x < x) ? 2.5 : -2.5;
-    
+            
     //Rolling state
     ready = 1;
 	
@@ -59,8 +56,14 @@ if (ready == 0) {
 	turn_on_ledges = false;
     
     //Sprite
-    sprite_index = spr_hipporoll_roll;
+    sprite_index = spr_rollippo_roll;
     
     //Stop animation
     image_speed = 0;
 }
+
+//Double movement speed
+xspeed = (obj_mario.x < x) ? 2.5 : -2.5;
+
+//Do a little hop
+yspeed = -2.5;

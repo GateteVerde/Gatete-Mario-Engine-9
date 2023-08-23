@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hipporoll",
+  "name": "obj_rollippo",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,},
@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hipporoll",
-    "path": "sprites/spr_hipporoll/spr_hipporoll.yy",
+    "name": "spr_rollippo",
+    "path": "sprites/spr_rollippo/spr_rollippo.yy",
   },
   "spriteMaskId": null,
   "visible": true,

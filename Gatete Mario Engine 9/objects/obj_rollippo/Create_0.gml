@@ -1,10 +1,16 @@
-/// @description Hipporoll
+/// @description Rollippo
 
 //Inherit the parent event
 event_inherited();
 
-//How vulnerable is this enemy to stomps
-stomp = 4;
+//How vulnerable is this enemy to various items?
+vulnerable = 2
+
+//How vulnerable is this enemy to Mario?
+stomp = 4
+
+//How edible is this enemy to Yoshi?
+edible = 2
 
 //Turn on ledges
 turn_on_ledges = true;
