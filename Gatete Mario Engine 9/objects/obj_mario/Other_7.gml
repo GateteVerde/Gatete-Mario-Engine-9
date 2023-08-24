@@ -55,12 +55,3 @@ else if ((sprite_index == global.swim2_sprite[cs_frog]) || (global.swim2_sprite[
 		}
 	}
 }
-
-//Otherwise, if Mario is dashing while having the football suit
-else if (global.powerup == cs_football)
-&& (sprite_index == global.run_sprite[cs_football]) {
-
-    //Play 'Bump' sound
-    audio_stop_sound(snd_bump);
-    audio_play_sound(snd_bump, 0, false);
-}

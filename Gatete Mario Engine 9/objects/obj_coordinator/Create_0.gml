@@ -282,7 +282,7 @@ global.gw = room_width;
 //Game Height
 global.gh = room_height;
 
-//Game Restart
+//Checks if the game was restarted
 global.restart = false;
 
 //Data structure for picked up 3up moons
