@@ -1,9 +1,9 @@
 /// @description Mario's walljump behaviour script
 
-//Exit this event if you have the mega or balloon powerup or you are Luigi and you don't have the cat powerup
+//Exit this event if you have the mega or balloon powerup or you are Luigi and you don't have the cat or squirrel powerups
 if (global.powerup == cs_mega) 
 || (instance_exists(obj_mario_balloon)) 
-|| ((wallkick == 1) && (global.player == 1) && (global.powerup != cs_bell)) {
+|| ((wallkick == 1) && (global.player == 1) && (global.powerup != cs_bell) && (global.powerup != cs_squirrel)) {
 
 	wallkick = 0;
 	wallready = 0;

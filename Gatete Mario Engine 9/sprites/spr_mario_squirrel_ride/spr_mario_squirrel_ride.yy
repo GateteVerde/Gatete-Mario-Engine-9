@@ -5,7 +5,7 @@
   "bbox_bottom": 34,
   "bbox_left": 0,
   "bbox_right": 16,
-  "bbox_top": 0,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 4,
   "collisionTolerance": 0,
@@ -18,7 +18,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 35,
+  "height": 36,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5630ccd0-c5e8-4030-8b0b-5e10b3e3a171","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
