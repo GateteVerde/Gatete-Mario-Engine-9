@@ -1,5 +1,6 @@
 /// @description Draw Mario
 
+
 //Animate stun effect
 stunanim += 0.5;
 

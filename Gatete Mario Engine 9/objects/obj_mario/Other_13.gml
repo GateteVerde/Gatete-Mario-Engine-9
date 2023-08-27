@@ -11,12 +11,12 @@ if (global.powerup == cs_mega)
 }
 
 //Check for a wall at the right
-wall_r = collision_rectangle(bbox_right+1, bbox_top+4, bbox_right+4, bbox_bottom-1, obj_solid, 1, 0);
-wall_rb = collision_rectangle(bbox_right+1, bbox_top+4, bbox_right+4, bbox_bottom-1, obj_platformparent, 1, 0);
+wall_r = collision_rectangle(bbox_right, bbox_top+4, bbox_right+5, bbox_bottom-1, obj_solid, 1, 0);
+wall_rb = collision_rectangle(bbox_right, bbox_top+4, bbox_right+5, bbox_bottom-1, obj_platformparent, 1, 0);
 
 //Check for a wall to the left
-wall_l = collision_rectangle(bbox_left-4, bbox_top+4, bbox_left-1, bbox_bottom-1, obj_solid, 1, 0);
-wall_lb = collision_rectangle(bbox_left-4, bbox_top+4, bbox_left-1, bbox_bottom-1, obj_platformparent, 1, 0);
+wall_l = collision_rectangle(bbox_left-5, bbox_top+4, bbox_left, bbox_bottom-1, obj_solid, 1, 0);
+wall_lb = collision_rectangle(bbox_left-5, bbox_top+4, bbox_left, bbox_bottom-1, obj_platformparent, 1, 0);
 
 //If moving down, and not crouched down or flying
 if ((global.player == 0) || ((global.player == 1) && ((global.powerup == cs_squirrel) || (global.powerup == cs_bell))))
@@ -39,9 +39,10 @@ if ((global.player == 0) || ((global.player == 1) && ((global.powerup == cs_squi
 			//Stop squirrel propel
 			if (squirrelpropel == 1)
 			&& (global.powerup == cs_squirrel) {
-			
-				squirreltime = 0;
+
 				squirrelpropel = 0;
+				if (squirreltime > 0)
+					squirreltime = 0;
 			}
             
             //Enable wallkick
@@ -72,9 +73,10 @@ if ((global.player == 0) || ((global.player == 1) && ((global.powerup == cs_squi
 			//Stop squirrel propel
 			if (squirrelpropel == 1)
 			&& (global.powerup == cs_squirrel) {
-			
-				squirreltime = 0;
+
 				squirrelpropel = 0;
+				if (squirreltime > 0)
+					squirreltime = 0;
 			}
             
             //Enable wallkick
@@ -230,6 +232,7 @@ if (wallkick == 1) {
 			
 			//Reset squirrel time
 			squirreltime = 0;
+			squirrelpropel = 0;
             
             //Play 'Stomp' sound
             audio_play_sound(snd_stomp, 0, false);
@@ -254,6 +257,10 @@ if (wallkick == 1) {
             
             //Facing direction
             xscale = 1;
+			
+			//Reset squirrel time
+			squirreltime = 0;
+			squirrelpropel = 0;
             
             //Play 'Stomp' sound
             audio_play_sound(snd_stomp, 0, false);
