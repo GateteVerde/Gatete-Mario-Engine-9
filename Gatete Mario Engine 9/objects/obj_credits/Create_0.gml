@@ -50,10 +50,12 @@ by YoYoGames
 Cheeyev
 Daniel Linssen
 Del
+DeltomMx3
 Doc Melonhead
 Geoshi
 Hellfire
 Hot Cross Bun
+Hypernova
 Icegoom
 JRMaster
 Kirb

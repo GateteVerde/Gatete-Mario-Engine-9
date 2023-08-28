@@ -1,6 +1,5 @@
 /// @description Draw Mario
 
-
 //Animate stun effect
 stunanim += 0.5;
 
@@ -66,3 +65,7 @@ if (sprite_index > -1) {
 
 //Reset the palette
 pal_swap_reset();
+
+//Draw the mask currently used
+if (debug_mode)
+	draw_sprite(mask_index, -1, screen_round(x), screen_round(y));

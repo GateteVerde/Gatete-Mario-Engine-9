@@ -1,19 +1,16 @@
 /// @description Draw the HUD
 
-//Set gold font and colour
-draw_set_font(global.gui_font_numbers_gold);
+//Set default font and colour
+draw_set_font(global.gui_font_numbers);
 draw_set_colour(c_white);
 
-//Coins
-draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[0]) + 9, string_add_zeroes(global.coins, 2));
-
-//Set default font
-draw_set_font(global.gui_font_numbers);
-
 //Lives
-draw_sprite_ext(spr_gui_mario, global.player, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 28, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[0]) + 29, string_add_zeroes(lives, 2));
+draw_sprite_ext(spr_gui_mario, global.player, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(lives, 2, 0));
+
+//Coins
+draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
+draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 19, string_add_zeroes(global.coins, 2));
 
 //Safeguard
 #region SAFEGUARD
@@ -28,15 +25,15 @@ draw_text(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[
 #endregion
 
 //Star Coin position
-var star_y = camera_get_view_y(view_camera[0]) + 48;
+var star_y = camera_get_view_y(view_camera[0]) + 30;
 if (ds_map_size(global.powerstars) > 0) {
 	
 	//Set the position for the star coin display
-	star_y += 20;
+	star_y += 11;
 	
 	//Draw the current stars
-	draw_sprite_ext(spr_gui_stars, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 48, 1, 1, 0, c_white, 1);
-	draw_text(camera_get_view_x(view_camera[0]) + 20, camera_get_view_y(view_camera[0]) + 49, string_add_zeroes(ds_map_size(global.powerstars), 3));
+	draw_sprite_ext(spr_gui_stars, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
+	draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 30, string_add_zeroes(ds_map_size(global.powerstars), 3));
 }
 
 //Star Coins
@@ -124,11 +121,11 @@ if (ds_map_size(global.powerstars) > 0) {
 #endregion
 
 //Set black font
-draw_set_font(global.gui_font_numbers_black);
+draw_set_font(global.gui_font_numbers);
 
 //Score positions
-var score_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 136;
-var score_y = camera_get_view_y(view_camera[0]) + 11;
+var score_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 128;
+var score_y = camera_get_view_y(view_camera[0]) + 8;
 
 //Check if the camera's width isn't wide enough
 if (global.reserve_activated == true)
@@ -136,39 +133,37 @@ if (global.reserve_activated == true)
 	
 	//If not, move the score HUD to underneath the counter
 	score_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 72;
-	score_y += 16;	
+	score_y += 11;	
 }
 
 //Score
-draw_text(score_x, score_y, string_add_zeroes(score, 9));
+draw_text(score_x, score_y, string_add_zeroes(score, 8));
 
-//Set format and font
-draw_set_font(global.gui_font_numbers);
-draw_set_halign(fa_right);
+//Set gold font
+draw_set_font(global.gui_font_numbers_gold);
 
 //Time
-draw_sprite_ext(spr_gui_time, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 24, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 21, camera_get_view_y(view_camera[0]) + 11, string_format(global.timer, 3, 0));
+draw_sprite_ext(spr_gui_time, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 48, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(global.timer, 3));
 	
-//Reset format and set large font
-draw_set_halign(fa_left);
+//Set large font
+draw_set_font(global.gui_font_numbers_large)
 
 //Coin Collect-a-thon
 if (global.collect_mode > 0) {
 	
 	draw_sprite_ext(spr_gui_bonus, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, 1, 1, 0, c_white, 1);
 	if (global.coins_left > 0)
-		draw_text(camera_get_view_x(view_camera[0]) + 17, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 28, string_add_zeroes(global.coins_left, 3));
+		draw_text(camera_get_view_x(view_camera[0]) + 16, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, string_add_zeroes(coins_left, 3));
 	else
-		draw_sprite_ext(spr_gui_bonus, 1, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 28, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_gui_bonus, 1, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24, 1, 1, 0, c_white, 1);
 }
 
 //P-Meter
 #region P-METER
 	
 	//If the player does exist
-	if (instance_exists(obj_mario)) 
-	&& (!instance_exists(obj_mario_shmup)) {
+	if (instance_exists(obj_mario)) {
 	
 		//If the P-Wing is active or the P-Meter is above 111
 		if (global.pwing == 1)
@@ -177,8 +172,10 @@ if (global.collect_mode > 0) {
 		else
 			draw_sprite_ext(spr_gui_pmeter, 0+(obj_mario.pmeter/24), camera_get_view_x(view_camera[0]) + (8 + pmeterx), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16, 1, 1, 0, c_white, 1);
 	}
-	else
+	else {
+	
 		draw_sprite_ext(spr_gui_pmeter, 0+(fake_pm/24), camera_get_view_x(view_camera[0]) + (8 + pmeterx), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 16, 1, 1, 0, c_white, 1);
+	}
 	
 #endregion
 

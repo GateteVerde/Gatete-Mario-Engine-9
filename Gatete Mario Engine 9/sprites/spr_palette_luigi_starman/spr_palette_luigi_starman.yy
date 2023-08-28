@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_palette_luigi_starman",
-  "bbox_bottom": 100,
+  "bbox_bottom": 93,
   "bbox_left": 0,
-  "bbox_right": 6,
+  "bbox_right": 8,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 4,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 101,
+  "height": 94,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a6b8bfb4-6e97-4ed1-a91d-7639bfcba884","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 7,
+  "width": 9,
 }

@@ -626,7 +626,7 @@ else {
 																	case (0): sprite_index = spr_mario_wind_float; break;
 																	
 																	//Luigi
-																	case (1): sprite_index = spr_mario_wind_float; break;
+																	case (1): sprite_index = spr_luigi_wind_float; break;
 																}
 															}
 															else
@@ -652,7 +652,7 @@ else {
 																		case (0): sprite_index = spr_mario_wind_float; break;
 																	
 																		//Luigi
-																		case (1): sprite_index = spr_mario_wind_float; break;
+																		case (1): sprite_index = spr_luigi_wind_float; break;
 																	}
 																}
 																else

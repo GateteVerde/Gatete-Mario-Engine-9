@@ -15,12 +15,12 @@ switch (global.powerup) {
         
         // Set the sprite
 		switch (global.player) {
-			
+																	
 			//Mario
 			case (0): sprite_index = spr_mario_wind_attack; break;
-			
+																	
 			//Luigi
-			case (1): sprite_index = spr_mario_wind_attack; break;
+			case (1): sprite_index = spr_luigi_wind_attack; break;
 		}
 		
 		// Throw snowballs
