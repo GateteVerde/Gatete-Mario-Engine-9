@@ -32,16 +32,16 @@ if (mebelow == noone) {
 			
 			#region WALL COLLISION
 
-				if ((xspeed < 0) && (collision_rectangle(bbox_left-1, bbox_bottom-(a*16), bbox_left, bbox_bottom-4, obj_solid, 1, 0)))
-				|| ((xspeed > 0) && (collision_rectangle(bbox_right, bbox_bottom-(a*16), bbox_right+1, bbox_bottom-4, obj_solid, 1, 0))) {
+				if ((xspeed < 0) && (collision_rectangle(bbox_left-1, bbox_bottom-(a*15), bbox_left, bbox_bottom-4, obj_solid, 1, 0)))
+				|| ((xspeed > 0) && (collision_rectangle(bbox_right, bbox_bottom-(a*15), bbox_right+1, bbox_bottom-4, obj_solid, 1, 0))) {
     
 				    //Reverse horizontal speed
 				    xspeed = -xspeed;
         
 				    //Prevent getting embed on walls
-				    while (collision_rectangle(bbox_left, bbox_bottom-(a*16), bbox_left, bbox_bottom-4, obj_solid, 1, 0))
+				    while (collision_rectangle(bbox_left, bbox_bottom-(a*15), bbox_left, bbox_bottom-4, obj_solid, 1, 0))
 				        x++;
-				    while (collision_rectangle(bbox_left, bbox_top-(a*16), bbox_right, bbox_bottom-4, obj_solid, 1, 0))
+				    while (collision_rectangle(bbox_left, bbox_top-(a*15), bbox_right, bbox_bottom-4, obj_solid, 1, 0))
 				        x--;
 				}
 			#endregion
@@ -53,11 +53,11 @@ if (mebelow == noone) {
 	
 				//If moving upwards
 				if (yspeed < 0) 
-				&& ((collision_rectangle(bbox_left, bbox_top-(a*16)+yspeed, bbox_right, bbox_top-(a*16)+yspeed, obj_solid, 1, 0)) 
+				&& ((collision_rectangle(bbox_left, bbox_top-(a*15)+yspeed, bbox_right, bbox_top-(a*15)+yspeed, obj_solid, 1, 0)) 
 				|| ((platform_u) && (platform_u.issolid == true))) {
 				
 					//Prevent the NPC from getting stuck on a ceiling when jumping
-					while (collision_rectangle(bbox_left, bbox_top-(a*16), bbox_right, bbox_top-(a*16), obj_solid, 1, 0))
+					while (collision_rectangle(bbox_left, bbox_top-(a*15), bbox_right, bbox_top-(a*15), obj_solid, 1, 0))
 					|| ((platform_u) && (platform_u.issolid)) {
 						
 						y++;

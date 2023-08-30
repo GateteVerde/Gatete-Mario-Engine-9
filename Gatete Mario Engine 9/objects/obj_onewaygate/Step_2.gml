@@ -83,9 +83,6 @@ else {
 								audio_play_sound(snd_oneway, 0, false);
 						}
 					}
-					
-					//Destroy if required
-					with (list[| i]) event_user(0);
 				}
 			}
 		}				
@@ -199,9 +196,6 @@ else {
 								audio_play_sound(snd_oneway, 0, false);
 						}
 					}
-					
-					//Destroy if required
-					with (list[| i]) event_user(0);
 				}
 			}
 		}
