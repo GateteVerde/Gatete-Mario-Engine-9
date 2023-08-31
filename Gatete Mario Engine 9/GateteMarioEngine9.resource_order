@@ -328,6 +328,7 @@
     {"name":"Luigi","order":1,"path":"folders/Sprites/World Map/Players/Luigi.yy",},
     {"name":"Tilesets","order":17,"path":"folders/Tilesets.yy",},
     {"name":"Time Lines","order":23,"path":"folders/Time Lines.yy",},
+    {"name":"Level 4","order":1,"path":"folders/Time Lines/Events/Level 4.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pipe_broken","order":9,"path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},

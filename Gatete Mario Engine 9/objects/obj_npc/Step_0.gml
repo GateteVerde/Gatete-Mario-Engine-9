@@ -29,7 +29,21 @@ event_inherited();
 	    ready = 0;
     
 	    //Delay readability of the signpost after a while
-	    alarm[0] = 24; 
+	    alarm[0] = 24;
+		
+		//If a timeline has been specified, trigger it.
+		if (tline != noone) {
+
+			//Set the time
+			timeline_index = tline;
+		
+			//If the timeline is not running
+			if (timeline_running == 0) {
+			
+				timeline_position = 0;
+				timeline_running = 1;
+			}	
+		}
 	}
 #endregion
 
