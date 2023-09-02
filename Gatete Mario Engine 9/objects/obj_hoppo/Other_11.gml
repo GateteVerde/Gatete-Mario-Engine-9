@@ -3,7 +3,7 @@
 //Play 'Bumper' sound
 audio_play_sound(snd_bumper, 0, false);
 
-//If the Rollippo is not rolling
+//If the Hoppo is not rolling
 if (ready == 0) {
 
 	#region COMBO
@@ -62,7 +62,7 @@ if (ready == 0) {
 	turn_on_ledges = false;
     
     //Sprite
-    sprite_index = spr_rollippo_roll;
+    sprite_index = spr_hoppo_roll;
     
     //Stop animation
     image_speed = 0;

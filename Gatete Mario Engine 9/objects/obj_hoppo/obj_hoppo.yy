@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_rollippo",
+  "name": "obj_hoppo",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,},
@@ -38,8 +38,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_rollippo",
-    "path": "sprites/spr_rollippo/spr_rollippo.yy",
+    "name": "spr_hoppo",
+    "path": "sprites/spr_hoppo/spr_hoppo.yy",
   },
   "spriteMaskId": null,
   "visible": true,

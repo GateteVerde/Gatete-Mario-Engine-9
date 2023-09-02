@@ -1,14 +1,14 @@
 /// @description Collision with enemies
 
-//If this enemy is not a rollippo
-if (other.object_index == obj_rollippo) {
+//If this enemy is not a hoppo
+if (other.object_index == obj_hoppo) {
 
 	//Play 'Bumper' sound
 	audio_play_sound(snd_bumper, 0, false);
 
 	with (other) {
 
-		//If the Rollippo is not rolling
+		//If the Hoppo is not rolling
 		if (ready == 0) {
             
 		    //Rolling state
@@ -21,7 +21,7 @@ if (other.object_index == obj_rollippo) {
 			turn_on_ledges = false;
     
 		    //Sprite
-		    sprite_index = spr_rollippo_roll;
+		    sprite_index = spr_hoppo_roll;
     
 		    //Stop animation
 		    image_speed = 0;

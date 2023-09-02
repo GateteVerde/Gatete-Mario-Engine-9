@@ -1,4 +1,4 @@
-/// @description Rollippo logic
+/// @description Hoppo logic
 
 //Previous horizontal speed
 prevxspeed = xspeed;

@@ -1,4 +1,4 @@
-/// @description Rollippo
+/// @description Hoppo
 
 //Inherit the parent event
 event_inherited();
