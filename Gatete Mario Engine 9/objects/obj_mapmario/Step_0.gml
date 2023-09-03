@@ -193,8 +193,8 @@ if (status == mapstate.idle)
 				//If the 'Confirm' key is pressed
 				if (input_check_pressed(input.action_0)) {
 					
-					//If the powerup select is not the tiny shroom (27), golden flower (28), starman (29) or pwing (30)
-					if (global.inventory[boxselection] < 27) {
+					//If the powerup select is not the tiny shroom, golden flower, starman or pwing
+					if (global.inventory[boxselection] < cs_tiny) {
 						
 						//If a P-Wing is active
 						if (global.pwing == 0) 
@@ -247,7 +247,7 @@ if (status == mapstate.idle)
 					}
 				
 					//Otherwise, if the item selected is a tiny shroom
-					else if (global.inventory[boxselection] == 27) {
+					else if (global.inventory[boxselection] == cs_tiny) {
 					
 						//If Mario does not have the tiny or gold or p-wing active
 						if (global.pwing == 0)
@@ -287,7 +287,7 @@ if (status == mapstate.idle)
 					}
 					
 					//Otherwise, if the item selected is a gold flower
-					else if (global.inventory[boxselection] == 28) {
+					else if (global.inventory[boxselection] == cs_gold) {
 					
 						//If Mario does not have the tiny or gold or p-wing active
 						if (global.pwing == 0)
@@ -327,7 +327,7 @@ if (status == mapstate.idle)
 					}
 					
 					//Otherwise, if the item selected is a star
-					else if (global.inventory[boxselection] == 29) {
+					else if (global.inventory[boxselection] == cs_starman) {
 					
 						//If the Starman is not active
 						if (global.mapstar == false) {
@@ -365,7 +365,7 @@ if (status == mapstate.idle)
 					}
 					
 					//Otherwise, if the item selected is a P-Wing
-					else if (global.inventory[boxselection] == 30) {
+					else if (global.inventory[boxselection] == cs_pwing) {
 					
 						//If Mario does not have the tiny or gold or p-wing active
 						if (global.pwing == 0)

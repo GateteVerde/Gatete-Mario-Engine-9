@@ -266,7 +266,22 @@ throw_projectile = function() {
 	                if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
 	                    yspeed = -4.5;
 	            }
-	        }         
+	        }
+			
+			//Bubble
+			else if (global.powerup == cs_bubble)
+	        && (instance_number(obj_bubble_p) < 2) {
+				
+				//Play 'Fireball' sound
+				audio_play_sound(snd_fireball, 0, false);
+        
+				//Set firing animation time
+	            firing = 9;
+				
+				//Create Bubble
+	            with (instance_create_depth(x + 8 * sign(xscale), y-4, -2, obj_bubble_p))
+	                xspeed = 2*sign(other.xscale);
+	        }
 			
 			//Gold Fireball
 	        else if (global.powerup == cs_gold)

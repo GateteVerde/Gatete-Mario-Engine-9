@@ -174,10 +174,11 @@ init_shockwave();
 	#macro cs_beet 24
 	#macro cs_lui 25
 	#macro cs_wind 26
-	#macro cs_tiny 27
-	#macro cs_gold 28
-	#macro cs_mega 29
-	#macro cs_pwing 30
+	#macro cs_bubble 27
+	#macro cs_tiny (cs_bubble + 1)
+	#macro cs_gold (cs_bubble + 2)
+	#macro cs_mega (cs_bubble + 3)
+	#macro cs_pwing (cs_bubble + 4)
 
 #endregion
 

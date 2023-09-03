@@ -33,6 +33,7 @@ function powerup_get_name() {
 		case (cs_beet): return "beetroot";
 		case (cs_lui): return powerup_get_name(cs_big);
 		case (cs_wind): return powerup_get_name(cs_big);
+		case (cs_bubble): return powerup_get_name(cs_big);
 		case (cs_gold): return powerup_get_name(cs_big);
 		case (cs_mega): return powerup_get_name(cs_big);
 	}

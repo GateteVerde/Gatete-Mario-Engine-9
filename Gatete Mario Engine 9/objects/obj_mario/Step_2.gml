@@ -103,12 +103,20 @@ else {
                         
                         //Decrement fire
                         firing--;
+						
+						//If the powerup is not the bubble one
+						if (global.powerup != cs_bubble) {
                         
-                        //...but set the appropiate frame
-                        if (firing > 4)
-                            image_index = 0;
-                        else
-                            image_index = 1;
+	                        //...but set the appropiate frame
+	                        if (firing > 4)
+	                            image_index = 0;
+	                        else
+	                            image_index = 1;
+						}
+						
+						//Otherwise
+						else
+							image_index = 4;
                     }
                     else {
                     
