@@ -231,7 +231,7 @@ else {
                 else if (global.powerup == cs_penguin) {
                 
                     //If the player is not on contact with a slippery surface.
-                    if ((isslip == false) || (abs(xspeed) != xspeedmax)) {
+                    if (isslip == false) {
                     
                         //Slowdown
                         xspeed = max(0,abs(xspeed)-0.05)*sign(xspeed);
@@ -250,20 +250,24 @@ else {
                     
                     //Otherwise, if the player is on contact with a slippery surface.
                     else if (isslip == true) {
+						
+						//If the horizontal speed is not at the highest possible
+						if (abs(xspeed) != xspeedmax) {
                     
-                        //Slowdown
-                        xspeed = max(0,abs(xspeed)-0.0125)*sign(xspeed);
-                        if ((xspeed > -0.0125) && (xspeed < 0.0125)) {
+	                        //Slowdown
+	                        xspeed = max(0,abs(xspeed)-0.0125)*sign(xspeed);
+	                        if ((xspeed > -0.0125) && (xspeed < 0.0125)) {
                         
-                            //Stop horizontal speed.
-                            xspeed = 0;
+	                            //Stop horizontal speed.
+	                            xspeed = 0;
                             
-                            //End combo
-                            hitcombo = 0;
+	                            //End combo
+	                            hitcombo = 0;
                             
-                            //Stop sliding behaviour
-                            sliding = false;
-                        }  
+	                            //Stop sliding behaviour
+	                            sliding = false;
+	                        }  
+						}
                     }                                    
                 }
             }
