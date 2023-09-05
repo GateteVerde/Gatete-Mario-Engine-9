@@ -27,3 +27,4 @@ ready = 0;
 
 //Move towards Mario
 charge = 0;
+alarm[10] = 2;
