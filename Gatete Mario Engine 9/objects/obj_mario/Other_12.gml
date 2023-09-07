@@ -1073,6 +1073,7 @@ if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_valu
 	&& (yspeed > 1)
 	&& (holding = 0)
 	&& (wallkick == 0)
+	&& (wallready == 0)
 	&& (groundpound == 0) 
 	&& (global.powerup != cs_tiny) 
 	&& (global.powerup != cs_mega)

@@ -70,51 +70,58 @@ if (room != rm_bonus) {
 				
 					//If the barrier is enabled
 					if (barrier == true) {
+						
+						//Get the mask ID
+						var mymask = obj_mario.mask_index;
+						
+						//If the mask exists
+						if (mymask != -1) {
 	
-						//If Mario is at the left boundary
-						if (obj_mario.x < camera_get_view_x(view_camera[0]) + sprite_get_xoffset(obj_mario.mask_index)) {
+							//If Mario is at the left boundary
+							if (obj_mario.x < camera_get_view_x(view_camera[0]) + sprite_get_xoffset(mymask)) {
 			
-							//If Mario is flying with the cape
-							if (instance_exists(obj_mario_fly)) {
+								//If Mario is flying with the cape
+								if (instance_exists(obj_mario_fly)) {
 			
-								obj_mario_fly.x = camera_get_view_x(view_camera[0]) + 5;
-								if (obj_mario_fly.xspeed < 0)
-									obj_mario_fly.xspeed = 0;
-							}
+									obj_mario_fly.x = camera_get_view_x(view_camera[0]) + 5;
+									if (obj_mario_fly.xspeed < 0)
+										obj_mario_fly.xspeed = 0;
+								}
 							
-							//Otherwise, if Mario is flying as a balloon
-							else if (instance_exists(obj_mario_balloon)) {
+								//Otherwise, if Mario is flying as a balloon
+								else if (instance_exists(obj_mario_balloon)) {
 							
-								obj_mario_balloon.x = camera_get_view_x(view_camera[0]) + 5;
-								if (obj_mario_balloon.xspeed < 0)
-									obj_mario_balloon.xspeed = 0;
-							}
+									obj_mario_balloon.x = camera_get_view_x(view_camera[0]) + 5;
+									if (obj_mario_balloon.xspeed < 0)
+										obj_mario_balloon.xspeed = 0;
+								}
 		
-							obj_mario.x = camera_get_view_x(view_camera[0]) + sprite_get_xoffset(obj_mario.mask_index);
-							if (obj_mario.xspeed < 0)
-								obj_mario.xspeed = 0;
-						}
-						else if (obj_mario.x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(obj_mario.mask_index)) {
-			
-							//If Mario is flying with the cape
-							if (instance_exists(obj_mario_fly)) {
-			
-								obj_mario_fly.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
-								if (obj_mario_fly.xspeed > 0)
-									obj_mario_fly.xspeed = 0;
+								obj_mario.x = camera_get_view_x(view_camera[0]) + sprite_get_xoffset(mymask);
+								if (obj_mario.xspeed < 0)
+									obj_mario.xspeed = 0;
 							}
+							else if (obj_mario.x > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(mymask)) {
+			
+								//If Mario is flying with the cape
+								if (instance_exists(obj_mario_fly)) {
+			
+									obj_mario_fly.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
+									if (obj_mario_fly.xspeed > 0)
+										obj_mario_fly.xspeed = 0;
+								}
 							
-							//Otherwise, if Mario is flying as a balloon
-							else if (instance_exists(obj_mario_balloon)) {
+								//Otherwise, if Mario is flying as a balloon
+								else if (instance_exists(obj_mario_balloon)) {
 			
-								obj_mario_balloon.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
-								if (obj_mario_balloon.xspeed > 0)
-									obj_mario_balloon.xspeed = 0;
+									obj_mario_balloon.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5;
+									if (obj_mario_balloon.xspeed > 0)
+										obj_mario_balloon.xspeed = 0;
+								}
+			
+								obj_mario.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(mymask);
+								if (obj_mario.xspeed > 0)
+									obj_mario.xspeed = 0;			
 							}
-			
-							obj_mario.x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - sprite_get_xoffset(obj_mario.mask_index);
-							if (obj_mario.xspeed > 0)
-								obj_mario.xspeed = 0;			
 						}
 					}				
 				#endregion
