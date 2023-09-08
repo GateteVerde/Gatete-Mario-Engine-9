@@ -252,19 +252,23 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 		#region POSITION SETUP
 		
 			//Get ID from "Background 0"
-			lay_id = layer_get_id("Background_0");
+			var lay_id		= layer_get_id("Background_0");
 			
 			//Get data from said layer
-			back_id = layer_background_get_id(lay_id);
-			back_spr = layer_background_get_sprite(back_id);
+			var back_id		= layer_background_get_id(lay_id);
+			var back_spr	= layer_background_get_sprite(back_id);
 
 			//Horizontal parallax
 			layer_x("Background_0", camera_x / 2);
 			
-			//Vertical parallax
-			if (sprite_get_height(back_spr) < room_height)
-			&& (sprite_get_height(back_spr) > camera_get_view_height(view_camera[0]))
-				layer_y("Background_0", camera_y * (room_height - sprite_get_height(back_spr)) / (room_height -  camera_get_view_height(view_camera[0])));		
+			//If the background exists
+			if (back_spr != -1) {
+			
+				//Vertical parallax
+				if (sprite_get_height(back_spr) < room_height)
+				&& (sprite_get_height(back_spr) > camera_get_view_height(view_camera[0]))
+					layer_y("Background_0", camera_y * (room_height - sprite_get_height(back_spr)) / (room_height -  camera_get_view_height(view_camera[0])));
+			}
 		
 		#endregion
 	
