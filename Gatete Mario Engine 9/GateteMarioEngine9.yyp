@@ -1717,6 +1717,7 @@
     {"id":{"name":"obj_goalcard","path":"objects/obj_goalcard/obj_goalcard.yy",},},
     {"id":{"name":"spr_mudball","path":"sprites/spr_mudball/spr_mudball.yy",},},
     {"id":{"name":"spr_mario_hammer_attack","path":"sprites/spr_mario_hammer_attack/spr_mario_hammer_attack.yy",},},
+    {"id":{"name":"spr_bgr_trees","path":"sprites/spr_bgr_trees/spr_bgr_trees.yy",},},
     {"id":{"name":"spr_luigi_raccoon_hold_jump","path":"sprites/spr_luigi_raccoon_hold_jump/spr_luigi_raccoon_hold_jump.yy",},},
     {"id":{"name":"spr_mario_shell_hold","path":"sprites/spr_mario_shell_hold/spr_mario_shell_hold.yy",},},
     {"id":{"name":"spr_whistlinchuck","path":"sprites/spr_whistlinchuck/spr_whistlinchuck.yy",},},

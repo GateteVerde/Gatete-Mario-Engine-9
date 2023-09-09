@@ -3,8 +3,8 @@
 function slope_collision() {
 	
 	//Embed Mario/NPCs into the slope if he is walking to ensure correct slope mechanics
-	if (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+4, obj_slopeparent, 1, 0))
-	&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-4, obj_slopeparent, 1, 0)) 
+	if (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+5, obj_slopeparent, 1, 0))
+	&& (!collision_rectangle(bbox_left, bbox_bottom-4, bbox_right, bbox_bottom-5, obj_slopeparent, 1, 0)) 
 	&& (yspeed == 0) 
 		y += 4;
 
