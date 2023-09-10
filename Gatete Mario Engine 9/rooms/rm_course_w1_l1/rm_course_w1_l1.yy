@@ -167,6 +167,7 @@
     {"name":"inst_4E871E0C","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_5DCFFF56","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_109230AF","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
+    {"name":"inst_BC8189A","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -362,6 +363,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_109230AF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"propertyId":{"name":"myid","path":"objects/obj_warp_node/obj_warp_node.yy",},"value":"1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2656.0,"y":368.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BC8189A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_firespike","path":"objects/obj_firespike/obj_firespike.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":496.0,"y":320.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":27,"SerialiseWidth":196,"TileCompressedData":[
 -20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-24,0,-172,-2147483648,-24,0,-295,-2147483648,1,3601,-3,3602,1,3603,-68,-2147483648,-48,0,-31,-2147483648,3,0,2676,2677,-43,-2147483648,1,3604,-70,-2147483648,-48,0,-32,-2147483648,2,2761,2762,-43,-2147483648,1,3689,-70,-2147483648,-48,0,-32,-2147483648,2,2761,2762,-43,-2147483648,1,3689,-70,-2147483648,-48,0,-32,-2147483648,-2,2567,-43,-2147483648,1,3689,-11,-2147483648,2,577,578,-4,151,2,579,580,-51,-2147483648,-48,0,-11,-2147483648,3,0,577,578,-5,151,2,579,580,-56,-2147483648,1,3689,-9,-2147483648,3,577,578,662,-6,236,3,665,579,580,-49,-2147483648,-48,0,-11,-2147483648,2,575,662,-7,236,3,665,579,580,-54,-2147483648,1,3689,-8,-2147483648,2,575,662,-10,236,3,665,576,0,-16,-2147483648,-2,0,-29,-2147483648,-21,0,2,1996,1997,
