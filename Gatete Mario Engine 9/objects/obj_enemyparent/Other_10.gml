@@ -12,8 +12,6 @@ imdead.image_index = image_index;
 //Hereby facing direction
 imdead.image_xscale = xscale;
 
-
-
 //Hereby ID horizontal speed
 if (killer_id != -1) {
 	
