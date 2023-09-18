@@ -43,7 +43,7 @@ if (sprite_index > -1) {
 				}
 				
 				//If Mario is ready to do a squat jump, draw again but with additive blending
-				if (squat_ready > 0)
+				if (squat_time > 119)
 				&& (squat_time mod 6 == 1) {
 
 					//Set blend mode

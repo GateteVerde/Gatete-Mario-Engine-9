@@ -1423,52 +1423,47 @@ if (input_check_pressed(input.action_0))
 //If Mario is twirling, move up a bit
 if (twirl == 1) then yspeed -= 0.5;
 
-//If Mario is crouched down and this one is not riding a Yoshi or a Kuribo shoe
-if (crouch == true) 
-&& (global.mount == 0) {
-	
-	//If the player is idle
-	if (state == playerstate.idle) {
-	
-		//If the squat time is greater than 119, allow big jump
-	    if (squat_time > 119) 
-	    && (squat_ready == 0) {
-    
-	        //Play 'Charge' sound
-	        audio_play_sound(snd_squat, 0, false);
-    
-	        //Set the squat state
-	        squat_ready = 1;
-	    }
-	}
-	
-	//Otherwise, if the player is jumping and the squat jump is not yet ready
-	else if (squat_time <= 119)
-	&& (state == playerstate.jump)
-		squat_time = 0;
-}
+//If Luigi is being controlled and it is not mounting a Yoshi or wearing a kuribo shoe
+if ((global.player == 1) && (global.mount == 0)) {
 
-//If Mario is not crouched down
-else if (crouch == false) {
+	//If Luigi is crouched down
+	if (crouch == true) {
 	
-	//This ability can be used only by Luigi
-	if (global.player == 1) {
-
-		//If the timer is equal or lower than 119
-		if (squat_time <= 119) {
+		//If the player is idle
+		if (state == playerstate.idle) {
+		
+			//Increase squat timer
+			squat_time++;
 	
-			squat_ready = 0;
-			if (squat_time > 0)
-				squat_time = 0;
+			//If the squat time is greater than 119, allow big jump
+		    if (squat_time > 119) 
+		    && (squat_ready == 0) {
+    
+		        //Play 'Charge' sound
+		        audio_play_sound(snd_squat, 0, false);
+    
+		        //Set the squat state
+		        squat_ready = 1;
+		    }
 		}
 	
-		//Otherwise
-		else if (squat_ready > 0) {
-	
-			//If Mario starts walking or begins riding a Yoshi or a Kuribo shoe, reset ability
-			if (state == playerstate.walk) 
-			|| (global.mount != 0) {
+		//Otherwise, if the player is jumping and the squat jump is not yet ready
+		else if (squat_time <= 119)
+			squat_time = 0;
+	}
+
+	//If Luigi is not crouched down
+	else if (crouch == false) {
 		
+		//If the squat jump is ready
+		if (squat_ready == 1) {
+			
+			//Increase squat timer
+			squat_time++;
+			
+			//If Luigi is not idle
+			if (state != playerstate.idle) {
+			
 				squat_ready = 0;
 				if (squat_time > 0)
 					squat_time = 0;
@@ -1477,11 +1472,14 @@ else if (crouch == false) {
 	}
 }
 
+//Otherwise, end squat sequence
+else {
+
+	squat_ready = 0;
+	if (squat_time > 0)
+		squat_time = 0;
+}
+
 //Increment double jump
 if (doublejump == 1) && (yspeed > 0)
 	doublejump = 2;
-
-//Keep incrementing squat timer if jump is ready
-if (crouch == true)
-|| (squat_ready > 0)
-	squat_time++;
