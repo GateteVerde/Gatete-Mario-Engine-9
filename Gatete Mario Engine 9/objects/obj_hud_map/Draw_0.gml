@@ -35,7 +35,7 @@ draw_sprite_stretched_ext(spr_gui_map_border, 0, camera_get_view_x(view_camera[0
 if (prompt == 0) {
 	
 	//Set font
-	draw_set_font(global.gui_font_menu);
+	draw_set_font(global.gui_font_numbers);
 
 	#region Render Mario and Lives
 
@@ -55,7 +55,7 @@ if (prompt == 0) {
 		pal_swap_reset();
 
 		//Lives
-		draw_text_colour(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 24, "* " + string_format(lives, 2, 0), c_white, c_white, c_white, c_white, 1);
+		draw_text_colour(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 24, "x " + string_format(lives, 2, 0), c_white, c_white, c_white, c_white, 1);
 
 	#endregion
 }
