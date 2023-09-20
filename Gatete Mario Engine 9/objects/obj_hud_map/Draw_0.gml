@@ -55,7 +55,7 @@ if (prompt == 0) {
 		pal_swap_reset();
 
 		//Lives
-		draw_text_colour(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 24, "x " + string_format(lives, 2, 0), c_white, c_white, c_white, c_white, 1);
+		draw_text_colour(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 24, "* " + string_format(lives, 2, 0), c_white, c_white, c_white, c_white, 1);
 
 	#endregion
 }

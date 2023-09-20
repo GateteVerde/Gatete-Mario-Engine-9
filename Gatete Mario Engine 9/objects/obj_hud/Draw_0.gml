@@ -138,6 +138,26 @@ if (global.reserve_activated == true)
 
 //Score
 draw_text(score_x, score_y, string_add_zeroes(score, 8));
+if (instance_exists(obj_mario_clear)) {
+
+	//Set colour
+	draw_set_colour(make_colour_rgb(173, 243, 123));
+	
+	//Draw the score that will be given from time
+	#region
+	
+		//If a orb does exist
+		if (instance_exists(obj_goalorb))
+		|| (instance_exists(obj_goalorb_winged))
+			draw_text(score_x - 8, score_y + 8, "+" + string_format(global.timer * 100, 8, 0));
+		else
+			draw_text(score_x - 8, score_y + 8, "+" + string_format(global.timer * 50, 8, 0));
+		
+	#endregion
+	
+	//Reset colour
+	draw_set_colour(c_white);
+}
 
 //Set gold font
 draw_set_font(global.gui_font_numbers_gold);

@@ -292,8 +292,8 @@ global.moons = ds_map_create();
 //Font Variables
 global.gui_font	= font_add_sprite(spr_gui_font, ord("!"), 0, 0);
 global.gui_font_menu = font_add_sprite(spr_gui_font_menu, ord("!"), 0, 0);
-global.gui_font_numbers	= font_add_sprite_ext(spr_gui_font_numbers, "0123456789-x", 0, 0);
-global.gui_font_numbers_gold = font_add_sprite_ext(spr_gui_font_numbers_gold, "0123456789-x", 0, 0);
+global.gui_font_numbers	= font_add_sprite_ext(spr_gui_font_numbers, "0123456789-+*", 0, 0);
+global.gui_font_numbers_gold = font_add_sprite_ext(spr_gui_font_numbers_gold, "0123456789-+*", 0, 0);
 global.gui_font_numbers_large = font_add_sprite_ext(spr_gui_font_numbers_large, "0123456789-", 0, 0);
 global.gui_font_numbers_large_gold = font_add_sprite_ext(spr_gui_font_numbers_large_gold, "0123456789-", 0, 0);
 
