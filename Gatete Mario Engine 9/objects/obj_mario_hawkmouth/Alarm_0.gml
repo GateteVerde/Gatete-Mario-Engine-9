@@ -12,7 +12,7 @@ else {
 	
 		global.timer -= 100;
 		alarm[0] = 2;
-		score += 5000;
+		score += (obj_hud.multiplier * 100);
 	}
 	
 	//Otherwise, if the timer is greater than 10
@@ -20,7 +20,7 @@ else {
 	
 		global.timer -= 10;
 		alarm[0] = 2;
-		score += 500;
+		score += (obj_hud.multiplier * 10);
 	}
 	
 	//Otherwise, if the timer is greater than 0
@@ -28,7 +28,7 @@ else {
 	
 		global.timer--;
 		alarm[0] = 2;
-		score += 50;
+		score += (obj_hud.multiplier * 1);
 	}
 	
 	//If the timer is greater than 1, play 'Count' sound

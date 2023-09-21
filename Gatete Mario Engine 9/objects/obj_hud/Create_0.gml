@@ -15,3 +15,14 @@ alarm[0] = 7;
 
 //P-Meter X
 pmeterx = 0;
+
+//Bonus time
+time = 0;
+dtime = 0;
+dtime2 = 0;
+
+//Bonus time multiplier
+multiplier = 50;
+
+//Displays 'Course Clear'
+clear = 0;

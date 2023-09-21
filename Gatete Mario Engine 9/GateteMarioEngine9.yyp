@@ -1218,6 +1218,7 @@
     {"id":{"name":"spr_mario_cat_attack","path":"sprites/spr_mario_cat_attack/spr_mario_cat_attack.yy",},},
     {"id":{"name":"obj_brick_green","path":"objects/obj_brick_green/obj_brick_green.yy",},},
     {"id":{"name":"spr_lavalotus_spit","path":"sprites/spr_lavalotus_spit/spr_lavalotus_spit.yy",},},
+    {"id":{"name":"spr_gui_global_clear","path":"sprites/spr_gui_global_clear/spr_gui_global_clear.yy",},},
     {"id":{"name":"obj_parakoopa_classic_jump","path":"objects/obj_parakoopa_classic_jump/obj_parakoopa_classic_jump.yy",},},
     {"id":{"name":"obj_enemy_carried","path":"objects/obj_enemy_carried/obj_enemy_carried.yy",},},
     {"id":{"name":"spr_mario_propeller_carry","path":"sprites/spr_mario_propeller_carry/spr_mario_propeller_carry.yy",},},

@@ -41,3 +41,11 @@ x += 8;
 
 //Face right
 image_xscale = 1;
+
+//Display 'Course Clear' on HUD
+with (obj_hud) {
+
+	clear = 1;
+	time = global.timer;
+	multiplier = 50;
+}

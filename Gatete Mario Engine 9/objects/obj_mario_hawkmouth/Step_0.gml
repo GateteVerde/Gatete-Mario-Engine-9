@@ -13,6 +13,9 @@ if (ready == 0) {
         
         //Take points off time and add it to score
         alarm[0] = 120;
+		
+		//Display 'Course Clear' on HUD
+		alarm[2] = 60;
     }
 }
 

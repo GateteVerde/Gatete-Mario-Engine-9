@@ -97,6 +97,9 @@ alarm[2] = 460;
 //Take points off time and add it to score
 alarm[3] = 300;
 
+//Display 'Course Clear'
+alarm[4] = 150;
+
 //Whether the object is swimming
 swimming = false;
 

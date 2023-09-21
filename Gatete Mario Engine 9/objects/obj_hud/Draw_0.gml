@@ -138,33 +138,43 @@ if (global.reserve_activated == true)
 
 //Score
 draw_text(score_x, score_y, string_add_zeroes(score, 8));
-if (instance_exists(obj_mario_clear)) {
+if (clear == 1) {
+	
+	//Draw 'Course Clear' prompt
+	draw_sprite_ext(spr_gui_global_clear, global.player, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 68, camera_get_view_y(view_camera[0]) + 72, 1, 1, 0, c_white, 1);
 
-	//Set colour
-	draw_set_colour(make_colour_rgb(173, 243, 123));
+	//Draw time
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 56, camera_get_view_y(view_camera[0]) + 96, string_format(time, 3, 0));
 	
-	//Draw the score that will be given from time
-	#region
+	//Draw time multiplier
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 20, camera_get_view_y(view_camera[0]) + 96, string_format(multiplier, 3, 0));
 	
-		//If a orb does exist
-		if (instance_exists(obj_goalorb))
-		|| (instance_exists(obj_goalorb_winged))
-			draw_text(score_x - 8, score_y + 8, "+" + string_format(global.timer * 100, 8, 0));
-		else
-			draw_text(score_x - 8, score_y + 8, "+" + string_format(global.timer * 50, 8, 0));
-		
-	#endregion
-	
-	//Reset colour
-	draw_set_colour(c_white);
+	//Draw time * multiplier
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 + 24, camera_get_view_y(view_camera[0]) + 96, string_format(global.timer * multiplier, 6, 0));
 }
 
 //Set gold font
 draw_set_font(global.gui_font_numbers_gold);
 
+#region TIME DISPLAY
+
+	//Set the time to display when the level is clear
+	if (global.clear > 0) {
+
+		if (dtime2 == 0) {
+		
+			dtime2 = global.timer;
+			dtime = dtime2;
+		}
+	}
+	else
+		dtime = global.timer;
+	
+#endregion
+	 
 //Time
 draw_sprite_ext(spr_gui_time, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 48, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(global.timer, 3));
+draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(dtime, 3));
 	
 //Set large font
 draw_set_font(global.gui_font_numbers_large)

@@ -75,7 +75,7 @@
     {"name":"inst_3CE1D3D1_1","path":"rooms/rm_template_boss_boo/rm_template_boss_boo.yy",},
     {"name":"inst_4207EAB1_1","path":"rooms/rm_template_boss_boo/rm_template_boss_boo.yy",},
     {"name":"inst_7F02A233_1","path":"rooms/rm_template_boss_boo/rm_template_boss_boo.yy",},
-    {"name":"inst_7960007A","path":"rooms/rm_template_boss_boo/rm_template_boss_boo.yy",},
+    {"name":"inst_79BEBC13","path":"rooms/rm_template_boss_boo/rm_template_boss_boo.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -158,8 +158,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F02A233_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"propertyId":{"name":"myid","path":"objects/obj_warp_node/obj_warp_node.yy",},"value":"0",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":144.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7960007A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bossorb","path":"objects/obj_bossorb/obj_bossorb.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_bossorb","path":"objects/obj_bossorb/obj_bossorb.yy",},"propertyId":{"name":"winged","path":"objects/obj_bossorb/obj_bossorb.yy",},"value":"True",},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_79BEBC13","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_goalorb_winged","path":"objects/obj_goalorb_winged/obj_goalorb_winged.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_goalorb","path":"objects/obj_goalorb/obj_goalorb.yy",},"propertyId":{"name":"multiplier","path":"objects/obj_goalorb/obj_goalorb.yy",},"value":"100",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":14,"SerialiseWidth":24,"TileCompressedData":[

@@ -64,6 +64,9 @@ if (freeze == false) {
 			//Orb collected
 			image_alpha = 0;
 			instance_create_depth(x, y+8, -6, obj_smoke);
+			
+			//Display 'Course Clear'
+			alarm[3] = 290;
 	
 			//Begin timer countdown
 			alarm[0] = 350;

@@ -66,6 +66,9 @@ if (image_alpha == 1) {
 		
 		//Begin timer countdown
 		alarm[0] = 240;
+		
+		//Display 'Course' Clear
+		alarm[3] = 120;
 
 		//Orb collected
 		image_alpha = 0;

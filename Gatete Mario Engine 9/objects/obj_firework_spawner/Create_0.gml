@@ -4,7 +4,7 @@
 audio_play_sound(snd_firework, 0, false);
 
 //Get 500 points
-score += 500;
+score += (obj_hud.multiplier * 10);
 
 //Sprite to use
 image_speed = 0;
