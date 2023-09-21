@@ -158,7 +158,6 @@
     {"name":"inst_71827748","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_7D9BBC35","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_79E830A7","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
-    {"name":"inst_560339CE","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_706F1D08","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_19EDF066","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_1205AFF5","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
@@ -169,6 +168,7 @@
     {"name":"inst_109230AF","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_68854B10","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_2C116ADB","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
+    {"name":"inst_1FDEED7","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -338,7 +338,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71827748","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2512.0,"y":304.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7D9BBC35","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2528.0,"y":304.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_79E830A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_piranhaplant","path":"objects/obj_piranhaplant/obj_piranhaplant.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2656.0,"y":352.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_560339CE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_flagpole","path":"objects/obj_flagpole/obj_flagpole.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2832.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_706F1D08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"propertyId":{"name":"myid","path":"objects/obj_warp_node/obj_warp_node.yy",},"value":"0",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1488.0,"y":384.0,},
@@ -366,6 +365,7 @@
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2656.0,"y":368.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68854B10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hoppycat","path":"objects/obj_hoppycat/obj_hoppycat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":440.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C116ADB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hoppycat","path":"objects/obj_hoppycat/obj_hoppycat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":504.0,"y":320.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FDEED7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_flagpole","path":"objects/obj_flagpole/obj_flagpole.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2832.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":27,"SerialiseWidth":196,"TileCompressedData":[
 -20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-24,0,-172,-2147483648,-24,0,-295,-2147483648,1,3601,-3,3602,1,3603,-68,-2147483648,-48,0,-31,-2147483648,3,0,2676,2677,-43,-2147483648,1,3604,-70,-2147483648,-48,0,-32,-2147483648,2,2761,2762,-43,-2147483648,1,3689,-70,-2147483648,-48,0,-32,-2147483648,2,2761,2762,-43,-2147483648,1,3689,-70,-2147483648,-48,0,-32,-2147483648,-2,2567,-43,-2147483648,1,3689,-11,-2147483648,2,577,578,-4,151,2,579,580,-51,-2147483648,-48,0,-11,-2147483648,3,0,577,578,-5,151,2,579,580,-56,-2147483648,1,3689,-9,-2147483648,3,577,578,662,-6,236,3,665,579,580,-49,-2147483648,-48,0,-11,-2147483648,2,575,662,-7,236,3,665,579,580,-54,-2147483648,1,3689,-8,-2147483648,2,575,662,-10,236,3,665,576,0,-16,-2147483648,-2,0,-29,-2147483648,-21,0,2,1996,1997,

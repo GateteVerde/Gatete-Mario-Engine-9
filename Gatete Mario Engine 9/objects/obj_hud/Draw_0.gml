@@ -150,7 +150,7 @@ if (clear == 1) {
 	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 20, camera_get_view_y(view_camera[0]) + 96, string_format(multiplier, 3, 0));
 	
 	//Draw time * multiplier
-	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 + 24, camera_get_view_y(view_camera[0]) + 96, string_format(global.timer * multiplier, 6, 0));
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 + 16, camera_get_view_y(view_camera[0]) + 96, string_format(global.timer * multiplier, 6, 0));
 }
 
 //Set gold font

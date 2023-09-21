@@ -98,7 +98,7 @@ alarm[2] = 460;
 alarm[3] = 300;
 
 //Display 'Course Clear'
-alarm[4] = 150;
+alarm[4] = 240;
 
 //Whether the object is swimming
 swimming = false;

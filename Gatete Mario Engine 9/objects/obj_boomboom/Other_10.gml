@@ -10,6 +10,7 @@ if (instance_number(obj_bossparent) == 1) {
     with (instance_create_depth(x, y, -2, obj_goalorb)) {
 		
         yspeed = -5;
+		multiplier = 100;
 		secret_exit = other.secret_exit;
 	}
 }
