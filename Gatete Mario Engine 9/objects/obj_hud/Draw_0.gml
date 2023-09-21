@@ -141,16 +141,16 @@ draw_text(score_x, score_y, string_add_zeroes(score, 8));
 if (clear == 1) {
 	
 	//Draw 'Course Clear' prompt
-	draw_sprite_ext(spr_gui_global_clear, global.player, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 68, camera_get_view_y(view_camera[0]) + 72, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(spr_gui_global_clear, global.player, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 64, camera_get_view_y(view_camera[0]) + 80, 1, 1, 0, c_white, 1);
 
 	//Draw time
-	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 56, camera_get_view_y(view_camera[0]) + 96, string_format(time, 3, 0));
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 52, camera_get_view_y(view_camera[0]) + 104, string_format(time, 3, 0));
 	
 	//Draw time multiplier
-	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 20, camera_get_view_y(view_camera[0]) + 96, string_format(multiplier, 3, 0));
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 16, camera_get_view_y(view_camera[0]) + 104, string_format(multiplier, 3, 0));
 	
 	//Draw time * multiplier
-	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 + 16, camera_get_view_y(view_camera[0]) + 96, string_format(global.timer * multiplier, 6, 0));
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 + 16, camera_get_view_y(view_camera[0]) + 104, string_format(global.timer * multiplier, 6, 0));
 }
 
 //Set gold font

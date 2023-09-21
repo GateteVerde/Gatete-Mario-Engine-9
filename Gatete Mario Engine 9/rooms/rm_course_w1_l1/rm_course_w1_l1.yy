@@ -166,8 +166,6 @@
     {"name":"inst_4E871E0C","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_5DCFFF56","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_109230AF","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
-    {"name":"inst_68854B10","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
-    {"name":"inst_2C116ADB","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_1FDEED7","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
   ],
   "isDnd": false,
@@ -363,8 +361,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_109230AF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_warp_node","path":"objects/obj_warp_node/obj_warp_node.yy",},"propertyId":{"name":"myid","path":"objects/obj_warp_node/obj_warp_node.yy",},"value":"1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2656.0,"y":368.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68854B10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hoppycat","path":"objects/obj_hoppycat/obj_hoppycat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":440.0,"y":320.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C116ADB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hoppycat","path":"objects/obj_hoppycat/obj_hoppycat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":504.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FDEED7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_flagpole","path":"objects/obj_flagpole/obj_flagpole.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2832.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":27,"SerialiseWidth":196,"TileCompressedData":[

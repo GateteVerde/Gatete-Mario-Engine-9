@@ -4,8 +4,8 @@
   "name": "spr_gui_global_clear",
   "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 117,
-  "bbox_top": 3,
+  "bbox_right": 113,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -72,5 +72,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 136,
+  "width": 128,
 }
