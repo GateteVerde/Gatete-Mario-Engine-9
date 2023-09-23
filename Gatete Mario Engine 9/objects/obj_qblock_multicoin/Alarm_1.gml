@@ -24,14 +24,8 @@ if (scatter == 0) {
 		//Turn into a used block
 		instance_change(obj_emptyblock, false);
 	}
-	else {
-		
-		//Allow hit
+	else
 		ready = 0;
-		
-		//Delay block bump
-		alarm[3] = 16;
-	}
 }
 else
 	instance_change(obj_emptyblock, false);

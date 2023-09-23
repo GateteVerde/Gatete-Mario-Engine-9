@@ -35,7 +35,7 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mushroom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"scatter","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"coins","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":99.0,"rangeMin":1.0,"value":"1","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"coins","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":99.0,"rangeMin":1.0,"value":"10","varType":1,},
   ],
   "solid": false,
   "spriteId": {
