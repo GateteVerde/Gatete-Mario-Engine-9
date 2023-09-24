@@ -14,13 +14,28 @@ if (scatter == 0) {
 
 		//Repeat as many coins you want to spawn
 		repeat (10) {
+			
+			//If there's not a solid below
+			if (!collision_rectangle(bbox_left, ystart + 16, bbox_right, ystart + 17, obj_semisolid, 0, 0))
+			&& (!collision_rectangle(bbox_left, ystart + 16, bbox_right, ystart + 17, obj_slopeparent, 1, 0)) {
 
-			with (instance_create_depth(x + 8, ystart + 16, -4, obj_coinnpc)) {
+				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coinnpc)) {
 	
-				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
-				yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+				}
 			}
-		}
+			
+			//Otherwise
+			else {
+				
+				with (instance_create_depth(x + 8, ystart - 16, -4, obj_coinnpc)) {
+	
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+				}				
+			}
+		}	
 		
 		//Do not repeat this event
 		coiny = 2;
@@ -34,27 +49,6 @@ if (scatter == 0) {
 
 			coiny = 1;
 			alarm[2] = 240;
-		}
-
-		//Create 5 coins if this block was hit 10 or more times
-		else if (coiny == 2) {
-
-			if (hits >= 10) 
-			&& (mushroom == false) {
-	
-				//Play 'Big Coin' sound
-				audio_play_sound(snd_coin_big, 0, false);
-
-				//Repeat as many coins you want to spawn
-				repeat (5) {
-
-					with (instance_create_depth(x + 8, ystart - 16, -4, obj_coinnpc)) {
-	
-						xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
-						yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
-					}
-				}
-			}
 		}
 
 		//Create coin
@@ -87,11 +81,26 @@ else if (scatter == true) {
 		
 		//Repeat as many coins you want to spawn
 		repeat (coins) {
+			
+			//If there's not a solid below
+			if (!collision_rectangle(bbox_left, ystart + 16, bbox_right, ystart + 17, obj_semisolid, 0, 0))
+			&& (!collision_rectangle(bbox_left, ystart + 16, bbox_right, ystart + 17, obj_slopeparent, 1, 0)) {
 
-			with (instance_create_depth(x + 8, ystart + 16, -4, obj_coinnpc)) {
+				with (instance_create_depth(x + 8, ystart + 16, -4, obj_coinnpc)) {
 	
-				xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
-				yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? 2 : 4;
+				}
+			}
+			
+			//Otherwise
+			else {
+				
+				with (instance_create_depth(x + 8, ystart - 16, -4, obj_coinnpc)) {
+	
+					xspeed = (place_meeting(x, y, obj_swim)) ? random_range(-0.5, 0.5) : random_range(-1, 1);
+					yspeed = (place_meeting(x, y, obj_swim)) ? random_range(-1, -3) : random_range(-2, -6);
+				}				
 			}
 		}		
 	}
