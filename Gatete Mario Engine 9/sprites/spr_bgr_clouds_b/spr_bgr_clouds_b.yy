@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_bgr_blocks_fg",
-  "bbox_bottom": 111,
+  "name": "spr_bgr_clouds_b",
+  "bbox_bottom": 383,
   "bbox_left": 0,
   "bbox_right": 511,
   "bbox_top": 0,
@@ -13,11 +13,11 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6cee5e27-10d9-4526-a8b3-0a19d9223e00",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"769118df-b89b-4d76-809b-8736c5592022",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 112,
+  "height": 384,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0da9f25a-4250-40eb-bd81-081c21cbd3f9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_bgr_blocks_fg",
+    "name": "spr_bgr_clouds_b",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6cee5e27-10d9-4526-a8b3-0a19d9223e00","path":"sprites/spr_bgr_blocks_fg/spr_bgr_blocks_fg.yy",},},},"Disabled":false,"id":"add22553-c0ca-4655-a5f8-f2c48dacf37d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"769118df-b89b-4d76-809b-8736c5592022","path":"sprites/spr_bgr_clouds_b/spr_bgr_clouds_b.yy",},},},"Disabled":false,"id":"a7f76393-4c73-48d5-a87a-847ae66f288e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

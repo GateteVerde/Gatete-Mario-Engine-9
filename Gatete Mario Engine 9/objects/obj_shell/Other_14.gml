@@ -10,7 +10,7 @@ imheld.sprite_index = sprite_index;
 imheld.dir = xscale;
 
 //Flip it
-imheld.flip = (spr_shell_koopatrol) ? 0 : 1;
+imheld.flip = (sprite_index == spr_shell_koopatrol) ? 0 : 1;
 
 //Hold or not hold a koopa inside
 imheld.koopainside = koopainside;
