@@ -6,5 +6,7 @@ if (speed > 0)
 	
 	audio_stop_sound(snd_snake);
 	audio_play_sound(snd_snake, 0, false);
-	alarm[2] = 8;
 }
+
+//Repeat the process
+alarm[2] = 8;
