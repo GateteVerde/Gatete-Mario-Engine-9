@@ -7,9 +7,8 @@ if (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario
     //Create train
     with (instance_create_depth(xstart, ystart, depth, obj_blocktrain_front)) {
 
-		sprite_index = spr_platform_blocktrain;
         dir = 0;
-		alarm[2] = 15;
+		alarm[1] = 1;
         motion_set(0, other.spd);
         length = other.length-1;
     }

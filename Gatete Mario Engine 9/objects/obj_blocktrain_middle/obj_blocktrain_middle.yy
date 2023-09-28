@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_blocktrain_middle",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -13,8 +10,8 @@
     "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/SMW.yy",
   },
   "parentObjectId": {
-    "name": "obj_platformparent",
-    "path": "objects/obj_platformparent/obj_platformparent.yy",
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

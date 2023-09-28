@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_switchpalace_switch",
-  "creationCodeFile": "${project_dir}/rooms/rm_template/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/rm_switchpalace_switch/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

@@ -13,7 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98f7d96c-a49a-4df8-9107-aa64fc9de5b0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69e6fb8c-6386-466d-a92c-1558a21a9b17",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -22,7 +22,30 @@
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4ac96da9-04fe-4ac1-bd73-a396b0001f34","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "resourceType": "GMNineSliceData",
+    "resourceVersion": "1.0",
+    "bottom": 0,
+    "enabled": false,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "left": 0,
+    "right": 0,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "top": 0,
+  },
   "origin": 0,
   "parent": {
     "name": "SMW",
@@ -54,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"98f7d96c-a49a-4df8-9107-aa64fc9de5b0","path":"sprites/spr_platform_blocktrain/spr_platform_blocktrain.yy",},},},"Disabled":false,"id":"e7d134ae-9f2b-4f4b-87e5-f30abb901238","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"69e6fb8c-6386-466d-a92c-1558a21a9b17","path":"sprites/spr_platform_blocktrain/spr_platform_blocktrain.yy",},},},"Disabled":false,"id":"a29bb625-be7b-4462-8345-9edf6ed18b75","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

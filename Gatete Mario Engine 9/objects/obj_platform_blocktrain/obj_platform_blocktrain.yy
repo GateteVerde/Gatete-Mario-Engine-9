@@ -14,8 +14,8 @@
     "path": "folders/Objects/Items/Platforms/SMW.yy",
   },
   "parentObjectId": {
-    "name": "obj_platformparent",
-    "path": "objects/obj_platformparent/obj_platformparent.yy",
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

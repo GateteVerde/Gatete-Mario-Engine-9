@@ -21,5 +21,5 @@ ready = 0;
 //Whether this platform makes noise
 noise = 0;
 
-//Delay platform creation
-alarm[1] = 1;
+//Create middle block
+instance_create_depth(x, y, depth + 1, obj_blocktrain_middle);

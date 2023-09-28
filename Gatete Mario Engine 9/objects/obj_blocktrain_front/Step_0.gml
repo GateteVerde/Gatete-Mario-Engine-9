@@ -28,9 +28,6 @@ if (speed > 0) {
                 //Create block train back block
                 myback = instance_create_depth(xstart, ystart, depth, obj_blocktrain_back);
                 with (myback) {
-					
-					//Set up the same sprite
-					sprite_index = other.sprite_index;
                 
                     //Remember up this block.
                     parent = other.id;
@@ -54,12 +51,11 @@ if (speed > 0) {
 		//Allow it later
         alarm[0] = 4;
         
-        //Snap in grid
-        move_snap(16, 16);
-        
         //Create a new block
-        with (instance_create_depth(x, y, depth + 1, obj_blocktrain_middle))
-			sprite_index = other.sprite_index;
+        instance_create_depth(x, y, depth + 1, obj_blocktrain_middle);
+		
+		//Snap into grid
+		move_snap(16, 16);
     }
 }
 

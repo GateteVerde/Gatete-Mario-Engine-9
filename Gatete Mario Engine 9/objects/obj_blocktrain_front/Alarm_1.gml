@@ -1,4 +1,12 @@
-/// @description Create middle block
+/// @description Make noises when moving
 
-with (instance_create_depth(x, y, depth + 1, obj_blocktrain_middle))
-	sprite_index = other.sprite_index;
+//Make noise if not outside the view and it is moving
+if (speed > 0)
+&& (outside_view() == false) {
+	
+	audio_stop_sound(snd_snake);
+	audio_play_sound(snd_snake, 0, false);
+}
+
+//Repeat the process
+alarm[1] = 8;

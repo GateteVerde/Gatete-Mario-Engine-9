@@ -22,11 +22,11 @@ if (speed > 0) {
 		//Allow it later
         alarm[0] = 4;
         
-        //Snap in grid
-        move_snap(16, 16);
-        
         //Create a killer block
-        instance_create_depth(x, y, depth, obj_blocktrain_killer);   
+        instance_create_depth(x, y, depth, obj_blocktrain_killer);
+		
+		//Snap into grid
+		move_snap(16, 16);
     }
 }
 
