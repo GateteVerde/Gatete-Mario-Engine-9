@@ -3716,6 +3716,7 @@
     {"id":{"name":"spr_luigi_raccoon_walk","path":"sprites/spr_luigi_raccoon_walk/spr_luigi_raccoon_walk.yy",},},
     {"id":{"name":"spr_luigi_small_somersault","path":"sprites/spr_luigi_small_somersault/spr_luigi_small_somersault.yy",},},
     {"id":{"name":"obj_generator_bulletbill","path":"objects/obj_generator_bulletbill/obj_generator_bulletbill.yy",},},
+    {"id":{"name":"pth_petal","path":"paths/pth_petal/pth_petal.yy",},},
     {"id":{"name":"spr_boomboom_walk","path":"sprites/spr_boomboom_walk/spr_boomboom_walk.yy",},},
     {"id":{"name":"obj_conveyor_l","path":"objects/obj_conveyor_l/obj_conveyor_l.yy",},},
     {"id":{"name":"spr_netkoopa_red_b","path":"sprites/spr_netkoopa_red_b/spr_netkoopa_red_b.yy",},},
