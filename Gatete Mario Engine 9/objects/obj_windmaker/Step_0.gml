@@ -52,3 +52,24 @@ else {
 			obj_mario.x -= force;
     }
 }
+
+#region EFFECT
+	
+	//Generate effect if inside the region
+	if (ready) {
+	
+		repeat (1) {
+			
+			if (dir == 1) {
+				
+				part_type_direction(part, -20, 0, 0.05, 0.1);
+				part_particles_create(system, camera_get_view_x(view_camera[0]) - 16, camera_get_view_y(view_camera[0]) - 64 + random(round(global.gh) + 128), part, 1);
+			}
+			else if (dir == -1) {
+				
+				part_type_direction(part, 180, 200, 0.05, 0.1);
+				part_particles_create(system, camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0]) + 16), camera_get_view_y(view_camera[0]) - 64 + random(round(global.gh) + 128), part, 1);
+			}
+		}
+	}		
+#endregion

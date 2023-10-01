@@ -2168,7 +2168,6 @@
     {"name":"spr_mario_propeller_balloon","order":20,"path":"sprites/spr_mario_propeller_balloon/spr_mario_propeller_balloon.yy",},
     {"name":"obj_conveyor_blue_l","order":13,"path":"objects/obj_conveyor_blue_l/obj_conveyor_blue_l.yy",},
     {"name":"spr_luigi_boomerang_goal","order":13,"path":"sprites/spr_luigi_boomerang_goal/spr_luigi_boomerang_goal.yy",},
-    {"name":"obj_leafeff","order":11,"path":"objects/obj_leafeff/obj_leafeff.yy",},
     {"name":"spr_luigi_propeller_hold","order":8,"path":"sprites/spr_luigi_propeller_hold/spr_luigi_propeller_hold.yy",},
     {"name":"obj_coin_antip","order":3,"path":"objects/obj_coin_antip/obj_coin_antip.yy",},
     {"name":"obj_levelpanel_toadhouse_1up","order":2,"path":"objects/obj_levelpanel_toadhouse_1up/obj_levelpanel_toadhouse_1up.yy",},

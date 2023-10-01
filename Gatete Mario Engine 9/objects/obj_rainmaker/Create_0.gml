@@ -21,7 +21,7 @@ part_type_direction(part, 225, 225, 0, 0);
 part_type_colour1(part, c_white);
 	
 //Life
-part_type_life(part, room_speed, room_speed * 2);
+part_type_life(part, 300, 600);
 
 //Smog pos
 pos = 0;

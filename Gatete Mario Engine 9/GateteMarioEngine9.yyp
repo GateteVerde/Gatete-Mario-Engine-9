@@ -2553,7 +2553,6 @@
     {"id":{"name":"spr_qblock_hidden","path":"sprites/spr_qblock_hidden/spr_qblock_hidden.yy",},},
     {"id":{"name":"obj_conveyor_blue_l","path":"objects/obj_conveyor_blue_l/obj_conveyor_blue_l.yy",},},
     {"id":{"name":"spr_luigi_boomerang_goal","path":"sprites/spr_luigi_boomerang_goal/spr_luigi_boomerang_goal.yy",},},
-    {"id":{"name":"obj_leafeff","path":"objects/obj_leafeff/obj_leafeff.yy",},},
     {"id":{"name":"spr_luigi_propeller_hold","path":"sprites/spr_luigi_propeller_hold/spr_luigi_propeller_hold.yy",},},
     {"id":{"name":"obj_coin_antip","path":"objects/obj_coin_antip/obj_coin_antip.yy",},},
     {"id":{"name":"obj_levelpanel_toadhouse_1up","path":"objects/obj_levelpanel_toadhouse_1up/obj_levelpanel_toadhouse_1up.yy",},},
