@@ -1,13 +1,10 @@
-/// @description Generate rain drops
-
-//If raining is activated
-if (raining == true) {
-
-    repeat (force) {
-        
-		instance_create_depth(random_range(camera_get_view_x(view_camera[0]) - 600, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) + 600), camera_get_view_y(view_camera[0]) - 5, random_range(-4, 9), obj_rain);
-    }
-}
+/// @description Update smog position and generate rain
 
 //Update smog position
 pos -= 0.25;
+
+//Generate rain drops
+repeat (5) {
+	
+	part_particles_create(system, random_range(camera_get_view_x(view_camera[0]) - 600, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) + 600), camera_get_view_y(view_camera[0]) - 5, part, 1);
+}

@@ -1,5 +1,6 @@
-/// @description Loop 'Rain' sound
+/// @description Delay 'Rain' sound
 
-if (raining == false)
-exit;
+if (raining) {
+	
 	audio_play_sound(snd_rain, 0, true);
+}
