@@ -13,11 +13,11 @@ else {
 
     //If the wind is not blowing...
     if (ready == 0) 
-	&& (point_in_rectangle(obj_mario.x, obj_mario.y, xmin, 0, xmax, room_height)) {
+	&& (point_in_rectangle(obj_mario.x, obj_mario.y, xmin - 8, 0, xmax + 8, room_height)) {
     
         //...and Mario is inside the given area
-        if (obj_mario.x > xmin)
-        && (obj_mario.x < xmax) {
+        if (obj_mario.x > xmin - 8)
+        && (obj_mario.x < xmax + 8) {
         
             //Play 'Wind' sound
             audio_play_sound(snd_wind, 0, true);
@@ -31,13 +31,10 @@ else {
     else if (ready == 1) {
 		
 		//If Mario is not longer on the spawn area
-		if (!point_in_rectangle(obj_mario.x, obj_mario.y, xmin, 0, xmax, room_height)) {
+		if (!point_in_rectangle(obj_mario.x, obj_mario.y, xmin - 8, 0, xmax + 8, room_height)) {
         
             //Stop 'Wind' sound
             audio_stop_sound(snd_wind);
-            
-            //Destroy all leaves
-            with (obj_leafeff) instance_destroy();
             
             //Stop blowing
             ready = 0;
