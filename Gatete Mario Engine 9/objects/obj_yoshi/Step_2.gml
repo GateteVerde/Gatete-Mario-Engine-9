@@ -64,10 +64,11 @@
 	        else
 	            event_user(0);
 	    }
+		
+		//
     
 	    //Make Yoshi flutter if moving down and if Mario does not have either the raccoon or tanooki powerup
-	    if (input_check(input.action_0))
-	    && (flying == 0)
+	    if (flying == 0)
 		&& (obj_mario.crouch == false)
 	    && (obj_mario.swimming == false) 
 	    && (global.powerup != cs_raccoon)
@@ -76,9 +77,10 @@
 		&& (global.powerup != cs_iraccoon) {
     
 	        //If Yoshi can flutter and it is moving down
-	        if (flutter == 0)
-			&& (obj_mario.jumping == 2)
-	        && (obj_mario.yspeed >= 2.5) {
+			if (input_check_pressed(input.action_0))
+	        && (flutter == 0)
+			&& (obj_mario.yspeed > 1.5)
+			&& (obj_mario.jumping == 2) {
         
 	            //Play 'Hover' sound
 	            audio_play_sound(snd_yoshi_hover, 0, false);
@@ -88,55 +90,61 @@
 	        }
             
 	        //If Yoshi is fluttering
-	        else if (flutter = 1) {
-        
-	            //Increment flutter time
-	            fluttertime += 2;
+	        else if (flutter = 1)  {
+				
+				//If 'Action 0' is pressed
+				if (input_check(input.action_0)) {
+				
+		            //Increment flutter time
+		            fluttertime += 2;
             
-	            //If flutter time is lower than 120
-	            if (fluttertime < 120) {
+		            //If flutter time is lower than 120
+		            if (fluttertime < 120) {
             
-	                //Make Mario ascend
-	                with (obj_mario) {
+		                //Make Mario ascend
+		                with (obj_mario) {
                 
-	                    //Disable gravity
-	                    yadd = 0;
+		                    //Disable gravity
+		                    yadd = 0;
                 
-	                    //Increment vertical movement
-	                    if (yspeed > 0)
-	                        yspeed -= 0.15;
-	                    else {
+		                    //Increment vertical movement
+		                    if (yspeed > 0)
+		                        yspeed -= 0.15;
+		                    else {
                     
-	                        yspeed -= 0.05;
-	                        if (yspeed < -1.5)
-	                            yspeed = -1.5;
-	                    }
-	                }
-	            }
-	            else {
+		                        yspeed -= 0.05;
+		                        if (yspeed < -1.5)
+		                            yspeed = -1.5;
+		                    }
+		                }
+		            }
+		            else {
             
-	                //Stop 'Hover' sound
-	                audio_stop_sound(snd_yoshi_hover);
+		                //Stop 'Hover' sound
+		                audio_stop_sound(snd_yoshi_hover);
             
-	                //End flutter
-	                flutter = 2;
+		                //End flutter
+		                flutter = 2;
                 
-	                //Allow flutter after a while
-	                alarm[4] = 15;
-	            }
+		                //Allow flutter after a while
+		                alarm[4] = 7;
+		            }
+				}
+				
+				//Otherwise, force end flutter
+				else if (obj_mario.yspeed < -1.6) 
+				|| (input_check_released(input.action_0)) {
+				           
+		            //Stop 'Hover' sound
+		            audio_stop_sound(snd_yoshi_hover);
+            
+		            //End flutter
+		            flutter = 2;
+                
+		            //Allow flutter after a while
+		            alarm[4] = 7;					
+				}
 	        }
-	    }
-	    else if (flutter == 1) 
-	    || (obj_mario.yspeed < -1.6) {
-            
-	        //Stop 'Hover' sound
-	        audio_stop_sound(snd_yoshi_hover);
-            
-	        //End flutter
-	        flutter = 2;
-        
-	        //Allow flutter after a while
-	        alarm[4] = 15;
 	    }
     
 	    //Force end flutter if not jumping
@@ -150,7 +158,7 @@
 	        flutter = 2;
         
 	        //Allow flutter after a while
-	        alarm[4] = 15
+	        alarm[4] = 7;
 	    }
     
 	    //Manage Yoshi state
