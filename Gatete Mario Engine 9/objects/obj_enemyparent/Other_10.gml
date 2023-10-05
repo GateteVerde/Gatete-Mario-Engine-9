@@ -54,14 +54,20 @@ if (killer_id != -1) {
 		}
 	}
 	
-	//Otherwise
-	else {
+	//Otherwise, if killer exists
+	else if (instance_exists(killer_id)) {
 	
 		//If the kill object is at the left of this object
 		if (killer_id.bbox_left + killer_id.bbox_right/2 < bbox_left + bbox_right/2)
 			imdead.hspeed = 1;
 		else if (killer_id.bbox_left + killer_id.bbox_right/2 > bbox_left + bbox_right/2)
 			imdead.hspeed = -1;
+			
+	//Otherwise, if killer no longer exists
+	} else {
+		
+		// Set to random left or right speed
+		imdead.hspeed = choose(-1, 1);	
 	}
 }
 
