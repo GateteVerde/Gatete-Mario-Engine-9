@@ -7,6 +7,6 @@ instance_create_depth(0, 0, -101, obj_timeup);
 global.time = 0;
 
 //Kill the player
-instance_create_depth(obj_mario.x, obj_mario.y, -5, obj_mario_dead);
+with (instance_create_depth(obj_mario.x, obj_mario.y, -5, obj_mario_dead)) timeup = 1;
 with (obj_mario) instance_destroy();
 exit;

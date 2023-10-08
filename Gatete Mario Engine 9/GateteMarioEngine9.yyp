@@ -521,7 +521,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"spr_pipe_broken","path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},},
@@ -2844,6 +2844,7 @@
     {"id":{"name":"spr_hammerbro","path":"sprites/spr_hammerbro/spr_hammerbro.yy",},},
     {"id":{"name":"spr_leaf","path":"sprites/spr_leaf/spr_leaf.yy",},},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},},
+    {"id":{"name":"snd_timeup","path":"sounds/snd_timeup/snd_timeup.yy",},},
     {"id":{"name":"spr_mario_squirrel_hold","path":"sprites/spr_mario_squirrel_hold/spr_mario_squirrel_hold.yy",},},
     {"id":{"name":"spr_onewaygate","path":"sprites/spr_onewaygate/spr_onewaygate.yy",},},
     {"id":{"name":"spr_palaceswitch_b","path":"sprites/spr_palaceswitch_b/spr_palaceswitch_b.yy",},},

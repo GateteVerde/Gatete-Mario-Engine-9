@@ -1,10 +1,13 @@
 /// @description Mario has died!
 
+//Checks if the time has run out
+timeup = 0;
+
 //Do not animate
 image_speed = 0;
 
-//Play 'Dead' fanfare
-audio_play_sound(snd_dead, 0, false);
+//Play 'Dead / Time Up' fanfare
+alarm[3] = 1;
 
 //Freeze all physicsparent object
 with (obj_physicsparent) event_user(13);
