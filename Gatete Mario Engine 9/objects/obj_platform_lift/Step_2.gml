@@ -52,7 +52,7 @@ if (mario)
 	}
 }
 else
-ison = false;
+	ison = false;
 
 //If the platform is outside the view
 if (outside_view()) {
