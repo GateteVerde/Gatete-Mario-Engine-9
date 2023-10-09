@@ -9,7 +9,16 @@ exit;
 
 //If Mario is riding a Yoshi
 if (global.mount == 1) {
+	
+	//Play 'Trampoline' sound
+	audio_play_sound(snd_trampoline, 0, false);
 
+	//Make Mario jump
+	with (obj_mario) {
+			
+		event_user(1);
+		state = playerstate.jump;
+	}
 }
 
 //Otherwise, if Mario is not riding a Yoshi

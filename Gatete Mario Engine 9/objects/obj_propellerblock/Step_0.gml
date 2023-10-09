@@ -39,5 +39,12 @@ if (held == true)
 			image_speed = 1;
 	}
 }
-else
+else {
+	
+	//Set default animation speed
 	image_speed = 1;
+	
+	//Cap vertical speed
+	if (yspeed > 2)
+		yspeed = 2;
+}
