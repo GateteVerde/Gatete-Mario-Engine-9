@@ -1,6 +1,6 @@
 # Gatete Mario Engine 9
 
-A feature packed open-source Mario engine for GameMaker 2022.8
+A feature packed open-source Mario engine for GameMaker v2023.8 and above
 
 The engine contains features from the following games
 
