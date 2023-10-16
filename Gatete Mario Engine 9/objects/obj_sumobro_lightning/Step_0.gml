@@ -12,7 +12,7 @@ if (yadd == 0) {
         //Play 'Flames' sound
         audio_play_sound(snd_flames, 0, false);
         
-        //Create 2 adyacent flames
+		//Create adyacent flames
         alarm[0] = 20;
         alarm[1] = 40;
         

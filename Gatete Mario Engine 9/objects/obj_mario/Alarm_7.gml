@@ -9,7 +9,7 @@ if (global.powerup == cs_lui) {
 	&& (wallkick != 1)
 	&& (groundpound == 0)
 	&& (!instance_exists(obj_mario_transform))
-		instance_create_depth(x, y, -4, obj_lui_trail);
+		instance_create_depth(x, y, -4, obj_mario_trail);
 }
 
 //Repeat the process

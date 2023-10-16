@@ -23,4 +23,3 @@ if (!audio_is_playing(global.stream))
 	//Loop the music
 	audio_loop_sound(global.stream, loop_s, loop_e);
 }
-
