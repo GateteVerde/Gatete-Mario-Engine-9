@@ -140,6 +140,7 @@ throw_projectile = function() {
 	        //Racoon, Tanooki, Cat, and Cape
 	        else if (((global.powerup == cs_cape) && (!flying)) || (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_bell) || (global.powerup == cs_ranger) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon) || (global.powerup == cs_wind))
 	        && (instance_number(obj_mario_dropdown) == 0)
+			&& (instance_number(obj_mario_spinner) == 0)
 	        && (spin == noone) 
 			&& (jumpstyle == 0) {
         

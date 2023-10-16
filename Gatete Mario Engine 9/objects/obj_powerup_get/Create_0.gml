@@ -17,3 +17,6 @@ vspeed = -3;
 
 //Set the friction
 friction = 0.05;
+
+//Check sprite
+alarm[3] = 1;

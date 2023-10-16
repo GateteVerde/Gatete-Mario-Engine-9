@@ -4,7 +4,7 @@
 switch (global.powerup) {
 	
 	//Wind
-	case (cs_wind):
+	case (cs_wind): {
 	
 		// Play 'Spin' sound
 		audio_stop_sound(snd_spin);
@@ -26,10 +26,10 @@ switch (global.powerup) {
 		// Throw snowballs
 		alarm[0] = 1;
 
-		break;
+	} break;
 	
 	//Chill Raccoon
-    case (cs_iraccoon):
+    case (cs_iraccoon): {
     
         // Play 'Spin' sound
 		audio_stop_sound(snd_spin);
@@ -44,10 +44,10 @@ switch (global.powerup) {
 		// Throw snowballs
 		alarm[0] = 1;
 
-		break;
+	} break;
 		
 	//Fiery Raccoon
-    case (cs_fraccoon):
+    case (cs_fraccoon): {
     
         // Play 'Spin' sound
 		audio_stop_sound(snd_spin);
@@ -62,10 +62,10 @@ switch (global.powerup) {
 		// Throw fireballs
 		alarm[0] = 1;
 
-		break;
+	} break;
 	
 	//Ranger
-	case (cs_ranger):
+	case (cs_ranger): {
 	
 		audio_stop_sound(snd_whip);
 		audio_play_sound(snd_whip, 0, false);
@@ -76,10 +76,10 @@ switch (global.powerup) {
 		//Set the sprite
 		sprite_index = global.attack_sprite[cs_ranger];
 		
-		break;
+	} break;
     
     //Cat
-    case (cs_bell):
+    case (cs_bell): {
     
         //Play 'Scratch' sound
 		audio_stop_sound(snd_scratch);
@@ -91,10 +91,10 @@ switch (global.powerup) {
         // Set the sprite
         sprite_index = global.attack2_sprite[cs_bell];
 
-		break;
+	} break;
     
     //Tanooki
-    case (cs_tanooki):
+    case (cs_tanooki): {
     
         // Play 'Spin' sound
 		audio_stop_sound(snd_spin);
@@ -106,9 +106,9 @@ switch (global.powerup) {
         // Set the sprite
         sprite_index = global.attack_sprite[cs_tanooki];
 
-		break;
+	} break;
 		
-	case (cs_cape):
+	case (cs_cape): {
 	
         // Play 'Spin' sound
 		audio_stop_sound(snd_spin);
@@ -120,10 +120,10 @@ switch (global.powerup) {
         // Set the sprite
         sprite_index = global.spin_sprite[cs_big];
 
-		break;
+	} break;
     
     //Default
-    default:
+    default: {
         
         //Play 'Spin' sound
 		audio_stop_sound(snd_spin);
@@ -135,19 +135,5 @@ switch (global.powerup) {
         //Set the sprite
         sprite_index = global.spin_sprite[cs_raccoon];
 		
-		break;
-		
+	} break;		
 }
-
-// Spinning end function
-spinning_end = function() {
-	
-	// Destroy object
-	instance_destroy();
-	
-	// Remove reference
-	owner.spin = noone;	
-}
-
-// Spin timer
-timer(spinning_end, ceil(image_number / image_speed), false);

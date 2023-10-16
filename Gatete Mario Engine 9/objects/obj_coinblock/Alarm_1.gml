@@ -1,13 +1,11 @@
 /// @description Delay visibility and set trajectory
 
-//Jump
-var grav = 0.09375;
+//Make it visible
+visible = 1;
+
+//Set horizontal motion
+hspeed = -(xstart - (camera_get_view_x(view_camera[0]) + 20)) / (room_speed * 1.6);
+
+//Set vertical motion
 vspeed = -4;
-gravity = grav;
-
-//Calculate horizontal trajectory
-var traj = round((camera_get_view_x(view_camera[0]) + 24) - x)
-hspeed = (traj / ((-1 * 2 * vspeed) / grav))
-
-//Now appear on the sequence
-visible = true;
+gravity = 0.1;
