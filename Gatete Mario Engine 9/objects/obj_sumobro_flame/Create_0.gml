@@ -5,3 +5,6 @@ event_inherited();
 
 //Animate
 image_speed = 1;
+
+//Depth
+depth = 101;

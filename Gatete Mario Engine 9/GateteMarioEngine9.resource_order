@@ -3373,7 +3373,7 @@
     {"name":"spr_grinder_small","order":6,"path":"sprites/spr_grinder_small/spr_grinder_small.yy",},
     {"name":"obj_grass_inf","order":1,"path":"objects/obj_grass_inf/obj_grass_inf.yy",},
     {"name":"obj_paragoomba_red","order":4,"path":"objects/obj_paragoomba_red/obj_paragoomba_red.yy",},
-    {"name":"spr_sumobro_lightning","order":23,"path":"sprites/spr_sumobro_lightning/spr_sumobro_lightning.yy",},
+    {"name":"spr_sumobro_lightning","order":24,"path":"sprites/spr_sumobro_lightning/spr_sumobro_lightning.yy",},
     {"name":"spr_lava_slope_r","order":3,"path":"sprites/spr_lava_slope_r/spr_lava_slope_r.yy",},
     {"name":"spr_luigi_propeller_duck","order":10,"path":"sprites/spr_luigi_propeller_duck/spr_luigi_propeller_duck.yy",},
     {"name":"rm_course_w1_l4_c","order":2,"path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},

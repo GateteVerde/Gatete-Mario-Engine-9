@@ -1,8 +1,8 @@
 /// @description Prevent from getting embed on solids
 
 //Destroy if there's no ground below
-if (!place_meeting(x + 8, bbox_bottom+1, obj_semisolid))
-&& (!place_meeting(x + 8, bbox_bottom+1, obj_slopeparent)) {
+if (!place_meeting(x + 8, bbox_bottom, obj_semisolid))
+&& (!place_meeting(x + 8, bbox_bottom, obj_slopeparent)) {
 
 	instance_destroy();
 	exit;
