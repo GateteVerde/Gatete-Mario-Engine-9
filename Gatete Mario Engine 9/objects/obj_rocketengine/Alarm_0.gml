@@ -29,7 +29,10 @@ sprite_index = spr_rocketengine_st;
 image_speed = 1;
 
 //Make it visible.
-visible = 1;
+image_alpha = 1;
+
+//Set muncher frame
+m = 1;
 
 //Play a sound.
 if (outside_view() == false)

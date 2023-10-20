@@ -4,6 +4,9 @@ if (sprite_index == spr_rocketengine_st) {
 
     //Change sprite.
     sprite_index = spr_rocketengine;
+	
+	//Set muncher frame
+	m = 2;
     
     //Change light frame
     if (light != -1) {

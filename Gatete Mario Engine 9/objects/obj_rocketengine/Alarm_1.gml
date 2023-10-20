@@ -18,6 +18,9 @@ image_index = 3;
 //Set up frames.
 alarm[2] = 2;
 
+//Set muncher frame
+m = 3;
+
 //Set up light frame
 if (light != -1)
     with (light) image_index = 0;

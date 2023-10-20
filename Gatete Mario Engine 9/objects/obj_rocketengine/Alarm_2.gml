@@ -14,7 +14,10 @@ if (image_index == 1) {
     image_index = 0;
     
     //Make it invisible
-    visible = 0;
+    image_alpha = 0;
+	
+	//Set muncher frame
+	m = 0;
     
     //Start alternate engines or the same engine again
     if (instance_number(obj_rocketengine_alt) > 0)

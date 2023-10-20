@@ -3426,6 +3426,7 @@
     {"name":"spr_luigi_hammer_ride","order":21,"path":"sprites/spr_luigi_hammer_ride/spr_luigi_hammer_ride.yy",},
     {"name":"snd_balloon","order":1,"path":"sounds/snd_balloon/snd_balloon.yy",},
     {"name":"obj_qblock_winged","order":11,"path":"objects/obj_qblock_winged/obj_qblock_winged.yy",},
+    {"name":"spr_muncher_fire","order":2,"path":"sprites/spr_muncher_fire/spr_muncher_fire.yy",},
     {"name":"obj_buzzybeetle_ceiling","order":2,"path":"objects/obj_buzzybeetle_ceiling/obj_buzzybeetle_ceiling.yy",},
     {"name":"obj_mario_flagpole","order":1,"path":"objects/obj_mario_flagpole/obj_mario_flagpole.yy",},
     {"name":"spr_path_ur","order":4,"path":"sprites/spr_path_ur/spr_path_ur.yy",},
