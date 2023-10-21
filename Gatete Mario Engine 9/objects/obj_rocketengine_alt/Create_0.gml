@@ -3,9 +3,6 @@
 //Light?
 light = -1;
 
-//Muncher frame
-m = 0;
-
 //Alpha
 image_alpha = 0;
 

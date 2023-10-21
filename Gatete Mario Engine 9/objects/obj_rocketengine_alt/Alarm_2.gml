@@ -15,9 +15,6 @@ if (image_index == 1) {
     
     //Make it invisible
     image_alpha = 0;
-	
-	//Set muncher frame
-	m = 0;
     
     //Start alternate engines or the same engine again
     with (obj_rocketengine) alarm[0] = 120;

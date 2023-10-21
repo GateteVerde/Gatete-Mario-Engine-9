@@ -31,9 +31,6 @@ image_speed = 1;
 //Make it visible.
 image_alpha = 1;
 
-//Set muncher frame
-m = 1;
-
 //Play a sound.
 if (outside_view() == false)
     audio_play_sound(snd_flames, 0, false);
