@@ -11,6 +11,7 @@ event_inherited();
 	if (ready == 1)
 	&& (mario)
 	&& (mario.state < playerstate.jump)
+	&& (!instance_exists(obj_mario_transform))
 	&& ((input_check_pressed(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))  {
 
 		//Play 'Message' sound
