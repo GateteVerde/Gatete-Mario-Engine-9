@@ -161,9 +161,9 @@ if (mebelow == noone) {
 
 //If there's memory of a enemy below.
 else {
-
-    //Activate the enemy below.
-    instance_activate_object(mebelow);
+	
+	//Keep it activated
+	instance_activate_object(mebelow);
     
     //If the enemy exits, snap it.
     if (instance_exists(mebelow)) {
@@ -189,9 +189,9 @@ else {
         
             if (!instance_exists(obj_mario)) 
             || (obj_mario.x < x)
-                xspeed = -0.5;
+                xspeed = -0.2;
             else
-                xspeed = 0.5;
+                xspeed = 0.2;
         }
     }
 }

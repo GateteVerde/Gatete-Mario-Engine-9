@@ -2396,7 +2396,6 @@
     {"name":"snd_powerup_mega","order":42,"path":"sounds/snd_powerup_mega/snd_powerup_mega.yy",},
     {"name":"spr_weaponblock_dash","order":15,"path":"sprites/spr_weaponblock_dash/spr_weaponblock_dash.yy",},
     {"name":"spr_luigi_cat_climb","order":3,"path":"sprites/spr_luigi_cat_climb/spr_luigi_cat_climb.yy",},
-    {"name":"spr_bonegoomba_b","order":30,"path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},
     {"name":"spr_lavalotus","order":22,"path":"sprites/spr_lavalotus/spr_lavalotus.yy",},
     {"name":"spr_heavyfirebro","order":15,"path":"sprites/spr_heavyfirebro/spr_heavyfirebro.yy",},
     {"name":"spr_brick_blue","order":2,"path":"sprites/spr_brick_blue/spr_brick_blue.yy",},

@@ -49,9 +49,9 @@ if (yadd == 0)
                 && (mysolid.image_yscale <= 1) 
                 && (mysolid.object_index != obj_solid) {
 					
-					var tilemap = layer_tilemap_get_id("Tileset_Platform_Foreground");
+					var tilemap = layer_tilemap_get_id("Tileset_Platform_Background");
                     
-                    //If there's a foreground platform tile below
+                    //If there's a background platform tile below
                     if (tilemap_get_at_pixel(tilemap, x, bbox_bottom+1) != 0) {
                         
                         //Pass through semisolids

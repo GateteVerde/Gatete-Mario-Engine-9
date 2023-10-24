@@ -2800,7 +2800,6 @@
     {"id":{"name":"snd_powerup_mega","path":"sounds/snd_powerup_mega/snd_powerup_mega.yy",},},
     {"id":{"name":"spr_weaponblock_dash","path":"sprites/spr_weaponblock_dash/spr_weaponblock_dash.yy",},},
     {"id":{"name":"spr_luigi_cat_climb","path":"sprites/spr_luigi_cat_climb/spr_luigi_cat_climb.yy",},},
-    {"id":{"name":"spr_bonegoomba_b","path":"sprites/spr_bonegoomba_b/spr_bonegoomba_b.yy",},},
     {"id":{"name":"spr_lavalotus","path":"sprites/spr_lavalotus/spr_lavalotus.yy",},},
     {"id":{"name":"spr_heavyfirebro","path":"sprites/spr_heavyfirebro/spr_heavyfirebro.yy",},},
     {"id":{"name":"spr_brick_blue","path":"sprites/spr_brick_blue/spr_brick_blue.yy",},},
