@@ -3918,7 +3918,6 @@
     {"id":{"name":"spr_luigi_hammer_ride","path":"sprites/spr_luigi_hammer_ride/spr_luigi_hammer_ride.yy",},},
     {"id":{"name":"snd_balloon","path":"sounds/snd_balloon/snd_balloon.yy",},},
     {"id":{"name":"obj_qblock_winged","path":"objects/obj_qblock_winged/obj_qblock_winged.yy",},},
-    {"id":{"name":"spr_muncher_fire","path":"sprites/spr_muncher_fire/spr_muncher_fire.yy",},},
     {"id":{"name":"obj_buzzybeetle_ceiling","path":"objects/obj_buzzybeetle_ceiling/obj_buzzybeetle_ceiling.yy",},},
     {"id":{"name":"obj_mario_flagpole","path":"objects/obj_mario_flagpole/obj_mario_flagpole.yy",},},
     {"id":{"name":"spr_path_ur","path":"sprites/spr_path_ur/spr_path_ur.yy",},},

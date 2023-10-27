@@ -127,12 +127,12 @@ if (room != rm_bonus) {
 				#endregion
 				
 				//Set Y position of the camera
-				y = obj_mario.y;
+				y = follow.y;
 				
 				//Set X position of the camera				
 				if (classicscroll == false)
 				|| ((classicscroll == true) && (obj_mario.x > x))
-					x = obj_mario.x;
+					x = follow.x;
 		    }
 		    else {
 				
