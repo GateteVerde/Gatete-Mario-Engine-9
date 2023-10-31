@@ -28,12 +28,9 @@ if (freeze == false) {
 	//Do a float movement
 	yspeed += (y < ystart) ? 0.01 : -0.01;
 
-	//Decrement xspeed
-	xspeed = max(0,abs(xspeed)-0.0324)*sign(xspeed);
-	if (xspeed < 0.324)
-		xspeed = 0.324;
-	else if (xspeed > -0.324)
-		xspeed = -0.324;
+	//Slowdown horizontal speed
+	xspeed = max(0.25, abs(xspeed)-0.025)*sign(xspeed);
+
 #endregion
 
 //Destroy when outside the view

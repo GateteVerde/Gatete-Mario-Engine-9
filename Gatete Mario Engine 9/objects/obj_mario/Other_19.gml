@@ -281,7 +281,7 @@ throw_projectile = function() {
 				
 				//Create Bubble
 	            with (instance_create_depth(x + 8 * sign(xscale), y-4, -2, obj_bubble_p))
-	                xspeed = 2*sign(other.xscale);
+	                xspeed = other.xspeed+(2*sign(other.xscale));
 	        }
 			
 			//Gold Fireball
