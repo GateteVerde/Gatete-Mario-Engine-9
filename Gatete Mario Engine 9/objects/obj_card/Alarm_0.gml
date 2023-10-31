@@ -95,7 +95,7 @@ if (obj_cardmanager.oncard == mycard) {
 			}
 			
 			//Add a starman to the inventory
-			global.inventory[global.inventory[0]] = 29;
+			global.inventory[global.inventory[0]] = cs_starman;
         } break;
                 
         //1-UP

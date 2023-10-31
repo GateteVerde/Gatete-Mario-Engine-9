@@ -189,9 +189,9 @@ else {
         
             if (!instance_exists(obj_mario)) 
             || (obj_mario.x < x)
-                xspeed = -0.2;
+                xspeed = -0.5;
             else
-                xspeed = 0.2;
+                xspeed = 0.5;
         }
     }
 }

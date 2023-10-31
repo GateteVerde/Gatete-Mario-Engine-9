@@ -37,7 +37,7 @@ if (instance_exists(obj_mapmario)) {
 if (global.mapstar == 1) {
 
 	//Set up palette
-	isflashing += 0.01;
+	isflashing += 0.05;
 	if (isflashing > 6.99)
 		isflashing = 1;
 }

@@ -30,8 +30,10 @@ if (freeze == false) {
 
 	//Decrement xspeed
 	xspeed = max(0,abs(xspeed)-0.0324)*sign(xspeed);
-	if (abs(xspeed) < 0.0324)
-		xspeed = 0;
+	if (xspeed < 0.324)
+		xspeed = 0.324;
+	else if (xspeed > -0.324)
+		xspeed = -0.324;
 #endregion
 
 //Destroy when outside the view

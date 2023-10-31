@@ -21,20 +21,20 @@ else {
 
 		//If this item is a gold flower
 		if (sprite_index == spr_tinyshroom)
-			global.inventory[global.inventory[0]] = cs_tiny;
+			global.inventory[global.inventory[0]] = sprite_get_macro(spr_tinyshroom)
 	
 		//If this item is a gold flower
 		else if (sprite_index == spr_goldenflower)
 		|| (sprite_index == spr_goldenflower_cb)
-			global.inventory[global.inventory[0]] = cs_gold;
+			global.inventory[global.inventory[0]] = sprite_get_macro(spr_goldenflower)
 			
 		//Otherwise, if this item is a star
 		else if (sprite_index == spr_starman)
-			global.inventory[global.inventory[0]] = cs_starman;
+			global.inventory[global.inventory[0]] = sprite_get_macro(spr_starman)
 			
 		//Otherwise, if this item is a p-wing
 		else if (sprite_index == spr_pwing)
-			global.inventory[global.inventory[0]] = cs_pwing;
+			global.inventory[global.inventory[0]] = sprite_get_macro(spr_pwing);
 			
 		//Otherwise, add a normal powerup
 		else {
