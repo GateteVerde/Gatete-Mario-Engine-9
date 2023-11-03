@@ -25,7 +25,7 @@ if (instance_exists(owner)) {
 				draw_sprite_ext(sprite_index, image_index, screen_round(x), screen_round(y)+1, image_xscale*-1, 1, image_angle, c_white, image_alpha);
 			else {
 				
-				//If somersaulting, do not draw
+				//If Mario is somersaulting, do not draw
 				if (owner.somersault == 0) {
 					
 					//If the player is climbing
@@ -36,8 +36,12 @@ if (instance_exists(owner)) {
 						else
 							draw_sprite_ext(sprite_index, 0, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, 1);
 					}		
-					else
-						draw_sprite_ext(sprite_index, image_index, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, image_alpha);
+					else {
+						
+						//If Mario is not doing a groundpound
+						if (owner.groundpound != 1)
+							draw_sprite_ext(sprite_index, image_index, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, image_alpha);
+					}
 				}
 			}
 		}
