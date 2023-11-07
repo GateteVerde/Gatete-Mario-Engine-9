@@ -3,7 +3,7 @@
 function index_powerups() {
 
 	//How many power-ups to create (the "i" created will match the enum through powerup_get_name)
-	var powerup_count = 31;
+	var powerup_count = 33;
 	
 	//Temporary variable
 	var resource = noone;

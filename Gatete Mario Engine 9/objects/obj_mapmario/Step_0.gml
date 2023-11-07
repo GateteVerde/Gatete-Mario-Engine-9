@@ -65,8 +65,8 @@ if (status == mapstate.idle)
 			
 			#region DEBUG KEYS
 			
-				//Open adyacent paths
-				if (input_check_pressed(input.action_1))
+				//Open adyacent paths (Do disable this on your game)
+				if (input_check_pressed(vk_backspace))
 					event_user(15);
 				
 			#endregion
@@ -156,7 +156,7 @@ if (status == mapstate.idle)
 			
 			//Change player
 			if (status == mapstate.idle)
-			&& (input_check_pressed(input.select)) {
+			&& (input_check_pressed(input.action_1)) {
 			
 				//Play 'Open Path' sound
 				audio_play_sound(snd_pathreveal, 0, false);
