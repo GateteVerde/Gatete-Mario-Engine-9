@@ -29,6 +29,7 @@ if (sprout != cs_coin)
 	
 	//Otherwise, if there's a powerup inside
 	else if ((sprout > cs_big) && (sprout < cs_mega))
+	&& (sprout != cs_starman)
 	&& (sprout != cs_tiny)
 	&& (global.hp_mode == 0)
 	&& ((global.powerup == cs_tiny) || (global.powerup == cs_small))
