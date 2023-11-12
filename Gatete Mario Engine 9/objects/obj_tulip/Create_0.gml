@@ -1,5 +1,8 @@
 /// @description Displays a message
 
+//Set the depth
+depth = -2;
+
 //Is the message showing
 showing = 0;
 

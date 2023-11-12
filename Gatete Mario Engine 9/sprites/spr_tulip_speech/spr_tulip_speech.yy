@@ -14,7 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c84c9101-88aa-4b76-b95e-78db35d9595e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6e5e218-83ba-4083-bec0-4029ef33c260",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3e9893a-ca79-4095-a0fe-86e83f11c20a",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -79,7 +79,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c84c9101-88aa-4b76-b95e-78db35d9595e","path":"sprites/spr_tulip_speech/spr_tulip_speech.yy",},},},"Disabled":false,"id":"5264493b-843b-4d93-a927-741bca4d4ab0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f6e5e218-83ba-4083-bec0-4029ef33c260","path":"sprites/spr_tulip_speech/spr_tulip_speech.yy",},},},"Disabled":false,"id":"b5acbf78-7ac5-4433-9e14-358264c379f7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d3e9893a-ca79-4095-a0fe-86e83f11c20a","path":"sprites/spr_tulip_speech/spr_tulip_speech.yy",},},},"Disabled":false,"id":"691724d9-9f5d-45ed-ac4d-ace69dcf0381","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

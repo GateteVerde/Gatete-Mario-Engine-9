@@ -128,7 +128,7 @@
     {"lower":9647,"upper":9647,},
   ],
   "regenerateBitmap": false,
-  "sampleText": "This font is meant to be used only with the Talking Tulip, do not remove!",
+  "sampleText": "This font should be used only with the Talking Flowers",
   "sdfSpread": 8,
   "size": 12.0,
   "styleName": "Medium",

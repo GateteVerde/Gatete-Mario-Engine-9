@@ -16,7 +16,7 @@ if (mario)
 	
 		//Sink it
 		sink = 1;
-		vspeed = 1;
+		vspeed = 2;
 	}
 }
 else {

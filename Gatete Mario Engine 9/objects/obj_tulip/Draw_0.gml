@@ -10,9 +10,9 @@ if (showing > 0) {
 	//Get width of the string
 	var _stub_width = ((4 * string_length(string(varmsg))) + 4) * (1 / sprite_get_width(spr_tulip_speech));
 	
-	//Draw box
+	//Draw balloon
 	draw_sprite_ext(spr_tulip_speech, 0, screen_round(x) + (sprite_width / 2), screen_round(y) - 11, _stub_width * 1.1, 1, 0, c_white, showing);
-	draw_sprite_ext(spr_tulip_speech, 1, screen_round(x) + (sprite_width / 2), screen_round(y) - 4, 1, 1, 0, c_white, showing);
+	draw_sprite_ext(spr_tulip_speech, 1, screen_round(x) + (sprite_width / 2) - 1, screen_round(y) - 4, 1, 1, 0, c_white, showing);
 	
 	//Align text
 	draw_set_halign(fa_center);
