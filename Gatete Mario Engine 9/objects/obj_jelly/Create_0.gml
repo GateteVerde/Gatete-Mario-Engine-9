@@ -1,5 +1,8 @@
 /// @description Mushroom Jelly
 
+//Parent
+parent = noone;
+
 //Whether this object is frozen
 freeze = false;
 
