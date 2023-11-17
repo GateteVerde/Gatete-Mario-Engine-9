@@ -1,5 +1,8 @@
 /// @description Seesaw Platform
 
+//Parent
+parent = noone;
+
 //Slide increment
 add = 0;
 

@@ -37,9 +37,11 @@
         "1",
         "2",
         "3",
+        "4",
       ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":6,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"height","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":16.0,"rangeMin":4.0,"value":"64","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"inverted","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"length","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"value":"1","varType":1,},
   ],
   "solid": false,
   "spriteId": {

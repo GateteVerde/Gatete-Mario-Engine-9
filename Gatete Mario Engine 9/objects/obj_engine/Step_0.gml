@@ -186,15 +186,15 @@
 	}
 
 	//If the platform is outside the view
-	if (x < camera_get_view_x(view_camera[0])-16)
-	|| (y < camera_get_view_y(view_camera[0])-(height * 16) + 16)
-	|| (x > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]))
-	|| (y > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])) {
+	if (x < camera_get_view_x(view_camera[0])-128)
+	|| (y < camera_get_view_y(view_camera[0])-(height * 16) - 128)
+	|| (x > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]) + 128)
+	|| (y > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0]) + 128) {
 
-	    if (xstart < camera_get_view_x(view_camera[0])-16)
-	    || (ystart < camera_get_view_y(view_camera[0])-(height * 16) + 16)
-	    || (xstart > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]))
-	    || (ystart > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])) {
+	    if (xstart < camera_get_view_x(view_camera[0])-128)
+	    || (ystart < camera_get_view_y(view_camera[0])-(height * 16) - 128)
+	    || (xstart > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]) + 128)
+	    || (ystart > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0]) + 128) {
 		
 			//Reset state
 			state = "IDLE";
@@ -210,6 +210,17 @@
 		
 			//Move it
 			alarm[10] = 2;
+			
+			//If the gizmo is the seesaw
+			if (gizmo == 4) {
+			
+				with (part) {
+					
+					image_angle = 0;
+					angle = 0;
+					angle_speed = 0;
+				}
+			}
 	    }        
 	}
 #endregion
@@ -246,5 +257,12 @@ if (part != noone) {
 	
 		part.x = x-16;
 		part.y = y-4;
+	}
+	
+	//Otherwise, if the gizmo is a seesaw platform
+	else if (gizmo == 4) {
+	
+		part.x = x+8;
+		part.y = y+8;
 	}
 }
