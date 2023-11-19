@@ -2898,6 +2898,7 @@
     {"id":{"name":"spr_gui_mario","path":"sprites/spr_gui_mario/spr_gui_mario.yy",},},
     {"id":{"name":"spr_billygun_bullet","path":"sprites/spr_billygun_bullet/spr_billygun_bullet.yy",},},
     {"id":{"name":"spr_mario_frog_climb","path":"sprites/spr_mario_frog_climb/spr_mario_frog_climb.yy",},},
+    {"id":{"name":"spr_platform_seesaw_engine","path":"sprites/spr_platform_seesaw_engine/spr_platform_seesaw_engine.yy",},},
     {"id":{"name":"spr_mario_tanooki_clear","path":"sprites/spr_mario_tanooki_clear/spr_mario_tanooki_clear.yy",},},
     {"id":{"name":"spr_toadhouse_dig","path":"sprites/spr_toadhouse_dig/spr_toadhouse_dig.yy",},},
     {"id":{"name":"spr_yoshi_jump","path":"sprites/spr_yoshi_jump/spr_yoshi_jump.yy",},},

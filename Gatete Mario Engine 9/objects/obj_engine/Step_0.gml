@@ -263,6 +263,6 @@ if (part != noone) {
 	else if (gizmo == 4) {
 	
 		part.x = x+8;
-		part.y = y+8;
+		part.y = y+4;
 	}
 }

@@ -13,30 +13,6 @@ if (gizmo == 0) {
 			image_yscale = (other.height*16) / 2;
 		}
 	}
-			
-	//Set up direction based on modifier
-	if (place_meeting(x, y, obj_up)) {
-
-		direct = 90;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_down)) {
-
-		direct = 270;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_left)) {
-
-		direct = 180;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_right)) {
-
-		direct = 0;
-		state = "IN_LINE";
-	}
-	else
-		direct = 0;
 }
 
 //Otherwise, if the gizmo chosen is the pole
@@ -52,30 +28,6 @@ else if (gizmo == 1) {
 			image_yscale = (other.height/16) / 2;
 		}
 	}
-
-	//Set up direction based on modifier
-	if (place_meeting(x, y, obj_up)) {
-
-		direct = 90;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_down)) {
-
-		direct = 270;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_left)) {
-
-		direct = 180;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_right)) {
-
-		direct = 0;
-		state = "IN_LINE";
-	}
-	else
-		direct = 0;
 }
 	
 //Otherwise, if the gizmo chosen is the sawblade
@@ -129,30 +81,6 @@ else if (gizmo == 3) {
 			parent = other.id;
 		}
 	}
-
-	//Set up direction based on modifier
-	if (place_meeting(x, y, obj_up)) {
-
-		direct = 90;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_down)) {
-
-		direct = 270;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_left)) {
-
-		direct = 180;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_right)) {
-
-		direct = 0;
-		state = "IN_LINE";
-	}
-	else
-		direct = 0;	
 }
 
 //Otherwise, if the gizmo chosen is the See Saw platform
@@ -161,35 +89,45 @@ else if (gizmo == 4) {
 	//If the part does not exist
 	if (part == noone) {
 		
-		part = instance_create_depth(x+8, y+8, depth + 1, obj_platform_seesaw);
+		part = instance_create_depth(x+8, y+4, depth + 1, obj_platform_seesaw);
 		with (part) {
 		
+			sprite_index = spr_platform_seesaw_engine;
 			parent = other.id;
 			image_xscale = 1 + (other.length/3);
 		}
 	}
-
-	//Set up direction based on modifier
-	if (place_meeting(x, y, obj_up)) {
-
-		direct = 90;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_down)) {
-
-		direct = 270;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_left)) {
-
-		direct = 180;
-		state = "IN_LINE";
-	}
-	else if (place_meeting(x, y, obj_right)) {
-
-		direct = 0;
-		state = "IN_LINE";
-	}
-	else
-		direct = 0;	
 }
+
+//Movement
+#region MOVEMENT
+
+	//If the gizmo chosen is not the sawblade
+	if (gizmo != 2) {
+			
+		//Set up direction based on modifier
+		if (place_meeting(x, y, obj_up)) {
+
+			direct = 90;
+			state = "IN_LINE";
+		}
+		else if (place_meeting(x, y, obj_down)) {
+
+			direct = 270;
+			state = "IN_LINE";
+		}
+		else if (place_meeting(x, y, obj_left)) {
+
+			direct = 180;
+			state = "IN_LINE";
+		}
+		else if (place_meeting(x, y, obj_right)) {
+
+			direct = 0;
+			state = "IN_LINE";
+		}
+		else
+			direct = 0;
+	}
+		
+#endregion
