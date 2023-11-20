@@ -1,6 +1,7 @@
 /// @func screen_ceil(value)
 /// @desc Ceils value to decimal that matches screen size
 /// @param {real} value What to ceil to screen
+
 function screen_ceil(value) {
 	
 	if (global.subpixels)

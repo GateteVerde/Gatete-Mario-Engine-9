@@ -89,7 +89,7 @@ if (ds_map_size(global.powerstars) > 0) {
 	#endregion
 	
 	//Do not show reserve box if Mario is on a vehicle
-	if (!instance_number(obj_mario_shmup)) {
+	if ((instance_exists(obj_levelcontrol)) && (obj_levelcontrol.shmup_mode == 0)) {
 
 		//If the reserve item system is activated
 		if (global.reserve_activated == true) {

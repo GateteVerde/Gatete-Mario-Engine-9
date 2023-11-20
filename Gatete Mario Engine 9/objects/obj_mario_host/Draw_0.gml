@@ -16,8 +16,8 @@ if (global.mount == 1) {
 	
 	#endregion
 
-	//Set up the shader
-	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
+	//Set up the palette
+	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star, global.palette[global.player].mega);
 				
 	//Draw Mario
 	draw_sprite_ext(global.ride_sprite[global.powerup], 0, screen_round(xstart), screen_round(ystart)+1, 1, 1, 0, c_white, 1);
@@ -35,6 +35,10 @@ if (global.mount == 1) {
 //Otherwise
 else {
 	
+	//Set up the palette
+	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star, global.palette[global.player].mega);
+	
+	//Render sprite
 	if (ready == 0) {
 		
 		//Draw the cape
@@ -59,4 +63,7 @@ else {
 			draw_sprite_ext(spr_cape_climb, 0, screen_round(xstart), screen_round(ystart)+1, 1, 1, 0, c_white, 1);
 		}
 	}
+	
+	//Reset shader
+	pal_swap_reset();
 }

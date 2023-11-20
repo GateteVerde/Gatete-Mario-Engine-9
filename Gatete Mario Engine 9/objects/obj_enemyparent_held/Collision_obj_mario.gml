@@ -71,8 +71,8 @@ if ((other.sliding) || ((global.powerup == cs_football) && (other.run == true)))
     with (instance_create_depth(round(bbox_left + bbox_right) / 2, round(bbox_top + bbox_bottom)/2, -6, obj_smoke)) sprite_index = spr_spinthump;
                 
     //Increment hitcombo but only when sliding
-    other.hitcombo++;
-		
+	other.hitcombo++;
+
 	//Reset if dashing thru as Football Mario
 	if ((global.powerup == cs_football) && (other.run))
 		other.hitcombo = 0;
@@ -183,7 +183,7 @@ else {
 				            value = 8000;
 				    }
 				    else if (other.hitcombo > 6) { //1-UP
-    
+						
 				        audio_play_sound(snd_kick, 0, false);
 				        with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
 				            value = -1;

@@ -28,8 +28,21 @@ instance_activate_object(obj_lightcontrol);
 //Stay always at the front
 depth = -1000;
 
+//Resets combos if enabled
+#region
+
+	with (all) {
+	
+		//If the combo is higher
+		if (variable_instance_exists(id, "hitcombo"))
+		&& (hitcombo > 7)
+		&& (global.combo_reset == true)
+			hitcombo = 0;
+	}
+#endregion
+
 //Music Pitch / Pause
-#region MUSIC PITCH
+#region
 
 	//If the level controller exists, set pitch to default.
 	if (instance_exists(obj_mapcontrol))

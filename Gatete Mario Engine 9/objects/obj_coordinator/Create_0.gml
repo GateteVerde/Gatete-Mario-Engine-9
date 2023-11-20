@@ -34,18 +34,23 @@ init_shockwave();
 	//HP / Maximum Health (Sets the maximum hitpoints for Mario if health mode is active)
 	global.hp = 3;
 	global.hp_max = 3;
+	
+	//Resets combo when getting a 1-UP (Default: false)
+	//false: Disabled
+	//true: Enabled
+	global.combo_reset = false;
 
-	//Turn enemies into coins when hit with a fireball
-	//0: Disabled
-	//1: Enabled
+	//Turn enemies into coins when hit with a fireball (Default: false)
+	//false: Disabled
+	//true: Enabled
 	global.enemy_to_coin = false;
 	
-	//Makes Mario able or not able to perform his 3D moves (Wall-Jump, Triple Jump, etc...)
-	//0: Disabled
-	//1: Enabled
+	//Makes Mario able or not able to perform his 3D moves (Default: true)
+	//false: Disabled
+	//true: Enabled
 	global.special_moves = true;
 
-	//Makes Mario bounce on note blocks from any side
+	//Makes Mario bounce on white note blocks from any side (Default: false)
 	global.noteblock_all_sides = false;
 
 	//Flight time (In seconds, how much time allow Mario to fly as Raccoon/Tanooki Mario)
@@ -57,9 +62,9 @@ init_shockwave();
 	//Maximum amount of hearts (Overridden if health mode is activated)
 	global.safeguard_max = 3;
 
-	//Allow reserve of items if enabled
-	//0: Disabled
-	//1: Enabled
+	//Allow reserve of items if enabled (Default: true)
+	//false: Disabled
+	//true: Enabled
 	global.reserve_activated = true;
 
 	//Play P-meter sound?
@@ -241,7 +246,7 @@ init_shockwave();
 		
 		//Start / Select
 		start,
-		select,
+		select
 	}
 	
 #endregion
