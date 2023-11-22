@@ -2612,6 +2612,7 @@
     {"id":{"name":"spr_roulette_b","path":"sprites/spr_roulette_b/spr_roulette_b.yy",},},
     {"id":{"name":"spr_luigi_ranger_kick","path":"sprites/spr_luigi_ranger_kick/spr_luigi_ranger_kick.yy",},},
     {"id":{"name":"spr_gui_cardbox","path":"sprites/spr_gui_cardbox/spr_gui_cardbox.yy",},},
+    {"id":{"name":"spr_bgr_icehills","path":"sprites/spr_bgr_icehills/spr_bgr_icehills.yy",},},
     {"id":{"name":"spr_luigi_powerup","path":"sprites/spr_luigi_powerup/spr_luigi_powerup.yy",},},
     {"id":{"name":"obj_mario_wallrunner","path":"objects/obj_mario_wallrunner/obj_mario_wallrunner.yy",},},
     {"id":{"name":"spr_marker_galoomba","path":"sprites/spr_marker_galoomba/spr_marker_galoomba.yy",},},

@@ -2,6 +2,7 @@
 
 //If the prize appeared
 if (ready == 1) 
+&& (visible == true)
 && (sprite_index == spr_chest_small) {
     
     //Return to the world map later
