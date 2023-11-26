@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Decoration",
-    "path": "folders/Objects/Decoration.yy",
+    "name": "Pipes",
+    "path": "folders/Objects/Decoration/Pipes.yy",
   },
   "parentObjectId": {
     "name": "obj_solid",

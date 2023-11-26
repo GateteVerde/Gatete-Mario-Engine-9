@@ -48,8 +48,8 @@
   },
   "origin": 4,
   "parent": {
-    "name": "Decoration",
-    "path": "folders/Sprites/Decoration.yy",
+    "name": "Pipes",
+    "path": "folders/Sprites/Decoration/Pipes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

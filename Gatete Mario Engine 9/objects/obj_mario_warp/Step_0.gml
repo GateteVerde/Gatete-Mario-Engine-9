@@ -58,18 +58,54 @@ if (ready == 1) {
 
 //If the player can move
 if ((canmove == 1) && (cannon < 2)) {
-    
-    //Set speed
-    if ((direction == 90) || (direction == 270)) {
+	
+	//If there's solid on all four sides
+	if (collision_point(x-8, bbox_top, obj_solid, 0, 0))
+	&& (collision_point(x+7, bbox_top, obj_solid, 0, 0))
+	&& (collision_point(x-8, bbox_bottom, obj_solid, 0, 0))
+	&& (collision_point(x+7, bbox_bottom, obj_solid, 0, 0)) {
 		
-		//If Mario is in cannon mode and moving up
-		if ((cannon >= 1) && (vspeed < 0))
-			speed = 4;
-		else
-			speed = 1;
+		speed = 3;
+		if (visible)
+			visible = false;
 	}
-    else
-        speed = 0.5;
+		
+	//Otherwise
+	else {
+		
+		#region PLAY SOUND
+		
+			//If Mario is about to exit this pipe 
+			if (ready2 == 1) {
+		
+				//Play 'Warp' sound
+				audio_play_sound(snd_warp, 0, false);
+			
+				//Allow exit
+				ready2 = 2;
+			}		
+		#endregion
+    
+	    //Set speed
+	    if ((direction == 90) || (direction == 270)) {
+		
+			//If Mario is in cannon mode and moving up
+			if ((cannon >= 1) && (vspeed < 0))
+				speed = 4;
+			else {
+				
+				speed = 1;
+				if (!visible)	
+					visible = true;
+			}
+		}
+	    else {
+			
+			speed = 0.5;
+			if (!visible)
+				visible = true;
+		}
+	}
 }
 
 //Set facing direction

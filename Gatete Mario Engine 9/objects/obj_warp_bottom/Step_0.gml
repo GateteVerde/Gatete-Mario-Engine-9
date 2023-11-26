@@ -41,10 +41,7 @@ if (global.powerup != cs_mega) {
 	            warpme.direction = 90;
             
 	            //Set up destination room
-	            if (destination != noone) {
-            
-	                warpme.destination = destination;
-	            }
+				warpme.destination = (destination == noone) ? noone : destination;
             
 	            //Start warp
 				#region
@@ -56,16 +53,20 @@ if (global.powerup != cs_mega) {
 					if (global.powerup == cs_tiny) {
 						
 						warpme.y -= 8;
-						warpme.alarm[2] = 8;
+						if (destination != noone)
+							warpme.alarm[2] = 8;
 					}
 					
 					//Otherwise, if Mario is small
-					else if (global.powerup == cs_small)				
-						warpme.alarm[2] = 16;
+					else if (global.powerup == cs_small) {
+					
+						if (destination != noone)
+							warpme.alarm[2] = 16;
+					}
 						
 					//Otherwise, if Mario is big or it's riding a Yoshi
-					else if ((global.powerup > cs_small) || (global.mount > 0))					
-						warpme.y += 16;
+					else if ((global.powerup > cs_small) || (global.mount > 0))
+						warpme.y += 11;
 					
 				#endregion
             

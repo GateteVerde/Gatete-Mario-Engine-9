@@ -11,6 +11,7 @@ cannon = 0;
 
 //Whether the player can exit the pipe
 ready = 0;
+ready2 = 0;
 
 //Whether the player can move
 canmove = 1;
