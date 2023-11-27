@@ -34,10 +34,10 @@ cape_anim += 0.065+abs(hspeed)/7.5;
 if (ready == 1) {
 
     //If there's not a solid overlapping
-    if (!collision_point(x-8, bbox_top, obj_solid, 0, 0))
-    && (!collision_point(x+7, bbox_top, obj_solid, 0, 0))
-    && (!collision_point(x-8, bbox_bottom, obj_solid, 0, 0))
-    && (!collision_point(x+7, bbox_bottom, obj_solid, 0, 0)) {
+    if (!collision_point(bbox_left, bbox_top, obj_solid, 0, 0))
+    && (!collision_point(bbox_right, bbox_top, obj_solid, 0, 0))
+    && (!collision_point(bbox_left, bbox_bottom, obj_solid, 0, 0))
+    && (!collision_point(bbox_right, bbox_bottom, obj_solid, 0, 0)) {
     
         //Create a new player object...
         with (instance_create_depth(x, y, -5, obj_mario)) {
@@ -60,10 +60,10 @@ if (ready == 1) {
 if ((canmove == 1) && (cannon < 2)) {
 	
 	//If there's solid on all four sides
-	if (collision_point(x-8, bbox_top, obj_solid, 0, 0))
-	&& (collision_point(x+7, bbox_top, obj_solid, 0, 0))
-	&& (collision_point(x-8, bbox_bottom, obj_solid, 0, 0))
-	&& (collision_point(x+7, bbox_bottom, obj_solid, 0, 0)) {
+	if (collision_point(bbox_left, bbox_top, obj_solid, 0, 0))
+	&& (collision_point(bbox_right, bbox_top, obj_solid, 0, 0))
+	&& (collision_point(bbox_left, bbox_bottom, obj_solid, 0, 0))
+	&& (collision_point(bbox_right, bbox_bottom, obj_solid, 0, 0)) {
 		
 		speed = 3;
 		if (visible)

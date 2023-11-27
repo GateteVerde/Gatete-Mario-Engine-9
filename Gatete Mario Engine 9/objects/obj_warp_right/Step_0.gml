@@ -26,8 +26,11 @@ if (global.powerup != cs_mega) {
 	            //Play 'Warp' sound
 	            audio_play_sound(snd_warp, 0, false);
         
+	            //Set Y based on powerup
+				var myy = (global.powerup == cs_tiny) ? 8 : 16;
+				
 	            //Create a new warp player object
-	            warpme = instance_create_depth(x + 21, y+16, 150, obj_mario_warp);
+	            warpme = instance_create_depth(x + 21, y + myy, 150, obj_mario_warp);
             
 	            //Facing direction
 	            warpme.image_xscale = player.xscale;

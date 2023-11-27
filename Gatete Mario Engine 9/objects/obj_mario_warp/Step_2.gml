@@ -23,3 +23,14 @@ else {
     else
         sprite_index = global.hold_sprite[global.powerup];
 }
+
+//Set the mask
+if (global.powerup == cs_tiny)
+	mask_index = spr_mask_mario_tiny;
+else {
+
+	if (global.powerup == cs_small)
+		mask_index = spr_mask_mario;
+	else
+		mask_index = spr_mask_mario_big;
+}
