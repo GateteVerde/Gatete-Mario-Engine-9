@@ -27,7 +27,7 @@ if (global.powerup != cs_mega) {
 	            audio_play_sound(snd_warp, 0, false);
 				
 				//Set Y based on powerup
-				var myy = (global.powerup == cs_tiny) ? 8 : 16;
+				var myy = ((global.powerup == cs_tiny) && (mini == true)) ? 8 : 16;
 				
 	            //Create a new warp player object
 	            warpme = instance_create_depth(x - 5, y + myy, 150, obj_mario_warp);
