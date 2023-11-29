@@ -67,5 +67,8 @@ if (sprite_index > -1) {
 pal_swap_reset();
 
 //Draw the mask currently used
-if (debug_mode)
+if (debug_mode) {
+	
 	draw_sprite(mask_index, -1, screen_round(x), screen_round(y));
+	draw_text(x-4, bbox_top - 16, string(jumping) + ", " + string(yspeed));
+}
