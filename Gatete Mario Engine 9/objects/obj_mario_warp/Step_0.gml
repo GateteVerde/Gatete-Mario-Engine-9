@@ -88,16 +88,15 @@ if ((canmove == 1) && (cannon < 2)) {
     
 	    //Set speed
 	    if ((direction == 90) || (direction == 270)) {
+			
+			//Always visible
+			visible = true;
 		
 			//If Mario is in cannon mode and moving up
 			if ((cannon >= 1) && (vspeed < 0))
 				speed = 4;
-			else {
-				
+			else
 				speed = 1;
-				if (!visible)	
-					visible = true;
-			}
 		}
 	    else {
 			
