@@ -30,6 +30,7 @@ if (global.powerup != cs_mega) {
             
 	            //Set up direction
 	            warpme.direction = 270;
+				warpme.speed = 1;
 				
 				//Set cannon mode
 				warpme.cannon = (self.camlock == 1) ? 2 : 1;
