@@ -11,6 +11,9 @@ with (instance_create_depth(x, y, -2, obj_shell)) {
     
     //Hereby flip state
     flip = other.flip;
+	
+	//Force shell mode
+	is_shell = 1;
 }
 
 //Destroy
