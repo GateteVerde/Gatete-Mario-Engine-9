@@ -1,8 +1,8 @@
 /// @description Manage menu choices and unpause
 
 //Get key inputs
-var _up		= input_check_pressed(input.up) || gamepad_axis_value(0, gp_axislv) < 0;
-var _down	= input_check_pressed(input.down) || gamepad_axis_value(0, gp_axislv) > 0;
+var _up		= input_check_pressed(input.up);
+var _down	= input_check_pressed(input.down);
 var _select = input_check_pressed(input.action_0);
 var _pause  = input_check_pressed(input.start);
 
