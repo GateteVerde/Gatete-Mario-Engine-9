@@ -1228,7 +1228,7 @@
     {"name":"spr_powerstar_get","order":6,"path":"sprites/spr_powerstar_get/spr_powerstar_get.yy",},
     {"name":"obj_pipe_corner_mini_dr","order":4,"path":"objects/obj_pipe_corner_mini_dr/obj_pipe_corner_mini_dr.yy",},
     {"name":"spr_jar","order":4,"path":"sprites/spr_jar/spr_jar.yy",},
-    {"name":"spr_mask_oneway1026","order":6,"path":"sprites/spr_mask_oneway1026/spr_mask_oneway1026.yy",},
+    {"name":"spr_mask_yoshi_tongue","order":6,"path":"sprites/spr_mask_yoshi_tongue/spr_mask_yoshi_tongue.yy",},
     {"name":"index_powerups","order":5,"path":"scripts/index_powerups/index_powerups.yy",},
     {"name":"spr_mario_beetroot_run","order":2,"path":"sprites/spr_mario_beetroot_run/spr_mario_beetroot_run.yy",},
     {"name":"spr_shoe_pentaro","order":4,"path":"sprites/spr_shoe_pentaro/spr_shoe_pentaro.yy",},

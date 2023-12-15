@@ -1508,7 +1508,7 @@
     {"id":{"name":"obj_pipe_corner_mini_dr","path":"objects/obj_pipe_corner_mini_dr/obj_pipe_corner_mini_dr.yy",},},
     {"id":{"name":"spr_jar","path":"sprites/spr_jar/spr_jar.yy",},},
     {"id":{"name":"spr_mario_grow","path":"sprites/spr_mario_grow/spr_mario_grow.yy",},},
-    {"id":{"name":"spr_mask_oneway1026","path":"sprites/spr_mask_oneway1026/spr_mask_oneway1026.yy",},},
+    {"id":{"name":"spr_mask_yoshi_tongue","path":"sprites/spr_mask_yoshi_tongue/spr_mask_yoshi_tongue.yy",},},
     {"id":{"name":"index_powerups","path":"scripts/index_powerups/index_powerups.yy",},},
     {"id":{"name":"spr_mario_beetroot_run","path":"sprites/spr_mario_beetroot_run/spr_mario_beetroot_run.yy",},},
     {"id":{"name":"spr_shoe_pentaro","path":"sprites/spr_shoe_pentaro/spr_shoe_pentaro.yy",},},

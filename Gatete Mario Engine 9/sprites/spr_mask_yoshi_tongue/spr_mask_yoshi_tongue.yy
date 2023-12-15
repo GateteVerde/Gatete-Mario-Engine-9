@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_mask_oneway1026",
-  "bbox_bottom": 31,
-  "bbox_left": 29,
-  "bbox_right": 31,
+  "name": "spr_mask_yoshi_tongue",
+  "bbox_bottom": 9,
+  "bbox_left": 0,
+  "bbox_right": 9,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,13 +17,13 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 10,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"39ed9aa6-2bef-4f87-b486-b2f3c2dc477f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Items",
     "path": "folders/Sprites/Masks/Items.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_mask_oneway",
+    "name": "spr_mask_yoshi_tongue",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b284562-ad5e-417d-9ba8-dc686e0ac163","path":"sprites/spr_mask_oneway1026/spr_mask_oneway1026.yy",},},},"Disabled":false,"id":"8f4b7b38-f066-4bd1-b26c-bf36a0260cb4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b284562-ad5e-417d-9ba8-dc686e0ac163","path":"sprites/spr_mask_yoshi_tongue/spr_mask_yoshi_tongue.yy",},},},"Disabled":false,"id":"8f4b7b38-f066-4bd1-b26c-bf36a0260cb4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 16,
-    "yorigin": 16,
+    "xorigin": 1,
+    "yorigin": 1,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 10,
 }
