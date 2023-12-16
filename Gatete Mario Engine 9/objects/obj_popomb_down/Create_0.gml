@@ -1,13 +1,14 @@
-/// @description Bob-omb
+/// @description Stunned Pop-Omb
 
 //Inherit the parent event
 event_inherited();
 
+//Do not animate
+image_speed = 0;
+image_index = 0;
+
 //How vulnerable is this enemy to various items?
 vulnerable = 1;
 
-//Turn on ledges
-turn_on_ledges = 1;
-
-//Move towards Mario
-alarm[10] = 2;
+//Palette
+pal = 0;

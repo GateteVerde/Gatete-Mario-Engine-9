@@ -1,4 +1,4 @@
-/// @description Bob-omb
+/// @description Pop-Omb
 
 //Inherit the parent event
 event_inherited();

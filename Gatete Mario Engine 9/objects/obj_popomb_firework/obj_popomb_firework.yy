@@ -1,22 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bobomb",
+  "name": "obj_popomb_firework",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":14,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Airship",
-    "path": "folders/Objects/Enemies/Airship.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Enemies/Airship.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemyparent_deact",
-    "path": "objects/obj_enemyparent_deact/obj_enemyparent_deact.yy",
+    "name": "obj_physicsparent",
+    "path": "objects/obj_physicsparent/obj_physicsparent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -34,12 +32,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bobomb",
-    "path": "sprites/spr_bobomb/spr_bobomb.yy",
+    "name": "spr_popomb_firework",
+    "path": "sprites/spr_popomb_firework/spr_popomb_firework.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_mask_npc_common_16x16",
-    "path": "sprites/spr_mask_npc_common_16x16/spr_mask_npc_common_16x16.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
