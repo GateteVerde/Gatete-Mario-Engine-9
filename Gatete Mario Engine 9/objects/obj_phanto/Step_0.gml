@@ -19,11 +19,12 @@ if (ready == 0) {
         //Get triggered
         ready = 1;
 		
-		//Play 'Door' sound
-		audio_play_sound(snd_door, 0, false);
+		//Play 'Phanto' sound
+		alarm[1] = 45;
         
         //Begin chase
         alarm[2] = 90;
+		alarm[3] = 1;
     }
 }
 
