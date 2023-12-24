@@ -7,13 +7,13 @@ audio_play_sound(snd_switch, 0, false);
 with (obj_levelcontrol) {
     
     //Reset warning
-    pswitch_warn = 0;
+    gswitch_warn = 0;
         
     //Restart timer
-    alarm[5] = 60 * other.time;
+    alarm[6] = 60 * other.time;
         
     //Activate p-switch effect
-	event_user(5);
+	event_user(6);
 }
 
 //Stop moving

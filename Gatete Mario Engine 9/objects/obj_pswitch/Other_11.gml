@@ -22,7 +22,7 @@ if (sprite_index == spr_pswitch) {
         pswitch_warn = 0;
         
         //Restart timer
-        alarm[5] = 800;
+        alarm[5] = 840;
         
         //Activate p-switch effect
         event_user(5);

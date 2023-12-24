@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_pswitchblock",
+  "name": "obj_gswitchblock",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
   ],
@@ -33,8 +33,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_pswitchblock",
-    "path": "sprites/spr_pswitchblock/spr_pswitchblock.yy",
+    "name": "spr_gswitchblock",
+    "path": "sprites/spr_gswitchblock/spr_gswitchblock.yy",
   },
   "spriteMaskId": null,
   "visible": true,
