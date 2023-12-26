@@ -10,7 +10,7 @@ if (yspeed < 0) {
     with (instance_create_depth(x+random_range(-4, 4), y+12, 175, obj_smoke)) {
 		
 		//Set the sprite
-		sprite_index = spr_podoboo_trail;
+		sprite_index = (obj_levelcontrol.lava_palette > 0) ? spr_podoboo_alt_trail : spr_podoboo_trail;
     
         //Set the gravity
         gravity = 0.4;

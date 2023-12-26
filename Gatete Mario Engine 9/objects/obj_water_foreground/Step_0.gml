@@ -27,7 +27,7 @@ if (vspeed != 0) {
 	water.y = y + 4;
 	
 	//Set the water height
-	water.image_yscale = room_height / 16
+	water.image_yscale = y + 4 - (room_height / 16);
 #endregion
 
 //Check for Mario

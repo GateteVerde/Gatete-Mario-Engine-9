@@ -62,3 +62,7 @@ else if (yspeed > 0) {
 	if (yspeed > 6)
 		yspeed = 6;
 }
+
+//Set alternative sprite
+if (obj_levelcontrol.lava_palette > 0)
+	sprite_index = spr_podoboo_alt;
