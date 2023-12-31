@@ -65,19 +65,32 @@ if (ds_map_size(global.powerstars) > 0) {
 		if (global.hp_mode == 1) {
 			
 			//If Mario has the tiny powerup
-			if (global.powerup == cs_tiny)
-				frame = 6;
+			if (global.powerup == cs_tiny) {
+			
+				//If there's no HP left
+				if (global.hp == 0)
+					frame = 1;
+				else
+					frame = (global.reserve == cs_small) ? 8 : 9;
+			}
 					
 			//Otherwise
 			else {
-				
-				//If Mario has a powerup
-				if (global.powerup > cs_big)
-					frame = 5;
 					
-				//Otherwise
-				else
-					frame = 1 + global.hp;
+				//If there's no HP left
+				if (global.hp == 0)
+					frame = 1;
+						
+				//Otherwise, show current HP
+				else {
+						
+					if (global.hp == 1)
+						frame = (global.reserve == cs_small) ? 2 : 3;
+					else if (global.hp == 2)
+						frame = (global.reserve == cs_small) ? 4 : 5;
+					else if (global.hp == 3)
+						frame = (global.reserve == cs_small) ? 6 : 7;
+				}
 			}
 		}
 		
@@ -109,8 +122,11 @@ if (ds_map_size(global.powerstars) > 0) {
 			if (global.hp_mode == true) {
 			
 				//Draw the reserve item
-				if (global.reserve != cs_small)
-					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+				if (global.reserve != cs_small) {
+					
+					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_black, 0.5);
+					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0]) / 2) - 1, camera_get_view_y(view_camera[0]) + 15, 1, 1, 0, c_white, 1);
+				}
 			}
 		}
 	
