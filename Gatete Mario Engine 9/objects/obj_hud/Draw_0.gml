@@ -22,21 +22,17 @@ if (global.hp_mode == 1) {
 		//If Mario has 1 HP left or has the tiny mushroom, animate the health
 		if ((global.hp == 1) || (global.powerup == cs_tiny)) {
 			
+			//Increment Time
+			scale_t++;
+			
 			//Set scale
-			scale += 0.0324 * sign(scale_ready);
-			
-			//If growing
-			if ((scale_ready == 1) && (scale > 1.24))
-				scale_ready = -1;
-			
-			//Otherwise if shrinking...
-			else if ((scale_ready == -1) && (scale < 1.02))
-				scale_ready = 1;
+			scale = 1 + 0.2 * abs(sin(scale_t/24))
 		}
 		else {
 			
-			if (scale > 1)
-				scale -= 0.0324;
+			scale -= 0.1;
+			if (scale < 1)
+				scale = 1;
 		}
 
 	#endregion
@@ -105,7 +101,7 @@ if (ds_map_size(global.powerstars) > 0) {
 	if ((instance_exists(obj_levelcontrol)) && (obj_levelcontrol.shmup_mode == 0)) {
 	
 		//Draw Reserve Box
-		draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_gui_global_reserve, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
 		
 		//If the reserve item system is activated
 		if (global.reserve_activated == true) && (global.reserve != cs_small) {

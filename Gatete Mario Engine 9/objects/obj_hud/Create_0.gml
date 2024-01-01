@@ -29,4 +29,4 @@ clear = 0;
 
 //Health Meter scale
 scale = 1;
-scale_ready = 1;
+scale_t = 0;
