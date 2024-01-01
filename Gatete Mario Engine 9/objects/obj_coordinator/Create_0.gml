@@ -32,8 +32,8 @@ init_shockwave();
 	global.hp_mode = 0;
 	
 	//HP / Maximum Health (Sets the maximum hitpoints for Mario if health mode is active)
-	global.hp = 3;
-	global.hp_max = 3;
+	global.hp = 4;
+	global.hp_max = 4;
 	
 	//Resets combo when getting a 1-UP (Default: false)
 	//false: Disabled

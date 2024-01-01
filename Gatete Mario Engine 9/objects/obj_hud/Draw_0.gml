@@ -4,23 +4,68 @@
 draw_set_font(global.gui_font_numbers);
 draw_set_colour(c_white);
 
+//Lives and Coin position
+var main_x = camera_get_view_x(view_camera[0]) + 8;
+
+//Health
+if (global.hp_mode == 1) {
+	
+	//Set the position of the HUD element
+	main_x += 41;
+	
+	//Frame
+	var frame = (global.powerup == cs_tiny) ? 5 : global.hp
+	
+	//Scale
+	#region
+	
+		//If Mario has 1 HP left or has the tiny mushroom, animate the health
+		if ((global.hp == 1) || (global.powerup == cs_tiny)) {
+			
+			//Set scale
+			scale += 0.0324 * sign(scale_ready);
+			
+			//If growing
+			if ((scale_ready == 1) && (scale > 1.24))
+				scale_ready = -1;
+			
+			//Otherwise if shrinking...
+			else if ((scale_ready == -1) && (scale < 1.02))
+				scale_ready = 1;
+		}
+		else {
+			
+			if (scale > 1)
+				scale -= 0.0324;
+		}
+
+	#endregion
+	
+	//Health
+	draw_sprite_custom_origin(spr_gui_global_health, frame, camera_get_view_x(view_camera[0]) + 11, camera_get_view_y(view_camera[0]) + 11, 16, 16, scale, scale, 0, c_white, 1);
+}
+
 //Lives
-draw_sprite_ext(spr_gui_mario, global.player, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(lives, 2, 0));
+draw_sprite_ext(spr_gui_mario, global.player, main_x, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+draw_text(main_x + 33, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(lives, 2, 0));
 
 //Coins
-draw_sprite_ext(spr_gui_coins, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + 40, camera_get_view_y(view_camera[0]) + 19, string_add_zeroes(global.coins, 2));
+draw_sprite_ext(spr_gui_coins, 0, main_x + 8, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
+draw_text(main_x + 33, camera_get_view_y(view_camera[0]) + 19, string_add_zeroes(global.coins, 2));
 
 //Safeguard
 #region SAFEGUARD
 
-	var a;
-	a = 0;
-	repeat (global.safeguard) {
+	//Do not display if hp mode is on
+	if (global.hp_mode == 0) {
+		
+		var a;
+		a = 0;
+		repeat (global.safeguard) {
 	
-		draw_sprite_ext(spr_gui_heart, 0, camera_get_view_x(view_camera[0]) + (64 + a), camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-		a += 8;
+			draw_sprite_ext(spr_gui_heart, 0, camera_get_view_x(view_camera[0]) + (64 + a), camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
+			a += 8;
+		}
 	}
 #endregion
 
@@ -32,8 +77,8 @@ if (ds_map_size(global.powerstars) > 0) {
 	star_y += 11;
 	
 	//Draw the current stars
-	draw_sprite_ext(spr_gui_stars, 0, camera_get_view_x(view_camera[0]) + 8, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
-	draw_text(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 30, string_add_zeroes(ds_map_size(global.powerstars), 3));
+	draw_sprite_ext(spr_gui_stars, 0, main_x, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
+	draw_text(main_x, camera_get_view_y(view_camera[0]) + 30, string_add_zeroes(ds_map_size(global.powerstars), 3));
 }
 
 //Star Coins
@@ -42,97 +87,31 @@ if (ds_map_size(global.powerstars) > 0) {
 	if (global.level != noone) {
     
 	    //Draw the coin spot
-	    draw_sprite_ext(spr_gui_global_sc, 0, camera_get_view_x(view_camera[0]) + 8, star_y, 1, 1, 0, c_white, 1);
+	    draw_sprite_ext(spr_gui_global_sc, 0, main_x, star_y, 1, 1, 0, c_white, 1);
     
 	    //Draw the coins
 	    for (var i = 0; i < 3; i++) {
                 
 	        if (ds_map_find_value(global.sc[i], global.level) > 0)
-	            draw_sprite_ext(spr_gui_global_sc_coin, 0, camera_get_view_x(view_camera[0]) + 8 + (16*i), star_y, 1, 1, 0, c_white, 1);
+	            draw_sprite_ext(spr_gui_global_sc_coin, 0, main_x + (16*i), star_y, 1, 1, 0, c_white, 1);
 	    }
 	}
 #endregion
 
 //Reserve Box
 #region RESERVE BOX / HEALTH
-
-	#region FRAME
-		
-		//Set up variable
-		var frame;
-			
-		//If health mode is active
-		if (global.hp_mode == 1) {
-			
-			//If Mario has the tiny powerup
-			if (global.powerup == cs_tiny) {
-			
-				//If there's no HP left
-				if (global.hp == 0)
-					frame = 1;
-				else
-					frame = (global.reserve == cs_small) ? 8 : 9;
-			}
-					
-			//Otherwise
-			else {
-					
-				//If there's no HP left
-				if (global.hp == 0)
-					frame = 1;
-						
-				//Otherwise, show current HP
-				else {
-						
-					if (global.hp == 1)
-						frame = (global.reserve == cs_small) ? 2 : 3;
-					else if (global.hp == 2)
-						frame = (global.reserve == cs_small) ? 4 : 5;
-					else if (global.hp == 3)
-						frame = (global.reserve == cs_small) ? 6 : 7;
-				}
-			}
-		}
-		
-		//Otherwise
-		else {
-			
-			frame = 0;
-		}
-	#endregion
 	
 	//Do not show reserve box if Mario is on a vehicle
 	if ((instance_exists(obj_levelcontrol)) && (obj_levelcontrol.shmup_mode == 0)) {
-
-		//If the reserve item system is activated
-		if (global.reserve_activated == true) {
-			
-			//If HP Mode is not active
-			if (global.hp_mode == false) {
-			
-				//Draw the reserve item
-				if (global.reserve != cs_small)				
-					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
-			}
-
-			//Draw reserve box
-			draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
-			
-			//If HP Mode is not active
-			if (global.hp_mode == true) {
-			
-				//Draw the reserve item
-				if (global.reserve != cs_small) {
-					
-					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_black, 0.5);
-					draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0]) / 2) - 1, camera_get_view_y(view_camera[0]) + 15, 1, 1, 0, c_white, 1);
-				}
-			}
-		}
 	
-		//Otherwise
-		else
-			draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);		
+		//Draw Reserve Box
+		draw_sprite_ext(spr_gui_global_reserve, frame, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+		
+		//If the reserve item system is activated
+		if (global.reserve_activated == true) && (global.reserve != cs_small) {
+			
+			draw_sprite_ext(macro_get_sprite(global.reserve), -1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+		}
 	}
 #endregion
 

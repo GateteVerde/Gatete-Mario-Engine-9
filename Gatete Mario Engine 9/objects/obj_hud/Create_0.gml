@@ -26,3 +26,7 @@ multiplier = 50;
 
 //Displays 'Course Clear'
 clear = 0;
+
+//Health Meter scale
+scale = 1;
+scale_ready = 1;
