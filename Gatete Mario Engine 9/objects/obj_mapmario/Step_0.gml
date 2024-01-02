@@ -158,8 +158,8 @@ if (status == mapstate.idle)
 			if (status == mapstate.idle)
 			&& (input_check_pressed(input.action_1)) {
 			
-				//Play 'Open Path' sound
-				audio_play_sound(snd_pathreveal, 0, false);
+				//Play 'Character Swap' sound
+				audio_play_sound(snd_character_swap, 0, false);
 				
 				//Create 'Smoke' effect
 				instance_create_depth(x+8, y+8, -6, obj_smoke);

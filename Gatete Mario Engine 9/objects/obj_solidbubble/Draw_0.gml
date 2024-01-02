@@ -1,8 +1,11 @@
 /// @description Render me
 
+//Set colourblind sprite
+var cbspr = (obj_coordinator.colourblind == 1) ? spr_solidbubble_item_cb : spr_solidbubble_item;
+
 //If the bubble does not hold a star coin
 if (sprout != 3)
-	draw_sprite_ext(spr_solidbubble_item, sprout, screen_round(x), screen_round(y) + offset, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(cbspr, sprout, screen_round(x), screen_round(y) + offset, 1, 1, 0, c_white, 1);
 	
 //Otherwise
 else {
