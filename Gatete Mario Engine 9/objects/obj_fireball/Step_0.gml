@@ -44,8 +44,18 @@ event_inherited();
 			else
 				yadd = 0.25;
 		}
-		else {
 		
+		//Otherwise, if Luigi is being controlled
+		else {
+			
+			//If the fireball collides with a slope
+			if (collision_rectangle(bbox_left-1, bbox_top-1, bbox_right+1, bbox_bottom+1, [obj_slopeparent, obj_slopeparent_ceiling], 1, 0)) {
+			
+				event_user(0);
+				exit;
+			}
+		
+			//Stop vertical movement
 			yadd = 0;
 			if (yspeed != 0)
 				yspeed = 0;
