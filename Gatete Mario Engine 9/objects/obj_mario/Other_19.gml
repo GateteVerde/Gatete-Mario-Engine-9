@@ -110,11 +110,26 @@ throw_projectile = function() {
 	            with (instance_create_depth(x, y, -2, obj_fireball)) {
             
 					//Match the speed to the player's direction
-	                xspeed = 3*sign(other.xscale);
+					#region
+					
+						//If Mario is being controlled
+						if (global.player == 0)
+							xspeed = 3 * sign(other.xscale);
+							
+						//Otherwise, if Luigi is being controlled
+						else if (global.player == 1)
+							xspeed = (global.fireballtype == 1) ? ((other.xspeed / 2) + (3 * sign(other.xscale))) : 3 * sign(other.xscale);
+					
+					#endregion
 					
 					//Make the fireball go upwards if the player is pressing up
-	                if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
-	                    yspeed = -3;
+	                if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
+						
+						//If Luigi's fireballs are active, do not apply vertical speed
+						if ((global.player == 1) && (global.fireballtype == 1))
+						exit;
+							yspeed = -3;
+					}
 	            }
 	        }            
         
@@ -298,11 +313,26 @@ throw_projectile = function() {
 	            with (instance_create_depth(x, y-8, -2, obj_fireball_gold)) {
             
 					//Match the speed to the player's direction
-	                xspeed = 3*sign(other.xscale);
+					#region
+					
+						//If Mario is being controlled
+						if (global.player == 0)
+							xspeed = 3 * sign(other.xscale);
+							
+						//Otherwise, if Luigi is being controlled
+						else if (global.player == 1)
+							xspeed = (global.fireballtype == 1) ? ((other.xspeed / 2) + (3 * sign(other.xscale))) : 3 * sign(other.xscale);
+					
+					#endregion
 					
 					//Make the fireball go upwards if the player is pressing up
-	                if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
-	                    yspeed = -3;
+	                if ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5)) {
+						
+						//If Luigi's fireballs are active, do not apply vertical speed
+						if ((global.player == 1) && (global.fireballtype == 1))
+						exit;
+							yspeed = -3;
+					}
 	            }
 	        }    			
 	    }		
@@ -326,7 +356,7 @@ throw_projectile_spin = function() {
 				
 				//Create Fireball
 			    with (instance_create_depth(x, y, -2, obj_fireball))
-			        xspeed = 3*sign(other.dir);
+					xspeed = 3 * sign(other.dir);
 			}
 		}
 	
