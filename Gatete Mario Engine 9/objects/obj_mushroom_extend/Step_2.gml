@@ -15,7 +15,7 @@ if (player)
 	if (!check) {
     
 		//Snap the player vertically
-		player.y = ceil(bbox_top-15);
+		player.y = ceil(bbox_top-16);
 	}
 }
 

@@ -3,6 +3,9 @@
 //Inherit the parent event
 event_inherited();
 
+//Makes the object fully solid
+issolid = true;
+
 //Do not animate
 image_speed = 0;
 image_index = 0;

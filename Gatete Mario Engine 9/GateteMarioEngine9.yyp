@@ -682,6 +682,7 @@
     {"id":{"name":"spr_weaponblock_cape","path":"sprites/spr_weaponblock_cape/spr_weaponblock_cape.yy",},},
     {"id":{"name":"spr_luigi_bee_carry_jump","path":"sprites/spr_luigi_bee_carry_jump/spr_luigi_bee_carry_jump.yy",},},
     {"id":{"name":"spr_shellthump","path":"sprites/spr_shellthump/spr_shellthump.yy",},},
+    {"id":{"name":"obj_platform_accordion_dir","path":"objects/obj_platform_accordion_dir/obj_platform_accordion_dir.yy",},},
     {"id":{"name":"snd_flames","path":"sounds/snd_flames/snd_flames.yy",},},
     {"id":{"name":"spr_weaponblock_vegetable","path":"sprites/spr_weaponblock_vegetable/spr_weaponblock_vegetable.yy",},},
     {"id":{"name":"snd_yoshi","path":"sounds/snd_yoshi/snd_yoshi.yy",},},

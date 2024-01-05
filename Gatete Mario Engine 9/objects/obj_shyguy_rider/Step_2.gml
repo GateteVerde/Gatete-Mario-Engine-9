@@ -47,7 +47,7 @@ if (instance_exists(mytop)) {
 	    && (obj_mario.state < 2) {
         
 	        //Snap Mario vertically
-	        obj_mario.y = ceil(bbox_top-15);
+	        obj_mario.y = ceil(bbox_top-16);
 			
 			//Snap Mario horizontally if there's not a wall on the way
 			obj_mario.x += x-xprevious;

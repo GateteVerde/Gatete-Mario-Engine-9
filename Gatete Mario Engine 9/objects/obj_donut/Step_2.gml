@@ -43,7 +43,7 @@ else if (vspeed > 0) {
 		if (check)
 		&& ((!check2)
 		|| (((check2.object_index = obj_donut) || (check2.object_index == obj_donut_red) || (check2.object_index == obj_donut_triple) || (check2.object_index == obj_donut_triple_red)) && ((check2.y > y) || ((check2.y = y) && (check2 > id))))) 
-			mario.y = ceil(bbox_top-15);
+			mario.y = ceil(bbox_top-16);
 	}
 }
 

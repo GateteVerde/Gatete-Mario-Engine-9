@@ -47,7 +47,7 @@ if (instance_exists(mytop)) {
 	    && (obj_mario.state < 2) {
         
 	        //Snap the player vertically
-	        obj_mario.y = ceil(bbox_top-15);
+	        obj_mario.y = ceil(bbox_top-16);
         
 	        //Move the player horizontally if there is no solid in his way
 	        if (xspeed < 0) && (!collision_rectangle(obj_mario.bbox_left+xspeed, obj_mario.bbox_top+4, obj_mario.bbox_left, obj_mario.bbox_bottom-1, obj_solid, 0, 0))

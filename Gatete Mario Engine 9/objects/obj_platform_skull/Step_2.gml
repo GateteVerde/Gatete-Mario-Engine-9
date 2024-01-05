@@ -19,7 +19,7 @@
 		|| (((check.y > y) || (check.y = y)) && (check > id)) {
     
 		    //Snap the player vertically
-		    player.y = ceil(bbox_top-15);
+		    player.y = ceil(bbox_top-16);
 			
 			//If the platform can transport Mario horizontally
 			if (no_horiz == false) {
