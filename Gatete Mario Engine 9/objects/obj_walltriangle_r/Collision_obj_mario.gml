@@ -56,7 +56,7 @@ else if (global.mount == 0) {
             && (!collision_rectangle(x-8, bbox_bottom, x-7, bbox_bottom+4, obj_semisolid, 0, 0)) {
 				
 				//Create wallrunner
-                wall = instance_create_depth(x-1, y-8, -5, obj_mario_wallrunner) {
+                wall = instance_create_depth(x+1, y-8, -5, obj_mario_wallrunner) {
 					
 					//...with these conditions
                     wall.xscale = other.xscale;
