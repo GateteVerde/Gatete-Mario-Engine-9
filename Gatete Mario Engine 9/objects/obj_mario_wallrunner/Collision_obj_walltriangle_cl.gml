@@ -1,51 +1,17 @@
-/// @description Make the player turn
+/// @description Make Mario run depending of his direction
 
-//If the player can turn
-if (ready) {
+//Make Mario run from the ceiling to the left wall
+if ((direct == 1) && (direction = 180)) {
 
-    //If the player is facing right and it's moving up
-    if ((xscale > 0) && (direction == 180)) {
+    x = other.x+16;
+    y = other.y+16;
+    direction = 270;
+}
 
-        //Snap onto the triangle
-        x = other.xstart+15;
-        y = other.ystart+15;
+//Make Mario run from the left wall to the ceiling
+else if ((direct == -1) && (direction == 90)) {
 
-        //Direction
-        direction = 270;
-
-        //Disallow turn
-        ready = false;
-
-        //Angle
-        angle = 225;
-
-        //Set angle
-        alarm[0] = 4;
-
-        //Allow turning
-        alarm[1] = 24;     
-    }
-
-    //Otherwise, if the player is facing left and it's moving to the right.
-    else if ((xscale < 0) && (direction == 90)) {
-
-        //Snap onto the triangle
-        x = other.xstart+15;
-        y = other.ystart+15;
-
-        //Direction
-        direction = 0;
-
-        //Disallow turn
-        ready = false;
-
-        //Angle
-        angle = 315;
-
-        //Set angle
-        alarm[0] = 4;
-
-        //Allow turning
-        alarm[1] = 24;     
-    }
-} 
+    x = other.x+32;
+    y = other.y;
+    direction = 0;
+}

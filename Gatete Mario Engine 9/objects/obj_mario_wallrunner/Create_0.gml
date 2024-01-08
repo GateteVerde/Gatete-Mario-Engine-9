@@ -1,30 +1,27 @@
-/// @description Mario screwing gravity
+/// @description Mario as he runs on walls and ceilings
 
-//Make Mario invisible
-obj_mario.visible = false;
+//Destroy the spinner if it exists
+with (obj_mario_spinner) instance_destroy()
 
-//Conditions
-desired_dir = 0;
-desired_offset_x = 0;
-desired_offset_y = 0;
-desired_speed = 0;
+//Make Mario invisible, and disable his controls
+with (obj_mario) {
+	
+    visible = 0;
+    enable_control = 0;
+}
 
-//Manage collision
-col = noone;
-col_b = noone;
+//Animate
+image_speed = 0.4;
 
-//Whether Mario can turn
-can_turn = false;
+//Go up
+direction = 90;
 
-//Whether Mario and stop
-can_halt = false;
+//Go fast
+speed = 3;
 
-//Whether Mario is slowing down
-slowdown = false;
-
-//Manages flashing
+//Whether Mario is under the effects of the starman
 isflashing = 0;
 
-//Sets the speed and direction
-alarm[0] = 4
-alarm[1] = 8
+//Rotational direction (Concave wall triangle corners)
+//1: Counterclockwise, -1: Clockwise
+direct = 1;

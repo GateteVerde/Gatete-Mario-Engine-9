@@ -12,7 +12,10 @@
     "name": "Items",
     "path": "folders/Objects/Items.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_deactivateparent",
+    "path": "objects/obj_deactivateparent/obj_deactivateparent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

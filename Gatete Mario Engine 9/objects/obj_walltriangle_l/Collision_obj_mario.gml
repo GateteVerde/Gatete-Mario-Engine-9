@@ -23,49 +23,23 @@ if (global.mount == 1) {
 
 //Otherwise, if Mario is not riding a Yoshi
 else if (global.mount == 0) {
-	
-    //Must run at the 'running speed' to get on the wall triangle!
-    if (abs(other.xspeed) > 2.5) {
 		
-		//If the player meets these condition
-        if (other.state < playerstate.jump)
-        && (other.crouch == 0)
-        && (other.holding == 0)
-		&& (other.swimming == false)
-        && (!instance_exists(obj_mario_wallrunner)) {
+	//If the player meets these conditions
+    if (other.state < playerstate.jump)
+    && (other.crouch == 0)
+    && (other.holding == 0)
+	&& (other.swimming == false)
+    && (!instance_exists(obj_mario_wallrunner)) {
 			
-            //If the player is facing left...
-            if (other.xscale < 0) 
-            && (collision_rectangle(bbox_left-4, y-9, bbox_left, y-8, obj_semisolid, 0, 0)) {
-				
-				//Create wall runner...
-                wall = instance_create_depth(x+15, y-8, -5, obj_mario_wallrunner) {
-					
-					//...with these conditions
-                    wall.xscale = other.xscale;
-                    wall.direction = 135;
-                    wall.desired_dir = 90;
-                    wall.desired_speed = abs(other.xspeed);
-                }
-            }
-			
-            //If the player is facing right...
-            if (other.xscale > 0)
-            && (collision_rectangle(x+8, bbox_bottom, x+9, bbox_bottom+4, obj_semisolid, 0, 0))
-            && (!collision_rectangle(x+24, bbox_bottom, x+25, bbox_bottom+4, obj_semisolid, 0, 0)) {
-				
-				//Create wall runner...
-                wall = instance_create_depth(x+15, y-8, -5, obj_mario_wallrunner) {
-					
-					//...with these conditions
-                    wall.xscale = other.xscale;
-                    wall.direction = 315;                    
-                    wall.desired_dir = 270;
-                    wall.desired_offset_x = 14;
-                    wall.desired_offset_y = 7;
-                    wall.desired_speed = abs(other.xspeed);                    
-                }
-            }  
-        }
+		//If Mario is running left and there is a solid wall there, wall run up
+		if (other.xspeed < -2.5)
+		&& (position_meeting(x-8, y-8, obj_solid))
+		    with (instance_create_depth(x+16, y-32, -5, obj_mario_wallrunner)) direct = -1;
+
+		//Otherwise, if Mario is running left and there is a downward wall there and no floor, run down
+		else if (other.xspeed > 2.5)
+		&& (position_meeting(x+8, y+24, obj_solid))
+		&& (!position_meeting(x+24, y+24, obj_semisolid))
+		    with (instance_create_depth(x+32, y+16, -5, obj_mario_wallrunner)) direction = 270;
     }
 }

@@ -41,8 +41,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_mask_wallrunner",
-    "path": "sprites/spr_mask_wallrunner/spr_mask_wallrunner.yy",
+    "name": "spr_mask_blowpipe",
+    "path": "sprites/spr_mask_blowpipe/spr_mask_blowpipe.yy",
   },
   "spriteMaskId": null,
   "visible": false,
