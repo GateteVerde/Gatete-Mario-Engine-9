@@ -1,5 +1,5 @@
 /// @description Decrement alpha
 
-image_alpha -= 0.1;
-if (image_alpha < 0.1)
+image_alpha -= fade_rate;
+if (image_alpha < fade_rate)
 	instance_destroy();

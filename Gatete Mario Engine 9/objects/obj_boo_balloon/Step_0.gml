@@ -14,7 +14,7 @@ if (instance_exists(obj_mario))
 		image_index = (scale >= 3) ? 1 : 0;
 		
 		//Set up fx
-		effect = (scale >= 3) ? 2 : 0;
+		effect = (scale >= 3) ? 0 : 2;
 	
 		//Set up scale
 		scale += 0.01;

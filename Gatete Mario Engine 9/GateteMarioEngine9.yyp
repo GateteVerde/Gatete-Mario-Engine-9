@@ -880,6 +880,7 @@
     {"id":{"name":"pth_angrysun_sweep_right","path":"paths/pth_angrysun_sweep_right/pth_angrysun_sweep_right.yy",},},
     {"id":{"name":"spr_tweeter_big","path":"sprites/spr_tweeter_big/spr_tweeter_big.yy",},},
     {"id":{"name":"spr_pswitchblock","path":"sprites/spr_pswitchblock/spr_pswitchblock.yy",},},
+    {"id":{"name":"spr_boo_balloon_effect","path":"sprites/spr_boo_balloon_effect/spr_boo_balloon_effect.yy",},},
     {"id":{"name":"spr_iceblock_coin","path":"sprites/spr_iceblock_coin/spr_iceblock_coin.yy",},},
     {"id":{"name":"spr_luigi_raccoon_ride","path":"sprites/spr_luigi_raccoon_ride/spr_luigi_raccoon_ride.yy",},},
     {"id":{"name":"obj_boo_big_boss","path":"objects/obj_boo_big_boss/obj_boo_big_boss.yy",},},
