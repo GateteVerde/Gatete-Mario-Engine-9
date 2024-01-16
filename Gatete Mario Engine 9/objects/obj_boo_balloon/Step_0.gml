@@ -11,15 +11,15 @@ if (instance_exists(obj_mario))
 	if (movenow == 0) {
 	
 		//Set up frame
-		image_index = (scale >= 3) ? 1 : 0;
+		image_index = (scale >= 2) ? 1 : 0;
 		
 		//Set up fx
-		effect = (scale >= 3) ? 0 : 2;
+		effect = (scale >= 2) ? 0 : 2;
 	
 		//Set up scale
 		scale += 0.01;
-		if (scale > 3)
-			scale = 3;
+		if (scale > 2)
+			scale = 2;
 	}
 
 	//Otherwise
