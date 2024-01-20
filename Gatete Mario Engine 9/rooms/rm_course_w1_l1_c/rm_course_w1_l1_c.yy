@@ -43,6 +43,7 @@
     {"name":"inst_14700A25","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
     {"name":"inst_10334337","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
     {"name":"inst_7EBCB6BF","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
+    {"name":"inst_65BFE94A","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -96,6 +97,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14700A25","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10334337","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7EBCB6BF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":112.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65BFE94A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"propertyId":{"name":"lightning","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"value":"False",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"propertyId":{"name":"raining","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"value":"False",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"propertyId":{"name":"foreground","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"value":"True",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":24,"TileCompressedData":[
 -2,2446,4,2447,2081,2082,2530,-15,2531,1,2451,-4,2446,3,2447,2081,2082,-16,0,1,2445,-4,2446,3,

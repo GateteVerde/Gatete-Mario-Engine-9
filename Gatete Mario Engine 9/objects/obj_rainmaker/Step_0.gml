@@ -1,5 +1,8 @@
 /// @description Update smog position and generate rain
 
+//Draw the smog in front
+depth = (foreground == 1) ? -10 : 0;
+
 //Update smog position
 pos -= 0.25;
 

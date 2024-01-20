@@ -18,7 +18,7 @@ part_type_speed(part, 7, 14, 0, 0);
 part_type_direction(part, 225, 225, 0, 0);
 
 //Colour
-part_type_colour1(part, c_white);
+part_type_colour1(part, rain_colour);
 	
 //Life
 part_type_life(part, 300, 600);

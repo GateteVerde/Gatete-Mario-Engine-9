@@ -34,6 +34,9 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"lightning","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"True","varType":3,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smog","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"value":"2","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"raining","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"True","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"rain_colour","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"$FFFFFF","varType":7,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smog_colour","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"$FFFFFF","varType":7,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"foreground","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
   ],
   "solid": false,
   "spriteId": {
