@@ -1,4 +1,4 @@
-/// @description Load screen type, colour blind mode, keys and vertical syncronization
+/// @description Load screen type, volume, colour blind mode, keys and vertical syncronization
 
 //SETTINGS LOAD
 #region LOAD
@@ -19,6 +19,14 @@
 		
 			//Set fullscreen mode based on read value
 			fullscreen = real(file_text_read_string(file));
+			file_text_readln(file);
+			
+			//Set music volume based on read value
+			music_vol = real(file_text_read_string(file));
+			file_text_readln(file);
+			
+			//Set sound volume based on read value
+			sound_vol = real(file_text_read_string(file));
 			file_text_readln(file);
 		
 			//Set screen size based on read value
@@ -118,8 +126,9 @@
 		
 			#endregion
 		}
-		catch(e)
-		{
+		
+		catch(e) {
+			
 			loadDefaultSettings = true;
 			file_delete("settings.dat");
 		}
@@ -132,13 +141,19 @@
 	else
 		loadDefaultSettings = true;
 		
-	if (loadDefaultSettings)
-	{
+	if (loadDefaultSettings) {
+		
 		//Default colourblind value
 		colourblind = 0;
 	
 		//Default fullscreen value
 		fullscreen = 0;
+		
+		//Default music volume
+		music_vol = 1;
+		
+		//Default sound volume
+		sound_vol = 1;
 		
 		//Default window size
 		size = 2;

@@ -22,6 +22,9 @@ if (global.clear == 0)
     
 		//Add the sound
 		global.mapstream = audio_create_stream(mapmusic);
+		
+		//Set stream volume
+		audio_sound_gain(global.mapstream, obj_coordinator.music_vol, 0);
     
 		//Play it
 		audio_loop_sound(global.mapstream, loop_s, loop_e);

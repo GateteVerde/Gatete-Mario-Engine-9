@@ -20,6 +20,9 @@ if (!audio_is_playing(global.stream))
 	//Add the sound
 	global.stream = audio_create_stream(levelmusic);
 	
+	//Set stream volume
+	audio_sound_gain(global.stream, obj_coordinator.music_vol, 0);
+	
 	//Loop the music
 	audio_loop_sound(global.stream, loop_s, loop_e);
 }

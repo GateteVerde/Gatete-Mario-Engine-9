@@ -12,6 +12,14 @@
 	//Save fullscreen settings
 	file_text_write_string(file, string(fullscreen));
 	file_text_writeln(file);
+			
+	//Set music volume settings
+	file_text_write_string(file, string(music_vol))
+	file_text_writeln(file);
+			
+	//Set sound volume settings
+	file_text_write_string(file, string(sound_vol))
+	file_text_writeln(file);
 
 	//Save filtering settings
 	file_text_write_string(file, string(size));

@@ -41,42 +41,46 @@ depth = -1000;
 	}
 #endregion
 
-//Music Pitch / Pause
+//Music Pitch / Pause / Volume
 #region
 
-	//If the level controller exists, set pitch to default.
-	if (instance_exists(obj_mapcontrol))
-		pitch = 1;
-		
-	else {
-		
-		//If Mario has died or the level has been cleared, set to default.
-		if ((instance_exists(obj_mario_dead)) || (global.clear > 0))
+	#region PITCH
+	
+		//If the level controller exists, set pitch to default.
+		if (instance_exists(obj_mapcontrol))
 			pitch = 1;
-			
-		//Otherwise
+		
 		else {
 		
-			//If the timer is greater than 0 and lower than 100
-			if (global.timer > 0)
-			&& (global.timer < 101) {
-				
-				if (!instance_exists(obj_mario_balloon))
-					pitch = 1.33;
-				else
-					pitch = 1.13;
-			}
-				
+			//If Mario has died or the level has been cleared, set to default.
+			if ((instance_exists(obj_mario_dead)) || (global.clear > 0))
+				pitch = 1;
+			
 			//Otherwise
 			else {
+		
+				//If the timer is greater than 0 and lower than 100
+				if (global.timer > 0)
+				&& (global.timer < 101) {
 				
-				if (!instance_exists(obj_mario_balloon))
-					pitch = 1;
-				else
-					pitch = 0.8;
+					if (!instance_exists(obj_mario_balloon))
+						pitch = 1.33;
+					else
+						pitch = 1.13;
+				}
+				
+				//Otherwise
+				else {
+				
+					if (!instance_exists(obj_mario_balloon))
+						pitch = 1;
+					else
+						pitch = 0.8;
+				}
 			}
 		}
-	}
+	
+	#endregion
 	
 	#region PAUSE / RESUME
 

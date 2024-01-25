@@ -28,11 +28,13 @@ menu[menupage.main, 4] = "Exit";
 menu[menupage.options, 0] = "Keyboard Configuration";
 menu[menupage.options, 1] = "Window Size";
 menu[menupage.options, 2] = "Colourblind Mode: Off";
-menu[menupage.options, 3] = "Auto Save: On";
-menu[menupage.options, 4] = "V-Sync: On";
-menu[menupage.options, 5] = "FPS: On";
-menu[menupage.options, 6] = "View Credits";
-menu[menupage.options, 7] = "Back";
+menu[menupage.options, 3] = "Music Volume: " + string(round(obj_coordinator.music_vol * 100));
+menu[menupage.options, 4] = "Sound Volume: " + string(round(obj_coordinator.sound_vol * 100));
+menu[menupage.options, 5] = "Auto Save: On";
+menu[menupage.options, 6] = "V-Sync: On";
+menu[menupage.options, 7] = "FPS: On";
+menu[menupage.options, 8] = "View Credits";
+menu[menupage.options, 9] = "Back";
 
 //Options sub-menu 2: Keys
 menu[menupage.keys, 0] = "Jump/Confirm:";

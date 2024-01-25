@@ -48,6 +48,107 @@ else if (start == 1) {
 				index = 0;
 		}
 	}
+	
+	#region VOLUME
+	
+		//Allow switching volume
+		if (sub_menu == 1) {
+			
+			//Key Inputs
+			var _left	= input_check(input.left);
+			var _right	= input_check(input.right);
+		
+			//Music Volume
+			if (index == 3) {
+											
+				//Key Inputs
+				var _left	= input_check(input.left);
+				var _right	= input_check(input.right);
+						
+				//If the 'Left' key is pressed
+				if ((_left) && (delay <= 0)) {
+						
+					//If volume is lower than 1, do not increment
+					if (obj_coordinator.music_vol > 0) {
+						
+						//Set delay
+						delay = 4;
+						
+						//Decrement volume
+						obj_coordinator.music_vol -= 0.01;
+						
+						//Set up the group volume
+						audio_group_set_gain(audiogroup_music, obj_coordinator.music_vol, 1);
+					}
+				}
+						
+				//Otherwise if the 'Right' key is pressed
+				else if ((_right) && (delay <= 0)) {
+						
+					//If volume is lower than 1, do not increment
+					if (obj_coordinator.music_vol < 1) {
+						
+						//Set delay
+						delay = 4;
+						
+						//Increment volume
+						obj_coordinator.music_vol += 0.01;
+						
+						//Set up the group volume
+						audio_group_set_gain(audiogroup_music, obj_coordinator.music_vol, 1);
+					}
+				}
+			}
+					
+			//Sound Volume
+			else if (index == 4) {
+					
+				//Key Inputs
+				var _left	= input_check(input.left);
+				var _right	= input_check(input.right);
+						
+				//If the 'Left' key is pressed
+				if ((_left) && (delay <= 0)) {
+						
+					//If volume is lower than 1, do not increment
+					if (obj_coordinator.sound_vol > 0) {
+					
+						//Play 'Fireball' sound
+						audio_play_sound(snd_fireball, 0, false);
+						
+						//Set delay
+						delay = 4;
+						
+						//Decrement volume
+						obj_coordinator.sound_vol -= 0.01;
+						
+						//Set up the group volume
+						audio_group_set_gain(audiogroup_default, obj_coordinator.sound_vol, 1);
+					}
+				}
+						
+				//Otherwise if the 'Right' key is pressed
+				else if ((_right) && (delay <= 0)) {
+						
+					//If volume is lower than 1, do not increment
+					if (obj_coordinator.sound_vol < 1) {
+					
+						//Play 'Fireball' sound
+						audio_play_sound(snd_fireball, 0, false);
+						
+						//Set delay
+						delay = 4;
+						
+						//Increment volume
+						obj_coordinator.sound_vol += 0.01;
+						
+						//Set up the group volume
+						audio_group_set_gain(audiogroup_default, obj_coordinator.sound_vol, 1);
+					}
+				}
+			}	
+		}
+	#endregion
 
 	//Manage option selection
 	if ((_select) && (waiting == 0)) {
@@ -250,7 +351,7 @@ else if (start == 1) {
 					} break;
 				
 					//Auto Save
-					case (3): {
+					case (5): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -263,7 +364,7 @@ else if (start == 1) {
 					} break;
 				
 					//Toggle V-Sync
-					case (4): {
+					case (6): {
 				
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -277,7 +378,7 @@ else if (start == 1) {
 					} break;
 				
 					//FPS
-					case (5): {
+					case (7): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -290,7 +391,7 @@ else if (start == 1) {
 					} break;
 				
 					//Credits
-					case (6): {
+					case (8): {
 					
 						//If no curtain exists
 						if (instance_number(obj_curtain_in) == 0) {
@@ -308,7 +409,7 @@ else if (start == 1) {
 					} break;
 				
 					//Back
-					case (7): {
+					case (9): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -544,6 +645,8 @@ key[7] = string(key_to_string(global.key[input.right]));
 
 //Update options
 menu[menupage.options, 2] = (obj_coordinator.colourblind == false) ? "Colourblind Mode: Off" : "Colourblind Mode: On";
-menu[menupage.options, 3] = (obj_coordinator.autosave == false) ? "Auto Save: Off" : "Auto Save: On";
-menu[menupage.options, 4] = (obj_coordinator.vsync == false) ? "V-Sync: Off" : "V-Sync: On";
-menu[menupage.options, 5] = (obj_coordinator.showfps == false) ? "FPS: Off" : "FPS: On";
+menu[menupage.options, 3] = "Music Volume: " + string(round(obj_coordinator.music_vol * 100));
+menu[menupage.options, 4] = "Sound Volume: " + string(round(obj_coordinator.sound_vol * 100));
+menu[menupage.options, 5] = (obj_coordinator.autosave == false) ? "Auto Save: Off" : "Auto Save: On";
+menu[menupage.options, 6] = (obj_coordinator.vsync == false) ? "V-Sync: Off" : "V-Sync: On";
+menu[menupage.options, 7] = (obj_coordinator.showfps == false) ? "FPS: Off" : "FPS: On";
