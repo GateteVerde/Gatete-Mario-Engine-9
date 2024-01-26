@@ -1,7 +1,9 @@
 /// @description Load screen type, volume, colour blind mode, keys and vertical syncronization
 
-//SETTINGS LOAD
-#region LOAD
+//Initialize music group
+audio_group_load(audiogroup_music);
+
+#region LOAD SETTINGS
 
 	var loadDefaultSettings = false;
 
@@ -11,8 +13,8 @@
 		//Load and read it
 		var file = file_text_open_read("settings.dat");
 		
-		try
-		{
+		try {
+			
 			//Set colourblind mode based on read value
 			colourblind = real(file_text_read_string(file));
 			file_text_readln(file);
@@ -150,10 +152,10 @@
 		fullscreen = 0;
 		
 		//Default music volume
-		music_vol = 1;
+		music_vol = 0.5;
 		
 		//Default sound volume
-		sound_vol = 1;
+		sound_vol = 0.75;
 		
 		//Default window size
 		size = 2;

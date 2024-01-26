@@ -44,6 +44,15 @@ depth = -1000;
 //Music Pitch / Pause / Volume
 #region
 
+	#region VOLUME
+	
+		//Manage Music volume
+		audio_group_set_gain(audiogroup_music, obj_coordinator.music_vol, 1);
+		
+		//Manage Sound volume
+		audio_group_set_gain(audiogroup_default, obj_coordinator.sound_vol, 1);
+	#endregion
+
 	#region PITCH
 	
 		//If the level controller exists, set pitch to default.

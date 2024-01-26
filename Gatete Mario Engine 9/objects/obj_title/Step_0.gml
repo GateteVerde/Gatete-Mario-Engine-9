@@ -76,9 +76,6 @@ else if (start == 1) {
 						
 						//Decrement volume
 						obj_coordinator.music_vol -= 0.01;
-						
-						//Set up the group volume
-						audio_group_set_gain(audiogroup_music, obj_coordinator.music_vol, 1);
 					}
 				}
 						
@@ -93,9 +90,6 @@ else if (start == 1) {
 						
 						//Increment volume
 						obj_coordinator.music_vol += 0.01;
-						
-						//Set up the group volume
-						audio_group_set_gain(audiogroup_music, obj_coordinator.music_vol, 1);
 					}
 				}
 			}
@@ -121,9 +115,6 @@ else if (start == 1) {
 						
 						//Decrement volume
 						obj_coordinator.sound_vol -= 0.01;
-						
-						//Set up the group volume
-						audio_group_set_gain(audiogroup_default, obj_coordinator.sound_vol, 1);
 					}
 				}
 						
@@ -141,9 +132,6 @@ else if (start == 1) {
 						
 						//Increment volume
 						obj_coordinator.sound_vol += 0.01;
-						
-						//Set up the group volume
-						audio_group_set_gain(audiogroup_default, obj_coordinator.sound_vol, 1);
 					}
 				}
 			}	

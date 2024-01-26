@@ -1,5 +1,8 @@
 /// @description Save screen type, keys and vertical syncronization
 
+//Unload music audio group
+audio_group_unload(audiogroup_music);
+
 #region SAVE SETTINGS
 
 	//Open the file
