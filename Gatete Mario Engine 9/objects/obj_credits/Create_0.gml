@@ -97,6 +97,7 @@ Hypernova
 MrDoubleA
 PixelatedPope
 Shaun Spalding
+TarkanDragonBird
 YellowAfterLife
 
 
@@ -113,7 +114,7 @@ Vexxter
 
 BROBRO STUDIOS
 CLUB SATURN
-COMUNIDAD GM
+COMUNIDADJUANPA
 CONFUZYON STUDIOS
 HONK SQUAD
 LEVEL SHARE SQUARE

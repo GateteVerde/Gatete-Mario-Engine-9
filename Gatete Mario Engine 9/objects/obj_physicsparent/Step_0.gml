@@ -119,7 +119,7 @@ else if ((swimming) && (!water)) {
 }
 
 //Check for a nearby lava object
-var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom+7, obj_lava, 1, 0);
+var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom+8, obj_lava, 1, 0);
 
 //If the NPC makes contact with lava
 if (lava) {
@@ -131,8 +131,8 @@ if (lava) {
 		audio_play_sound(snd_burn, 0, false);
 		
 		//Go *poof*
-		instance_create_depth(round(bbox_left + bbox_right) / 2, round(bbox_top + bbox_bottom) / 2, -6, obj_smoke);
-		with (instance_create_depth(round(bbox_left + bbox_right) / 2, round(bbox_top + bbox_bottom) / 2, -6, obj_smoke)) {
+		instance_create_depth(round(bbox_left + bbox_right) / 2, lava.y - 8, -6, obj_smoke);
+		with (instance_create_depth(round(bbox_left + bbox_right) / 2, lava.y - 8, -6, obj_smoke)) {
 			
 			sprite_index = spr_splash_lava;
 		}

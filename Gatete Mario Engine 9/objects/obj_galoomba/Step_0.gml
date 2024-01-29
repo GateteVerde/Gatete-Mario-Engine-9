@@ -1,7 +1,7 @@
 /// @description Galoomba logic
 
 //Inherit the parent event
-event_inherited();
+event_perform_object(obj_physicsparent, ev_step, ev_step_normal);
 
 //If this enemy came out from a bubble
 if (bubble == 1) {
