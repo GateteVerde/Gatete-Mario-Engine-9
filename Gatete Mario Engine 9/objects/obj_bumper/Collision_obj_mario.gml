@@ -12,6 +12,9 @@ if (ready == 0) {
     //Set motion
     other.xspeed = lengthdir_x(4, point_direction(x, y, other.x, other.y));
 	other.yspeed = lengthdir_y(4, point_direction(x, y, other.x, other.y));
+	
+	//Force end groundpound
+	other.groundpound = 0;
     
 	//If the 'Jump' key is held
 	if (other.y < y-12)

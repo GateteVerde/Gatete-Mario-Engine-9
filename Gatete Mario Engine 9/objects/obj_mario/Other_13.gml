@@ -55,6 +55,9 @@ if ((global.player == 0) || ((global.player == 1) && ((global.powerup == cs_squi
 			//Stop somersault
 			angle = 0;
 			somersault = 0;
+			
+			//Stop groundpound
+			groundpound = 0;
             
             //Enable gravity if disabled
             enable_gravity = true;
@@ -89,6 +92,9 @@ if ((global.player == 0) || ((global.player == 1) && ((global.powerup == cs_squi
 			//Stop somersault
 			angle = 0;
 			somersault = 0;
+			
+			//Stop groundpound
+			groundpound = 0;
             
             //Enable gravity if disabled
             enable_gravity = true;
