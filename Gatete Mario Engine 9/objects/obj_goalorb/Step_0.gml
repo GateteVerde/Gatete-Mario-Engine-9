@@ -47,7 +47,7 @@ if (image_alpha == 1) {
 			    with (instance_create_depth(x, y, -6, obj_kuriboshoe_lost)) {
         
 			        sprite_index = other.sprite_index;
-			        image_xscale = other.xscale;
+			        image_xscale = obj_mario.xscale;
 			        hspeed = -1;
 			    }
         
