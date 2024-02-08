@@ -15,8 +15,8 @@ if (anim > 2.99) {
 
 //If the player did not exit the view
 if (ready == 0)
-&& (x > room_width+32)
-&& (audio_is_playing(mygoal.stream) == false) {
+&& (audio_is_playing(mygoal.stream) == false)
+&& (x > camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0]+32))) {
 
     //The player exited the view
     ready = 1;

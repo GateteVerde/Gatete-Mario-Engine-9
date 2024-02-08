@@ -21,5 +21,5 @@ else {
     sprite_index = global.walk_sprite[global.powerup];
     
     //Animate
-    image_speed = 0.2;
+    image_speed = 0.3;
 }

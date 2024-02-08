@@ -42,6 +42,11 @@ function follow_which_mario() {
 			else
 				follow = noone;
 		}
+		
+		//If Mario has cleared a level with the smb3 card
+		else if (instance_exists(obj_mario_card))
+			follow = noone;
+			
 		else
 			follow = obj_mario_clear;
 	}
