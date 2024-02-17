@@ -1,4 +1,4 @@
-/// @description Stunned Pop-Omb
+/// @description Stunned Baboom
 
 //Inherit the parent event
 event_inherited();

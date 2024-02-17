@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_popomb_down",
+  "name": "obj_baboom_down",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_popomb_down",
-    "path": "sprites/spr_popomb_down/spr_popomb_down.yy",
+    "name": "spr_baboom_down",
+    "path": "sprites/spr_baboom_down/spr_baboom_down.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_popomb_firework",
-    "path": "sprites/spr_popomb_firework/spr_popomb_firework.yy",
+    "name": "spr_baboom_firework",
+    "path": "sprites/spr_baboom_firework/spr_baboom_firework.yy",
   },
   "spriteMaskId": null,
   "visible": true,

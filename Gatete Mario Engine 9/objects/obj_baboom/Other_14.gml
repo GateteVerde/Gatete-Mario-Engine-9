@@ -1,7 +1,7 @@
-/// @description Turn into a stunned bobomb
+/// @description Turn into a stunned baboom
 
 //Create held object
-imheld = instance_create_depth(x, y-2, -2, obj_popomb_down);
+imheld = instance_create_depth(x, y-2, -2, obj_baboom_down);
 
 //Make the held object hereby the scale
 imheld.dir = xscale;

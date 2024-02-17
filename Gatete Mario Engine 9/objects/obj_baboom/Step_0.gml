@@ -1,4 +1,4 @@
-/// @description Pop-Omb logic
+/// @description Baboom logic
 
 //Inherit the parent event
 event_inherited();

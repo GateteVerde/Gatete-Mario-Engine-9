@@ -15,16 +15,16 @@ if (ready == 1) {
 	//If the direction changes...
 	if (sign(xspeed) != sign(prevxspeed)) {
 
-	    //If the item is not outside
-	    if (outside_view() == false) {
-    
-	        //Play 'Bump' sound
-	        audio_play_sound(snd_bump, 0, false);
-	    }
+	    //If the item is not outside, play 'Bump' sound
+	    if (outside_view() == false) then audio_play_sound(snd_bump, 0, false);
 		
-		//Jump a bit
-		yspeed = -1.5;
-		y--;
+		//Jump only if not falling
+		if (yspeed == 0) {
+			
+			//Jump a bit
+			yspeed = -1.5;
+			y--;
+		}
     
 	    //Create shell thump
 		with (instance_create_depth(x+(24*sign(prevxspeed)), y + 8, -6, obj_shellthump)) bump = true;
