@@ -43,8 +43,7 @@ if (state = "IN_LINE") {
 	        direct += 180;
 	    }
             
-	    //Check for nodes / limits
-	    limit = collision_point(x+xorig, y+yorig, obj_track_limit, 1, 0);
+	    //Check for nodes
 	    node = collision_point(x+xorig, y+yorig, obj_track_modifier, 1, 0);
         
 	    //If there's a launch node
@@ -63,52 +62,46 @@ if (state = "IN_LINE") {
 	        direction = direct;
             
 	        //If moving up, jump
-	        if (direction == 90) {
+		    if (y < yprevious) {
             
-	            vspeed = -spd*3;
-	            if (node.hsp == true) {
+		        vspeed = (x = xprevious) ? -spd * 3 : -spd * 1.5;
+		        if (x > xprevious)
+		            hspeed = spd * 1.5;
+		        else if (x < xprevious)
+		            hspeed = -spd * 1.5;
+		    }
+            
+		    //If moving to the right
+		    else if (x > xprevious) {
+            
+		        //If this is a jump node
+		        if (y < yprevious) {
                 
-	                if (x > xprevious)
-	                    hspeed = spd;
-	                else if (x < xprevious)
-	                    hspeed = -spd;
-	            }      
-	        }
+		            vspeed = -spd * 1.5;
+		            hspeed = spd * 1.5;
+		        }
+		        else
+		            hspeed = spd * 1.5;         
+		    }
             
-	        //If moving to the right
-	        else if (direction == 0) {
+		    //If moving to the left
+		    else if (x < xprevious) {
             
-	            //If this is a jump node
-	            if (node.jump == true) {
+		        //If this is a jump node
+		        if (y < yprevious) {
                 
-	                vspeed = -spd*2.5;
-	                hspeed = spd*2;
-	            }
-	            else
-	                hspeed = spd;         
-	        }
-            
-	        //If moving to the left
-	        else if (direction == 180) {
-            
-	            //If this is a jump node
-	            if (node.jump == true) {
-                
-	                vspeed = -spd*2.5;
-	                hspeed = -spd*2;
-	            }
-	            else
-	                hspeed = -spd;              
-	        }
-	        else
-	            speed = spd;
+		            vspeed = -spd * 1.5;
+		            hspeed = -spd * 1.5;
+		        }
+		        else
+		            hspeed = -spd * 1.5;              
+		    }
+		    else
+		        speed = spd * 1.5;
 	    }
         
-	    //If there's a limit, reverse direction
-	    if (limit) then direct = -180;
-        
 	    //Update alarm 0
-	    alarm[0] = 8;
+	    alarm[0] = 4;
         
 	    //Update step
 	    step--;

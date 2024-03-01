@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_track_modifier",
+  "name": "obj_track_modifier_area",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Tracks",
-    "path": "folders/Objects/Items/Platforms/Common/Tracks.yy",
+    "path": "folders/Objects/Special/Do Not Use!/Items/Platforms/Common/Tracks.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_track_modifier",
+    "path": "objects/obj_track_modifier/obj_track_modifier.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_track_modifier",
-    "path": "sprites/spr_track_modifier/spr_track_modifier.yy",
+    "name": "spr_track_modifier_area",
+    "path": "sprites/spr_track_modifier_area/spr_track_modifier_area.yy",
   },
   "spriteMaskId": null,
   "visible": false,

@@ -10,7 +10,7 @@ if (gizmo == 0) {
 		with (part) {
 		
 			parent = other.id;
-			image_yscale = (other.height*16) / 2;
+			image_yscale = (other.rope_height/2);
 		}
 	}
 }
@@ -25,7 +25,7 @@ else if (gizmo == 1) {
 		with (part) {
 		
 			parent = other.id;
-			image_yscale = (other.height/16) / 2;
+			image_yscale = (other.rope_height/2);
 		}
 	}
 }
@@ -94,7 +94,7 @@ else if (gizmo == 4) {
 		
 			sprite_index = spr_platform_seesaw_engine;
 			parent = other.id;
-			image_xscale = 1 + (other.length/3);
+			image_xscale = 1 + (other.seesaw_width/3);
 		}
 	}
 }

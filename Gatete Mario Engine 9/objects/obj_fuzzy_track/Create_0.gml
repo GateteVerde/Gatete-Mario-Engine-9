@@ -13,6 +13,9 @@ edible = 0;
 hp = 0;
 firehp = 0;
 
+//Ignore Platforms
+ignore_platforms = true;
+
 //Makes the NPC invulnerable to projectiles after being hit by one
 invulnerable = 0;
 
