@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "draw_text_shadowed",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Draw",
-    "path": "folders/Scripts/Draw.yy",
+  "$GMScript":"",
+  "%Name":"draw_text_shadowed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_text_shadowed",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Draw.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

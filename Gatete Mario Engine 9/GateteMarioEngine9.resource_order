@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Fonts","order":22,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":24,"path":"folders/Objects.yy",},
     {"name":"Blocks","order":13,"path":"folders/Objects/Blocks.yy",},
@@ -334,7 +334,7 @@
     {"name":"Time Lines","order":23,"path":"folders/Time Lines.yy",},
     {"name":"Level 4","order":1,"path":"folders/Time Lines/Events/Level 4.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"spr_pipe_broken","order":3,"path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},
     {"name":"spr_pswitchplatform_off","order":22,"path":"sprites/spr_pswitchplatform_off/spr_pswitchplatform_off.yy",},
     {"name":"spr_boo_angry","order":2,"path":"sprites/spr_boo_angry/spr_boo_angry.yy",},

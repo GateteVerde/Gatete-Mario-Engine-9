@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "macro_get_sprite",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Macros",
-    "path": "folders/Scripts/System/Macros.yy",
+  "$GMScript":"",
+  "%Name":"macro_get_sprite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"macro_get_sprite",
+  "parent":{
+    "name":"Macros",
+    "path":"folders/Scripts/System/Macros.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

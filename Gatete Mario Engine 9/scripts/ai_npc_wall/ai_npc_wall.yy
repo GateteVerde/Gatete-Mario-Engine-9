@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "ai_npc_wall",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "NPC",
-    "path": "folders/Scripts/NPC.yy",
+  "$GMScript":"",
+  "%Name":"ai_npc_wall",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ai_npc_wall",
+  "parent":{
+    "name":"NPC",
+    "path":"folders/Scripts/NPC.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
