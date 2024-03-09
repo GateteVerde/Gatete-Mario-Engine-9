@@ -275,6 +275,8 @@
     {"name":"inst_74F345F3","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
     {"name":"inst_15B2CA2F","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
     {"name":"inst_22ACE277","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
+    {"name":"inst_20ABD7C5","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
+    {"name":"inst_1CD7D7C8","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -589,6 +591,8 @@
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"propertyId":{"name":"tline","path":"objects/obj_npc/obj_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"tline_w1_l4_toad",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":184.0,"y":384.0,},
         {"$GMRInstance":"","%Name":"inst_22ACE277","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22ACE277","objectId":{"name":"obj_goomba","path":"objects/obj_goomba/obj_goomba.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":712.0,"y":352.0,},
+        {"$GMRInstance":"","%Name":"inst_20ABD7C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20ABD7C5","objectId":{"name":"obj_waterbubble","path":"objects/obj_waterbubble/obj_waterbubble.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":304.0,},
+        {"$GMRInstance":"","%Name":"inst_1CD7D7C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CD7D7C8","objectId":{"name":"obj_waterbubble","path":"objects/obj_waterbubble/obj_waterbubble.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":304.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":"none","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":27,"SerialiseWidth":294,"TileCompressedData":[
           -220,0,-74,-2147483648,-220,0,-74,-2147483648,-220,0,-74,-2147483648,-220,0,-74,-2147483648,-220,0,-74,

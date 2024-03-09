@@ -80,8 +80,12 @@ if (state = "IN_LINE") {
 		            vspeed = -spd * 1.5;
 		            hspeed = spd * 1.5;
 		        }
-		        else
-		            hspeed = spd * 1.5;         
+		        else {
+						
+		            hspeed = spd * 1.5;
+					if (y > yprevious)
+						vspeed = spd * 1.5;
+				}
 		    }
             
 		    //If moving to the left
@@ -93,8 +97,12 @@ if (state = "IN_LINE") {
 		            vspeed = -spd * 1.5;
 		            hspeed = -spd * 1.5;
 		        }
-		        else
-		            hspeed = -spd * 1.5;              
+		        else {
+						
+		            hspeed = -spd * 1.5;
+					if (y > yprevious)
+						vspeed = spd * 1.5;
+				}
 		    }
 		    else
 		        speed = spd * 1.5;
