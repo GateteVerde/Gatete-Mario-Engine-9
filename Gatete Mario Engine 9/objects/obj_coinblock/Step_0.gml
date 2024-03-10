@@ -13,6 +13,10 @@ if (ready2 == 1) {
 		
 			//Make all objects under obj_physicsparent resume movement
 			with (obj_physicsparent) event_user(14);
+			with (obj_platformparent) event_user(14);
+
+			//Unfreeze skewers
+			with (obj_skewer_trunk) event_user(14);
 
 			//If the player is not riding anything
 			if (global.mount == 0) {

@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"spr_waterfall",
-  "bboxMode":2,
-  "bbox_bottom":47,
+  "bboxMode":0,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":31,
-  "bbox_top":0,
+  "bbox_right":15,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -19,7 +19,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":48,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"41e5f66f-963d-4cad-b2e9-9b9171a00482","blendMode":0,"displayName":"default","isLocked":false,"name":"41e5f66f-963d-4cad-b2e9-9b9171a00482","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -27,7 +27,7 @@
   "name":"spr_waterfall",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":16,
+    "bottom":0,
     "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,

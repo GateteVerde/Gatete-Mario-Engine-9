@@ -14,8 +14,8 @@
     "path":"folders/Objects/Decoration/Liquids/Water/Waterfall.yy",
   },
   "parentObjectId":{
-    "name":"obj_water",
-    "path":"objects/obj_water/obj_water.yy",
+    "name":"obj_swim",
+    "path":"objects/obj_swim/obj_swim.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

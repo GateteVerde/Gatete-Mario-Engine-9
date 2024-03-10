@@ -4,6 +4,9 @@
 with (obj_physicsparent) event_user(14);
 with (obj_platformparent) event_user(14);
 
+//Make all skewers un-freeze
+with (obj_skewer_trunk) event_user(14);
+
 //If the player is not riding anything
 if (global.mount == 0) {
 	

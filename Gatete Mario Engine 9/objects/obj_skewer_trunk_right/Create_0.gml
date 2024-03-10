@@ -1,5 +1,8 @@
 /// @description Rightward skewer trunk
 
+//Check if frozen
+freeze = false
+
 //Parent, if it exists
 parent = -1;
 
@@ -8,6 +11,16 @@ ready = 0;
 
 //Go left a bit
 alarm[0] = 120;
+
+//Freeze variables
+save_ims = 0;
+save_hsp = 0;
+save_vsp = 0;
+save_grav = 0;
+for (var i=0; i<12; i++) {
+
+	save_alm[i] = -1;
+}
 
 //Create block masher
 masher = instance_create_layer(0, 0, "Main", obj_skewer_mask);

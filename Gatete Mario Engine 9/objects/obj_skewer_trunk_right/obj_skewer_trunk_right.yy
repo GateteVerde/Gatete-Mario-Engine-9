@@ -17,7 +17,10 @@
     "name":"Skewers",
     "path":"folders/Objects/Special/Do Not Use!/Items/Hazards/Skewers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_skewer_trunk",
+    "path":"objects/obj_skewer_trunk/obj_skewer_trunk.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

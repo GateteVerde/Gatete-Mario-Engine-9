@@ -34,5 +34,5 @@ if (freeze == false) {
 #endregion
 
 //Destroy when outside the view
-if (outside_view())
+if (outside_view() == true)
 	instance_destroy();

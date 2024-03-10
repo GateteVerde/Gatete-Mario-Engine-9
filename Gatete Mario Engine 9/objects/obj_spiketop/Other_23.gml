@@ -20,7 +20,7 @@ for (var i=0; i<12; i++) {
 
 	if (alarm[i] > -1) {
 		
-		save_alm[i] += alarm[i];
+		save_alm[i] += round(alarm[i]);
 		alarm[i] = -1;
 	}
 }

@@ -4,6 +4,9 @@
 with (obj_physicsparent) event_user(13);
 with (obj_platformparent) event_user(13);
 
+//Freeze skewers
+with (obj_skewer_trunk) event_user(13);
+
 //Freeze Mario
 with (obj_mario) {
 
