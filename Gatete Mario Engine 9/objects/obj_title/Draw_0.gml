@@ -70,7 +70,7 @@ else if (start == 1) {
 		var _colour = (i == index) ? c_white : c_ltgray;
 	
 		//Draw the text
-		draw_text_shadowed(camera_get_view_x(view_camera[0]) + 32, _yy + (_gap * i), string_upper(menu[sub_menu, i]), c_black, _colour, 1, 1, 0.5, 1);
+		draw_text_shadowed(camera_get_view_x(view_camera[0]) + 32, _yy + (_gap * i), menu[sub_menu, i], c_black, _colour, 1, 1, 0.5, 1);
 	
 		//Draw cursor
 		if (i == index) {
@@ -110,5 +110,5 @@ else if (start == 1) {
 
 //Draw copyright and reset horizontal text alignment
 draw_set_halign(fa_center);
-draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 + (yy / 2), string_upper("2024 GREEN BARON GAMES \nMARIO IS (C) FROM NINTENDO"), c_black, c_white, 1, 1, 0.5, 1);
+draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 + (yy / 2), "2024 GREEN BARON GAMES \nMARIO IS (C) FROM NINTENDO", c_black, c_white, 1, 1, 0.5, 1);
 draw_set_halign(fa_left);

@@ -5,7 +5,7 @@
 function screen_floor(value) {
 	
 	if (global.subpixels)
-		return floor(value * (1*obj_coordinator.size)) / (1*obj_coordinator.size);
+		return floor(value * obj_coordinator.size) / obj_coordinator.size;
 	else
 		return floor(value);
 }

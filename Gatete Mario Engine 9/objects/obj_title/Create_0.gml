@@ -14,7 +14,7 @@ enum menupage {
 //Save File info
 for (i=0; i<3; i++) {
 
-    completion[i] = 0;
+    completion[i] = -1;
 }
 
 //Options sub-menu 0

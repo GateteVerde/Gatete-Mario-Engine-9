@@ -154,6 +154,8 @@ else if (start == 1) {
 					case (0): {
 						
 						//Set file
+						if (global.file == "GME9SaveA.sav")
+							break;
 						global.file = "GME9SaveA.sav";
 											
 						//If no curtain exists
@@ -189,6 +191,8 @@ else if (start == 1) {
 					case (1): {
 						
 						//Set file
+						if (global.file == "GME9SaveB.sav")
+							break;
 						global.file = "GME9SaveB.sav";
 											
 						//If no curtain exists
@@ -224,6 +228,8 @@ else if (start == 1) {
 					case (2): {
 						
 						//Set file
+						if (global.file == "GME9SaveC.sav")
+							break;
 						global.file = "GME9SaveC.sav";
 											
 						//If no curtain exists
@@ -562,79 +568,99 @@ key[7] = string(key_to_string(global.key[input.right]));
 
 	#region FILE A
 	
-		//Update FILE A info
-		if (file_exists("GME9DataA.ini")) {
+		//Check that FILE A info has not already been set
+		if (completion[0] == -1) {
+			
+			//Update FILE A info
+			if (file_exists("GME9DataA.ini")) {
 	
-			//Open INI
-			ini_open("GME9DataA.ini");
+				//Open INI
+				ini_open("GME9DataA.ini");
 		
-			//Read data
-			completion[0] = ini_read_real("Clear", "Completion", 0);
+				//Read data
+				completion[0] = ini_read_real("Clear", "Completion", 0);
 		
-			//Close INI
-			ini_close();
+				//Close INI
+				ini_close();
 		
-			//Print it
-			menu[0, 0] = "FILE A ..... " + string_format(completion[0], 3, 0) + "%";
+				//Print it
+				menu[0, 0] = "FILE A ..... " + string_format(completion[0], 3, 0) + "%";
+			}
+			
+			//Otherwise
+			else {
+				
+				menu[0, 0] = "FILE A ..... NEW!";
+				completion[0] = 0;
+			}
 		}
-	
-		//Otherwise
-		else	
-			menu[0, 0] = "FILE A ..... NEW!";
 	#endregion
 	
 	#region FILE B
 	
-		//Update FILE B info
-		if (file_exists("GME9DataB.ini")) {
+		//Check that FILE B info has not already been set
+		if (completion[1] == -1) {
 	
-			//Open INI
-			ini_open("GME9DataB.ini");
+			//Update FILE B info
+			if (file_exists("GME9DataB.ini")) {
+	
+				//Open INI
+				ini_open("GME9DataB.ini");
 		
-			//Read data
-			completion[1] = ini_read_real("Clear", "Completion", 0);
+				//Read data
+				completion[1] = ini_read_real("Clear", "Completion", 0);
 		
-			//Close INI
-			ini_close();
+				//Close INI
+				ini_close();
 		
-			//Print it
-			menu[0, 1] = "FILE B ..... " + string_format(completion[1], 3, 0) + "%";
+				//Print it
+				menu[0, 1] = "FILE B ..... " + string_format(completion[1], 3, 0) + "%";
+			}
+			//Otherwise
+			else {
+		
+				menu[0, 1] = "FILE B ..... NEW!";
+				completion[1] = 0;
+			}
 		}
-	
-		//Otherwise
-		else	
-			menu[0, 1] = "FILE B ..... NEW!";
 	#endregion
 	
 	#region FILE C
 	
-		//Update FILE A info
-		if (file_exists("GME9DataC.ini")) {
+		//Check that FILE C info has not already been set
+		if (completion[2] == -1) {
 	
-			//Open INI
-			ini_open("GME9DataC.ini");
+			//Update FILE C info
+			if (file_exists("GME9DataC.ini")) {
+	
+				//Open INI
+				ini_open("GME9DataC.ini");
 		
-			//Read data
-			completion[2] = ini_read_real("Clear", "Completion", 0);
+				//Read data
+				completion[2] = ini_read_real("Clear", "Completion", 0);
 		
-			//Close INI
-			ini_close();
+				//Close INI
+				ini_close();
 		
-			//Print it
-			menu[0, 2] = "FILE C ..... " + string_format(completion[0], 3, 0) + "%";
+				//Print it
+				menu[0, 2] = "FILE C ..... " + string_format(completion[0], 3, 0) + "%";
+			}
+	
+			//Otherwise
+			else {
+				
+				menu[0, 2] = "FILE C ..... NEW!";
+				completion[2] = 0;
+			}
 		}
-	
-		//Otherwise
-		else	
-			menu[0, 2] = "FILE C ..... NEW!";
 	#endregion
 	
 #endregion
 
 //Update options
-menu[menupage.options, 2] = (obj_coordinator.colourblind == false) ? "Colourblind Mode: Off" : "Colourblind Mode: On";
-menu[menupage.options, 3] = "Music Volume: " + string(round(obj_coordinator.music_vol * 100));
-menu[menupage.options, 4] = "Sound Volume: " + string(round(obj_coordinator.sound_vol * 100));
-menu[menupage.options, 5] = (obj_coordinator.autosave == false) ? "Auto Save: Off" : "Auto Save: On";
-menu[menupage.options, 6] = (obj_coordinator.vsync == false) ? "V-Sync: Off" : "V-Sync: On";
-menu[menupage.options, 7] = (obj_coordinator.showfps == false) ? "FPS: Off" : "FPS: On";
+menu[menupage.options, 2] = (obj_coordinator.colourblind == false) ? "COLOURBLIND MODE: OFF" : "COLOURBLIND MODE: ON";
+menu[menupage.options, 3] = "MUSIC VOLUME: " + string(round(obj_coordinator.music_vol * 100));
+menu[menupage.options, 4] = "SOUND VOLUME: " + string(round(obj_coordinator.sound_vol * 100));
+menu[menupage.options, 5] = (obj_coordinator.autosave == false) ? "AUTO SAVE: OFF" : "AUTO SAVE: ON";
+menu[menupage.options, 6] = (obj_coordinator.vsync == false) ? "V-SYNC: OFF" : "V-SYNC: ON";
+menu[menupage.options, 7] = (obj_coordinator.showfps == false) ? "FPS: OFF" : "FPS: ON";

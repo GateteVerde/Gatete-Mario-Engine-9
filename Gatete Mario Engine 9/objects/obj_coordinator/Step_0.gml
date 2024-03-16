@@ -16,8 +16,11 @@ update_shockwave();
 //Update timers
 timer_system_update();
 
-//Update Window Caption
-window_set_caption("Gatete Mario Engine 9")
+//Update Window Caption if it is not the correct caption
+if (window_get_caption() != WINDOW_CAPTION) {
+	
+	window_set_caption(WINDOW_CAPTION);
+}
 
 //Keep music looper active
 instance_activate_object(obj_audio_loop_sound);
@@ -31,13 +34,16 @@ depth = -1000;
 //Resets combos if enabled
 #region
 
-	with (all) {
+	if (instance_exists(obj_levelcontrol)) {
+		
+		with (all) {
 	
-		//If the combo is higher
-		if (variable_instance_exists(id, "hitcombo"))
-		&& (hitcombo > 7)
-		&& (global.combo_reset == true)
-			hitcombo = 0;
+			//If the combo is higher
+			if (variable_instance_exists(id, "hitcombo"))
+			&& (hitcombo > 7)
+			&& (global.combo_reset == true)
+				hitcombo = 0;
+		}
 	}
 #endregion
 

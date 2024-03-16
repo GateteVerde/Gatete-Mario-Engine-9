@@ -17,8 +17,12 @@ if (status == mapstate.idle)
         //If there's a panel, print the name on the HUD
         if (panel) {
 			
-            obj_hud_map.levelname = string_upper(panel.levelname);
-			obj_hud_map.levelid = panel.levelid;
+			// Only set information when it is necessary
+			if (obj_hud_map.levelid == noone) {
+				
+	            obj_hud_map.levelname = string_upper(panel.levelname);
+				obj_hud_map.levelid = panel.levelid;
+			}
 		}
         else {
 			
@@ -29,7 +33,7 @@ if (status == mapstate.idle)
 			if (!panel)
 			&& (x == xstart)
 			&& (y == ystart)
-				obj_hud_map.levelname = string_upper("Start");
+				obj_hud_map.levelname = "START";
 			else
 				obj_hud_map.levelname = "";
 		}

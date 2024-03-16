@@ -64,3 +64,7 @@ camera_set_view_target(view_camera[0], noone);
 
 //Set the camera position
 camera_set_view_pos(view_camera[0], camera_x, camera_y);
+
+//Activate path parents in view
+instance_deactivate_object(obj_pathparent);
+instance_activate_region(camera_x - 32, camera_y - 32, camera_get_view_width(view_camera[0]) + 64, camera_get_view_height(view_camera[0]) + 64, true);
