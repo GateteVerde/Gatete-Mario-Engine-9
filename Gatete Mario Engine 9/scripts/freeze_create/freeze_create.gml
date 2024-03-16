@@ -32,7 +32,7 @@ function freeze_render() {
 	    gpu_set_blendenable(0);
 		
 		//Draw the snapshot
-		draw_sprite_ext(snapshot, 0, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), 1 / obj_coordinator.size, 1 / obj_coordinator.size, 0, c_white, 1);
+		draw_sprite_ext(snapshot, 0, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), 1 / obj_coordinator. size, 1 / obj_coordinator. size, 0, c_white, 1);
 		
 		//Enable alpha blending
 		gpu_set_blendenable(1);
