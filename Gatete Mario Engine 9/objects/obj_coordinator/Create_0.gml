@@ -1,10 +1,8 @@
 /// @description Gatete Mario Engine 9 Game Coordinator (This is required for the game to run, do not remove it.)
 
 //Set game caption
-window_set_caption("Gatete Mario Engine 9");
-
-//Initialize Colour Swap Shader
-pal_swap_init_system();
+#macro WINDOW_CAPTION "Gatete Mario Engine 9"
+window_set_caption(WINDOW_CAPTION);
 
 //Initialize global variables
 init_globals();

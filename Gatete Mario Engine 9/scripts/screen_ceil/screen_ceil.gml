@@ -5,7 +5,7 @@
 function screen_ceil(value) {
 	
 	if (global.subpixels)
-		return ceil(value * (1*obj_coordinator.size)) / (1*obj_coordinator.size);
+		return ceil(value * obj_coordinator.size) / obj_coordinator.size;
 	else
 		return ceil(value);
 }
