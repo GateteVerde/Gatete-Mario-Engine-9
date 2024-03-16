@@ -154,8 +154,6 @@ else if (start == 1) {
 					case (0): {
 						
 						//Set file
-						if (global.file == "GME9SaveA.sav")
-							break;
 						global.file = "GME9SaveA.sav";
 											
 						//If no curtain exists
@@ -191,8 +189,6 @@ else if (start == 1) {
 					case (1): {
 						
 						//Set file
-						if (global.file == "GME9SaveB.sav")
-							break;
 						global.file = "GME9SaveB.sav";
 											
 						//If no curtain exists
@@ -228,8 +224,6 @@ else if (start == 1) {
 					case (2): {
 						
 						//Set file
-						if (global.file == "GME9SaveC.sav")
-							break;
 						global.file = "GME9SaveC.sav";
 											
 						//If no curtain exists
