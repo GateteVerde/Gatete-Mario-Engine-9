@@ -1,10 +1,8 @@
 /// @description Gatete Mario Engine 9 Game Coordinator (This is required for the game to run, do not remove it.)
 
 //Set game caption
-window_set_caption("Gatete Mario Engine 9");
-
-//Initialize Colour Swap Shader
-pal_swap_init_system();
+#macro WINDOW_CAPTION "Gatete Mario Engine 9"
+window_set_caption(WINDOW_CAPTION);
 
 //Initialize global variables
 init_globals();
@@ -309,6 +307,9 @@ global.gui_font_numbers_large_gold = font_add_sprite_ext(spr_gui_font_numbers_la
 
 //Disable application surface automatic drawing
 application_surface_draw_enable(false);
+
+//Enables Borderless Fullscreen
+window_enable_borderless_fullscreen(true);
 
 //Set up epsilon for floating point numbers
 math_set_epsilon(0.00001);

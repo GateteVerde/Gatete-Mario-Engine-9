@@ -1,6 +1,6 @@
 /// @description Draw the effect
 
-//Draw the screenshot.
+//Render screenshot
 freeze_render();
 
 //Set the alpha
