@@ -1637,6 +1637,7 @@
     {"id":{"name":"rm_template_boss_boomboom","path":"rooms/rm_template_boss_boomboom/rm_template_boss_boomboom.yy",},},
     {"id":{"name":"rm_template_boss_reznor","path":"rooms/rm_template_boss_reznor/rm_template_boss_reznor.yy",},},
     {"id":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
+    {"id":{"name":"rm_course_w2_l1","path":"rooms/rm_course_w2_l1/rm_course_w2_l1.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"rm_worldmap","path":"rooms/rm_worldmap/rm_worldmap.yy",},},
     {"id":{"name":"ai_npc_ceiling","path":"scripts/ai_npc_ceiling/ai_npc_ceiling.yy",},},
@@ -4089,6 +4090,7 @@
     {"roomId":{"name":"rm_course_w1_l1_c","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},},
     {"roomId":{"name":"rm_course_w1_l1_d","path":"rooms/rm_course_w1_l1_d/rm_course_w1_l1_d.yy",},},
     {"roomId":{"name":"rm_powerups","path":"rooms/rm_powerups/rm_powerups.yy",},},
+    {"roomId":{"name":"rm_course_w2_l1","path":"rooms/rm_course_w2_l1/rm_course_w2_l1.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

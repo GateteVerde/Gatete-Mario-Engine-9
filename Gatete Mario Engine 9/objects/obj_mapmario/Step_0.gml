@@ -17,12 +17,12 @@ if (status == mapstate.idle)
         //If there's a panel, print the name on the HUD
         if (panel) {
 			
-			// Only set information when it is necessary
-			if (obj_hud_map.levelid == noone) {
-				
-	            obj_hud_map.levelname = string_upper(panel.levelname);
+			//Adquire level information
+			obj_hud_map.levelname = string_upper(panel.levelname);
+			
+			//Only set information when it is necessary
+			if (obj_hud_map.levelid != panel.levelid)
 				obj_hud_map.levelid = panel.levelid;
-			}
 		}
         else {
 			
