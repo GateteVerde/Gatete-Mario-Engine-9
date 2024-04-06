@@ -1,41 +1,44 @@
-/// @description Split into three
+/// @description Check if Mario is nearby
 
-//Play 'Magic' sound
-audio_play_sound(snd_magic, 0, false);
-    
-//Create main chuck
-instance_create_depth(x, y, -2, obj_charginchuck);
-    
-//Create two chucks
-with (instance_create_depth(x, y, -2, obj_charginchuck)) {
-    
-    //Set the jumping sprite
-    sprite_index = spr_charginchuck_jump;
-    
-    //Set the horizontal speed
-    xspeed = -1;
-        
-    //Boost jump
-    y--;
-        
-    //Set the vertical speed
-	yspeed = (other.swimming) ? -1 : -4;
+//If Mario does not exist
+if (!instance_exists(obj_mario)) {
+
+	alarm[0] = 1;
+	exit;
 }
 
-with (instance_create_depth(x, y, -2, obj_charginchuck)) {
+//Otherwise
+else {
 
-    //Set the jumping sprite
-    sprite_index = spr_charginchuck_jump;    
-       
-    //Set the horizontal speed
-    xspeed = 1;
-        
-    //Boost jump
-    y--;
-        
-    //Set the vertical speed
-	yspeed = (other.swimming) ? -1 : -4;
+	//If Mario is nearby
+	if (obj_mario.x > bbox_left-48)
+	&& (obj_mario.x < bbox_right+48) {
+	
+		//If the chuck is not ready
+		if (ready == 0) {
+		
+			//Set sprite
+			sprite_index = spr_bouncinchuck;
+			
+			//Set frame
+			image_speed = 0;
+			image_index = 1;
+			
+			//Ready
+			ready = 1;
+			
+			//Manage offset
+			alarm[1] = 1;
+			
+			//Split into 3 chucks
+			alarm[2] = 60;
+		}
+	}
+	
+	//Otherwise
+	else {
+	
+		alarm[0] = 1;
+		exit;
+	}
 }
-
-//Destroy
-instance_destroy();

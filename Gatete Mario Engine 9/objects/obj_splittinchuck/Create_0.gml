@@ -19,11 +19,14 @@ turn_silver = 0;
 hp = 2;
 firehp = 4;
 
+//Ready?
+ready = 0;
+
 //Offset
 offset = 0;
 
-//Split into 3
-alarm[0] = 60;
+//Check for Mario
+alarm[0] = 1;
 
 //Deny alarm 10
 alarm[10] = -1;
