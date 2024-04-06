@@ -52,9 +52,9 @@ if (invulnerable == false)
 		//Create crystal if allowed to
 		if (drop_crystal == true) {
 
-			with (instance_create_depth(x, y-16, -2, obj_birdo_crystal)) {
+			with (instance_create_depth(x-8, y-16, -2, obj_birdo_crystal)) {
 	
-				xspeed = 0.5 * other.xscale-1;
+				xspeed = 0.5 * other.xscale;
 				yspeed = -4;
 				y--;
 			}

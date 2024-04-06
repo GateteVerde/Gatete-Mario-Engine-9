@@ -1,4 +1,4 @@
-/// @description Move again
+/// @description Shoot an egg and resume movement
 
 //Play 'Spit' sound
 audio_play_sound(snd_yoshi_spit, 0, false);

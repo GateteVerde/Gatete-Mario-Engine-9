@@ -12,6 +12,9 @@ vulnerable = 99;
 //How vulnerable is this enemy to Mario?
 stomp = 3;
 
+//Does this enemy turn on ledges?
+turn_on_ledges = 1;
+
 //Do not turn into silver coins
 turn_silver = 0;
 

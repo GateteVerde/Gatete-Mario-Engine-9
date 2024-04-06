@@ -34,6 +34,9 @@ if (global.mount == 1) {
 //Otherwise, draw normally
 else {
 	
+	//Set palette
+	pal_swap_set_player(global.palette[global.player].main, global.palette[global.player].star);
+	
 	//Draw cape
 	if (global.powerup == cs_cape) {
 			
@@ -41,4 +44,7 @@ else {
 	}
 	
     draw_sprite_ext(sprite_index, -1, screen_round(x), screen_round(y)+1, image_xscale, 1, 0, c_white, image_alpha);
+	
+	//Reset palette
+	pal_swap_reset();
 }

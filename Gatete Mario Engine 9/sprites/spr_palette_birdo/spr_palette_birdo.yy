@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_palette_birdo",
   "bboxMode":0,
-  "bbox_bottom":5,
+  "bbox_bottom":6,
   "bbox_left":0,
   "bbox_right":2,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":6,
+  "height":7,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"69c52cdb-7580-4a6b-bea7-e7b23d470cc7","blendMode":0,"displayName":"default","isLocked":false,"name":"69c52cdb-7580-4a6b-bea7-e7b23d470cc7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
