@@ -286,7 +286,6 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 instance_deactivate_object(obj_deactivateparent);
 instance_deactivate_object(obj_enemyparent_deact);
 instance_deactivate_object(obj_qblock);
-instance_deactivate_object(obj_brick);
 
 //Instance Deactivation coordinates
 var _vx = camera_get_view_x(view_camera[0]);
