@@ -20,7 +20,9 @@ if (instance_exists(obj_mario)) {
     if (global.powerup == cs_bell) {
     
         //Force end drop-down if the 'Down' key is not longer pressed.
-        if ((ready == 1) && ((!input_check(input.down)) || (!gamepad_axis_value(0, gp_axislv) > 0.5))) {
+        if (ready == 1) 
+		&& (!input_check(input.down)) 
+		&& (!gamepad_axis_value(0, gp_axislv) < 0.5) {
             
             //Hereby both hspeed and vspeed
             with (obj_mario) {
