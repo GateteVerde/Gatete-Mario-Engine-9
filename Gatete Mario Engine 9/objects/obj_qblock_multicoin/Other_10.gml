@@ -1,5 +1,11 @@
 /// @description Begin timer
 
+//Decrement coins
+if (coins_left > 1) {
+
+	coins_left--;
+}
+
 //Increment hits
 hits++;
 
@@ -13,7 +19,7 @@ if (scatter == 0) {
 		audio_play_sound(snd_coin_big, 0, false);
 
 		//Repeat as many coins you want to spawn
-		repeat (10) {
+		repeat (coins_left) {
 			
 			//If there's not a solid below
 			if (!collision_rectangle(bbox_left, ystart + 16, bbox_right, ystart + 17, obj_semisolid, 0, 0))

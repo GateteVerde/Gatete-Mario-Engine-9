@@ -1,5 +1,11 @@
 /// @description Begin timer
 
+//Decrement coins
+if (coins_left > 1) {
+
+	coins_left--;
+}
+
 //If this block has been hit from below
 if (bottom == false) {
 
@@ -25,7 +31,7 @@ else if (bottom == true) {
 	audio_play_sound(snd_coin_big, 0, false);
 	
 	//Repeat as many coins you want to spawn
-	repeat (10) {
+	repeat (coins_left) {
 		
 		//Create 3 coins
 		for (var i=0; i<3; i++) {

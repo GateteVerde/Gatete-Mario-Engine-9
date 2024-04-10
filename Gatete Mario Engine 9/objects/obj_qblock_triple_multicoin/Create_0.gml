@@ -3,6 +3,9 @@
 //Inherit event from parent
 event_inherited();
 
+//Coins Left
+coins_left = 10;
+
 //Timer
 coiny = 0;
 
