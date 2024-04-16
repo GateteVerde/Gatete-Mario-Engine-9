@@ -1,17 +1,19 @@
 /// @description Move towards Mario
 
 if (state == 1) {
+	
+	//Set hor. speed
+	xspeed = (swimming) ? 0.5 * sign(xscale) : 1 * sign(xscale);
 		
 	//Change state
 	state = 2;
 
-	//Set hor. speed
-	xspeed = 1 * sign(xscale);
-
 	//Resume animation
 	image_speed = 1;
-	for (i=1; i < seg; i++) 
+	for (i=1; i < seg; i++) {
+		
 		mybody[i].image_speed = 1;
+	}
 		
 	//Chase player cycle
 	alarm[0] = 60;
@@ -26,14 +28,14 @@ else {
 	    //If Mario is at the left and the Wiggler is moving right
 	    if ((obj_mario.x < x) && (xspeed > 0))  {
     
-	        xspeed = -1;
+	        xspeed = (swimming) ? -0.5 * sign(xscale) : -1 * sign(xscale);
 	        alarm[0] = 40;
 	    }
     
 	    //Otherwise, if Mario is at the right and the Wiggler is moving left
 	    else if ((obj_mario.x > x) && (xspeed < 0)) {
     
-	        xspeed = 1;
+	        xspeed = (swimming) ? 0.5 * sign(xscale) : 1 * sign(xscale);
 	        alarm[0] = 40;
 	    }
     
