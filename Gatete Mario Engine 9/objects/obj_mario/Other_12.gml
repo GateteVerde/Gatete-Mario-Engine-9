@@ -1124,7 +1124,7 @@ if (state == playerstate.jump)
 && (enable_control == 1) {
 
     //If the player does have either the raccoon or the tanooki powerup
-    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon) || ((global.powerup == cs_wind) && (doublejump == 2)))
+    if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon) || ((global.powerup == cs_wind) && (global.mount == 0) && (doublejump == 2)))
 	&& (jumping != 1)
     && (wallkick < 1)
 	&& (groundpound == 0)
@@ -1334,6 +1334,7 @@ if (global.powerup == cs_wind) {
 	//Double Jump
 	if (doublejump == 0)
 	&& (jumping != 1)
+	&& (global.mount == 0)
 	&& (input_check_pressed(input.action_0)) {
 	
 		//Play 'Jump' sound
