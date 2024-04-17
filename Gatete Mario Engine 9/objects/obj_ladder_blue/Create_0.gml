@@ -13,8 +13,8 @@ if (global.on_off_block == 1) {
 	myclimb = instance_create_layer(x, y, "Main", obj_climb);
 	with (myclimb) {
 	
-		image_xscale = other.image_xscale;
-		image_yscale = other.image_yscale * 3;
+		image_xscale = other.image_xscale * 2;
+		image_yscale = other.image_yscale * 2;
 	}
 }
 else
