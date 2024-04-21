@@ -140,20 +140,8 @@ if (room != rm_bonus) {
 				x = follow.x;
 				
 				//If the object being followed is obj_mario_jump_note
-				if (follow != obj_mario_jump_note) {
-					
-					//If Mario is warping through a pipe
-					if (follow = obj_mario_warp) {
-						
-						//...and Mario is on cannonball mode
-						if (obj_mario_warp.cannon == 2)
-							exit;
-						else
-							y = follow.y;
-					}
-					else
-						y = follow.y;
-				}
+				if (follow != obj_mario_jump_note)
+					y = follow.y;
 			}
 		}
 	}
