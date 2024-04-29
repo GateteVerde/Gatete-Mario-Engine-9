@@ -63,26 +63,30 @@ if (instance_exists(obj_mario)) {
 //Movement
 event_user(0);
 
-//If moving right
-if (hspeed > 0)
-&& (collision_rectangle(bbox_right, obj_mario.bbox_top+4, bbox_right+1+hspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
-			
-	//Stop horizontal speed
-	hspeed = 0;
-				
-	//Prevent getting embed on a wall
-	while (collision_rectangle(bbox_right, obj_mario.bbox_top+4, bbox_right+hspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
-		x--;  
-}
+//If Mario does exist
+if (instance_exists(obj_mario)) {
 
-//If moving right
-else if (hspeed < 0)
-&& (collision_rectangle(bbox_left-1+hspeed, obj_mario.bbox_top+4, bbox_left-1, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
+	//If moving right
+	if (hspeed > 0)
+	&& (collision_rectangle(bbox_right, obj_mario.bbox_top+4, bbox_right+1+hspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
 			
-	//Stop horizontal speed
-	hspeed = 0;
+		//Stop horizontal speed
+		hspeed = 0;
 				
-	//Prevent getting embed on a wall
-	while (collision_rectangle(bbox_left+hspeed, obj_mario.bbox_top+4, bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
-		x++;  
+		//Prevent getting embed on a wall
+		while (collision_rectangle(bbox_right, obj_mario.bbox_top+4, bbox_right+hspeed, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
+			x--;  
+	}
+
+	//If moving right
+	else if (hspeed < 0)
+	&& (collision_rectangle(bbox_left-1+hspeed, obj_mario.bbox_top+4, bbox_left-1, obj_mario.bbox_bottom-1, obj_solid, 1, 0)) {
+			
+		//Stop horizontal speed
+		hspeed = 0;
+				
+		//Prevent getting embed on a wall
+		while (collision_rectangle(bbox_left+hspeed, obj_mario.bbox_top+4, bbox_left, obj_mario.bbox_bottom-1, obj_solid, 1, 0))
+			x++;  
+	}
 }
