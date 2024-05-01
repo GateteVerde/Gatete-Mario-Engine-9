@@ -120,7 +120,6 @@ if (mebelow == noone) {
 				
 				yadd = (swimming) ? 0.03125 : 0.25;
 			}
-
 	
 			//Check for a nearby swimming surface
 			var water = collision_rectangle(bbox_left, y-1, bbox_right, y, obj_swim, 1, 0);
@@ -147,7 +146,7 @@ if (mebelow == noone) {
 	
 				//Double horizontal speed
 				xspeed = xspeed*2;
-			}			
+			}		
 		#endregion
             
         //Reset offset values
@@ -210,3 +209,27 @@ else {
 		    sprite_index = spr_goomba_stack;
 	}
 #endregion
+
+//Check for a nearby lava object
+var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom+8, obj_lava, 1, 0);
+
+//If the NPC makes contact with lava
+if (lava) {
+	
+	//If this object is not a baburu shoe
+	if ((object_index != obj_kuriboshoe) && (sprite_index != spr_shoe_baburu)) {
+	
+		//Play 'Burn' sound
+		audio_play_sound(snd_burn, 0, false);
+		
+		//Go *poof*
+		instance_create_depth(round(bbox_left + bbox_right) / 2, lava.y - 8, -6, obj_smoke);
+		with (instance_create_depth(round(bbox_left + bbox_right) / 2, lava.y - 8, -6, obj_smoke)) {
+			
+			sprite_index = spr_splash_lava;
+		}
+		
+		//Destroy
+		instance_destroy();
+	}	
+}

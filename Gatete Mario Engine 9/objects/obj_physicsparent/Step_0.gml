@@ -125,7 +125,7 @@ var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom+8, o
 if (lava) {
 	
 	//If this object is not a baburu shoe
-	if (sprite_index != spr_shoe_baburu) {
+	if ((object_index != obj_kuriboshoe) && (sprite_index != spr_shoe_baburu)) {
 	
 		//Play 'Burn' sound
 		audio_play_sound(snd_burn, 0, false);
