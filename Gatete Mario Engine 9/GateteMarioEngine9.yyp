@@ -530,7 +530,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"GateteMarioEngine9",
   "resources":[
@@ -986,8 +986,8 @@
     {"id":{"name":"obj_kuriboshoe_lost","path":"objects/obj_kuriboshoe_lost/obj_kuriboshoe_lost.yy",},},
     {"id":{"name":"obj_kuriboshoe_movement","path":"objects/obj_kuriboshoe_movement/obj_kuriboshoe_movement.yy",},},
     {"id":{"name":"obj_kuriboshoe","path":"objects/obj_kuriboshoe/obj_kuriboshoe.yy",},},
-    {"id":{"name":"obj_ladder_red","path":"objects/obj_ladder_red/obj_ladder_red.yy",},},
     {"id":{"name":"obj_ladder_blue","path":"objects/obj_ladder_blue/obj_ladder_blue.yy",},},
+    {"id":{"name":"obj_ladder_red","path":"objects/obj_ladder_red/obj_ladder_red.yy",},},
     {"id":{"name":"obj_lakitu_cloud","path":"objects/obj_lakitu_cloud/obj_lakitu_cloud.yy",},},
     {"id":{"name":"obj_lakitu_egg","path":"objects/obj_lakitu_egg/obj_lakitu_egg.yy",},},
     {"id":{"name":"obj_lakitu_pipe","path":"objects/obj_lakitu_pipe/obj_lakitu_pipe.yy",},},

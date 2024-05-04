@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"belt_power","filters":[],"listItems":[],"multiselect":false,"name":"belt_power","rangeEnabled":true,"rangeMax":1.5,"rangeMin":0.5,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"belt_power","filters":[],"listItems":[],"multiselect":false,"name":"belt_power","rangeEnabled":true,"rangeMax":1.5,"rangeMin":0.5,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

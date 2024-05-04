@@ -9,7 +9,7 @@
   "managed":true,
   "name":"obj_levelpanel_pipe_orange",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Warp Pipe\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Warp Pipe\"",},
   ],
   "parent":{
     "name":"Special",
@@ -33,8 +33,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"pipex","filters":[],"listItems":[],"multiselect":false,"name":"pipex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
-    {"$GMObjectProperty":"","%Name":"pipey","filters":[],"listItems":[],"multiselect":false,"name":"pipey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"pipex","filters":[],"listItems":[],"multiselect":false,"name":"pipex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"pipey","filters":[],"listItems":[],"multiselect":false,"name":"pipey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

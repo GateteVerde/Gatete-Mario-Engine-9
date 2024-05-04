@@ -27,8 +27,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"sprout[0]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varType":4,},
-    {"$GMObjectProperty":"","%Name":"sprout[1]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[1]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"sprout[0]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"sprout[1]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[1]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

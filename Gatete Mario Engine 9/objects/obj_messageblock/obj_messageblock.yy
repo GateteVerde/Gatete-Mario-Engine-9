@@ -31,8 +31,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"varmsg","filters":[],"listItems":[],"multiselect":false,"name":"varmsg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"No message set.\"","varType":4,},
-    {"$GMObjectProperty":"","%Name":"mute_sound","filters":[],"listItems":[],"multiselect":false,"name":"mute_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"varmsg","filters":[],"listItems":[],"multiselect":false,"name":"varmsg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"No message set.\"","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"mute_sound","filters":[],"listItems":[],"multiselect":false,"name":"mute_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

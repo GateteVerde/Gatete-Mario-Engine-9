@@ -32,9 +32,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"progressive","filters":[],"listItems":[],"multiselect":false,"name":"progressive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"","%Name":"ring_id","filters":[],"listItems":[],"multiselect":false,"name":"ring_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"","%Name":"sprout","filters":[],"listItems":[],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_fire","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"progressive","filters":[],"listItems":[],"multiselect":false,"name":"progressive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"ring_id","filters":[],"listItems":[],"multiselect":false,"name":"ring_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"sprout","filters":[],"listItems":[],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_fire","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

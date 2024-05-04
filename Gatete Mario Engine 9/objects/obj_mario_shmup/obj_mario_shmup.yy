@@ -35,10 +35,10 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"subpop","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"subpop","filters":[],"listItems":[
         "spr_mario_skypop",
         "spr_mario_subpop",
-      ],"multiselect":false,"name":"subpop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+      ],"multiselect":false,"name":"subpop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

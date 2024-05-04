@@ -27,14 +27,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"boocount","filters":[],"listItems":[],"multiselect":false,"name":"boocount","rangeEnabled":true,"rangeMax":16.0,"rangeMin":6.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
-    {"$GMObjectProperty":"","%Name":"clockwise","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"boocount","filters":[],"listItems":[],"multiselect":false,"name":"boocount","rangeEnabled":true,"rangeMax":16.0,"rangeMin":6.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"clockwise","filters":[],"listItems":[
         "1",
         "-1",
-      ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":6,},
-    {"$GMObjectProperty":"","%Name":"gapsize","filters":[],"listItems":[],"multiselect":false,"name":"gapsize","rangeEnabled":true,"rangeMax":6.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
-    {"$GMObjectProperty":"","%Name":"ringsize","filters":[],"listItems":[],"multiselect":false,"name":"ringsize","rangeEnabled":true,"rangeMax":96.0,"rangeMin":48.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varType":1,},
-    {"$GMObjectProperty":"","%Name":"ringspeed","filters":[],"listItems":[],"multiselect":false,"name":"ringspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0175","varType":4,},
+      ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"gapsize","filters":[],"listItems":[],"multiselect":false,"name":"gapsize","rangeEnabled":true,"rangeMax":6.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"ringsize","filters":[],"listItems":[],"multiselect":false,"name":"ringsize","rangeEnabled":true,"rangeMax":96.0,"rangeMin":48.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"ringspeed","filters":[],"listItems":[],"multiselect":false,"name":"ringspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0175","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

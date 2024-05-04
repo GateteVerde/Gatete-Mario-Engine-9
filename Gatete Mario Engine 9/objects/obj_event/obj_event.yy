@@ -27,8 +27,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
-    {"$GMObjectProperty":"","%Name":"mykey","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"mykey","filters":[],"listItems":[
         "\"global.\"",
         "\"Item 1\"",
         "\"Item 2\"",
@@ -40,7 +40,7 @@
         "\"Item 8\"",
         "\"Item 9\"",
         "\"Item 10\"",
-      ],"multiselect":false,"name":"mykey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"input.up","varType":4,},
+      ],"multiselect":false,"name":"mykey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"input.up","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

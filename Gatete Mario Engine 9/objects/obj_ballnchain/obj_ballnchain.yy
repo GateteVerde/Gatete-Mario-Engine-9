@@ -31,13 +31,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"clockwise","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"clockwise","filters":[],"listItems":[
         "1",
         "-1",
-      ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":6,},
-    {"$GMObjectProperty":"","%Name":"amount","filters":[],"listItems":[],"multiselect":false,"name":"amount","rangeEnabled":true,"rangeMax":160.0,"rangeMin":48.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
-    {"$GMObjectProperty":"","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.5","varType":4,},
-    {"$GMObjectProperty":"","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":true,"rangeMax":160.0,"rangeMin":48.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varType":1,},
+      ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"amount","filters":[],"listItems":[],"multiselect":false,"name":"amount","rangeEnabled":true,"rangeMax":160.0,"rangeMin":48.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.5","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":true,"rangeMax":160.0,"rangeMin":48.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -35,13 +35,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"sprout","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"sprout","filters":[],"listItems":[
         "spr_coin",
         "spr_mushroom",
         "spr_galoomba",
         "spr_bobomb_cannon",
         "spr_cheepcheep",
-      ],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_coin","varType":6,},
+      ],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_coin","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
