@@ -9,5 +9,8 @@ stomp = 2;
 //No swim
 noswim = 1;
 
+//Ignore platforms
+ignore_platforms = true;
+
 //Start moving
 alarm[10] = 2;

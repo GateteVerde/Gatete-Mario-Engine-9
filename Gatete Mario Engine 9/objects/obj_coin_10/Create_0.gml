@@ -11,3 +11,6 @@ yy = 0;
 
 //Bounces
 bounces = 3;
+
+//Ignore platforms
+ignore_platforms = true;

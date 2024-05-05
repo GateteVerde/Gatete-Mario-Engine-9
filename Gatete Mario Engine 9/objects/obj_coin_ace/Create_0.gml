@@ -9,6 +9,9 @@ ready = 0;
 //Bounces
 bounces = 3;
 
+//Ignore platforms
+ignore_platforms = true;
+
 //If this coin has been collected before, destroy
 if (ds_map_find_value(global.acecoins, id)) {
 
