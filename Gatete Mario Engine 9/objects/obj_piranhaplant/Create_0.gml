@@ -9,6 +9,9 @@ stomp = 2;
 //Freeze object
 freeze_object = -2;
 
+//Ignore all platforms
+ignore_platforms = true;
+
 //Manage movement
 ready = 0;
 
