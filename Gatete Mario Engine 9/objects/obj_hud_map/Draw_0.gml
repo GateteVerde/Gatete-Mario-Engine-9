@@ -98,8 +98,27 @@ draw_set_font(global.gui_font);
 	    }
 	}
 	
-	//Render level name
-	draw_text_colour(camera_get_view_x(view_camera[0]) + 80, camera_get_view_y(view_camera[0]) + 24, string(levelname), c_white, c_white, c_white, c_white, 1);
+	#region LEVEL NAME
+	
+		//Temporary variables
+		var str = levelname;
+		var len = string_length(str);
+		
+		//Render level name
+		if (len > 37) {
+			
+			draw_text_port("                                     " + string(levelname), camera_get_view_x(view_camera[0]) + 80, camera_get_view_y(view_camera[0]) + 24, 295, 8, rate);
+			rate--;
+			if (rate < -((37 + len) * 8))
+				rate = 0;
+		}
+		else {
+			
+			draw_text(camera_get_view_x(view_camera[0]) + 80, camera_get_view_y(view_camera[0]) + 24, string(levelname));
+			rate = 0;
+		}
+		
+	#endregion
 
 #endregion
 

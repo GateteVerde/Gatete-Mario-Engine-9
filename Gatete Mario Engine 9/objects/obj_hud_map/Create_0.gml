@@ -19,6 +19,9 @@ inv_offset_y = 0;
 //Animation
 anim = 0;
 
+//Marquee text speed
+rate = 0;
+
 //Prompt to show
 prompt = 0;
 alarm[0] = 180;

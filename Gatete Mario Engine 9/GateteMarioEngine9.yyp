@@ -1653,6 +1653,7 @@
     {"id":{"name":"draw_circle_gradual","path":"scripts/draw_circle_gradual/draw_circle_gradual.yy",},},
     {"id":{"name":"draw_sprite_custom_origin","path":"scripts/draw_sprite_custom_origin/draw_sprite_custom_origin.yy",},},
     {"id":{"name":"draw_sprite_tiled_area_ext","path":"scripts/draw_sprite_tiled_area_ext/draw_sprite_tiled_area_ext.yy",},},
+    {"id":{"name":"draw_text_port","path":"scripts/draw_text_port/draw_text_port.yy",},},
     {"id":{"name":"draw_text_shadowed","path":"scripts/draw_text_shadowed/draw_text_shadowed.yy",},},
     {"id":{"name":"end_level","path":"scripts/end_level/end_level.yy",},},
     {"id":{"name":"follow_which_mario","path":"scripts/follow_which_mario/follow_which_mario.yy",},},
