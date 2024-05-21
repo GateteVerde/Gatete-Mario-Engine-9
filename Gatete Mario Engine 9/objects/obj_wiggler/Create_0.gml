@@ -38,8 +38,8 @@ alarm[10] = 2;
 	//Create anatomy
 	for (var b = 1; b < seg; b++) {
 
-	    mybody[b] = instance_create_depth(xstart, ystart, depth, obj_wiggler_body);
-	    mybody[b].image_speed = 1;
+	    mybody[b] = instance_create_depth(xstart, ystart, depth, obj_wiggler_body)
+		mybody[b].image_speed = 1;
 	    mybody[b].image_index = b;
 	    mybody[b].depth = b;
 	    mybody[b].parent = id;

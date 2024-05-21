@@ -32,8 +32,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"platx","filters":[],"listItems":[],"multiselect":false,"name":"platx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"xstart + 80","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"platy","filters":[],"listItems":[],"multiselect":false,"name":"platy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"y","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"platx","filters":[],"listItems":[],"multiselect":false,"name":"platx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"xstart + 80","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"platy","filters":[],"listItems":[],"multiselect":false,"name":"platy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"y","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

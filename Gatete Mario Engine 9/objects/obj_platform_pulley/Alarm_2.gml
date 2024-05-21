@@ -7,6 +7,9 @@ if ((xstart < camera_get_view_x(view_camera[0]) - sprite_width) || (xstart > cam
 	vspeed = 0;
 	y = ystart;
 
+	//Set gravity
+	gravity = 0;
+
 	//Restart both platforms
 	ready = 0;
 

@@ -45,5 +45,8 @@ direct = 270;
 //Facing direction
 xscale = 1;
 
+//Freeze Sprite
+freeze_sprite = sprite_index;
+
 //Start moving
 alarm[10] = 2;

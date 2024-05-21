@@ -7,7 +7,11 @@ moving = 1;
 for (var i=0; i<4; i++) {
     
     with (mybody[i]) {
+		
+		//Set vulnerable flag to 2
+		vulnerable = 2;
         
+		//Face towards Mario
         if (!instance_exists(obj_mario))
         || (obj_mario.x < x)
             xscale = -1;
