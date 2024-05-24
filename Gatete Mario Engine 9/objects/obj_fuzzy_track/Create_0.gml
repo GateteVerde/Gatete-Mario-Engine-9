@@ -46,7 +46,10 @@ direct = 270;
 xscale = 1;
 
 //Freeze Sprite
-freeze_sprite = sprite_index;
+freeze_sprite = -1;
+
+//Freeze Object
+freeze_object = -1;
 
 //Start moving
 alarm[10] = 2;
