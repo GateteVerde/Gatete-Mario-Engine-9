@@ -6,6 +6,9 @@ parent = noone;
 //Slide increment
 add = 0;
 
+//Volt direction
+dir = 0;
+
 //Do not animate
 image_speed = 0;
 image_index = 0;

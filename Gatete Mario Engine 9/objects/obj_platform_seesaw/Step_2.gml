@@ -9,6 +9,9 @@ extra = 20+(abs(image_angle) / 20);
 //Radius
 radius = (sprite_width / 2 + sprite_height / 2) - 8;
 
+//Volt direction
+dir = (angle < 0) ? -1 : 1;
+
 #region LOGIC
 
 	//Create a list

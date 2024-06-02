@@ -4,6 +4,9 @@
 add = 0.15;
 angle = 45;
 
+//Volt direction
+dir = 1;
+
 //Depth
 depth = -2;
 
