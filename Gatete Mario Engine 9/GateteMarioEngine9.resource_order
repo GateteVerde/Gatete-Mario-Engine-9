@@ -1292,6 +1292,7 @@
     {"name":"rm_course_w1_l2_e","order":4,"path":"rooms/rm_course_w1_l2_e/rm_course_w1_l2_e.yy",},
     {"name":"rm_course_w1_l3_b","order":1,"path":"rooms/rm_course_w1_l3_b/rm_course_w1_l3_b.yy",},
     {"name":"rm_course_w1_l4_b","order":1,"path":"rooms/rm_course_w1_l4_b/rm_course_w1_l4_b.yy",},
+    {"name":"rm_course_w1_l4_c","order":2,"path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},
     {"name":"rm_credits","order":8,"path":"rooms/rm_credits/rm_credits.yy",},
     {"name":"rm_gameover","order":9,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"rm_intro","order":3,"path":"rooms/rm_intro/rm_intro.yy",},
