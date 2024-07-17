@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"screen_floor",
   "isCompatibility":false,
   "isDnD":false,

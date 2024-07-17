@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sprite_create_object",
   "isCompatibility":false,
   "isDnD":false,

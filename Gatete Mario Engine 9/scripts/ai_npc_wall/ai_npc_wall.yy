@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ai_npc_wall",
   "isCompatibility":false,
   "isDnD":false,

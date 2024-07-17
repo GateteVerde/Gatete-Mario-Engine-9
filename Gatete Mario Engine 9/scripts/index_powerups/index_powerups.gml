@@ -60,8 +60,8 @@ function index_powerups() {
 	
 	#region SHMUP SPRITES
 		
-		global.skypop_sprite =	asset_get_index(string(resource) + string("skypop"));
-		global.subpop_sprite =	asset_get_index(string(resource) + string("subpop"));
+		global.skypop_sprite =			asset_get_index(string(resource) + string("skypop"));
+		global.subpop_sprite =			asset_get_index(string(resource) + string("subpop"));
 		global.skypop_small_sprite =	asset_get_index(string(resource) + string("skypop_small"));
 		global.subpop_small_sprite =	asset_get_index(string(resource) + string("subpop_small"));
 	#endregion

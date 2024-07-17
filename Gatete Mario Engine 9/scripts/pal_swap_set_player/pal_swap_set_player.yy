@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"pal_swap_set_player",
   "isCompatibility":false,
   "isDnD":false,

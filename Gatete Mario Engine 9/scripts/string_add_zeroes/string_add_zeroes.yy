@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"string_add_zeroes",
   "isCompatibility":false,
   "isDnD":false,

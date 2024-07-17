@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ai_npc_destroy",
   "isCompatibility":false,
   "isDnD":false,

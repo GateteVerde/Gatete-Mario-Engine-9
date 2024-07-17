@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"screen_ceil",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_sprite_custom_origin",
   "isCompatibility":false,
   "isDnD":false,

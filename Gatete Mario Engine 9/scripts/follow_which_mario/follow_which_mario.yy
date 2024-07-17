@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"follow_which_mario",
   "isCompatibility":false,
   "isDnD":false,

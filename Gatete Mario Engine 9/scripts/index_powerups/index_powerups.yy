@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"index_powerups",
   "isCompatibility":false,
   "isDnD":false,

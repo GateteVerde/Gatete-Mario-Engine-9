@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"macro_get_sprite",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"freeze_create",
   "isCompatibility":false,
   "isDnD":false,

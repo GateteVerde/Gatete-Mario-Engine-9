@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"audio_loop_sound",
   "isCompatibility":false,
   "isDnD":false,

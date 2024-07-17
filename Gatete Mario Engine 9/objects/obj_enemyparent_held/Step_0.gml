@@ -10,6 +10,11 @@ if (yadd == 0) {
 		hitcombo = 0;
 }
 
+//Reset thrown up state
+if (thrown_up == true)
+&& (held == 1)
+	thrown_up = false;
+
 //If the Silver P-Switch is active and the enemy is inside the view and can turn into a silver coin
 if (obj_levelcontrol.gswitch_on == true) 
 && (turn_silver == true)

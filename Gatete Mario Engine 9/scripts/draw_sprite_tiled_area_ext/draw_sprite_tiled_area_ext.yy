@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_sprite_tiled_area_ext",
   "isCompatibility":false,
   "isDnD":false,

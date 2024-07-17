@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"string_make_width",
   "isCompatibility":false,
   "isDnD":false,

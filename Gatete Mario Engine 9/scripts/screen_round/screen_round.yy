@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"screen_round",
   "isCompatibility":false,
   "isDnD":false,

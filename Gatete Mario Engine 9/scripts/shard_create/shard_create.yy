@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"shard_create",
   "isCompatibility":false,
   "isDnD":false,

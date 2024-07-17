@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"move_contact_object",
   "isCompatibility":false,
   "isDnD":false,
