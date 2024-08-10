@@ -14,7 +14,7 @@ if (scale_type == 1) {
 	draw_set_halign(fa_center);
 
 	//Draw menu items
-	for (var i=0; i<array_length_1d(menu); ++i) { 
+	for (var i=0; i<array_length(menu); ++i) { 
 	
 		//Sets the colour of the highlighted option
 		var _colour = (i == index) ? c_white : c_gray;

@@ -94,7 +94,7 @@ if (scale_type == 1) {
 		delay = 8;
 	
 		//Clamp values
-		var _size = array_length_1d(menu);
+		var _size = array_length(menu);
 		if (index < 0)
 			index = _size - 1;
 		else if (index >= _size)

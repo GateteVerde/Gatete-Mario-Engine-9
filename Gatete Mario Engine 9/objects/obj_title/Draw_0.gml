@@ -85,7 +85,7 @@ else if (start == 1) {
 	//Draw keys
 	if (sub_menu == 2) {
 
-		for (var i=0; i<array_length_1d(key); ++i) {
+		for (var i=0; i<array_length(key); ++i) {
 	
 			//Sets the colour of the highlighted option
 			var _colour = (i == index) ? c_white : c_ltgray;
