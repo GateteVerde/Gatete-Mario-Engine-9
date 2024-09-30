@@ -23,7 +23,7 @@ if (visible == 1) {
 
 			//Create collected coin
 			with (instance_create_depth(x, y-4, -4, obj_block_coin)) 
-				sprite_index = spr_coin_star;
+				sprite_index = spr_coin_star_p;
 		}
 	#endregion
 

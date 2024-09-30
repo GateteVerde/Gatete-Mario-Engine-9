@@ -29,6 +29,8 @@ if ((vspeed > 0) && (y > ystart)) {
 		
 		//P-Coins
 		case (spr_coin_npc_p):
+		case (spr_coin_star_p):
+		
 			#region EFFECT
 
 				//Repeat 6 times

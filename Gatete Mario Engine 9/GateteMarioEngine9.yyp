@@ -821,6 +821,7 @@
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
     {"id":{"name":"obj_fade_in","path":"objects/obj_fade_in/obj_fade_in.yy",},},
     {"id":{"name":"obj_fade_out","path":"objects/obj_fade_out/obj_fade_out.yy",},},
+    {"id":{"name":"obj_fade_warp","path":"objects/obj_fade_warp/obj_fade_warp.yy",},},
     {"id":{"name":"obj_feather_sprout","path":"objects/obj_feather_sprout/obj_feather_sprout.yy",},},
     {"id":{"name":"obj_feather","path":"objects/obj_feather/obj_feather.yy",},},
     {"id":{"name":"obj_fieryleaf_sprout","path":"objects/obj_fieryleaf_sprout/obj_fieryleaf_sprout.yy",},},

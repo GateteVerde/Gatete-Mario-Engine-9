@@ -14,4 +14,3 @@ myframe = 0;
 
 //Handle the palette of the player when invincible
 isflashing = 0;
-alarm[2] = 1;
