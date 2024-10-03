@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_bgr_icehills",
   "bboxMode":0,
-  "bbox_bottom":159,
-  "bbox_left":15,
-  "bbox_right":495,
+  "bbox_bottom":383,
+  "bbox_left":0,
+  "bbox_right":511,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,11 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+    {"$GMSpriteFrame":"","%Name":"547c71db-b87c-4978-9ad4-009518f056e2","name":"547c71db-b87c-4978-9ad4-009518f056e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"b72cc8bf-98dd-4073-8cec-bf5a91bbdf77","name":"b72cc8bf-98dd-4073-8cec-bf5a91bbdf77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":160,
+  "height":384,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"3d528bbc-55f6-4bd5-a782-9d7747eb9770","blendMode":0,"displayName":"default","isLocked":false,"name":"3d528bbc-55f6-4bd5-a782-9d7747eb9770","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -49,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -69,8 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"547c71db-b87c-4978-9ad4-009518f056e2","path":"sprites/spr_bgr_icehills/spr_bgr_icehills.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"617ae56b-f87a-4c0f-bd1a-b5920d3bdf64","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b72cc8bf-98dd-4073-8cec-bf5a91bbdf77","path":"sprites/spr_bgr_icehills/spr_bgr_icehills.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"052884a2-6fce-46d1-937a-5b990f2cfb44","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"052884a2-6fce-46d1-937a-5b990f2cfb44","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -178,10 +178,10 @@ else {
 }
 
 //Clamp the X/Y position to the room so that shakes on the bottom of the screen still occur fine
-var camera_x = screen_round(clamp(x, camera_get_view_width(view_camera[0])/2, room_width - camera_get_view_width(view_camera[0])/2) - (camera_get_view_width(view_camera[0])/2));
+camera_x = screen_round(clamp(x, camera_get_view_width(view_camera[0])/2, room_width - camera_get_view_width(view_camera[0])/2) - (camera_get_view_width(view_camera[0])/2));
 
 //Initial clamp in view
-var camera_y = screen_round(clamp(y, camera_get_view_height(view_camera[0])/2, room_height - camera_get_view_height(view_camera[0])/2) - (camera_get_view_height(view_camera[0])/2));
+camera_y = screen_round(clamp(y, camera_get_view_height(view_camera[0])/2, room_height - camera_get_view_height(view_camera[0])/2) - (camera_get_view_height(view_camera[0])/2));
 
 //Clamp the screen shake
 if (shake_val != 0) {
@@ -230,44 +230,6 @@ camera_set_view_pos(view_camera[0], camera_x, camera_y);
 				event_user(2);
 		}
 	}
-#endregion
-
-//Manage background position
-#region PARALLAX BACKGROUNDS
-		
-	#region BACKGROUND 0
-		
-		#region POSITION SETUP
-		
-			//Get ID from "Background 0"
-			var lay_id		= layer_get_id("Background_0");
-			
-			//Get data from said layer
-			var back_id		= layer_background_get_id(lay_id);
-			var back_spr	= layer_background_get_sprite(back_id);
-
-			//Horizontal parallax
-			layer_x("Background_0", camera_x / 2);
-			
-			//If the background exists
-			if (back_spr != -1) {
-			
-				//Vertical parallax
-				if (sprite_get_height(back_spr) < room_height)
-				&& (sprite_get_height(back_spr) > camera_get_view_height(view_camera[0]))
-					layer_y("Background_0", camera_y * (room_height - sprite_get_height(back_spr)) / (room_height -  camera_get_view_height(view_camera[0])));
-			}
-		
-		#endregion
-	
-	#endregion
-	
-	//Background 1
-	layer_x("Background_1", camera_x / 4);
-	
-	//Background 2
-	layer_x("Background_2", camera_x / 6);
-	
 #endregion
 
 //Deactivate instances outside the view

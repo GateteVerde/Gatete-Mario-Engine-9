@@ -360,7 +360,7 @@
           -4,3922,-16,-2147483648,-3,3922,-30,-2147483648,-48,0,-6,-2147483648,-4,3922,-56,-2147483648,-48,0,-66,
           -2147483648,-48,0,-66,-2147483648,-48,0,-66,-2147483648,-48,0,-66,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_1","properties":[
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
         {"name":"g_Distort2Speed","type":0,"value":"0.025",},
         {"name":"g_Distort1Scale","type":0,"value":"13.3",},
@@ -372,20 +372,7 @@
         {"name":"g_ChromaSpreadAmount","type":0,"value":"0.5",},
         {"name":"g_CamOffsetScale","type":0,"value":"1",},
         {"name":"g_DistortTexture","type":2,"value":"_filter_heathaze_noise_sprite",},
-      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bgr_cave_b","path":"sprites/spr_bgr_cave_b/spr_bgr_cave_b.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":-96,},
-    {"$GMRBackgroundLayer":"","%Name":"Background_0","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_0","properties":[
-        {"name":"g_Distort1Speed","type":0,"value":"0.01",},
-        {"name":"g_Distort2Speed","type":0,"value":"0.025",},
-        {"name":"g_Distort1Scale","type":0,"value":"13.3",},
-        {"name":"g_Distort1Scale","type":0,"value":"1.3",},
-        {"name":"g_Distort2Scale","type":0,"value":"33.3",},
-        {"name":"g_Distort2Scale","type":0,"value":"3.3",},
-        {"name":"g_Distort1Amount","type":0,"value":"2",},
-        {"name":"g_Distort2Amount","type":0,"value":"4",},
-        {"name":"g_ChromaSpreadAmount","type":0,"value":"0.5",},
-        {"name":"g_CamOffsetScale","type":0,"value":"1",},
-        {"name":"g_DistortTexture","type":2,"value":"_filter_heathaze_noise_sprite",},
-      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bgr_cave","path":"sprites/spr_bgr_cave/spr_bgr_cave.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":24,},
+      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bgr_underground_alt","path":"sprites/spr_bgr_underground_alt/spr_bgr_underground_alt.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":24,},
   ],
   "name":"rm_course_w1_l4_c",
   "parent":{

@@ -1,5 +1,20 @@
 /// @description Handles the Mario Start! text, room warping, music and timer
 
+#region PARALLAX MANAGER
+
+	//Add here rooms unaffected by parallax
+	if (room != rm_bonus) {
+
+		//Create parallax and adjust appropriate values
+		with (instance_create_layer(0, 0, "Main", obj_parallax)) {
+	
+			for (var i = 0; i < array_length(other.bg_scroll); i++)
+				scroll[i] = other.bg_scroll[i];
+		}
+	}
+
+#endregion
+
 //If the music from last room is not the same as the current room
 if (global.levelmusic != inisection) {
 
