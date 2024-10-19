@@ -15,10 +15,7 @@
     "name":"Piranha Plants",
     "path":"folders/Objects/Special/Do Not Use!/Enemies/Cave/Piranha Plants.yy",
   },
-  "parentObjectId":{
-    "name":"obj_deactivateparent",
-    "path":"objects/obj_deactivateparent/obj_deactivateparent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
