@@ -7,3 +7,6 @@ with (instance_create_depth(other.x, other.y, -5, obj_mario_dead)) {
 	image_blend = c_gray;
 	alarm[2] = 1;
 }
+
+//Destroy Mario
+with (obj_mario) instance_destroy();
