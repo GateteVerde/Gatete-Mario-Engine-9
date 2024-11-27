@@ -517,6 +517,7 @@
     {"$GMIncludedFile":"","%Name":"bonus.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"bonus.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"boss.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"boss.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"credits.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"credits.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"desert.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"desert.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"ghost.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"ghost.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"worldmap1.ogg","CopyToMask":-1,"filePath":"datafiles/music/map","name":"worldmap1.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"worldmap2.ogg","CopyToMask":-1,"filePath":"datafiles/music/map","name":"worldmap2.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
