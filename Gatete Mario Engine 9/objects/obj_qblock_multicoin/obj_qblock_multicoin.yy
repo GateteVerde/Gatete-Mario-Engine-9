@@ -33,9 +33,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"mushroom","filters":[],"listItems":[],"multiselect":false,"name":"mushroom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"scatter","filters":[],"listItems":[],"multiselect":false,"name":"scatter","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"coins","filters":[],"listItems":[],"multiselect":false,"name":"coins","rangeEnabled":true,"rangeMax":99.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"mushroom","filters":[],"listItems":[],"multiselect":false,"name":"mushroom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"scatter","filters":[],"listItems":[],"multiselect":false,"name":"scatter","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"coins","filters":[],"listItems":[],"multiselect":false,"name":"coins","rangeEnabled":true,"rangeMax":99.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

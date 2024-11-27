@@ -40,7 +40,7 @@
         "\"Mushroom\"",
         "\"Starman\"",
         "\"1-UP\"",
-      ],"multiselect":false,"name":"item","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"None\"","varType":6,},
+      ],"multiselect":false,"name":"item","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"None\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
