@@ -531,7 +531,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"GateteMarioEngine9",
   "resources":[
@@ -565,7 +565,6 @@
     {"id":{"name":"obj_arrowblock_reset","path":"objects/obj_arrowblock_reset/obj_arrowblock_reset.yy",},},
     {"id":{"name":"obj_arrowblock_right","path":"objects/obj_arrowblock_right/obj_arrowblock_right.yy",},},
     {"id":{"name":"obj_arrowblock","path":"objects/obj_arrowblock/obj_arrowblock.yy",},},
-    {"id":{"name":"obj_audio_loop_sound","path":"objects/obj_audio_loop_sound/obj_audio_loop_sound.yy",},},
     {"id":{"name":"obj_autobomb","path":"objects/obj_autobomb/obj_autobomb.yy",},},
     {"id":{"name":"obj_autoscroll","path":"objects/obj_autoscroll/obj_autoscroll.yy",},},
     {"id":{"name":"obj_baboom_down","path":"objects/obj_baboom_down/obj_baboom_down.yy",},},

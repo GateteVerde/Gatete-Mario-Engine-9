@@ -22,9 +22,6 @@ if (window_get_caption() != WINDOW_CAPTION) {
 	window_set_caption(WINDOW_CAPTION);
 }
 
-//Keep music looper active
-instance_activate_object(obj_audio_loop_sound);
-
 //Keep light control active
 instance_activate_object(obj_lightcontrol);
 

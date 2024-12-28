@@ -15,9 +15,20 @@ for (var i = 0; i < sprite_get_number(back_spr); i++) {
 	xx[i] = obj_levelcontrol.camera_x;
 	yy[i] = obj_levelcontrol.camera_y;
 	
-	//Draw backgrounds
+	//Manage X position
 	var x_pos = (xx[i] / rate[i]) + (time * scroll[i]);
-	var y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
+	
+	//Manage Y position
+	#region
+	
+		if (sprite_get_height(back_spr) > 432)
+			var y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
+		else
+			var y_pos = layer_get_y(layer_get_id("Background")) + rate[i];
+	
+	#endregion
+	
+	//Draw the background
 	draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
 }
 
