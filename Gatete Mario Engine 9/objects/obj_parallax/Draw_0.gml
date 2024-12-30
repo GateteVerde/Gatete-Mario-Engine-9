@@ -21,10 +21,13 @@ for (var i = 0; i < sprite_get_number(back_spr); i++) {
 	//Manage Y position
 	#region
 	
+		//Call temporary variable
+		var y_pos = 0;
+	
 		if (sprite_get_height(back_spr) > 432)
-			var y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
+			y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
 		else
-			var y_pos = layer_get_y(layer_get_id("Background")) + rate[i];
+			y_pos = room_height - sprite_get_height(back_spr) + rate[i];
 	
 	#endregion
 	

@@ -33,8 +33,18 @@ if (inair == 1) {
 //If Mario was doing a groundpound
 if (groundpound == 2) {
 	
+	//Check for a slope
+	var slope = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+1.5, obj_slopeparent, 1, 0);
+	
 	//Play 'Ground Pound End' sound
 	audio_play_sound(snd_groundpound_end, 0, false);
+	
+	//Set horizontal if Mario lands on a slope
+	if (slope) {
+	
+		xspeed = 2.5 * sign(slope.dir);
+		sliding = true;
+	}
 	
 	//End groundpound
 	groundpound = 0;
