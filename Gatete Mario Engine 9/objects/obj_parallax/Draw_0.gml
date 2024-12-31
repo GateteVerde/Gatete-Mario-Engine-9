@@ -19,20 +19,28 @@ for (var i = 0; i < sprite_get_number(back_spr); i++) {
 	var x_pos = (xx[i] / rate[i]) + (time * scroll[i]);
 	
 	//Manage Y position
+	var y_pos = (layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2));
+	
+	//Render background
 	#region
 	
-		//Call temporary variable
-		var y_pos = 0;
-	
-		if (sprite_get_height(back_spr) > 432)
-			y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
+		//If the background is animated
+		if (obj_levelcontrol.bg_is_animated) {
+		
+			//Update frame
+			if (frame > obj_levelcontrol.bg_frames) then frame = 0;
+
+			//Render the animated background
+			draw_sprite_tiled_ext(back_spr, round(frame), x_pos, y_pos, 1, 1, c_white, 1);
+			
+			//Render the remaining background parts
+			if (i > obj_levelcontrol.bg_frames)
+				draw_sprite_tiled_ext(back_spr, (obj_levelcontrol.bg_frames + i+1), x_pos, y_pos, 1, 1, c_white, 1);
+		}
 		else
-			y_pos = room_height - sprite_get_height(back_spr) + rate[i];
-	
+			draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
+		
 	#endregion
-	
-	//Draw the background
-	draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
 }
 
 //Update scrolling 

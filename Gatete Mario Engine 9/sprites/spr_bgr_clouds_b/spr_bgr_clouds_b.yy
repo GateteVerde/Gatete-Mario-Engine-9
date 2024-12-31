@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_bgr_clouds_b",
   "bboxMode":0,
-  "bbox_bottom":383,
+  "bbox_bottom":431,
   "bbox_left":0,
   "bbox_right":511,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":384,
+  "height":432,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"0da9f25a-4250-40eb-bd81-081c21cbd3f9","blendMode":0,"displayName":"default","isLocked":false,"name":"0da9f25a-4250-40eb-bd81-081c21cbd3f9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
