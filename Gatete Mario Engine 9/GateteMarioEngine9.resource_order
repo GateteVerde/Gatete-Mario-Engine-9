@@ -1328,7 +1328,6 @@
     {"name":"end_level","order":2,"path":"scripts/end_level/end_level.yy",},
     {"name":"follow_which_mario","order":11,"path":"scripts/follow_which_mario/follow_which_mario.yy",},
     {"name":"freeze_create","order":4,"path":"scripts/freeze_create/freeze_create.yy",},
-    {"name":"index_backgrounds","order":6,"path":"scripts/index_backgrounds/index_backgrounds.yy",},
     {"name":"index_powerups","order":5,"path":"scripts/index_powerups/index_powerups.yy",},
     {"name":"init_globals","order":7,"path":"scripts/init_globals/init_globals.yy",},
     {"name":"input_check_pressed","order":2,"path":"scripts/input_check_pressed/input_check_pressed.yy",},

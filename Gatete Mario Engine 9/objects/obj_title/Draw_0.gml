@@ -110,5 +110,5 @@ else if (start == 1) {
 
 //Draw copyright and reset horizontal text alignment
 draw_set_halign(fa_center);
-draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 + (yy / 2), "2024 GREEN BARON GAMES \nMARIO IS (C) FROM NINTENDO", c_black, c_white, 1, 1, 0.5, 1);
+draw_text_shadowed(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 + (yy / 2), "MARIO IS (C) FROM NINTENDO\n2023-2025 GREEN BARON GAMES", c_black, c_white, 1, 1, 0.5, 1);
 draw_set_halign(fa_left);
