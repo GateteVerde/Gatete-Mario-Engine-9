@@ -1666,6 +1666,7 @@
     {"id":{"name":"end_level","path":"scripts/end_level/end_level.yy",},},
     {"id":{"name":"follow_which_mario","path":"scripts/follow_which_mario/follow_which_mario.yy",},},
     {"id":{"name":"freeze_create","path":"scripts/freeze_create/freeze_create.yy",},},
+    {"id":{"name":"index_backgrounds","path":"scripts/index_backgrounds/index_backgrounds.yy",},},
     {"id":{"name":"index_powerups","path":"scripts/index_powerups/index_powerups.yy",},},
     {"id":{"name":"init_globals","path":"scripts/init_globals/init_globals.yy",},},
     {"id":{"name":"init_shockwave","path":"scripts/init_shockwave/init_shockwave.yy",},},

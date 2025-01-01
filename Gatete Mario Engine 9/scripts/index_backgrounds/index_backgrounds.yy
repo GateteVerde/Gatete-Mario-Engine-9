@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"index_backgrounds",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"index_backgrounds",
+  "parent":{
+    "name":"System",
+    "path":"folders/Scripts/System.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

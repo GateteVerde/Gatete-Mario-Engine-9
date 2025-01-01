@@ -7,7 +7,7 @@
 
 		//Create parallax and adjust appropriate values
 		with (instance_create_layer(0, 0, "Main", obj_parallax)) {
-	
+
 			for (var i = 0; i < array_length(other.bg_scroll); i++)
 				scroll[i] = other.bg_scroll[i];
 		}

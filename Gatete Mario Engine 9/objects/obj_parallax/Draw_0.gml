@@ -19,28 +19,23 @@ for (var i = 0; i < sprite_get_number(back_spr); i++) {
 	var x_pos = (xx[i] / rate[i]) + (time * scroll[i]);
 	
 	//Manage Y position
-	var y_pos = (layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2));
-	
-	//Render background
 	#region
 	
-		//If the background is animated
-		if (obj_levelcontrol.bg_is_animated) {
-		
-			//Update frame
-			if (frame > obj_levelcontrol.bg_frames) then frame = 0;
-
-			//Render the animated background
-			draw_sprite_tiled_ext(back_spr, round(frame), x_pos, y_pos, 1, 1, c_white, 1);
-			
-			//Render the remaining background parts
-			if (i > obj_levelcontrol.bg_frames)
-				draw_sprite_tiled_ext(back_spr, (obj_levelcontrol.bg_frames + i+1), x_pos, y_pos, 1, 1, c_white, 1);
-		}
+		var y_pos = 0;
+	
+		if (room_height > sprite_get_height(back_spr))
+			y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
 		else
-			draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
-		
+			y_pos = room_height - sprite_get_height(back_spr);
 	#endregion
+
+	//If the background is animated, render animated background
+	if (obj_levelcontrol.bg_is_animated)
+		draw_sprite_tiled_ext(back_spr, floor(frame), x_pos, y_pos, 1, 1, c_white, 1);		
+			
+	//Otherwise, draw each frame separately
+	else
+		draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
 }
 
 //Update scrolling 
