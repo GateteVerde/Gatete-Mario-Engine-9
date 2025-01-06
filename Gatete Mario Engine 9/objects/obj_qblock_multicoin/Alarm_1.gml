@@ -22,10 +22,19 @@ if (scatter == 0) {
 		}
 	
 		//Turn into a used block
-		instance_change(obj_emptyblock, false);
+		with (instance_change(obj_emptyblock, false)) {
+	
+			semisolid = other.semisolid;	
+		}
 	}
 	else
 		ready = 0;
 }
-else
-	instance_change(obj_emptyblock, false);
+else {
+	
+	//Turn into a used block
+	with (instance_change(obj_emptyblock, false)) {
+	
+		semisolid = other.semisolid;	
+	}
+}

@@ -19,6 +19,9 @@ if (global.powerup != cs_mega)
 		sprout[0] = other.sprout[0];
 		sprout[1] = other.sprout[1];
 		sprout[2] = other.sprout[2];
+		
+		//Is the block semisolid
+		semisolid = other.semisolid;
 	
 		//Set state to bumped
 		ready = 1;

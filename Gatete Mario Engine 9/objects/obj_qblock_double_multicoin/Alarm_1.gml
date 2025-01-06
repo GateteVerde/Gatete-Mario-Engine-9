@@ -23,6 +23,7 @@ if (coiny == 2) {
 	with (instance_create_depth(x, ystart, depth, obj_emptyblock)) {
 	
 		sprite_index = spr_qblock_double_empty;
+		semisolid = other.semisolid;
 	}
 
 	//Destroy

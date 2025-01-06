@@ -17,6 +17,9 @@ if (global.powerup != cs_mega)
 		
 		//Set the item to reveal
 		sprout = other.sprout;
+		
+		//Is the block semisolid
+		semisolid = other.semisolid;
 	
 		//Set state to bumped
 		ready = 1;

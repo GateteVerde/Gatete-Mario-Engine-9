@@ -50,4 +50,7 @@ if (sprout != cs_coin)
 }
 
 //Turn into a used block
-instance_change(obj_emptyblock, false);
+with (instance_change(obj_emptyblock, false)) {
+	
+	semisolid = other.semisolid;	
+}

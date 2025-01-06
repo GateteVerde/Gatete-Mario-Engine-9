@@ -57,6 +57,7 @@ for (var i=0; i<3; i++) {
 with (instance_create_depth(x, ystart, depth, obj_emptyblock)) {
 	
 	sprite_index = spr_qblock_triple_empty;
+	semisolid = other.semisolid;
 }
 
 //Destroy

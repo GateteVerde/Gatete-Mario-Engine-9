@@ -17,6 +17,9 @@ if (other.yspeed < 0)
 		//Set the item to reveal
 		sprout[0] = other.sprout[0];
 		sprout[1] = other.sprout[1];
+		
+		//Is the block semisolid
+		semisolid = other.semisolid;
 	
 		//Set state to bumped
 		ready = 1;
