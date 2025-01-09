@@ -30,6 +30,9 @@ if (freeze == false) {
     
 	            //Begin generating an enemy
 	            ready = 1;
+				
+				//Turn visible
+				visible = true;
             
 	            //Reset delay
 	            delay = delayprev;
@@ -96,6 +99,9 @@ if (freeze == false) {
 	        //Return to the start position
 	        x = xstart;
 	        y = ystart;
+			
+			//Turn invisible
+			visible = false;
           
 	        //Wait
 	        ready = 0;
@@ -105,3 +111,9 @@ if (freeze == false) {
 
 //Hereby the sprite and check it
 sprite_index = object_get_sprite(object);
+
+//Animate
+if ((dir == 90) || (dir == 270))
+	image_speed = 0;
+else
+	image_speed = (1 * (freeze == 0));

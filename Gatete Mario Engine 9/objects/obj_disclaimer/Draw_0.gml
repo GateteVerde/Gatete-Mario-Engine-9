@@ -16,7 +16,7 @@ draw_set_colour(c_white);
 //Text
 draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2) + 37, @"GATETE MARIO ENGINE 9 is a open-source
 framework written to be used with 
-GameMaker v2022.8 and above
+GameMaker v2024.11 and above
 
 This engine is licensed under the 
 Berkeley Software Distribution 
@@ -32,6 +32,3 @@ You can modify this screen with your logo!");
 //Reset text alignment
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
-
-/*Draw disclaimer
-draw_sprite_ext(spr_disclaimer, 0, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), 1, 1, 0, c_white, 1);

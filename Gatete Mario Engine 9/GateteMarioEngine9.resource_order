@@ -1802,7 +1802,6 @@
     {"name":"spr_dinotorch_flame","order":12,"path":"sprites/spr_dinotorch_flame/spr_dinotorch_flame.yy",},
     {"name":"spr_dinotorch_sq","order":11,"path":"sprites/spr_dinotorch_sq/spr_dinotorch_sq.yy",},
     {"name":"spr_dinotorch","order":9,"path":"sprites/spr_dinotorch/spr_dinotorch.yy",},
-    {"name":"spr_disclaimer","order":9,"path":"sprites/spr_disclaimer/spr_disclaimer.yy",},
     {"name":"spr_dolphin_jump","order":13,"path":"sprites/spr_dolphin_jump/spr_dolphin_jump.yy",},
     {"name":"spr_dolphin","order":12,"path":"sprites/spr_dolphin/spr_dolphin.yy",},
     {"name":"spr_donut_ice","order":1,"path":"sprites/spr_donut_ice/spr_donut_ice.yy",},

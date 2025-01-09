@@ -64,7 +64,7 @@ else if (start == 1) {
 	var _yy = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 - (_gap * array_length_2d(menu, sub_menu));
 
 	//Draw menu items
-	for (var i=0; i<array_length_2d(menu, sub_menu); ++i) { 
+	for (var i=0; i<array_length(menu[sub_menu]); ++i) { 
 	
 		//Sets the colour of the highlighted option
 		var _colour = (i == index) ? c_white : c_ltgray;
