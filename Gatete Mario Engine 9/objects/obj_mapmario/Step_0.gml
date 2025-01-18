@@ -442,6 +442,18 @@ if (status == mapstate.idle)
 					else
 						boxselection = 1;
 				}
+				
+				//This is for the overflow items
+				if(boxselection < (list_pos+(margin+1)))
+					{
+						list_pos--;
+					}
+					if(boxselection >= (list_pos+length-(margin-1)))
+					{
+						list_pos++;
+					}
+					
+				list_pos = clamp(list_pos, 0, max(0,global.inventory[0]-length));
 			}
 		}
     }

@@ -9,8 +9,17 @@ depth = -98;
 //Inventory offset
 inv_offset_y = 0;
 
+//Get the Game's width
+game_width = (global.gw - 30);
+
 //Boxselection
 boxselection = global.inventory[0];
+
+//Overflow Items
+margin = 1;
+length = 0;
+list_pos = 1;
+
 
 //Draw powerups
 for (var i = 1; i <= global.inventory[0]; i++) {

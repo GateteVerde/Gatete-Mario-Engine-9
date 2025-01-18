@@ -36,3 +36,10 @@ if (ready == 4) {
         }
     }
 }
+
+//Fix Bars
+var _layerA = layer_get_id("Title_Bar_A");
+layer_y(_layerA,0);
+	
+var _layerB = layer_get_id("Title_Bar_B");
+layer_y(_layerB,global.gh-32);

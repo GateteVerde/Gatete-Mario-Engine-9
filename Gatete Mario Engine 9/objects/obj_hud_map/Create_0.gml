@@ -16,6 +16,9 @@ offset_y = 0;
 //Inventory offset
 inv_offset_y = 0;
 
+//Get the Game's width
+game_width = (global.gw - 30);
+
 //Animation
 anim = 0;
 

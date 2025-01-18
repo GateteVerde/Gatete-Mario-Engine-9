@@ -31,7 +31,7 @@ draw_set_font(global.gui_font_menu);
 #region TITLE
 
 	//Draw title
-	draw_sprite_ext(spr_title, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 64 - yy, 0.5, 0.5, 0, c_white, 1);
+	draw_sprite_ext(spr_title, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + 64 - yy, (global.gw/sprite_get_width(spr_title)), (global.gw/sprite_get_width(spr_title)), 0, c_white, 1);
 #endregion
 
 #region MENU

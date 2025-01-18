@@ -33,6 +33,11 @@ status = mapstate.idle;
 inventory = 0;
 boxselection = 0;
 
+//Overflow Items
+margin = 1;
+length = 0;
+list_pos = 1;
+
 //Speed
 spd = 1;
 

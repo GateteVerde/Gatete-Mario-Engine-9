@@ -658,3 +658,11 @@ menu[menupage.options, 4] = "SOUND VOLUME: " + string(round(obj_coordinator.soun
 menu[menupage.options, 5] = (obj_coordinator.autosave == false) ? "AUTO SAVE: OFF" : "AUTO SAVE: ON";
 menu[menupage.options, 6] = (obj_coordinator.vsync == false) ? "V-SYNC: OFF" : "V-SYNC: ON";
 menu[menupage.options, 7] = (obj_coordinator.showfps == false) ? "FPS: OFF" : "FPS: ON";
+
+
+//Fix Bars
+var _layerA = layer_get_id("Title_Bar_A");
+layer_y(_layerA,0);
+	
+var _layerB = layer_get_id("Title_Bar_B");
+layer_y(_layerB,global.gh-32);

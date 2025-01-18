@@ -12,7 +12,7 @@ draw_set_halign(fa_center);
 //Draw the title
 if (ready < 4) {
     
-    draw_sprite_ext(spr_title, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + (global.gh / 2) - 16, 0.5, 0.5, 0, c_white, alpha);
+    draw_sprite_ext(spr_title, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + (global.gh / 2) - 16, (global.gw/sprite_get_width(spr_title)), (global.gw/sprite_get_width(spr_title)), 0, c_white, alpha);
 }
 
 //Text
