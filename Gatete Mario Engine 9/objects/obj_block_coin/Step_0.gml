@@ -46,7 +46,7 @@ if ((vspeed > 0) && (y > ystart)) {
 				}
 
 				//Create ring
-				with (instance_create_depth(x, y + 8, -2, obj_blend_ring)) image_blend = make_colour_rgb(248, 216, 0);
+				with (instance_create_depth(x, y + 8, -2, obj_blend_ring)) image_blend = make_colour_rgb(112, 216, 248);
 	
 			#endregion
 			break;
