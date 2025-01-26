@@ -102,3 +102,7 @@
 	}
 
 #endregion
+
+//Prevent this object from flying too high
+if (y < -48)
+	y = -48;

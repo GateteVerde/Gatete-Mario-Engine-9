@@ -8,10 +8,10 @@ draw_set_font(global.gui_font_menu);
 	#region ALPHA / ANIM
 	
 		//Update alpha
-		alpha += (sub_menu == 0) ? -0.0125 : 0.0125;
+		alpha += (sub_menu < 2) ? -0.0125 : 0.0125;
 		
 		//Update title y position
-		yy = (sub_menu == 0) ? lerp(yy, 0, 0.1) : lerp(yy, 96, 0.1);
+		yy = (sub_menu < 2) ? lerp(yy, 0, 0.1) : lerp(yy, 96, 0.1);
 		
 		//Update anim
 		anim += 0.5;
@@ -83,7 +83,7 @@ else if (start == 1) {
 	draw_set_halign(fa_right);
 
 	//Draw keys
-	if (sub_menu == 2) {
+	if (sub_menu == 3) {
 
 		for (var i=0; i<array_length(key); ++i) {
 	

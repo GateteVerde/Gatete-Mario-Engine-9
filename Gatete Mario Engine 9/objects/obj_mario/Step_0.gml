@@ -1133,8 +1133,8 @@ if (yspeed == 0)
 }
     
 //Prevent the player from going too high on the level
-if (y < -96)
-    y = -96;
+if (y < -48)
+    y = -48;
         
 //Otherwise, if he is falling.
 else {

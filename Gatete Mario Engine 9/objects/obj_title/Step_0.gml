@@ -41,7 +41,7 @@ else if (start == 1) {
 			delay = 8;
 	
 			//Clamp values
-			var _size = array_length_2d(menu, sub_menu);
+			var _size = array_length(menu[sub_menu]);
 			if (index < 0)
 				index = _size - 1;
 			else if (index >= _size)
@@ -52,7 +52,7 @@ else if (start == 1) {
 	#region VOLUME
 	
 		//Allow switching volume
-		if (sub_menu == 1) {
+		if (sub_menu == 2) {
 			
 			//Key Inputs
 			var _left	= input_check(input.left);
@@ -254,29 +254,131 @@ else if (start == 1) {
 						}
 					
 					} break;
-				
-					//Options
+					
+					//File Deletion
 					case (3): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
-					
+						
 						//Go to sub menu 1
 						sub_menu = 1;
 						index = 0;
 					} break;
 				
-					//Exit
+					//Options
 					case (4): {
+					
+						//Play 'Coin' sound
+						audio_play_sound(snd_coin, 0, false);
+					
+						//Go to sub menu 2
+						sub_menu = 2;
+						index = 0;
+					} break;
+				
+					//Exit
+					case (5): {
 					
 						//End Game
 						game_end();
 					} break;
 				}
 			} break;
-		
-			//Sub Menu 1: Settings
+			
+			//Sub Menu 1: File deletion
 			case (1): {
+			
+				//Switch between index options
+				switch (index) {
+			
+					//Delete File 1
+					case (0): {
+						
+						//If the file exists
+						if (file_exists("GME9SaveA.sav")) {
+							
+							//Play 'Thud' sound
+							audio_play_sound(snd_thud, 0, false);
+							
+							//Delete file
+							file_delete("GME9SaveA.sav");
+							file_delete("GME9DataA.ini");
+							
+							//Reset text
+							menu[0, 0] = "FILE A ..... NEW!";
+							menu[1, 0] = "DELETE FILE A ..... NEW!";
+							completion[0] = -1;
+						}
+						
+						//Otherwise, play 'Wrong' sound
+						else
+							audio_play_sound(snd_wrong, 0, false);
+					} break;
+					
+					//Delete File 2
+					case (1): {
+						
+						//If the file exists
+						if (file_exists("GME9SaveB.sav")) {
+							
+							//Play 'Thud' sound
+							audio_play_sound(snd_thud, 0, false);
+							
+							//Delete file
+							file_delete("GME9SaveB.sav");
+							file_delete("GME9DataB.ini");
+							
+							//Reset text
+							menu[0, 1] = "FILE B ..... NEW!";
+							menu[1, 1] = "DELETE FILE B ..... NEW!";
+							completion[1] = -1;
+						}
+						
+						//Otherwise, play 'Wrong' sound
+						else
+							audio_play_sound(snd_wrong, 0, false);
+					} break;
+					
+					//Delete File 3
+					case (2): {
+						
+						//If the file exists
+						if (file_exists("GME9SaveC.sav")) {
+							
+							//Play 'Thud' sound
+							audio_play_sound(snd_thud, 0, false);
+							
+							//Delete file
+							file_delete("GME9SaveC.sav");
+							file_delete("GME9DataC.ini");
+							
+							//Reset text
+							menu[0, 2] = "FILE C ..... NEW!";
+							menu[1, 2] = "DELETE FILE C ..... NEW!";
+							completion[2] = -1;
+						}
+						
+						//Otherwise, play 'Wrong' sound
+						else
+							audio_play_sound(snd_wrong, 0, false);
+					} break;
+					
+					//Back
+					case (3): {
+					
+						//Play 'Coin' sound
+						audio_play_sound(snd_coin, 0, false);
+					
+						//Go to submenu 0
+						sub_menu = 0;
+						index = 0;
+					} break;
+				}
+			} break;
+		
+			//Sub Menu 2: Settings
+			case (2): {
 		
 				//Switch between index options
 				switch (index) {
@@ -288,7 +390,7 @@ else if (start == 1) {
 						audio_play_sound(snd_coin, 0, false);
 					
 						//Go to sub menu 2
-						sub_menu = 2;
+						sub_menu = 3;
 						index = 0;
 					} break;
 				
@@ -402,15 +504,15 @@ else if (start == 1) {
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
 					
-						//Go to submenu 0
+						//Go to submenu 2
 						sub_menu = 0;
 						index = 0;
 					} break;
 				}
 			} break;
 		
-			//Sub Menu 2: Keys
-			case (2): {
+			//Sub Menu 3: Keys
+			case (3): {
 
 				//Switch between index options
 				switch (index) {
@@ -438,8 +540,8 @@ else if (start == 1) {
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
 						
-						//Go to submenu
-						sub_menu = 1;
+						//Go to submenu 2
+						sub_menu = 2;
 						index = 0;
 					} break;
 				
@@ -579,13 +681,16 @@ key[7] = string(key_to_string(global.key[input.right]));
 		
 				//Print it
 				menu[0, 0] = "FILE A ..... " + string_format(completion[0], 3, 0) + "%";
+				menu[1, 0] = "DELETE FILE A ..... " + string_format(completion[0], 3, 0) + "%";
+				
 			}
 			
 			//Otherwise
 			else {
 				
 				menu[0, 0] = "FILE A ..... NEW!";
-				completion[0] = 0;
+				menu[1, 0] = "DELETE FILE A ..... NEW!";
+				completion[0] = -1;
 			}
 		}
 	#endregion
@@ -609,12 +714,16 @@ key[7] = string(key_to_string(global.key[input.right]));
 		
 				//Print it
 				menu[0, 1] = "FILE B ..... " + string_format(completion[1], 3, 0) + "%";
+				menu[1, 1] = "DELETE FILE B ..... " + string_format(completion[1], 3, 0) + "%";
+				
 			}
+			
 			//Otherwise
 			else {
-		
+				
 				menu[0, 1] = "FILE B ..... NEW!";
-				completion[1] = 0;
+				menu[1, 1] = "DELETE FILE B ..... NEW!";
+				completion[1] = -1;
 			}
 		}
 	#endregion
@@ -637,14 +746,17 @@ key[7] = string(key_to_string(global.key[input.right]));
 				ini_close();
 		
 				//Print it
-				menu[0, 2] = "FILE C ..... " + string_format(completion[0], 3, 0) + "%";
+				menu[0, 2] = "FILE C ..... " + string_format(completion[2], 3, 0) + "%";
+				menu[1, 2] = "DELETE FILE C ..... " + string_format(completion[2], 3, 0) + "%";
+				
 			}
-	
+			
 			//Otherwise
 			else {
 				
 				menu[0, 2] = "FILE C ..... NEW!";
-				completion[2] = 0;
+				menu[1, 2] = "DELETE FILE C ..... NEW!";
+				completion[2] = -1;
 			}
 		}
 	#endregion
@@ -658,7 +770,6 @@ menu[menupage.options, 4] = "SOUND VOLUME: " + string(round(obj_coordinator.soun
 menu[menupage.options, 5] = (obj_coordinator.autosave == false) ? "AUTO SAVE: OFF" : "AUTO SAVE: ON";
 menu[menupage.options, 6] = (obj_coordinator.vsync == false) ? "V-SYNC: OFF" : "V-SYNC: ON";
 menu[menupage.options, 7] = (obj_coordinator.showfps == false) ? "FPS: OFF" : "FPS: ON";
-
 
 //Fix Bars
 var _layerA = layer_get_id("Title_Bar_A");

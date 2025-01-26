@@ -8,8 +8,11 @@ snapshot = -1;
 
 //Menu variables
 menu[0] = "Continue";
-menu[1] = (global.beaten == 1) ? "Return to Map" : "Cannot Quit Level";
+menu[1] = (global.beaten == 1) ? "Return to Map" : "Give up (-1 Life)";
 menu[2] = "Quit Game";
+
+//Kill me?
+kill_me = 0;
 
 //Delay
 delay = 0;

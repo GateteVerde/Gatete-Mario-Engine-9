@@ -121,9 +121,19 @@ if (scale_type == 1) {
 			//Options
 			case (1): {
 			
-				//If the level has not been beaten yet, play 'Wrong' sound.
-				if (global.beaten == false)
-					audio_play_sound(snd_wrong, 0, false);
+				//If the level has not been beaten yet, kill Mario
+				if (global.beaten == false) {
+					
+					//Play 'Coin' sound
+					audio_play_sound(snd_coin, 0, false);
+	
+					//Set scale type
+					scale_type = 2;
+					io_clear();
+					
+					//Kill Mario
+					kill_me = 1;
+				}
 					
 				//Otherwise, if the level has been beaten
 				else {
