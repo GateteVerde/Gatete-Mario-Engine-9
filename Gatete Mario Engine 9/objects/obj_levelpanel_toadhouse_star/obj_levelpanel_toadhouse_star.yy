@@ -10,8 +10,8 @@
   "managed":true,
   "name":"obj_levelpanel_toadhouse_star",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Star Mushroom House\"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_bonus",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Star Mushroom House\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_bonus",},
   ],
   "parent":{
     "name":"Special",
@@ -35,7 +35,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"myworld","filters":[],"listItems":[],"multiselect":false,"name":"myworld","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"myworld","filters":[],"listItems":[],"multiselect":false,"name":"myworld","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

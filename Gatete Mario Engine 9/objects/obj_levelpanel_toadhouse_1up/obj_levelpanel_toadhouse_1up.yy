@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_levelpanel_toadhouse_1up",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"1-UP Minigame\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"1-UP Minigame\"",},
   ],
   "parent":{
     "name":"Special",

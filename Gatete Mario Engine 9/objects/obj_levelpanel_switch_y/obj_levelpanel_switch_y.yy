@@ -8,8 +8,8 @@
   "managed":true,
   "name":"obj_levelpanel_switch_y",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Spade Switch Palace\"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_switchpalace_y",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Spade Switch Palace\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_switchpalace_y",},
   ],
   "parent":{
     "name":"Switch Palaces",

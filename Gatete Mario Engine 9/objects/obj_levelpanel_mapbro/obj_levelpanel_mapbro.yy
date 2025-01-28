@@ -12,8 +12,8 @@
   "managed":true,
   "name":"obj_levelpanel_mapbro",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Hammer Bro. Battle\"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_battle",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"levelname","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Hammer Bro. Battle\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelpanel","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"propertyId":{"name":"destination","path":"objects/obj_levelpanel/obj_levelpanel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_battle",},
   ],
   "parent":{
     "name":"Special",
@@ -37,13 +37,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"powerup[0]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"powerup[0]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"sprite_index","filters":[],"listItems":[
         "spr_mapbro",
         "spr_mapbro_boomerang",
         "spr_mapbro_fire",
         "spr_mapbro_ice",
-      ],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_mapbro","varType":6,},
+      ],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_mapbro","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
