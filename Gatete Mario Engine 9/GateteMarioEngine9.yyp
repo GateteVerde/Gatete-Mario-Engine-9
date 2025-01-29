@@ -1620,6 +1620,7 @@
     {"id":{"name":"rm_course_w1_l4_b","path":"rooms/rm_course_w1_l4_b/rm_course_w1_l4_b.yy",},},
     {"id":{"name":"rm_course_w1_l4_c","path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},},
     {"id":{"name":"rm_course_w1_l4","path":"rooms/rm_course_w1_l4/rm_course_w1_l4.yy",},},
+    {"id":{"name":"rm_course_w2_l1_b","path":"rooms/rm_course_w2_l1_b/rm_course_w2_l1_b.yy",},},
     {"id":{"name":"rm_course_w2_l1","path":"rooms/rm_course_w2_l1/rm_course_w2_l1.yy",},},
     {"id":{"name":"rm_course_w2_l2_b","path":"rooms/rm_course_w2_l2_b/rm_course_w2_l2_b.yy",},},
     {"id":{"name":"rm_course_w2_l2_c","path":"rooms/rm_course_w2_l2_c/rm_course_w2_l2_c.yy",},},
@@ -4111,6 +4112,7 @@
     {"roomId":{"name":"rm_course_w2_lGH_c","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},},
     {"roomId":{"name":"rm_course_w2_lGH_d","path":"rooms/rm_course_w2_lGH_d/rm_course_w2_lGH_d.yy",},},
     {"roomId":{"name":"rm_course_w2_lGH_e","path":"rooms/rm_course_w2_lGH_e/rm_course_w2_lGH_e.yy",},},
+    {"roomId":{"name":"rm_course_w2_l1_b","path":"rooms/rm_course_w2_l1_b/rm_course_w2_l1_b.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
