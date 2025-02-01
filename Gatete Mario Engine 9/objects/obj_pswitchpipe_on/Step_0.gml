@@ -1,4 +1,4 @@
-/// @description P-Switch Platform logic
+/// @description P-Switch Pipe logic
 
 //If the on/off switch is on
 if (obj_levelcontrol.pswitch_on == false) {
@@ -6,12 +6,11 @@ if (obj_levelcontrol.pswitch_on == false) {
 	image_index = 0;
 	if (mysolid == -1) {
 		
-		mysolid = instance_create_layer(x, y, "Main", obj_solid);
+		mysolid = instance_create_layer(xstart, ystart, "Main", obj_solid);
 		with (mysolid) {
 	
-			image_xscale = other.image_xscale;
-			image_yscale = other.image_yscale;
-			visible = true;
+			image_xscale = 0.0625 * (other.sprite_width);
+			image_yscale = 0.0625 * (other.sprite_height);
 		}
 	}
 }
