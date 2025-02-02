@@ -6,6 +6,9 @@ event_inherited();
 //Check if time has been collected
 ready = 0;
 
+//Check if star has been collected
+ready2 = 0;
+
 //Set motion
 yspeed = 0.75;
 

@@ -1,6 +1,6 @@
 /// @description Leave a trail
 
-alarm[2] = 8;
+alarm[2] = 4;
 if (image_alpha == 1) 
 && (sprite_index == spr_powerstar) {
 	

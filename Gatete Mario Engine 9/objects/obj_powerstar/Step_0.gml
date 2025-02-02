@@ -9,13 +9,16 @@ if (freeze == false) {
 }
 
 //If this power star is still visible
-if (image_alpha == 1) {
+if (ready2 == 0) {
 	
 	//If Mario collides with this object
 	if (place_meeting(x, y, obj_mario)) {
 	
 		//Play 'Cards - No Match' fanfare
 		audio_play_sound(snd_cardsong_nomatch, 0, false);
+		
+		//Play 'Big Coin' sound
+		audio_play_sound(snd_coin_big, 0, false);
 		
 		//Destroy every NPC in position
 		ai_npc_destroy();
@@ -71,7 +74,7 @@ if (image_alpha == 1) {
 		alarm[3] = 120;
 
 		//Orb collected
-		image_alpha = 0;
+		ready2 = 1;
 		
 		//Create effect
 		with (instance_create_depth(x, y+8, -6, obj_blend_ring)) 
@@ -80,26 +83,29 @@ if (image_alpha == 1) {
 }
 
 //Otherwise, if the fanfare is not longer playing
-else if (image_alpha == 0) {
+else if (ready2 == 1) {
+	
+	//Set vertical speed
+	yspeed -= 0.25;
+	if (yspeed < -4)
+		yspeed = -4;
 
 	//If the fanfare is still playing
-	if (audio_is_playing(snd_cardsong_nomatch))
-	exit;
+	if (!audio_is_playing(snd_cardsong_nomatch)) {
 	
-	//If there's no time to collect
-	if (ready == 0)
-	&& (global.timer == 0) {
+		//If there's no time to collect
+		if (ready == 0)
+		&& (global.timer == 0) {
 	
-		//Prevent this event from looping
-		ready = 1;
+			//Prevent this event from looping
+			ready = 1;
 		
-		//Return to map
-		alarm[1] = 120;
+			//Return to map
+			alarm[1] = 120;
+		}
 	}
 }
 
-//Wave
-if (y > ystart)
-	yspeed -= 0.025;
-else if (y < ystart)
-	yspeed += 0.025;
+//If the star has not been collected, wave up and down.
+if (ready2 == 0)
+	yspeed += (y > ystart) ? -0.025 : 0.025;
