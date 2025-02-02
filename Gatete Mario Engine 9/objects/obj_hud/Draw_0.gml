@@ -74,7 +74,7 @@ if (ds_map_size(global.powerstars) > 0) {
 	
 	//Draw the current stars
 	draw_sprite_ext(spr_gui_stars, 0, main_x, camera_get_view_y(view_camera[0]) + 30, 1, 1, 0, c_white, 1);
-	draw_text(main_x, camera_get_view_y(view_camera[0]) + 30, string_add_zeroes(ds_map_size(global.powerstars), 3));
+	draw_text(main_x + 25, camera_get_view_y(view_camera[0]) + 30, string_add_zeroes(ds_map_size(global.powerstars), 3));
 }
 
 //Star Coins

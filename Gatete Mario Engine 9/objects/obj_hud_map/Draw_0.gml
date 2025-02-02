@@ -83,6 +83,19 @@ else if (prompt == 1) {
 	draw_text_colour(camera_get_view_x(view_camera[0]) + 48, camera_get_view_y(view_camera[0]) + 15, string_add_zeroes(global.starcoins, 3), c_white, c_white, c_white, c_white, 1);
 }
 
+//Otherwise, show amount of stars
+else if (prompt > 1) {
+
+	//Set golden font
+	draw_set_font(global.gui_font_numbers_large_gold);
+	
+	//Draw Star Coin
+	draw_sprite_ext(spr_starman, 0, camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 16, 1, 1, 0, c_white, 1);
+	
+	//Draw current amount of Power Stars
+	draw_text_colour(camera_get_view_x(view_camera[0]) + 48, camera_get_view_y(view_camera[0]) + 15, string_add_zeroes(ds_map_size(global.powerstars), 3), c_white, c_white, c_white, c_white, 1);		
+}
+
 //Set font
 draw_set_font(global.gui_font);
 
