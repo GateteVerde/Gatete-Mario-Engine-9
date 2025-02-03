@@ -1140,7 +1140,6 @@
     {"name":"obj_spiny","order":3,"path":"objects/obj_spiny/obj_spiny.yy",},
     {"name":"obj_splittinchuck","order":6,"path":"objects/obj_splittinchuck/obj_splittinchuck.yy",},
     {"name":"obj_splunkin","order":5,"path":"objects/obj_splunkin/obj_splunkin.yy",},
-    {"name":"obj_starman_trail","order":5,"path":"objects/obj_starman_trail/obj_starman_trail.yy",},
     {"name":"obj_starman","order":37,"path":"objects/obj_starman/obj_starman.yy",},
     {"name":"obj_stingby","order":6,"path":"objects/obj_stingby/obj_stingby.yy",},
     {"name":"obj_stomp","order":3,"path":"objects/obj_stomp/obj_stomp.yy",},
