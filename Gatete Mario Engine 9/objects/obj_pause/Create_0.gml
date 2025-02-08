@@ -8,7 +8,7 @@ snapshot = -1;
 
 //Menu variables
 menu[0] = "Continue";
-menu[1] = (global.beaten == 1) ? "Return to Map" : "Give up (-1 Life)";
+menu[1] = (global.beaten == 1) ? "Return to Map" : "Give up";
 menu[2] = "Quit Game";
 
 //Kill me?

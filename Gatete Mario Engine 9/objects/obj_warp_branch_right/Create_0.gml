@@ -3,6 +3,9 @@
 //Item to check
 check = 0;
 
+//Coins collected
+coins = 0;
+
 //Important variables
 destination_real	= room_next(room);
 exit_id_real		= -1;
