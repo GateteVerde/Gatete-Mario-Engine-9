@@ -77,16 +77,28 @@ else {
     
 		//If the direction changes...
 		if (sign(xspeed) != sign(prevxspeed)) {
+
+			//If the shell is a bomb one
+			if (sprite_index == spr_turnip_shell_bomb) {
 			
-			//If the shell is outside
-			if (outside_view() == false) {
-			
-				audio_play_sound(snd_bump, 0, false);
+				instance_create_layer(x, y, "Main", obj_explosion);
+				instance_destroy();
+				exit;
 			}
 			
-			//Create shell thump
-			with (instance_create_depth(x+(5*sign(prevxspeed)), y, -6, obj_shellthump)) 
-				bump = true;
+			//Otherwise
+			else {
+			
+				//If the shell is outside
+				if (outside_view() == false) {
+			
+					audio_play_sound(snd_bump, 0, false);
+				}
+			
+				//Create shell thump
+				with (instance_create_depth(x+(5*sign(prevxspeed)), y, -6, obj_shellthump)) 
+					bump = true;
+			}
 		}
 
 		//Handle position when in-ground

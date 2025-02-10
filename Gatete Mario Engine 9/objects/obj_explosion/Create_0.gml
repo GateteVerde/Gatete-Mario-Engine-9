@@ -1,7 +1,7 @@
 /// @description Explosion
 
-//Play 'Thud' sound
-audio_play_sound(snd_thud, 0, false);
+//Play 'Lightning' sound
+audio_play_sound(snd_lightning, 0, false);
 
 //Shake the screen
 shake_camera(6, ceil(audio_sound_length(snd_thud) * room_speed), true);
