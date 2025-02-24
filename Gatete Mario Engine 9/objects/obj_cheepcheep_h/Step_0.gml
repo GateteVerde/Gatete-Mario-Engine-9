@@ -15,7 +15,7 @@ if (swimming == 1) {
     }
 
     //Set the sprite
-    sprite_index = spr_cheepcheep;
+    sprite_index = (fish == 1) ? spr_letterfish : spr_cheepcheep;
 	
 	//Animate
 	image_speed = 1;
@@ -54,7 +54,7 @@ else if (swimming == 0) {
     prevswim = 0;
 
     //Set the flopping sprite
-    sprite_index = spr_cheepcheep_flop;
+    sprite_index = (fish == 1) ? spr_letterfish_flop : spr_cheepcheep_flop;
     
     //Do not animate
     image_speed = 0;
@@ -76,3 +76,6 @@ else if (swimming == 0) {
     //Set facing direction
     xscale = flopdir;    
 }
+
+//Set vulnerability
+stomp = (swimming == 1) ? 2 : 0;
