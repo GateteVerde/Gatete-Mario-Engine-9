@@ -25,6 +25,6 @@ if (ready == 0) {
 		global.cherries = 0;
 		
 		//Generate a sorcerer
-		instance_create_layer(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 8, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]), "Main", obj_sorcerer);
+		instance_create_layer(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]), "Main", obj_sorcerer);
 	}
 }
