@@ -14,3 +14,8 @@ ready = 0;
 
 //Whether this bubble has captured an enemy
 capture = false;
+
+//Enemy sprite
+enemy_spr = noone;
+enemy_scale = 1;
+enemy_angle = 0;

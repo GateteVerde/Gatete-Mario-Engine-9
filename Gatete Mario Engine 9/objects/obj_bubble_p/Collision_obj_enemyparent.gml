@@ -16,6 +16,9 @@ if ((capture == 0) && (ready == 1)) {
 		//Capture
 		capture = 1;
 		
+		//Set the enemy sprite
+		enemy_spr = other.sprite_index;
+		
 		//Create smoke effect on enemy
 		instance_create_depth(round(other.bbox_left + other.bbox_right) / 2, round(other.bbox_top + other.bbox_bottom) / 2, -6, obj_smoke);
 		
