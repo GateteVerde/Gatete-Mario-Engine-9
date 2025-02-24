@@ -1,5 +1,9 @@
 /// @description Capture and turn enemies into coins
 
+//Ignore if this is a boss parent
+if (object_get_parent(other.object_index) == obj_bossparent)
+exit;
+
 //If this bubble has not captured an enemy
 if ((capture == 0) && (ready == 1)) {
 

@@ -22,6 +22,8 @@
     {"name":"inst_52CFC2F6","path":"rooms/rm_template/rm_template.yy",},
     {"name":"inst_5BA919CB","path":"rooms/rm_template/rm_template.yy",},
     {"name":"inst_2B097317","path":"rooms/rm_template/rm_template.yy",},
+    {"name":"inst_2EE01C4F","path":"rooms/rm_template/rm_template.yy",},
+    {"name":"inst_485E5677","path":"rooms/rm_template/rm_template.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -50,7 +52,14 @@
         {"$GMRInstance":"v1","%Name":"inst_5BA919CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BA919CB","objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"propertyId":{"name":"type","path":"objects/obj_coin_star/obj_coin_star.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":224.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2B097317","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B097317","objectId":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":328.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2B097317","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B097317","objectId":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":328.0,"y":272.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2EE01C4F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EE01C4F","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"destination","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"choose(rm_template_boss_boo, rm_template_boss_boomboom, rm_template_boss_reznor)",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"exit_id","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_485E5677","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_485E5677","objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_messageblock","path":"objects/obj_messageblock/obj_messageblock.yy",},"propertyId":{"name":"varmsg","path":"objects/obj_messageblock/obj_messageblock.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"This door here will bring you to one of the three available boss objects in this framework.\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":288.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":27,"SerialiseWidth":48,"TileCompressedData":[
           -20,0,-28,-2147483648,-20,0,-28,-2147483648,-20,0,-28,-2147483648,-20,0,-28,-2147483648,-20,0,-28,-2147483648,

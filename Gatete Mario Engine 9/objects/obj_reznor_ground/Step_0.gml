@@ -27,8 +27,11 @@ if (ready == 0)
 	if (right == false) {
 	
 		//Make the bridge piece to the left collapse
-		var inst_l = instance_position(x-8, y+8, obj_reznor_ground);
+		var inst_l = instance_position(bbox_left - 1, y+8, obj_reznor_ground);
+		
+		//If there's a bridge piece and this one is visible, "destroy" it
 		if (inst_l)
+		&& (inst_l.visible == true)
 			with (inst_l) alarm[0] = 60;
 	}
 	
@@ -36,8 +39,11 @@ if (ready == 0)
 	else if (right == true) {
 		
 		//Make the bridge piece to the right collapse
-		var inst_r = instance_position(x+24, y+8, obj_reznor_ground);
+		var inst_r = instance_position(bbox_right + 1, y+8, obj_reznor_ground);
+		
+		//If there's a bridge piece and this one is visible, "destroy" it
 		if (inst_r)
+		&& (inst_r.visible == true)
 			with (inst_r) alarm[0] = 60;
 	}
 }

@@ -11,6 +11,9 @@ if (ready == 0) {
     
         //Set defeat sprite
         sprite_index = spr_boomboom_defeat;
+		
+		//Set vulnerability
+		vulnerable = 100;
         
         //Get 4000 points
         with (instance_create_depth(round(bbox_left+bbox_right)/2, bbox_top, -6, obj_score)) value = 4000;

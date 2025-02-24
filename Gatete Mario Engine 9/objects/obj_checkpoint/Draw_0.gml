@@ -11,5 +11,5 @@ for (i=0; i<=27/part; i+=1) {
 	var temp = (ready == 0) ? 0 : 1 + (global.player);
 
 	//Render flag
-	draw_sprite_part(spr_checkpoint_flag, temp, i*part, 0, part, 18, screen_round(x)+8+(i*part), screen_round(y)+8+(sin(angle+i)));
+	draw_sprite_part_ext(spr_checkpoint_flag, temp, i*part, 0, part, 18, screen_round(x)+8+(i*part), screen_round(y)+8+(sin(angle+i)), 1, 1, c_white, 1);
 }
