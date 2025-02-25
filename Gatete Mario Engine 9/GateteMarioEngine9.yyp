@@ -3905,6 +3905,7 @@
     {"id":{"name":"spr_superflower_cb","path":"sprites/spr_superflower_cb/spr_superflower_cb.yy",},},
     {"id":{"name":"spr_superflower","path":"sprites/spr_superflower/spr_superflower.yy",},},
     {"id":{"name":"spr_supersmash","path":"sprites/spr_supersmash/spr_supersmash.yy",},},
+    {"id":{"name":"spr_susguy","path":"sprites/spr_susguy/spr_susguy.yy",},},
     {"id":{"name":"spr_swoop_fly","path":"sprites/spr_swoop_fly/spr_swoop_fly.yy",},},
     {"id":{"name":"spr_swoop","path":"sprites/spr_swoop/spr_swoop.yy",},},
     {"id":{"name":"spr_tankwheel","path":"sprites/spr_tankwheel/spr_tankwheel.yy",},},

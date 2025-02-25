@@ -4,7 +4,7 @@
 if (instance_exists(mytop)) {
         
     mytop.x = x;
-    mytop.y = bbox_top;
+    mytop.y = (instance_exists(obj_invincibility)) ? -1000 : bbox_top;
 	
 	//If the enemy is pullable 
     if (isheavy < 2) {
