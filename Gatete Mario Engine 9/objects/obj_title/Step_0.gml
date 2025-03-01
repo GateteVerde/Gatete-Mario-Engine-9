@@ -385,46 +385,62 @@ else if (start == 1) {
 			
 					//Keyboard Configuration
 					case (0): {
+						
+						//If this game is being played on a mobile or a console, do not open it
+						if (is_desktop() == false)
+							audio_play_sound(snd_wrong, 0, false);
+						
+						//Otherwise
+						else {
 					
-						//Play 'Coin' sound
-						audio_play_sound(snd_coin, 0, false);
+							//Play 'Coin' sound
+							audio_play_sound(snd_coin, 0, false);
 					
-						//Go to sub menu 2
-						sub_menu = 3;
-						index = 0;
+							//Go to sub menu 2
+							sub_menu = 3;
+							index = 0;
+						}
 					} break;
 				
 					//Window Size
 					case (1): {
+						
+						//If this game is being played on HTML5, mobile or a console, do not open it
+						if ((is_desktop() == false) || (os_type == os_browser))
+							audio_play_sound(snd_wrong, 0, false);
+						
+						//Otherwise
+						else {
 					
-						//Play 'Coin' sound
-			            audio_play_sound(snd_coin, 0, false);
+							//Play 'Coin' sound
+				            audio_play_sound(snd_coin, 0, false);
             
-			            //Switch filter
-			            with (obj_coordinator) {
+				            //Switch filter
+				            with (obj_coordinator) {
 							
-							//If the game is not in fullscreen mode
-							if (fullscreen == false) {
+								//If the game is not in fullscreen mode
+								if (fullscreen == false) {
 							
-								//If the window size is lower than 3
-								if (size < 3) {
+									//If the window size is lower than 3
+									if (size < 3) {
 									
-									size++;
+										size++;
+									}
+									else if (size == 3)
+										fullscreen = true;
 								}
-								else if (size == 3)
-									fullscreen = true;
-							}
 							
-							//Otherwise, if the screen is in fullscreen mode
-							else if (fullscreen == true) {
+								//Otherwise, if the screen is in fullscreen mode
+								else if (fullscreen == true) {
 							
-								size = 1;
-								fullscreen = false;
-							}
+									size = 1;
+									fullscreen = false;
+								}
 							
-							//Set size
-							alarm[0] = 2;
-			            }
+								//Set size
+								alarm[0] = 2;
+				            }
+						}
 					} break;
 					
 					//Colourblind Mode

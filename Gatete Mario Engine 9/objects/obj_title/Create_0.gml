@@ -88,6 +88,9 @@ anim = 0;
 //Title y position
 yy = 0;
 
+//Cursor sprite
+cursor = spr_gui_cursor;
+
 //Display "Start" text
 display = 1;
 alarm[0] = 30;

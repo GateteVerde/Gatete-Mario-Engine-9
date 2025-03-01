@@ -14,11 +14,11 @@ if (freeze == false) {
 		&& (instance_number(object) < 6)
 		&& (obj_levelcontrol.gswitch_on == false) {
 		
-			//Do not spawn if there's a solid in the way out
-			if ((dir == 0) && (collision_rectangle(xstart + 16, bbox_top, xstart + 16, bbox_bottom, obj_solid, 0, 0)))
+			//Do not spawn if there's a solid in the way out			
+			if ((dir == 0) && (collision_line(bbox_right + 1, bbox_top, bbox_right + 1, bbox_bottom, obj_solid, 0, 0)))
 			|| ((dir == 90) && (collision_rectangle(bbox_left, ystart - 8, bbox_right, ystart - 8, obj_solid, 0, 0)))	
-			|| ((dir == 180) && (collision_rectangle(xstart - 16, bbox_top, xstart - 16, bbox_bottom, obj_solid, 0, 0)))
-			|| ((dir == 270) && (collision_rectangle(bbox_left, ystart + 24, bbox_right, ystart + 24, obj_semisolid, 0, 0)))
+			|| ((dir == 180) && (collision_line(bbox_left - 1, bbox_top, bbox_left - 1, bbox_bottom, obj_solid, 0, 0)))
+			|| ((dir == 270) && (collision_rectangle(bbox_left, bbox_bottom + 8, bbox_right, bbox_bottom + 8, obj_semisolid, 0, 0)))
 				exit;
 			
 			//Decrement delay

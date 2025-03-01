@@ -285,7 +285,6 @@
     {"name":"inst_360A9AB5","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},
     {"name":"inst_1CB7D74A","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},
     {"name":"inst_3FEF7644","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},
-    {"name":"inst_531C1C4C","path":"rooms/rm_course_w1_l2/rm_course_w1_l2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -607,12 +606,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cheepcheep_h","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"propertyId":{"name":"fish","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1744.0,"y":288.0,},
         {"$GMRInstance":"v1","%Name":"inst_1CB7D74A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CB7D74A","objectId":{"name":"obj_cheepcheep_h","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1984.0,"y":288.0,},
-        {"$GMRInstance":"v1","%Name":"inst_3FEF7644","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FEF7644","objectId":{"name":"obj_cheepcheep_h","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cheepcheep_h","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"propertyId":{"name":"fish","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1864.0,"y":288.0,},
-        {"$GMRInstance":"v1","%Name":"inst_531C1C4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_531C1C4C","objectId":{"name":"obj_cheepcheep_h","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cheepcheep_h","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"propertyId":{"name":"fish","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2096.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3FEF7644","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FEF7644","objectId":{"name":"obj_cheepcheep_h","path":"objects/obj_cheepcheep_h/obj_cheepcheep_h.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1864.0,"y":288.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":21,"SerialiseWidth":220,"TileCompressedData":[
           -3,0,1,1531,-31,1532,1,1533,-14,-2147483648,1,1531,-6,1532,1,1533,-4,-2147483648,1,1531,-43,1532,1,1533,

@@ -74,8 +74,9 @@ else if (start == 1) {
 	
 		//Draw cursor
 		if (i == index) {
-		
-			draw_sprite_ext(spr_gui_cursor, 0, camera_get_view_x(view_camera[0]) + 12, _yy + (_gap * i) - 8, 1, 1, 0, c_white, 1);
+			
+			cursor = (sub_menu == 1) ? spr_gui_cursor_b : spr_gui_cursor;
+			draw_sprite_ext(cursor, anim, camera_get_view_x(view_camera[0]) + 12, _yy + (_gap * i) - 8, 1, 1, 0, c_white, 1);
 		}
 	}
 

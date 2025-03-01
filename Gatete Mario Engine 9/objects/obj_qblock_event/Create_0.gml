@@ -1,5 +1,9 @@
 /// @description Event Block
 
+/*
+// This object uses timelines
+*/
+
 //Inherit the parent event
 event_inherited();
 

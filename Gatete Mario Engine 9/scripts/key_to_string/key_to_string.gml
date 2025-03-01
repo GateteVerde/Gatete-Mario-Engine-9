@@ -20,7 +20,15 @@ function key_to_string() {
 	    case (16): return "shift"; break;
     
 	    //Control
-	    case (17): return "control"; break;
+	    case (17): {
+		
+			//If the game is being played on MacOS
+			if (os_type == os_macosx)
+				return "command";
+			else
+				return "control";
+			
+		} break;
 
 	    //Alt
 	    case (18): return "alt"; break;
