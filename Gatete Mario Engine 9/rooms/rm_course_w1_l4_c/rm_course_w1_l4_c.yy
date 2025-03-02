@@ -147,6 +147,7 @@
     {"name":"inst_440C23FF","path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},
     {"name":"inst_30DC6B0D","path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},
     {"name":"inst_3E4AFB6D","path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},
+    {"name":"inst_7354034C","path":"rooms/rm_course_w1_l4_c/rm_course_w1_l4_c.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -317,6 +318,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"propertyId":{"name":"raining","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"propertyId":{"name":"foreground","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7354034C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7354034C","objectId":{"name":"obj_blargg","path":"objects/obj_blargg/obj_blargg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":176.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":114,"TileCompressedData":[
           5,3551,3552,2761,2762,3550,-32,3551,1,3552,-10,0,-23,-2147483648,1,3550,-14,3551,2,4064,4065,-23,3636,
@@ -360,19 +362,7 @@
           -4,3922,-16,-2147483648,-3,3922,-30,-2147483648,-48,0,-6,-2147483648,-4,3922,-56,-2147483648,-48,0,-66,
           -2147483648,-48,0,-66,-2147483648,-48,0,-66,-2147483648,-48,0,-66,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
-        {"name":"g_Distort1Speed","type":0,"value":"0.01",},
-        {"name":"g_Distort2Speed","type":0,"value":"0.025",},
-        {"name":"g_Distort1Scale","type":0,"value":"13.3",},
-        {"name":"g_Distort1Scale","type":0,"value":"1.3",},
-        {"name":"g_Distort2Scale","type":0,"value":"33.3",},
-        {"name":"g_Distort2Scale","type":0,"value":"3.3",},
-        {"name":"g_Distort1Amount","type":0,"value":"2",},
-        {"name":"g_Distort2Amount","type":0,"value":"4",},
-        {"name":"g_ChromaSpreadAmount","type":0,"value":"0.5",},
-        {"name":"g_CamOffsetScale","type":0,"value":"1",},
-        {"name":"g_DistortTexture","type":2,"value":"_filter_heathaze_noise_sprite",},
-      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bgr_underground_alt","path":"sprites/spr_bgr_underground_alt/spr_bgr_underground_alt.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":24,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":"none","gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bgr_underground_alt","path":"sprites/spr_bgr_underground_alt/spr_bgr_underground_alt.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":24,},
   ],
   "name":"rm_course_w1_l4_c",
   "parent":{
