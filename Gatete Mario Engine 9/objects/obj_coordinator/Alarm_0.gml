@@ -1,10 +1,10 @@
 /// @description Set up window size
-	
-//Set windowed mode
-window_set_fullscreen(fullscreen);
 
 //Reset display
 display_reset(0, vsync);
+	
+//Set windowed mode
+window_set_fullscreen(fullscreen);
 
 //Set up the window
 window_set_size(global.gw * size, global.gh * size);

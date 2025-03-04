@@ -6,5 +6,6 @@ function screen_round(value) {
 	
 	if (global.subpixels)
 		return round(value * obj_coordinator.size) / obj_coordinator.size;
-	return round(value);
+	else
+		return round(value);
 }

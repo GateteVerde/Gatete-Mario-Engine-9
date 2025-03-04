@@ -1,4 +1,4 @@
-/// @description Draw the effect
+/// @description Render screenshot and fade in
 
 //Render screenshot
 freeze_render();
