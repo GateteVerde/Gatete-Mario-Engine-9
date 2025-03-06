@@ -1,5 +1,9 @@
 /// @description Displays a message
 
+/*
+// When setting up messages on the talking flower, use \n for new lines.
+*/
+
 //Set the depth
 depth = -2;
 

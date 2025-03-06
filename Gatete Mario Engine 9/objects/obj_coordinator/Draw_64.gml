@@ -18,7 +18,7 @@ shader_set_uniform_f(uni_shock_amplitude, var_shock_amplitude);
 shader_set_uniform_f(uni_shock_refraction, var_shock_refraction );
 shader_set_uniform_f(uni_shock_width, var_shock_width);
 
-//Draw a rectangle
+//Render rectangle
 draw_rectangle_colour(0, 0, global.gw * size, global.gh * size, c_black, c_black, c_black, c_black, 0);
 
 //Draw the application surface
