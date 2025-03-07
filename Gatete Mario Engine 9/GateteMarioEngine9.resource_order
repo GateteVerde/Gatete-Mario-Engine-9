@@ -3459,6 +3459,7 @@
     {"name":"spr_trampoline","order":4,"path":"sprites/spr_trampoline/spr_trampoline.yy",},
     {"name":"spr_trolloomba","order":26,"path":"sprites/spr_trolloomba/spr_trolloomba.yy",},
     {"name":"spr_trouter","order":34,"path":"sprites/spr_trouter/spr_trouter.yy",},
+    {"name":"spr_tulip_speech_arrow","order":22,"path":"sprites/spr_tulip_speech_arrow/spr_tulip_speech_arrow.yy",},
     {"name":"spr_tulip_speech","order":21,"path":"sprites/spr_tulip_speech/spr_tulip_speech.yy",},
     {"name":"spr_tulip_stem_fly","order":20,"path":"sprites/spr_tulip_stem_fly/spr_tulip_stem_fly.yy",},
     {"name":"spr_tulip_stem","order":19,"path":"sprites/spr_tulip_stem/spr_tulip_stem.yy",},

@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_tulip_talk",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":13,
   "bbox_left":0,
   "bbox_right":17,
@@ -106,7 +106,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":1,
+    "xorigin":9,
     "yorigin":2,
   },
   "swatchColours":null,
