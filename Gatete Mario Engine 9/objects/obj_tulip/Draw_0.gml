@@ -10,13 +10,22 @@ draw_set_font(global.gui_font);
 //If the tulip can show up the text
 if (showing > 0) {
 	
-	//Get string width height
-	var ww = string_width(varmsg) - 1;
-	var hh = string_height(varmsg);
-	
 	//Render speech bubble
-	draw_sprite_ext(spr_tulip_speech, 0, screen_round(x), screen_round(bbox_top) - 13 - (hh / 8), (ww / 8), hh / 8, 0, c_white, showing);
-	draw_sprite_ext(spr_tulip_speech_arrow, 0, screen_round(x), screen_round(bbox_top) - 6, 1, 1, 0, c_white, showing);
+	#region
+
+		//Render text background
+		draw_set_alpha((showing / 100) * 80);
+		draw_rectangle_colour(screen_round(x) - 4 - (string_width(varmsg) / 2), screen_round(bbox_top) - 5, ((screen_round(x) - 4 - (string_width(varmsg) / 2)) + string_width(varmsg)) + 9, screen_round(bbox_top) - 5 - (string_height(varmsg) + 9), c_black, c_black, c_black, c_black, 0);
+		
+		//Render text background outline
+		draw_set_alpha(showing);
+		draw_rectangle_colour(screen_round(x) - 4 - (string_width(varmsg) / 2), screen_round(bbox_top) - 5, ((screen_round(x) - 4 - (string_width(varmsg) / 2)) + string_width(varmsg)) + 9, screen_round(bbox_top) - 5 - (string_height(varmsg) + 9), c_white, c_white, c_white, c_white, 1);
+		draw_triangle_colour(screen_round(x) - 4, screen_round(bbox_top) - 6, screen_round(x) + 4, screen_round(bbox_top) - 6, screen_round(x), screen_round(bbox_top) - 2, c_white, c_white, c_white, 0);
+		
+		//Reset alpha
+		draw_set_alpha(1);
+
+	#endregion
 	
 	//Set align
 	draw_set_valign(fa_bottom);

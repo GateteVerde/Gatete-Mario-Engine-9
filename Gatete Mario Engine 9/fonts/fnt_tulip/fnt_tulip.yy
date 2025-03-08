@@ -130,7 +130,7 @@
   "regenerateBitmap":false,
   "resourceType":"GMFont",
   "resourceVersion":"2.0",
-  "sampleText":"This font should be used only with the Talking Flowers",
+  "sampleText":"",
   "sdfSpread":8,
   "size":12.0,
   "styleName":"Medium",

@@ -42,7 +42,7 @@
     ],
     "top":5,
   },
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"Special",
     "path":"folders/Sprites/Special.yy",
@@ -95,7 +95,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":5,
-    "yorigin":0,
+    "yorigin":12,
   },
   "swatchColours":null,
   "swfPrecision":2.525,
