@@ -533,7 +533,6 @@
   },
   "name":"GateteMarioEngine9",
   "resources":[
-    {"id":{"name":"fnt_tulip","path":"fonts/fnt_tulip/fnt_tulip.yy",},},
     {"id":{"name":"Credits","path":"notes/Credits/Credits.yy",},},
     {"id":{"name":"obj_1up_checkpoint_1","path":"objects/obj_1up_checkpoint_1/obj_1up_checkpoint_1.yy",},},
     {"id":{"name":"obj_1up_checkpoint_2","path":"objects/obj_1up_checkpoint_2/obj_1up_checkpoint_2.yy",},},
@@ -3954,8 +3953,6 @@
     {"id":{"name":"spr_trampoline","path":"sprites/spr_trampoline/spr_trampoline.yy",},},
     {"id":{"name":"spr_trolloomba","path":"sprites/spr_trolloomba/spr_trolloomba.yy",},},
     {"id":{"name":"spr_trouter","path":"sprites/spr_trouter/spr_trouter.yy",},},
-    {"id":{"name":"spr_tulip_speech_arrow","path":"sprites/spr_tulip_speech_arrow/spr_tulip_speech_arrow.yy",},},
-    {"id":{"name":"spr_tulip_speech","path":"sprites/spr_tulip_speech/spr_tulip_speech.yy",},},
     {"id":{"name":"spr_tulip_stem_fly","path":"sprites/spr_tulip_stem_fly/spr_tulip_stem_fly.yy",},},
     {"id":{"name":"spr_tulip_stem","path":"sprites/spr_tulip_stem/spr_tulip_stem.yy",},},
     {"id":{"name":"spr_tulip_talk","path":"sprites/spr_tulip_talk/spr_tulip_talk.yy",},},

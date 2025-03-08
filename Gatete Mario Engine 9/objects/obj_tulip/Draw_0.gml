@@ -13,15 +13,15 @@ if (showing > 0) {
 	//Render speech bubble
 	#region
 
-		//Render text background
+		//Set alpha
 		draw_set_alpha((showing / 100) * 80);
-		draw_rectangle_colour(screen_round(x) - 4 - (string_width(varmsg) / 2), screen_round(bbox_top) - 5, ((screen_round(x) - 4 - (string_width(varmsg) / 2)) + string_width(varmsg)) + 9, screen_round(bbox_top) - 5 - (string_height(varmsg) + 9), c_black, c_black, c_black, c_black, 0);
 		
-		//Render text background outline
-		draw_set_alpha(showing);
-		draw_rectangle_colour(screen_round(x) - 4 - (string_width(varmsg) / 2), screen_round(bbox_top) - 5, ((screen_round(x) - 4 - (string_width(varmsg) / 2)) + string_width(varmsg)) + 9, screen_round(bbox_top) - 5 - (string_height(varmsg) + 9), c_white, c_white, c_white, c_white, 1);
-		draw_triangle_colour(screen_round(x) - 4, screen_round(bbox_top) - 6, screen_round(x) + 4, screen_round(bbox_top) - 6, screen_round(x), screen_round(bbox_top) - 2, c_white, c_white, c_white, 0);
+		//Render text background
+		draw_roundrect_colour_ext(screen_round(x) - 4 - (string_width(varmsg) / 2), screen_round(bbox_top) - 5, ((screen_round(x) - 4 - (string_width(varmsg) / 2)) + string_width(varmsg)) + 9, screen_round(bbox_top) - 5 - (string_height(varmsg) + 9), 2, 2, c_black, c_black, 0);
 		
+		//Render tulip arrow
+		draw_triangle_colour(screen_round(x) - 4, screen_round(bbox_top) - 5, screen_round(x) + 4, screen_round(bbox_top) - 5, screen_round(x), screen_round(bbox_top) - 1, c_black, c_black, c_black, 0);
+
 		//Reset alpha
 		draw_set_alpha(1);
 

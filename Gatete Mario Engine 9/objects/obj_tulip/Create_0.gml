@@ -5,7 +5,7 @@
 */
 
 //Set the depth
-depth = -2;
+depth = -1;
 
 //Is the message showing
 showing = 0;
