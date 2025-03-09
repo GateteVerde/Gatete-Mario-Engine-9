@@ -181,6 +181,7 @@
     {"name":"inst_685C870E","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_2A17E46D","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_45FF07DD","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
+    {"name":"inst_613732A5","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -394,6 +395,7 @@
         {"$GMRInstance":"v1","%Name":"inst_45FF07DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45FF07DD","objectId":{"name":"obj_tulip","path":"objects/obj_tulip/obj_tulip.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tulip","path":"objects/obj_tulip/obj_tulip.yy",},"propertyId":{"name":"varmsg","path":"objects/obj_tulip/obj_tulip.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"I could sworn I seen\\na hidden block here...\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":632.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_613732A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_613732A5","objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2000.0,"y":288.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":"none","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":27,"SerialiseWidth":196,"TileCompressedData":[
           -20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,
@@ -419,8 +421,8 @@
           87,87,176,-18,172,4,177,87,87,88,-9,-2147483648,4,2087,2088,2093,2094,-9,-2147483648,3,280,281,282,-17,
           -2147483648,-43,87,1,88,-4,0,2,-2147483648,86,-3,87,2,178,179,-20,172,3,177,95,96,-5,-2147483648,-2,
           0,2,93,94,-11,87,1,88,-5,-2147483648,1,171,-48,172,1,173,-7,-2147483648,1,86,-34,87,-43,172,1,173,-4,
-          0,2,-2147483648,171,-26,172,2,180,181,-7,87,2,178,179,-11,172,1,173,-5,-2147483648,-49,172,1,173,-7,
-          -2147483648,1,171,-34,172,
+          0,2,-2147483648,171,-26,172,2,180,181,-7,87,2,178,179,-11,172,1,173,-5,-2147483648,1,171,-48,172,1,173,
+          -7,-2147483648,1,171,-34,172,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tileset_Decor","depth":200,"effectEnabled":true,"effectType":"none","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset_Decor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":27,"SerialiseWidth":196,"TileCompressedData":[
           -20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,
