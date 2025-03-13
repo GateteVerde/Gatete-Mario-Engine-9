@@ -1312,7 +1312,7 @@
     {"name":"rm_minigame_card","order":2,"path":"rooms/rm_minigame_card/rm_minigame_card.yy",},
     {"name":"rm_minigame_dig","order":3,"path":"rooms/rm_minigame_dig/rm_minigame_dig.yy",},
     {"name":"rm_minigame_picture","order":4,"path":"rooms/rm_minigame_picture/rm_minigame_picture.yy",},
-    {"name":"rm_pipearea_lava","order":1,"path":"rooms/rm_pipearea_lava/rm_pipearea_lava.yy",},
+    {"name":"rm_pipearea_b","order":1,"path":"rooms/rm_pipearea_b/rm_pipearea_b.yy",},
     {"name":"rm_powerups","order":5,"path":"rooms/rm_powerups/rm_powerups.yy",},
     {"name":"rm_switchpalace_b","order":3,"path":"rooms/rm_switchpalace_b/rm_switchpalace_b.yy",},
     {"name":"rm_switchpalace_g","order":1,"path":"rooms/rm_switchpalace_g/rm_switchpalace_g.yy",},
