@@ -7,10 +7,22 @@ y += yspeed;
 //No gravity
 yadd = 0;
 
-//Manage yspeed if not frozen
-if (freeze == false) {
+//Do not move if the 'quiet' flag is set to on
+if (quiet == true) {
 
-	time = time+1;
-	y -= 0.075;
-	yspeed = -cos(time / 32) * 0.75;
+	xspeed = 0;
+	if (freeze == false)
+		yspeed += (y > ystart) ? -0.05 : 0.05;
+}
+
+//Otherwise
+else {
+
+	//Manage yspeed if not frozen
+	if (freeze == false) {
+
+		time = time+1;
+		y -= 0.075;
+		yspeed = -cos(time / 32) * 0.75;
+	}
 }

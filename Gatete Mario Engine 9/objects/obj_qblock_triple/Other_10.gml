@@ -1,3 +1,5 @@
+/// @description Make coins come out if no item was selected
+
 for (var i=0; i<3; i++) {
 	
 	//If this block contains a coin
@@ -13,6 +15,9 @@ for (var i=0; i<3; i++) {
 		
 	//Otherwise, if there's a balloon inside this block
 	else if (sprout[i] = cs_balloon) {
+						
+		//Play 'Beanstalk' sound
+		audio_play_sound(snd_beanstalk, 0, false);
 		
 		//If this block has been hit from below
 		if (bottom == false)

@@ -17,8 +17,8 @@
     {"$GMSpriteFrame":"","%Name":"b9011045-8110-460a-91ee-849e9cc8ac39","name":"b9011045-8110-460a-91ee-849e9cc8ac39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf","name":"b25881bf-0dfe-40ba-8af1-43e02f4073cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"fe389d52-e827-4cbf-b571-a55dad64d2d0","name":"fe389d52-e827-4cbf-b571-a55dad64d2d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e2f90249-a326-4679-9d5d-cced2c47f264","name":"e2f90249-a326-4679-9d5d-cced2c47f264","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -90,11 +90,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"56a82613-6a1e-43ee-bf9b-8a6dfdda30f8","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f5e8ff00-3771-41e5-b25f-5c8d9f32df3b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b88f3954-fcbf-4bb4-9740-a90735f8fb9a","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9e17590b-d505-446e-9c17-415796eff969","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe389d52-e827-4cbf-b571-a55dad64d2d0","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"81e997ed-bbdc-4bb8-ac42-7e2657485c7c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"81e997ed-bbdc-4bb8-ac42-7e2657485c7c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2f90249-a326-4679-9d5d-cced2c47f264","path":"sprites/spr_cardgame_cards/spr_cardgame_cards.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4adef4e3-829f-45f8-b293-dcd4d1ffb4fc","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

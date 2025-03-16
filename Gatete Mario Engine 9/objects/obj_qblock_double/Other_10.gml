@@ -16,6 +16,9 @@ for (var i=0; i<2; i++) {
 	//Otherwise, if there's a balloon inside this block
 	else if (sprout[i] = cs_balloon) {
 		
+		//Play 'Beanstalk' sound
+		audio_play_sound(snd_beanstalk, 0, false);
+		
 		//If this block has been hit from below
 		if (bottom == false)
 			instance_create_depth(x + 8 + (i * 16), ystart - 16, -2, obj_balloon);

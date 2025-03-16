@@ -13,6 +13,10 @@ if (sprout == cs_coin)
 //Otherwise, if there's a balloon inside this block
 else if (sprout = cs_balloon) {
 	
+	//Play 'Beanstalk' sound
+	audio_play_sound(snd_beanstalk, 0, false);
+	
+	//Set sprout position
 	if (bottom == false)
 		instance_create_depth(x + 8, ystart - 16, -2, obj_balloon);
 	else

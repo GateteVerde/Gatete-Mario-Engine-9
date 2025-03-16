@@ -3,9 +3,6 @@
 //Inherit event from parent
 event_inherited();
 
-//Play 'Beanstalk' sound
-audio_play_sound(snd_beanstalk, 0, false);
-
 //Set depth
 depth = -2;
 
