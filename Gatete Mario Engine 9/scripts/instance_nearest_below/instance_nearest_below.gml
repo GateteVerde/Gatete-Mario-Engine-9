@@ -1,12 +1,12 @@
-// @function instance_nearest_below(x, y, obj);
-// @param x
-// @param y
-// @param obj
+/// @function instance_nearest_below(x, y, obj);
+/// @param x
+/// @param y
+/// @param obj
 
 function instance_nearest_below() {
 
-	var xx = argument[0];
-	var yy = argument[1];
+	var xx	= argument[0];
+	var yy	= argument[1];
 	var obj = argument[2];
 	var dis;
 	var nearest_dis = 999999;

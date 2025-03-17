@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_slippery",
-  "eventList":[],
+  "%Name":"obj_block_coin_goal",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_slippery",
+  "name":"obj_block_coin_goal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collision",
-    "path":"folders/Objects/Collision.yy",
+    "name":"Blocks",
+    "path":"folders/Objects/Special/Do Not Use!/Blocks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slippery",
-    "path":"sprites/spr_slippery/spr_slippery.yy",
+    "name":"spr_coin_npc",
+    "path":"sprites/spr_coin_npc/spr_coin_npc.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -686,18 +686,22 @@ if (xspeed > 0) {
 		//If Mario is sliding
 		if (sliding == true) {
 		
-			//If the player has the shell powerup
+			//If the player has the shell powerup or the penguin powerup and you are sliding
 			if (global.mount == 0)
-			&& (global.powerup == cs_shell) {
+			&& ((global.powerup == cs_shell) || ((global.powerup == cs_penguin) && (isslip == 1))) {
+				
+				//If Mario does have the shell powerup
+				if (global.powerup == cs_shell) {
 			
-				//Play 'Bump' sound
-				audio_play_sound(snd_bump, 0, false);
+					//Play 'Bump' sound
+					audio_play_sound(snd_bump, 0, false);
 				
-				//Reverse horizontal speed
-				xspeed = -xspeed;
+					//Reverse horizontal speed
+					xspeed = -xspeed;
 				
-				//Create effect
-				instance_create_depth(x+5, y, depth - 1, obj_shellthump);
+					//Create effect
+					instance_create_depth(x+5, y, depth - 1, obj_shellthump);
+				}
 				
 				//Bump block if there's one in position
 				if ((block_r) && (block_r.ready == 0)) {
@@ -717,8 +721,9 @@ if (xspeed > 0) {
 					}
 				}
 				
-				//Exit this event
-				exit;
+				//Exit if inside shell
+				if (global.powerup == cs_shell)
+					exit;
 			}
 			
 			//Otherwise, stop sliding behaviour
@@ -727,7 +732,7 @@ if (xspeed > 0) {
 		}
 		
 		//Stop horizontal movement
-		xspeed = 0;
+		if (!block_r) then xspeed = 0;
 		
 		//Prevent Mario from getting embed on a wall	
 		while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
@@ -753,9 +758,6 @@ if (xspeed > 0) {
 				
 				//Create effect
 				instance_create_depth(x-5, y, depth - 1, obj_shellthump);
-				
-				//Exit this event
-				exit;
 			}
 			
 			//Otherwise, stop sliding behaviour
@@ -791,16 +793,20 @@ else if (xspeed < 0) {
 		
 			//If the player has the shell powerup
 			if (global.mount == 0)
-			&& (global.powerup == cs_shell) {
+			&& ((global.powerup == cs_shell) || ((global.powerup == cs_penguin) && (isslip == 1))) {
+				
+				//If Mario does have the shell powerup
+				if (global.powerup == cs_shell) {
 			
-				//Play 'Bump' sound
-				audio_play_sound(snd_bump, 0, false);
+					//Play 'Bump' sound
+					audio_play_sound(snd_bump, 0, false);
 				
-				//Reverse horizontal speed
-				xspeed = -xspeed;
+					//Reverse horizontal speed
+					xspeed = -xspeed;
 				
-				//Create effect
-				instance_create_depth(x-5, y, depth - 1, obj_shellthump);
+					//Create effect
+					instance_create_depth(x-5, y, depth - 1, obj_shellthump);
+				}
 				
 				//Bump block if there's one in position
 				if ((block_l) && (block_l.ready == 0)) {
@@ -820,8 +826,9 @@ else if (xspeed < 0) {
 					}
 				}
 				
-				//Exit this event
-				exit;
+				//Exit if inside shell
+				if (global.powerup == cs_shell)
+					exit;
 			}
 			
 			//Otherwise, stop sliding behaviour
@@ -830,7 +837,7 @@ else if (xspeed < 0) {
 		}
 		
 		//Stop horizontal movement
-		xspeed = 0;
+		if (!block_l) then xspeed = 0;
 			
 		//Prevent Mario from getting embed on a ceiling
 		while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
@@ -856,9 +863,6 @@ else if (xspeed < 0) {
 				
 				//Create effect
 				instance_create_depth(x-5, y, depth - 1, obj_shellthump);
-				
-				//Exit this event
-				exit;
 			}
 			
 			//Otherwise, stop sliding behaviour

@@ -93,7 +93,8 @@ if (!flying)
 	if (run_cooldown > 0)		
 		run_cooldown --;
 
-    if (input_check(input.action_1) || (run_cooldown > 0)) { //If the 'Run' key is being held.
+	//If the 'Run' key is being held.
+    if (input_check(input.action_1) || (run_cooldown > 0)) { 
         
         //If Mario does have the frog powerup
         if (global.powerup == cs_frog) {
@@ -736,11 +737,11 @@ if (state != playerstate.jump) {
         sliding = true;
     }
     
-    //Check the horizontal speed
-    if (xspeed > xspeedmax)
-        xspeed = xspeedmax;
-    if (xspeed < -xspeedmax)
-        xspeed = -xspeedmax;
+	//Prevent player from running too fast
+	if (abs(xspeed) > xspeedmax) {
+		
+		xspeed = superlerp(xspeed, sign(xspeed) * xspeedmax, 0.5);
+	}
 }
 
 //If the player is jumping

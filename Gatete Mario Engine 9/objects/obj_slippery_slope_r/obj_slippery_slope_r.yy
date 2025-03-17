@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_slippery",
+  "%Name":"obj_slippery_slope_r",
   "eventList":[],
   "managed":true,
-  "name":"obj_slippery",
+  "name":"obj_slippery_slope_r",
   "overriddenProperties":[],
   "parent":{
     "name":"Collision",
     "path":"folders/Objects/Collision.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_slippery",
+    "path":"objects/obj_slippery/obj_slippery.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slippery",
-    "path":"sprites/spr_slippery/spr_slippery.yy",
+    "name":"spr_slippery_slope_r",
+    "path":"sprites/spr_slippery_slope_r/spr_slippery_slope_r.yy",
   },
   "spriteMaskId":null,
   "visible":true,

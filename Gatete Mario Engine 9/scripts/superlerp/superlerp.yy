@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"superlerp",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"superlerp",
+  "parent":{
+    "name":"Math",
+    "path":"folders/Scripts/Math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

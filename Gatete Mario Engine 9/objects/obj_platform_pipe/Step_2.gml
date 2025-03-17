@@ -5,28 +5,53 @@ event_inherited();
 
 #region SCALE
 
-	//Check for the nearest semisolid below...
-	var ground = collision_rectangle(x+16, bbox_bottom, x+16, bbox_bottom+999999, obj_semisolid, 0, 1);
+	//If the ground exists...
+	if (instance_exists(ground)) {
 
-	//...and set the vertical scale of the pipe.
-	image_yscale = (ground.y - y) / 16;
+		//...set up the scale based on distance between the top of the pipe and the ground
+		image_yscale = (ground.y - y) / 16;
 	
-	#region SIDE COLLISIONS
+		#region SIDE COLLISIONS
 	
-		//Left Side Collision
-		with (mysolid_l) {
+			//Left Side Collision
+			with (mysolid_l) {
 		
-			y = other.y+4;
-			image_yscale = (ground.y - y) / 16;
-		}
+				y = other.y+4;
+				image_yscale = (other.ground.y - y) / 16;
+			}
 	
-		//Left Side Collision
-		with (mysolid_r) {
+			//Left Side Collision
+			with (mysolid_r) {
 		
-			y = other.y+4;
-			image_yscale = (ground.y - y) / 16;
-		}
-	#endregion
+				y = other.y+4;
+				image_yscale = (other.ground.y - y) / 16;
+			}
+		#endregion
+	}
+	
+	//Otherwise
+	else {
+	
+		//...set up the scale based on distance between the top of the pipe and the height of the room
+		image_yscale = ((room_height + 80) - y) / 16;
+	
+		#region SIDE COLLISIONS
+	
+			//Left Side Collision
+			with (mysolid_l) {
+		
+				y = other.y+4;
+				image_yscale = ((room_height + 80) - y) / 16;
+			}
+	
+			//Left Side Collision
+			with (mysolid_r) {
+		
+				y = other.y+4;
+				image_yscale = ((room_height + 80) - y) / 16;
+			}
+		#endregion		
+	}
 	
 #endregion
 

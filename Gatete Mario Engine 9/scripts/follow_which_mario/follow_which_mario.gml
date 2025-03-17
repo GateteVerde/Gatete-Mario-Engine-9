@@ -1,4 +1,4 @@
-// @function follow_which_mario()
+/// @function follow_which_mario()
 
 function follow_which_mario() {
 	

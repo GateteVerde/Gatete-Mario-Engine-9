@@ -1,4 +1,7 @@
-/// @description approach(start, end, shift);
+/// @function approach(start, end, shift);
+/// @param start
+/// @param end
+/// @param shift
 
 function approach() {
 

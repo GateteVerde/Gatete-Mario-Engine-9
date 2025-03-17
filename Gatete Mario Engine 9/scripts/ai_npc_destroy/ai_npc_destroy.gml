@@ -15,7 +15,10 @@ function ai_npc_destroy() {
         
 	            //Create poof of smoke
 	            instance_create_depth(round(bbox_left+bbox_right)/2, round(bbox_top+bbox_bottom)/2, -2, obj_smoke);
-            
+				
+				//Create coin
+				instance_create_depth(round(bbox_left+bbox_right)/2, bbox_top, -2, obj_block_coin_goal);
+
 	            //Destroy
 	            instance_destroy();
 	        }

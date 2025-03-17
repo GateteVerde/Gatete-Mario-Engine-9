@@ -1,5 +1,5 @@
-// @function pswitch_event
-// @param {bool} If true, the event should be turned off
+/// @function pswitch_event
+/// @param {bool} If true, the event should be turned off
 
 function pswitch_event() {
 

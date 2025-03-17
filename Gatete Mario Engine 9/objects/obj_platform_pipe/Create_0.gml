@@ -1,5 +1,9 @@
 /// @description Moving Pipe
 
+/*
+// If you want this object to emerge from a bottomless pit, add it 16 pixels above the pit.
+*/
+
 //Inherit the parent event
 event_inherited();
 
@@ -12,6 +16,9 @@ image_index = 0;
 
 //Start moving
 alarm[0] = 120;
+
+//Check for nearest ground
+ground = instance_nearest_below(x + 16, bbox_bottom, obj_semisolid);
 
 //Left Side Collision
 mysolid_l = instance_create_layer(x, y, "Main", obj_solid);
