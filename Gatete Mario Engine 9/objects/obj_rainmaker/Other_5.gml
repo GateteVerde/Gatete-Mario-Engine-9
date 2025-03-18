@@ -1,3 +1,8 @@
-/// @description End 'Rain' sound
+/// @description Force end particles and stop 'Rain' sound
 
-audio_stop_sound(snd_rain);
+//Destroy particle system
+part_system_destroy(system);
+
+//End 'Rain' sound if it is playing
+if (audio_is_playing(snd_rain))
+	audio_stop_sound(snd_rain);

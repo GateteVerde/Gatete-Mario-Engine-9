@@ -67,9 +67,9 @@ if (status == mapstate.idle)
 					boxselection = 1;
 			}
 			
-			#region DEBUG KEYS
+			#region DEBUG KEYS (Put this in between /* */ before releasing your game)
 			
-				//Open adyacent paths (Do disable this on your game)
+				//Open adyacent paths
 				if (input_check_pressed(vk_backspace))
 					event_user(15);
 				
