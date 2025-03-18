@@ -16,6 +16,11 @@ if (global.powerup != cs_mega) {
 	    if (instance_exists(obj_mario))
 		&& (!instance_exists(obj_mario_transform))
 		&& (obj_mario.state != playerstate.jump) {
+			
+			//Do not allow warping if 'allow_hold' flag is set to false
+			if (allow_hold == false)
+			&& ((obj_mario.holding > 0) && (obj_mario.holding < 4))
+				exit;
     
 	        //Check for it
 	        player = collision_rectangle(x+16, y-2, x+16, y-2, obj_mario, 0, 0);

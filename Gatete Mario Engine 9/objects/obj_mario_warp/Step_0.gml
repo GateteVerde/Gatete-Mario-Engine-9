@@ -3,6 +3,11 @@
 //Animate cape if it is visible
 cape_anim += 0.065+abs(hspeed)/7.5;
 
+//Do not hold if the player can't hold any item
+if (holding > 0)
+&& (canhold = 0)
+	holding = 0;
+
 #region UPDATE PALETTE
 	
 	//If Mario is invincible

@@ -22,7 +22,12 @@ if (global.powerup != cs_mega) {
 	        //If the player exists
 	        if (player) 
 			&& (player.yadd == 0) {
-        
+
+				//Do not allow warping if 'allow_hold' flag is set to false
+				if (allow_hold == false)
+				&& ((obj_mario.holding > 0) && (obj_mario.holding < 4))
+					exit;
+		
 	            //Play 'Warp' sound
 	            audio_play_sound(snd_warp, 0, false);
 				

@@ -18,6 +18,7 @@ canmove = 1;
 
 //Whether the player is holding an item
 holding = 0;
+canhold = 1;
 
 //Handle the held item sprite and frame
 myitem = -1;
