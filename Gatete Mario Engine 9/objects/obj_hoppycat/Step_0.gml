@@ -56,8 +56,7 @@ event_perform_object(obj_physicsparent, ev_step, ev_step_normal);
 		sprite_index = spr_hoppycat;
 		
 		//Do not animate
-		image_speed = 0;
-		image_index = 0;
+		image_speed = (freeze == 1) ? 0 : 1;
 	}
 	
 	//Otherwise, if jumping
@@ -67,11 +66,13 @@ event_perform_object(obj_physicsparent, ev_step, ev_step_normal);
 		sprite_index = spr_hoppycat_jump;
 		
 		//Animate
-		image_speed = 1;
+		image_speed = 0;
 		
 		//If moving up
 		if (yspeed < 0)
 			image_index = 0;
+		else
+			image_index = 1;
 	}
 #endregion
 

@@ -14,8 +14,6 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"11dcffb8-dabc-4cc6-8d5d-fa828211b34b","name":"11dcffb8-dabc-4cc6-8d5d-fa828211b34b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"f7064bc2-d5b7-4c65-ad4c-ad34390017a4","name":"f7064bc2-d5b7-4c65-ad4c-ad34390017a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9e7f6822-767a-40ef-a593-ce4b68702de2","name":"9e7f6822-767a-40ef-a593-ce4b68702de2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9cec298d-f6cd-4cc8-a019-8deb91d40762","name":"9cec298d-f6cd-4cc8-a019-8deb91d40762","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -52,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":4.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -77,17 +75,11 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7064bc2-d5b7-4c65-ad4c-ad34390017a4","path":"sprites/spr_hoppycat_jump/spr_hoppycat_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f2bb16bd-1fe3-4c47-9cd7-2cb0d6c4e613","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9e7f6822-767a-40ef-a593-ce4b68702de2","path":"sprites/spr_hoppycat_jump/spr_hoppycat_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1ef13a54-2096-4979-98a7-c34024f0c55d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9cec298d-f6cd-4cc8-a019-8deb91d40762","path":"sprites/spr_hoppycat_jump/spr_hoppycat_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"13ec8c34-eed0-4d95-92dc-a16f33f69b7a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":10,
+    "xorigin":8,
     "yorigin":0,
   },
   "swatchColours":null,
@@ -98,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":20,
+  "width":16,
 }

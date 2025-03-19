@@ -35,8 +35,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"xmin","filters":[],"listItems":[],"multiselect":false,"name":"xmin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"x","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"xmax","filters":[],"listItems":[],"multiselect":false,"name":"xmax","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_width","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"xmin","filters":[],"listItems":[],"multiselect":false,"name":"xmin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"x","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"xmax","filters":[],"listItems":[],"multiselect":false,"name":"xmax","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_width","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
