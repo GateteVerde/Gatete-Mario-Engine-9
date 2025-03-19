@@ -135,7 +135,7 @@ if (clear == 1) {
 	draw_sprite_ext(spr_gui_global_clear, global.player, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 64, camera_get_view_y(view_camera[0]) + 80, 1, 1, 0, c_white, 1);
 
 	//Draw time
-	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 52, camera_get_view_y(view_camera[0]) + 104, string_format(time, 3, 0));
+	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 56, camera_get_view_y(view_camera[0]) + 104, string_format(time, 4, 0));
 	
 	//Draw time multiplier
 	draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - 16, camera_get_view_y(view_camera[0]) + 104, string_format(multiplier, 3, 0));
@@ -165,7 +165,7 @@ draw_set_font(global.gui_font_numbers_gold);
 	 
 //Time
 draw_sprite_ext(spr_gui_time, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 48, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 32, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(dtime, 3));
+draw_text(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 40, camera_get_view_y(view_camera[0]) + 8, string_format(dtime, 4, 0));
 	
 //Set large font
 draw_set_font(global.gui_font_numbers_large)

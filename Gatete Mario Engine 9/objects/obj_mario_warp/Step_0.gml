@@ -37,12 +37,16 @@ if (holding > 0)
 
 //If the player can exit the pipe
 if (ready == 1) {
+	
+	//Set left/right boundaries
+	var bl = (global.powerup == cs_tiny) ? 4 : 8;
+	var br = (global.powerup == cs_tiny) ? 3 : 7;
 
     //If there's not a solid overlapping
-    if (!collision_point(bbox_left, bbox_top, obj_solid, 0, 0))
-    && (!collision_point(bbox_right, bbox_top, obj_solid, 0, 0))
-    && (!collision_point(bbox_left, bbox_bottom, obj_solid, 0, 0))
-    && (!collision_point(bbox_right, bbox_bottom, obj_solid, 0, 0)) {
+    if (!collision_point(x - bl, bbox_top, obj_solid, 0, 0))
+    && (!collision_point(x + br, bbox_top, obj_solid, 0, 0))
+    && (!collision_point(x - bl, bbox_bottom, obj_solid, 0, 0))
+    && (!collision_point(x + br, bbox_bottom, obj_solid, 0, 0)) {
     
         //Create a new player object...
         with (instance_create_depth(x, y, -5, obj_mario)) {

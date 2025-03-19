@@ -56,7 +56,7 @@
         "\"Underground\"",
         "\"Underwater\"",
       ],"multiselect":false,"name":"inisection","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"No Music\"","varType":6,},
-    {"$GMObjectProperty":"v1","%Name":"leveltime","filters":[],"listItems":[],"multiselect":false,"name":"leveltime","rangeEnabled":true,"rangeMax":999.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"leveltime","filters":[],"listItems":[],"multiselect":false,"name":"leveltime","rangeEnabled":true,"rangeMax":9999.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"reverb","filters":[],"listItems":[],"multiselect":false,"name":"reverb","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"classicscroll","filters":[],"listItems":[],"multiselect":false,"name":"classicscroll","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"level_palette","filters":[],"listItems":[],"multiselect":false,"name":"level_palette","rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},

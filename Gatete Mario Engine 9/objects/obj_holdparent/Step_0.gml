@@ -53,7 +53,7 @@ if (held == false) {
                     
             //Stop it if it gets stuck in a solid
             if (yspeed < 0)
-            && (collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 0, 0)) {
+            && (collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 1, 0)) {
             
                 //Stop movement
                 yspeed = 0;
@@ -72,7 +72,7 @@ if (held == false) {
         x -= 2.5*sign(dir);
        
         //If the item is not longer overlapping a solid
-        if (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 0, 0))
+        if (!collision_rectangle(bbox_left, bbox_top+4, bbox_right, bbox_bottom-1, obj_solid, 1, 0))
             inwall = false;
     }	
 }

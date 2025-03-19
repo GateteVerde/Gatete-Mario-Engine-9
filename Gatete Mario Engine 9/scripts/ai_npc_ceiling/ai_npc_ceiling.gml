@@ -50,7 +50,11 @@ function ai_npc_ceiling(bounceuponceiling) {
 			yspeed = -yspeed / 2;
 		
 		//Otherwise, bounce down
-		else
+		else {
+			
 			yspeed = -(yspeed * bounceuponceiling);
+			while (collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_top, obj_slopeparent_ceiling, 1, 0))
+				y++;
+		}
 	}
 }
