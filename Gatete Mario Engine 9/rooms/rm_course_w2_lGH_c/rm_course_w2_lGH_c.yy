@@ -185,6 +185,7 @@
     {"name":"inst_FED8014","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},
     {"name":"inst_33CF6E5F","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},
     {"name":"inst_3F8BFC1D","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},
+    {"name":"inst_316072E8","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -384,6 +385,7 @@
         {"$GMRInstance":"v1","%Name":"inst_3F8BFC1D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F8BFC1D","objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_coin_star","path":"objects/obj_coin_star/obj_coin_star.yy",},"propertyId":{"name":"type","path":"objects/obj_coin_star/obj_coin_star.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":280.0,"y":1024.0,},
+        {"$GMRInstance":"v1","%Name":"inst_316072E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_316072E8","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":928.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":156,"SerialiseWidth":24,"TileCompressedData":[
           -20,0,-4,-2147483648,-16,0,1,268435456,-3,0,-4,-2147483648,-7,0,1,3530,-3,0,1,3530,-4,0,1,3530,-3,0,
