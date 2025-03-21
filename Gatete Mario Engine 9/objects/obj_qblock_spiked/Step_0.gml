@@ -1,7 +1,7 @@
 /// @description Bump this block 
 
 //Check for Mario
-var player = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+2, obj_mario, 0, 0);
+var player = collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+3, obj_mario, 0, 0);
 
 //If Mario is in position and the angle of this block is 0, bump it
 if (angle == 0) {

@@ -1334,6 +1334,7 @@ if (global.powerup == cs_wind) {
 
 	//Double Jump
 	if (doublejump == 0)
+	&& (wallkick == 0)
 	&& (jumping != 1)
 	&& (global.mount == 0)
 	&& (input_check_pressed(input.action_0)) {
