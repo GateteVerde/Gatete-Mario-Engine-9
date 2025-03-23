@@ -4,7 +4,8 @@
 var lava = collision_rectangle(bbox_left, bbox_bottom+7, bbox_right, bbox_bottom+7, obj_lava, 0, 0)
 if (lava) {
     
-    if (sprite_index == spr_shoe_baburu) {
+    if (sprite_index == spr_shoe_baburu) 
+	&& (!collision_rectangle(obj_mario.bbox_left, obj_mario.bbox_bottom - 5, obj_mario.bbox_right, obj_mario.bbox_bottom + 7, obj_platform_skull, 0, 0)) {
     
         alarm[1] = 2;
         with (instance_create_depth(x-8+random(16), y+14, -6, obj_smoke)) {

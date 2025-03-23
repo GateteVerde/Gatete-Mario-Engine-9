@@ -38,7 +38,8 @@ for (var i = 0; i < sprite_get_number(back_spr); i++) {
 		draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
 }
 
-//Update scrolling 
-//You may change the rate of the timer however it affects all layers
-//if you want *a* layer to get affected, set a bg index to a value
+/*
+// Update background layer scrolling
+// You may change the rate of the timer however it affects all layers, if you want *a* layer to get affected, set a bg index to a value.
+*/
 time++;

@@ -32,5 +32,5 @@
     "path":"sprites/spr_slippery/spr_slippery.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

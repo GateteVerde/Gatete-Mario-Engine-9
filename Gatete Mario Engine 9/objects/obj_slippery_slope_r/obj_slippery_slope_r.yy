@@ -35,5 +35,5 @@
     "path":"sprites/spr_slippery_slope_r/spr_slippery_slope_r.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
