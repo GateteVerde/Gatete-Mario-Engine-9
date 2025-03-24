@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"pswitch_event",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Events",
+    "path":"folders/Scripts/System/Events.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

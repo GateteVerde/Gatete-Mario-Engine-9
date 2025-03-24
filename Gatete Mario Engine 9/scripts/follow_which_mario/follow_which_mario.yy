@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"follow_which_mario",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

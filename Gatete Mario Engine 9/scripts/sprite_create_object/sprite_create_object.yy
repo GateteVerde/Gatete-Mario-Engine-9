@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sprite_create_object",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Macros",
+    "path":"folders/Scripts/System/Macros.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

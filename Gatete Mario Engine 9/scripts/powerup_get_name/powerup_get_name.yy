@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"powerup_get_name",
   "parent":{
-    "name":"System",
-    "path":"folders/Scripts/System.yy",
+    "name":"Macros",
+    "path":"folders/Scripts/System/Macros.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

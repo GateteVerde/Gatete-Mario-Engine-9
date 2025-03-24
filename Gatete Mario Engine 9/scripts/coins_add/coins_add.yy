@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"coins_add",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"System",
+    "path":"folders/Scripts/System.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
