@@ -24,23 +24,26 @@ GREEN BARON GAMES
 
 
 
+
 - PROGRAMMERS -
 
 Aspirin
 ElectroDev
 GateTheCat
 HelloSammu
-Mack
 Mikeystar
 Mors
+MrPiness
 Nick64
+
 
 
 
 - DEVELOPED WITH -
 
 GameMaker Studio 2
-by YoYoGames
+by YoYoGames / Opera Norway
+
 
 
 
@@ -62,6 +65,7 @@ Kirb
 KlumTheGreatHero
 Kopejo
 Leanycat
+Lmda
 Mariofan230
 PROX
 RakoonCD
@@ -76,6 +80,7 @@ XannyXan
 
 
 
+
 - AUDIO -
 
 Dooki51
@@ -85,6 +90,7 @@ Pinci
 Rem
 SMWCentral.net
 TheMushroomKingdom.net
+
 
 
 
@@ -104,6 +110,7 @@ YellowAfterLife
 
 
 
+
 - TESTERS -
 
 Bugsie
@@ -111,6 +118,7 @@ Karasz (Crispy Toast)
 TarkanDragonBird
 Vexxter
 WinMithul (Matrix)
+
 
 
 
@@ -135,6 +143,8 @@ TROLLFORTRESS
 ALL SPRITES, SCENARIO AND
 MUSIC ARE (C) OF
 NINTENDO
+
+
 
 
 

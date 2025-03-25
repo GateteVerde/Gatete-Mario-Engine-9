@@ -34,9 +34,6 @@
     "name":"spr_vine",
     "path":"sprites/spr_vine/spr_vine.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_square",
-    "path":"sprites/spr_square/spr_square.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

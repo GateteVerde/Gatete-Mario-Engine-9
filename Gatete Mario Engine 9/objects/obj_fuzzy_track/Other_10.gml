@@ -1,7 +1,7 @@
 /// @description Default death script
 
 //Create dead object
-imdead = instance_create_depth(x, y + 15, -6, obj_enemy_dead);
+imdead = instance_create_depth(x, y, -6, obj_enemy_dead);
 
 //Hereby sprite
 imdead.sprite_index = sprite_index;

@@ -25,7 +25,7 @@ xscale_new = 1;
 yscale_new = 2;
 
 //How long it takes until the platform starts shrinking
-shrink_time = 180;
+shrink_time = 240;
 
 //Shrink it
 alarm[0] = shrink_time + 30;

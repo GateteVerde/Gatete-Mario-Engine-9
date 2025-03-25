@@ -23,9 +23,12 @@ else if (ready == 3) {
 
 //Update yy
 if (ready == 4) {
-
-    yy += 0.25;
-    if (yy > 1240) { //To calculate this, look how many lines does "text" have and multiply the lines by 8.
+	
+	//Scroll through text
+    yy += (input_check(input.action_0)) ? 1 : 0.25;
+	
+	//If the whole text scrolled through, show "The End" prompt
+    if (yy > string_height(text) + global.gh) {
     
         alpha += 0.025;
         if (alpha > 1) {

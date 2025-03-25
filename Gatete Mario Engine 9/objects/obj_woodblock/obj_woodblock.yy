@@ -10,8 +10,8 @@
   "name":"obj_woodblock",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decoration",
-    "path":"folders/Objects/Decoration.yy",
+    "name":"Blocks",
+    "path":"folders/Objects/Blocks.yy",
   },
   "parentObjectId":{
     "name":"obj_emptyblock",
