@@ -79,8 +79,14 @@ else {
 				}
 	
 				//Otherwise, if there's an item in reserve
-				else
+				else {
+					
+					//Play 'Reserve' sound
 					audio_play_sound(snd_reserve, 0, false);
+					
+					//Play 'Thank You' sound
+					audio_play_sound(global.voiceline_thankyou, 0, false);
+				}
 			}
 		}
 	}
@@ -90,6 +96,9 @@ else {
 
 		//Play 'Reserve' sound
 		audio_play_sound(snd_reserve, 0, false);
+		
+		//Play 'Thank You' sound
+		audio_play_sound(global.voiceline_thankyou, 0, false);
 	
 		//Get a mushroom in reserve
 		if (global.reserve == cs_small)

@@ -4,7 +4,7 @@
 if (visible) {
 
 	//Play 'Redcoin 8' sound
-	if (instance_number(obj_coin_red) == 1)
+	if (instance_number(obj_coin_red) == 1)		
 		audio_play_sound(snd_redcoin8, 0, false);
 		
 	//Otherwise
