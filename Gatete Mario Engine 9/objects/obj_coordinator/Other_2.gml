@@ -2,6 +2,7 @@
 
 //Initialize music group
 audio_group_load(audiogroup_music);
+audio_group_load(audiogroup_voice);
 
 #region LOAD SETTINGS
 
@@ -29,6 +30,10 @@ audio_group_load(audiogroup_music);
 			
 			//Set sound volume based on read value
 			sound_vol = real(file_text_read_string(file));
+			file_text_readln(file);
+			
+			//Set voice volume based on read value
+			voice_vol = real(file_text_read_string(file))
 			file_text_readln(file);
 		
 			//Set screen size based on read value
@@ -155,7 +160,10 @@ audio_group_load(audiogroup_music);
 		music_vol = 0.5;
 		
 		//Default sound volume
-		sound_vol = 0.75;
+		sound_vol = 0.5;
+		
+		//Default voice volume
+		voice_vol = 0.5;
 		
 		//Default window size
 		size = 2;
@@ -188,7 +196,7 @@ audio_group_load(audiogroup_music);
 			global.key[input.action_0] = vk_shift;
     
 			//Action 2 (Control)
-			global.key[input.action_1] = (os_type != os_macosx) ? vk_control : vk_lcommand;
+			global.key[input.action_1] = vk_control;
     
 			//Action 3 (Space)
 			global.key[input.action_2] = vk_space;

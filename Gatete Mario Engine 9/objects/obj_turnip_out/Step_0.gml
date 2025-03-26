@@ -105,6 +105,12 @@ if (ready == 2) {
         if (enemy) {
         
             with (instance_create_depth(obj_mario.x, obj_mario.y+11, -4, myveggie)) {
+				
+				//Play 'Pull Hard' sound
+				if (other.big == 1) {
+				
+					audio_play_sound(global.sound_pull_end, 0, false);
+				}
             
                 //Hereby same sprite and frame
                 sprite_index = other.sprite_index;

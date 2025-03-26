@@ -12,8 +12,8 @@
   "duration":0.263787,
   "name":"snd_yoshi_tongue",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

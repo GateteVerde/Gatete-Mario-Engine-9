@@ -12,8 +12,8 @@
   "duration":0.267483,
   "name":"snd_yoshi_spit",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

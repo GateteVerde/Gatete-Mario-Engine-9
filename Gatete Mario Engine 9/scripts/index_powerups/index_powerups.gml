@@ -6,17 +6,45 @@ function index_powerups() {
 	var powerup_count = 33;
 	
 	//Temporary variable
-	var resource = noone;
+	var resource =		noone;
+	var sfx_resource =	noone;
 		
 	//Switch between player
 	switch (global.player) {
 			
 		//Mario
-		case (0): resource = "spr_mario_"; break;
+		case (0): {
+			
+			resource		= "spr_mario_";
+			sfx_resource	= "snd_mario_";
+		}break;
 			
 		//Luigi
-		case (1): resource = "spr_luigi_"; break;
+		case (1): {
+			
+			resource		= "spr_luigi_";
+			sfx_resource	= "snd_luigi_";
+		}break;
 	}
+	
+	#region VOICE
+	
+		global.sound_gotcha =			asset_get_index(string(sfx_resource) + "gotcha");
+		global.sound_hereigo =			asset_get_index(string(sfx_resource) + "hereigo");
+		global.sound_hurt =				asset_get_index(string(sfx_resource) + "hurt");
+		global.sound_jwin =				asset_get_index(string(sfx_resource) + "jwin");
+		global.sound_letsgo =			asset_get_index(string(sfx_resource) + "letsgo")
+		global.sound_lucky =			asset_get_index(string(sfx_resource) + "lucky");
+		global.sound_luckyme =			asset_get_index(string(sfx_resource) + "luckyme");
+		global.sound_main =				asset_get_index(string(sfx_resource) + "main");
+		global.sound_mamamia =			asset_get_index(string(sfx_resource) + "mamamia");
+		global.sound_pull =				asset_get_index(string(sfx_resource) + "pull");
+		global.sound_pull_hard =		asset_get_index(string(sfx_resource) + "pull_hard");
+		global.sound_pull_end =			asset_get_index(string(sfx_resource) + "pull_end");
+		global.sound_throw =			asset_get_index(string(sfx_resource) + "throw");
+		global.sound_waha =				asset_get_index(string(sfx_resource) + "waha");
+		
+	#endregion
 	
 	#region MAP SPRITES
 	

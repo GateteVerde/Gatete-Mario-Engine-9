@@ -1,6 +1,9 @@
 /// @description Make Mario interact with the item
 
-if (can_carry()) {													
+if (can_carry()) {		
+	
+	//Play 'Pull Hard' sound
+	audio_play_sound(global.sound_pull_hard, 0, false); 
 
     //Force player hold
     with (obj_mario) {

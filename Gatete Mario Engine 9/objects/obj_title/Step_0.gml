@@ -134,6 +134,42 @@ else if (start == 1) {
 						obj_coordinator.sound_vol += 0.01;
 					}
 				}
+			}
+			
+			//Sound Volume
+			else if (index == 5) {
+					
+				//Key Inputs
+				var _left	= input_check(input.left);
+				var _right	= input_check(input.right);
+						
+				//If the 'Left' key is pressed
+				if ((_left) && (delay <= 0)) {
+						
+					//If volume is lower than 1, do not increment
+					if (obj_coordinator.sound_vol > 0) {
+						
+						//Set delay
+						delay = 4;
+						
+						//Decrement volume
+						obj_coordinator.voice_vol -= 0.01;
+					}
+				}
+						
+				//Otherwise if the 'Right' key is pressed
+				else if ((_right) && (delay <= 0)) {
+						
+					//If volume is lower than 1, do not increment
+					if (obj_coordinator.sound_vol < 1) {
+						
+						//Set delay
+						delay = 4;
+						
+						//Increment volume
+						obj_coordinator.voice_vol += 0.01;
+					}
+				}
 			}	
 		}
 	#endregion
@@ -457,7 +493,7 @@ else if (start == 1) {
 					} break;
 				
 					//Auto Save
-					case (5): {
+					case (6): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -470,7 +506,7 @@ else if (start == 1) {
 					} break;
 				
 					//Toggle V-Sync
-					case (6): {
+					case (7): {
 				
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -484,7 +520,7 @@ else if (start == 1) {
 					} break;
 				
 					//FPS
-					case (7): {
+					case (8): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -497,7 +533,7 @@ else if (start == 1) {
 					} break;
 				
 					//Credits
-					case (8): {
+					case (9): {
 					
 						//If no curtain exists
 						if (instance_number(obj_curtain_in) == 0) {
@@ -515,7 +551,7 @@ else if (start == 1) {
 					} break;
 				
 					//Back
-					case (9): {
+					case (10): {
 					
 						//Play 'Coin' sound
 						audio_play_sound(snd_coin, 0, false);
@@ -783,9 +819,10 @@ key[7] = string(key_to_string(global.key[input.right]));
 menu[menupage.options, 2] = (obj_coordinator.colourblind == false) ? "COLOURBLIND MODE: OFF" : "COLOURBLIND MODE: ON";
 menu[menupage.options, 3] = "MUSIC VOLUME: " + string(round(obj_coordinator.music_vol * 100));
 menu[menupage.options, 4] = "SOUND VOLUME: " + string(round(obj_coordinator.sound_vol * 100));
-menu[menupage.options, 5] = (obj_coordinator.autosave == false) ? "AUTO SAVE: OFF" : "AUTO SAVE: ON";
-menu[menupage.options, 6] = (obj_coordinator.vsync == false) ? "V-SYNC: OFF" : "V-SYNC: ON";
-menu[menupage.options, 7] = (obj_coordinator.showfps == false) ? "FPS: OFF" : "FPS: ON";
+menu[menupage.options, 5] = "VOICE VOLUME: " + string(round(obj_coordinator.voice_vol * 100));
+menu[menupage.options, 6] = (obj_coordinator.autosave == false) ? "AUTO SAVE: OFF" : "AUTO SAVE: ON";
+menu[menupage.options, 7] = (obj_coordinator.vsync == false) ? "V-SYNC: OFF" : "V-SYNC: ON";
+menu[menupage.options, 8] = (obj_coordinator.showfps == false) ? "FPS: OFF" : "FPS: ON";
 
 //Fix Bars
 var _layerA = layer_get_id("Title_Bar_A");

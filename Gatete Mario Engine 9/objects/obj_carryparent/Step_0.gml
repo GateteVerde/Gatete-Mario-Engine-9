@@ -11,6 +11,9 @@ if (held) {
         
             //Play 'Throw' sound
             audio_play_sound(snd_throw, 0, false);
+			
+			//Play 'Player Throw' sound
+			audio_play_sound(global.sound_throw, 0, false);
             
 			//With Mario
             with (obj_mario) {

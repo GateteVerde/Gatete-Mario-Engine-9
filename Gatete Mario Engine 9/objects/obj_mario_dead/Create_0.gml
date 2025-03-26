@@ -1,5 +1,8 @@
 /// @description Mario has died!
 
+//Play 'Mamamia' sound
+audio_play_sound(global.sound_mamamia, 0, false);
+
 //Checks if the time has run out
 timeup = 0;
 

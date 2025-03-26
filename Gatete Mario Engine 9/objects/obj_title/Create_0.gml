@@ -38,11 +38,12 @@ menu[menupage.options, 1] = "Window Size";
 menu[menupage.options, 2] = "Colourblind Mode: Off";
 menu[menupage.options, 3] = "Music Volume: " + string(round(obj_coordinator.music_vol * 100));
 menu[menupage.options, 4] = "Sound Volume: " + string(round(obj_coordinator.sound_vol * 100));
-menu[menupage.options, 5] = "Auto Save: On";
-menu[menupage.options, 6] = "V-Sync: On";
-menu[menupage.options, 7] = "FPS: On";
-menu[menupage.options, 8] = "View Credits";
-menu[menupage.options, 9] = "Back";
+menu[menupage.options, 5] = "Voice Volume: " + string(round(obj_coordinator.voice_vol * 100));
+menu[menupage.options, 6] = "Auto Save: On";
+menu[menupage.options, 7] = "V-Sync: On";
+menu[menupage.options, 8] = "FPS: On";
+menu[menupage.options, 9] = "View Credits";
+menu[menupage.options, 10] = "Back";
 
 //Options sub-menu 3: Keys
 menu[menupage.keys, 0] = "Jump/Confirm:";

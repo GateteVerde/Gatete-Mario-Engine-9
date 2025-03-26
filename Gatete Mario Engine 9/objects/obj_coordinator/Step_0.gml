@@ -54,6 +54,10 @@ depth = -1000;
 		
 		//Manage Sound volume
 		audio_group_set_gain(audiogroup_default, obj_coordinator.sound_vol, 1);
+		
+		//Set gain for voice audio group
+		audio_group_set_gain(audiogroup_voice, obj_coordinator.voice_vol, 1);
+				
 	#endregion
 
 	#region PITCH

@@ -1,5 +1,8 @@
 /// @description Get 'Big' player status or restore health
 
+//Play 'Jwin' sound
+audio_play_sound(global.sound_jwin, 0, false);
+
 //Get 1000 points
 with (instance_create_depth(x, y, -6, obj_score)) value = 1000;
 

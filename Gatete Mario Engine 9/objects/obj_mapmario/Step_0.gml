@@ -144,6 +144,9 @@ if (status == mapstate.idle)
 	            //Play 'Enter Stage' sound
 	            audio_play_sound(snd_enterstage, 0, false);
 				
+				//Play 'Lets Go' sound
+				audio_play_sound(global.sound_letsgo, 0, false);
+				
 				//Stop music
 	            obj_mapcontrol.alarm[1] = 1;
             
@@ -171,6 +174,9 @@ if (status == mapstate.idle)
 				//Change player and replace sprites
 				global.player = !global.player;
 				index_powerups();
+				
+				//Play 'Mario' or 'Luigi' sound
+				audio_play_sound(global.sound_main, 0, false);
 			}
 		}
 			

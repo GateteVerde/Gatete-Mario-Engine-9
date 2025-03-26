@@ -12,8 +12,8 @@
   "duration":0.542358,
   "name":"snd_yoshi",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -19,6 +19,3 @@ bounces = 3;
 
 //Animate faster
 image_speed *= 2;
-
-//Check sprite
-alarm[11] = 1;

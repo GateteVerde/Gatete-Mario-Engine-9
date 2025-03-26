@@ -8,6 +8,9 @@ if (mario) {
 
 	if (can_carry())
 	&& (mario.bbox_bottom < yprevious+5) {
+		
+		//Play 'Pull Hard' sound
+		audio_play_sound(global.sound_pull_hard, 0, false); 
 
 		//Force Mario to hold
 		with (mario) {

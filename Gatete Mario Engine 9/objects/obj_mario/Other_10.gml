@@ -128,6 +128,9 @@ if (invulnerable == 0)
 					
 					//Play 'Damage' sound
 					audio_play_sound(snd_damage, 0, false);
+					
+					//Play 'Hurt' sound
+					audio_play_sound(global.sound_hurt, 0, false);
 				
 					//Knock back
 					yspeed = -2;
@@ -158,6 +161,9 @@ if (invulnerable == 0)
 			
 					//Play 'Damage' sound
 					audio_play_sound(snd_damage, 0, false);
+					
+					//Play 'Hurt' sound
+					audio_play_sound(global.sound_hurt, 0, false);
 				
 					//Knock back
 					yspeed = -2;
@@ -175,6 +181,9 @@ if (invulnerable == 0)
 						
 						//Play 'Powerdown' sound
 						audio_play_sound(snd_warp, 0, false);
+						
+						//Play 'Hurt' sound
+						audio_play_sound(global.sound_hurt, 0, false);
 						
 						//Perform animation sequence
 						with (instance_create_depth(0, 0, -5, obj_mario_transform)) {

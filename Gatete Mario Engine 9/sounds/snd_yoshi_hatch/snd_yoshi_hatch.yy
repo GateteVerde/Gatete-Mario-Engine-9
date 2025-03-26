@@ -12,8 +12,8 @@
   "duration":0.511837,
   "name":"snd_yoshi_hatch",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

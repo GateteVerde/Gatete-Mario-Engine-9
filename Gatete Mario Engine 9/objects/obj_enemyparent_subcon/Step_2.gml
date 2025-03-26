@@ -25,10 +25,13 @@ if (instance_exists(mytop)) {
             instance_create_depth(obj_mario.x, obj_mario.y, -5, obj_mario_puller);
                 
             //Finish pull
-            if (isheavy == 0)
+            if (isheavy == 0) {
+
+				audio_play_sound(global.sound_pull, 0, false); 
                 alarm[0] = 10;
+			}
             else
-                alarm[0] = 20;    
+                alarm[0] = 20;
         }
     }
 	

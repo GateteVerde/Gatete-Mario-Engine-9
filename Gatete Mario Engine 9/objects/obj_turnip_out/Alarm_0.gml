@@ -1,13 +1,5 @@
 /// @description Check the frame of the puller object
 
-/*
-//If the sprite height is greater than 20, play a 'Pickup' sound
-if (sprite_height > 20) {
-	
-    audio_play_sound(snd_pickup, 0, false);
-}
-*/
-
 //If the vegetable is being drawn
 if (drawpiece) {
 

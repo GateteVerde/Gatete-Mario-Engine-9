@@ -2,6 +2,7 @@
 
 //Unload music audio group
 audio_group_unload(audiogroup_music);
+audio_group_unload(audiogroup_voice);
 
 #region SAVE SETTINGS
 
@@ -22,6 +23,10 @@ audio_group_unload(audiogroup_music);
 			
 	//Set sound volume settings
 	file_text_write_string(file, string(sound_vol))
+	file_text_writeln(file);
+	
+	//Set voice volume settings
+	file_text_write_string(file, string(voice_vol))
 	file_text_writeln(file);
 
 	//Save filtering settings

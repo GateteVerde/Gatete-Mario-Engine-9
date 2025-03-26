@@ -12,8 +12,8 @@
   "duration":1.058685,
   "name":"snd_yoshi_hover",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
