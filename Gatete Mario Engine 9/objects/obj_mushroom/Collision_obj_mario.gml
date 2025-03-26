@@ -1,8 +1,5 @@
 /// @description Get 'Big' player status or restore health
 
-//Play 'Jwin' sound
-audio_play_sound(global.sound_jwin, 0, false);
-
 //Get 1000 points
 with (instance_create_depth(x, y, -6, obj_score)) value = 1000;
 
@@ -14,6 +11,9 @@ if (global.hp_mode > 0) {
 	
 	//Play 'Powerup' sound
 	audio_play_sound(snd_powerup, 0, false);
+	
+	//Play 'Jwin' sound
+	audio_play_sound(global.voiceline_jwin, 0, false);
 	
 	//Increment hp
 	global.hp++;
@@ -33,6 +33,9 @@ else {
 	
 			//Play 'Powerup' sound.
 			audio_play_sound(snd_powerup, 0, false);
+			
+			//Play 'Jwin' sound
+			audio_play_sound(global.voiceline_jwin, 0, false);
         
 		    //Perform animation sequence
 		    with (instance_create_depth(0, 0, -5, obj_mario_transform)) {
@@ -67,6 +70,9 @@ else {
 					
 					//Play 'Reserve' box
 					audio_play_sound(snd_reserve, 0, false);
+					
+					//Play 'Thank You' sound
+					audio_play_sound(global.voiceline_thankyou, 0, false);
 		
 					//Reserve a mushroom
 			        global.reserve = cs_big;

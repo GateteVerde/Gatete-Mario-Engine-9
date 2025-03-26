@@ -24,11 +24,17 @@ if (instance_exists(mytop)) {
             //Create puller
             instance_create_depth(obj_mario.x, obj_mario.y, -5, obj_mario_puller);
                 
-            //Finish pull
-            if (isheavy == 0)
+			//Finish pull
+            if (isheavy == 0) {
+
+				audio_play_sound(global.voiceline_pull, 0, false); 
                 alarm[0] = 10;
-            else
-                alarm[0] = 20;    
+			}
+            else {
+				
+				audio_play_sound(global.voiceline_pull_hard, 0, false);
+                alarm[0] = 20;
+			} 
         }
     }
 	

@@ -240,6 +240,9 @@ if (inwall == 0)
                 
                     //Do not set spin jump
                     jumpstyle = 0;
+					
+					//Play 'Waha' sound
+					audio_play_sound(global.voiceline_waha, 0, false);
                 
                     //Play 'Jump' sound
                     audio_play_sound(snd_jump, 0, false);
@@ -285,6 +288,9 @@ if (inwall == 0)
                 
                     //Do not set spin jump
                     jumpstyle = 0;
+					
+					//Play 'Waha' sound
+					audio_play_sound(global.voiceline_waha, 0, false);
                 
                     //Play 'Jump' sound
                     audio_play_sound(snd_jump, 0, false);

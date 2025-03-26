@@ -29,20 +29,22 @@ function index_powerups() {
 	
 	#region VOICE
 	
-		global.sound_gotcha =			asset_get_index(string(sfx_resource) + "gotcha");
-		global.sound_hereigo =			asset_get_index(string(sfx_resource) + "hereigo");
-		global.sound_hurt =				asset_get_index(string(sfx_resource) + "hurt");
-		global.sound_jwin =				asset_get_index(string(sfx_resource) + "jwin");
-		global.sound_letsgo =			asset_get_index(string(sfx_resource) + "letsgo")
-		global.sound_lucky =			asset_get_index(string(sfx_resource) + "lucky");
-		global.sound_luckyme =			asset_get_index(string(sfx_resource) + "luckyme");
-		global.sound_main =				asset_get_index(string(sfx_resource) + "main");
-		global.sound_mamamia =			asset_get_index(string(sfx_resource) + "mamamia");
-		global.sound_pull =				asset_get_index(string(sfx_resource) + "pull");
-		global.sound_pull_hard =		asset_get_index(string(sfx_resource) + "pull_hard");
-		global.sound_pull_end =			asset_get_index(string(sfx_resource) + "pull_end");
-		global.sound_throw =			asset_get_index(string(sfx_resource) + "throw");
-		global.sound_waha =				asset_get_index(string(sfx_resource) + "waha");
+		global.voiceline_bravo =			asset_get_index(string(sfx_resource) + "bravo");
+		global.voiceline_gotcha =			asset_get_index(string(sfx_resource) + "gotcha");
+		global.voiceline_hereigo =			asset_get_index(string(sfx_resource) + "hereigo");
+		global.voiceline_hurt =				asset_get_index(string(sfx_resource) + "hurt");
+		global.voiceline_jwin =				asset_get_index(string(sfx_resource) + "jwin");
+		global.voiceline_letsgo =			asset_get_index(string(sfx_resource) + "letsgo")
+		global.voiceline_lucky =			asset_get_index(string(sfx_resource) + "lucky");
+		global.voiceline_luckyme =			asset_get_index(string(sfx_resource) + "luckyme");
+		global.voiceline_main =				asset_get_index(string(sfx_resource) + "main");
+		global.voiceline_mamamia =			asset_get_index(string(sfx_resource) + "mamamia");
+		global.voiceline_pull =				asset_get_index(string(sfx_resource) + "pull");
+		global.voiceline_pull_hard =		asset_get_index(string(sfx_resource) + "pull_hard");
+		global.voiceline_pull_end =			asset_get_index(string(sfx_resource) + "pull_end");
+		global.voiceline_thankyou =			asset_get_index(string(sfx_resource) + "thankyou");
+		global.voiceline_throw =			asset_get_index(string(sfx_resource) + "throw");
+		global.voiceline_waha =				asset_get_index(string(sfx_resource) + "waha");
 		
 	#endregion
 	

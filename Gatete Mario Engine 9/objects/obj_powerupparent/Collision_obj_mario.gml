@@ -1,7 +1,7 @@
 /// @description Get a powerup
 
 //Play 'Gotcha' sound
-audio_play_sound(global.sound_gotcha, 0, false);
+audio_play_sound(global.voiceline_gotcha, 0, false);
 
 //Get 1000 points
 if (noscore == false) {

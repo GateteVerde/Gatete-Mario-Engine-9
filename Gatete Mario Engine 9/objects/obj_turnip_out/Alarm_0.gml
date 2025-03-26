@@ -5,6 +5,12 @@ if (drawpiece) {
 
     //Play 'Break' sound
     audio_play_sound(snd_break, 0, false);
+	
+	//Play 'Pull End' sound
+	if (big) {
+	
+		audio_play_sound(global.voiceline_pull_end, 0, false);
+	}
     
     //Do not draw
     drawpiece = 0;

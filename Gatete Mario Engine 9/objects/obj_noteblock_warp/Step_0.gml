@@ -66,6 +66,9 @@ if (instance_exists(obj_mario)) {
 				//Play 'Trampoline' sound
 				audio_play_sound(snd_trampoline, 0, false);
 				
+				//Play 'Waha' sound
+				audio_play_sound(global.voiceline_waha, 0, false);
+				
 				//Create 'Warp Jump' object
 				with (instance_create_depth(x, y, -5, obj_mario_jump_note)) {
 				

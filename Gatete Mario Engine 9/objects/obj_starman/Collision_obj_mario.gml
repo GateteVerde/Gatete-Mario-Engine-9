@@ -3,6 +3,9 @@
 //Play 'Powerup' sound
 audio_play_sound(snd_powerup, 0, false);
 
+//Play 'Here I go' sound
+audio_play_sound(global.voiceline_hereigo, 0, false);
+
 //If the player is already invincible
 if (instance_exists(obj_invincibility)) {
 

@@ -109,7 +109,7 @@ if (ready == 2) {
 				//Play 'Pull Hard' sound
 				if (other.big == 1) {
 				
-					audio_play_sound(global.sound_pull_end, 0, false);
+					audio_play_sound(global.voiceline_pull_end, 0, false);
 				}
             
                 //Hereby same sprite and frame

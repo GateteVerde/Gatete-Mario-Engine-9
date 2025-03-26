@@ -7,7 +7,7 @@ if (instance_exists(obj_mario_puller) && instance_exists(obj_mario)) {
 	audio_play_sound(snd_pickup, 0, false);
 	
 	//Play 'Pull' sound
-	audio_play_sound(global.sound_pull, 0, false); 
+	audio_play_sound(global.voiceline_pull, 0, false); 
 	
 	//Generate shards
 	event_user(0)
