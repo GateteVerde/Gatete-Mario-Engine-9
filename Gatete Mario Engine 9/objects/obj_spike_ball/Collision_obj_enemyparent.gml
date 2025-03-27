@@ -1,4 +1,4 @@
-/// @description
+/// @description Kill enemies on their way
 
 //Play 'Kick' sound
 audio_play_sound(snd_kick, 0, false);

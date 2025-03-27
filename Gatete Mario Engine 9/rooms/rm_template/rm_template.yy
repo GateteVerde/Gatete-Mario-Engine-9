@@ -26,6 +26,8 @@
     {"name":"inst_485E5677","path":"rooms/rm_template/rm_template.yy",},
     {"name":"inst_608A340C","path":"rooms/rm_template/rm_template.yy",},
     {"name":"inst_68443601","path":"rooms/rm_template/rm_template.yy",},
+    {"name":"inst_2654942C","path":"rooms/rm_template/rm_template.yy",},
+    {"name":"inst_847AF33","path":"rooms/rm_template/rm_template.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -64,6 +66,8 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":288.0,},
         {"$GMRInstance":"v1","%Name":"inst_608A340C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_608A340C","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.0,"x":384.0,"y":400.0,},
         {"$GMRInstance":"v1","%Name":"inst_68443601","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68443601","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.0,"x":448.0,"y":400.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2654942C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2654942C","objectId":{"name":"obj_bowlinchuck","path":"objects/obj_bowlinchuck/obj_bowlinchuck.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":304.0,},
+        {"$GMRInstance":"v1","%Name":"inst_847AF33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_847AF33","objectId":{"name":"obj_bowlinchuck","path":"objects/obj_bowlinchuck/obj_bowlinchuck.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":352.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":27,"SerialiseWidth":48,"TileCompressedData":[
           -20,0,-28,-2147483648,-20,0,-28,-2147483648,-20,0,-28,-2147483648,-20,0,-28,-2147483648,-20,0,-28,-2147483648,
