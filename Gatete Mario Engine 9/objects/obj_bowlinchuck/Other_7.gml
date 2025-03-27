@@ -5,7 +5,7 @@ audio_play_sound(snd_hammer, 0, false);
 
 //Stop animation
 image_speed = 0;
-image_index = 0;
+image_index = 1;
 
 //Set default frame
 alarm[2] = 30;

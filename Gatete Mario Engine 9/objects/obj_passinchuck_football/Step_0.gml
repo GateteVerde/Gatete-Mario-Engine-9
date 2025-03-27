@@ -7,7 +7,7 @@ event_inherited();
 if (yadd == 0) {
     
     //Change frame
-    image_index = !image_index;
+    image_index = (image_index == 2) ? 0 : !image_index;
     
     //Manage jumps
     if (jumping < 2) {
@@ -35,6 +35,9 @@ if (yadd == 0) {
     if (jumping > 2)
         jumping = 0;
 }
+
+//Set scale
+xscale = ((image_index == 2) || (hspeed == 0)) ? 1 * sign(xspeed) : 1;
 
 //Destroy when outside the view
 if (outside_view() == true)

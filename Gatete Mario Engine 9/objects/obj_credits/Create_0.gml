@@ -56,6 +56,7 @@ Del
 DeltomMx3
 Doc Melonhead
 Geoshi
+Hdtv
 Hellfire
 Hot Cross Bun
 Hypernova

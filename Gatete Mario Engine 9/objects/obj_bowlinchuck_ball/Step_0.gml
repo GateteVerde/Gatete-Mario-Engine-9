@@ -7,7 +7,7 @@ prevxspeed = xspeed;
 event_perform_object(obj_physicsparent, ev_step, ev_step_normal);
 
 //Anim speed
-image_speed = 1 * sign(xspeed);
+image_speed = 0.15 * sign(xspeed);
 		
 #region SOLID COLLISION
 		
