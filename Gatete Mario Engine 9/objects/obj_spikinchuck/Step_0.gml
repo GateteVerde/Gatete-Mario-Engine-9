@@ -1,4 +1,4 @@
-/// @description Volley Chuck logic
+/// @description Spikin' Chuck logic
 
 //Inherit the parent event
 event_inherited();
@@ -27,13 +27,13 @@ event_inherited();
 			with (instance_create_depth(x+13*sign(xscale), y, -2, obj_passinchuck_football)) {
     
 				//Set sprite
-				sprite_index = spr_volleychuck_ball;
+				sprite_index = spr_spikinchuck_ball;
 				image_speed = 0;
 				image_index = 2;
 	
 				//Motion
-			    xspeed = 3*sign(other.xscale);
-				yspeed = 3;
+			    xspeed = 2.5*sign(other.xscale);
+				yspeed = 2.5;
 			}
 	    }        
 	}

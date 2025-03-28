@@ -46,3 +46,6 @@ turn_toward_ceiling = false;
 
 //Ignore moving platforms
 ignore_platforms = false;
+
+//Does this make noise when bouncing
+make_noise = false;

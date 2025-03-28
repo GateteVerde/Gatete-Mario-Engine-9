@@ -21,7 +21,7 @@ ready = 0;
 
 //Do not animate
 image_speed = 0;
-image_index = 1;
+image_index = 0;
 
 //Prepare a ball
 alarm[0] = 60;

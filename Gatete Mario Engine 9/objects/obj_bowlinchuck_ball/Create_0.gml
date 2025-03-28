@@ -12,5 +12,8 @@ stomp = 0;
 //How vulnerable is this enemy to Yoshi
 edible = 0;
 
+//Does this make noise on landing
+make_noise = true;
+
 //Animate
 image_speed = 1;

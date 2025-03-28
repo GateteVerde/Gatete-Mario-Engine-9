@@ -72,6 +72,10 @@ if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, ob
 				yspeed = -yspeed/2;
 				y--;
 			}
+			
+			//Make noise
+			if (make_noise == true)
+				audio_play_sound(snd_bump, 0, false);
 		}
 	}
 }

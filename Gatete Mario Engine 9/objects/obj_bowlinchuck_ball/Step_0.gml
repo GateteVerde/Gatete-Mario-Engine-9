@@ -1,7 +1,7 @@
 /// @description Bowlin' chuck's ball logic
 	
 //Previous horizontal speed
-prevxspeed = xspeed;    
+prevxspeed = xspeed; 
 
 //Inherit event
 event_perform_object(obj_physicsparent, ev_step, ev_step_normal);
@@ -39,7 +39,7 @@ image_speed = 0.15 * sign(xspeed);
 				instance_destroy();
 
 			#endregion
-		}			
+		}
 	#endregion
 	
 #region SLOPE COLLISION

@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_volleychuck",
+  "%Name":"obj_spikinchuck",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -11,7 +11,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_volleychuck",
+  "name":"obj_spikinchuck",
   "overriddenProperties":[],
   "parent":{
     "name":"Chucks",
@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_volleychuck",
-    "path":"sprites/spr_volleychuck/spr_volleychuck.yy",
+    "name":"spr_spikinchuck",
+    "path":"sprites/spr_spikinchuck/spr_spikinchuck.yy",
   },
   "spriteMaskId":{
     "name":"spr_mask_npc_common_16x16",

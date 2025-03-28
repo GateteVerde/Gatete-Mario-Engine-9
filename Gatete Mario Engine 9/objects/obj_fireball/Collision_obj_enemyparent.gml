@@ -33,11 +33,13 @@ if (other.vulnerable == 0) {
 			
 			//If this enemy is part of the chargin chuck family
 			if (other.object_index == obj_bouncinchuck)
+			|| (other.object_index == obj_bowlinchuck)
 			|| (other.object_index == obj_charginchuck)
 			|| (other.object_index == obj_clappinchuck)
 			|| (other.object_index == obj_confusedchuck)
 			|| (other.object_index == obj_digginchuck)
 			|| (other.object_index == obj_passinchuck)
+			|| (other.object_index == obj_spikinchuck)
 			|| (other.object_index == obj_splittinchuck)
 			|| (other.object_index == obj_whistlinchuck) {
 		
@@ -120,11 +122,13 @@ if (other.vulnerable == 0) {
 		
 			//If this enemy is part of the chargin chuck family
 			if (other.object_index == obj_bouncinchuck)
+			|| (other.object_index == obj_bowlinchuck)
 			|| (other.object_index == obj_charginchuck)
 			|| (other.object_index == obj_clappinchuck)
 			|| (other.object_index == obj_confusedchuck)
 			|| (other.object_index == obj_digginchuck)
 			|| (other.object_index == obj_passinchuck)
+			|| (other.object_index == obj_spikinchuck)
 			|| (other.object_index == obj_splittinchuck)
 			|| (other.object_index == obj_whistlinchuck)
 				with (instance_create_depth(round(other.bbox_left + other.bbox_right) / 2, bbox_top, -4, obj_score)) value = 4000;

@@ -16,6 +16,9 @@ stomp = 2;
 //How vulnerable is this enemy to Yoshi
 edible = 2;
 
+//Does this make noise on landing
+make_noise = true;
+
 //Owner of the ball
 parent = noone;
 
