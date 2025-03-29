@@ -41,6 +41,14 @@ if (!held) {
 		if (outside_view() == true)
 			instance_destroy();
     }
+	
+	//Move upwards if swimming
+	if (swimming) {
+		
+		yspeed -= 0.05;
+		if (yspeed < -2)
+			yspeed = -2;
+	}
 }
 
 //No offset or bouncing if kicked
