@@ -187,12 +187,12 @@
 	}
 
 	//If the platform is outside the view
-	if (x < camera_get_view_x(view_camera[0])-128)
+	if (x < camera_get_view_x(view_camera[0])-(rope_width * 16) - 128)
 	|| (y < camera_get_view_y(view_camera[0])-(rope_height * 16) - 128)
 	|| (x > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]) + 128)
 	|| (y > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0]) + 128) {
 
-	    if (xstart < camera_get_view_x(view_camera[0])-128)
+	    if (xstart < camera_get_view_x(view_camera[0])-(rope_width * 16) - 128)
 	    || (ystart < camera_get_view_y(view_camera[0])-(rope_height * 16) - 128)
 	    || (xstart > camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0]) + 128)
 	    || (ystart > camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0]) + 128) {
@@ -243,8 +243,15 @@ if (part != noone) {
 		part.y = y+14;	
 	}
 	
-	//Otherwise, if the gizmo is a sawblade
+	//Otherwise, if the gizmo is a fence
 	else if (gizmo == 2) {
+	
+		part.x = x+8;
+		part.y = y+10;	
+	}
+	
+	//Otherwise, if the gizmo is a sawblade
+	else if (gizmo == 3) {
 	
 		part.x = x;
 		if (inverted == 0)
@@ -254,14 +261,14 @@ if (part != noone) {
 	}
 	
 	//Otherwise, if the gizmo is a mushroom jelly
-	else if (gizmo == 3) {
+	else if (gizmo == 4) {
 	
 		part.x = x-16;
 		part.y = y-4;
 	}
 	
 	//Otherwise, if the gizmo is a seesaw platform
-	else if (gizmo == 4) {
+	else if (gizmo == 5) {
 	
 		part.x = x+8;
 		part.y = y+4;

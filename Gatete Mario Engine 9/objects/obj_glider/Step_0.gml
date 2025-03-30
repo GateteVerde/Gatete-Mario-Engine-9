@@ -129,5 +129,9 @@ if (freeze == false) {
 			yspeed = 4;
 			yadd = 0;
 		}
+		
+		//Do respawn if outside the view
+		if (bbox_top > (camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])))
+			alarm[0] = 1;
 	}
 #endregion

@@ -29,9 +29,25 @@ else if (gizmo == 1) {
 		}
 	}
 }
+
+//Otherwise, if the gizmo chosen is the fence
+else if (gizmo == 2) {
+	
+	//If the part does not exist
+	if (part == noone) {
+		
+		part = instance_create_depth(x, y+14, depth + 1, obj_engine_fence);
+		with (part) {
+		
+			parent = other.id;
+			image_xscale = (other.rope_width/2);
+			image_yscale = (other.rope_height/2);
+		}
+	}
+}
 	
 //Otherwise, if the gizmo chosen is the sawblade
-else if (gizmo == 2) {
+else if (gizmo == 3) {
 	
 	//Animate faster
 	image_speed = 0.5;
@@ -70,7 +86,7 @@ else if (gizmo == 2) {
 }
 
 //Otherwise, if the gizmo chosen is the mushroom jelly
-else if (gizmo == 3) {
+else if (gizmo == 4) {
 
 	//If the part does not exist
 	if (part == noone) {
@@ -84,7 +100,7 @@ else if (gizmo == 3) {
 }
 
 //Otherwise, if the gizmo chosen is the See Saw platform
-else if (gizmo == 4) {
+else if (gizmo == 5) {
 
 	//If the part does not exist
 	if (part == noone) {
@@ -103,7 +119,7 @@ else if (gizmo == 4) {
 #region MOVEMENT
 
 	//If the gizmo chosen is not the sawblade
-	if (gizmo != 2) {
+	if (gizmo != 3) {
 			
 		//Set up direction based on modifier
 		if (place_meeting(x, y, obj_up)) {
