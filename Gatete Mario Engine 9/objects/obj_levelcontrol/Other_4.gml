@@ -113,56 +113,60 @@ if (global.mount > 0) {
 
 //Otherwise, if the player carried an item from the previous room
 else if (global.carrieditem != noone) {
+	
+	//If there's no boss objects in the room
+	if (instance_number(obj_bossparent) == 0) {
     
-    //Create it
-    with (instance_create_depth(x, y, -2, global.carrieditem)) {
+	    //Create it
+	    with (instance_create_depth(x, y, -2, global.carrieditem)) {
     
-        //Hold the item
-        held = 1;
+	        //Hold the item
+	        held = 1;
         
-        //Set up the sprite
-        if (global.carriedsprite != noone) {
+	        //Set up the sprite
+	        if (global.carriedsprite != noone) {
         
-            //Change the sprite of the held item
-            sprite_index = global.carriedsprite;
-			image_index = global.carriedframe;
+	            //Change the sprite of the held item
+	            sprite_index = global.carriedsprite;
+				image_index = global.carriedframe;
             
-            //Reset the sprite
-            global.carriedsprite = noone;
-			global.carriedframe = 0;
-        }
-    }
+	            //Reset the sprite
+	            global.carriedsprite = noone;
+				global.carriedframe = 0;
+	        }
+	    }
     
-    //Check what item is going to hold the item
-    follow_which_mario(); 
+	    //Check what item is going to hold the item
+	    follow_which_mario(); 
     
-    //Check if Mario exists and make it hold if so.
-    if (instance_exists(obj_mario)) {
+	    //Check if Mario exists and make it hold if so.
+	    if (instance_exists(obj_mario)) {
     
-        //If the item held was a SMB2 one
-        if (object_get_parent(global.carrieditem) == obj_carryparent) {
+	        //If the item held was a SMB2 one
+	        if (object_get_parent(global.carrieditem) == obj_carryparent) {
         
-            //If the item held was a blue boomerang
-            if (global.carrieditem == obj_boomerang_blue_held)
-                obj_mario.holding = 3;
-            else            
-                obj_mario.holding = 1;
-        }
+	            //If the item held was a blue boomerang
+	            if (global.carrieditem == obj_boomerang_blue_held)
+	                obj_mario.holding = 3;
+	            else            
+	                obj_mario.holding = 1;
+	        }
         
-        //Otherwise, if the item held was a SMB3 / SMW one
-        else if (object_get_parent(global.carrieditem) == obj_holdparent)
-            obj_mario.holding = 2;
-    }
+	        //Otherwise, if the item held was a SMB3 / SMW one
+	        else if (object_get_parent(global.carrieditem) == obj_holdparent)
+	            obj_mario.holding = 2;
+	    }
     
-    //Otherwise
-    else {
+	    //Otherwise
+	    else {
     
-        if (instance_exists(follow))
-            follow.holding = 1;
-    }
-
-    //Reset held object
-    global.carrieditem = noone;
+	        if (instance_exists(follow))
+	            follow.holding = 1;
+		}
+	}
+	
+	//Reset held object
+	global.carrieditem = noone;
 }
 
 //Turn on P-Switch if it was activated on the previous room.
