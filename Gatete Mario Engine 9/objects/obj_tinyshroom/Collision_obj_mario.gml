@@ -26,6 +26,9 @@ if (global.powerup != cs_tiny) {
 		
 		//Play 'Reserve' sound
 		audio_play_sound(snd_reserve, 0, false);
+		
+		//Play 'Thank You' sound
+		audio_play_sound(global.voiceline_thankyou, 0, false);
 	
 		//Add a 'Tiny' shroom to the reserve box
 		if (global.reserve != cs_tiny)
@@ -36,6 +39,9 @@ if (global.powerup != cs_tiny) {
 
 		//Play 'Mini' sound.
 		audio_play_sound(snd_mini, 0, false);
+		
+		//Play 'Jwin' sound
+		audio_play_sound(global.voiceline_jwin, 0, false);
         
 		//Perform animation sequence
 		with (instance_create_depth(0, 0, -5, obj_mario_transform)) {
@@ -54,6 +60,9 @@ else {
 
 	//Play 'Reserve' sound
 	audio_play_sound(snd_reserve, 0, false);
+	
+	//Play 'Thank You' sound
+	audio_play_sound(global.voiceline_thankyou, 0, false);
 	
 	//Add a 'Tiny' shroom to the reserve box
 	if (global.reserve != cs_tiny)

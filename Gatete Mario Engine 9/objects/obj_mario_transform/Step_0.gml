@@ -13,6 +13,9 @@ if (sequence == 5) {
 		
 		//If the scale is greater than 4
 		if (image_xscale > 4) {
+			
+			//Play 'Here I Go' sound
+			audio_play_sound(global.voiceline_hereigo, 0, false);
 		
 			//Set scale to 4
 			image_xscale = 4;

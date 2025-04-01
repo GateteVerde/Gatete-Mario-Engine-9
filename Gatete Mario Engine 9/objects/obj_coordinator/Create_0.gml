@@ -267,6 +267,7 @@ total = 0;
 
 //Current pitch
 pitch = 1;
+voice_pitch = 1;
 
 //Lives
 addlives = 0;

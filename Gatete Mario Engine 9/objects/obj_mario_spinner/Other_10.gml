@@ -115,7 +115,10 @@ switch (global.powerup) {
         audio_play_sound(snd_spin, 0, false);
         
         // Set the speed
-        image_speed = 0.3;
+        image_speed = 0.5;
+		
+		// Loop 3 times
+		loop = 2;
         
         // Set the sprite
         sprite_index = global.spin_sprite[cs_big];

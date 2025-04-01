@@ -65,7 +65,7 @@ var yspeed_max;
 switch (global.powerup) {
 	
 	case (cs_tiny):
-		yspeed_max = 2.5;
+		yspeed_max = 2;
 		break;
 
 	default: {

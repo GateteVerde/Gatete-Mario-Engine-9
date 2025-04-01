@@ -20,8 +20,9 @@
 		}
 	}
 	
-	//Destroy if Mario is transforming
-	if (instance_exists(obj_mario_transform))
+	//Destroy if Mario is transforming or if Mario does not exist
+	if (!instance_exists(obj_mario))
+	|| (instance_exists(obj_mario_transform))
 		instance_destroy();
 	
 	//Destroy if Mario does not have any of these powerups

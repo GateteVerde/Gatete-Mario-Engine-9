@@ -98,6 +98,33 @@ depth = -1000;
 	
 	#endregion
 	
+	#region VOICE PITCH
+	
+		//Set the voice pitch for Mario / Luigi
+		if (global.powerup == cs_mega)
+			voice_pitch = 0.75;
+		else
+			voice_pitch = (global.powerup == cs_tiny) ? 1.5 : 1;
+		
+		//Set the pitch for each voiceline
+		audio_sound_pitch(global.voiceline_bravo, voice_pitch);
+		audio_sound_pitch(global.voiceline_gotcha, voice_pitch);
+		audio_sound_pitch(global.voiceline_hereigo, voice_pitch);
+		audio_sound_pitch(global.voiceline_hurt, voice_pitch);
+		audio_sound_pitch(global.voiceline_jwin, voice_pitch);
+		audio_sound_pitch(global.voiceline_letsgo, voice_pitch);
+		audio_sound_pitch(global.voiceline_lucky, voice_pitch);
+		audio_sound_pitch(global.voiceline_luckyme, voice_pitch);
+		audio_sound_pitch(global.voiceline_main, voice_pitch);
+		audio_sound_pitch(global.voiceline_mamamia, voice_pitch);
+		audio_sound_pitch(global.voiceline_pull, voice_pitch);
+		audio_sound_pitch(global.voiceline_pull_end, voice_pitch);
+		audio_sound_pitch(global.voiceline_pull_hard, voice_pitch);
+		audio_sound_pitch(global.voiceline_thankyou, voice_pitch);
+		audio_sound_pitch(global.voiceline_throw, voice_pitch);
+		audio_sound_pitch(global.voiceline_waha, voice_pitch);
+	#endregion
+	
 	#region PAUSE / RESUME
 
 		//Pause sounds when the game is paused or 'Hurry', 'Mushroom' or 'Hawk Song' is playing

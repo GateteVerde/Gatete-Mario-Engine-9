@@ -152,27 +152,77 @@ throw_projectile = function() {
 	            }
 	        }
         
-	        //Racoon, Tanooki, Cat, and Cape
-	        else if (((global.powerup == cs_cape) && (!flying)) || (global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_bell) || (global.powerup == cs_ranger) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon) || (global.powerup == cs_wind))
+	        //Raccoon, Tanooki and Cat
+	        else if ((global.powerup == cs_raccoon) || (global.powerup == cs_tanooki) || (global.powerup == cs_bell) || (global.powerup == cs_ranger) || (global.powerup == cs_fraccoon) || (global.powerup == cs_iraccoon) || (global.powerup == cs_wind))
 	        && (instance_number(obj_mario_dropdown) == 0)
 			&& (instance_number(obj_mario_spinner) == 0)
 	        && (spin == noone) 
 			&& (jumpstyle == 0) {
+				
+				//If no spinner exists
+				if (instance_number(obj_mario_spinner) == 0) {
         
-				//Create spinner
-				spin = instance_create_depth(x, y, depth, obj_mario_spinner);
+					//Create spinner
+					spin = instance_create_depth(x, y, depth, obj_mario_spinner);
 		
-				//Set up spinner
-	            with (spin) {
+					//Set up spinner
+		            with (spin) {
 					
-					//Set scale
-	                image_xscale = 1*sign(other.xscale);
+						//Set scale
+		                image_xscale = 1*sign(other.xscale);
 					
-					//Let the spinner know who created it
-					owner = other.id;
+						//Let the spinner know who created it
+						owner = other.id;
 					
-					//Set up parameters for spinner
-					event_user(0);					
+						//Set up parameters for spinner
+						event_user(0);					
+					}
+				}
+			}
+				
+			//Cape
+			else if ((global.powerup == cs_cape) && (!flying))
+			&& (jumpstyle == 0) {
+				
+				//If there's no spinner
+				if (!spin) {
+				
+					//Create spinner
+					spin = instance_create_depth(x, y, depth, obj_mario_spinner);
+					
+					//Set up spinner
+		            with (spin) {
+					
+						//Set scale
+		                image_xscale = 1*sign(other.xscale);
+					
+						//Let the spinner know who created it
+						owner = other.id;
+					
+						//Set up parameters for spinner
+						event_user(0);					
+					}
+				}
+				
+				//Otherwise, if the spinner exists and Mario has the cape
+				else if (spin) {
+				
+					//With the spinner object
+					with (spin) {
+						
+						//Play 'Spin' sound
+						audio_stop_sound(snd_spin);
+						audio_play_sound(snd_spin, 0, false);
+					
+						//Set scale
+						image_xscale = 1 * sign(other.xscale);
+						
+						//Reset loops
+						loop = 2;
+						
+						//Allow block bumping
+						bump = false;
+					}
 				}
 	        }
             

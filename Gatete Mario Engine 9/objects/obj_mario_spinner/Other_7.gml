@@ -1,4 +1,6 @@
 /// @description Destroy when animation ends
 	
-//Destroy object
-instance_destroy();	
+if (loop > 0)
+	loop--;
+else
+	instance_destroy();	
