@@ -336,9 +336,10 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Credits","order":27,"path":"notes/Credits/Credits.yy",},
-    {"name":"obj_1up_checkpoint_2","order":1,"path":"objects/obj_1up_checkpoint_2/obj_1up_checkpoint_2.yy",},
-    {"name":"obj_1up_checkpoint_3","order":2,"path":"objects/obj_1up_checkpoint_3/obj_1up_checkpoint_3.yy",},
-    {"name":"obj_1up_checkpoint_4","order":3,"path":"objects/obj_1up_checkpoint_4/obj_1up_checkpoint_4.yy",},
+    {"name":"obj_1up_checkpoint_1","order":1,"path":"objects/obj_1up_checkpoint_1/obj_1up_checkpoint_1.yy",},
+    {"name":"obj_1up_checkpoint_2","order":2,"path":"objects/obj_1up_checkpoint_2/obj_1up_checkpoint_2.yy",},
+    {"name":"obj_1up_checkpoint_3","order":3,"path":"objects/obj_1up_checkpoint_3/obj_1up_checkpoint_3.yy",},
+    {"name":"obj_1up_checkpoint_4","order":4,"path":"objects/obj_1up_checkpoint_4/obj_1up_checkpoint_4.yy",},
     {"name":"obj_1up","order":33,"path":"objects/obj_1up/obj_1up.yy",},
     {"name":"obj_1upgame_balloon_generator","order":3,"path":"objects/obj_1upgame_balloon_generator/obj_1upgame_balloon_generator.yy",},
     {"name":"obj_1upgame_balloon","order":2,"path":"objects/obj_1upgame_balloon/obj_1upgame_balloon.yy",},

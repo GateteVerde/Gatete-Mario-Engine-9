@@ -26,7 +26,7 @@ if (freeze == false) {
 	        ready = true;
         
 	        //Stop after 10 steps
-	        alarm[0] = 10;
+	        alarm[1] = 10;
 	    }
 	}
 #endregion

@@ -1,16 +1,11 @@
-/// @description Make it jump
+/// @description Stop it
 
-//If inside view
-if (x > camera_get_view_x(view_camera[0]) - 32)
-&& (x < camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) + 32) {
+//Make it invisible
+visible = false;
 
-    //Make it visible
-    visible = true;
-    
-    //Set the vertical speed.
-    yspeed = -4;
-}
+//Stop vertical speed.
+yspeed = 0;
+yadd = 0;
 
-//Otherwise, wait
-else
-    alarm[1] = 10;
+//Jump again.
+alarm[2] = 40+random(round(80));

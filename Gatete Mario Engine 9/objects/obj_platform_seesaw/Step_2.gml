@@ -60,7 +60,8 @@ dir = (angle < 0) ? -1 : 1;
 					
 					//If any NPC that is not Mario is on this platform
 					if (list[| i].yadd == 0)
-					&& (list[| i].bbox_bottom < bbox_bottom+4) {
+					&& (list[| i].bbox_bottom < bbox_bottom+4) 
+					&& (list[| i].ignore_platforms == false) {
 				
 						//Calculate distance
 						var myincrement = sprite_get_width(sprite_index) / 4;

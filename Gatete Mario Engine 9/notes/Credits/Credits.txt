@@ -13,7 +13,7 @@ Nick64
 - DEVELOPED WITH -
 
 GameMaker Studio 2
-by YoYoGames
+by YoYoGames/Opera Norway
 
 
 - SPRITES -
