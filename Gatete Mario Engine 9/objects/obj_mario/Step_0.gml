@@ -998,10 +998,12 @@ else {
     //Stop special jump
     jumpstyle = 0;
 }
+
+//Check for a swim object
+var swim = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 1, 0)
     
 //If the player is not swimming and makes contact with a water surface
-if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 1, 0))
-&& (swimming == false) {
+if ((swim) && (swimming == false)) {
         
     //Make the player swim.
     swimming = 1;
@@ -1024,13 +1026,13 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 1, 
 		xspeed = xspeed/2.5;
 			
 		//Create a splash effect	
-		with (instance_create_depth(x, y-15, -4, obj_smoke))
+		with (instance_create_depth(x, swim.y-15, -4, obj_smoke))
 			sprite_index = spr_splash;
 	}
 }
     
 //Otherwise, if the player had enough swimming and wants to get out
-else if (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 1, 0)) 
+else if (!swim) 
 && (swimming)
 && (!collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_top, obj_solid, 1, 0))
 && (!collision_rectangle(bbox_left, bbox_top-1, bbox_right, bbox_bottom, obj_water_geyser, 0, 0)) {

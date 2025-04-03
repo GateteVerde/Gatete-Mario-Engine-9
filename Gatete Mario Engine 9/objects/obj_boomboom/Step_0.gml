@@ -4,7 +4,7 @@
 event_perform_object(obj_enemyparent, ev_step, ev_step_normal);
 
 //Invincibility frames
-if (hp > 1) {
+if (hp > 0) {
 
     inv--;
     if (inv < 0) {

@@ -18,8 +18,8 @@ if (value < 0)
 //Otherwise, draw text
 else {
 		
-	//If the score is over 799
-	if (value > 799) {
+	//If the score is over 999
+	if (value > 999) {
 			
 		//Set the big font
 		draw_set_font(font_big);
