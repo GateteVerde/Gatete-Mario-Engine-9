@@ -3,7 +3,7 @@
 if (can_carry()) {
 	
 	//Play 'Pull Hard' sound
-	audio_play_sound(global.voiceline_pull_hard, 0, false);
+	play_voiceline(global.voiceline_pull_hard, 0, false);
 
     //Force player hold
     with (obj_mario) {

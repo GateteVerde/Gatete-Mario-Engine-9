@@ -4,7 +4,7 @@
 audio_play_sound(snd_powerup, 0, false);
 
 //Play 'Thank you' sound
-audio_play_sound(global.voiceline_thankyou, 0, false);
+play_voiceline(global.voiceline_thankyou, 0, false);
 
 //Grant an extra hit
 if (global.safeguard < global.safeguard_max) {

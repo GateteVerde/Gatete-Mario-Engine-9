@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"play_voiceline",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"play_voiceline",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Scripts/Sound.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

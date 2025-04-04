@@ -13,7 +13,7 @@ if (held) {
             audio_play_sound(snd_throw, 0, false);
 			
 			//Play 'Player Throw' sound
-			audio_play_sound(global.voiceline_throw, 0, false);
+			play_voiceline(global.voiceline_throw, 0, false);
             
 			//With Mario
             with (obj_mario) {

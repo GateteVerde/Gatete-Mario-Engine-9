@@ -20,7 +20,8 @@ else {
 	|| (sprite_index == spr_vegshroom)
     || (sprite_index == spr_vegshroom_1up)
     || (sprite_index == spr_powblock_red_up) 
-	|| (sprite_index == spr_powblock_red_large_up) {
+	|| (sprite_index == spr_powblock_red_large_up) 
+	|| (sprite_index == spr_flipblock_big_held) {
 	
         drawpiece2 = 3;
         if ((sprite_width > 16) && (sprite_height > 16))

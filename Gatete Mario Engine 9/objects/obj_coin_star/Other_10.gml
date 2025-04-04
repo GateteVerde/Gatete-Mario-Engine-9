@@ -12,7 +12,7 @@ if ((ds_map_find_value(global.sc[0], global.level) > 0) && (ds_map_find_value(gl
         audio_play_sound(snd_coin_big, 0, false);
 		
 		//Play 'Bravo' sound
-		audio_play_sound(global.voiceline_bravo, 0, false);
+		play_voiceline(global.voiceline_bravo, 0, false);
     }
     else
         audio_play_sound(snd_coin_big, 0, false);

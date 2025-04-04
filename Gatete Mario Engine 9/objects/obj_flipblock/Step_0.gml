@@ -90,7 +90,7 @@ if (instance_exists(obj_mario)) {
 			}
 			
 			//Otherwise
-			else if (obj_mario.jumpstyle > 0) {
+			else if (obj_mario.jumpstyle == 1) {
 			
 				//If the 'Down' key or the left joystick is down, break block
 				if ((input_check(input.down)) || (gamepad_axis_value(0, gp_axislv) > 0.5))			

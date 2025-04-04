@@ -27,12 +27,12 @@ if (instance_exists(mytop)) {
             //Finish pull
             if (isheavy == 0) {
 
-				audio_play_sound(global.voiceline_pull, 0, false); 
+				play_voiceline(global.voiceline_pull, 0, false); 
                 alarm[0] = 10;
 			}
             else {
 				
-				audio_play_sound(global.voiceline_pull_hard, 0, false);
+				play_voiceline(global.voiceline_pull_hard, 0, false);
                 alarm[0] = 20;
 			}
         }

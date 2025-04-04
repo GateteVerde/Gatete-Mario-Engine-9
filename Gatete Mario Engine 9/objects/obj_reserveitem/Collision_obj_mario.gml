@@ -50,7 +50,7 @@ if (global.powerup != cs_gold)
 			audio_play_sound(snd_powerup, 0, false);
 			
 			//Play 'Jwin' sound
-			audio_play_sound(global.voiceline_jwin, 0, false);
+			play_voiceline(global.voiceline_jwin, 0, false);
         
 			//Perform animation sequence
 			with (instance_create_depth(0, 0, -5, obj_mario_transform)) {
@@ -75,7 +75,7 @@ if (global.powerup != cs_gold)
 				audio_play_sound(snd_reserve, 0, false);
 				
 				//Play 'Thank You' sound
-				audio_play_sound(global.voiceline_thankyou, 0, false);
+				play_voiceline(global.voiceline_thankyou, 0, false);
 		
 				//Reserve a mushroom
 			    global.reserve = cs_big;
@@ -91,7 +91,7 @@ if (global.powerup != cs_gold)
 	else {
 		
 		//Play 'Thank You' sound
-		audio_play_sound(global.voiceline_gotcha, 0, false);
+		play_voiceline(global.voiceline_gotcha, 0, false);
 
 		//If the player does have a powerup.
 		if (global.powerup > cs_big)
@@ -124,7 +124,7 @@ if (global.powerup != cs_gold)
 			audio_play_sound(snd_reserve, 0, false);
 			
 			//Play 'Thank You' sound
-			audio_play_sound(global.voiceline_thankyou, 0, false);
+			play_voiceline(global.voiceline_thankyou, 0, false);
 		}
 	}
 }
@@ -136,7 +136,7 @@ else {
 	audio_play_sound(snd_reserve, 0, false);
 	
 	//Play 'Thank You' sound
-	audio_play_sound(global.voiceline_thankyou, 0, false);
+	play_voiceline(global.voiceline_thankyou, 0, false);
 		
 	//Set this powerup as reserve
 	if (global.reserve != cs_gold)

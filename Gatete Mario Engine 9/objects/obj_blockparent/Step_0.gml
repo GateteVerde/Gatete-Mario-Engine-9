@@ -26,23 +26,32 @@ if (instance_exists(obj_mario)) {
 		
 		//If Mario is doing a ground pound
 		if (obj_mario.groundpound == 2) 
-		|| ((global.powerup == cs_propeller) && (obj_mario.jumpstyle > 0)) {
+		|| ((global.powerup == cs_propeller) && (obj_mario.jumpstyle == 1)) {
 			
-			//If not bumped
-			if (ready == 0) {
+			//If this block is a breakable block
+			if (object_index == obj_brick)
+			|| (object_index == obj_brick_big)
+				event_user(15);
 				
-				//Make items sprout from below
-				bottom = true;
+			//Otherwise
+			else {
+			
+				//If not bumped
+				if (ready == 0) {
 				
-				//Bump it
-				ready = 1;
+					//Make items sprout from below
+					bottom = true;
 				
-				//Bump block downwards
-				vspeed = 2;
-				alarm[0] = 4;
+					//Bump it
+					ready = 1;
+				
+					//Bump block downwards
+					vspeed = 2;
+					alarm[0] = 4;
 					
-				//Perform block events
-				event_user(0);
+					//Perform block events
+					event_user(0);
+				}
 			}
 		}
 	}

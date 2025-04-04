@@ -42,7 +42,7 @@ switch (value) {
 	case (-3): {
 		
 		//Play 'Lucky Me' sound
-		audio_play_sound(global.voiceline_luckyme, 0, false);
+		play_voiceline(global.voiceline_luckyme, 0, false);
 		
 		//Set up the sprite
 		sprite_index = spr_score_3up;
@@ -77,7 +77,7 @@ switch (value) {
 	case (-2): {
 		
 		//Play 'Lucky' sound
-		audio_play_sound(global.voiceline_lucky, 0, false);
+		play_voiceline(global.voiceline_lucky, 0, false);
 		
 		//Set up the sprite
 		sprite_index = spr_score_2up;
@@ -106,7 +106,7 @@ switch (value) {
 	case (-1): {
 		
 		//Play 'Lucky' sound
-		audio_play_sound(global.voiceline_lucky, 0, false);
+		play_voiceline(global.voiceline_lucky, 0, false);
 		
 		//Set up the sprite
 		sprite_index = spr_score_1up;

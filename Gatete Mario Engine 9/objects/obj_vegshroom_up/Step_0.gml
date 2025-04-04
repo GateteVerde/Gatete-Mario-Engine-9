@@ -23,7 +23,7 @@ if ((vspeed > 0) && (y > ystart - 16)) {
 				audio_play_sound(snd_powerup, 0, false);
 				
 				//Play 'Jwin' sound
-				audio_play_sound(global.voiceline_jwin, 0, false);
+				play_voiceline(global.voiceline_jwin, 0, false);
         
 			    //Perform animation sequence
 			    with (instance_create_depth(0, 0, -5, obj_mario_transform)) {

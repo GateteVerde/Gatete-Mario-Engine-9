@@ -242,7 +242,7 @@ if (inwall == 0)
                     jumpstyle = 0;
 					
 					//Play 'Waha' sound
-					audio_play_sound(global.voiceline_waha, 0, false);
+					play_voiceline(global.voiceline_waha, 0, false);
                 
                     //Play 'Jump' sound
                     audio_play_sound(snd_jump, 0, false);
@@ -290,7 +290,7 @@ if (inwall == 0)
                     jumpstyle = 0;
 					
 					//Play 'Waha' sound
-					audio_play_sound(global.voiceline_waha, 0, false);
+					play_voiceline(global.voiceline_waha, 0, false);
                 
                     //Play 'Jump' sound
                     audio_play_sound(snd_jump, 0, false);
@@ -318,9 +318,16 @@ if (inwall == 0)
 		            //Set spin jump variable
 		            jumpstyle = 1;
 
-		            //Play spin jump sound
-					if (global.powerup == cs_propeller)
+		            //If Mario does have the propeller powerup
+					if (global.powerup == cs_propeller) {
+						
+						//Play 'Propeller' sound
 						audio_play_sound(snd_propeller, 0, false);
+						
+						//Force end somersault
+						if (somersault == 1)
+							somersault = 0;
+					}
 					else
 						audio_play_sound(snd_spin, 0, false);
 				}

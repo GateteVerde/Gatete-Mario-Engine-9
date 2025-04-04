@@ -6,7 +6,7 @@ switch (value) {
 	case (-1): {
 		
 		//Play 'Lucky' sound
-		audio_play_sound(global.voiceline_lucky, 0, false);
+		play_voiceline(global.voiceline_lucky, 0, false);
 		
 		//Set up the sprite
 		sprite_index = spr_score_1up;

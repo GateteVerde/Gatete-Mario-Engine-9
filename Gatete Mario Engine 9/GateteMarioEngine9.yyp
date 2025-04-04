@@ -1704,6 +1704,7 @@
     {"id":{"name":"outside_view","path":"scripts/outside_view/outside_view.yy",},},
     {"id":{"name":"pal_swap_set_player","path":"scripts/pal_swap_set_player/pal_swap_set_player.yy",},},
     {"id":{"name":"pal_swap","path":"scripts/pal_swap/pal_swap.yy",},},
+    {"id":{"name":"play_voiceline","path":"scripts/play_voiceline/play_voiceline.yy",},},
     {"id":{"name":"powerup_get_name","path":"scripts/powerup_get_name/powerup_get_name.yy",},},
     {"id":{"name":"pswitch_event","path":"scripts/pswitch_event/pswitch_event.yy",},},
     {"id":{"name":"reset_globals","path":"scripts/reset_globals/reset_globals.yy",},},

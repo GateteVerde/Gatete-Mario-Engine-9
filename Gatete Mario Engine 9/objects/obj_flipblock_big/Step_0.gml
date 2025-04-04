@@ -9,6 +9,9 @@ if (mario) {
 	//If the item can be carried
 	if (can_carry())
 	&& (mario.bbox_bottom < yprevious+5) {
+		
+		//Play 'Pull Hard' sound
+		play_voiceline(global.voiceline_pull_hard, 0, false);
 
 		//Force Mario to hold
 		with (mario) {
@@ -21,7 +24,7 @@ if (mario) {
 		instance_create_depth(mario.x, mario.y, -5, obj_mario_puller);
 	
 		//Finish pull
-		alarm[2] = 40;
+		alarm[2] = 20;
 	}
 }
 
