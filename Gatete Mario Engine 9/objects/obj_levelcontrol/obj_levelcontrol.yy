@@ -49,6 +49,7 @@
         "\"Before Boss\"",
         "\"Bonus\"",
         "\"Boss\"",
+        "\"Fortress\"",
         "\"Ghost\"",
         "\"Overworld\"",
         "\"Shooting\"",

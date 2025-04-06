@@ -523,6 +523,7 @@
     {"$GMIncludedFile":"","%Name":"boss.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"boss.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"credits.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"credits.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"desert.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"desert.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"fortress.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"fortress.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"ghost.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"ghost.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"worldmap1.ogg","CopyToMask":-1,"filePath":"datafiles/music/map","name":"worldmap1.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"worldmap2.ogg","CopyToMask":-1,"filePath":"datafiles/music/map","name":"worldmap2.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -1644,6 +1645,7 @@
     {"id":{"name":"rm_course_w2_l2_b","path":"rooms/rm_course_w2_l2_b/rm_course_w2_l2_b.yy",},},
     {"id":{"name":"rm_course_w2_l2_c","path":"rooms/rm_course_w2_l2_c/rm_course_w2_l2_c.yy",},},
     {"id":{"name":"rm_course_w2_l2","path":"rooms/rm_course_w2_l2/rm_course_w2_l2.yy",},},
+    {"id":{"name":"rm_course_w2_lC","path":"rooms/rm_course_w2_lC/rm_course_w2_lC.yy",},},
     {"id":{"name":"rm_course_w2_lGH_b","path":"rooms/rm_course_w2_lGH_b/rm_course_w2_lGH_b.yy",},},
     {"id":{"name":"rm_course_w2_lGH_c","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},},
     {"id":{"name":"rm_course_w2_lGH_d","path":"rooms/rm_course_w2_lGH_d/rm_course_w2_lGH_d.yy",},},
@@ -4186,6 +4188,7 @@
     {"roomId":{"name":"rm_course_w2_lGH_e","path":"rooms/rm_course_w2_lGH_e/rm_course_w2_lGH_e.yy",},},
     {"roomId":{"name":"rm_course_w2_l1_c","path":"rooms/rm_course_w2_l1_c/rm_course_w2_l1_c.yy",},},
     {"roomId":{"name":"rm_course_w2_l1_b","path":"rooms/rm_course_w2_l1_b/rm_course_w2_l1_b.yy",},},
+    {"roomId":{"name":"rm_course_w2_lC","path":"rooms/rm_course_w2_lC/rm_course_w2_lC.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
