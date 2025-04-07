@@ -19,7 +19,7 @@ if ((xspeed < 0) && (!position_meeting(bbox_left-1, y, obj_climb)))
 }
 
 //Wall collision
-ai_npc_wall(0);
+ai_npc_wall(1);
 
 //If moving up and there's a ceiling in place
 if (yspeed < 0) {

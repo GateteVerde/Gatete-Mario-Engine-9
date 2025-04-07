@@ -11,3 +11,6 @@ image_speed = 1;
 
 //Start walking
 xspeed = (swimming) ? 0.25 * sign(xscale) : 0.5 * sign(xscale);
+
+//Repeat process
+alarm[0] = 180;

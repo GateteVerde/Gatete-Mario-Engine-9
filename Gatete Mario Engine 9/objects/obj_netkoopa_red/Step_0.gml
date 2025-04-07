@@ -47,7 +47,7 @@ if (turnaround = 0) {
 }
 
 //Wall collision
-ai_npc_wall(0);
+ai_npc_wall(1);
 
 //If moving up and there's a ceiling in place
 if (yspeed < 0) {
