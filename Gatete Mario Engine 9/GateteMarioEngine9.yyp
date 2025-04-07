@@ -1645,6 +1645,7 @@
     {"id":{"name":"rm_course_w2_l2_b","path":"rooms/rm_course_w2_l2_b/rm_course_w2_l2_b.yy",},},
     {"id":{"name":"rm_course_w2_l2_c","path":"rooms/rm_course_w2_l2_c/rm_course_w2_l2_c.yy",},},
     {"id":{"name":"rm_course_w2_l2","path":"rooms/rm_course_w2_l2/rm_course_w2_l2.yy",},},
+    {"id":{"name":"rm_course_w2_lC_b","path":"rooms/rm_course_w2_lC_b/rm_course_w2_lC_b.yy",},},
     {"id":{"name":"rm_course_w2_lC","path":"rooms/rm_course_w2_lC/rm_course_w2_lC.yy",},},
     {"id":{"name":"rm_course_w2_lGH_b","path":"rooms/rm_course_w2_lGH_b/rm_course_w2_lGH_b.yy",},},
     {"id":{"name":"rm_course_w2_lGH_c","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},},
@@ -2018,6 +2019,7 @@
     {"id":{"name":"spr_bgr_blocks","path":"sprites/spr_bgr_blocks/spr_bgr_blocks.yy",},},
     {"id":{"name":"spr_bgr_bonus_b","path":"sprites/spr_bgr_bonus_b/spr_bgr_bonus_b.yy",},},
     {"id":{"name":"spr_bgr_bonus","path":"sprites/spr_bgr_bonus/spr_bgr_bonus.yy",},},
+    {"id":{"name":"spr_bgr_castle_b","path":"sprites/spr_bgr_castle_b/spr_bgr_castle_b.yy",},},
     {"id":{"name":"spr_bgr_castle","path":"sprites/spr_bgr_castle/spr_bgr_castle.yy",},},
     {"id":{"name":"spr_bgr_cave","path":"sprites/spr_bgr_cave/spr_bgr_cave.yy",},},
     {"id":{"name":"spr_bgr_clouds_b","path":"sprites/spr_bgr_clouds_b/spr_bgr_clouds_b.yy",},},
@@ -4189,6 +4191,7 @@
     {"roomId":{"name":"rm_course_w2_l1_c","path":"rooms/rm_course_w2_l1_c/rm_course_w2_l1_c.yy",},},
     {"roomId":{"name":"rm_course_w2_l1_b","path":"rooms/rm_course_w2_l1_b/rm_course_w2_l1_b.yy",},},
     {"roomId":{"name":"rm_course_w2_lC","path":"rooms/rm_course_w2_lC/rm_course_w2_lC.yy",},},
+    {"roomId":{"name":"rm_course_w2_lC_b","path":"rooms/rm_course_w2_lC_b/rm_course_w2_lC_b.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

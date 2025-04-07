@@ -50,7 +50,11 @@ switch (sprite_index) {
 	//Magikoopa
 	case (spr_magikoopa): {
 		
-		instance_create_depth(-1000, -1000, -2, obj_magikoopa);
+		with (instance_create_depth(-1000, -1000, -2, obj_magikoopa)) {
+		
+			xmin = other.xmin;
+			xmax = other.xmax;
+		}
 	} break;
 }
 

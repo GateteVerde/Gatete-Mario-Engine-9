@@ -20,11 +20,11 @@ gravity = save_grav;
 save_grav = 0;
 
 //Remember alarms
-for (var i=0; i<11; i++) {
-	
-	if (save_alm[i] > -1) {
+for (var i=0; i<12; i++) {
 
-		alarm[i] += save_alm[i];
+	if (alarm[i] > -1) {
+		
+		alarm[i] = max(1, save_alm[i]);
 		save_alm[i] = -1;
 	}
 }

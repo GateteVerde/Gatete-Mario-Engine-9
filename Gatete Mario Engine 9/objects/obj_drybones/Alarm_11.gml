@@ -1,5 +1,12 @@
 /// @description Turn towards Mario
 
+//If Mario does not exists, exit
+if (!instance_exists(obj_mario)) {
+	
+	alarm[11] = 1;
+	exit;
+}
+
 //If the Dry Bones is not throwing a bone
 if (sprite_index == spr_drybones) {
 
