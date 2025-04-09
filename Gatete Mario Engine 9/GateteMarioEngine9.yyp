@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"GateteMarioEngine9",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -514,6 +514,7 @@
     {"$GMFolder":"","%Name":"Tilesets","folderPath":"folders/Tilesets.yy","name":"Tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Time Lines","folderPath":"folders/Time Lines.yy","name":"Time Lines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"GME9Music.ini","CopyToMask":3035426170322551022,"filePath":"datafiles","name":"GME9Music.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"athletic.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"athletic.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -537,7 +538,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"GateteMarioEngine9",
   "resources":[

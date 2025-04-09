@@ -22,7 +22,7 @@ save_grav = 0;
 //Remember alarms
 for (var i=0; i<12; i++) {
 
-	if (alarm[i] > -1) {
+	if (save_alm[i] > -1) {
 		
 		alarm[i] = max(1, save_alm[i]);
 		save_alm[i] = -1;

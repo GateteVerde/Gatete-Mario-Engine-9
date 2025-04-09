@@ -66,14 +66,19 @@ else if (ready == 3) {
         //Check for a semisolid
         var semisolid = collision_rectangle(x, bbox_bottom, x, bbox_bottom+2, obj_semisolid, 0, 0);
 		
-		//Check for a specific tile map
-		var tilemap = layer_tilemap_get_id("Tileset");
-        
+		//Check for tiles
+		var my_tilemap, in_tile; 
+		
+		my_tilemap = layer_tilemap_get_id("Tileset");
+		in_tile = !!tilemap_get_at_pixel(my_tilemap, bbox_right, bbox_top) 
+				+ !!tilemap_get_at_pixel(my_tilemap, bbox_right, bbox_bottom) * 2 
+				+ !!tilemap_get_at_pixel(my_tilemap, bbox_left, bbox_top) * 4 
+				+ !!tilemap_get_at_pixel(my_tilemap, bbox_left, bbox_bottom) * 8;
+		
         //If there's a collision in position
         while (semisolid)
         && (ready == 3)
-        && (tilemap_get_at_pixel(tilemap, x-8, bbox_bottom+1) != 0) 
-        && (tilemap_get_at_pixel(tilemap, x-7, bbox_bottom+1) != 0)
+        && (!in_tile)
         && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 0, 1)) {
             
             //Snap above the semisolid

@@ -15,7 +15,6 @@ if (obj_levelcontrol.pswitch_on == false) {
 	
 		image_xscale = other.image_xscale;
 		image_yscale = other.image_yscale;
-		visible = true;
 	}
 }
 else

@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_hotfoot",
     "autoRecord":true,
     "backdropHeight":768,
@@ -64,6 +64,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":16.0,
+    "seqWidth":8.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
