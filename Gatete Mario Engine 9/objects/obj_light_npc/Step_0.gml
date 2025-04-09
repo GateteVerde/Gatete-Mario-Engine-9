@@ -1,7 +1,11 @@
 /// @description NPC light logic
 
-if (!instance_exists(parent))
+//If the parent object does NOT exist
+if (!instance_exists(parent)) {
+
 	instance_destroy();
+	exit;
+}
 
 //Otherwise
 else {

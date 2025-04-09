@@ -21,23 +21,16 @@ gpu_set_blendmode(bm_subtract);
 //Enable texture interpolation
 gpu_set_texfilter(true);
 
-//Draw all the lights
-for (var i=0; i<instance_count; i++;) {
-
-	if ((instance_exists(instance_id[i]))
-	&& (object_is_ancestor(instance_id[i].object_index, obj_lightparent))) {
-        
-	    with (instance_id[i]) {
+//With all lights
+with (obj_lightparent) {
 			
-			//If the light makes use of a sprite, draw the sprite
-			if (sprite_index != -1)
-				draw_sprite_ext(sprite_index, image_index, x-camera_get_view_x(view_camera[0]), y-camera_get_view_y(view_camera[0]), image_xscale, image_yscale, image_angle, image_blend, 1);
+	//If the light makes use of a sprite, draw the sprite
+	if (sprite_index != -1)
+		draw_sprite_ext(sprite_index, image_index, x-camera_get_view_x(view_camera[0]), y-camera_get_view_y(view_camera[0]), image_xscale, image_yscale, image_angle, image_blend, 1);
 				
-			//Otherwise, use the User Defined 15 event from said object
-			else
-				event_user(15);
-	    }
-	}
+	//Otherwise, use the User Defined 15 event from said object
+	else
+		event_user(15);
 }
 
 //Disable texture interpolation

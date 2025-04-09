@@ -24,3 +24,15 @@ if (instance_exists(follow)) {
 			y = follow.y;
 	}
 }
+else if (instance_exists(obj_mario_card)) {
+
+	//Set radius
+	radius = (global.powerup == cs_mega) ? lerp(radius, 96, 0.0325) : lerp(radius, 32 + (64 * instance_number(obj_invincibility)), 0.0325);
+	
+	//Set light position
+	x = obj_mario_card.x;
+	if (global.powerup == cs_mega)
+		y = obj_mario_card.y - 32;
+	else
+		y = obj_mario_card.y;		
+}
