@@ -66,6 +66,9 @@
 	}
 #endregion
 
+//Generate light
+event_user(15);
+
 //Set vertical facing direction
 if (vspeed > 0)
     yscale = 1;

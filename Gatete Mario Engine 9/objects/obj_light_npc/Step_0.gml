@@ -1,15 +1,8 @@
 /// @description NPC light logic
 
 //If the parent object does NOT exist
-if (!instance_exists(parent)) {
-
-	instance_destroy();
-	exit;
-}
-
-//Otherwise
-else {
-
+if (instance_exists(parent)) {	
+	
 	//Stay in position
 	x = (parent.bbox_left + parent.bbox_right) / 2;
 	y = (parent.bbox_top + parent.bbox_bottom) / 2;

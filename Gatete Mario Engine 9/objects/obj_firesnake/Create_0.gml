@@ -44,10 +44,11 @@ alarm[0] = 60;
 //Create a light
 if (instance_exists(obj_lightcontrol)) {
 
-	with (instance_create_layer(0, 0, "Main", obj_light_npc)) {
+	mylight = instance_create_layer(0, 0, "Main", obj_light_npc);
+	with (mylight) {
 		
 		parent = other.id;
-		radius = 16;
-		new_radius = 16;
+		radius = 12;
+		new_radius = 12;
 	}
 }

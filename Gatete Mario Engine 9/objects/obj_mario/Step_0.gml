@@ -732,7 +732,16 @@ if (xspeed > 0) {
 		}
 		
 		//Stop horizontal movement
-		if (!block_r) then xspeed = 0;
+		#region
+		
+			//If Mario does NOT have the penguin powerup and it's not sliding
+			if (sliding == 1)
+			&& (block_r)
+			&& (global.powerup == cs_penguin)
+				return;
+			else
+				xspeed = 0;				
+		#endregion
 		
 		//Prevent Mario from getting embed on a wall	
 		while (collision_rectangle(bbox_right, bbox_top+4, bbox_right, bbox_bottom+ismega, obj_solid, 1, 0))
@@ -837,7 +846,16 @@ else if (xspeed < 0) {
 		}
 		
 		//Stop horizontal movement
-		if (!block_l) then xspeed = 0;
+		#region
+		
+			//If Mario does NOT have the penguin powerup and it's not sliding
+			if (sliding == 1)
+			&& (block_l)
+			&& (global.powerup == cs_penguin)
+				return;
+			else
+				xspeed = 0;				
+		#endregion
 			
 		//Prevent Mario from getting embed on a ceiling
 		while (collision_rectangle(bbox_left, bbox_top+4, bbox_left, bbox_bottom+ismega, obj_solid, 1, 0))
