@@ -1,3 +1,3 @@
 /// @description Fade title in
 
-ready = 1;
+ready = 0;

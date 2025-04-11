@@ -1,7 +1,7 @@
 /// @description Go to title
 
 //If the credits cutscene can be exited
-if (ready == 5) {
+if (ready == 7) {
         
     //Stop the stream...
     audio_stop_sound(global.stream);

@@ -2235,6 +2235,7 @@
     {"id":{"name":"spr_conveyor","path":"sprites/spr_conveyor/spr_conveyor.yy",},},
     {"id":{"name":"spr_cruncher","path":"sprites/spr_cruncher/spr_cruncher.yy",},},
     {"id":{"name":"spr_crystal","path":"sprites/spr_crystal/spr_crystal.yy",},},
+    {"id":{"name":"spr_curtain","path":"sprites/spr_curtain/spr_curtain.yy",},},
     {"id":{"name":"spr_digginchuck_dig","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},},
     {"id":{"name":"spr_digginchuck","path":"sprites/spr_digginchuck/spr_digginchuck.yy",},},
     {"id":{"name":"spr_digtile","path":"sprites/spr_digtile/spr_digtile.yy",},},

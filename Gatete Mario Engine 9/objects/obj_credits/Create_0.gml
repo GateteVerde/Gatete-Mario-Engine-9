@@ -1,16 +1,20 @@
 /// @description It's the credits sequence!
 
-//Play 'Credits' sound
-alarm[0] = 1;
+//Curtain position
+curtain_yy = 0;
 
 //Position
 yy = 0;
 
 //Alpha
 alpha = 0;
+alpha2 = -1;
+
+//Wait
+wait_time = 1;
 
 //Handle credits sequence
-ready = 0;
+ready = -1;
 
 //Start fading in
 alarm[1] = 120;
@@ -25,7 +29,7 @@ GREEN BARON GAMES
 
 
 
-- PROGRAMMERS -
+< PROGRAMMERS >
 
 Aspirin
 ElectroDev
@@ -39,15 +43,18 @@ Nick64
 
 
 
-- DEVELOPED WITH -
+< DEVELOPED WITH >
 
-GameMaker Studio 2
-by YoYoGames / Opera Norway
+GameMaker
+by YoYoGames
+
+Original GameMaker created by
+Mark Overmars
 
 
 
 
-- SPRITES -
+< SPRITES >
 
 72DpiArmy
 Cheeyev
@@ -82,7 +89,7 @@ XannyXan
 
 
 
-- AUDIO -
+< AUDIO >
 
 Dooki51
 MadNyle
@@ -95,7 +102,7 @@ TheMushroomKingdom.net
 
 
 
-- SCRIPTS / SHADERS-
+< SCRIPTS / SHADERS >
 
 DJ Coco
 Dooki51
@@ -112,7 +119,7 @@ YellowAfterLife
 
 
 
-- TESTERS -
+< TESTERS >
 
 Bugsie
 Karasz (Crispy Toast)
@@ -123,7 +130,7 @@ WinMithul (Matrix)
 
 
 
-- SPECIAL THANKS -
+< SPECIAL THANKS >
 
 BROBRO STUDIOS
 CLUB SATURN
