@@ -8,7 +8,6 @@ if (ready == 0) {
 	
 		curtain_yy = 240;
 		ready = 1;
-		alarm[0] = 1;
 	}
 }
 
@@ -58,7 +57,6 @@ else if (ready == 5) {
 	
 		curtain_yy = 0;
 		ready = 6;
-		alarm[3] = 1;
 	}		
 }
 
@@ -70,6 +68,6 @@ else if (ready == 6) {
         
         alpha2 = 1;
         ready = 7;
-        alarm[3] = 1;
+        alarm[3] = 30;
     }
 }

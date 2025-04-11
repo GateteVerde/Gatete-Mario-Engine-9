@@ -1,4 +1,11 @@
-- PROGRAMMERS -
+< CREATED BY >
+
+GREEN BARON GAMES
+
+
+
+
+< PROGRAMMERS >
 
 Aspirin
 ElectroDev
@@ -10,13 +17,20 @@ MrPiness
 Nick64
 
 
-- DEVELOPED WITH -
-
-GameMaker Studio 2
-by YoYoGames/Opera Norway
 
 
-- SPRITES -
+< DEVELOPED WITH >
+
+GameMaker
+by YoYoGames
+
+Original GameMaker created by
+Mark Overmars
+
+
+
+
+< SPRITES >
 
 72DpiArmy
 Cheeyev
@@ -49,7 +63,9 @@ Walmaker2022
 XannyXan
 
 
-- AUDIO -
+
+
+< AUDIO >
 
 Dooki51
 MadNyle
@@ -60,7 +76,9 @@ SMWCentral.net
 TheMushroomKingdom.net
 
 
-- SCRIPTS / SHADERS-
+
+
+< SCRIPTS / SHADERS >
 
 DJ Coco
 Dooki51
@@ -75,10 +93,32 @@ WinMithul (Matrix)
 YellowAfterLife
 
 
-- TESTERS -
+
+
+< TESTERS >
 
 Bugsie
 Karasz (Crispy Toast)
 TarkanDragonBird
 Vexxter
 WinMithul (Matrix)
+
+
+
+
+< SPECIAL THANKS >
+
+BROBRO STUDIOS
+CLUB SATURN
+CODEHAUS
+COMUNIDADJUANPA
+CONFUZYON STUDIOS
+FORTALEZA REZNOR
+FUSION GAMEWORKS
+HONK SQUAD
+LEVEL SHARE SQUARE
+MARIO FAN GAMES GALAXY
+PORYNAZ'S NETWORK
+SFGHQ
+SMWCENTRAL
+TROLLFORTRESS

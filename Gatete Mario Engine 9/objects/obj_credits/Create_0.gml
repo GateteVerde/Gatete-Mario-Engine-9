@@ -16,14 +16,16 @@ wait_time = 1;
 //Handle credits sequence
 ready = -1;
 
-//Start fading in
+//Play music and start fading in
+alarm[0] = 120;
 alarm[1] = 120;
 
 //Display 'Press any key'
 display = 0;
 
 //Text
-text = @"CREATED BY
+text = @"< CREATED BY >
+
 GREEN BARON GAMES
 
 
@@ -134,12 +136,16 @@ WinMithul (Matrix)
 
 BROBRO STUDIOS
 CLUB SATURN
+CODEHAUS
 COMUNIDADJUANPA
 CONFUZYON STUDIOS
+FORTALEZA REZNOR
+FUSION GAMEWORKS
 HONK SQUAD
 LEVEL SHARE SQUARE
 MARIO FAN GAMES GALAXY
 PORYNAZ'S NETWORK
+SFGHQ
 SMWCENTRAL
 TROLLFORTRESS
 
