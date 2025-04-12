@@ -542,7 +542,6 @@
   },
   "name":"GateteMarioEngine9",
   "resources":[
-    {"id":{"name":"Credits","path":"notes/Credits/Credits.yy",},},
     {"id":{"name":"obj_1up_checkpoint_1","path":"objects/obj_1up_checkpoint_1/obj_1up_checkpoint_1.yy",},},
     {"id":{"name":"obj_1up_checkpoint_2","path":"objects/obj_1up_checkpoint_2/obj_1up_checkpoint_2.yy",},},
     {"id":{"name":"obj_1up_checkpoint_3","path":"objects/obj_1up_checkpoint_3/obj_1up_checkpoint_3.yy",},},
@@ -2235,6 +2234,7 @@
     {"id":{"name":"spr_conveyor","path":"sprites/spr_conveyor/spr_conveyor.yy",},},
     {"id":{"name":"spr_cruncher","path":"sprites/spr_cruncher/spr_cruncher.yy",},},
     {"id":{"name":"spr_crystal","path":"sprites/spr_crystal/spr_crystal.yy",},},
+    {"id":{"name":"spr_curtain_bg","path":"sprites/spr_curtain_bg/spr_curtain_bg.yy",},},
     {"id":{"name":"spr_curtain","path":"sprites/spr_curtain/spr_curtain.yy",},},
     {"id":{"name":"spr_digginchuck_dig","path":"sprites/spr_digginchuck_dig/spr_digginchuck_dig.yy",},},
     {"id":{"name":"spr_digginchuck","path":"sprites/spr_digginchuck/spr_digginchuck.yy",},},

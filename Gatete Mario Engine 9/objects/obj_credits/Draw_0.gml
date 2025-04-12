@@ -1,7 +1,7 @@
 /// @description Draw the credits
 
 //Set the font
-draw_set_font(global.gui_font);
+draw_set_font(global.gui_font_menu);
 
 //Set the alpha
 draw_set_alpha(alpha);

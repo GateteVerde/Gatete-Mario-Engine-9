@@ -31,16 +31,16 @@ GREEN BARON GAMES
 
 
 
-< PROGRAMMERS >
+< DEVELOPERS >
 
 Aspirin
-ElectroDev
+Ele
 GateTheCat
 HelloSammu
-Mikeystar
 Mors
-MrPiness
-Nick64
+Nick
+Phallusenior
+PhantomVA
 
 
 
@@ -97,7 +97,7 @@ Dooki51
 MadNyle
 MFGG.net
 Pinci
-Rem
+Rem / LadiesMan217
 SMWCentral.net
 TheMushroomKingdom.net
 
@@ -109,8 +109,8 @@ TheMushroomKingdom.net
 DJ Coco
 Dooki51
 Enjl
-HelloFangaming
 Hypernova
+Mors
 MrDoubleA
 PixelatedPope
 Shaun Spalding
@@ -134,20 +134,20 @@ WinMithul (Matrix)
 
 < SPECIAL THANKS >
 
-BROBRO STUDIOS
-CLUB SATURN
-CODEHAUS
-COMUNIDADJUANPA
-CONFUZYON STUDIOS
-FORTALEZA REZNOR
-FUSION GAMEWORKS
-HONK SQUAD
-LEVEL SHARE SQUARE
-MARIO FAN GAMES GALAXY
-PORYNAZ'S NETWORK
-SFGHQ
-SMWCENTRAL
-TROLLFORTRESS
+BroBro Studios
+Club Saturn
+Codehaus
+Comunidad Juanpa
+Confuzyon Studios
+Fortaleza Reznor
+Fusion Gameworld
+Honk Squad
+Level Share Square
+Mario Fan Games Galaxy
+Porynaz's Network
+Sonic Fan Games HQ
+SMW Central
+Trollfortress
 
 
 
@@ -158,7 +158,12 @@ ALL SPRITES, SCENARIO AND
 MUSIC ARE (C) OF
 NINTENDO
 
+THIS IS A NON-FOR-PROFIT
+FANGAME AND IT SHOULD BE
+DISTRIBUTED AS FREEWARE.
 
+IF SOMEONE SOLD THIS TO YOU
+YOU HAVE BEEN SCAMMED.
 
 
 
