@@ -1101,13 +1101,22 @@ else if (!swim)
 	//If Mario is swimming and there's no water above
 	if (swimming)
 	&& (!collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, obj_swim, 0, 0)) {
-	
-		//If moving down...
-		if (yspeed > 0)
-	
-		//...or there's no vertical movement, force end swimming
-		|| ((yspeed == 0) && (state < playerstate.jump))
+		
+		//If Mario has either Frog or Penguin powerups
+		if (global.powerup == cs_frog)
+		|| (global.powerup == cs_penguin)
 			swimming = false;
+			
+		//Otherwise
+		else {
+	
+			//If moving down...
+			if (yspeed > 0)
+	
+			//...or there's no vertical movement, force end swimming
+			|| ((yspeed == 0) && (state < playerstate.jump))
+				swimming = false;
+		}
 	}
 
 #endregion
