@@ -2,7 +2,7 @@
 
 //If Mario does exist
 if (instance_exists(obj_mario))
-	speed = 0.01;
+	speed += 0.01;
 	
 //Otherwise
 else

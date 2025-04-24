@@ -11,8 +11,11 @@ if (global.exit_id == myid) {
 		
 			with (obj_autoscroll) {
 			
-				x = other.scroll_x;
-				y = other.scroll_y;
+				if (other.scroll_x > -1) {
+					
+					x = other.scroll_x;
+					y = other.scroll_y;
+				}
 			}
 		}
     

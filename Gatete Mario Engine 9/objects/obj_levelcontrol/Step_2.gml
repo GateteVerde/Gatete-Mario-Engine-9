@@ -48,7 +48,7 @@ if (room != rm_bonus) {
 			//If the autoscroll object does exist
 			if (instance_exists(obj_autoscroll)) {
     
-				//Stay relative to Mario's y position or not.
+				//Stay relative to autoscroller position
 				x = obj_autoscroll.x;
 				
 				//Stay relative to Mario's y position or not.

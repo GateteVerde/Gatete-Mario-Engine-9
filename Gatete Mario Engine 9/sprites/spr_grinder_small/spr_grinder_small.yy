@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_grinder_small",
   "bboxMode":2,
-  "bbox_bottom":15,
+  "bbox_bottom":28,
   "bbox_left":11,
   "bbox_right":20,
   "bbox_top":0,

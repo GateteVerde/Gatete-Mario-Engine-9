@@ -13,7 +13,7 @@ alarm[1] = 1;
 alarm[2] = 1;
 
 //Make Mario able to die
-candie = 1;
+candie = 0;
 
 //Set the airship speed
 airshipspeed = 0;

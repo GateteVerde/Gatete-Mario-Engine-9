@@ -59,9 +59,12 @@ if (global.mariostart == 0) {
 		if (instance_exists(obj_autoscroll)) {
 		
 			with (obj_autoscroll) {
+				
+				if (global.checkpoint.scroll_x > -1) {
 			
-				x = global.checkpoint.scroll_x;
-				y = global.checkpoint.scroll_y;
+					x = global.checkpoint.scroll_x;
+					y = global.checkpoint.scroll_y;
+				}
 			}
 		}
 

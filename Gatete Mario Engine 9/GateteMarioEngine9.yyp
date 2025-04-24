@@ -538,7 +538,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"GateteMarioEngine9",
   "resources":[
@@ -1222,6 +1222,7 @@
     {"id":{"name":"obj_physicsparent","path":"objects/obj_physicsparent/obj_physicsparent.yy",},},
     {"id":{"name":"obj_pidgit","path":"objects/obj_pidgit/obj_pidgit.yy",},},
     {"id":{"name":"obj_pilediver","path":"objects/obj_pilediver/obj_pilediver.yy",},},
+    {"id":{"name":"obj_pillar","path":"objects/obj_pillar/obj_pillar.yy",},},
     {"id":{"name":"obj_pipe_broken","path":"objects/obj_pipe_broken/obj_pipe_broken.yy",},},
     {"id":{"name":"obj_pipe_corner_dl","path":"objects/obj_pipe_corner_dl/obj_pipe_corner_dl.yy",},},
     {"id":{"name":"obj_pipe_corner_dr","path":"objects/obj_pipe_corner_dr/obj_pipe_corner_dr.yy",},},
@@ -1646,6 +1647,7 @@
     {"id":{"name":"rm_course_w2_l2_c","path":"rooms/rm_course_w2_l2_c/rm_course_w2_l2_c.yy",},},
     {"id":{"name":"rm_course_w2_l2","path":"rooms/rm_course_w2_l2/rm_course_w2_l2.yy",},},
     {"id":{"name":"rm_course_w2_lC_b","path":"rooms/rm_course_w2_lC_b/rm_course_w2_lC_b.yy",},},
+    {"id":{"name":"rm_course_w2_lC_c","path":"rooms/rm_course_w2_lC_c/rm_course_w2_lC_c.yy",},},
     {"id":{"name":"rm_course_w2_lC","path":"rooms/rm_course_w2_lC/rm_course_w2_lC.yy",},},
     {"id":{"name":"rm_course_w2_lGH_b","path":"rooms/rm_course_w2_lGH_b/rm_course_w2_lGH_b.yy",},},
     {"id":{"name":"rm_course_w2_lGH_c","path":"rooms/rm_course_w2_lGH_c/rm_course_w2_lGH_c.yy",},},
@@ -3657,6 +3659,7 @@
     {"id":{"name":"spr_pidgit","path":"sprites/spr_pidgit/spr_pidgit.yy",},},
     {"id":{"name":"spr_pilediver_flip","path":"sprites/spr_pilediver_flip/spr_pilediver_flip.yy",},},
     {"id":{"name":"spr_pilediver","path":"sprites/spr_pilediver/spr_pilediver.yy",},},
+    {"id":{"name":"spr_pillar","path":"sprites/spr_pillar/spr_pillar.yy",},},
     {"id":{"name":"spr_pipe_broken","path":"sprites/spr_pipe_broken/spr_pipe_broken.yy",},},
     {"id":{"name":"spr_pipe_corner_dl","path":"sprites/spr_pipe_corner_dl/spr_pipe_corner_dl.yy",},},
     {"id":{"name":"spr_pipe_corner_dr","path":"sprites/spr_pipe_corner_dr/spr_pipe_corner_dr.yy",},},
@@ -4194,6 +4197,7 @@
     {"roomId":{"name":"rm_course_w2_l1_b","path":"rooms/rm_course_w2_l1_b/rm_course_w2_l1_b.yy",},},
     {"roomId":{"name":"rm_course_w2_lC","path":"rooms/rm_course_w2_lC/rm_course_w2_lC.yy",},},
     {"roomId":{"name":"rm_course_w2_lC_b","path":"rooms/rm_course_w2_lC_b/rm_course_w2_lC_b.yy",},},
+    {"roomId":{"name":"rm_course_w2_lC_c","path":"rooms/rm_course_w2_lC_c/rm_course_w2_lC_c.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
