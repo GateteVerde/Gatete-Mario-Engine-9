@@ -10,6 +10,7 @@
 /// @param rot
 /// @param col
 /// @param alpha
+
 function draw_sprite_custom_origin() {
 	
 	//If not necessary to build the matrix, draw normally

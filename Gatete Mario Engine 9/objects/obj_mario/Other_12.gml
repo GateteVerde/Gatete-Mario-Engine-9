@@ -524,7 +524,10 @@ if (inwall == 0)
 	event_user(8);
 	
 	//Handle Horizontal Movement.
-    if (((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) && (move) && (wallkick < 1) && (!input_check(input.left))) { //If the player holds the 'Right' key and the 'Left' key is not being held.
+    if (((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) 
+	&& (move) 
+	&& (wallkick < 1) 
+	&& (!input_check(input.left))) { //If the player holds the 'Right' key and the 'Left' key is not being held.
         
         //Set the facing direction        
         if ((holding == 2) && (xscale != 1)) {
@@ -592,7 +595,10 @@ if (inwall == 0)
     }
     
     //Otherwise, if the player holds the 'Left' key and the 'Right' key is not being held.
-    else if (((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) && (move) && (wallkick == 0) && (!input_check(input.right))) {
+    else if (((input_check(input.left)) || (gamepad_axis_value(0, gp_axislh) < -0.5)) 
+	&& (move) 
+	&& (wallkick == 0) 
+	&& (!input_check(input.right))) {
                 
         //Set the facing direction    
         if ((holding == 2) && (xscale != -1)) {

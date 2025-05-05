@@ -8,16 +8,8 @@ if (crouch == true) {
         move = true;
         
     //Otherwise...
-    else {
-
-		//If the player is in the air, allow movement
-        if (state == playerstate.jump)
-            move = true;
-       
-		//Otherwise, disallow movement
-        else
-            move = false;    
-    }
+    else 
+		move = (state == playerstate.jump) ? true : false;
 }
 
 //Otherwise, allow movement
@@ -28,12 +20,6 @@ else {
 		move = false
 		
 	//Otherwise
-	else {
-	
-		//If Mario is not doing a groundpound
-		if (groundpound == 0)
-			move = true;
-		else
-			move = false;
-	}
+	else
+		move = (groundpound == 0) ? true : false;
 }

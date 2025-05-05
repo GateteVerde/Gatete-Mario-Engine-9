@@ -88,12 +88,12 @@ if (issolid == true) {
 			
 				//If Mario is moving up
 			    if (yspeed < 0) 
-			    && (collision_rectangle(bbox_left, bbox_top-2, bbox_right, bbox_top, other.id, 1, 0)) {
+			    && (collision_rectangle(bbox_left + 1, bbox_top-2, bbox_right - 1, bbox_top, other.id, 1, 0)) {
         
 			        //Prevent the player from getting embed on a ceiling
 			        if (state > playerstate.walk) {
             
-			            while (collision_rectangle(bbox_left, bbox_top+1, bbox_right, bbox_top+1, other.id, 0, 0))
+			            while (collision_rectangle(bbox_left + 1, bbox_top+1, bbox_right - 1, bbox_top+1, other.id, 0, 0))
 			                y++;
 			        }
             
@@ -139,8 +139,8 @@ if (issolid == true) {
 				else {
 
 				    //Push Mario in the direction the platform moves    
-				    if ((x-xprevious < 0) && (collision_rectangle(bbox_left + (x-xprevious), bbox_top+4, bbox_left, bbox_bottom-1, obj_mario, 0, 0)))
-				    || ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right + (x-xprevious), bbox_bottom-1, obj_mario, 0, 0)))
+				    if ((x-xprevious < 0) && (collision_rectangle(bbox_left - ((x-xprevious) * 2), bbox_top+4, bbox_left, bbox_bottom-1, obj_mario, 1, 0)))
+				    || ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top+4, bbox_right + ((x-xprevious) * 2), bbox_bottom-1, obj_mario, 1, 0)))
 				        obj_mario.x += x-xprevious;
 				}
 			}
@@ -162,8 +162,8 @@ if (issolid == true) {
 			&& (list_j[| j].bbox_bottom < bbox_bottom) {
 				
 				//Push it
-				if ((x-xprevious < 0) && (collision_rectangle(bbox_left-2, bbox_top, bbox_left, bbox_bottom, list_j[| j], 0, 0)))
-				|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top, bbox_right+2, bbox_bottom, list_j[| j], 0, 0)))
+				if ((x-xprevious < 0) && (collision_rectangle(bbox_left - ((x-xprevious) * 2), bbox_top, bbox_left, bbox_bottom, list_j[| j], 1, 0)))
+				|| ((x-xprevious > 0) && (collision_rectangle(bbox_right, bbox_top, bbox_right + ((x-xprevious) * 2), bbox_bottom, list_j[| j], 1, 0)))
 					list_j[| j].x += x-xprevious;
 			}
 		}
