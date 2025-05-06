@@ -16,7 +16,7 @@ edible = 2;
 turn_silver = 0;
 
 //Start at the top of the screen
-y -= 192;
+y -= 144;
 
 //State variable
 ready = 0;

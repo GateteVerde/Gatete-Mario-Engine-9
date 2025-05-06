@@ -25,17 +25,37 @@ if (freeze == false) {
 	}
 
 	//Stop after returning to the top, and restart the sequence
-	else if ((ready == 2) && (y < ystart - 191)) {
+	else if ((ready == 2) && (y < ystart - 145)) {
 
 		//Stop vertical movement
 		yspeed = 0;
-		y = ystart - 192;
+		y = ystart - 145;
 	
 		//Wait
 		ready = 0;
 		alarm[0] = 100;
 	}
 #endregion
+
+#region MARIO LOGIC
+
+	//Check for Mario
+	var mario = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + 1, obj_mario, 0, 0);
+	
+	//If Mario is right below and there's a collision right below Mario, crush him
+	if (yspeed > 0)
+	&& (mario) 
+	&& (collision_rectangle(mario.bbox_left, mario.bbox_bottom, mario.bbox_right, mario.bbox_bottom + 1, [obj_semisolid, obj_slopeparent], 0, 0)) {
+	
+		with (mario) {
+		
+			instance_create_depth(x, y, -5, obj_mario_dead);
+			instance_destroy();
+			exit;
+		}
+	}
+
+#endregion 
 
 //Collision with Mario
 with (obj_mario) {
