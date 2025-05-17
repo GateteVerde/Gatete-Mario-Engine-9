@@ -4,7 +4,7 @@
 event_inherited();
 
 //State
-state = "IDLE";
+state = "FALLING";
 
 //Speed
 st_spd = spd;

@@ -13,7 +13,8 @@ items = [
 for (var i=0; i < array_length(items); i++) {
 	
 	var projectile = collision_rectangle(bbox_left-5, bbox_top-5, bbox_right+4, bbox_bottom+4, items[i], 0, 0);
-	if (projectile) {
+	if (projectile) 
+	&& (projectile != obj_iceball) {
 	
 		//If the p-switch is active
 		if (obj_levelcontrol.pswitch_on) {
