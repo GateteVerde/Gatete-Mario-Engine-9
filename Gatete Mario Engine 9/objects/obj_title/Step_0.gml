@@ -819,7 +819,7 @@ key[7] = string(key_to_string(global.key[input.right]));
 menu[menupage.options, 2] = (obj_coordinator.colourblind == false) ? "COLOURBLIND MODE: OFF" : "COLOURBLIND MODE: ON";
 menu[menupage.options, 3] = "MUSIC VOLUME: " + string(round(obj_coordinator.music_vol * 100));
 menu[menupage.options, 4] = "SOUND VOLUME: " + string(round(obj_coordinator.sound_vol * 100));
-menu[menupage.options, 5] = "VOICE VOLUME: " + string(round(obj_coordinator.voice_vol * 100));
+menu[menupage.options, 5] = (obj_coordinator.voice_vol > 0) ? "VOICE VOLUME: " + string(round(obj_coordinator.voice_vol * 100)) : "VOICE VOLUME: SHUT UP MARIO!";
 menu[menupage.options, 6] = (obj_coordinator.autosave == false) ? "AUTO SAVE: OFF" : "AUTO SAVE: ON";
 menu[menupage.options, 7] = (obj_coordinator.vsync == false) ? "V-SYNC: OFF" : "V-SYNC: ON";
 menu[menupage.options, 8] = (obj_coordinator.showfps == false) ? "FPS: OFF" : "FPS: ON";

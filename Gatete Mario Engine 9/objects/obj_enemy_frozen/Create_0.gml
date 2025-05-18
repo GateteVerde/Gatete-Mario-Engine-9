@@ -28,3 +28,7 @@ alarm[0] = 480;
 
 //Destroy after 10 seconds
 alarm[1] = 600;
+
+//Prevent it from falling inside solids
+while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 1, 0))
+	y--;

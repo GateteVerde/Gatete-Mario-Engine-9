@@ -7,14 +7,17 @@ event_inherited();
 items = [
 
 	obj_fireball,
-	obj_fireball_gold
+	obj_fireball_gold,
+	obj_firebro_fireball,
+	obj_heavyfirebro_fireball
 ]
 
 for (var i=0; i < array_length(items); i++) {
 	
 	var projectile = collision_rectangle(bbox_left-5, bbox_top-5, bbox_right+4, bbox_bottom+4, items[i], 0, 0);
-	if (projectile)
-	&& (projectile != obj_iceball) {
+	if (projectile) 
+	&& (projectile.object_index != obj_iceball) 
+	&& (projectile.object_index != obj_icebro_iceball) {
 	
 		//Create a muncher		
 		with (instance_create_depth(x, y, layer_get_depth("Main"), obj_muncher)) {
