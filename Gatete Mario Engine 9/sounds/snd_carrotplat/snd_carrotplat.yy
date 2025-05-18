@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.072125,
+  "duration":0.07213152,
   "name":"snd_carrotplat",
   "parent":{
     "name":"Item",

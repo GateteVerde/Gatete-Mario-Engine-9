@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.13375,
+  "duration":1.1337641,
   "name":"snd_phanto_bg",
   "parent":{
     "name":"Enemy",

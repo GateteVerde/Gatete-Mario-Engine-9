@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.222585,
+  "duration":1.9638776,
   "name":"snd_hurry",
   "parent":{
     "name":"Menu",

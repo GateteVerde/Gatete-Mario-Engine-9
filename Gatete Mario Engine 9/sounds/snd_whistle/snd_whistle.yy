@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.826213,
+  "duration":0.8262132,
   "name":"snd_whistle",
   "parent":{
     "name":"Item",
