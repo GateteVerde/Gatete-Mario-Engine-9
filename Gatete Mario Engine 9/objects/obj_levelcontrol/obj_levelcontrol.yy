@@ -44,6 +44,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"inisection","filters":[],"listItems":[
         "\"No Music\"",
+        "\"Airship\"",
         "\"Athletic\"",
         "\"Battle\"",
         "\"Before Boss\"",
