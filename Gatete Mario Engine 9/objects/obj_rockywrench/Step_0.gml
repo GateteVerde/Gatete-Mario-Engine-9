@@ -39,7 +39,7 @@ else if (ready == 3) {
 if (instance_exists(obj_mario)) {
 	
 	//Change stomp value
-	stomp = (obj_mario.yadd > 0) ? 0 : 3;
+	stomp = (obj_mario.state == 2) ? 0 : 3;
 	
 	//Change semisolid
 	mytop.y = (stomp == 3) ? y : -1000;

@@ -2025,6 +2025,7 @@
     {"id":{"name":"spr_bell","path":"sprites/spr_bell/spr_bell.yy",},},
     {"id":{"name":"spr_berry_g","path":"sprites/spr_berry_g/spr_berry_g.yy",},},
     {"id":{"name":"spr_berry","path":"sprites/spr_berry/spr_berry.yy",},},
+    {"id":{"name":"spr_bgr_airship","path":"sprites/spr_bgr_airship/spr_bgr_airship.yy",},},
     {"id":{"name":"spr_bgr_blocks","path":"sprites/spr_bgr_blocks/spr_bgr_blocks.yy",},},
     {"id":{"name":"spr_bgr_bonus_b","path":"sprites/spr_bgr_bonus_b/spr_bgr_bonus_b.yy",},},
     {"id":{"name":"spr_bgr_bonus","path":"sprites/spr_bgr_bonus/spr_bgr_bonus.yy",},},

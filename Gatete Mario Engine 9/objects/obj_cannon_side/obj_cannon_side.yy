@@ -36,7 +36,7 @@
         "135",
         "225",
         "315",
-      ],"multiselect":false,"name":"direct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"45","varType":6,},
+      ],"multiselect":false,"name":"direct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"45","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
