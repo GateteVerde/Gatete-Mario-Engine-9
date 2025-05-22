@@ -69,9 +69,10 @@ if (status == mapstate.idle)
 			
 			#region DEBUG KEYS (Put this in between /* */ before releasing your game)
 			
-				//Open adyacent paths
+				/*Open adyacent paths
 				if (input_check_pressed(vk_backspace))
 					event_user(15);
+				*/
 				
 			#endregion
     

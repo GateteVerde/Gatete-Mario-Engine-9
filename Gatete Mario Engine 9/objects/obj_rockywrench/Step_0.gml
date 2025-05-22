@@ -42,7 +42,7 @@ if (instance_exists(obj_mario)) {
 	stomp = (obj_mario.state == 2) ? 0 : 3;
 	
 	//Change semisolid
-	mytop.y = (stomp == 3) ? y : -1000;
+	mytop.y = (obj_mario.state == 2) ? y : -1000;
 	
 	//Face towards Mario
 	if (obj_mario.x > x)
