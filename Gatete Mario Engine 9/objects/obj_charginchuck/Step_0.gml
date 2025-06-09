@@ -5,19 +5,15 @@ event_inherited();
 
 #region JUMP
 
-	//Push value
-	xx = abs(xspeed);
-
 	//If running or jumping
-	if (sprite_index == spr_charginchuck_walk) 
-	|| (sprite_index == spr_charginchuck_jump) {
+	if (sprite_index == spr_charginchuck_walk) {
 
 		//Jump when a wall is reached
-		if ((xspeed < 0) && (collision_rectangle(bbox_left+xspeed*2, bbox_top+4, bbox_left+xspeed*2, bbox_bottom-1, obj_solid, 0, 0)))
-		|| ((xspeed > 0) && (collision_rectangle(bbox_right+xspeed*2, bbox_top+4, bbox_right+xspeed*2, bbox_bottom-1, obj_solid, 0, 0))) {
+		if ((xspeed < 0) && (collision_rectangle(bbox_left + xspeed - 1, bbox_top + 4, bbox_left - 1, bbox_bottom - 1, obj_solid, 0, 0)))
+		|| ((xspeed > 0) && (collision_rectangle(bbox_right + 1, bbox_top + 4, bbox_right + xspeed + 2, bbox_bottom - 1, obj_solid, 0, 0))) {
     
 			//If there's no gravity, hop
-			if (yadd == 0) {
+			if ((yadd == 0) && (jumping == 0)) {
         
 			    //Set the jumping sprite
 			    sprite_index = spr_charginchuck_jump;
@@ -27,22 +23,19 @@ event_inherited();
 			    image_index = 0;
             
 			    //Set the vertical speed
-			    yspeed = -4.5;
+			    yspeed = -5;
             
 			    //Boost jump
 			    y--;
+				
+				//Set jumping
+				jumping = 1;
 			}
 		}
-    
-		//Move away from walls
-		if ((xspeed < 0) && (collision_rectangle(bbox_left+xspeed, bbox_top+4, bbox_left+xspeed, bbox_bottom-1, obj_solid, 0, 0)))
-			x += xx;
-		if ((xspeed > 0) && (collision_rectangle(bbox_right+xspeed, bbox_top+4, bbox_right+xspeed, bbox_bottom-1, obj_solid, 0, 0)))
-			x -= xx;    
 	}
 
 	//Otherwise if damaged
-	else {
+	else if (sprite_index == spr_charginchuck_damage) {
     
 		//If there's no gravity
 		if (yadd == 0) {
@@ -54,35 +47,19 @@ event_inherited();
 			if (image_speed == 0)
 			    image_speed = 1;
 		}
-    
-		//Move away from walls
-		if ((xspeed < 0) && (collision_rectangle(bbox_left+xspeed, bbox_top+4, bbox_left+xspeed, bbox_bottom-1, obj_solid, 0, 0)))
-			x += xx;
-		if ((xspeed > 0) && (collision_rectangle(bbox_right+xspeed, bbox_top+4, bbox_right+hspeed, bbox_bottom-1, obj_solid, 0, 0)))
-			x -= xx;
 	}	
+	
+	//Move away from walls
+	while ((xspeed < 0) && (collision_rectangle(bbox_left + xspeed - 1, bbox_top + 4, bbox_left - 1, bbox_bottom - 1, obj_solid, 0, 0)))
+		x += abs(xspeed);
+	while ((xspeed > 0) && (collision_rectangle(bbox_right + 1, bbox_top + 4, bbox_right + xspeed + 2, bbox_bottom - 1, obj_solid, 0, 0)))
+		x -= abs(xspeed);
 #endregion
 
 #region LOGIC
 
 	//If there's no gravity
-	if ((yadd == 0) && (yspeed == 0)) {
-		
-		//If jumping...
-	    if (sprite_index == spr_charginchuck_jump) {
-    
-	        //Set the running sprite
-	        sprite_index = spr_charginchuck_walk;
-        
-	        //Set frame
-	        image_index = 1;
-        
-	        //Set horizontal speed
-	        if (lookout == 0)
-	            image_speed = 0.5;
-	        else
-	            image_speed = 1;        
-	    }
+	if (yadd == 0) {
     
 	    //If Mario does exist
 	    if (instance_exists(obj_mario)) {
@@ -127,15 +104,24 @@ event_inherited();
                     
 	                    //Set animation speed
 	                    image_speed = 1;
-                    
-	                    //If there's not gravity, set dash sprite
-	                    if (yadd == 0)
-	                        sprite_index = spr_charginchuck_walk;
 	                }
 	            }
 	        }
-	    }
+		}
 	}
+	
+	//Set chargin' frame when falling
+	else if (jumping == 1) && (yspeed > 0) {
+		
+		//Set sprite
+		sprite_index = spr_charginchuck_walk;
+		image_speed = 1;
+		image_index = 0;
+		
+		//Allow jump
+		jumping = 0;
+	}
+		
 #endregion
 
 //If not moving

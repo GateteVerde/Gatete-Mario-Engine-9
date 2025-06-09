@@ -52,3 +52,6 @@ else {
     else
         xspeed = (swimming) ? 0.875 : 1.75;
 }
+
+//Allow jumping
+jumping = 0;

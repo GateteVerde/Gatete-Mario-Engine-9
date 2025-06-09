@@ -1,3 +1,3 @@
 /// @description Left Ceiling Gentle Slope
 
-dir = -1;
+dir = 1;

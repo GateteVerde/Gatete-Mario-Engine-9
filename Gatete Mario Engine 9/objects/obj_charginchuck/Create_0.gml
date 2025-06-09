@@ -25,6 +25,9 @@ firehp = 4;
 //Whether this enemy is lookin' for Mario
 lookout = -1;
 
+//Whether this enemy is jumping a obstacle
+jumping = 0;
+
 //Do not animate
 image_speed = 0;
 image_index = 0;

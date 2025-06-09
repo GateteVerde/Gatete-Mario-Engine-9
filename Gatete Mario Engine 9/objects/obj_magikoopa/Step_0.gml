@@ -79,7 +79,8 @@ else if (ready == 3) {
         while (semisolid)
         && (ready == 3)
         && (!in_tile)
-        && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 0, 1)) {
+        && (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 0, 1)) 
+		&& (!collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + 7, obj_lava, 0, 1)) {
             
             //Snap above the semisolid
             y = semisolid.bbox_top-16;

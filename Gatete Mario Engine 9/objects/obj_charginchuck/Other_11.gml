@@ -1,6 +1,9 @@
 /// @description Hurt the enemy
 
 if (sprite_index != spr_charginchuck_damage) {
+	
+	//Force end jumping
+	jumping = 0;
 
     //If the NPC still has HP left
     if (hp > 0) {

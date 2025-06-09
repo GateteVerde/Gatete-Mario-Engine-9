@@ -230,3 +230,8 @@ else {
         xspeed = xspeed*2;
     }
 }
+
+//Destroy when outside the room
+if (!held)
+&& (bbox_top > room_height + 32)
+	instance_destroy();

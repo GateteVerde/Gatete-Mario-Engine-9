@@ -1,8 +1,5 @@
 /// @description Mario has died!
 
-//Play 'Mamamia' sound
-play_voiceline(global.voiceline_mamamia, 0, false);
-
 //Checks if the time has run out
 timeup = 0;
 
@@ -11,6 +8,9 @@ image_speed = 0;
 
 //Play 'Dead / Time Up' fanfare
 alarm[3] = 1;
+
+//Play voice line
+alarm[4] = 12;
 
 //Freeze all physicsparent object
 with (obj_physicsparent) event_user(13);
