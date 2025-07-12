@@ -67,12 +67,12 @@ if (status == mapstate.idle)
 					boxselection = 1;
 			}
 			
-			#region DEBUG KEYS (Put this in between /* */ before releasing your game)
+			#region DEBUG KEYS (Run the game in debug mode to unlock adyacent paths)
 			
-				/*Open adyacent paths
+				//Open adyacent paths
 				if (input_check_pressed(vk_backspace))
+				&& (debug_mode)
 					event_user(15);
-				*/
 				
 			#endregion
     

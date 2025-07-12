@@ -21,8 +21,8 @@ yadd = 0;
 	var wall_r = collision_rectangle(bbox_right, bbox_top, bbox_right+1, bbox_bottom, obj_solid, 1, 0);
 
 	//If moving horizontally
-	if ((xspeed < 0) && ((wall_l) && (wall_l.object_index != obj_slopeparent_ceiling)))
-	|| ((xspeed > 0) && ((wall_r) && (wall_r.object_index != obj_slopeparent_ceiling)))
+	if ((xspeed < 0) && ((wall_l) && (wall_l.dir == 0)))
+	|| ((xspeed > 0) && ((wall_r) && (wall_r.dir == 0)))
 		event_user(0);
 #endregion
 
@@ -44,7 +44,7 @@ yadd = 0;
 	if (yspeed <= 0) {
 		
 		//Check for a ceiling
-		var ceiling = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 1, 0);
+		var ceiling = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, [obj_solid, obj_slopeparent_ceiling], 1, 0);
 		
 		//If a ceiling exists
 		if (ceiling) {
@@ -80,7 +80,7 @@ yadd = 0;
 				    }
 				    else {
 						
-						if ((variable_instance_exists(ceiling, "dir")) && (dir != 0)) {
+						if ((variable_instance_exists(ceiling, "dir")) && (ceiling.dir != 0)) {
 
 					        xspeed = 6*sign(ceiling.dir);
 					        yspeed = 0;
