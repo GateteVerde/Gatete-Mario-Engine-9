@@ -25,5 +25,8 @@ inv = 0;
 //Speed multiplier
 increment = 1;
 
+//Prevents a bug with ice balls
+ready = 0;
+
 //Do not animate
 image_speed = 0;
