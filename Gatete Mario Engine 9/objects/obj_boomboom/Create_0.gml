@@ -25,7 +25,7 @@ inv = 0;
 //Speed multiplier
 increment = 1;
 
-//Prevents a bug with ice balls
+//Whether this enemy has been stomped or defeated
 ready = 0;
 
 //Do not animate
