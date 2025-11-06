@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_blastakoopa_missile",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"22f6ef08-fb13-40b5-9498-45a4c3253ae3","name":"22f6ef08-fb13-40b5-9498-45a4c3253ae3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"11657e9d-a745-4888-9211-c73b8cd86d3e","name":"11657e9d-a745-4888-9211-c73b8cd86d3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22f6ef08-fb13-40b5-9498-45a4c3253ae3","name":"22f6ef08-fb13-40b5-9498-45a4c3253ae3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"11657e9d-a745-4888-9211-c73b8cd86d3e","name":"11657e9d-a745-4888-9211-c73b8cd86d3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_montymole_dig",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d9969647-769a-40d1-acc4-179d79e552a6","name":"d9969647-769a-40d1-acc4-179d79e552a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"022dd69a-dad9-4259-b498-3e4765c40937","name":"022dd69a-dad9-4259-b498-3e4765c40937","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d9969647-769a-40d1-acc4-179d79e552a6","name":"d9969647-769a-40d1-acc4-179d79e552a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"022dd69a-dad9-4259-b498-3e4765c40937","name":"022dd69a-dad9-4259-b498-3e4765c40937","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

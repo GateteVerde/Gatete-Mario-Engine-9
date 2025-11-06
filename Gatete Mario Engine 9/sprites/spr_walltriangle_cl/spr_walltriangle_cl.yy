@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_walltriangle_cl",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6531b59d-e062-4746-94c7-3b36bc90c86e","name":"6531b59d-e062-4746-94c7-3b36bc90c86e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6531b59d-e062-4746-94c7-3b36bc90c86e","name":"6531b59d-e062-4746-94c7-3b36bc90c86e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

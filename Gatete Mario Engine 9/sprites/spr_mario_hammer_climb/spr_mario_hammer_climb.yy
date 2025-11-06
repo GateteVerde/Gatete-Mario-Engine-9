@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_hammer_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"34cd2045-c995-46d0-b602-9b92bf929f49","name":"34cd2045-c995-46d0-b602-9b92bf929f49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d3dc86d0-8675-4727-8b58-7fd63c3eaaa4","name":"d3dc86d0-8675-4727-8b58-7fd63c3eaaa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"34cd2045-c995-46d0-b602-9b92bf929f49","name":"34cd2045-c995-46d0-b602-9b92bf929f49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d3dc86d0-8675-4727-8b58-7fd63c3eaaa4","name":"d3dc86d0-8675-4727-8b58-7fd63c3eaaa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

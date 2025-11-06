@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_carrot_goal",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"edaf919a-12a9-496e-bae3-43d5783d8677","name":"edaf919a-12a9-496e-bae3-43d5783d8677","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"edaf919a-12a9-496e-bae3-43d5783d8677","name":"edaf919a-12a9-496e-bae3-43d5783d8677","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","name":"85fc4188-75f2-4c5e-8377-b9efaf7c5036","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

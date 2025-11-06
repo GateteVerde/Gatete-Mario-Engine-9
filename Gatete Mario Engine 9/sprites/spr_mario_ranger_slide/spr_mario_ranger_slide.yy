@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_ranger_slide",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","name":"9b908c82-4dc9-4a36-9cc7-4d21c3ddc087","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

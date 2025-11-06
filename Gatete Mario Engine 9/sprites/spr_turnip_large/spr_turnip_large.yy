@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_turnip_large",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ca444bf7-4932-4cb4-a36e-3d613c6ee393","name":"ca444bf7-4932-4cb4-a36e-3d613c6ee393","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ca444bf7-4932-4cb4-a36e-3d613c6ee393","name":"ca444bf7-4932-4cb4-a36e-3d613c6ee393","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

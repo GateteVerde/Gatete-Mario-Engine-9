@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_cardsong_match",
   "audioGroupId":{
     "name":"audiogroup_music",
     "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":5.159375,
+  "exportDir":"",
   "name":"snd_cardsong_match",
   "parent":{
     "name":"SMB3",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_cardsong_match.wav",
-  "type":0,
   "volume":1.0,
 }

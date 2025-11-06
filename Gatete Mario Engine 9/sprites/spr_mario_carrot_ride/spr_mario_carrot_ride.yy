@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_carrot_ride",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5f78d666-56f6-4030-902f-65425389a3b1","name":"5f78d666-56f6-4030-902f-65425389a3b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1568ea27-e7d2-4dfe-a8d4-2fd661188ae9","name":"1568ea27-e7d2-4dfe-a8d4-2fd661188ae9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f78d666-56f6-4030-902f-65425389a3b1","name":"5f78d666-56f6-4030-902f-65425389a3b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1568ea27-e7d2-4dfe-a8d4-2fd661188ae9","name":"1568ea27-e7d2-4dfe-a8d4-2fd661188ae9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

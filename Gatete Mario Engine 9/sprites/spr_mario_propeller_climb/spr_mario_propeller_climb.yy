@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_propeller_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"77d9b097-4d75-452b-80bb-77e78b681ccb","name":"77d9b097-4d75-452b-80bb-77e78b681ccb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"64bd0fe3-eeaf-4f48-b0fa-d05723c68a08","name":"64bd0fe3-eeaf-4f48-b0fa-d05723c68a08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77d9b097-4d75-452b-80bb-77e78b681ccb","name":"77d9b097-4d75-452b-80bb-77e78b681ccb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"64bd0fe3-eeaf-4f48-b0fa-d05723c68a08","name":"64bd0fe3-eeaf-4f48-b0fa-d05723c68a08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

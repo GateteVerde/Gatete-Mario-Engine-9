@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_beachkoopa_cape",
   "bboxMode":0,
   "bbox_bottom":2,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8e2452bb-fe23-491c-841a-34196ce919b3","name":"8e2452bb-fe23-491c-841a-34196ce919b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8e2452bb-fe23-491c-841a-34196ce919b3","name":"8e2452bb-fe23-491c-841a-34196ce919b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_busterbeetle_hold",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e7b0c17c-d3a0-4c7b-a50b-41fcb08a018a","name":"e7b0c17c-d3a0-4c7b-a50b-41fcb08a018a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e7b0c17c-d3a0-4c7b-a50b-41fcb08a018a","name":"e7b0c17c-d3a0-4c7b-a50b-41fcb08a018a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

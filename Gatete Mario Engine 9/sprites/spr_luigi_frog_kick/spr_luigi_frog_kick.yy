@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_frog_kick",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","name":"4ff77977-e498-4af9-a8f1-cbb33a89c678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","name":"001fa744-55f2-4482-85f8-6569e4c6f5a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

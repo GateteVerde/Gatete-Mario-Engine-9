@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_mushroom_extend",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0f502a29-90e9-4c0f-9815-1891334ba6fd","name":"0f502a29-90e9-4c0f-9815-1891334ba6fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f502a29-90e9-4c0f-9815-1891334ba6fd","name":"0f502a29-90e9-4c0f-9815-1891334ba6fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

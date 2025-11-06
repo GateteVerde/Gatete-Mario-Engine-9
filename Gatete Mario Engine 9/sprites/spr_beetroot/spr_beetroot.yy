@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_beetroot",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e45c43af-81ac-4aa1-b4d9-204cf7ebfad3","name":"e45c43af-81ac-4aa1-b4d9-204cf7ebfad3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e45c43af-81ac-4aa1-b4d9-204cf7ebfad3","name":"e45c43af-81ac-4aa1-b4d9-204cf7ebfad3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

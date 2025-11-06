@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_raccoon_pull",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"304f4427-f2ea-4b35-a168-69cbcc356968","name":"304f4427-f2ea-4b35-a168-69cbcc356968","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"de710f30-8e29-448d-8346-e8cf4a38d55c","name":"de710f30-8e29-448d-8346-e8cf4a38d55c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"304f4427-f2ea-4b35-a168-69cbcc356968","name":"304f4427-f2ea-4b35-a168-69cbcc356968","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"de710f30-8e29-448d-8346-e8cf4a38d55c","name":"de710f30-8e29-448d-8346-e8cf4a38d55c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

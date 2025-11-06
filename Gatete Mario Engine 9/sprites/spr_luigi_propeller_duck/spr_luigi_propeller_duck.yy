@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_propeller_duck",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","name":"22a1fbe1-8555-45a1-84d9-fb177ea9e877","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","name":"7f9ba356-0dc3-4748-b99b-0f1b61e6fc51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","name":"acb3de21-38d6-4c84-8ae9-4a7be6fac6b4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

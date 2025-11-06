@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_cheepcheep_bomb",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"55bb21df-e072-4852-95a0-1c050c9e7a93","name":"55bb21df-e072-4852-95a0-1c050c9e7a93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55bb21df-e072-4852-95a0-1c050c9e7a93","name":"55bb21df-e072-4852-95a0-1c050c9e7a93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

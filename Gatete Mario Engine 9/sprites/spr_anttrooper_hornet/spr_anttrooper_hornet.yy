@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_anttrooper_hornet",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3f6aa77b-c109-43c3-9915-ddc82e7954d1","name":"3f6aa77b-c109-43c3-9915-ddc82e7954d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"37f20f6b-5c25-4c77-8798-7478e6f8a5bd","name":"37f20f6b-5c25-4c77-8798-7478e6f8a5bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f6aa77b-c109-43c3-9915-ddc82e7954d1","name":"3f6aa77b-c109-43c3-9915-ddc82e7954d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37f20f6b-5c25-4c77-8798-7478e6f8a5bd","name":"37f20f6b-5c25-4c77-8798-7478e6f8a5bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

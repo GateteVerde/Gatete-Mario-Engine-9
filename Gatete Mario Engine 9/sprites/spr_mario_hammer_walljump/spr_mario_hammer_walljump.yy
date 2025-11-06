@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_hammer_walljump",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2d128182-74ec-43bf-9e47-ab8c243755f1","name":"2d128182-74ec-43bf-9e47-ab8c243755f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2d128182-74ec-43bf-9e47-ab8c243755f1","name":"2d128182-74ec-43bf-9e47-ab8c243755f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

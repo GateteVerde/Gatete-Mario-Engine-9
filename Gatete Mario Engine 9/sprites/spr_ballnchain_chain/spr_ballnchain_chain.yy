@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ballnchain_chain",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c7b580f2-99dc-4717-b40d-1fad8a130142","name":"c7b580f2-99dc-4717-b40d-1fad8a130142","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7b580f2-99dc-4717-b40d-1fad8a130142","name":"c7b580f2-99dc-4717-b40d-1fad8a130142","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bowserstatue_fire",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"16553c62-6d3d-4100-a967-f3b8c910cfcb","name":"16553c62-6d3d-4100-a967-f3b8c910cfcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"49265bc7-3a3d-4f1b-9c0f-12e74026a69e","name":"49265bc7-3a3d-4f1b-9c0f-12e74026a69e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"16553c62-6d3d-4100-a967-f3b8c910cfcb","name":"16553c62-6d3d-4100-a967-f3b8c910cfcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"49265bc7-3a3d-4f1b-9c0f-12e74026a69e","name":"49265bc7-3a3d-4f1b-9c0f-12e74026a69e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

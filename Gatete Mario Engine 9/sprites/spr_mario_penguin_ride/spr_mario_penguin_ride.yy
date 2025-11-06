@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_penguin_ride",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b62aaba0-2e3f-4035-ae74-b44c59eb2796","name":"b62aaba0-2e3f-4035-ae74-b44c59eb2796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c9cf64eb-f355-4fae-9e0b-e1bbac029860","name":"c9cf64eb-f355-4fae-9e0b-e1bbac029860","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b62aaba0-2e3f-4035-ae74-b44c59eb2796","name":"b62aaba0-2e3f-4035-ae74-b44c59eb2796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9cf64eb-f355-4fae-9e0b-e1bbac029860","name":"c9cf64eb-f355-4fae-9e0b-e1bbac029860","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

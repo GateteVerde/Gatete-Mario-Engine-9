@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_boomerang_ride",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8887907a-984e-4922-8e39-c81dde8fa9bb","name":"8887907a-984e-4922-8e39-c81dde8fa9bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d2cc07ba-e486-44bb-bff3-c9022b99caeb","name":"d2cc07ba-e486-44bb-bff3-c9022b99caeb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8887907a-984e-4922-8e39-c81dde8fa9bb","name":"8887907a-984e-4922-8e39-c81dde8fa9bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d2cc07ba-e486-44bb-bff3-c9022b99caeb","name":"d2cc07ba-e486-44bb-bff3-c9022b99caeb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

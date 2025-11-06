@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_boomerang_somersault",
   "bboxMode":0,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8942d0db-e307-44a1-8588-0d170a06e0d6","name":"8942d0db-e307-44a1-8588-0d170a06e0d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8942d0db-e307-44a1-8588-0d170a06e0d6","name":"8942d0db-e307-44a1-8588-0d170a06e0d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

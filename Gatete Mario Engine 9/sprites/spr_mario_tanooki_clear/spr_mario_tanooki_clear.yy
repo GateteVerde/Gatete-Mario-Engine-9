@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_tanooki_clear",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3772da5d-e1b1-4832-8ff3-d77d3a5f1209","name":"3772da5d-e1b1-4832-8ff3-d77d3a5f1209","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3772da5d-e1b1-4832-8ff3-d77d3a5f1209","name":"3772da5d-e1b1-4832-8ff3-d77d3a5f1209","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

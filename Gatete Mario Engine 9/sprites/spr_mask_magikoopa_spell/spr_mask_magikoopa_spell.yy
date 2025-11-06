@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mask_magikoopa_spell",
   "bboxMode":0,
   "bbox_bottom":10,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","name":"01097329-b421-4fa8-bd77-4c7cf8356fa2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

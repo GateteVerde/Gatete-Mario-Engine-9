@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_wanderingpit",
   "bboxMode":2,
   "bbox_bottom":3,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"27b8d4d7-cf52-46c5-bdc9-3b0467431a0e","name":"27b8d4d7-cf52-46c5-bdc9-3b0467431a0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27b8d4d7-cf52-46c5-bdc9-3b0467431a0e","name":"27b8d4d7-cf52-46c5-bdc9-3b0467431a0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

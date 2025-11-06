@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_trampoline",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3e8ba40f-b750-452f-91e3-04c5b8eec9ac","name":"3e8ba40f-b750-452f-91e3-04c5b8eec9ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3e8ba40f-b750-452f-91e3-04c5b8eec9ac","name":"3e8ba40f-b750-452f-91e3-04c5b8eec9ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

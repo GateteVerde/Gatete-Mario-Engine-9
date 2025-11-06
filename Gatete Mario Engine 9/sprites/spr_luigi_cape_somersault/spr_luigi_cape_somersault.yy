@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_cape_somersault",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"21ff74c4-599c-45b7-b9fd-b828185b7ebe","name":"21ff74c4-599c-45b7-b9fd-b828185b7ebe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"21ff74c4-599c-45b7-b9fd-b828185b7ebe","name":"21ff74c4-599c-45b7-b9fd-b828185b7ebe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

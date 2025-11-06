@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_small_walk",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"af3f8f8a-70d7-4ae9-909a-d2fa99d44fc6","name":"af3f8f8a-70d7-4ae9-909a-d2fa99d44fc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ad291dad-5a7b-451c-b2b8-18dd457ccca8","name":"ad291dad-5a7b-451c-b2b8-18dd457ccca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"af3f8f8a-70d7-4ae9-909a-d2fa99d44fc6","name":"af3f8f8a-70d7-4ae9-909a-d2fa99d44fc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad291dad-5a7b-451c-b2b8-18dd457ccca8","name":"ad291dad-5a7b-451c-b2b8-18dd457ccca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

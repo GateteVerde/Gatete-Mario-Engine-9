@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_goldenflower",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7e4cec74-3e03-4e09-ad2f-c2d9189a6b67","name":"7e4cec74-3e03-4e09-ad2f-c2d9189a6b67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7e4cec74-3e03-4e09-ad2f-c2d9189a6b67","name":"7e4cec74-3e03-4e09-ad2f-c2d9189a6b67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

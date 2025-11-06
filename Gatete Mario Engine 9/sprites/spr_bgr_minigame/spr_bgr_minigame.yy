@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bgr_minigame",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"683d6ee4-7c1f-4104-95d2-06c981148396","name":"683d6ee4-7c1f-4104-95d2-06c981148396","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"683d6ee4-7c1f-4104-95d2-06c981148396","name":"683d6ee4-7c1f-4104-95d2-06c981148396","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","name":"14ca6bbc-540d-44e4-b4dc-c8b7619312e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

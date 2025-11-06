@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_spike_ball",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bf939dad-6d25-4dfd-9993-f85dbc9d9a80","name":"bf939dad-6d25-4dfd-9993-f85dbc9d9a80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bf939dad-6d25-4dfd-9993-f85dbc9d9a80","name":"bf939dad-6d25-4dfd-9993-f85dbc9d9a80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

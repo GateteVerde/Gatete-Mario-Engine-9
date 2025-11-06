@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_beeshroom",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c7d29cbb-edf5-44fd-9878-c4b86a80cbb8","name":"c7d29cbb-edf5-44fd-9878-c4b86a80cbb8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7d29cbb-edf5-44fd-9878-c4b86a80cbb8","name":"c7d29cbb-edf5-44fd-9878-c4b86a80cbb8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_football",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"83b1ee1b-b7ec-45fb-b763-83dd68783183","name":"83b1ee1b-b7ec-45fb-b763-83dd68783183","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ec9e0502-2346-4075-bca3-ec1cc357b9f7","name":"ec9e0502-2346-4075-bca3-ec1cc357b9f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83b1ee1b-b7ec-45fb-b763-83dd68783183","name":"83b1ee1b-b7ec-45fb-b763-83dd68783183","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ec9e0502-2346-4075-bca3-ec1cc357b9f7","name":"ec9e0502-2346-4075-bca3-ec1cc357b9f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

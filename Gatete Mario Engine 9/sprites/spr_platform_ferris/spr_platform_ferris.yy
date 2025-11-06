@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_platform_ferris",
   "bboxMode":2,
   "bbox_bottom":3,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fad19926-d3c4-4486-b7c7-70e058fb1ae9","name":"fad19926-d3c4-4486-b7c7-70e058fb1ae9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fad19926-d3c4-4486-b7c7-70e058fb1ae9","name":"fad19926-d3c4-4486-b7c7-70e058fb1ae9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_carrot_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"168e2d97-95eb-44f2-abf3-ba18b6fe405d","name":"168e2d97-95eb-44f2-abf3-ba18b6fe405d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9d85ecbf-2e64-4fe4-b5b1-5bf44f231b8a","name":"9d85ecbf-2e64-4fe4-b5b1-5bf44f231b8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"168e2d97-95eb-44f2-abf3-ba18b6fe405d","name":"168e2d97-95eb-44f2-abf3-ba18b6fe405d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d85ecbf-2e64-4fe4-b5b1-5bf44f231b8a","name":"9d85ecbf-2e64-4fe4-b5b1-5bf44f231b8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

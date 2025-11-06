@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mushroom_trampoline",
   "bboxMode":2,
   "bbox_bottom":3,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0a7a4178-9f3b-4668-85d9-3a5d791e4680","name":"0a7a4178-9f3b-4668-85d9-3a5d791e4680","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"54d72e9b-550a-49d3-a109-42d51cf87458","name":"54d72e9b-550a-49d3-a109-42d51cf87458","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0a7a4178-9f3b-4668-85d9-3a5d791e4680","name":"0a7a4178-9f3b-4668-85d9-3a5d791e4680","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54d72e9b-550a-49d3-a109-42d51cf87458","name":"54d72e9b-550a-49d3-a109-42d51cf87458","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

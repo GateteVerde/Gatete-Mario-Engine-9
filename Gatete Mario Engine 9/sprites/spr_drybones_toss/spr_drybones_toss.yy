@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_drybones_toss",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","name":"5cf651b8-a53b-4d6b-83a8-2431e9263c9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","name":"62262a30-72eb-439f-a4e4-b077ed4b5e02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

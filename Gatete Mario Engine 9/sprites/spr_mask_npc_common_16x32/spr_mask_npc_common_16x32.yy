@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mask_npc_common_16x32",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"99cbf556-432b-4c6f-a009-3f49c1d68e2c","name":"99cbf556-432b-4c6f-a009-3f49c1d68e2c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99cbf556-432b-4c6f-a009-3f49c1d68e2c","name":"99cbf556-432b-4c6f-a009-3f49c1d68e2c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

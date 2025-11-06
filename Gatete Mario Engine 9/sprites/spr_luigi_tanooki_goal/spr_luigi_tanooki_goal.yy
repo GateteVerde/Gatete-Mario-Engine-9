@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_tanooki_goal",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3986acb4-c341-489d-8bb5-cd9387858ce7","name":"3986acb4-c341-489d-8bb5-cd9387858ce7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3986acb4-c341-489d-8bb5-cd9387858ce7","name":"3986acb4-c341-489d-8bb5-cd9387858ce7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","name":"95d40ba4-7ab0-4425-9285-c07212a37fb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

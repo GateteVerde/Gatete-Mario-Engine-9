@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mechakoopa_sq2",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"289d1026-d4d4-49f8-957b-0a2c858b1d8a","name":"289d1026-d4d4-49f8-957b-0a2c858b1d8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cb1deb53-7b96-451c-b73a-6e1874490b91","name":"cb1deb53-7b96-451c-b73a-6e1874490b91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"289d1026-d4d4-49f8-957b-0a2c858b1d8a","name":"289d1026-d4d4-49f8-957b-0a2c858b1d8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb1deb53-7b96-451c-b73a-6e1874490b91","name":"cb1deb53-7b96-451c-b73a-6e1874490b91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

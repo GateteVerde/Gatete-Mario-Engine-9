@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_propeller_slide",
   "bboxMode":0,
   "bbox_bottom":33,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"340a73f5-938b-4a56-b96b-fabcc1258d6c","name":"340a73f5-938b-4a56-b96b-fabcc1258d6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"340a73f5-938b-4a56-b96b-fabcc1258d6c","name":"340a73f5-938b-4a56-b96b-fabcc1258d6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

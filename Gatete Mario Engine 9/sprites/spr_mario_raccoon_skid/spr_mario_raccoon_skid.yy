@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_raccoon_skid",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"084cf749-2cfd-419d-819d-0ca9f4e2f8f4","name":"084cf749-2cfd-419d-819d-0ca9f4e2f8f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"084cf749-2cfd-419d-819d-0ca9f4e2f8f4","name":"084cf749-2cfd-419d-819d-0ca9f4e2f8f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_goomba_wings",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"99840047-df64-4c93-85f1-382c2ca3cc42","name":"99840047-df64-4c93-85f1-382c2ca3cc42","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","name":"4ee7cdad-3ae4-435e-aa86-81cc80461c09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99840047-df64-4c93-85f1-382c2ca3cc42","name":"99840047-df64-4c93-85f1-382c2ca3cc42","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

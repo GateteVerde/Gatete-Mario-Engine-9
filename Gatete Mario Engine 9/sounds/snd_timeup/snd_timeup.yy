@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_timeup",
   "audioGroupId":{
     "name":"audiogroup_music",
     "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":3.365625,
+  "exportDir":"",
   "name":"snd_timeup",
   "parent":{
     "name":"Fanfares",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_timeup.ogg",
-  "type":0,
   "volume":1.0,
 }

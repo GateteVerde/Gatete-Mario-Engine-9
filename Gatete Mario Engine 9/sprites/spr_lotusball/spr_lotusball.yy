@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lotusball",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dd9d7e72-15c2-4ee6-aac6-cf3bd161f9a9","name":"dd9d7e72-15c2-4ee6-aac6-cf3bd161f9a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"823c8a89-c06a-471d-b089-8a784479ea78","name":"823c8a89-c06a-471d-b089-8a784479ea78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd9d7e72-15c2-4ee6-aac6-cf3bd161f9a9","name":"dd9d7e72-15c2-4ee6-aac6-cf3bd161f9a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"823c8a89-c06a-471d-b089-8a784479ea78","name":"823c8a89-c06a-471d-b089-8a784479ea78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_shard_wood",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bae307d7-77dd-4719-ab03-086031a0670e","name":"bae307d7-77dd-4719-ab03-086031a0670e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c7b33e24-f3eb-40fb-a7bb-1ee61a13f0a6","name":"c7b33e24-f3eb-40fb-a7bb-1ee61a13f0a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bae307d7-77dd-4719-ab03-086031a0670e","name":"bae307d7-77dd-4719-ab03-086031a0670e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7b33e24-f3eb-40fb-a7bb-1ee61a13f0a6","name":"c7b33e24-f3eb-40fb-a7bb-1ee61a13f0a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

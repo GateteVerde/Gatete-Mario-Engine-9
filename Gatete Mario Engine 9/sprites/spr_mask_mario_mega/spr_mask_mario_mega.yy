@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mask_mario_mega",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5287910b-b03e-46db-97f6-f5410cac26b8","name":"5287910b-b03e-46db-97f6-f5410cac26b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5287910b-b03e-46db-97f6-f5410cac26b8","name":"5287910b-b03e-46db-97f6-f5410cac26b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_engine_rope",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"514af717-a7fc-4ac8-9d25-5d88eca13dfb","name":"514af717-a7fc-4ac8-9d25-5d88eca13dfb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"514af717-a7fc-4ac8-9d25-5d88eca13dfb","name":"514af717-a7fc-4ac8-9d25-5d88eca13dfb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

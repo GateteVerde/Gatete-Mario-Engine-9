@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_carrot_slide",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8021821f-ebdc-4a3e-8b8d-3c49bf289d86","name":"8021821f-ebdc-4a3e-8b8d-3c49bf289d86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8021821f-ebdc-4a3e-8b8d-3c49bf289d86","name":"8021821f-ebdc-4a3e-8b8d-3c49bf289d86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

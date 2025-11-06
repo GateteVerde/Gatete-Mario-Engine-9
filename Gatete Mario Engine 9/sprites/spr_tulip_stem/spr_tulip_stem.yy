@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_tulip_stem",
   "bboxMode":0,
   "bbox_bottom":17,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7ca326dd-ed65-4e35-a026-72343c1da957","name":"7ca326dd-ed65-4e35-a026-72343c1da957","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"13315485-4665-496c-b404-11682265a91a","name":"13315485-4665-496c-b404-11682265a91a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7ca326dd-ed65-4e35-a026-72343c1da957","name":"7ca326dd-ed65-4e35-a026-72343c1da957","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"13315485-4665-496c-b404-11682265a91a","name":"13315485-4665-496c-b404-11682265a91a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

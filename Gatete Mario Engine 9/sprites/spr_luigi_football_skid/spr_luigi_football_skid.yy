@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_football_skid",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0a8b87cc-5730-4d69-89d1-5f9c104fef98","name":"0a8b87cc-5730-4d69-89d1-5f9c104fef98","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0a8b87cc-5730-4d69-89d1-5f9c104fef98","name":"0a8b87cc-5730-4d69-89d1-5f9c104fef98","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

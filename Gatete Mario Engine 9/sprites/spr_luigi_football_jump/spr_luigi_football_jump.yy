@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_football_jump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d611b6b0-d9ba-4054-a9b4-9fac5d027407","name":"d611b6b0-d9ba-4054-a9b4-9fac5d027407","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4f262837-fae4-4267-9441-546b3c8a4e5c","name":"4f262837-fae4-4267-9441-546b3c8a4e5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d611b6b0-d9ba-4054-a9b4-9fac5d027407","name":"d611b6b0-d9ba-4054-a9b4-9fac5d027407","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f262837-fae4-4267-9441-546b3c8a4e5c","name":"4f262837-fae4-4267-9441-546b3c8a4e5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

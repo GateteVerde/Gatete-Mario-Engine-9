@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_propeller_jump",
   "bboxMode":0,
   "bbox_bottom":36,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"04ecff80-93c2-4a7f-8056-665d7d88fd56","name":"04ecff80-93c2-4a7f-8056-665d7d88fd56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fc058c54-f428-4130-9e46-751ebaf0397f","name":"fc058c54-f428-4130-9e46-751ebaf0397f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04ecff80-93c2-4a7f-8056-665d7d88fd56","name":"04ecff80-93c2-4a7f-8056-665d7d88fd56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc058c54-f428-4130-9e46-751ebaf0397f","name":"fc058c54-f428-4130-9e46-751ebaf0397f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

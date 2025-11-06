@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_parakoopa_red_big",
   "bboxMode":1,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6d26360b-b3a6-4cfb-94cd-83892b90955a","name":"6d26360b-b3a6-4cfb-94cd-83892b90955a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6278e63b-2401-4e93-b563-bfe7330b58ee","name":"6278e63b-2401-4e93-b563-bfe7330b58ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d26360b-b3a6-4cfb-94cd-83892b90955a","name":"6d26360b-b3a6-4cfb-94cd-83892b90955a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6278e63b-2401-4e93-b563-bfe7330b58ee","name":"6278e63b-2401-4e93-b563-bfe7330b58ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

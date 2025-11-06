@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_squirrel_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a2034876-21a6-4b5f-88b8-891ebf003273","name":"a2034876-21a6-4b5f-88b8-891ebf003273","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"97c117ed-6a7f-46ad-ad8b-6c828a961c36","name":"97c117ed-6a7f-46ad-ad8b-6c828a961c36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2034876-21a6-4b5f-88b8-891ebf003273","name":"a2034876-21a6-4b5f-88b8-891ebf003273","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"97c117ed-6a7f-46ad-ad8b-6c828a961c36","name":"97c117ed-6a7f-46ad-ad8b-6c828a961c36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

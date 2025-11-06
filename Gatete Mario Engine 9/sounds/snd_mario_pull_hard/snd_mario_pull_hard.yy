@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_mario_pull_hard",
   "audioGroupId":{
     "name":"audiogroup_voice",
     "path":"audiogroups/audiogroup_voice",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":0.782766,
+  "exportDir":"",
   "name":"snd_mario_pull_hard",
   "parent":{
     "name":"Mario",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_mario_pull_hard.wav",
-  "type":0,
   "volume":1.0,
 }

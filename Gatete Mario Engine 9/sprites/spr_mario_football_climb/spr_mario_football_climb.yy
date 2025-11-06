@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_football_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"64d740d8-b5f5-441f-9d41-6bbac1609057","name":"64d740d8-b5f5-441f-9d41-6bbac1609057","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"317f3556-8bee-4d99-9e06-8528a547127a","name":"317f3556-8bee-4d99-9e06-8528a547127a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"64d740d8-b5f5-441f-9d41-6bbac1609057","name":"64d740d8-b5f5-441f-9d41-6bbac1609057","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"317f3556-8bee-4d99-9e06-8528a547127a","name":"317f3556-8bee-4d99-9e06-8528a547127a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

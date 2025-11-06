@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lavalotus_ball",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1f16b366-2d01-49db-a20f-0129f3e28a05","name":"1f16b366-2d01-49db-a20f-0129f3e28a05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e3c30da5-551c-44df-ae18-998fe4ccc013","name":"e3c30da5-551c-44df-ae18-998fe4ccc013","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1f16b366-2d01-49db-a20f-0129f3e28a05","name":"1f16b366-2d01-49db-a20f-0129f3e28a05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e3c30da5-551c-44df-ae18-998fe4ccc013","name":"e3c30da5-551c-44df-ae18-998fe4ccc013","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

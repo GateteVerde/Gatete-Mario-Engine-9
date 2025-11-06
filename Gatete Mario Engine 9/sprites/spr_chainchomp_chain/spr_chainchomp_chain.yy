@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_chainchomp_chain",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cdb05dc1-a974-44c6-9a92-c218a9d0ffda","name":"cdb05dc1-a974-44c6-9a92-c218a9d0ffda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cdb05dc1-a974-44c6-9a92-c218a9d0ffda","name":"cdb05dc1-a974-44c6-9a92-c218a9d0ffda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_beetroot_kick",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d1f53cb3-09e6-46db-8754-f3f11984e290","name":"d1f53cb3-09e6-46db-8754-f3f11984e290","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d1f53cb3-09e6-46db-8754-f3f11984e290","name":"d1f53cb3-09e6-46db-8754-f3f11984e290","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","name":"b7f0d7aa-0ad4-4fbe-92a4-cc6f9d1e91d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

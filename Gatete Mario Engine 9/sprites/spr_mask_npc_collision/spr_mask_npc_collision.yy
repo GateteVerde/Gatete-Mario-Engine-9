@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mask_npc_collision",
   "bboxMode":0,
   "bbox_bottom":2,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"da6ec83b-54b4-438b-bedd-63cdf7d3aca6","name":"da6ec83b-54b4-438b-bedd-63cdf7d3aca6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"da6ec83b-54b4-438b-bedd-63cdf7d3aca6","name":"da6ec83b-54b4-438b-bedd-63cdf7d3aca6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

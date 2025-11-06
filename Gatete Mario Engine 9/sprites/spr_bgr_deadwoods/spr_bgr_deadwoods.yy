@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bgr_deadwoods",
   "bboxMode":0,
   "bbox_bottom":487,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d6b50148-6ace-4237-bd88-11dfc5c197d1","name":"d6b50148-6ace-4237-bd88-11dfc5c197d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","name":"307dde0c-21d0-4c1e-8df1-203d820c3e8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d6b50148-6ace-4237-bd88-11dfc5c197d1","name":"d6b50148-6ace-4237-bd88-11dfc5c197d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

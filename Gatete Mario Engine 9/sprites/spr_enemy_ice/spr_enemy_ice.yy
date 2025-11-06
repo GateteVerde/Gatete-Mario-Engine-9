@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_enemy_ice",
   "bboxMode":2,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"59e45ed5-ff0a-4528-906d-9fca620e54b9","name":"59e45ed5-ff0a-4528-906d-9fca620e54b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59e45ed5-ff0a-4528-906d-9fca620e54b9","name":"59e45ed5-ff0a-4528-906d-9fca620e54b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

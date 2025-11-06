@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_inkpiranhaplant",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","name":"d1ad56fe-750e-411c-8eb3-a56f3c323617","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

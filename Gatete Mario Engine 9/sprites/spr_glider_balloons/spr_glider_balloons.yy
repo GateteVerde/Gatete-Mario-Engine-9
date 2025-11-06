@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_glider_balloons",
   "bboxMode":2,
   "bbox_bottom":47,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"02c08cd9-5dfa-405f-a362-01e6c57b2bb9","name":"02c08cd9-5dfa-405f-a362-01e6c57b2bb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"740fb279-888c-4291-bd3b-95835eac6588","name":"740fb279-888c-4291-bd3b-95835eac6588","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8d4beac9-a53c-4f6f-8c0d-2c3d7c827d06","name":"8d4beac9-a53c-4f6f-8c0d-2c3d7c827d06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02c08cd9-5dfa-405f-a362-01e6c57b2bb9","name":"02c08cd9-5dfa-405f-a362-01e6c57b2bb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"740fb279-888c-4291-bd3b-95835eac6588","name":"740fb279-888c-4291-bd3b-95835eac6588","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d4beac9-a53c-4f6f-8c0d-2c3d7c827d06","name":"8d4beac9-a53c-4f6f-8c0d-2c3d7c827d06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

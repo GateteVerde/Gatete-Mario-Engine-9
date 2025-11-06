@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_small_runjump",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a49cc3c0-bdc2-4b54-bf3c-a8a9004e5b1e","name":"a49cc3c0-bdc2-4b54-bf3c-a8a9004e5b1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a49cc3c0-bdc2-4b54-bf3c-a8a9004e5b1e","name":"a49cc3c0-bdc2-4b54-bf3c-a8a9004e5b1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -27,8 +27,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"time","filters":[],"listItems":[],"multiselect":false,"name":"time","rangeEnabled":true,"rangeMax":10.0,"rangeMin":2.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.5,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"time","filters":[],"listItems":[],"multiselect":false,"name":"time","rangeEnabled":true,"rangeMax":10.0,"rangeMin":2.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.5,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

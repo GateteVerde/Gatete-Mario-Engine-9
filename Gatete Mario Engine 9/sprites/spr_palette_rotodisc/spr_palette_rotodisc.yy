@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_rotodisc",
   "bboxMode":0,
   "bbox_bottom":1,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cfce62f1-3a05-4b10-a614-770b3f5b7244","name":"cfce62f1-3a05-4b10-a614-770b3f5b7244","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cfce62f1-3a05-4b10-a614-770b3f5b7244","name":"cfce62f1-3a05-4b10-a614-770b3f5b7244","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

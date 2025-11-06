@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_bomb_skid",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bc0aa7df-bafb-417a-b26c-41b6a6ea5fa9","name":"bc0aa7df-bafb-417a-b26c-41b6a6ea5fa9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc0aa7df-bafb-417a-b26c-41b6a6ea5fa9","name":"bc0aa7df-bafb-417a-b26c-41b6a6ea5fa9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

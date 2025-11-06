@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_big_ride",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7885249b-a8ae-418c-ab5e-fb496476d260","name":"7885249b-a8ae-418c-ab5e-fb496476d260","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","name":"6e1e86c9-1767-42d7-a19f-875cedc05d99","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7885249b-a8ae-418c-ab5e-fb496476d260","name":"7885249b-a8ae-418c-ab5e-fb496476d260","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

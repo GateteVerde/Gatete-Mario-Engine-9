@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_1upgame_1up",
   "bboxMode":0,
   "bbox_bottom":19,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fd81d6df-c090-473a-b53f-c8eb1ec0e4c2","name":"fd81d6df-c090-473a-b53f-c8eb1ec0e4c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fd81d6df-c090-473a-b53f-c8eb1ec0e4c2","name":"fd81d6df-c090-473a-b53f-c8eb1ec0e4c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

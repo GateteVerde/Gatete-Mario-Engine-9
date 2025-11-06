@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_draglet_dead",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ccca2349-d5bd-4b54-af70-f4dc98cdbf77","name":"ccca2349-d5bd-4b54-af70-f4dc98cdbf77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ccca2349-d5bd-4b54-af70-f4dc98cdbf77","name":"ccca2349-d5bd-4b54-af70-f4dc98cdbf77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

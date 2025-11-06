@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_beachkoopa_yellow_sq",
   "bboxMode":2,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4769e2d8-4c1a-4eee-a19b-8e3debaf2840","name":"4769e2d8-4c1a-4eee-a19b-8e3debaf2840","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4769e2d8-4c1a-4eee-a19b-8e3debaf2840","name":"4769e2d8-4c1a-4eee-a19b-8e3debaf2840","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

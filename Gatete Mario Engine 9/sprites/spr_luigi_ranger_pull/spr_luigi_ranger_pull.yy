@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_ranger_pull",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c44decee-e369-4121-abe5-b446ed393c0e","name":"c44decee-e369-4121-abe5-b446ed393c0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"099f2c79-c8e3-4eb1-b0bb-921b8dc79890","name":"099f2c79-c8e3-4eb1-b0bb-921b8dc79890","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c44decee-e369-4121-abe5-b446ed393c0e","name":"c44decee-e369-4121-abe5-b446ed393c0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"099f2c79-c8e3-4eb1-b0bb-921b8dc79890","name":"099f2c79-c8e3-4eb1-b0bb-921b8dc79890","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -34,7 +34,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"item","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"item","filters":[],"listItems":[
         "\"None\"",
         "\"Mushroom\"",
         "\"Starman\"",

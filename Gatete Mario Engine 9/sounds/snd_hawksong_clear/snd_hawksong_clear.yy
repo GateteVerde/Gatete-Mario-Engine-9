@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_hawksong_clear",
   "audioGroupId":{
     "name":"audiogroup_music",
     "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":4.728125,
+  "exportDir":"",
   "name":"snd_hawksong_clear",
   "parent":{
     "name":"SMB2",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_hawksong_clear.wav",
-  "type":0,
   "volume":1.0,
 }

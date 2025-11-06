@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bgr_toadhouse_b",
   "bboxMode":0,
   "bbox_bottom":183,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a8cc6736-3653-4d3d-88f9-a3d1149ced3b","name":"a8cc6736-3653-4d3d-88f9-a3d1149ced3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a8cc6736-3653-4d3d-88f9-a3d1149ced3b","name":"a8cc6736-3653-4d3d-88f9-a3d1149ced3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

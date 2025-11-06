@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_penguin_slide",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7239749a-6c7a-4412-8f5b-d7c0bcda2015","name":"7239749a-6c7a-4412-8f5b-d7c0bcda2015","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7239749a-6c7a-4412-8f5b-d7c0bcda2015","name":"7239749a-6c7a-4412-8f5b-d7c0bcda2015","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

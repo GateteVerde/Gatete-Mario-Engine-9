@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_penguin_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"619176cb-964e-4f4d-a433-4a496e772fa1","name":"619176cb-964e-4f4d-a433-4a496e772fa1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b74f4b7b-892a-4bc9-9336-e0563621f427","name":"b74f4b7b-892a-4bc9-9336-e0563621f427","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"619176cb-964e-4f4d-a433-4a496e772fa1","name":"619176cb-964e-4f4d-a433-4a496e772fa1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b74f4b7b-892a-4bc9-9336-e0563621f427","name":"b74f4b7b-892a-4bc9-9336-e0563621f427","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

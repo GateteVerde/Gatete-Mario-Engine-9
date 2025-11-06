@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_propeller_pull",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f11d9846-a6be-4bea-9cb2-e9c507683fe3","name":"f11d9846-a6be-4bea-9cb2-e9c507683fe3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f244900a-583f-42d3-85b4-bd4d81fba8eb","name":"f244900a-583f-42d3-85b4-bd4d81fba8eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f11d9846-a6be-4bea-9cb2-e9c507683fe3","name":"f11d9846-a6be-4bea-9cb2-e9c507683fe3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f244900a-583f-42d3-85b4-bd4d81fba8eb","name":"f244900a-583f-42d3-85b4-bd4d81fba8eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

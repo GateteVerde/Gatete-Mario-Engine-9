@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_skypop",
   "bboxMode":2,
   "bbox_bottom":27,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"af6720a7-d268-4ff0-8a66-310a1d0358d2","name":"af6720a7-d268-4ff0-8a66-310a1d0358d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"67435e88-52c5-48ea-a81a-db52a306dfa5","name":"67435e88-52c5-48ea-a81a-db52a306dfa5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"af6720a7-d268-4ff0-8a66-310a1d0358d2","name":"af6720a7-d268-4ff0-8a66-310a1d0358d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"67435e88-52c5-48ea-a81a-db52a306dfa5","name":"67435e88-52c5-48ea-a81a-db52a306dfa5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_bomb_kick",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0538e8e1-b6aa-4421-be5a-03a2bd54ea25","name":"0538e8e1-b6aa-4421-be5a-03a2bd54ea25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"da8a18a7-bb85-4533-a68b-257cc28456e6","name":"da8a18a7-bb85-4533-a68b-257cc28456e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0538e8e1-b6aa-4421-be5a-03a2bd54ea25","name":"0538e8e1-b6aa-4421-be5a-03a2bd54ea25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"da8a18a7-bb85-4533-a68b-257cc28456e6","name":"da8a18a7-bb85-4533-a68b-257cc28456e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

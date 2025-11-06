@@ -25,4 +25,10 @@ x = xstart;
 y = ystart;
 
 //Turn into a used block
-instance_change(obj_emptyblock, false);
+with (instance_create_depth(xstart, ystart, depth, obj_emptyblock)) {
+	
+	semisolid = other.semisolid;
+}
+
+//Then destroy this block
+instance_destroy();

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gui_cardbox",
   "bboxMode":0,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"168a8f83-fd2b-48a4-a696-b1300cbf0a73","name":"168a8f83-fd2b-48a4-a696-b1300cbf0a73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"168a8f83-fd2b-48a4-a696-b1300cbf0a73","name":"168a8f83-fd2b-48a4-a696-b1300cbf0a73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

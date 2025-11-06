@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_propeller_runjump",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e3317065-b0a7-4e55-840d-bc0c77dd57b8","name":"e3317065-b0a7-4e55-840d-bc0c77dd57b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e3317065-b0a7-4e55-840d-bc0c77dd57b8","name":"e3317065-b0a7-4e55-840d-bc0c77dd57b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

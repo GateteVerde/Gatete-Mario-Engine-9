@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_football_runjump",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e83e97ea-4c05-46fd-bb3d-5c6ee8122668","name":"e83e97ea-4c05-46fd-bb3d-5c6ee8122668","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e83e97ea-4c05-46fd-bb3d-5c6ee8122668","name":"e83e97ea-4c05-46fd-bb3d-5c6ee8122668","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

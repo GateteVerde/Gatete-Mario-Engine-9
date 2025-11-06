@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_frog_somersault",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"74c13dd8-455d-4fc9-b243-0e19ab58bda0","name":"74c13dd8-455d-4fc9-b243-0e19ab58bda0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"74c13dd8-455d-4fc9-b243-0e19ab58bda0","name":"74c13dd8-455d-4fc9-b243-0e19ab58bda0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

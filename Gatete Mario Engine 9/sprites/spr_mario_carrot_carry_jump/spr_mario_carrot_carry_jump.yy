@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_carrot_carry_jump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5dc130ad-d4e6-4efe-8213-e7136ed68080","name":"5dc130ad-d4e6-4efe-8213-e7136ed68080","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a2a085fb-1fb0-491d-b6c9-c08646709778","name":"a2a085fb-1fb0-491d-b6c9-c08646709778","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5dc130ad-d4e6-4efe-8213-e7136ed68080","name":"5dc130ad-d4e6-4efe-8213-e7136ed68080","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2a085fb-1fb0-491d-b6c9-c08646709778","name":"a2a085fb-1fb0-491d-b6c9-c08646709778","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

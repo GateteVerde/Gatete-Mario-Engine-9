@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bonybeetle_crumble",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","name":"73940927-2806-4c4e-bb3f-fb01c9ab193a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","name":"6f048c26-b043-4bc4-b021-ed3f7a6a5bed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

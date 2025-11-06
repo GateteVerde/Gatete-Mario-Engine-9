@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_raccoon_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"56a87174-157e-4271-8054-3c1e6d9eea66","name":"56a87174-157e-4271-8054-3c1e6d9eea66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3889c960-2add-4c0d-b8e6-15b27f53e6c1","name":"3889c960-2add-4c0d-b8e6-15b27f53e6c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"56a87174-157e-4271-8054-3c1e6d9eea66","name":"56a87174-157e-4271-8054-3c1e6d9eea66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3889c960-2add-4c0d-b8e6-15b27f53e6c1","name":"3889c960-2add-4c0d-b8e6-15b27f53e6c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

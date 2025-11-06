@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_missilebill",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9175f7b9-9a95-4f63-aea2-3fdc87261576","name":"9175f7b9-9a95-4f63-aea2-3fdc87261576","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7d817662-a978-43d0-8e76-5d21485d276f","name":"7d817662-a978-43d0-8e76-5d21485d276f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9175f7b9-9a95-4f63-aea2-3fdc87261576","name":"9175f7b9-9a95-4f63-aea2-3fdc87261576","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7d817662-a978-43d0-8e76-5d21485d276f","name":"7d817662-a978-43d0-8e76-5d21485d276f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

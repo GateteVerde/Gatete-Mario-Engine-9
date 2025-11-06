@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_tanooki_climb",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"118e02de-93ee-4f4a-8998-4c396f103b18","name":"118e02de-93ee-4f4a-8998-4c396f103b18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c916a4f1-58d1-4651-bcc5-7fa90e8e7816","name":"c916a4f1-58d1-4651-bcc5-7fa90e8e7816","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"118e02de-93ee-4f4a-8998-4c396f103b18","name":"118e02de-93ee-4f4a-8998-4c396f103b18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c916a4f1-58d1-4651-bcc5-7fa90e8e7816","name":"c916a4f1-58d1-4651-bcc5-7fa90e8e7816","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

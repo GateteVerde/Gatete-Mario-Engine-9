@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_noteblock_blue_hidden",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8f63432b-3c1b-4ac5-8741-00698eabc2c1","name":"8f63432b-3c1b-4ac5-8741-00698eabc2c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f63432b-3c1b-4ac5-8741-00698eabc2c1","name":"8f63432b-3c1b-4ac5-8741-00698eabc2c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

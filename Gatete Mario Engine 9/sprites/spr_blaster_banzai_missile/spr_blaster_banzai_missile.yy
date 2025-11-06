@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_blaster_banzai_missile",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b363b88b-ed89-4f29-8b8d-05a9741c7eae","name":"b363b88b-ed89-4f29-8b8d-05a9741c7eae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3561c3a9-0cdf-4a06-831f-d8a81e3592f9","name":"3561c3a9-0cdf-4a06-831f-d8a81e3592f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b363b88b-ed89-4f29-8b8d-05a9741c7eae","name":"b363b88b-ed89-4f29-8b8d-05a9741c7eae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3561c3a9-0cdf-4a06-831f-d8a81e3592f9","name":"3561c3a9-0cdf-4a06-831f-d8a81e3592f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

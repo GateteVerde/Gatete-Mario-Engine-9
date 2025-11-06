@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_coin_star_get",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8ccabd9b-e665-46c3-9e43-dce896171aeb","name":"8ccabd9b-e665-46c3-9e43-dce896171aeb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8c50a138-98e9-40c1-a940-2cf50f58465d","name":"8c50a138-98e9-40c1-a940-2cf50f58465d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2f478768-f3b6-4f61-8781-155f9f5e5578","name":"2f478768-f3b6-4f61-8781-155f9f5e5578","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"22307cfa-70c6-4b5d-9b3a-afedb8cf30ef","name":"22307cfa-70c6-4b5d-9b3a-afedb8cf30ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ccabd9b-e665-46c3-9e43-dce896171aeb","name":"8ccabd9b-e665-46c3-9e43-dce896171aeb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8c50a138-98e9-40c1-a940-2cf50f58465d","name":"8c50a138-98e9-40c1-a940-2cf50f58465d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2f478768-f3b6-4f61-8781-155f9f5e5578","name":"2f478768-f3b6-4f61-8781-155f9f5e5578","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22307cfa-70c6-4b5d-9b3a-afedb8cf30ef","name":"22307cfa-70c6-4b5d-9b3a-afedb8cf30ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

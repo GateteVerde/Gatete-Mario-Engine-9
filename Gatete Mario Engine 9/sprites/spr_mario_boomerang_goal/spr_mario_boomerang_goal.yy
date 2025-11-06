@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_boomerang_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c503706a-ca17-42b0-937e-5385585f3012","name":"c503706a-ca17-42b0-937e-5385585f3012","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"68c5a4fe-233b-4267-9702-c8076339f2a5","name":"68c5a4fe-233b-4267-9702-c8076339f2a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c503706a-ca17-42b0-937e-5385585f3012","name":"c503706a-ca17-42b0-937e-5385585f3012","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"68c5a4fe-233b-4267-9702-c8076339f2a5","name":"68c5a4fe-233b-4267-9702-c8076339f2a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

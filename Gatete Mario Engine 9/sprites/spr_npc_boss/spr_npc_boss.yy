@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_boss",
   "bboxMode":0,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f315d5a5-33b0-42ea-ae68-8b5db0544b70","name":"f315d5a5-33b0-42ea-ae68-8b5db0544b70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f315d5a5-33b0-42ea-ae68-8b5db0544b70","name":"f315d5a5-33b0-42ea-ae68-8b5db0544b70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

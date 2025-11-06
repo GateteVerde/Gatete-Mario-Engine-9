@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_volcanolotus_fire",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"05cbe36c-7c60-460c-9a8d-f935f17ba294","name":"05cbe36c-7c60-460c-9a8d-f935f17ba294","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e265fde1-41d8-4d6d-8cc0-385e81078598","name":"e265fde1-41d8-4d6d-8cc0-385e81078598","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05cbe36c-7c60-460c-9a8d-f935f17ba294","name":"05cbe36c-7c60-460c-9a8d-f935f17ba294","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e265fde1-41d8-4d6d-8cc0-385e81078598","name":"e265fde1-41d8-4d6d-8cc0-385e81078598","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

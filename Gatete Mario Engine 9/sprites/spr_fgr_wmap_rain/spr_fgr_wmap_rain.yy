@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_fgr_wmap_rain",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a7b9645d-e2ff-4cd2-8778-afd2b1ef1dba","name":"a7b9645d-e2ff-4cd2-8778-afd2b1ef1dba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a7b9645d-e2ff-4cd2-8778-afd2b1ef1dba","name":"a7b9645d-e2ff-4cd2-8778-afd2b1ef1dba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

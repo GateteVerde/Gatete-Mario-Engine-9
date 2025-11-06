@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_hoppo_roll",
   "bboxMode":2,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"13150558-f071-436a-8d1c-1865c62a9d79","name":"13150558-f071-436a-8d1c-1865c62a9d79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"13150558-f071-436a-8d1c-1865c62a9d79","name":"13150558-f071-436a-8d1c-1865c62a9d79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

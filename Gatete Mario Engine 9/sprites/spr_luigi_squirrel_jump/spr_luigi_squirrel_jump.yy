@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_squirrel_jump",
   "bboxMode":0,
   "bbox_bottom":33,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4130a6f1-374e-45c4-9b9f-9166971bdbe1","name":"4130a6f1-374e-45c4-9b9f-9166971bdbe1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1ac39c37-b167-475d-a88c-ebee361a2f86","name":"1ac39c37-b167-475d-a88c-ebee361a2f86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4130a6f1-374e-45c4-9b9f-9166971bdbe1","name":"4130a6f1-374e-45c4-9b9f-9166971bdbe1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1ac39c37-b167-475d-a88c-ebee361a2f86","name":"1ac39c37-b167-475d-a88c-ebee361a2f86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_galoomba_wing_front",
   "bboxMode":0,
   "bbox_bottom":18,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7e51c85e-e27d-426b-83ff-fbc29cc6c44b","name":"7e51c85e-e27d-426b-83ff-fbc29cc6c44b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dee61b8a-72ac-46f5-a541-36fa961b5c48","name":"dee61b8a-72ac-46f5-a541-36fa961b5c48","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7e51c85e-e27d-426b-83ff-fbc29cc6c44b","name":"7e51c85e-e27d-426b-83ff-fbc29cc6c44b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dee61b8a-72ac-46f5-a541-36fa961b5c48","name":"dee61b8a-72ac-46f5-a541-36fa961b5c48","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

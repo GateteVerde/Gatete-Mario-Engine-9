@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_football_ride",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"59d28a2c-ca5b-4693-9f10-eba7edb27e85","name":"59d28a2c-ca5b-4693-9f10-eba7edb27e85","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"415ef52e-6102-4a92-8819-1c7f27d2460b","name":"415ef52e-6102-4a92-8819-1c7f27d2460b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59d28a2c-ca5b-4693-9f10-eba7edb27e85","name":"59d28a2c-ca5b-4693-9f10-eba7edb27e85","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"415ef52e-6102-4a92-8819-1c7f27d2460b","name":"415ef52e-6102-4a92-8819-1c7f27d2460b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_tanooki_kick",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0c4d2054-97b5-4310-bbdb-967ed5bb5136","name":"0c4d2054-97b5-4310-bbdb-967ed5bb5136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a05b450f-8aaa-4548-afd9-022aff5e2879","name":"a05b450f-8aaa-4548-afd9-022aff5e2879","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0c4d2054-97b5-4310-bbdb-967ed5bb5136","name":"0c4d2054-97b5-4310-bbdb-967ed5bb5136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a05b450f-8aaa-4548-afd9-022aff5e2879","name":"a05b450f-8aaa-4548-afd9-022aff5e2879","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_frog_ride",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c0440eaf-7422-4296-b6a4-35da61acf9ce","name":"c0440eaf-7422-4296-b6a4-35da61acf9ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fc02d6e8-82d7-40b8-bb45-5e2e0a09663b","name":"fc02d6e8-82d7-40b8-bb45-5e2e0a09663b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c0440eaf-7422-4296-b6a4-35da61acf9ce","name":"c0440eaf-7422-4296-b6a4-35da61acf9ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc02d6e8-82d7-40b8-bb45-5e2e0a09663b","name":"fc02d6e8-82d7-40b8-bb45-5e2e0a09663b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

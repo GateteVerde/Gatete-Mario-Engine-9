@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_bee_runjump",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f1ce11e8-f8ac-4dce-9338-6907b3ec5f76","name":"f1ce11e8-f8ac-4dce-9338-6907b3ec5f76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"33a88edb-a49b-4ec3-85e0-50a2d022cc87","name":"33a88edb-a49b-4ec3-85e0-50a2d022cc87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1ce11e8-f8ac-4dce-9338-6907b3ec5f76","name":"f1ce11e8-f8ac-4dce-9338-6907b3ec5f76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"33a88edb-a49b-4ec3-85e0-50a2d022cc87","name":"33a88edb-a49b-4ec3-85e0-50a2d022cc87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_carrot_clear",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"57a138f9-7ba1-43fa-be44-164e5f21f4f0","name":"57a138f9-7ba1-43fa-be44-164e5f21f4f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"57a138f9-7ba1-43fa-be44-164e5f21f4f0","name":"57a138f9-7ba1-43fa-be44-164e5f21f4f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

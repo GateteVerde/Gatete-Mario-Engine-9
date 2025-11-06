@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_beachkoopa_blue_super_dead",
   "bboxMode":0,
   "bbox_bottom":16,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"549817bb-c7ac-44a8-bd6f-37d631086409","name":"549817bb-c7ac-44a8-bd6f-37d631086409","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2eba2ccf-a925-407e-ac1a-d1a76132670c","name":"2eba2ccf-a925-407e-ac1a-d1a76132670c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"549817bb-c7ac-44a8-bd6f-37d631086409","name":"549817bb-c7ac-44a8-bd6f-37d631086409","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2eba2ccf-a925-407e-ac1a-d1a76132670c","name":"2eba2ccf-a925-407e-ac1a-d1a76132670c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

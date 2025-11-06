@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_cat_ride",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bcc91f5d-8a9a-453e-92c2-5fc9bd2933cb","name":"bcc91f5d-8a9a-453e-92c2-5fc9bd2933cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"52727a48-ee1d-4702-967f-693997ec6c61","name":"52727a48-ee1d-4702-967f-693997ec6c61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bcc91f5d-8a9a-453e-92c2-5fc9bd2933cb","name":"bcc91f5d-8a9a-453e-92c2-5fc9bd2933cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52727a48-ee1d-4702-967f-693997ec6c61","name":"52727a48-ee1d-4702-967f-693997ec6c61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

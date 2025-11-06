@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_boomerang_somersault",
   "bboxMode":0,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"957b6f4b-1b76-43b5-8107-5c22c6d8c443","name":"957b6f4b-1b76-43b5-8107-5c22c6d8c443","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"957b6f4b-1b76-43b5-8107-5c22c6d8c443","name":"957b6f4b-1b76-43b5-8107-5c22c6d8c443","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ninji_kunai",
   "bboxMode":2,
   "bbox_bottom":11,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"039fbfdd-0df9-478a-a7ab-399e2866a175","name":"039fbfdd-0df9-478a-a7ab-399e2866a175","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"039fbfdd-0df9-478a-a7ab-399e2866a175","name":"039fbfdd-0df9-478a-a7ab-399e2866a175","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

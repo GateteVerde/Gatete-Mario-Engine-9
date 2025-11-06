@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_tiny_goal",
   "bboxMode":0,
   "bbox_bottom":9,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c392ac58-6de2-4b88-b7aa-6e5ae7a2de11","name":"c392ac58-6de2-4b88-b7aa-6e5ae7a2de11","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ff568e09-d3b5-4bf6-a473-1462df33de20","name":"ff568e09-d3b5-4bf6-a473-1462df33de20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c392ac58-6de2-4b88-b7aa-6e5ae7a2de11","name":"c392ac58-6de2-4b88-b7aa-6e5ae7a2de11","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff568e09-d3b5-4bf6-a473-1462df33de20","name":"ff568e09-d3b5-4bf6-a473-1462df33de20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

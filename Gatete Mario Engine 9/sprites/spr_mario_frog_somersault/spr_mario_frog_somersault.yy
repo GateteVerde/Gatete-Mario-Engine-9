@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_frog_somersault",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0917cb20-78de-42f0-99b3-0167f9f83bc9","name":"0917cb20-78de-42f0-99b3-0167f9f83bc9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0917cb20-78de-42f0-99b3-0167f9f83bc9","name":"0917cb20-78de-42f0-99b3-0167f9f83bc9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

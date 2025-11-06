@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_penguin_runjump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"481b7d05-2a0e-4e18-924d-c1b705d046b0","name":"481b7d05-2a0e-4e18-924d-c1b705d046b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"481b7d05-2a0e-4e18-924d-c1b705d046b0","name":"481b7d05-2a0e-4e18-924d-c1b705d046b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

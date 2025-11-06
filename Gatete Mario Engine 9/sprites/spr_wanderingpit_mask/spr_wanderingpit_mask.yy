@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_wanderingpit_mask",
   "bboxMode":2,
   "bbox_bottom":3,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","name":"e0968e41-dbf0-4011-b8d2-34c9937f6b43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

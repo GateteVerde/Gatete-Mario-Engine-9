@@ -31,15 +31,15 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"object","filters":[],"listItems":[],"multiselect":false,"name":"object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_goomba","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"delay","filters":[],"listItems":[],"multiselect":false,"name":"delay","rangeEnabled":true,"rangeMax":180.0,"rangeMin":60.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"dir","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"object","filters":[],"listItems":[],"multiselect":false,"name":"object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_goomba","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"delay","filters":[],"listItems":[],"multiselect":false,"name":"delay","rangeEnabled":true,"rangeMax":180.0,"rangeMin":60.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"dir","filters":[],"listItems":[
         "0",
         "90",
         "180",
         "270",
       ],"multiselect":false,"name":"dir","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":6,},
-    {"$GMObjectProperty":"v1","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

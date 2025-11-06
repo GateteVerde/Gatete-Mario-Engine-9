@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_raccoon_swim",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1faf5696-08d9-4a35-bf3b-7f3f39e12e1c","name":"1faf5696-08d9-4a35-bf3b-7f3f39e12e1c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3d777523-d06b-4682-92ce-5ece7497acf5","name":"3d777523-d06b-4682-92ce-5ece7497acf5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5a6ed34d-257d-41d9-afce-82f970d42a94","name":"5a6ed34d-257d-41d9-afce-82f970d42a94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1faf5696-08d9-4a35-bf3b-7f3f39e12e1c","name":"1faf5696-08d9-4a35-bf3b-7f3f39e12e1c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3d777523-d06b-4682-92ce-5ece7497acf5","name":"3d777523-d06b-4682-92ce-5ece7497acf5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5a6ed34d-257d-41d9-afce-82f970d42a94","name":"5a6ed34d-257d-41d9-afce-82f970d42a94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

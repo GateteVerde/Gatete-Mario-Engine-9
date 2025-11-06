@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_tanooki_slide",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"13558fec-74cb-4bc4-a2e7-d62e13676cd7","name":"13558fec-74cb-4bc4-a2e7-d62e13676cd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"13558fec-74cb-4bc4-a2e7-d62e13676cd7","name":"13558fec-74cb-4bc4-a2e7-d62e13676cd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

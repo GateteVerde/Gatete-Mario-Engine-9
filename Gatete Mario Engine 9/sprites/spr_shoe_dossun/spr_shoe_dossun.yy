@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_shoe_dossun",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cc735faa-439c-4582-8ed5-6cb34609312c","name":"cc735faa-439c-4582-8ed5-6cb34609312c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"74e9a124-27fb-486f-b18c-4ce7eab7a545","name":"74e9a124-27fb-486f-b18c-4ce7eab7a545","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cc735faa-439c-4582-8ed5-6cb34609312c","name":"cc735faa-439c-4582-8ed5-6cb34609312c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"74e9a124-27fb-486f-b18c-4ce7eab7a545","name":"74e9a124-27fb-486f-b18c-4ce7eab7a545","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

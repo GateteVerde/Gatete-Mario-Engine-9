@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_charginchuck_jump",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","name":"770da9a0-7836-4689-b71b-0feb3e6fdccd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

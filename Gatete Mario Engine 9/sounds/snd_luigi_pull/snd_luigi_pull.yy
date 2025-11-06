@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_luigi_pull",
   "audioGroupId":{
     "name":"audiogroup_voice",
     "path":"audiogroups/audiogroup_voice",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":0.672336,
+  "exportDir":"",
   "name":"snd_luigi_pull",
   "parent":{
     "name":"Luigi",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_luigi_pull.wav",
-  "type":0,
   "volume":1.0,
 }

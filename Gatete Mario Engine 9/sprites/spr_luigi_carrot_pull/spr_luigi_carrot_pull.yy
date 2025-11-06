@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_carrot_pull",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0619266a-6e9b-4789-b60c-30e31a350d1e","name":"0619266a-6e9b-4789-b60c-30e31a350d1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a92877ec-1126-4506-b9db-8f17469c7a4e","name":"a92877ec-1126-4506-b9db-8f17469c7a4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0619266a-6e9b-4789-b60c-30e31a350d1e","name":"0619266a-6e9b-4789-b60c-30e31a350d1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a92877ec-1126-4506-b9db-8f17469c7a4e","name":"a92877ec-1126-4506-b9db-8f17469c7a4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

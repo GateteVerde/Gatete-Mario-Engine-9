@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_carrot_runjump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f618877b-46c2-4c4b-8eb6-5f2b34b59b76","name":"f618877b-46c2-4c4b-8eb6-5f2b34b59b76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"98d401ef-e965-4939-80c2-b7641d328d6e","name":"98d401ef-e965-4939-80c2-b7641d328d6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f618877b-46c2-4c4b-8eb6-5f2b34b59b76","name":"f618877b-46c2-4c4b-8eb6-5f2b34b59b76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"98d401ef-e965-4939-80c2-b7641d328d6e","name":"98d401ef-e965-4939-80c2-b7641d328d6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

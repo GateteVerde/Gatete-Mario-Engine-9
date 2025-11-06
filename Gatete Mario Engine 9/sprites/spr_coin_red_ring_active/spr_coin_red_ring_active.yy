@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_coin_red_ring_active",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","name":"94619ff5-3526-43d2-9d8e-be86c70e0a1c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

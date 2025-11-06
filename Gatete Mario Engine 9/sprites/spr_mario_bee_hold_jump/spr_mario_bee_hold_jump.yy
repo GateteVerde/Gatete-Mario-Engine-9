@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_bee_hold_jump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"543220d9-85c8-4031-8787-3687580d5c78","name":"543220d9-85c8-4031-8787-3687580d5c78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a3d49f13-cec3-4ec1-a2d6-e22d596c848b","name":"a3d49f13-cec3-4ec1-a2d6-e22d596c848b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"543220d9-85c8-4031-8787-3687580d5c78","name":"543220d9-85c8-4031-8787-3687580d5c78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a3d49f13-cec3-4ec1-a2d6-e22d596c848b","name":"a3d49f13-cec3-4ec1-a2d6-e22d596c848b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

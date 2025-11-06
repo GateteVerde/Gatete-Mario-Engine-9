@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_drypiranhaplant",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e9b8054-79f7-4928-b8cf-fecf55f8e1bf","name":"1e9b8054-79f7-4928-b8cf-fecf55f8e1bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"23723dfe-3927-4402-92ec-e76051975c21","name":"23723dfe-3927-4402-92ec-e76051975c21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e9b8054-79f7-4928-b8cf-fecf55f8e1bf","name":"1e9b8054-79f7-4928-b8cf-fecf55f8e1bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"23723dfe-3927-4402-92ec-e76051975c21","name":"23723dfe-3927-4402-92ec-e76051975c21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

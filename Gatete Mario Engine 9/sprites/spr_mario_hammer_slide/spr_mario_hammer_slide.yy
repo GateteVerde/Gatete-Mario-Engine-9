@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_hammer_slide",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9a6d0fde-3a0a-4285-aee2-ffb13a81fbc2","name":"9a6d0fde-3a0a-4285-aee2-ffb13a81fbc2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9a6d0fde-3a0a-4285-aee2-ffb13a81fbc2","name":"9a6d0fde-3a0a-4285-aee2-ffb13a81fbc2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_birdo_bowtie",
   "bboxMode":2,
   "bbox_bottom":35,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8c26edd0-99d2-47eb-89ca-786daa309a10","name":"8c26edd0-99d2-47eb-89ca-786daa309a10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5f4d25c0-b371-4a8f-b906-310f0e341870","name":"5f4d25c0-b371-4a8f-b906-310f0e341870","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8c26edd0-99d2-47eb-89ca-786daa309a10","name":"8c26edd0-99d2-47eb-89ca-786daa309a10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f4d25c0-b371-4a8f-b906-310f0e341870","name":"5f4d25c0-b371-4a8f-b906-310f0e341870","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

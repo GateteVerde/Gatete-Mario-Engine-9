@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_tanooki_attack2",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d01f2b81-2435-4f22-aed3-c5dc21fb3a59","name":"d01f2b81-2435-4f22-aed3-c5dc21fb3a59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d01f2b81-2435-4f22-aed3-c5dc21fb3a59","name":"d01f2b81-2435-4f22-aed3-c5dc21fb3a59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

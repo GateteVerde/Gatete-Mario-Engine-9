@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_frog_walk",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b756c93c-2e15-427c-8af1-94f1c666e6e6","name":"b756c93c-2e15-427c-8af1-94f1c666e6e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"21a2a181-5e3e-44e1-9754-48d77e0bed99","name":"21a2a181-5e3e-44e1-9754-48d77e0bed99","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"85efc25c-b3a1-4d23-a862-c7cc10f66c12","name":"85efc25c-b3a1-4d23-a862-c7cc10f66c12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b756c93c-2e15-427c-8af1-94f1c666e6e6","name":"b756c93c-2e15-427c-8af1-94f1c666e6e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"21a2a181-5e3e-44e1-9754-48d77e0bed99","name":"21a2a181-5e3e-44e1-9754-48d77e0bed99","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"85efc25c-b3a1-4d23-a862-c7cc10f66c12","name":"85efc25c-b3a1-4d23-a862-c7cc10f66c12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

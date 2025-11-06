@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_carrot_skid",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"af40916f-5e1f-4480-bfa3-15bb1a018c84","name":"af40916f-5e1f-4480-bfa3-15bb1a018c84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"af40916f-5e1f-4480-bfa3-15bb1a018c84","name":"af40916f-5e1f-4480-bfa3-15bb1a018c84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mask_skewer_h",
   "bboxMode":0,
   "bbox_bottom":53,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a8f05948-b821-43b2-868d-0d692dc5b6e4","name":"a8f05948-b821-43b2-868d-0d692dc5b6e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a8f05948-b821-43b2-868d-0d692dc5b6e4","name":"a8f05948-b821-43b2-868d-0d692dc5b6e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

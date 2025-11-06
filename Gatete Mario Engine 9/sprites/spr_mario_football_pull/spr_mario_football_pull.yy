@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_football_pull",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"78df1d49-242e-4b1f-ae85-8880a01e8d91","name":"78df1d49-242e-4b1f-ae85-8880a01e8d91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"89c5e78a-2813-4b6b-aac4-fa378133a55c","name":"89c5e78a-2813-4b6b-aac4-fa378133a55c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"78df1d49-242e-4b1f-ae85-8880a01e8d91","name":"78df1d49-242e-4b1f-ae85-8880a01e8d91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"89c5e78a-2813-4b6b-aac4-fa378133a55c","name":"89c5e78a-2813-4b6b-aac4-fa378133a55c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

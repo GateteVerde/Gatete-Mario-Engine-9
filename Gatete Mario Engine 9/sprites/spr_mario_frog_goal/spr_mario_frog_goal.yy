@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_frog_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"76e1417d-e779-476f-b016-68df59e5a938","name":"76e1417d-e779-476f-b016-68df59e5a938","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e7dde7a4-e36b-41f3-9355-41cecbe7c8b0","name":"e7dde7a4-e36b-41f3-9355-41cecbe7c8b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76e1417d-e779-476f-b016-68df59e5a938","name":"76e1417d-e779-476f-b016-68df59e5a938","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e7dde7a4-e36b-41f3-9355-41cecbe7c8b0","name":"e7dde7a4-e36b-41f3-9355-41cecbe7c8b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

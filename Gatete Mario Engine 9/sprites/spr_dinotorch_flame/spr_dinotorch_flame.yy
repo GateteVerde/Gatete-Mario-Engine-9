@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_dinotorch_flame",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0a82a9c4-d5fc-4d86-850a-b9673e3fd1e2","name":"0a82a9c4-d5fc-4d86-850a-b9673e3fd1e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6daa6109-9ae1-4c1c-8d81-480d55fb9aab","name":"6daa6109-9ae1-4c1c-8d81-480d55fb9aab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0a82a9c4-d5fc-4d86-850a-b9673e3fd1e2","name":"0a82a9c4-d5fc-4d86-850a-b9673e3fd1e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6daa6109-9ae1-4c1c-8d81-480d55fb9aab","name":"6daa6109-9ae1-4c1c-8d81-480d55fb9aab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

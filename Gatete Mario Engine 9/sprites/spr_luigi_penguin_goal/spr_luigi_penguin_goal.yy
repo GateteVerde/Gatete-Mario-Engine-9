@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_penguin_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b91aadbe-d593-4514-be43-b323439a73b9","name":"b91aadbe-d593-4514-be43-b323439a73b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b91aadbe-d593-4514-be43-b323439a73b9","name":"b91aadbe-d593-4514-be43-b323439a73b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","name":"5998387f-7ed4-473c-a3a8-e2add74ddbdc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

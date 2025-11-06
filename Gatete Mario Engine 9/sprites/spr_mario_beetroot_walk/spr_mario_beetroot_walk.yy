@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_beetroot_walk",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fb0c6db2-f2c2-4f73-bae9-c5b1d2d6b60f","name":"fb0c6db2-f2c2-4f73-bae9-c5b1d2d6b60f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"02f4f6ac-9ae5-44bb-a7d4-182450f2a506","name":"02f4f6ac-9ae5-44bb-a7d4-182450f2a506","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"55fe7601-a75c-4dce-bac2-6f3156d606b3","name":"55fe7601-a75c-4dce-bac2-6f3156d606b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fb0c6db2-f2c2-4f73-bae9-c5b1d2d6b60f","name":"fb0c6db2-f2c2-4f73-bae9-c5b1d2d6b60f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02f4f6ac-9ae5-44bb-a7d4-182450f2a506","name":"02f4f6ac-9ae5-44bb-a7d4-182450f2a506","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55fe7601-a75c-4dce-bac2-6f3156d606b3","name":"55fe7601-a75c-4dce-bac2-6f3156d606b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

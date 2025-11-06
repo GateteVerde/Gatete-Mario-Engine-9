@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_hammer_pull",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3ca5af3f-3ab1-4116-837f-b82f84abe4a6","name":"3ca5af3f-3ab1-4116-837f-b82f84abe4a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"28c22f46-77d6-428e-b29e-2eff444e5e70","name":"28c22f46-77d6-428e-b29e-2eff444e5e70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3ca5af3f-3ab1-4116-837f-b82f84abe4a6","name":"3ca5af3f-3ab1-4116-837f-b82f84abe4a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"28c22f46-77d6-428e-b29e-2eff444e5e70","name":"28c22f46-77d6-428e-b29e-2eff444e5e70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

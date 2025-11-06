@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_squirrel_runjump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0eeba377-c4b9-4555-ac19-7ee891616fca","name":"0eeba377-c4b9-4555-ac19-7ee891616fca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0eeba377-c4b9-4555-ac19-7ee891616fca","name":"0eeba377-c4b9-4555-ac19-7ee891616fca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

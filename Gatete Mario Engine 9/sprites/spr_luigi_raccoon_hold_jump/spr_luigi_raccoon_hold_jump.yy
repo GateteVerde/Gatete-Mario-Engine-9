@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_raccoon_hold_jump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bfa66187-cd81-4400-b4f8-3c54da9876c4","name":"bfa66187-cd81-4400-b4f8-3c54da9876c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1e72dc48-745c-45ca-853d-ddc851a5b6f2","name":"1e72dc48-745c-45ca-853d-ddc851a5b6f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"37ff87c3-49c2-4ced-b358-4a6c3249805e","name":"37ff87c3-49c2-4ced-b358-4a6c3249805e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d46df219-2f98-44b9-b9da-bcb21433f622","name":"d46df219-2f98-44b9-b9da-bcb21433f622","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bfa66187-cd81-4400-b4f8-3c54da9876c4","name":"bfa66187-cd81-4400-b4f8-3c54da9876c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e72dc48-745c-45ca-853d-ddc851a5b6f2","name":"1e72dc48-745c-45ca-853d-ddc851a5b6f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37ff87c3-49c2-4ced-b358-4a6c3249805e","name":"37ff87c3-49c2-4ced-b358-4a6c3249805e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d46df219-2f98-44b9-b9da-bcb21433f622","name":"d46df219-2f98-44b9-b9da-bcb21433f622","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

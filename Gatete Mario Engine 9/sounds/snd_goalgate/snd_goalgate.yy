@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_goalgate",
   "audioGroupId":{
     "name":"audiogroup_music",
     "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":0.815057,
+  "exportDir":"",
   "name":"snd_goalgate",
   "parent":{
     "name":"SMW",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_goalgate.wav",
-  "type":0,
   "volume":1.0,
 }

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_football_kick",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6266bfc4-3a92-42cb-a2a8-81103bc0a408","name":"6266bfc4-3a92-42cb-a2a8-81103bc0a408","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"edbb333c-a0a4-43c9-9013-7c68c0fff042","name":"edbb333c-a0a4-43c9-9013-7c68c0fff042","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6266bfc4-3a92-42cb-a2a8-81103bc0a408","name":"6266bfc4-3a92-42cb-a2a8-81103bc0a408","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"edbb333c-a0a4-43c9-9013-7c68c0fff042","name":"edbb333c-a0a4-43c9-9013-7c68c0fff042","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

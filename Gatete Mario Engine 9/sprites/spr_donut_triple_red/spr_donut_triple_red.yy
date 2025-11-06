@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_donut_triple_red",
   "bboxMode":2,
   "bbox_bottom":3,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9a3e0626-f594-4aae-b4ab-36ad4f493221","name":"9a3e0626-f594-4aae-b4ab-36ad4f493221","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"aa1e32b4-a584-4ec6-bbc9-fc715aeb3d92","name":"aa1e32b4-a584-4ec6-bbc9-fc715aeb3d92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9a3e0626-f594-4aae-b4ab-36ad4f493221","name":"9a3e0626-f594-4aae-b4ab-36ad4f493221","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aa1e32b4-a584-4ec6-bbc9-fc715aeb3d92","name":"aa1e32b4-a584-4ec6-bbc9-fc715aeb3d92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

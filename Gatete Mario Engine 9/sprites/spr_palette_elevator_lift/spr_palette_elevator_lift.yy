@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_elevator_lift",
   "bboxMode":0,
   "bbox_bottom":1,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fdadf25d-53d8-446e-ba2b-388175c11da3","name":"fdadf25d-53d8-446e-ba2b-388175c11da3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fdadf25d-53d8-446e-ba2b-388175c11da3","name":"fdadf25d-53d8-446e-ba2b-388175c11da3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

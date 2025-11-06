@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"sideways","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"sideways","filters":[],"listItems":[
         "0",
         "1",
         "-1",

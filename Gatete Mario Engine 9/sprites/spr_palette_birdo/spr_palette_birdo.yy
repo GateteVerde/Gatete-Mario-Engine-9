@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_birdo",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"df6c336c-8caf-4715-b3ec-3e2565829e9d","name":"df6c336c-8caf-4715-b3ec-3e2565829e9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"df6c336c-8caf-4715-b3ec-3e2565829e9d","name":"df6c336c-8caf-4715-b3ec-3e2565829e9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

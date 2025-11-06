@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_draglet_wing",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9f877f6f-d73b-400d-94d0-adde72e691ad","name":"9f877f6f-d73b-400d-94d0-adde72e691ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b5de6f31-1df9-47ef-9276-028ae2bac08d","name":"b5de6f31-1df9-47ef-9276-028ae2bac08d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f877f6f-d73b-400d-94d0-adde72e691ad","name":"9f877f6f-d73b-400d-94d0-adde72e691ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5de6f31-1df9-47ef-9276-028ae2bac08d","name":"b5de6f31-1df9-47ef-9276-028ae2bac08d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

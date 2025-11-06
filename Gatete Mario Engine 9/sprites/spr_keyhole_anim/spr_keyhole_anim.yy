@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_keyhole_anim",
   "bboxMode":0,
   "bbox_bottom":111,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"63631294-3c7d-4eec-8742-cf4b60588825","name":"63631294-3c7d-4eec-8742-cf4b60588825","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"63631294-3c7d-4eec-8742-cf4b60588825","name":"63631294-3c7d-4eec-8742-cf4b60588825","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

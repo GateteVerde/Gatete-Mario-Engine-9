@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_paragoomba_red_frozen",
   "bboxMode":1,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f085c623-3507-48e0-a3d1-b5741c1c2db2","name":"f085c623-3507-48e0-a3d1-b5741c1c2db2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f085c623-3507-48e0-a3d1-b5741c1c2db2","name":"f085c623-3507-48e0-a3d1-b5741c1c2db2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mushroom_lift_stem",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"333b780d-5ef3-4576-9042-6af67c9c8f40","name":"333b780d-5ef3-4576-9042-6af67c9c8f40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5fc84b19-4511-4e6b-826b-57c4bbc63a83","name":"5fc84b19-4511-4e6b-826b-57c4bbc63a83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"333b780d-5ef3-4576-9042-6af67c9c8f40","name":"333b780d-5ef3-4576-9042-6af67c9c8f40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5fc84b19-4511-4e6b-826b-57c4bbc63a83","name":"5fc84b19-4511-4e6b-826b-57c4bbc63a83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

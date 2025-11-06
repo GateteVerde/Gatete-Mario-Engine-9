@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pipelotus_fire",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"69113f10-e230-4351-a142-711d6b7ca9ed","name":"69113f10-e230-4351-a142-711d6b7ca9ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3eae8644-2159-44be-8b48-ccb184a99ff8","name":"3eae8644-2159-44be-8b48-ccb184a99ff8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"69113f10-e230-4351-a142-711d6b7ca9ed","name":"69113f10-e230-4351-a142-711d6b7ca9ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3eae8644-2159-44be-8b48-ccb184a99ff8","name":"3eae8644-2159-44be-8b48-ccb184a99ff8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

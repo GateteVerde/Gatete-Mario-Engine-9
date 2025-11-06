@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_solidbubble_starcoin",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","name":"4d14e963-d410-450b-bdb2-87bc0cfcc4f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","name":"77b29fc7-9ccb-4b48-8c89-eb15347b0f09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

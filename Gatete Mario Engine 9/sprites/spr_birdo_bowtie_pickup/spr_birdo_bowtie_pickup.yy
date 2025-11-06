@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_birdo_bowtie_pickup",
   "bboxMode":2,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8c26edd0-99d2-47eb-89ca-786daa309a10","name":"8c26edd0-99d2-47eb-89ca-786daa309a10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8c26edd0-99d2-47eb-89ca-786daa309a10","name":"8c26edd0-99d2-47eb-89ca-786daa309a10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

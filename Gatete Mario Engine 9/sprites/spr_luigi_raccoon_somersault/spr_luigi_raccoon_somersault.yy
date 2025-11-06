@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_raccoon_somersault",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"05e4cacd-3430-4cb3-aa51-61571c9284ff","name":"05e4cacd-3430-4cb3-aa51-61571c9284ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05e4cacd-3430-4cb3-aa51-61571c9284ff","name":"05e4cacd-3430-4cb3-aa51-61571c9284ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

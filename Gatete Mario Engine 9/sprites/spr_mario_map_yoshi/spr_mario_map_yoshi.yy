@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_map_yoshi",
   "bboxMode":2,
   "bbox_bottom":20,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0955bd68-2be6-4fe8-a2b1-49c471b7d282","name":"0955bd68-2be6-4fe8-a2b1-49c471b7d282","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1ee9a388-008b-48b9-9190-fec6d93de1ea","name":"1ee9a388-008b-48b9-9190-fec6d93de1ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0955bd68-2be6-4fe8-a2b1-49c471b7d282","name":"0955bd68-2be6-4fe8-a2b1-49c471b7d282","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1ee9a388-008b-48b9-9190-fec6d93de1ea","name":"1ee9a388-008b-48b9-9190-fec6d93de1ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

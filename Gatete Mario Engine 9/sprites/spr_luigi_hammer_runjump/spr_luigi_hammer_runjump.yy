@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_hammer_runjump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd17f30a-9fbc-4a3e-a031-57b66c847a67","name":"cd17f30a-9fbc-4a3e-a031-57b66c847a67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd17f30a-9fbc-4a3e-a031-57b66c847a67","name":"cd17f30a-9fbc-4a3e-a031-57b66c847a67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -26,9 +26,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"secret_exit","filters":[],"listItems":[],"multiselect":false,"name":"secret_exit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"winged","filters":[],"listItems":[],"multiselect":false,"name":"winged","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"multiplier","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"secret_exit","filters":[],"listItems":[],"multiselect":false,"name":"secret_exit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"winged","filters":[],"listItems":[],"multiselect":false,"name":"winged","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"multiplier","filters":[],"listItems":[
         "50",
         "100",
         "200",

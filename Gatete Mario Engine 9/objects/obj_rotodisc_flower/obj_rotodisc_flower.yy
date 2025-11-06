@@ -29,13 +29,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"clockwise","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"clockwise","filters":[],"listItems":[
         "1",
         "-1",
       ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":6,},
-    {"$GMObjectProperty":"v1","%Name":"discs","filters":[],"listItems":[],"multiselect":false,"name":"discs","rangeEnabled":true,"rangeMax":4.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2.5","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"maxradius","filters":[],"listItems":[],"multiselect":false,"name":"maxradius","rangeEnabled":true,"rangeMax":160.0,"rangeMin":80.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"discs","filters":[],"listItems":[],"multiselect":false,"name":"discs","rangeEnabled":true,"rangeMax":4.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2.5","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"maxradius","filters":[],"listItems":[],"multiselect":false,"name":"maxradius","rangeEnabled":true,"rangeMax":160.0,"rangeMin":80.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_frog_hold",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9b7f7e01-2d48-498e-ba32-3dabe4e7c413","name":"9b7f7e01-2d48-498e-ba32-3dabe4e7c413","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4d7ed75f-600d-4c8d-addd-4697041963a2","name":"4d7ed75f-600d-4c8d-addd-4697041963a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"be128391-f0d0-43a6-9c33-549da8e330ae","name":"be128391-f0d0-43a6-9c33-549da8e330ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b7f7e01-2d48-498e-ba32-3dabe4e7c413","name":"9b7f7e01-2d48-498e-ba32-3dabe4e7c413","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d7ed75f-600d-4c8d-addd-4697041963a2","name":"4d7ed75f-600d-4c8d-addd-4697041963a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"be128391-f0d0-43a6-9c33-549da8e330ae","name":"be128391-f0d0-43a6-9c33-549da8e330ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

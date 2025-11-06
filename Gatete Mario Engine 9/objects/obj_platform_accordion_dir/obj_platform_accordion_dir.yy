@@ -33,7 +33,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"direction","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"direction","filters":[],"listItems":[
         "0",
         "90",
         "180",

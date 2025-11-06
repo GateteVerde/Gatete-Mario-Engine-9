@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_squirrel_skid",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"244cb7ed-58eb-4f7c-9455-294cf8655341","name":"244cb7ed-58eb-4f7c-9455-294cf8655341","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"244cb7ed-58eb-4f7c-9455-294cf8655341","name":"244cb7ed-58eb-4f7c-9455-294cf8655341","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

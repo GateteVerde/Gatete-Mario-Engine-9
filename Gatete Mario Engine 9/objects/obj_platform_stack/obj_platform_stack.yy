@@ -33,7 +33,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"h_max","filters":[],"listItems":[],"multiselect":false,"name":"h_max","rangeEnabled":true,"rangeMax":10.0,"rangeMin":3.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"h_max","filters":[],"listItems":[],"multiselect":false,"name":"h_max","rangeEnabled":true,"rangeMax":10.0,"rangeMin":3.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

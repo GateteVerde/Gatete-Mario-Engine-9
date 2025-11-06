@@ -32,7 +32,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"gizmo","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"gizmo","filters":[],"listItems":[
         "0",
         "1",
         "2",
@@ -40,10 +40,10 @@
         "4",
         "5",
       ],"multiselect":false,"name":"gizmo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":6,},
-    {"$GMObjectProperty":"v1","%Name":"inverted","filters":[],"listItems":[],"multiselect":false,"name":"inverted","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"rope_width","filters":[],"listItems":[],"multiselect":false,"name":"rope_width","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"rope_height","filters":[],"listItems":[],"multiselect":false,"name":"rope_height","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"seesaw_width","filters":[],"listItems":[],"multiselect":false,"name":"seesaw_width","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"inverted","filters":[],"listItems":[],"multiselect":false,"name":"inverted","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"rope_width","filters":[],"listItems":[],"multiselect":false,"name":"rope_width","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"rope_height","filters":[],"listItems":[],"multiselect":false,"name":"rope_height","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"seesaw_width","filters":[],"listItems":[],"multiselect":false,"name":"seesaw_width","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

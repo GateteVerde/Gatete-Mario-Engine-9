@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mask_yoshi_tongue",
   "bboxMode":0,
   "bbox_bottom":9,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0b284562-ad5e-417d-9ba8-dc686e0ac163","name":"0b284562-ad5e-417d-9ba8-dc686e0ac163","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0b284562-ad5e-417d-9ba8-dc686e0ac163","name":"0b284562-ad5e-417d-9ba8-dc686e0ac163","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

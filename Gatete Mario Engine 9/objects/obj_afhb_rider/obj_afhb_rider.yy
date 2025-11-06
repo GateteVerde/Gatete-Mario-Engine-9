@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"time","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"time","filters":[],"listItems":[
         "1",
         "24",
         "48",

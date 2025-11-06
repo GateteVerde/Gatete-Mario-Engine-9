@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_hammer_kick",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ba6e4e47-662f-4cae-9756-0ae949b82330","name":"ba6e4e47-662f-4cae-9756-0ae949b82330","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"20a74087-1599-4928-bb9e-8d1ea1f63171","name":"20a74087-1599-4928-bb9e-8d1ea1f63171","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ba6e4e47-662f-4cae-9756-0ae949b82330","name":"ba6e4e47-662f-4cae-9756-0ae949b82330","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"20a74087-1599-4928-bb9e-8d1ea1f63171","name":"20a74087-1599-4928-bb9e-8d1ea1f63171","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

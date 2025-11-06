@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_carrot_walk",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4c64dbb7-6f31-4ecf-b3c1-18737710a249","name":"4c64dbb7-6f31-4ecf-b3c1-18737710a249","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7db9c81e-9b49-4e25-8f20-559806ad4722","name":"7db9c81e-9b49-4e25-8f20-559806ad4722","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d50d93ea-2511-4c0f-98b6-c1a367cc6d45","name":"d50d93ea-2511-4c0f-98b6-c1a367cc6d45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4c64dbb7-6f31-4ecf-b3c1-18737710a249","name":"4c64dbb7-6f31-4ecf-b3c1-18737710a249","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7db9c81e-9b49-4e25-8f20-559806ad4722","name":"7db9c81e-9b49-4e25-8f20-559806ad4722","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d50d93ea-2511-4c0f-98b6-c1a367cc6d45","name":"d50d93ea-2511-4c0f-98b6-c1a367cc6d45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

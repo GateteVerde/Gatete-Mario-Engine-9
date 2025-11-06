@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_kabomb",
   "bboxMode":0,
   "bbox_bottom":10,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e635f53a-6ead-4d7c-ba8a-59e8aa4aad09","name":"e635f53a-6ead-4d7c-ba8a-59e8aa4aad09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e635f53a-6ead-4d7c-ba8a-59e8aa4aad09","name":"e635f53a-6ead-4d7c-ba8a-59e8aa4aad09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

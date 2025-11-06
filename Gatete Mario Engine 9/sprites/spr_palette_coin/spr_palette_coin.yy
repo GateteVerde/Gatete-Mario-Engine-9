@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_coin",
   "bboxMode":0,
   "bbox_bottom":5,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6b9de303-a0ef-4da0-9393-a430d824228c","name":"6b9de303-a0ef-4da0-9393-a430d824228c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b9de303-a0ef-4da0-9393-a430d824228c","name":"6b9de303-a0ef-4da0-9393-a430d824228c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

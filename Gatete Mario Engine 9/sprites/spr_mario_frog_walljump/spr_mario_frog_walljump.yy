@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_frog_walljump",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"73c7a20d-8be0-40a6-9a09-b0bc22b4fc2f","name":"73c7a20d-8be0-40a6-9a09-b0bc22b4fc2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"73c7a20d-8be0-40a6-9a09-b0bc22b4fc2f","name":"73c7a20d-8be0-40a6-9a09-b0bc22b4fc2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

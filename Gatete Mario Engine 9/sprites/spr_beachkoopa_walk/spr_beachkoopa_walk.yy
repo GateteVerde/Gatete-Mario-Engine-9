@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_beachkoopa_walk",
   "bboxMode":1,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","name":"c2d34d23-af1c-4c8d-ad00-219f81c11b9f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","name":"dc69a1d6-4c39-4f95-842d-a348850cb80b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

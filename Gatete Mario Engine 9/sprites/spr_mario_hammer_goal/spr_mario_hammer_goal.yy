@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_hammer_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ef69c463-c17f-4fe3-bab2-9db29103065f","name":"ef69c463-c17f-4fe3-bab2-9db29103065f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0d3b6aaf-9150-48f0-a398-172e7236a06a","name":"0d3b6aaf-9150-48f0-a398-172e7236a06a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef69c463-c17f-4fe3-bab2-9db29103065f","name":"ef69c463-c17f-4fe3-bab2-9db29103065f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0d3b6aaf-9150-48f0-a398-172e7236a06a","name":"0d3b6aaf-9150-48f0-a398-172e7236a06a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

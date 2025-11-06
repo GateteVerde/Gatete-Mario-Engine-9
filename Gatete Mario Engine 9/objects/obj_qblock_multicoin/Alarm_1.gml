@@ -22,10 +22,13 @@ if (scatter == 0) {
 		}
 	
 		//Turn into a used block
-		with (instance_change(obj_emptyblock, false)) {
+		with (instance_create_depth(xstart, ystart, depth, obj_emptyblock)) {
 	
-			semisolid = other.semisolid;	
+			semisolid = other.semisolid;
 		}
+
+		//Then destroy this block
+		instance_destroy();
 	}
 	else
 		ready = 0;
@@ -33,8 +36,11 @@ if (scatter == 0) {
 else {
 	
 	//Turn into a used block
-	with (instance_change(obj_emptyblock, false)) {
+	with (instance_create_depth(xstart, ystart, depth, obj_emptyblock)) {
 	
-		semisolid = other.semisolid;	
+		semisolid = other.semisolid;
 	}
+
+	//Then destroy this block
+	instance_destroy();
 }

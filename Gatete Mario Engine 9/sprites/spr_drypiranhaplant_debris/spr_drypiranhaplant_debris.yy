@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_drypiranhaplant_debris",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"655cf05b-97bc-4fbb-887c-f8dadb13a555","name":"655cf05b-97bc-4fbb-887c-f8dadb13a555","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"053a6a2b-3bcc-4eae-a72f-a7456c434f17","name":"053a6a2b-3bcc-4eae-a72f-a7456c434f17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"655cf05b-97bc-4fbb-887c-f8dadb13a555","name":"655cf05b-97bc-4fbb-887c-f8dadb13a555","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"053a6a2b-3bcc-4eae-a72f-a7456c434f17","name":"053a6a2b-3bcc-4eae-a72f-a7456c434f17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

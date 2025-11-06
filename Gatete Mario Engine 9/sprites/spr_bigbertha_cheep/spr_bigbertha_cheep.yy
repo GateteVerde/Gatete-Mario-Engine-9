@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bigbertha_cheep",
   "bboxMode":2,
   "bbox_bottom":11,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1561cae5-d021-4433-933c-a2a5771a750e","name":"1561cae5-d021-4433-933c-a2a5771a750e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1561cae5-d021-4433-933c-a2a5771a750e","name":"1561cae5-d021-4433-933c-a2a5771a750e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","name":"f2f7de33-d5b7-4a78-b457-8e97d717a31f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

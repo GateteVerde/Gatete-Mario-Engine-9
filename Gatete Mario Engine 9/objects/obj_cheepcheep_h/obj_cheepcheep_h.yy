@@ -34,7 +34,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"fish","filters":[],"listItems":[],"multiselect":false,"name":"fish","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"fish","filters":[],"listItems":[],"multiselect":false,"name":"fish","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

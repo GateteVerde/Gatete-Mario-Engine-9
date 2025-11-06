@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_bee_carry_jump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fef6209b-1909-41ee-8ce2-db63bb64b4f1","name":"fef6209b-1909-41ee-8ce2-db63bb64b4f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"78d64461-4070-4dfa-9da4-69b8595e43dc","name":"78d64461-4070-4dfa-9da4-69b8595e43dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fef6209b-1909-41ee-8ce2-db63bb64b4f1","name":"fef6209b-1909-41ee-8ce2-db63bb64b4f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"78d64461-4070-4dfa-9da4-69b8595e43dc","name":"78d64461-4070-4dfa-9da4-69b8595e43dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

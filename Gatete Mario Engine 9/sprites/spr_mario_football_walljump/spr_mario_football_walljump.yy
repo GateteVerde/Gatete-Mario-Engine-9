@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_football_walljump",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"39d0e651-64fb-4a12-8520-e2d81cb4b461","name":"39d0e651-64fb-4a12-8520-e2d81cb4b461","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39d0e651-64fb-4a12-8520-e2d81cb4b461","name":"39d0e651-64fb-4a12-8520-e2d81cb4b461","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

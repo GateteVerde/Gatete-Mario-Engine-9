@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_powerdown",
   "bboxMode":0,
   "bbox_bottom":28,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dccc6e43-7758-416c-adb3-a8b51064d8a2","name":"dccc6e43-7758-416c-adb3-a8b51064d8a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e380c22f-a96e-435d-868f-57b246ffb183","name":"e380c22f-a96e-435d-868f-57b246ffb183","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dccc6e43-7758-416c-adb3-a8b51064d8a2","name":"dccc6e43-7758-416c-adb3-a8b51064d8a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e380c22f-a96e-435d-868f-57b246ffb183","name":"e380c22f-a96e-435d-868f-57b246ffb183","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

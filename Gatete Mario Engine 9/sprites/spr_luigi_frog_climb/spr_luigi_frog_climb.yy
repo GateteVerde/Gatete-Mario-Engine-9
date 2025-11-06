@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_frog_climb",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c64d4926-0082-4027-8699-852388bdb09a","name":"c64d4926-0082-4027-8699-852388bdb09a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9a9488be-4011-45bc-9fdd-f111f6c9d075","name":"9a9488be-4011-45bc-9fdd-f111f6c9d075","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c64d4926-0082-4027-8699-852388bdb09a","name":"c64d4926-0082-4027-8699-852388bdb09a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9a9488be-4011-45bc-9fdd-f111f6c9d075","name":"9a9488be-4011-45bc-9fdd-f111f6c9d075","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

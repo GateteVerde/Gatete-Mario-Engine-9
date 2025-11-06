@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_raccoon_carry",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"80198bde-a691-40ef-8c21-bd91d91c980d","name":"80198bde-a691-40ef-8c21-bd91d91c980d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e6b285c2-28ad-4e89-bf27-9e821be62efd","name":"e6b285c2-28ad-4e89-bf27-9e821be62efd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9acbaa43-2c9b-46a8-837a-be90b80a62e7","name":"9acbaa43-2c9b-46a8-837a-be90b80a62e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"80198bde-a691-40ef-8c21-bd91d91c980d","name":"80198bde-a691-40ef-8c21-bd91d91c980d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e6b285c2-28ad-4e89-bf27-9e821be62efd","name":"e6b285c2-28ad-4e89-bf27-9e821be62efd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9acbaa43-2c9b-46a8-837a-be90b80a62e7","name":"9acbaa43-2c9b-46a8-837a-be90b80a62e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

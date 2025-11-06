@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_cat_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d7cc0a63-6751-4aa6-96a5-26dd7a4db1bd","name":"d7cc0a63-6751-4aa6-96a5-26dd7a4db1bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"da188af6-95be-4faf-b99c-7c21cb2edc3a","name":"da188af6-95be-4faf-b99c-7c21cb2edc3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d7cc0a63-6751-4aa6-96a5-26dd7a4db1bd","name":"d7cc0a63-6751-4aa6-96a5-26dd7a4db1bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"da188af6-95be-4faf-b99c-7c21cb2edc3a","name":"da188af6-95be-4faf-b99c-7c21cb2edc3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

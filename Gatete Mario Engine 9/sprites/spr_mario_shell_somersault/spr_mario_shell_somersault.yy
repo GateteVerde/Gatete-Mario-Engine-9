@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_shell_somersault",
   "bboxMode":0,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"25eacea0-ab9e-4a2d-9f46-f8886291bc8a","name":"25eacea0-ab9e-4a2d-9f46-f8886291bc8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25eacea0-ab9e-4a2d-9f46-f8886291bc8a","name":"25eacea0-ab9e-4a2d-9f46-f8886291bc8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

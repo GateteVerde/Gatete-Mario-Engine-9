@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_passinchuck_football",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2651a958-d067-4988-b7a5-2e9f019bc89c","name":"2651a958-d067-4988-b7a5-2e9f019bc89c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2651a958-d067-4988-b7a5-2e9f019bc89c","name":"2651a958-d067-4988-b7a5-2e9f019bc89c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","name":"e4c314bd-b7c5-48f8-a0a7-2651652a1699","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

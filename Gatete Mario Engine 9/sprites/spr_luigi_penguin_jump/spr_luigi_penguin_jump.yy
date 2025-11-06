@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_penguin_jump",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f850ba62-ebfb-4005-b9f6-964f5245eba9","name":"f850ba62-ebfb-4005-b9f6-964f5245eba9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d63ec4d0-5390-4ee6-a7c0-bedebd5d3176","name":"d63ec4d0-5390-4ee6-a7c0-bedebd5d3176","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f850ba62-ebfb-4005-b9f6-964f5245eba9","name":"f850ba62-ebfb-4005-b9f6-964f5245eba9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d63ec4d0-5390-4ee6-a7c0-bedebd5d3176","name":"d63ec4d0-5390-4ee6-a7c0-bedebd5d3176","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

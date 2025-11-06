@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cardgame_cursor",
   "bboxMode":0,
   "bbox_bottom":43,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4d20628f-0592-4e8b-b752-f80807d17a41","name":"4d20628f-0592-4e8b-b752-f80807d17a41","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d20628f-0592-4e8b-b752-f80807d17a41","name":"4d20628f-0592-4e8b-b752-f80807d17a41","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

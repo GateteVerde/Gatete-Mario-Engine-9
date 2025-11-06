@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_flipblock_big_held",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"08e4b099-67ea-433a-befa-4b5a0e19b150","name":"08e4b099-67ea-433a-befa-4b5a0e19b150","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"08e4b099-67ea-433a-befa-4b5a0e19b150","name":"08e4b099-67ea-433a-befa-4b5a0e19b150","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

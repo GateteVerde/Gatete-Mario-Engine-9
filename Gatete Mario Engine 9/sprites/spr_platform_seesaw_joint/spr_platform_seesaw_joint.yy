@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_platform_seesaw_joint",
   "bboxMode":2,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"351fad69-6410-4629-aa99-4ecb835568eb","name":"351fad69-6410-4629-aa99-4ecb835568eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"351fad69-6410-4629-aa99-4ecb835568eb","name":"351fad69-6410-4629-aa99-4ecb835568eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

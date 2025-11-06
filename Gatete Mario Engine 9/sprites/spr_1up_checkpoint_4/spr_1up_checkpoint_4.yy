@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_1up_checkpoint_4",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bfe7b1bb-e0ce-4a67-b2bc-b8a747a98b77","name":"bfe7b1bb-e0ce-4a67-b2bc-b8a747a98b77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bfe7b1bb-e0ce-4a67-b2bc-b8a747a98b77","name":"bfe7b1bb-e0ce-4a67-b2bc-b8a747a98b77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

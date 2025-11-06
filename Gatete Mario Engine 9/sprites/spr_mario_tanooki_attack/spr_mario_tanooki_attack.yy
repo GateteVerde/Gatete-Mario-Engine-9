@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_tanooki_attack",
   "bboxMode":2,
   "bbox_bottom":27,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a573772f-73ab-47bd-a03e-a20953f1ac98","name":"a573772f-73ab-47bd-a03e-a20953f1ac98","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"58e5c8f5-00ba-49b0-b8e4-cce40e235186","name":"58e5c8f5-00ba-49b0-b8e4-cce40e235186","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2c229567-8202-4ba1-858f-81f02011fe9f","name":"2c229567-8202-4ba1-858f-81f02011fe9f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b15b065e-05e7-4a3d-9cfe-fe43cc94b6e1","name":"b15b065e-05e7-4a3d-9cfe-fe43cc94b6e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a573772f-73ab-47bd-a03e-a20953f1ac98","name":"a573772f-73ab-47bd-a03e-a20953f1ac98","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"58e5c8f5-00ba-49b0-b8e4-cce40e235186","name":"58e5c8f5-00ba-49b0-b8e4-cce40e235186","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2c229567-8202-4ba1-858f-81f02011fe9f","name":"2c229567-8202-4ba1-858f-81f02011fe9f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b15b065e-05e7-4a3d-9cfe-fe43cc94b6e1","name":"b15b065e-05e7-4a3d-9cfe-fe43cc94b6e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

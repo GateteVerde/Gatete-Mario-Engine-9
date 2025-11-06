@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_coinrouletteblock_empty",
   "bboxMode":2,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","name":"6722967d-fad9-4c9a-9382-f5d4a8bc3e6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

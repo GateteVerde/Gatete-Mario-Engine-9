@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_raccoon_kick",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"faac995b-5603-4ee1-b282-2a60957523dc","name":"faac995b-5603-4ee1-b282-2a60957523dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"faac995b-5603-4ee1-b282-2a60957523dc","name":"faac995b-5603-4ee1-b282-2a60957523dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","name":"a241dab0-08c2-46c9-8040-2f168f6a50c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_football_swim",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","name":"cefafcfa-d626-4438-9f49-e6ba46b7ffb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","name":"c7d6cc3d-f5df-4e9a-8a5d-d7c488a6ec68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","name":"c6f19999-8b3c-42e7-bccd-4c62313555ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

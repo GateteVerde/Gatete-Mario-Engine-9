@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_hammer_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"81290ea3-7bb6-4896-8a17-8ba1610b5d83","name":"81290ea3-7bb6-4896-8a17-8ba1610b5d83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eef5f21c-d6bf-4a0a-9194-c3909880b66b","name":"eef5f21c-d6bf-4a0a-9194-c3909880b66b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"81290ea3-7bb6-4896-8a17-8ba1610b5d83","name":"81290ea3-7bb6-4896-8a17-8ba1610b5d83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eef5f21c-d6bf-4a0a-9194-c3909880b66b","name":"eef5f21c-d6bf-4a0a-9194-c3909880b66b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

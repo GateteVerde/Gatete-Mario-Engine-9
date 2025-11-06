@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lavalotus_spit",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","name":"e5f7c825-66d9-4359-b1a8-a4ff54364802","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

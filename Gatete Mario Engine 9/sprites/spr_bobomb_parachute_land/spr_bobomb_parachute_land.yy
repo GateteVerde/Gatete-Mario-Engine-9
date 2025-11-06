@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bobomb_parachute_land",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cbb5b2e1-2583-4980-a774-64fa5d9ab567","name":"cbb5b2e1-2583-4980-a774-64fa5d9ab567","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","name":"79fed7f4-bd57-41c6-aca4-a9e42a05acf3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cbb5b2e1-2583-4980-a774-64fa5d9ab567","name":"cbb5b2e1-2583-4980-a774-64fa5d9ab567","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

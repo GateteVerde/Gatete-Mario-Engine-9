@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_jumpingpiranhaplant_red",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"08a11292-8ef8-4953-b2bb-2538c96b777f","name":"08a11292-8ef8-4953-b2bb-2538c96b777f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5c97c19d-4798-4208-8748-037150ccbae0","name":"5c97c19d-4798-4208-8748-037150ccbae0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"08a11292-8ef8-4953-b2bb-2538c96b777f","name":"08a11292-8ef8-4953-b2bb-2538c96b777f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","name":"d0acb1f7-2ea3-470d-8887-7ef517f9c0d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","name":"39fc7f5f-5169-4eb6-a46e-3164327bfd75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c97c19d-4798-4208-8748-037150ccbae0","name":"5c97c19d-4798-4208-8748-037150ccbae0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

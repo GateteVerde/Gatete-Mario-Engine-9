@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_rockywrench_dead",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","name":"c7248b4b-fef5-4ce1-b238-706347c32ee9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","name":"1915509d-c479-4aaf-b6dc-32bfb9ce3449","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

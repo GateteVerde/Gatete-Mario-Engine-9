@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_propeller_walljump",
   "bboxMode":0,
   "bbox_bottom":33,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8cf9d9f4-ffa7-46a7-a5ee-f9d3bf92bca3","name":"8cf9d9f4-ffa7-46a7-a5ee-f9d3bf92bca3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8cf9d9f4-ffa7-46a7-a5ee-f9d3bf92bca3","name":"8cf9d9f4-ffa7-46a7-a5ee-f9d3bf92bca3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

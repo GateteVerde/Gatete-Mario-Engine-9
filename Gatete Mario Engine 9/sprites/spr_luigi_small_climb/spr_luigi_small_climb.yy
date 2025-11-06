@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_small_climb",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc30c649-9bde-4910-982b-6b57d631e41b","name":"dc30c649-9bde-4910-982b-6b57d631e41b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5b296502-386b-4164-9e35-d22da39c1c45","name":"5b296502-386b-4164-9e35-d22da39c1c45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc30c649-9bde-4910-982b-6b57d631e41b","name":"dc30c649-9bde-4910-982b-6b57d631e41b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5b296502-386b-4164-9e35-d22da39c1c45","name":"5b296502-386b-4164-9e35-d22da39c1c45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

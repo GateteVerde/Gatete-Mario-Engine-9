@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_carrot_hold2_jump",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f80364ee-1cbf-4908-a048-9c25154bc67b","name":"f80364ee-1cbf-4908-a048-9c25154bc67b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","name":"0ff3f52d-7044-4c5b-b14c-ad6124955ea4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f80364ee-1cbf-4908-a048-9c25154bc67b","name":"f80364ee-1cbf-4908-a048-9c25154bc67b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_goalgate",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"421d73c3-6a2e-4bac-ab68-197853e5068e","name":"421d73c3-6a2e-4bac-ab68-197853e5068e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"421d73c3-6a2e-4bac-ab68-197853e5068e","name":"421d73c3-6a2e-4bac-ab68-197853e5068e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,15 +72,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ce318ae0-0da8-4b9c-8bd6-65678a410d44","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"421d73c3-6a2e-4bac-ab68-197853e5068e","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"686f7fd5-27b1-4dc9-9ee1-8aaeaf742420","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5d007d41-0373-45d0-9eb3-ea39ad3580e6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"946bc61f-28cc-474d-bd06-914f0b4df4fd","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ce318ae0-0da8-4b9c-8bd6-65678a410d44","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"421d73c3-6a2e-4bac-ab68-197853e5068e","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"686f7fd5-27b1-4dc9-9ee1-8aaeaf742420","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"75475eec-f1e9-428a-8be8-8ae4aa2c13eb","path":"sprites/spr_goalgate/spr_goalgate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5d007d41-0373-45d0-9eb3-ea39ad3580e6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

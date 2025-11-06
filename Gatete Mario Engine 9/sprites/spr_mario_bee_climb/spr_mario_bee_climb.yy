@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_bee_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1c22cfed-e452-4f6c-965d-3afc94467fd2","name":"1c22cfed-e452-4f6c-965d-3afc94467fd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3872e14f-0d5a-4bb2-9f5f-68ec2268ebc8","name":"3872e14f-0d5a-4bb2-9f5f-68ec2268ebc8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1c22cfed-e452-4f6c-965d-3afc94467fd2","name":"1c22cfed-e452-4f6c-965d-3afc94467fd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3872e14f-0d5a-4bb2-9f5f-68ec2268ebc8","name":"3872e14f-0d5a-4bb2-9f5f-68ec2268ebc8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

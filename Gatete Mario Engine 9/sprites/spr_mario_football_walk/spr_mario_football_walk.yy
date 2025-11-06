@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_football_walk",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"56ad3d3b-40b9-47ad-8e73-3f7cbed917b0","name":"56ad3d3b-40b9-47ad-8e73-3f7cbed917b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"24eecd14-9fe4-48fe-a162-f6f697507da9","name":"24eecd14-9fe4-48fe-a162-f6f697507da9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"19a137ad-cd49-47f4-8986-67e839a50b16","name":"19a137ad-cd49-47f4-8986-67e839a50b16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"56ad3d3b-40b9-47ad-8e73-3f7cbed917b0","name":"56ad3d3b-40b9-47ad-8e73-3f7cbed917b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"24eecd14-9fe4-48fe-a162-f6f697507da9","name":"24eecd14-9fe4-48fe-a162-f6f697507da9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"19a137ad-cd49-47f4-8986-67e839a50b16","name":"19a137ad-cd49-47f4-8986-67e839a50b16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

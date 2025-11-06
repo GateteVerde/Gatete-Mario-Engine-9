@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_propeller_clear",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"617532a1-0433-48db-8b7e-4a0909fe384c","name":"617532a1-0433-48db-8b7e-4a0909fe384c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"617532a1-0433-48db-8b7e-4a0909fe384c","name":"617532a1-0433-48db-8b7e-4a0909fe384c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

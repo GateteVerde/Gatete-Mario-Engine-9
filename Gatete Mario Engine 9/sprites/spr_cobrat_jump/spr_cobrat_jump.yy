@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cobrat_jump",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0dba1d11-3b30-429f-ad3f-eff9d3a441b7","name":"0dba1d11-3b30-429f-ad3f-eff9d3a441b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0dba1d11-3b30-429f-ad3f-eff9d3a441b7","name":"0dba1d11-3b30-429f-ad3f-eff9d3a441b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

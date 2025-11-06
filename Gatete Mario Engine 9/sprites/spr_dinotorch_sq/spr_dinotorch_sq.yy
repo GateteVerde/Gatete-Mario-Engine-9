@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_dinotorch_sq",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0320e3ae-f448-4d8b-81f1-82cb471abddf","name":"0320e3ae-f448-4d8b-81f1-82cb471abddf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0320e3ae-f448-4d8b-81f1-82cb471abddf","name":"0320e3ae-f448-4d8b-81f1-82cb471abddf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

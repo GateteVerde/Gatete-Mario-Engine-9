@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_tanooki_pull",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"01b28d57-72ea-446e-90da-6dbd54a511bd","name":"01b28d57-72ea-446e-90da-6dbd54a511bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","name":"203bff1c-4713-4dc2-96a9-9c3b76e3d929","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01b28d57-72ea-446e-90da-6dbd54a511bd","name":"01b28d57-72ea-446e-90da-6dbd54a511bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

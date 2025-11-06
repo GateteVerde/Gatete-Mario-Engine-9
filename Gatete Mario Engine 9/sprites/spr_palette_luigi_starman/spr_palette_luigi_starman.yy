@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_palette_luigi_starman",
   "bboxMode":0,
   "bbox_bottom":93,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a6c49e19-f058-4588-99ce-6eed17d90f7d","name":"a6c49e19-f058-4588-99ce-6eed17d90f7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6c49e19-f058-4588-99ce-6eed17d90f7d","name":"a6c49e19-f058-4588-99ce-6eed17d90f7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

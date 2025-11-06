@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_squirrel_walljump",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"26174977-3a37-485a-ae97-023245b4429f","name":"26174977-3a37-485a-ae97-023245b4429f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"26174977-3a37-485a-ae97-023245b4429f","name":"26174977-3a37-485a-ae97-023245b4429f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

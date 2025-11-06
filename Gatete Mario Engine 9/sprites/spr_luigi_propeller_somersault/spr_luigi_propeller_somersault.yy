@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_propeller_somersault",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7938872f-a959-4480-9bbc-b598f5edad63","name":"7938872f-a959-4480-9bbc-b598f5edad63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7938872f-a959-4480-9bbc-b598f5edad63","name":"7938872f-a959-4480-9bbc-b598f5edad63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

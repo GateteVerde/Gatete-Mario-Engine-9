@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lakitu_cloud",
   "bboxMode":0,
   "bbox_bottom":16,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1adee67a-f163-4f7c-97ad-994579f074cf","name":"1adee67a-f163-4f7c-97ad-994579f074cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1adee67a-f163-4f7c-97ad-994579f074cf","name":"1adee67a-f163-4f7c-97ad-994579f074cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","name":"76daffdc-88fb-413d-9825-d6c00fc0e57d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

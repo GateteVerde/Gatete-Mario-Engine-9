@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_bomb_somersault",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1acfe712-3fdf-4cea-af25-11594c92f8b3","name":"1acfe712-3fdf-4cea-af25-11594c92f8b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1acfe712-3fdf-4cea-af25-11594c92f8b3","name":"1acfe712-3fdf-4cea-af25-11594c92f8b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

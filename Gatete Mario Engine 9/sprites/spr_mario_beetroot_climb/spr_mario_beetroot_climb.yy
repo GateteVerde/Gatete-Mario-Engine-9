@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_beetroot_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2f522987-5f16-4cee-877c-d40e58286312","name":"2f522987-5f16-4cee-877c-d40e58286312","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2f522987-5f16-4cee-877c-d40e58286312","name":"2f522987-5f16-4cee-877c-d40e58286312","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","name":"6bcb5ac6-b5fd-43a6-b3b4-f453028977c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

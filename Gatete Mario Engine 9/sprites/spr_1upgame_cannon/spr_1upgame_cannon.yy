@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_1upgame_cannon",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"98535900-797b-4b44-a3ed-03f21ea3b92d","name":"98535900-797b-4b44-a3ed-03f21ea3b92d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"98535900-797b-4b44-a3ed-03f21ea3b92d","name":"98535900-797b-4b44-a3ed-03f21ea3b92d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

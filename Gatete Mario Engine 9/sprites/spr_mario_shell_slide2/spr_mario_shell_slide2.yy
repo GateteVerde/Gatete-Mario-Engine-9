@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_shell_slide2",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5b45a2d9-86c1-4ab3-aa83-c868b4ec9200","name":"5b45a2d9-86c1-4ab3-aa83-c868b4ec9200","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5b45a2d9-86c1-4ab3-aa83-c868b4ec9200","name":"5b45a2d9-86c1-4ab3-aa83-c868b4ec9200","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_football_duck",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"08357cfe-a28e-46bb-889f-e330f758d076","name":"08357cfe-a28e-46bb-889f-e330f758d076","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","name":"5a60e9de-0911-4ce9-a857-bc23f4c5e605","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"08357cfe-a28e-46bb-889f-e330f758d076","name":"08357cfe-a28e-46bb-889f-e330f758d076","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","name":"14cd374d-4bf3-425d-bbb8-f344bef217f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

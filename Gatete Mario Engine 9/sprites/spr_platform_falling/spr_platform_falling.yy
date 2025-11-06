@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_platform_falling",
   "bboxMode":2,
   "bbox_bottom":3,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2975984-c679-4619-b452-a2c59b7ddf7c","name":"c2975984-c679-4619-b452-a2c59b7ddf7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2975984-c679-4619-b452-a2c59b7ddf7c","name":"c2975984-c679-4619-b452-a2c59b7ddf7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -27,8 +27,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"mykey","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"mykey","filters":[],"listItems":[
         "\"global.\"",
         "\"Item 1\"",
         "\"Item 2\"",

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_penguin_duck",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b7e3be2e-1eca-40e1-a3c1-fa3ee047905a","name":"b7e3be2e-1eca-40e1-a3c1-fa3ee047905a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e6a3156d-d1fc-47f0-8847-7402e577f2ff","name":"e6a3156d-d1fc-47f0-8847-7402e577f2ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ce5904da-4409-4841-8f69-f715eca9dee6","name":"ce5904da-4409-4841-8f69-f715eca9dee6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b7e3be2e-1eca-40e1-a3c1-fa3ee047905a","name":"b7e3be2e-1eca-40e1-a3c1-fa3ee047905a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e6a3156d-d1fc-47f0-8847-7402e577f2ff","name":"e6a3156d-d1fc-47f0-8847-7402e577f2ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce5904da-4409-4841-8f69-f715eca9dee6","name":"ce5904da-4409-4841-8f69-f715eca9dee6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

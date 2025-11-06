@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_needle",
   "bboxMode":0,
   "bbox_bottom":9,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5c55e70f-224a-4331-9f96-021e89aad95a","name":"5c55e70f-224a-4331-9f96-021e89aad95a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c55e70f-224a-4331-9f96-021e89aad95a","name":"5c55e70f-224a-4331-9f96-021e89aad95a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

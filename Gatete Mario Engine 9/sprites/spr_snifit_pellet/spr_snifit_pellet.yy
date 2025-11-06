@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_snifit_pellet",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e2a6f3d7-80d4-4654-9bc5-32c51142f434","name":"e2a6f3d7-80d4-4654-9bc5-32c51142f434","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e2a6f3d7-80d4-4654-9bc5-32c51142f434","name":"e2a6f3d7-80d4-4654-9bc5-32c51142f434","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

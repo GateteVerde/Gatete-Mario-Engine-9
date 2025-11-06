@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_subpop_grow",
   "bboxMode":2,
   "bbox_bottom":27,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc81db36-838d-4c58-a3f1-586debf17869","name":"dc81db36-838d-4c58-a3f1-586debf17869","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"31b1f303-2b68-4511-9706-b5fd0d361b6c","name":"31b1f303-2b68-4511-9706-b5fd0d361b6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc81db36-838d-4c58-a3f1-586debf17869","name":"dc81db36-838d-4c58-a3f1-586debf17869","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31b1f303-2b68-4511-9706-b5fd0d361b6c","name":"31b1f303-2b68-4511-9706-b5fd0d361b6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_beetroot_clear",
   "bboxMode":0,
   "bbox_bottom":33,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"55444d29-6b94-4f3c-b7d0-9ba2df14a43b","name":"55444d29-6b94-4f3c-b7d0-9ba2df14a43b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55444d29-6b94-4f3c-b7d0-9ba2df14a43b","name":"55444d29-6b94-4f3c-b7d0-9ba2df14a43b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_powblock_red_large_up_b",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1b8509d4-8867-4329-91fa-38cacaa7b9c9","name":"1b8509d4-8867-4329-91fa-38cacaa7b9c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b8509d4-8867-4329-91fa-38cacaa7b9c9","name":"1b8509d4-8867-4329-91fa-38cacaa7b9c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

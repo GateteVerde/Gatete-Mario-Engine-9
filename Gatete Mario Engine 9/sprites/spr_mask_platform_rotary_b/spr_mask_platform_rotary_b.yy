@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mask_platform_rotary_b",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9e9e44f2-36cc-4874-802d-0a8a088a9a62","name":"9e9e44f2-36cc-4874-802d-0a8a088a9a62","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9e9e44f2-36cc-4874-802d-0a8a088a9a62","name":"9e9e44f2-36cc-4874-802d-0a8a088a9a62","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

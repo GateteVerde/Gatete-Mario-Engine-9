@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_goomba_shoe_frozen",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"524e8939-21f7-4b4b-9430-2b48466cd0ed","name":"524e8939-21f7-4b4b-9430-2b48466cd0ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"524e8939-21f7-4b4b-9430-2b48466cd0ed","name":"524e8939-21f7-4b4b-9430-2b48466cd0ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

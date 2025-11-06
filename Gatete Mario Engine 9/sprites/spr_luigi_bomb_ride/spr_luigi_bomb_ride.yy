@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_bomb_ride",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"39bc28ec-5bd3-425a-8c87-02527c4d3566","name":"39bc28ec-5bd3-425a-8c87-02527c4d3566","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bcfff933-0609-42c4-bbe2-685345f59be9","name":"bcfff933-0609-42c4-bbe2-685345f59be9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39bc28ec-5bd3-425a-8c87-02527c4d3566","name":"39bc28ec-5bd3-425a-8c87-02527c4d3566","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bcfff933-0609-42c4-bbe2-685345f59be9","name":"bcfff933-0609-42c4-bbe2-685345f59be9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

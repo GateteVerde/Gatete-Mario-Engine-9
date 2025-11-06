@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bubbleflower",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0e61edf9-58d8-4b4d-a27c-28cfc67b9958","name":"0e61edf9-58d8-4b4d-a27c-28cfc67b9958","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e61edf9-58d8-4b4d-a27c-28cfc67b9958","name":"0e61edf9-58d8-4b4d-a27c-28cfc67b9958","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

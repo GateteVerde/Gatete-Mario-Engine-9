@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_bomb_goal",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b4bb247d-17b9-40c3-b892-28e9c777cf91","name":"b4bb247d-17b9-40c3-b892-28e9c777cf91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0aa5e4a9-959d-40c5-9bc7-ada40c5f956f","name":"0aa5e4a9-959d-40c5-9bc7-ada40c5f956f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4bb247d-17b9-40c3-b892-28e9c777cf91","name":"b4bb247d-17b9-40c3-b892-28e9c777cf91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0aa5e4a9-959d-40c5-9bc7-ada40c5f956f","name":"0aa5e4a9-959d-40c5-9bc7-ada40c5f956f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

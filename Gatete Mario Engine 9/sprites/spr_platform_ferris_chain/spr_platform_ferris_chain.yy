@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_platform_ferris_chain",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0be47cdf-2a42-4bb5-b8c6-f936490013af","name":"0be47cdf-2a42-4bb5-b8c6-f936490013af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1894f1ff-c58c-4050-85da-de3409efca6d","name":"1894f1ff-c58c-4050-85da-de3409efca6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0be47cdf-2a42-4bb5-b8c6-f936490013af","name":"0be47cdf-2a42-4bb5-b8c6-f936490013af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1894f1ff-c58c-4050-85da-de3409efca6d","name":"1894f1ff-c58c-4050-85da-de3409efca6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

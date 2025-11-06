@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_propeller_kick",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fbea3215-8411-4bd3-a2e4-78159f53b7f1","name":"fbea3215-8411-4bd3-a2e4-78159f53b7f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a9d0f2c5-17a3-4210-8324-78dfc7032402","name":"a9d0f2c5-17a3-4210-8324-78dfc7032402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fbea3215-8411-4bd3-a2e4-78159f53b7f1","name":"fbea3215-8411-4bd3-a2e4-78159f53b7f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9d0f2c5-17a3-4210-8324-78dfc7032402","name":"a9d0f2c5-17a3-4210-8324-78dfc7032402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

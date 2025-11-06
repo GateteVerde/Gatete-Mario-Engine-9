@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_bomb_runjump",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0db68c0d-5636-4db0-a8d7-bfe557b37a25","name":"0db68c0d-5636-4db0-a8d7-bfe557b37a25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0db68c0d-5636-4db0-a8d7-bfe557b37a25","name":"0db68c0d-5636-4db0-a8d7-bfe557b37a25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

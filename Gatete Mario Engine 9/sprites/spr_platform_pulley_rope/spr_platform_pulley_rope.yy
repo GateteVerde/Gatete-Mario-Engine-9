@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_platform_pulley_rope",
   "bboxMode":0,
   "bbox_bottom":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","name":"bc8cc45a-a861-4fd7-9932-45c94dc4dd67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_penguin_kick",
   "bboxMode":0,
   "bbox_bottom":33,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"615a8331-b962-4395-a077-fbffd3864cea","name":"615a8331-b962-4395-a077-fbffd3864cea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"432a55f6-232e-4a78-bfdd-780fb900f796","name":"432a55f6-232e-4a78-bfdd-780fb900f796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"615a8331-b962-4395-a077-fbffd3864cea","name":"615a8331-b962-4395-a077-fbffd3864cea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"432a55f6-232e-4a78-bfdd-780fb900f796","name":"432a55f6-232e-4a78-bfdd-780fb900f796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

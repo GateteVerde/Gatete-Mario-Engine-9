@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_penguin_swim",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"964fc34a-0dfc-4c59-b7fd-402de71e1614","name":"964fc34a-0dfc-4c59-b7fd-402de71e1614","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"47734235-a020-44b1-97f8-e00c38c09a3c","name":"47734235-a020-44b1-97f8-e00c38c09a3c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"964fc34a-0dfc-4c59-b7fd-402de71e1614","name":"964fc34a-0dfc-4c59-b7fd-402de71e1614","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47734235-a020-44b1-97f8-e00c38c09a3c","name":"47734235-a020-44b1-97f8-e00c38c09a3c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

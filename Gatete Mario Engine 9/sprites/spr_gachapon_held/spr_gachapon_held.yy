@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gachapon_held",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","name":"eff8c3d7-baf2-4b62-ab29-e07edc6272ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","name":"c0aa4763-9cd4-46c9-a784-821a606ef97b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","name":"ed9892bd-e9fb-4036-b6d5-c10116d5ebb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

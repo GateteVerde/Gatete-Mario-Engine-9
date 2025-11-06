@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_weaponblock_vegetable",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f7f55057-e2fd-460c-8267-0c928ad5cb1e","name":"f7f55057-e2fd-460c-8267-0c928ad5cb1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7f55057-e2fd-460c-8267-0c928ad5cb1e","name":"f7f55057-e2fd-460c-8267-0c928ad5cb1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_dolphin_jump",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"aeb25352-fcb0-427a-8c04-7d5de787b6d2","name":"aeb25352-fcb0-427a-8c04-7d5de787b6d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"37ef0d69-5ece-4c5f-baa1-c04d630a668a","name":"37ef0d69-5ece-4c5f-baa1-c04d630a668a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aeb25352-fcb0-427a-8c04-7d5de787b6d2","name":"aeb25352-fcb0-427a-8c04-7d5de787b6d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37ef0d69-5ece-4c5f-baa1-c04d630a668a","name":"37ef0d69-5ece-4c5f-baa1-c04d630a668a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

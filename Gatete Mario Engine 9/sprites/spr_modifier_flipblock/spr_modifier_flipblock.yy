@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_modifier_flipblock",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"228aaf62-2ef7-4607-81ae-465b635c5851","name":"228aaf62-2ef7-4607-81ae-465b635c5851","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"228aaf62-2ef7-4607-81ae-465b635c5851","name":"228aaf62-2ef7-4607-81ae-465b635c5851","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

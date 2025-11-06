@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_boomerang_skid",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"abc5ede6-ef29-4617-a761-2a5cf23e6f96","name":"abc5ede6-ef29-4617-a761-2a5cf23e6f96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"abc5ede6-ef29-4617-a761-2a5cf23e6f96","name":"abc5ede6-ef29-4617-a761-2a5cf23e6f96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

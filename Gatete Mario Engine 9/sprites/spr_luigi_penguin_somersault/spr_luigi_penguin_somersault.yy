@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_penguin_somersault",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0214e14e-2b17-4c3f-854c-d7a2f1dbd0ec","name":"0214e14e-2b17-4c3f-854c-d7a2f1dbd0ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0214e14e-2b17-4c3f-854c-d7a2f1dbd0ec","name":"0214e14e-2b17-4c3f-854c-d7a2f1dbd0ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_bee_kick",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dda1b208-3a6d-4d02-b95d-72f2c5fb25e9","name":"dda1b208-3a6d-4d02-b95d-72f2c5fb25e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6df1795f-0521-4ed3-8773-b1bf00d04695","name":"6df1795f-0521-4ed3-8773-b1bf00d04695","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dda1b208-3a6d-4d02-b95d-72f2c5fb25e9","name":"dda1b208-3a6d-4d02-b95d-72f2c5fb25e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6df1795f-0521-4ed3-8773-b1bf00d04695","name":"6df1795f-0521-4ed3-8773-b1bf00d04695","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

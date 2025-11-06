@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bell_house",
   "bboxMode":0,
   "bbox_bottom":160,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"08582649-83da-4278-bf4a-a2f194fe21e3","name":"08582649-83da-4278-bf4a-a2f194fe21e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","name":"3ef53ced-c9c6-4d2a-b81f-682eb06bba51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"08582649-83da-4278-bf4a-a2f194fe21e3","name":"08582649-83da-4278-bf4a-a2f194fe21e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

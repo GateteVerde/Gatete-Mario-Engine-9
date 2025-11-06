@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_sledgebro_throw",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b64db71e-1271-4c42-b203-ae1f407de433","name":"b64db71e-1271-4c42-b203-ae1f407de433","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","name":"d98aa74b-b110-4274-bcbe-126b2036fc6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b64db71e-1271-4c42-b203-ae1f407de433","name":"b64db71e-1271-4c42-b203-ae1f407de433","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

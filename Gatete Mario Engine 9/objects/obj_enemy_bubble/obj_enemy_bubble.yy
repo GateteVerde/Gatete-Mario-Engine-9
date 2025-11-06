@@ -35,7 +35,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"sprout","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"sprout","filters":[],"listItems":[
         "spr_coin",
         "spr_mushroom",
         "spr_galoomba",

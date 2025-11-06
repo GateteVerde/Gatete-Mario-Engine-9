@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"wave","filters":[],"listItems":[],"multiselect":false,"name":"wave","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"wave","filters":[],"listItems":[],"multiselect":false,"name":"wave","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bgr_airship",
   "bboxMode":0,
   "bbox_bottom":431,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a5c626c3-c978-48f2-a2aa-2bd975be0ff1","name":"a5c626c3-c978-48f2-a2aa-2bd975be0ff1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"14f7b832-ac5f-4b3f-acc6-825e1c3c11fd","name":"14f7b832-ac5f-4b3f-acc6-825e1c3c11fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a26db95f-1ef2-4d9e-80e8-0127afac2192","name":"a26db95f-1ef2-4d9e-80e8-0127afac2192","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a5c626c3-c978-48f2-a2aa-2bd975be0ff1","name":"a5c626c3-c978-48f2-a2aa-2bd975be0ff1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14f7b832-ac5f-4b3f-acc6-825e1c3c11fd","name":"14f7b832-ac5f-4b3f-acc6-825e1c3c11fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a26db95f-1ef2-4d9e-80e8-0127afac2192","name":"a26db95f-1ef2-4d9e-80e8-0127afac2192","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,15 +72,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5c626c3-c978-48f2-a2aa-2bd975be0ff1","path":"sprites/spr_bgr_airship/spr_bgr_airship.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1296c88c-3ada-438a-b567-0470ed95dfd7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14f7b832-ac5f-4b3f-acc6-825e1c3c11fd","path":"sprites/spr_bgr_airship/spr_bgr_airship.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"67c2c604-3783-487b-9978-8a65718a9ffd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a26db95f-1ef2-4d9e-80e8-0127afac2192","path":"sprites/spr_bgr_airship/spr_bgr_airship.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"15f01e9e-f97b-4eee-a218-cae4d88586b2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5c626c3-c978-48f2-a2aa-2bd975be0ff1","path":"sprites/spr_bgr_airship/spr_bgr_airship.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1296c88c-3ada-438a-b567-0470ed95dfd7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"14f7b832-ac5f-4b3f-acc6-825e1c3c11fd","path":"sprites/spr_bgr_airship/spr_bgr_airship.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"67c2c604-3783-487b-9978-8a65718a9ffd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a26db95f-1ef2-4d9e-80e8-0127afac2192","path":"sprites/spr_bgr_airship/spr_bgr_airship.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"15f01e9e-f97b-4eee-a218-cae4d88586b2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

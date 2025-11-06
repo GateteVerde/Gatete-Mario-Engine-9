@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_football_hold",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b34249c0-64a1-44e6-a74a-0a8e2cdb4332","name":"b34249c0-64a1-44e6-a74a-0a8e2cdb4332","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"29ac2ba5-6acb-4f0e-8c18-bcd3afc0e9dc","name":"29ac2ba5-6acb-4f0e-8c18-bcd3afc0e9dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2e1751b3-11e4-4bba-a79b-59b87cd73914","name":"2e1751b3-11e4-4bba-a79b-59b87cd73914","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b34249c0-64a1-44e6-a74a-0a8e2cdb4332","name":"b34249c0-64a1-44e6-a74a-0a8e2cdb4332","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"29ac2ba5-6acb-4f0e-8c18-bcd3afc0e9dc","name":"29ac2ba5-6acb-4f0e-8c18-bcd3afc0e9dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2e1751b3-11e4-4bba-a79b-59b87cd73914","name":"2e1751b3-11e4-4bba-a79b-59b87cd73914","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_football_run",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1f3a1ac9-86f5-4b2f-8289-570d86f351ef","name":"1f3a1ac9-86f5-4b2f-8289-570d86f351ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f9ccfc6b-9648-4b04-8700-e13f94fa256d","name":"f9ccfc6b-9648-4b04-8700-e13f94fa256d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1f3a1ac9-86f5-4b2f-8289-570d86f351ef","name":"1f3a1ac9-86f5-4b2f-8289-570d86f351ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9ccfc6b-9648-4b04-8700-e13f94fa256d","name":"f9ccfc6b-9648-4b04-8700-e13f94fa256d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

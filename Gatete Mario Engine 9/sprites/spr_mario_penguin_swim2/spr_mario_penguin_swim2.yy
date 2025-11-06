@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_mario_penguin_swim2",
   "bboxMode":0,
   "bbox_bottom":26,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c555a995-22f0-4a03-a687-b9b91ff6229d","name":"c555a995-22f0-4a03-a687-b9b91ff6229d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0665033a-73c7-46c5-b49a-39ef55627a93","name":"0665033a-73c7-46c5-b49a-39ef55627a93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"effbc799-e054-459a-982f-9f7f6d373a1e","name":"effbc799-e054-459a-982f-9f7f6d373a1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","name":"9d2b06e9-51cf-4326-a1e4-1ffb37fc7ddb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c555a995-22f0-4a03-a687-b9b91ff6229d","name":"c555a995-22f0-4a03-a687-b9b91ff6229d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0665033a-73c7-46c5-b49a-39ef55627a93","name":"0665033a-73c7-46c5-b49a-39ef55627a93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"effbc799-e054-459a-982f-9f7f6d373a1e","name":"effbc799-e054-459a-982f-9f7f6d373a1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

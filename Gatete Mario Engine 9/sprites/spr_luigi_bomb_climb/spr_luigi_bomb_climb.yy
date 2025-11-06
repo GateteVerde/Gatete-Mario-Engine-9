@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_luigi_bomb_climb",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"be99c600-9acb-4c0c-a8e3-61c2e878162e","name":"be99c600-9acb-4c0c-a8e3-61c2e878162e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"944c47ea-9704-4dbb-8ff2-91f5087bec14","name":"944c47ea-9704-4dbb-8ff2-91f5087bec14","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"be99c600-9acb-4c0c-a8e3-61c2e878162e","name":"be99c600-9acb-4c0c-a8e3-61c2e878162e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"944c47ea-9704-4dbb-8ff2-91f5087bec14","name":"944c47ea-9704-4dbb-8ff2-91f5087bec14","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

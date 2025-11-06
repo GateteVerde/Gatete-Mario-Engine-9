@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bgr_minigame_b",
   "bboxMode":0,
   "bbox_bottom":288,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b1ac1f2a-86e5-4892-b37c-811a4aeed2e4","name":"b1ac1f2a-86e5-4892-b37c-811a4aeed2e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b1ac1f2a-86e5-4892-b37c-811a4aeed2e4","name":"b1ac1f2a-86e5-4892-b37c-811a4aeed2e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

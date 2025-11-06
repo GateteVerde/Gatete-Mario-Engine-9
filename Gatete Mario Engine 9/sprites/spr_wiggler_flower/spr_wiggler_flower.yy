@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_wiggler_flower",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"29c5ae8a-4c19-411d-a12c-1910510e6247","name":"29c5ae8a-4c19-411d-a12c-1910510e6247","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"29c5ae8a-4c19-411d-a12c-1910510e6247","name":"29c5ae8a-4c19-411d-a12c-1910510e6247","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
