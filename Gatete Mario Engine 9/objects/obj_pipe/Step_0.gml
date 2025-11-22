@@ -17,7 +17,7 @@ if (mario)
 		audio_play_sound(snd_destroy, 0, false);
 		
 		//Shake the screen
-		shake_camera(6, ceil(audio_sound_length(snd_destroy) * room_speed), true);
+		shake_camera(6, ceil(audio_sound_length(snd_destroy) * GAME_SPEED), true);
 		
 		//Check horizontal speed
 		hsp = mario.xspeed;

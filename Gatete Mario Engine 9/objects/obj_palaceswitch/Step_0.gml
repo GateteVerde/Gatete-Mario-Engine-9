@@ -48,7 +48,7 @@ if (ready == 0) {
         image_index = 1;
         
         //Perform switch events
-        alarm[0] = ceil(audio_sound_length(snd_thud) * room_speed);
+        alarm[0] = ceil(audio_sound_length(snd_thud) * GAME_SPEED);
     }
 }
 

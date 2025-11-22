@@ -128,7 +128,7 @@ else {
     audio_play_sound(snd_sprout, 0, false);
 	if (big == 1) {
 	
-		shake_camera(6, ceil(audio_sound_length(snd_sprout) * room_speed), true);
+		shake_camera(6, ceil(audio_sound_length(snd_sprout) * GAME_SPEED), true);
 	}
     
     //If moving up...

@@ -17,9 +17,12 @@ init_shockwave();
 #region
 
 	//Gameplay Macros (Edit this when releasing your game)
-	#macro LEVEL_AMOUNT	   10; //Number of levels this game have, this variable is used for the star coins
-	#macro EXITS_AMOUNT	   23; //Number of exits this game have		
-	#macro STARS_AMOUNT		0; //Number of power stars this game have
+	#macro LEVEL_AMOUNT	   10 //Number of levels this game have, this variable is used for the star coins
+	#macro EXITS_AMOUNT	   23 //Number of exits this game have		
+	#macro STARS_AMOUNT		0 //Number of power stars this game have
+	
+	//Game speed
+	#macro GAME_SPEED      60 //Speed the game will run at
 
 	//Don't round off the sub-pixels (applies to uses of screen_round/screen_floor/screen_ceil, NOT values using the built in GMS rounding)
 	//false:	Integer rounding similar to GBA/SNES

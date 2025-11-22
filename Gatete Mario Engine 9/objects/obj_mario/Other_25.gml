@@ -18,7 +18,7 @@ if (inair == 1) {
 		inairtime = 0;
 
 		//Shake the screen
-		shake_camera(6, ceil(audio_sound_length(snd_thud) * room_speed), true);
+		shake_camera(6, ceil(audio_sound_length(snd_thud) * GAME_SPEED), true);
 	
 		//Create smoke effect
 		with (instance_create_depth(x, y, -6, obj_smoke)) sprite_index = spr_supersmash;

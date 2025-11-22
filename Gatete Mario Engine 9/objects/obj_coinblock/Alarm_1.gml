@@ -4,7 +4,7 @@
 visible = 1;
 
 //Set horizontal motion
-hspeed = -(xstart - (camera_get_view_x(view_camera[0]) + 20)) / (room_speed * 1.6);
+hspeed = -(xstart - (camera_get_view_x(view_camera[0]) + 20)) / (delta_time * 1.6);
 
 //Set vertical motion
 vspeed = -4;

@@ -4,7 +4,7 @@
 audio_play_sound(snd_lightning, 0, false);
 
 //Shake the screen
-shake_camera(6, ceil(audio_sound_length(snd_thud) * room_speed), true);
+shake_camera(6, ceil(audio_sound_length(snd_thud) * GAME_SPEED), true);
 
 //Depth
 depth = 450;

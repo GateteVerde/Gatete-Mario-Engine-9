@@ -43,7 +43,7 @@ if (global.hp_mode == 1) {
 
 //Lives
 draw_sprite_ext(spr_gui_mario, global.player, main_x, camera_get_view_y(view_camera[0]) + 8, 1, 1, 0, c_white, 1);
-draw_text(main_x + 33, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(lives, 2, 0));
+draw_text(main_x + 33, camera_get_view_y(view_camera[0]) + 8, string_add_zeroes(lives, 2));
 
 //Coins
 draw_sprite_ext(spr_gui_coins, 0, main_x + 8, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);

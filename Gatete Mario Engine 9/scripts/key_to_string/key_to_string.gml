@@ -1,4 +1,4 @@
-/// @function key_to_string(key);
+/// @function key_to_string(key)
 
 function key_to_string() {
 

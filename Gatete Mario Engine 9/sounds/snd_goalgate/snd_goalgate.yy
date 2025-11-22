@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.815057,
+  "duration":0.8150567,
   "exportDir":"",
   "name":"snd_goalgate",
   "parent":{

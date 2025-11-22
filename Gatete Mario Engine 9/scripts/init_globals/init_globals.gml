@@ -1,4 +1,4 @@
-/// @function init_globals();
+/// @function init_globals()
 
 function init_globals() {
 	
@@ -185,7 +185,7 @@ function init_globals() {
 	//1: Collected, not saved
 	//2: Collected, saved with checkpoint
 	//3: Collected, saved with level completion. (Adds to global.starcoins)
-	var level_amount = LEVEL_AMOUNT;
+	var level_amount = LEVEL_AMOUNT
 	for (var i = 0; i < 3; i++) {
 
 	    global.sc[i] = ds_map_create();

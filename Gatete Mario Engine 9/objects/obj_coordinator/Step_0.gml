@@ -1,9 +1,9 @@
 /// @desc Stay always in front and update timers
 
 //Set percentage variables
-var level_amount = LEVEL_AMOUNT;
-var exits_amount = EXITS_AMOUNT;
-var pstar_amount = STARS_AMOUNT;
+var level_amount = LEVEL_AMOUNT
+var exits_amount = EXITS_AMOUNT
+var pstar_amount = STARS_AMOUNT
 
 //Calculate percentage
 got = (global.cleared_levels + ds_map_size(global.powerstars) + global.starcoins + (global.palace_y + global.palace_g + global.palace_r + global.palace_b));
