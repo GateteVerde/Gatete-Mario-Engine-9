@@ -30,8 +30,28 @@ if (instance_exists(obj_mario)) {
 			
 			//If this block is a breakable block
 			if (object_index == obj_brick)
-			|| (object_index == obj_brick_big)
-				event_user(15);
+			|| (object_index == obj_brick_big) {
+				
+				//If Mario is small, bump the block instead
+				if (global.powerup == cs_small) {
+				
+					//Make items sprout from below
+					bottom = true;
+				
+					//Bump it
+					ready = 1;
+				
+					//Bump block downwards
+					vspeed = 2;
+					alarm[0] = 4;
+					
+					//Perform block events
+					event_user(0);					
+				}
+				
+				else
+					event_user(15);
+			}
 				
 			//Otherwise
 			else {
