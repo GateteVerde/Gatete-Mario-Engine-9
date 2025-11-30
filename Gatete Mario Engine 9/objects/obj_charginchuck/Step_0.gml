@@ -83,6 +83,35 @@ event_inherited();
 	                //Charge at Mario again
 	                alarm[10] = 32;
 	            }
+				
+				#region BREAK THRU BLOCKS
+				
+					//If the chargin chuck is charging at mario
+					if (sprite_index == spr_charginchuck_walk) {
+				
+						block = [
+					
+							obj_brick,
+							obj_brick_big,
+							obj_brick_blue,
+							obj_brick_red,
+							obj_brick_gray,
+							obj_brick_green,
+							obj_flipblock,
+							obj_flipblock_triple,
+							obj_flipblock_big
+						]
+				
+						//Set up the items that can break this block
+						for (var i=0; i < array_length(block); i++) {
+					
+							var ob = collision_rectangle(bbox_left - 5, bbox_top - 8, bbox_right + 4, bbox_bottom, block[i], 0, 0)
+							if (ob)
+								with (ob) event_user(15);
+						}
+					}
+				
+				#endregion
 	        }
 	        else if (lookout == 0) {
         
