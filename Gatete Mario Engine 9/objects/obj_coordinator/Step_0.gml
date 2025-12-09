@@ -7,8 +7,12 @@ var pstar_amount = STARS_AMOUNT
 
 //Calculate percentage
 got = (global.cleared_levels + ds_map_size(global.powerstars) + global.starcoins + (global.palace_y + global.palace_g + global.palace_r + global.palace_b));
-total = exits_amount + pstar_amount + (level_amount * 3) + (1 + 1 + 1 + 1);
+total = (exits_amount + pstar_amount + (level_amount * 3) + (1 + 1 + 1 + 1));
 global.gameclear = floor(got/total*100);
+if (global.gameclear > 100) {
+	
+	global.gameclear = 100;
+}
 
 //Update shaders
 update_shockwave();
@@ -190,21 +194,29 @@ depth = -1000;
 
 //Award extra lives every 100 coins
 if (global.coins > 99) {
-
-	//Restart coin counter
-	global.coins -= 100;
 	
-	//If the game is still giving extra lives
-	if (addlives == 0) {
+	//If lives are maxed out
+	if (lives == 99)
+		addlives = 0;
+	
+	//Otherwise
+	else {
+
+		//Restart coin counter
+		global.coins -= 100;
+	
+		//If the game is still giving extra lives
+		if (addlives == 0) {
 			
-		//Play '1-UP' sound
-		audio_play_sound(snd_1up, 0, false);
+			//Play '1-UP' sound
+			audio_play_sound(snd_1up, 0, false);
 		
-		//Add extra lives
-		lives++;
+			//Add extra lives
+			lives++;
+		}
+		else
+			addlives++;
 	}
-	else
-		addlives++;
 }
 
 //Prevent lives from going over 99
@@ -214,3 +226,7 @@ if (lives > 99)
 //Prevent score from going over 99999990
 if (score > 99999990) 
 	score = 99999990;
+	
+//Prevent inventory overflow
+if (global.inventory[0] > 15)
+	global.inventory[0] = 15;

@@ -93,7 +93,7 @@ function save() {
 	file_text_writeln(file);
 	
 	//Save Inventory
-	for (var i=0; i<15; i++) {
+	for (var i=0; i<16; i++) {
 	
 		file_text_write_string(file, base64_encode(string(global.inventory[i])));
 		file_text_writeln(file);

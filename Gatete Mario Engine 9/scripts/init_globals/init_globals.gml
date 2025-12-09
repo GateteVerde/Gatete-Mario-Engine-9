@@ -222,7 +222,7 @@ function init_globals() {
 	}
 	
 	//Map inventory variables
-	for (var i=0; i<15; i++) {
+	for (var i=0; i<16; i++) {
 	
 		global.inventory[i] = 0;
 	}

@@ -1,20 +1,24 @@
 /// @description Animate and set beat animation
 
-//Play 'Transform' sound
-audio_play_sound(snd_transform, 0, false);
+//If the game has not been cleared fully
+if (global.gameclear < 100) {
 
-//Set frame
-image_index = 1;
+	//Play 'Transform' sound
+	audio_play_sound(snd_transform, 0, false);
 
-//Create a smoke effect
-with (instance_create_depth(x + 8, y + 8, -4, obj_smoke)) {
+	//Set frame
+	image_index = 1;
 
-	image_xscale = 1.5;
-	image_yscale = 1.5;
-}
+	//Create a smoke effect
+	with (instance_create_depth(x + 8, y + 8, -4, obj_smoke)) {
+
+		image_xscale = 1.5;
+		image_yscale = 1.5;
+	}
 	
-//Mark as beaten
-beaten = 2;
+	//Mark as beaten
+	beaten = 2;
+}
 
 //End clear sequence
 global.clear = 0;

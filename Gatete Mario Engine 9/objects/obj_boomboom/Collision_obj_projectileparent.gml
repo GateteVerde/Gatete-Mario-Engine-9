@@ -25,7 +25,7 @@ if (vulnerable < 2) {
         vulnerable = 99;
         inv = 4;
     }
-    
-    //Destroy projectile
-    with (other) event_user(0);
 }
+
+//Destroy
+with (other) event_user(0);
