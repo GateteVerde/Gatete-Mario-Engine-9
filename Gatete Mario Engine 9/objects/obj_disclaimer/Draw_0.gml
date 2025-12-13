@@ -15,9 +15,9 @@ draw_set_colour(c_white);
 //Text
 draw_text_ext(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2, camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2) + 37, @"GATETE MARIO ENGINE 9 is a open-source
 framework written to be used with 
-GameMaker v2024.14.1.253 and above
+GameMaker v2024.14.2.255 and above
 
-This engine is licensed under the 
+This framework is licensed under the 
 Berkeley Software Distribution 
 3-Clause licence
 

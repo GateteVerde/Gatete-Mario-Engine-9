@@ -8,11 +8,7 @@ var pstar_amount = STARS_AMOUNT
 //Calculate percentage
 got = (global.cleared_levels + ds_map_size(global.powerstars) + global.starcoins + (global.palace_y + global.palace_g + global.palace_r + global.palace_b));
 total = (exits_amount + pstar_amount + (level_amount * 3) + (1 + 1 + 1 + 1));
-global.gameclear = floor(got/total*100);
-if (global.gameclear > 100) {
-	
-	global.gameclear = 100;
-}
+global.gameclear = clamp(got/total*100, 0, 100);
 
 //Update shaders
 update_shockwave();
