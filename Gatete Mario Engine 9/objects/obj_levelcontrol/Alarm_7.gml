@@ -1,3 +1,3 @@
-/// @description Enable barrier
+/// @description Enable camera barrier
 
 barrier = true;

@@ -39,7 +39,7 @@ init_shockwave();
 	//Luigi's Fireball motion (If enabled, Luigi's fireballs will move in a straight line instead of bouncing)
 	//false: Disabled
 	//true: Enabled
-	global.fireballtype = 0;
+	global.fireballtype = 1;
 	
 	//Resets combo when getting a 1-UP (Default: false)
 	//false: Disabled
