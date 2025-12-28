@@ -39,6 +39,9 @@
     "name":"spr_mushroom",
     "path":"sprites/spr_mushroom/spr_mushroom.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_mask_sprout",
+    "path":"sprites/spr_mask_sprout/spr_mask_sprout.yy",
+  },
   "visible":true,
 }

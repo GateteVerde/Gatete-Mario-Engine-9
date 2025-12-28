@@ -31,9 +31,11 @@ else if (other.vulnerable < 2) {
 	
 	//With the enemy
 	with (other) {
-	
-		//Set killer id and kill
+		
+		//Set killed ID
 		killer_id = other.id;
+	
+		//Kill
 		event_user(0);
 	}
 

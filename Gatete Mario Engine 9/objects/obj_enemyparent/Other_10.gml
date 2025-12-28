@@ -27,11 +27,7 @@ if (killer_id != -1) {
 	else if (killer_id == obj_mario_spinner) {
 				
 		//If Mario has any of the following powerups
-		if (global.powerup == cs_raccoon)
-		|| (global.powerup == cs_cape)
-		|| (global.powerup == cs_tanooki)
-		|| (global.powerup == cs_fraccoon)
-		|| (global.powerup == cs_iraccoon) {
+		if ((variable_instance_exists(killer_id, "fling")) && (killer_id.fling == 1)) {
 			
 			//Set vertical speed
 			imdead.vspeed = (swimming) ? -3 : -6;
@@ -62,9 +58,10 @@ if (killer_id != -1) {
 			imdead.hspeed = 1;
 		else if (killer_id.bbox_left + killer_id.bbox_right/2 > bbox_left + bbox_right/2)
 			imdead.hspeed = -1;
+	}
 			
 	//Otherwise, if killer no longer exists
-	} else {
+	else {
 		
 		// Set to random left or right speed
 		imdead.hspeed = choose(-1, 1);	

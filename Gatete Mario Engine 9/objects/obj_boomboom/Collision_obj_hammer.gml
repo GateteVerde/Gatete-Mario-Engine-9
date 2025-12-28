@@ -1,5 +1,12 @@
 /// @description Hammer hurt script
 
+//Exit if the boom-boom is on the defeat state
+if (sprite_index == spr_boomboom_defeat) {
+
+	with (other) event_user(0);
+	exit;
+}
+
 //If the enemy is vulnerable to projectiles
 if (vulnerable < 2) {
 
@@ -14,6 +21,9 @@ if (vulnerable < 2) {
     
     //If there's no more fire hits left
     if (firehp == 0) {
+		
+		//Set vulnerability
+		vulnerable = 100;
     
         //Force set hits
         hp = 1;

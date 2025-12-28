@@ -11,6 +11,9 @@ if (vulnerable < 2) {
     
     //If there's no more fire hits left
     if (firehp == 0) {
+		
+		//Set vulnerability
+		vulnerable = 100;
     
         //Force set hits
         hp = 1;

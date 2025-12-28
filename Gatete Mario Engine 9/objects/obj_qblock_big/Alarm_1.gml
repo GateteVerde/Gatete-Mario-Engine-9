@@ -37,7 +37,7 @@ if (sprout != cs_coin)
     if (sprout != cs_coin)
 	&& (sprout != cs_mega) {
 		
-        with (instance_create_depth(x + 16, y, 10, obj_powerup_sprout)) {
+        with (instance_create_depth(x + 16, round(bbox_top + bbox_bottom) / 2 - 8, 10, obj_powerup_sprout)) {
 			
 			big = 1;
             sprite_index = macro_get_sprite(other.sprout);

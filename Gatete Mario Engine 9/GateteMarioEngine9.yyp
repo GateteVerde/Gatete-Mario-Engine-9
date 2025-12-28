@@ -3513,6 +3513,7 @@
     {"id":{"name":"spr_mask_skewer_v","path":"sprites/spr_mask_skewer_v/spr_mask_skewer_v.yy",},},
     {"id":{"name":"spr_mask_solidbubble_bottom","path":"sprites/spr_mask_solidbubble_bottom/spr_mask_solidbubble_bottom.yy",},},
     {"id":{"name":"spr_mask_solidbubble_top","path":"sprites/spr_mask_solidbubble_top/spr_mask_solidbubble_top.yy",},},
+    {"id":{"name":"spr_mask_sprout","path":"sprites/spr_mask_sprout/spr_mask_sprout.yy",},},
     {"id":{"name":"spr_mask_stomp","path":"sprites/spr_mask_stomp/spr_mask_stomp.yy",},},
     {"id":{"name":"spr_mask_view","path":"sprites/spr_mask_view/spr_mask_view.yy",},},
     {"id":{"name":"spr_mask_wallrunner","path":"sprites/spr_mask_wallrunner/spr_mask_wallrunner.yy",},},

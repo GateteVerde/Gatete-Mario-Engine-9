@@ -1,5 +1,12 @@
 /// @description Default hurt script
 
+//Exit if the boom-boom is on the defeat state
+if (sprite_index == spr_boomboom_defeat) {
+
+	with (other) event_user(0);
+	exit;
+}
+
 //If not ready
 if (ready == 0) {
 

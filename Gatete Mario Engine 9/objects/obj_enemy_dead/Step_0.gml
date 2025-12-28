@@ -1,5 +1,14 @@
 /// @description Dead enemy logic
 
+//Gravity
+gravity = (swimming) ? 0.03125 : 0.25;
+
+//Horizontal speed
+if (fling == 1) {
+
+	hspeed = clamp(hspeed, -0.5, 0.5);
+}
+
 //Lava
 var lava = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_lava, 0, 0);
 if (lava) {
@@ -43,23 +52,21 @@ if (qs) {
 	}
 }
 
-//Angle
-angle -= 10 * sign(hspeed)*-1
-
-//Gravity
-gravity = (swimming) ? 0.03125 : 0.25;
-
-//Cap vertical speed
-vspeed = (swimming) ? min(2, vspeed) : min(4, vspeed);
-
 //If moving down
 if (vspeed > 0) {
+	
+	//Clamp vertical speed
+	vspeed = (swimming) ? min(vspeed, 1) : min(vspeed, 4);
 
 	//Destroy when outside the view
 	if (outside_view() == true)
 	&& (y > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]))
 		instance_destroy();
 }
+
+//Angle
+angle += 8 * sign(hspeed)*-1;
+angle = clamp(angle, -180, 180)
 
 //Water collision
 var wt = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_swim, 0, 0);

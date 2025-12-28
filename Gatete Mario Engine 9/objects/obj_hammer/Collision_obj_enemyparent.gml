@@ -1,4 +1,4 @@
-/// @description Kill NPC with hammers>
+/// @description Kill NPC with hammers
 
 //If the enemy is vulnerable
 if (other.vulnerable < 99) {
