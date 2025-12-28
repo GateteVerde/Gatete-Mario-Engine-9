@@ -147,7 +147,7 @@ else if (start == 1) {
 				if ((_left) && (delay <= 0)) {
 						
 					//If volume is lower than 1, do not increment
-					if (obj_coordinator.sound_vol > 0) {
+					if (obj_coordinator.voice_vol > 0) {
 						
 						//Set delay
 						delay = 4;
@@ -161,7 +161,7 @@ else if (start == 1) {
 				else if ((_right) && (delay <= 0)) {
 						
 					//If volume is lower than 1, do not increment
-					if (obj_coordinator.sound_vol < 1) {
+					if (obj_coordinator.voice_vol < 1) {
 						
 						//Set delay
 						delay = 4;
