@@ -214,3 +214,21 @@ if (global.collect_mode > 0) {
 	}
 	
 #endregion
+
+//Advance Coins
+#region ADVANCE COINS
+
+if (ds_map_size(global.acecoins) > 0) {
+
+	//Draw the outlines
+	draw_sprite_ext(spr_gui_acecoins, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 48, camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
+	
+	//Draw the collected coins
+	var j = 0;
+	repeat (ds_map_size(global.acecoins)) {
+	
+		draw_sprite_ext(spr_gui_acecoins, 1, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - (48 - j), camera_get_view_y(view_camera[0]) + 19, 1, 1, 0, c_white, 1);
+		j += 8;
+	}	
+}
+#endregion

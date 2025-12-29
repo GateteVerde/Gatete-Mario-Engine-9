@@ -2036,6 +2036,7 @@
     {"name":"spr_gswitch_static","order":6,"path":"sprites/spr_gswitch_static/spr_gswitch_static.yy",},
     {"name":"spr_gswitch","order":4,"path":"sprites/spr_gswitch/spr_gswitch.yy",},
     {"name":"spr_gswitchblock","order":24,"path":"sprites/spr_gswitchblock/spr_gswitchblock.yy",},
+    {"name":"spr_gui_acecoins","order":8,"path":"sprites/spr_gui_acecoins/spr_gui_acecoins.yy",},
     {"name":"spr_gui_bonus","order":6,"path":"sprites/spr_gui_bonus/spr_gui_bonus.yy",},
     {"name":"spr_gui_cardbox_cards","order":1,"path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},
     {"name":"spr_gui_cogwheel","order":13,"path":"sprites/spr_gui_cogwheel/spr_gui_cogwheel.yy",},

@@ -48,6 +48,7 @@
     {"name":"inst_7B284BCD","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
     {"name":"inst_33008FBD","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
     {"name":"inst_18E46384","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
+    {"name":"inst_621B3601","path":"rooms/rm_course_w1_l1_c/rm_course_w1_l1_c.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -111,6 +112,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7B284BCD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B284BCD","objectId":{"name":"obj_brick","path":"objects/obj_brick/obj_brick.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_33008FBD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33008FBD","objectId":{"name":"obj_brick","path":"objects/obj_brick/obj_brick.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_18E46384","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18E46384","objectId":{"name":"obj_brick","path":"objects/obj_brick/obj_brick.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_621B3601","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_621B3601","objectId":{"name":"obj_coin_ace","path":"objects/obj_coin_ace/obj_coin_ace.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":168.0,"y":48.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":24,"TileCompressedData":[
           -2,2446,4,2447,2081,2082,2530,-15,2531,1,2451,-4,2446,3,2447,2081,2082,-16,0,1,2445,-4,2446,3,2447,2081,

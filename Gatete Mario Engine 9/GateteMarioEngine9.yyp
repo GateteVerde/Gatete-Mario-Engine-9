@@ -2429,6 +2429,7 @@
     {"id":{"name":"spr_gswitch_static","path":"sprites/spr_gswitch_static/spr_gswitch_static.yy",},},
     {"id":{"name":"spr_gswitch","path":"sprites/spr_gswitch/spr_gswitch.yy",},},
     {"id":{"name":"spr_gswitchblock","path":"sprites/spr_gswitchblock/spr_gswitchblock.yy",},},
+    {"id":{"name":"spr_gui_acecoins","path":"sprites/spr_gui_acecoins/spr_gui_acecoins.yy",},},
     {"id":{"name":"spr_gui_bonus","path":"sprites/spr_gui_bonus/spr_gui_bonus.yy",},},
     {"id":{"name":"spr_gui_cardbox_cards","path":"sprites/spr_gui_cardbox_cards/spr_gui_cardbox_cards.yy",},},
     {"id":{"name":"spr_gui_cardbox","path":"sprites/spr_gui_cardbox/spr_gui_cardbox.yy",},},
