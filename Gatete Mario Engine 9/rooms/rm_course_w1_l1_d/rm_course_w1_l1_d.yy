@@ -143,6 +143,7 @@
     {"name":"inst_5A91654D","path":"rooms/rm_course_w1_l1_d/rm_course_w1_l1_d.yy",},
     {"name":"inst_33B96CAD","path":"rooms/rm_course_w1_l1_d/rm_course_w1_l1_d.yy",},
     {"name":"inst_5658D744","path":"rooms/rm_course_w1_l1_d/rm_course_w1_l1_d.yy",},
+    {"name":"inst_3F47407C","path":"rooms/rm_course_w1_l1_d/rm_course_w1_l1_d.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -303,6 +304,9 @@
         {"$GMRInstance":"v4","%Name":"inst_5A91654D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A91654D","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.0,"x":1852.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_33B96CAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33B96CAD","objectId":{"name":"obj_mushroom_trampoline","path":"objects/obj_mushroom_trampoline/obj_mushroom_trampoline.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_5658D744","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5658D744","objectId":{"name":"obj_mushroom_trampoline","path":"objects/obj_mushroom_trampoline/obj_mushroom_trampoline.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1408.0,"y":192.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3F47407C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F47407C","objectId":{"name":"obj_coinblock","path":"objects/obj_coinblock/obj_coinblock.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_coinblock","path":"objects/obj_coinblock/obj_coinblock.yy",},"propertyId":{"name":"coins","path":"objects/obj_coinblock/obj_coinblock.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"162",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":144.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":134,"TileCompressedData":[
           -20,0,-114,-2147483648,-20,0,-114,-2147483648,-20,0,-114,-2147483648,-20,0,-4,-2147483648,1,4128,-29,
