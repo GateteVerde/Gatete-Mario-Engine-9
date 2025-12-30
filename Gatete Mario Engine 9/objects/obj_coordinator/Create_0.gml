@@ -30,7 +30,7 @@ init_shockwave();
 	global.subpixels = true;
 	
 	//Health (If enabled, Mario will be able to take multiple hits to die and cannot turn into small mario)
-	global.hp_mode = 0;
+	global.hp_mode = 1;
 	
 	//HP / Maximum Health (Sets the maximum hitpoints for Mario if health mode is active)
 	global.hp = 4;
