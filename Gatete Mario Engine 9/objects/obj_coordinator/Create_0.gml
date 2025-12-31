@@ -30,7 +30,7 @@ init_shockwave();
 	global.subpixels = true;
 	
 	//Health (If enabled, Mario will be able to take multiple hits to die and cannot turn into small mario)
-	global.hp_mode = 1;
+	global.hp_mode = 0;
 	
 	//HP / Maximum Health (Sets the maximum hitpoints for Mario if health mode is active)
 	global.hp = 4;
@@ -291,11 +291,8 @@ global.gh = room_height;
 global.restart = false;
 
 //This is to make sure that the bars are not misplaced in title and credits room (If you set the game size other than the default one)
-room_set_width(rm_title,global.gw);
-room_set_height(rm_title,global.gh);
-
-room_set_width(rm_credits,global.gw);
-room_set_height(rm_credits,global.gh);
+room_set_width(rm_title, global.gw);
+room_set_height(rm_title, global.gh);
 
 //Data structure for picked up 3up moons
 global.moons = ds_map_create();

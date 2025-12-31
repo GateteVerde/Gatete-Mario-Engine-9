@@ -7,23 +7,12 @@ event_inherited();
 vulnerable = 99;
 
 //How vulnerable is this enemy to Mario?
-//0:	Normal
-//1:	Hurt Mario
-//2:	Hurt Mario + Immune to Mounts
-//3:	Subcon
-//4:	Stomp (Custom)
-//-1:	Phase through Mario
-stomp = 1;
+stomp = 2;
 
 //How edible is this enemy to Yoshi?
-//0:	Edible
-//1:	Edible, but create a item
-//2:	Non-Edible
 edible = 2;
 
 //Does this enemy turn into a silver coin?
-//0:	No
-//1:	Yes
 turn_silver = 0;
 
 //Ignore platforms
