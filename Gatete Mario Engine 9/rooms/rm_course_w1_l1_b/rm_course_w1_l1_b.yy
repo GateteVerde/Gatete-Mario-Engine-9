@@ -58,7 +58,6 @@
     {"name":"inst_326C1CC4","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_D203E06","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
     {"name":"inst_AEB1EAC","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
-    {"name":"inst_1AE749B1","path":"rooms/rm_course_w1_l1_b/rm_course_w1_l1_b.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -132,7 +131,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"propertyId":{"name":"lightning","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_rainmaker","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"propertyId":{"name":"raining","path":"objects/obj_rainmaker/obj_rainmaker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":0.0,},
-        {"$GMRInstance":"v4","%Name":"inst_1AE749B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1AE749B1","objectId":{"name":"obj_coin_ace","path":"objects/obj_coin_ace/obj_coin_ace.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":312.0,"y":96.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":24,"TileCompressedData":[
           -2,2446,4,2447,2081,2082,2530,-15,2531,1,2451,-4,2446,3,2447,2081,2082,-16,0,1,2445,-4,2446,3,2447,2081,

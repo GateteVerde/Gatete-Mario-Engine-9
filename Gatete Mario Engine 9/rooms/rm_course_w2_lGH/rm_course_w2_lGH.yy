@@ -34,7 +34,7 @@
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":24,"TileCompressedData":[
           -20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,
           -20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,
-          -20,0,-4,-2147483648,-20,0,-4,-2147483648,-24,5078,-24,5163,
+          -20,0,-4,-2147483648,-20,0,-4,-2147483648,-24,3466,-24,3551,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tileset_Decor","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset_Decor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":24,"TileCompressedData":[
           -20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,-20,0,-4,-2147483648,

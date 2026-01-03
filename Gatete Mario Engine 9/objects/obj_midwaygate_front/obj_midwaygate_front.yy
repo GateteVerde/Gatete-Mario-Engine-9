@@ -8,8 +8,8 @@
   "name":"obj_midwaygate_front",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Progress",
-    "path":"folders/Objects/Special/Do Not Use!/Items/Level Progress.yy",
+    "name":"SMW",
+    "path":"folders/Objects/Special/Do Not Use!/Items/Level Progress/SMW.yy",
   },
   "parentObjectId":null,
   "persistent":false,

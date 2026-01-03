@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":6.553125,
+  "duration":6.553129,
   "exportDir":"",
   "name":"snd_flagsong",
   "parent":{

@@ -1,5 +1,8 @@
 /// @description Generate items
 
+//Play 'Chest' sound
+audio_play_sound(snd_chest, 0, false);
+
 //Create a bouncy mushroom platform
 instance_create_depth(2944, 192, depth, obj_platform);
 

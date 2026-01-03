@@ -10,8 +10,8 @@
   "name":"obj_bell",
   "overriddenProperties":[],
   "parent":{
-    "name":"SML2",
-    "path":"folders/Objects/Special/Do Not Use!/Items/Level Progress/SML2.yy",
+    "name":"Level Progress",
+    "path":"folders/Objects/Special/Do Not Use!/Items/Level Progress.yy",
   },
   "parentObjectId":null,
   "persistent":false,
