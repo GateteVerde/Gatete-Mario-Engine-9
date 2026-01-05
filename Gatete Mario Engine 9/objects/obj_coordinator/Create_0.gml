@@ -1,7 +1,8 @@
 /// @description Gatete Mario Engine 9 Game Coordinator (This is required for the game to run, do not remove it.)
 
-//Set game caption
-#macro WINDOW_CAPTION "Gatete Mario Engine 9"
+//Set game caption (Always between brackets)
+#macro WINDOW_CAPTION	"Gatete Mario Engine 9"
+#macro GAME_VERSION		"1.1.4"
 window_set_caption(WINDOW_CAPTION);
 
 //Initialize global variables
