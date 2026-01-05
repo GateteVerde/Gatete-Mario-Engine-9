@@ -71,10 +71,14 @@
 	}
 #endregion
 
-//Time it
-mytimer += 0.495;
-angle = cos(mytimer*0.0495)*(pi/2);
+//If the platform is not frozen
+if (freeze == false) {
 
-//Set the position of the block
-x = myx-sin(angle)*distance;
-y = myy+cos(angle)*distance;
+	//Time it
+	mytimer += 0.495;
+	angle = cos(mytimer*0.0495)*(pi/2);
+
+	//Set the position of the block
+	x = myx-sin(angle)*distance;
+	y = myy+cos(angle)*distance;
+}
