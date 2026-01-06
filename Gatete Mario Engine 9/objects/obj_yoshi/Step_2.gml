@@ -64,8 +64,6 @@
 	        else
 	            event_user(0);
 	    }
-		
-		//
     
 	    //Make Yoshi flutter if moving down and if Mario does not have either the raccoon or tanooki powerup
 	    if (flying == 0)
@@ -81,7 +79,20 @@
 	        && (flutter == 0)
 			&& (obj_mario.yspeed > 1.5)
 			&& (obj_mario.jumping == 2) {
-        
+				
+				//If Yoshi has a shell inside their mouth
+				if (mouthholder == obj_shell_kicked) {
+					
+					//If the yoshi is blue
+					if (colour == 3)
+						exit;
+					
+					//Or the shell sprite is blue or a kamikaze one
+					else if (mouthsprite == spr_shell_blue)
+					|| (mouthsprite == spr_shell_spin)
+						exit;
+				}
+				
 	            //Play 'Hover' sound
 	            audio_play_sound(snd_yoshi_hover, 0, false);
          

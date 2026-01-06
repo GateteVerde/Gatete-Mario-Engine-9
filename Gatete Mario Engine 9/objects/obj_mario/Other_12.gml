@@ -757,10 +757,8 @@ if (state != playerstate.jump) {
     }
     
 	//Prevent player from running too fast
-	if (abs(xspeed) > xspeedmax) {
-		
+	if (abs(xspeed) > xspeedmax) 
 		xspeed = superlerp(xspeed, sign(xspeed) * xspeedmax, 0.5);
-	}
 }
 
 //If the player is jumping
@@ -1505,3 +1503,12 @@ else {
 //Increment double jump
 if (doublejump == 1) && (yspeed > 0)
 	doublejump = 2;
+	
+//Cancel groundpound if the 'Up' key is pressed
+if (groundpound == 2)
+&& (input_check_pressed(input.up)) {
+	
+	groundpound = 0;
+	if (yspeed > 0)
+		yspeed = 0;
+}

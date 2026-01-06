@@ -31,7 +31,7 @@ if (inair == 1) {
 }
 
 //If Mario was doing a groundpound
-if (groundpound == 2) {
+if (groundpound >= 2) {
 	
 	//Check for a slope
 	var slope = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom+1.5, obj_slopeparent, 1, 0);
