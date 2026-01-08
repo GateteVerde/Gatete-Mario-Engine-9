@@ -74,6 +74,7 @@
     {"name":"inst_746E2CC4","path":"rooms/rm_course_w1_l5_b/rm_course_w1_l5_b.yy",},
     {"name":"inst_42011E36","path":"rooms/rm_course_w1_l5_b/rm_course_w1_l5_b.yy",},
     {"name":"inst_6FC328DA","path":"rooms/rm_course_w1_l5_b/rm_course_w1_l5_b.yy",},
+    {"name":"inst_4624036E","path":"rooms/rm_course_w1_l5_b/rm_course_w1_l5_b.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -157,6 +158,11 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_bottom","path":"objects/obj_warp_bottom/obj_warp_bottom.yy",},"propertyId":{"name":"exit_id","path":"objects/obj_warp_bottom/obj_warp_bottom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_bottom","path":"objects/obj_warp_bottom/obj_warp_bottom.yy",},"propertyId":{"name":"destination","path":"objects/obj_warp_bottom/obj_warp_bottom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_course_w1_l5",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1632.0,"y":112.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4624036E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4624036E","objectId":{"name":"obj_warp_top","path":"objects/obj_warp_top/obj_warp_top.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_top","path":"objects/obj_warp_top/obj_warp_top.yy",},"propertyId":{"name":"exit_dir","path":"objects/obj_warp_top/obj_warp_top.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"270",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_top","path":"objects/obj_warp_top/obj_warp_top.yy",},"propertyId":{"name":"destination","path":"objects/obj_warp_top/obj_warp_top.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_course_w1_l5",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_warp_top","path":"objects/obj_warp_top/obj_warp_top.yy",},"propertyId":{"name":"exit_id","path":"objects/obj_warp_top/obj_warp_top.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":112.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":106,"TileCompressedData":[
           6,2313,2314,2485,2485,2313,2314,-96,2485,10,2684,2685,2485,2485,2398,2399,2485,2485,2398,2399,-6,2485,
