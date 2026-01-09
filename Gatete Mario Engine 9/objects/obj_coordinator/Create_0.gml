@@ -2,7 +2,7 @@
 
 //Set game caption (Always between brackets)
 #macro WINDOW_CAPTION	"Gatete Mario Engine 9"
-#macro GAME_VERSION		"1.1.6"
+#macro GAME_VERSION		"1.1.7"
 window_set_caption(WINDOW_CAPTION);
 
 //Initialize global variables

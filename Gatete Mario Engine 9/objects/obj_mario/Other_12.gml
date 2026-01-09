@@ -451,7 +451,7 @@ if (inwall == 0)
 						if (global.powerup != cs_tiny)
 						&& (global.powerup != cs_mega) 
 						&& (global.mount == 0)
-						&& (abs(xspeed) >= global.physics[global.player].phy_xspeed_max) 
+						&& (abs(xspeed) >= global.physics[global.player].phy_xspeed_min) 
 						&& (global.special_moves == true) {
 						
 							//Begin Triple Jump
@@ -475,11 +475,11 @@ if (inwall == 0)
 								else if (triplejump == 2) {
 								
 									//End triple jump
-									triplejump = 0;
+									triplejump = (abs(xspeed) >= global.physics[global.player].phy_xspeed_max) ? 3 : 0;
 									tjtime = 0;
 									
 									//Begin somersault
-									somersault = 1;									
+									somersault = (triplejump == 3) ? 1 : 0;									
 								}
 							}
 						}

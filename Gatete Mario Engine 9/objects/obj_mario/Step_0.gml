@@ -78,7 +78,7 @@
 		//If the timer runs out, or Mario is spin-jumping, or Mario's horizontal speed is lower than 2.6...
 		if (tjtime < 0) 
 		|| (jumpstyle > 0)
-		|| (abs(xspeed) < global.physics[global.player].phy_xspeed_max) {
+		|| (abs(xspeed) < global.physics[global.player].phy_xspeed_min) {
 			
 			//Cancel triple jump
 			triplejump = 0;
