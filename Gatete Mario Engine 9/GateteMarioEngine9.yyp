@@ -2052,6 +2052,7 @@
     {"id":{"name":"spr_bgr_minigame_c","path":"sprites/spr_bgr_minigame_c/spr_bgr_minigame_c.yy",},},
     {"id":{"name":"spr_bgr_minigame","path":"sprites/spr_bgr_minigame/spr_bgr_minigame.yy",},},
     {"id":{"name":"spr_bgr_mountains","path":"sprites/spr_bgr_mountains/spr_bgr_mountains.yy",},},
+    {"id":{"name":"spr_bgr_nightsky_frames","path":"sprites/spr_bgr_nightsky_frames/spr_bgr_nightsky_frames.yy",},},
     {"id":{"name":"spr_bgr_nightsky","path":"sprites/spr_bgr_nightsky/spr_bgr_nightsky.yy",},},
     {"id":{"name":"spr_bgr_switchpalace_b","path":"sprites/spr_bgr_switchpalace_b/spr_bgr_switchpalace_b.yy",},},
     {"id":{"name":"spr_bgr_switchpalace_g","path":"sprites/spr_bgr_switchpalace_g/spr_bgr_switchpalace_g.yy",},},

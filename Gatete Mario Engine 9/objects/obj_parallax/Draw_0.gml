@@ -1,45 +1,92 @@
 /// @description Render backgrounds
 
 //Constants
-var lay_id = layer_get_id("Background");
-var back_id = layer_background_get_id(lay_id);
-var back_spr = layer_background_get_sprite(back_id);
+var lay_id			= layer_get_id("Background");
+var back_id			= layer_background_get_id(lay_id);
+var back_spr		= layer_background_get_sprite(back_id);
+var back_spr_frames = asset_get_index(sprite_get_name(back_spr) + "_frames");
 
-//Cycle and draw all frames
-for (var i = 0; i < sprite_get_number(back_spr); i++) {
+//If a sprite exists with animated frames
+if (sprite_exists(back_spr_frames)) {
 	
-	var rate, xx, yy;
-
-	//Set rate and position
-	rate[i] = 1.2 + (0.2 * i);
-	xx[i] = obj_levelcontrol.camera_x;
-	yy[i] = obj_levelcontrol.camera_y;
+	//Temporary variables for animated layer
+	var rate_0, xx_0, yy_0;
 	
-	//Manage X position
-	var x_pos = (xx[i] / rate[i]) + (time * scroll[i]);
+	rate_0 = 1.2;
+	xx_0 = obj_levelcontrol.camera_x;
+	yy_0 = obj_levelcontrol.camera_y;
 	
-	//Manage Y position
-	#region
+	#region Background Position
 	
-		var y_pos = 0;
+		var x_pos_0 = (xx_0 / rate_0);
+		var y_pos_0 = 0;
 	
 		if (room_height > sprite_get_height(back_spr))
-			y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
+			y_pos_0 = layer_get_y(layer_get_id("Background")) + (yy_0 / rate_0 / 2);
 		else
-			y_pos = room_height - sprite_get_height(back_spr);
+			y_pos_0 = room_height - sprite_get_height(back_spr);
 	#endregion
+	
+	//Draw the first background
+	draw_sprite_tiled_ext(back_spr, floor(frame), x_pos_0, y_pos_0, 1, 1, c_white, 1);
+	
+	//Cycle and draw all frames
+	for (var i = 0; i < sprite_get_number(back_spr_frames); i++) {
+	
+		var rate, xx, yy;
 
-	//If the background is animated, render animated background
-	if (obj_levelcontrol.bg_is_animated)
-		draw_sprite_tiled_ext(back_spr, floor(frame), x_pos, y_pos, 1, 1, c_white, 1);		
-			
-	//Otherwise, draw each frame separately
-	else
-		draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
+		//Set rate and position
+		rate[i] = 1.4 + (0.2 * i);
+		xx[i] = obj_levelcontrol.camera_x;
+		yy[i] = obj_levelcontrol.camera_y;
+	
+		#region Background Position
+	
+			var x_pos = (xx[i] / rate[i]) + (time * scroll[i]);
+			var y_pos = 0;
+	
+			if (room_height > sprite_get_height(back_spr_frames))
+				y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
+			else
+				y_pos = room_height - sprite_get_height(back_spr_frames);
+		#endregion
+	
+		//Draw the background
+		draw_sprite_tiled_ext(back_spr_frames, i, x_pos, y_pos, 1, 1, c_white, 1);
+	}
 }
 
-/*
-// Update background layer scrolling
-// You may change the rate of the timer however it affects all layers, if you want *a* layer to get affected, set a bg index to a value.
-*/
+//Otherwise
+else {
+
+	//Cycle and draw all frames
+	for (var i = 0; i < sprite_get_number(back_spr); i++) {
+	
+		var rate, xx, yy;
+
+		//Set rate and position
+		rate[i] = 1.2 + (0.2 * i);
+		xx[i] = obj_levelcontrol.camera_x;
+		yy[i] = obj_levelcontrol.camera_y;
+	
+		#region Background Position
+	
+			var x_pos = (xx[i] / rate[i]) + (time * scroll[i]);
+			var y_pos = 0;
+	
+			if (room_height > sprite_get_height(back_spr))
+				y_pos = layer_get_y(layer_get_id("Background")) + (yy[i] / rate[i] / 2);
+			else
+				y_pos = room_height - sprite_get_height(back_spr);
+		#endregion
+	
+		//Draw the background
+		draw_sprite_tiled_ext(back_spr, i, x_pos, y_pos, 1, 1, c_white, 1);
+	}
+}
+
+//Update background layer scrolling (You may change the rate of the timer however it affects all layers, if you want *a* layer to get affected, set a bg index to a value.)
 time++;
+
+//Update frame
+frame += 0.15;
