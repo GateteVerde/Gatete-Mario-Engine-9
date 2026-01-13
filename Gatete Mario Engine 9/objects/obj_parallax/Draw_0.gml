@@ -9,26 +9,26 @@ var back_spr_frames = asset_get_index(sprite_get_name(back_spr) + "_frames");
 //If a sprite exists with animated frames
 if (sprite_exists(back_spr_frames)) {
 	
-	//Temporary variables for animated layer
-	var rate_0, xx_0, yy_0;
+	//Temporary variables for animated background layer
+	var rate_main, xx_main, yy_main;
 	
-	rate_0 = 1.2;
-	xx_0 = obj_levelcontrol.camera_x;
-	yy_0 = obj_levelcontrol.camera_y;
+	rate_main = 1.2;
+	xx_main = obj_levelcontrol.camera_x;
+	yy_main = obj_levelcontrol.camera_y;
 	
 	#region Background Position
 	
-		var x_pos_0 = (xx_0 / rate_0);
-		var y_pos_0 = 0;
+		var x_pos_main = (xx_main / rate_main);
+		var y_pos_main = 0;
 	
 		if (room_height > sprite_get_height(back_spr))
-			y_pos_0 = layer_get_y(layer_get_id("Background")) + (yy_0 / rate_0 / 2);
+			y_pos_main = layer_get_y(layer_get_id("Background")) + (yy_main / rate_main / 2);
 		else
-			y_pos_0 = room_height - sprite_get_height(back_spr);
+			y_pos_main = room_height - sprite_get_height(back_spr);
 	#endregion
 	
 	//Draw the first background
-	draw_sprite_tiled_ext(back_spr, floor(frame), x_pos_0, y_pos_0, 1, 1, c_white, 1);
+	draw_sprite_tiled_ext(back_spr, floor(frame), x_pos_main, y_pos_main, 1, 1, c_white, 1);
 	
 	//Cycle and draw all frames
 	for (var i = 0; i < sprite_get_number(back_spr_frames); i++) {

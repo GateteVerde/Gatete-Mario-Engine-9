@@ -20,7 +20,6 @@ margin = 1;
 length = 0;
 list_pos = 1;
 
-
 //Draw powerups
 for (var i = 1; i <= global.inventory[0]; i++) {
 			

@@ -1,19 +1,18 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_bgr_nightsky_frames",
+  "%Name":"spr_bgr_nighthills_frames",
   "bboxMode":0,
   "bbox_bottom":431,
   "bbox_left":0,
   "bbox_right":511,
-  "bbox_top":176,
+  "bbox_top":208,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"888f0e21-ea17-4a29-8770-f5bb2e1c995f","name":"888f0e21-ea17-4a29-8770-f5bb2e1c995f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"20f145e9-90f6-47ac-acbc-95f09e6518d2","name":"20f145e9-90f6-47ac-acbc-95f09e6518d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"10918aa7-02db-45f7-bbb6-30c4b1f6c3e8","name":"10918aa7-02db-45f7-bbb6-30c4b1f6c3e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -22,8 +21,27 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"80259626-a132-4b43-965e-ce1dee03ba3f","blendMode":0,"displayName":"default","isLocked":false,"name":"80259626-a132-4b43-965e-ce1dee03ba3f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_bgr_nightsky_frames",
-  "nineSlice":null,
+  "name":"spr_bgr_nighthills_frames",
+  "nineSlice":{
+    "$GMNineSliceData":"",
+    "bottom":0,
+    "enabled":false,
+    "guideColour":[4294902015,4294902015,4294902015,4294902015,],
+    "highlightColour":1728023040,
+    "highlightStyle":0,
+    "left":0,
+    "resourceType":"GMNineSliceData",
+    "resourceVersion":"2.0",
+    "right":0,
+    "tileMode":[
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "top":0,
+  },
   "origin":0,
   "parent":{
     "name":"Backgrounds & Tilesets",
@@ -34,7 +52,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_bgr_nightsky_frames",
+    "%Name":"spr_bgr_nighthills_frames",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -50,7 +68,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -58,7 +76,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_bgr_nightsky_frames",
+    "name":"spr_bgr_nighthills_frames",
     "playback":1,
     "playbackSpeed":9.0,
     "playbackSpeedType":0,
@@ -70,11 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"888f0e21-ea17-4a29-8770-f5bb2e1c995f","path":"sprites/spr_bgr_nightsky_frames/spr_bgr_nightsky_frames.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8d89c129-afea-408e-9001-702b6d05e311","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20f145e9-90f6-47ac-acbc-95f09e6518d2","path":"sprites/spr_bgr_nightsky_frames/spr_bgr_nightsky_frames.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b54678b9-66ba-4076-8fe3-03ea6d92b125","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"10918aa7-02db-45f7-bbb6-30c4b1f6c3e8","path":"sprites/spr_bgr_nighthills_frames/spr_bgr_nighthills_frames.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"275646f3-4cb7-4a76-b29d-7e8c498bcfff","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

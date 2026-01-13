@@ -1,1 +1,2 @@
-bg_scroll[1] = -0.15;
+//Background Layer 3 parameters
+bg_scroll[3] = -0.15;

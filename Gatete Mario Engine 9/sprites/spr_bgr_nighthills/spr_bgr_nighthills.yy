@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_bgr_nightsky",
+  "%Name":"spr_bgr_nighthills",
   "bboxMode":0,
   "bbox_bottom":431,
   "bbox_left":0,
@@ -15,7 +15,7 @@
     {"$GMSpriteFrame":"v1","%Name":"888f0e21-ea17-4a29-8770-f5bb2e1c995f","name":"888f0e21-ea17-4a29-8770-f5bb2e1c995f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"20f145e9-90f6-47ac-acbc-95f09e6518d2","name":"20f145e9-90f6-47ac-acbc-95f09e6518d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"47887787-9191-4087-a9e5-161f8bc584bc","name":"47887787-9191-4087-a9e5-161f8bc584bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"729252b4-2cbb-497b-a0b8-ab2f3dd899b7","name":"729252b4-2cbb-497b-a0b8-ab2f3dd899b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8e9cfe0d-e1b6-4492-a7dd-4c59f99110b3","name":"8e9cfe0d-e1b6-4492-a7dd-4c59f99110b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -24,7 +24,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"80259626-a132-4b43-965e-ce1dee03ba3f","blendMode":0,"displayName":"default","isLocked":false,"name":"80259626-a132-4b43-965e-ce1dee03ba3f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_bgr_nightsky",
+  "name":"spr_bgr_nighthills",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -36,7 +36,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_bgr_nightsky",
+    "%Name":"spr_bgr_nighthills",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_bgr_nightsky",
+    "name":"spr_bgr_nighthills",
     "playback":1,
     "playbackSpeed":9.0,
     "playbackSpeedType":0,
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"888f0e21-ea17-4a29-8770-f5bb2e1c995f","path":"sprites/spr_bgr_nightsky/spr_bgr_nightsky.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8d89c129-afea-408e-9001-702b6d05e311","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"20f145e9-90f6-47ac-acbc-95f09e6518d2","path":"sprites/spr_bgr_nightsky/spr_bgr_nightsky.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b54678b9-66ba-4076-8fe3-03ea6d92b125","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"47887787-9191-4087-a9e5-161f8bc584bc","path":"sprites/spr_bgr_nightsky/spr_bgr_nightsky.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e7b0c1c4-ee6e-4505-b70c-55aea371f7da","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"729252b4-2cbb-497b-a0b8-ab2f3dd899b7","path":"sprites/spr_bgr_nightsky/spr_bgr_nightsky.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"576df86f-45a0-4196-8018-581b4aadaf25","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"888f0e21-ea17-4a29-8770-f5bb2e1c995f","path":"sprites/spr_bgr_nighthills/spr_bgr_nighthills.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8d89c129-afea-408e-9001-702b6d05e311","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20f145e9-90f6-47ac-acbc-95f09e6518d2","path":"sprites/spr_bgr_nighthills/spr_bgr_nighthills.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b54678b9-66ba-4076-8fe3-03ea6d92b125","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47887787-9191-4087-a9e5-161f8bc584bc","path":"sprites/spr_bgr_nighthills/spr_bgr_nighthills.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e7b0c1c4-ee6e-4505-b70c-55aea371f7da","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e9cfe0d-e1b6-4492-a7dd-4c59f99110b3","path":"sprites/spr_bgr_nighthills/spr_bgr_nighthills.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"75b6c955-c2b3-40ee-a678-56e6d44d855c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
