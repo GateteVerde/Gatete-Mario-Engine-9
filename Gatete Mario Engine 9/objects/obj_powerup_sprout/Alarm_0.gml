@@ -46,17 +46,9 @@ else if (sprite_index == spr_propellershroom) {
 	//Play 'Sprout' sound
 	audio_play_sound(snd_sprout, 0, false);
 	
-    //Turn into a real leaf
-	if (yspeed > 0) {
-		
-		with (instance_create_depth(x, ystart + 16, 11, obj_propellershroom_sprout)) {
-			
-			xspeed = 1;
-			alarm[1] = 1;
-		}
-	}
-	else
-		instance_create_depth(x, ystart, 11, obj_propellershroom_sprout);
+    //Turn into a real propeller shroom
+	with (instance_create_depth(x, ystart, 11, obj_propellershroom_sprout)) 	
+		yspeed = 4 * sign(other.yspeed);
 }
 
 //Superbell

@@ -1,7 +1,7 @@
 /// @description Penguin Suit logic
 
 //Inherit the parent event
-event_inherited();
+event_perform_object(obj_physicsparent, ev_step, 0);
 
 //If there's no gravity
 if (yadd == 0) {

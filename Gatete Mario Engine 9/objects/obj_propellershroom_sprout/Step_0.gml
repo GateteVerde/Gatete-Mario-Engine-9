@@ -8,16 +8,14 @@ if (freeze == false) {
 }
 
 //If the propeller shroom is sprouting out from the block.
-if ((action = "sprout") && (y < ystart-18)) {
+if (action = "sprout") {
 
     //Slowdown till it stops
-    if (yspeed < 0)
-        yspeed += 0.0648;
+	yspeed = lerp(yspeed, 0, 0.1);
 		
 	//If about to stop
-    else if (yspeed > -0.0648) {
+    if (yspeed == 0) {
     
-        yspeed = 0;
         if (action == "sprout") {
         
             //End ascend

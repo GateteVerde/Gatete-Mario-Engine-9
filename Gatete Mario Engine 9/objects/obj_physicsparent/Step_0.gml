@@ -84,7 +84,15 @@ if ((collision_rectangle(bbox_left, bbox_bottom+1, bbox_right, bbox_bottom+1, ob
 else {
 	
 	//Set up gravity
-	yadd = (swimming) ? 0.03125 : 0.25;
+	#region
+	
+		//If this is a penguin suit powerup
+		if (object_index == obj_penguinsuit)
+			yadd = (swimming) ? 0.0125 : 0.1;
+		else
+			yadd = (swimming) ? 0.03125 : 0.25;
+	
+	#endregion
 	
 	//If the item can bounce, reset amount of bounces
 	if (bounces > -1) {
