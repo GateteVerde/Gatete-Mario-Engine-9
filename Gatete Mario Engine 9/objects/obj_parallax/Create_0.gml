@@ -13,8 +13,6 @@ var back_spr = layer_background_get_sprite(back_id);
 for (var i = 0; i < sprite_get_number(back_spr); i++) {
 	
 	scroll[i] = 0;
-	blend[i] = c_white;
-	alpha[i] = 1;
 }
 
 //Scrolling timelapse
