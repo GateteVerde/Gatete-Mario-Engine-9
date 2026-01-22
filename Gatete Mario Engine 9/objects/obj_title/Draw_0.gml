@@ -61,7 +61,7 @@ else if (start == 1) {
 
 	//Line spacing
 	var _gap = 12;
-	var _yy = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 - (_gap * array_length_2d(menu, sub_menu));
+	var _yy = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - 24 - (_gap * array_length(menu[sub_menu]));
 
 	//Draw menu items
 	for (var i=0; i<array_length(menu[sub_menu]); ++i) { 

@@ -29,7 +29,7 @@ if (hunger == 0) && (ready == 0) {
 	}
 	
 	//Otherwise
-	else {
+	else if (other.edible == 0) {
 
 	    //Enemy eaten
 	    hunger = 1;
