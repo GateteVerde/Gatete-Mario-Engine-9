@@ -22,3 +22,7 @@ if ((numb mod 2) && (sprite_index == spr_fireball)) {
 	with (instance_create_depth(x, y+4, -1, obj_smoke))
 	    sprite_index = spr_cinder;
 }
+
+//Destroy when outside view
+if (outside_view() == true)
+	instance_destroy();

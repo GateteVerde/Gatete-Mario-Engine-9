@@ -1,4 +1,4 @@
-/// @description Jumping Piranha Plant fireball logic
+/// @description Jumping Piranha Plant inkball logic
 
 //Handle psuedo movement
 if (freeze == false) {

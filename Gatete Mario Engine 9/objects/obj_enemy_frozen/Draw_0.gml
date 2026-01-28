@@ -1,12 +1,10 @@
 /// @description Render NPC
 
-#region SPRITE DATA
-
-	var _w = sprite_get_width(sprite_index);
-	var _h = sprite_get_height(sprite_index);
-	var _xoff = sprite_get_xoffset(sprite_index);
-	var _yoff = sprite_get_yoffset(sprite_index);	
-#endregion
+//Obtain sprite data
+var _w = sprite_get_width(sprite_index);
+var _h = sprite_get_height(sprite_index);
+var _xoff = sprite_get_xoffset(sprite_index);
+var _yoff = sprite_get_yoffset(sprite_index);	
 
 //Draw NPC
 draw_sprite_ext(sprite_index, 0, screen_round(x) + offset, screen_round(y) + 1, xscale, yscale, image_angle, c_white, image_alpha);

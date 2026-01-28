@@ -1,7 +1,7 @@
 /// @description Track Fuzzy
 
 //How vulnerable is this enemy to various items?
-vulnerable = 1;
+vulnerable = 3;
 
 //How vulnerable is this enemy to Mario?
 stomp = 2;
