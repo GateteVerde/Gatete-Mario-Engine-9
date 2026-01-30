@@ -18,7 +18,7 @@ else {
 }
 
 //Create a firework
-instance_create_depth(x, y - 4 + (6 * image_index), -2, obj_popomb_firework);
+instance_create_depth(x, y - 4 + (6 * image_index), -2, obj_baboom_firework);
 
 //Increment
 image_index++;

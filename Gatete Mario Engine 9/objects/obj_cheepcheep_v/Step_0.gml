@@ -41,8 +41,8 @@ if (swimming == 1) {
             
 	    //Otherwise
 	    else if ((collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_semisolid, 0, 0))
-			    || (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_slopeparent, 1, 0)))
-				    yspeed = -yspeed;
+		|| (collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom, obj_slopeparent, 1, 0)))
+			yspeed = -yspeed;
 	}
     
 	//Otherwise, if the cheep cheep is moving to the left.
