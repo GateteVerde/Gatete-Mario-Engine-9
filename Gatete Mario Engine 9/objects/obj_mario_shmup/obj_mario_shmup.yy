@@ -38,7 +38,7 @@
     {"$GMObjectProperty":"v2","%Name":"subpop","filters":[],"listItems":[
         "spr_mario_skypop",
         "spr_mario_subpop",
-      ],"multiselect":false,"name":"subpop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+      ],"multiselect":false,"name":"subpop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varDescription":"When active, this will show the submarine sprite instead of the airplane sprite.","varFriendlyName":"Toggle Submarine","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

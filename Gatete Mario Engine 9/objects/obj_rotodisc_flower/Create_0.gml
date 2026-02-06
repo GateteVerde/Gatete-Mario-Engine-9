@@ -9,10 +9,10 @@ repeat (discs) {
     ID = instance_create_depth(x, y, -4, obj_rotodisc_disc_flower);
     with (ID) {
     
-        angle = a;
-        clockwise = other.clockwise;
-        maxradius = other.maxradius;
-        speedd = other.spd;
+        angle		= a;
+        clockwise	= other.clockwise;
+        distance	= other.distance;
+        spd			= other.spd;
     }
     a += 360/discs;
 }

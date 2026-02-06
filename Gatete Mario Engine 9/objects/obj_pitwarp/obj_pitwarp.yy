@@ -24,8 +24,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"destination","filters":[],"listItems":[],"multiselect":false,"name":"destination","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_next(room)","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"exit_id","filters":[],"listItems":[],"multiselect":false,"name":"exit_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"destination","filters":[],"listItems":[],"multiselect":false,"name":"destination","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_next(room)","varDescription":"The room the player will be moved when they fall into a bottomless pit.","varFriendlyName":"Destination Room","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"exit_id","filters":[],"listItems":[],"multiselect":false,"name":"exit_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"The ID of the warp node where the player will respawn at. (Do not use same ID numbers in the same room)","varFriendlyName":"Exit ID","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

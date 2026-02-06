@@ -30,9 +30,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"airship","filters":[],"listItems":[],"multiselect":false,"name":"airship","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v2","%Name":"maxspd","filters":[],"listItems":[],"multiselect":false,"name":"maxspd","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.5,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"follow_y","filters":[],"listItems":[],"multiselect":false,"name":"follow_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"airship","filters":[],"listItems":[],"multiselect":false,"name":"airship","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varDescription":"When active, it will make the object move in a sine wave motion.","varFriendlyName":"Airship-like Movement","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"maxspd","filters":[],"listItems":[],"multiselect":false,"name":"maxspd","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.5,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varDescription":"Sets the maximum scroll speed the autoscroll object will move.","varFriendlyName":"Scroll Speed","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"follow_y","filters":[],"listItems":[],"multiselect":false,"name":"follow_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varDescription":"When active, the autoscroll will ignore the position of the camera and it will follow up Mario's y position.","varFriendlyName":"Follow Mario Y","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varDescription":"Sets the timeline to play when you press the key given in the \"mykey\" variable.","varFriendlyName":"Timeline","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"mykey","filters":[],"listItems":[
         "\"global.\"",
         "\"Item 1\"",
@@ -40,7 +40,7 @@
         "\"Item 8\"",
         "\"Item 9\"",
         "\"Item 10\"",
-      ],"multiselect":false,"name":"mykey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"input.up","varType":4,},
+      ],"multiselect":false,"name":"mykey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"input.up","varDescription":"Sets the key required to activate the timeline attached to this object. For letter keys use the following: ord(\"A\")\r\nLetter must be always uppercase","varFriendlyName":"Key","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

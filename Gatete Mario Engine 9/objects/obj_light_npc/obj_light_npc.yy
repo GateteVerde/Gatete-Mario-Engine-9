@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Lighting",
-    "path":"folders/Objects/Main/Controllers/Lighting.yy",
+    "path":"folders/Objects/Special/Do Not Use!/System/Lighting.yy",
   },
   "parentObjectId":{
     "name":"obj_lightparent",
@@ -31,11 +31,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"radius","filters":[],"listItems":[],"multiselect":false,"name":"radius","rangeEnabled":true,"rangeMax":160.0,"rangeMin":8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"max_radius","filters":[],"listItems":[],"multiselect":false,"name":"max_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"radius","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"image_blend","filters":[],"listItems":[],"multiselect":false,"name":"image_blend","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$00FFFFFF","varType":7,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

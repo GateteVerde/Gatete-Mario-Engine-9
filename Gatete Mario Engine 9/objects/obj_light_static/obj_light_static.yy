@@ -30,8 +30,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"radius","filters":[],"listItems":[],"multiselect":false,"name":"radius","rangeEnabled":true,"rangeMax":160.0,"rangeMin":8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"image_blend","filters":[],"listItems":[],"multiselect":false,"name":"image_blend","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$00FFFFFF","varType":7,},
+    {"$GMObjectProperty":"v2","%Name":"radius","filters":[],"listItems":[],"multiselect":false,"name":"radius","rangeEnabled":true,"rangeMax":160.0,"rangeMin":8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varDescription":"Sets the radius the light will have","varFriendlyName":"Light Radius","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"image_blend","filters":[],"listItems":[],"multiselect":false,"name":"image_blend","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$00FFFFFF","varDescription":"Sets the colour of the light","varFriendlyName":"Colour","varType":7,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

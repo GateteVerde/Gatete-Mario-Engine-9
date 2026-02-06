@@ -185,6 +185,7 @@
     {"$GMFolder":"","%Name":"Shmup","folderPath":"folders/Objects/Special/Do Not Use!/Mario/Projectiles/Shmup.yy","name":"Shmup","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"States","folderPath":"folders/Objects/Special/Do Not Use!/Mario/States.yy","name":"States","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"System","folderPath":"folders/Objects/Special/Do Not Use!/System.yy","name":"System","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Lighting","folderPath":"folders/Objects/Special/Do Not Use!/System/Lighting.yy","name":"Lighting","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Objects/Special/Do Not Use!/System/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Transitions","folderPath":"folders/Objects/Special/Do Not Use!/System/GUI/Transitions.yy","name":"Transitions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Warps","folderPath":"folders/Objects/Special/Do Not Use!/Warps.yy","name":"Warps","resourceType":"GMFolder","resourceVersion":"2.0",},

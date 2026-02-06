@@ -30,8 +30,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"intensity","filters":[],"listItems":[],"multiselect":false,"name":"intensity","rangeEnabled":true,"rangeMax":255.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"disco","filters":[],"listItems":[],"multiselect":false,"name":"disco","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"intensity","filters":[],"listItems":[],"multiselect":false,"name":"intensity","rangeEnabled":true,"rangeMax":255.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets how dark the room will be, set to 0 if you want the room to be pitch dark.","varFriendlyName":"Darkness","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"disco","filters":[],"listItems":[],"multiselect":false,"name":"disco","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"When active, it will generate 10 lights that will bounce and change colours on screen.","varFriendlyName":"Party Lights","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
