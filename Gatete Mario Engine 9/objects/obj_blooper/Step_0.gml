@@ -43,8 +43,8 @@ if (freeze == false) {
 	if (ready == 1) {
 
 	    //Slowdown
-		xspeed = max(0,abs(xspeed)-0.1)*sign(xspeed);
-		yspeed = max(0,abs(yspeed)-0.1)*sign(yspeed);
+		xspeed = max(0,abs(xspeed)-0.125)*sign(xspeed);
+		yspeed = max(0,abs(yspeed)-0.125)*sign(yspeed);
     
 	    //If there's no speed
 	    if (xspeed == 0) 

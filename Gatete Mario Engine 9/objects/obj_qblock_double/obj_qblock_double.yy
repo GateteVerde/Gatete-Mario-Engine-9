@@ -33,9 +33,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"sprout[0]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"sprout[1]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[1]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"semisolid","filters":[],"listItems":[],"multiselect":false,"name":"semisolid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"sprout[0]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varDescription":"Sets the item that will sprout to the left of this block when when hit, type \"cs_\" to see a full list of the items.","varFriendlyName":"Left Item","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"sprout[1]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[1]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varDescription":"Sets the item that will sprout to the right of this block when when hit, type \"cs_\" to see a full list of the items.","varFriendlyName":"Right Item","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"semisolid","filters":[],"listItems":[],"multiselect":false,"name":"semisolid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varDescription":"When active, this block will turn into a semisolid platform instead of a solid block when hit.","varFriendlyName":"Semisolid","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

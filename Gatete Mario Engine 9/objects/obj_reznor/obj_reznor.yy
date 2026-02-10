@@ -29,11 +29,11 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"amount","filters":[],"listItems":[],"multiselect":false,"name":"amount","rangeEnabled":true,"rangeMax":4.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"amount","filters":[],"listItems":[],"multiselect":false,"name":"amount","rangeEnabled":true,"rangeMax":4.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varDescription":"Sets the amount of Reznors this wheel has","varFriendlyName":"# Reznors","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"clockwise","filters":[],"listItems":[
         "1",
         "-1",
-      ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":6,},
+      ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varDescription":"Sets the direction the wheel will move. (1 for Clockwise, -1 for Counter-Clockwise)","varFriendlyName":"Clockwise","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

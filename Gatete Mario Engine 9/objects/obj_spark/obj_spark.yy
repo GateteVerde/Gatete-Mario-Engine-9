@@ -33,7 +33,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.5,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.5,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varDescription":"Sets the speed this enemy will move around walls.","varFriendlyName":"Speed","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

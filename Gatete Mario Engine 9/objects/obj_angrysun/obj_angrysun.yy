@@ -33,7 +33,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"xmin","filters":[],"listItems":[],"multiselect":false,"name":"xmin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"xmin","filters":[],"listItems":[],"multiselect":false,"name":"xmin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"When the player reaches the x region given in this object, this enemy will start lunging at Mario.","varFriendlyName":"Activation Region","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

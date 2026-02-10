@@ -31,8 +31,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"varmsg","filters":[],"listItems":[],"multiselect":false,"name":"varmsg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"No message set.\"","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"mute_sound","filters":[],"listItems":[],"multiselect":false,"name":"mute_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"varmsg","filters":[],"listItems":[],"multiselect":false,"name":"varmsg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"No message set.\"","varDescription":"Message to display on screen when the block is hit. (Message must go always in-between \" \", if you wanna print a key into the message please write 'key_to_string(global.key[<enum>])' and that script will replace the key with a text.)","varFriendlyName":"Message","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"mute_sound","filters":[],"listItems":[],"multiselect":false,"name":"mute_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"If set to true, the message block will not play a sound when it is being displayed to the player.","varFriendlyName":"Mute Sound","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

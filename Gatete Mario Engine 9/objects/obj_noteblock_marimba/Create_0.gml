@@ -1,4 +1,4 @@
-/// @description Note Block
+/// @description Marimba Note Block
 
 //Do not animate
 image_speed = 0;

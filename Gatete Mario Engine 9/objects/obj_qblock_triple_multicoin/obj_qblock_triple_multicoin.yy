@@ -34,8 +34,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"mushroom","filters":[],"listItems":[],"multiselect":false,"name":"mushroom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v2","%Name":"semisolid","filters":[],"listItems":[],"multiselect":false,"name":"semisolid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"mushroom","filters":[],"listItems":[],"multiselect":false,"name":"mushroom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"If set to true, the block will sprout out a mushroom if the block has been hit 10 or more times. (Does not apply if the 'scatter' variable is set to true)","varFriendlyName":"Mushroom","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"semisolid","filters":[],"listItems":[],"multiselect":false,"name":"semisolid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varDescription":"When active, this block will turn into a semisolid platform instead of a solid block when hit.","varFriendlyName":"Semisolid","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"tline","filters":[],"listItems":[],"multiselect":false,"name":"tline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varDescription":"Sets the timeline to play when you hit the block","varFriendlyName":"Timeline","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -4,7 +4,7 @@
 audio_play_sound(snd_break, 0, false);
 
 //Make a monty appear
-with (instance_create_depth(x, y, -2, obj_montymole_jump)) type = other.type;
+with (instance_create_depth(x, y, -2, obj_montymole_jump)) charge = other.charge;
 
 //Create shard
 shard_create(spr_shard, x, y+8, -2, 6, 45);

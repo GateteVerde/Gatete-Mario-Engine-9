@@ -32,7 +32,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"sprout[0]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_big","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"sprout[0]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_big","varDescription":"The first item from a cycle of items this block will display. (This block will cycle through all items until a 'noone' is found)","varFriendlyName":"Item","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"sprout[1]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[1]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"sprout[2]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[2]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"sprout[3]","filters":[],"listItems":[],"multiselect":false,"name":"sprout[3]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},

@@ -35,7 +35,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"bone","filters":[],"listItems":[],"multiselect":false,"name":"bone","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"bone","filters":[],"listItems":[],"multiselect":false,"name":"bone","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"If this is enabled, this enemy will throw bones at the player and will ignore ledges.","varFriendlyName":"Throw Bone?","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

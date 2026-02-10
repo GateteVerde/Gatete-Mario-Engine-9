@@ -40,8 +40,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"drop_crystal","filters":[],"listItems":[],"multiselect":false,"name":"drop_crystal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v2","%Name":"type","filters":[],"listItems":[],"multiselect":false,"name":"type","rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"drop_crystal","filters":[],"listItems":[],"multiselect":false,"name":"drop_crystal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"When true, this enemy will spit out a crystal that will open the hawk present in the same room.","varFriendlyName":"Drop Crystal when defeated?","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"type","filters":[],"listItems":[],"multiselect":false,"name":"type","rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the Birdo type. (0 for Normal, 1 for Fire/Egg, 2 for Fire)","varFriendlyName":"Birdo Type","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

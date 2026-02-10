@@ -33,7 +33,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"ice","filters":[],"listItems":[],"multiselect":false,"name":"ice","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"ice","filters":[],"listItems":[],"multiselect":false,"name":"ice","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"When set to true, this enemy will spit out a ice ball instead of a fire ball.","varFriendlyName":"Spit Iceball?","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

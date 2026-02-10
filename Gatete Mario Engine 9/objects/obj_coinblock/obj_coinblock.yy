@@ -36,7 +36,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"coins","filters":[],"listItems":[],"multiselect":false,"name":"coins","rangeEnabled":true,"rangeMax":999.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"coins","filters":[],"listItems":[],"multiselect":false,"name":"coins","rangeEnabled":true,"rangeMax":999.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varDescription":"Number of coins the player will need to unlock a special house in the world map. (Only use one block per world)","varFriendlyName":"# Coins","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

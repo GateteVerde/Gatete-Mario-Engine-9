@@ -7,12 +7,6 @@ if (instance_exists(obj_mario)) {
 	if (obj_mario.yspeed == 0)
 	&& (collision_rectangle(bbox_left, bbox_top-3, bbox_right, bbox_top, obj_mario, 0, 0)) {
 		
-		//Sprout out an item if there's any
-		if (sprout > cs_coin) {
-			
-			event_user(1);
-		}
-		
 		//Move block
 		ready = 1;
 		vspeed = 2;

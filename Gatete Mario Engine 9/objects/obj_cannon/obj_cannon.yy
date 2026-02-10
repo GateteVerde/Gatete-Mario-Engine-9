@@ -40,7 +40,7 @@
         "225",
         "270",
         "315",
-      ],"multiselect":false,"name":"direct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":6,},
+      ],"multiselect":false,"name":"direct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the direction this cannon will fire. (0 is Right, 90 is Up, 180 is Left and 270 is Down)","varFriendlyName":"Cannon Direction","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
