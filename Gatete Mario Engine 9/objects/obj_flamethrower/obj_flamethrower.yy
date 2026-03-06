@@ -37,7 +37,7 @@
         "135",
         "180",
         "270",
-      ],"multiselect":false,"name":"direct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":6,},
+      ],"multiselect":false,"name":"direct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"The direction this flamethrower is aiming at. (0 for Right, 45 for Up-Right, 135 for Up-Left, 180 for Left and 270 for Down)","varFriendlyName":"Flamethrower Direction","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,3 +1,3 @@
-/// @description DO NOT USE
+/// @description Do not draw
 
-exit;
+return;

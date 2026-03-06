@@ -5,6 +5,7 @@ alarm[0] = 120
 
 //Light?
 light = -1;
+
 //Alpha
 image_alpha = 0;
 

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"freeze_render",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"freeze_render",
+  "parent":{
+    "name":"System",
+    "path":"folders/Scripts/System.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

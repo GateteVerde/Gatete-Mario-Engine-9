@@ -13,7 +13,7 @@ function string_make_width() {
 	ret = ""
 	
 	//Iterate through all text
-	for(var i = 0; i < length; i++) {
+	for (var i = 0; i < length; i++) {
 		
 	    word = string_copy(str, 1, string_pos(" ", str) - 1);
 	    str = string_copy(str, string_pos(" ",str) + 1, string_length(str));
