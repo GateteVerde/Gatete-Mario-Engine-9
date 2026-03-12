@@ -35,8 +35,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"limit","filters":[],"listItems":[],"multiselect":false,"name":"limit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ystart - 64","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":true,"rangeMax":1280.0,"rangeMin":80.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"limit","filters":[],"listItems":[],"multiselect":false,"name":"limit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ystart - 64","varDescription":"Sets the Y coordinate where this platform will snap out of the rope.","varFriendlyName":"Rope-Snap Limit","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":true,"rangeMax":1280.0,"rangeMin":80.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varDescription":"Sets the distance (In pixels) of the right platform from the left platform.","varFriendlyName":"Right Platform Distance","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

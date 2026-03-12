@@ -33,7 +33,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"type","filters":[],"listItems":[
         "\"Item 0\"",
-      ],"multiselect":false,"name":"type","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+      ],"multiselect":false,"name":"type","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"The movement this platform will have when step in. (0: All, 1: Up, 2: Left, 3: Right)","varFriendlyName":"Platform Type","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

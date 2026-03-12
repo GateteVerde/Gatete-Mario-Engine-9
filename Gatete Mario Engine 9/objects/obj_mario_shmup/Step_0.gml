@@ -56,8 +56,13 @@ delay--;
 	else if ((input_check(input.right)) || (gamepad_axis_value(0, gp_axislh) > 0.5)) {
 
 		if (!place_meeting(x+3, y, obj_solid))
-		&& ((x < camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5))
-			x += 3;
+		&& ((x < camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 5)) {
+			
+			if (camera_get_view_x(view_camera[0]) == (room_width - global.gw))
+				x += 2;
+			else
+				x += 3;
+		}
 	}
 	else {
 

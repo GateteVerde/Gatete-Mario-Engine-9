@@ -10,7 +10,7 @@ function freeze_render() {
 		
 		//Draw the snapshot
 		if (event_type == ev_gui)
-			draw_sprite_ext(snapshot, 0, 0, 0, 1 * obj_coordinator. size, 1 / obj_coordinator. size, 0, c_white, 1);
+			draw_sprite_ext(snapshot, 0, 0, 0, 1 / obj_coordinator. size, 1 / obj_coordinator. size, 0, c_white, 1);
 		else
 			draw_sprite_ext(snapshot, 0, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), 1 / obj_coordinator. size, 1 / obj_coordinator. size, 0, c_white, 1);
 		

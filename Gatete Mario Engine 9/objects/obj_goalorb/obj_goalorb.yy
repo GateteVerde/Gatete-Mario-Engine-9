@@ -34,13 +34,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"secret_exit","filters":[],"listItems":[],"multiselect":false,"name":"secret_exit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"secret_exit","filters":[],"listItems":[],"multiselect":false,"name":"secret_exit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"If set to true, this object will clear the level and open the alternate exit in the world map.","varFriendlyName":"Open Alternate Path?","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"multiplier","filters":[],"listItems":[
         "50",
         "100",
         "200",
         "500",
-      ],"multiselect":false,"name":"multiplier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":6,},
+      ],"multiselect":false,"name":"multiplier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varDescription":"The score that will be given per second remaining in the timer when the level is cleared","varFriendlyName":"Time Bonus Multiplier","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

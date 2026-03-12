@@ -31,8 +31,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"length","filters":[],"listItems":[],"multiselect":false,"name":"length","rangeEnabled":true,"rangeMax":16.0,"rangeMin":3.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":4.0,"rangeMin":0.5,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"length","filters":[],"listItems":[],"multiselect":false,"name":"length","rangeEnabled":true,"rangeMax":16.0,"rangeMin":3.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varDescription":"Length (In Blocks) this platform will have.","varFriendlyName":"Block Train Length","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":4.0,"rangeMin":0.5,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varDescription":"Speed this Block Train will move at.","varFriendlyName":"Block Train Speed","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

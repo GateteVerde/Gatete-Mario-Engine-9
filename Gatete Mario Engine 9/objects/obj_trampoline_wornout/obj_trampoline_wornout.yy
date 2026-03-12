@@ -33,7 +33,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"max_uses","filters":[],"listItems":[],"multiselect":false,"name":"max_uses","rangeEnabled":true,"rangeMax":60.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"8","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"max_uses","filters":[],"listItems":[],"multiselect":false,"name":"max_uses","rangeEnabled":true,"rangeMax":60.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"8","varDescription":"Maximum times this trampoline can be used before it dissappears","varFriendlyName":"Maximum Uses","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
