@@ -35,8 +35,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"length","filters":[],"listItems":[],"multiselect":false,"name":"length","rangeEnabled":true,"rangeMax":12.0,"rangeMin":2.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"extend","filters":[],"listItems":[],"multiselect":false,"name":"extend","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"length","filters":[],"listItems":[],"multiselect":false,"name":"length","rangeEnabled":true,"rangeMax":12.0,"rangeMin":2.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varDescription":"Length of the platform (In Blocks) when it is fully expanded.","varFriendlyName":"Platform Length","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"extend","filters":[],"listItems":[],"multiselect":false,"name":"extend","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"If set to true, this platform will appear fully expanded when the room is initialized.","varFriendlyName":"Extend on Start?","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

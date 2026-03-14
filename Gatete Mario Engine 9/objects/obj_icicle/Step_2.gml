@@ -75,7 +75,7 @@ else if (vspeed > 0) {
 		//If there's a donut in position
 		if (check)
 		&& ((!check2)
-		|| (((check2.object_index = obj_donut) || (check2.object_index == obj_donut_red) || (check2.object_index == obj_donut_triple) || (check2.object_index == obj_donut_triple_red)) && ((check2.y > y) || ((check2.y = y) && (check2 > id))))) 
+		|| (((check2.object_index = obj_donut) || (check2.object_index == obj_donut_red)) && ((check2.y > y) || ((check2.y = y) && (check2 > id))))) 
 			mario.y = ceil(bbox_top-16);
 	}
 }

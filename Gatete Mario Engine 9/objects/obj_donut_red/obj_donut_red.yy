@@ -8,8 +8,8 @@
   "name":"obj_donut_red",
   "overriddenProperties":[],
   "parent":{
-    "name":"Donut",
-    "path":"folders/Objects/Items/Platforms/SMB3/Donut.yy",
+    "name":"Common",
+    "path":"folders/Objects/Items/Platforms/Common.yy",
   },
   "parentObjectId":{
     "name":"obj_donut",

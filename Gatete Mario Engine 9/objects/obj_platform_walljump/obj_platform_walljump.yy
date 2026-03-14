@@ -28,8 +28,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"width","filters":[],"listItems":[],"multiselect":false,"name":"width","rangeEnabled":true,"rangeMax":10.0,"rangeMin":5.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"height","filters":[],"listItems":[],"multiselect":false,"name":"height","rangeEnabled":true,"rangeMax":10.0,"rangeMin":3.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"6","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"width","filters":[],"listItems":[],"multiselect":false,"name":"width","rangeEnabled":true,"rangeMax":10.0,"rangeMin":5.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varDescription":"Width of the Platform","varFriendlyName":"Platform Width","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"height","filters":[],"listItems":[],"multiselect":false,"name":"height","rangeEnabled":true,"rangeMax":10.0,"rangeMin":3.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"6","varDescription":"Height of the Platform","varFriendlyName":"Platform Height","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

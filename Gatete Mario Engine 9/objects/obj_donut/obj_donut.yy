@@ -13,8 +13,8 @@
   "name":"obj_donut",
   "overriddenProperties":[],
   "parent":{
-    "name":"Donut",
-    "path":"folders/Objects/Items/Platforms/SMB3/Donut.yy",
+    "name":"Common",
+    "path":"folders/Objects/Items/Platforms/Common.yy",
   },
   "parentObjectId":{
     "name":"obj_platformparent",
@@ -33,7 +33,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"ice","filters":[],"listItems":[],"multiselect":false,"name":"ice","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varDescription":"If set to true, this donut will be slippery.","varFriendlyName":"Ice Donut?","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

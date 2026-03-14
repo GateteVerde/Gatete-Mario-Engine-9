@@ -45,8 +45,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Donut",
-    "path":"folders/Sprites/Items/Platforms/SMB3/Donut.yy",
+    "name":"Common",
+    "path":"folders/Sprites/Items/Platforms/Common.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

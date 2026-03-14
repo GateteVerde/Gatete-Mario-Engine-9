@@ -42,7 +42,7 @@ else if (vspeed > 0) {
 		//If there's a donut in position
 		if (check)
 		&& ((!check2)
-		|| (((check2.object_index = obj_donut) || (check2.object_index == obj_donut_red) || (check2.object_index == obj_donut_triple) || (check2.object_index == obj_donut_triple_red)) && ((check2.y > y) || ((check2.y = y) && (check2 > id))))) 
+		|| (((check2.object_index = obj_donut) || (check2.object_index == obj_donut_red)) && ((check2.y > y) || ((check2.y = y) && (check2 > id))))) 
 			mario.y = ceil(bbox_top-16);
 	}
 }
@@ -50,30 +50,19 @@ else if (vspeed > 0) {
 //Destroy if below the view
 if (ready == 2)
 && (bbox_top > (camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]))) {
-
-	//Decrement respawn rate
-	respawn--;
 		
-	//If the respawn rate is lower than 0
-	if (respawn < 1) {
+	//If the donut start position is outside the view, regenerate it.
+	if (xstart < camera_get_view_x(view_camera[0]) - sprite_width)
+	|| (xstart > camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]))
+	|| (ystart < camera_get_view_y(view_camera[0]) - sprite_height)
+	|| (ystart > camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])) {
 		
-		//Increment scale
-		scale += 0.05;
-		if (scale > 1) {
-			
-			//Restart scale
-			scale = 0;
+		//Restart movement and position
+		vspeed = 0;
+		y = ystart;
 				
-			//Restart movement and position
-			vspeed = 0;
-			y = ystart;
-				
-			//Restart state
-			ready = 0;
-				
-			//Restart timer
-			respawn = 180;
-		}
+		//Restart state
+		ready = 0;
 	}
 }
 
