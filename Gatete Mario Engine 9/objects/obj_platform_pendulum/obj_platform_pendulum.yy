@@ -26,8 +26,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":true,"rangeMax":160.0,"rangeMin":48.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.495","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":true,"rangeMax":160.0,"rangeMin":48.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varDescription":"Distance (In pixels) of the platform from the centre.","varFriendlyName":"Platform Distance","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.495","varDescription":"Speed this object will move at.","varFriendlyName":"Platform Speed","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

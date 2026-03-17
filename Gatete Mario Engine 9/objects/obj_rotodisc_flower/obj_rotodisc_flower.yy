@@ -35,7 +35,7 @@
       ],"multiselect":false,"name":"clockwise","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varDescription":"If set to -1, discs will move counter clockwise.","varFriendlyName":"Clockwise?","varType":6,},
     {"$GMObjectProperty":"v2","%Name":"discs","filters":[],"listItems":[],"multiselect":false,"name":"discs","rangeEnabled":true,"rangeMax":4.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varDescription":"Number of Discs this object will generate.","varFriendlyName":"# Discs","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2.5","varDescription":"Speed the discs will move at.","varFriendlyName":"Speed","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"maxradius","filters":[],"listItems":[],"multiselect":false,"name":"maxradius","rangeEnabled":true,"rangeMax":160.0,"rangeMin":80.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varDescription":"The maximum distance the discs will move from the centre before returning","varFriendlyName":"Max Radius","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":true,"rangeMax":160.0,"rangeMin":80.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varDescription":"The maximum distance the discs will move from the centre before returning","varFriendlyName":"Max Radius","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

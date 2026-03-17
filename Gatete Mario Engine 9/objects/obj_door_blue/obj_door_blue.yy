@@ -29,8 +29,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"destination","filters":[],"listItems":[],"multiselect":false,"name":"destination","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_next(room)","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"exit_id","filters":[],"listItems":[],"multiselect":false,"name":"exit_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":-1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"destination","filters":[],"listItems":[],"multiselect":false,"name":"destination","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_next(room)","varDescription":"Sets the room this door will take Mario at. (Set to noone to take Mario to another coordinate in the same room)","varFriendlyName":"Destination Room","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"exit_id","filters":[],"listItems":[],"multiselect":false,"name":"exit_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"Sets the warp node this door will spawn Mario at.","varFriendlyName":"Target Node","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -33,8 +33,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"sprout","filters":[],"listItems":[],"multiselect":false,"name":"sprout","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"sc_type","filters":[],"listItems":[],"multiselect":false,"name":"sc_type","rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"sprout","filters":[],"listItems":[],"multiselect":false,"name":"sprout","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the item inside the bubble. (0 for Mushroom, 1 for 1-UP, 2 for Poison and 3 for Star Coin)","varFriendlyName":"Item","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"sc_type","filters":[],"listItems":[],"multiselect":false,"name":"sc_type","rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the position of the collected Star Coin. (0 for Left, 1 for Middle and 2 for Right)","varFriendlyName":"Star Coin Type","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

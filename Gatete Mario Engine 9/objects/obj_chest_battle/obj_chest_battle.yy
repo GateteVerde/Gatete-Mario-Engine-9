@@ -30,8 +30,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"x2","filters":[],"listItems":[],"multiselect":false,"name":"x2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"y2","filters":[],"listItems":[],"multiselect":false,"name":"y2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"x2","filters":[],"listItems":[],"multiselect":false,"name":"x2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the right X spawn coordinate of this chest if Mario is at the left half of the battle arena.","varFriendlyName":"Right X Spawn Coordinate","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"y2","filters":[],"listItems":[],"multiselect":false,"name":"y2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the right Y spawn coordinate of this chest if Mario is at the left half of the battle arena.","varFriendlyName":"Right Y Spawn Coordinate","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -28,14 +28,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"myid","filters":[],"listItems":[],"multiselect":false,"name":"myid","rangeEnabled":true,"rangeMax":99.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"myid","filters":[],"listItems":[],"multiselect":false,"name":"myid","rangeEnabled":true,"rangeMax":99.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"Sets where Mario will spawn from","varFriendlyName":"Node ID","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"cannon","filters":[],"listItems":[
         "\"No\"",
         "\"Diagonal Left\"",
         "\"Diagonal Right\"",
-      ],"multiselect":false,"name":"cannon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"No\"","varType":6,},
-    {"$GMObjectProperty":"v2","%Name":"scroll_x","filters":[],"listItems":[],"multiselect":false,"name":"scroll_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"scroll_y","filters":[],"listItems":[],"multiselect":false,"name":"scroll_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
+      ],"multiselect":false,"name":"cannon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"No\"","varDescription":"If the target is a pipe, Mario will be shot from this node","varFriendlyName":"Pipe Cannon?","varType":6,},
+    {"$GMObjectProperty":"v2","%Name":"scroll_x","filters":[],"listItems":[],"multiselect":false,"name":"scroll_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"If the value is greater than -1, the autoscroll will snap into the X value given into this object.","varFriendlyName":"Autoscroll X Coordinate","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"scroll_y","filters":[],"listItems":[],"multiselect":false,"name":"scroll_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"If the value is greater than -1, the autoscroll will snap into the Y value given into this object.","varFriendlyName":"Autoscroll Y Coordinate","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
