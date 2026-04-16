@@ -50,6 +50,7 @@
         "\"Before Boss\"",
         "\"Bonus\"",
         "\"Boss\"",
+        "\"Desert\"",
         "\"Fortress\"",
         "\"Ghost\"",
         "\"Overworld\"",
