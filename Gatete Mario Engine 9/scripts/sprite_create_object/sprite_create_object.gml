@@ -87,6 +87,10 @@ function sprite_create_object() {
 		case (spr_bubbleflower):
 		case (spr_bubbleflower_cb): 
 			return instance_create_depth(argument[1], argument[2], argument[3], obj_bubbleflower);
+			
+		//Super Flower Pot
+		case (spr_flowerpot):
+			return instance_create_depth(argument[1], argument[2], argument[3], obj_flowerpot);
 		
 		//Golden Flower
 		case (spr_goldenflower):

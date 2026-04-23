@@ -349,6 +349,24 @@ throw_projectile = function() {
 	                xspeed = other.xspeed+(2*sign(other.xscale));
 	        }
 			
+			//Flower
+			else if (global.powerup == cs_flower) 
+			&& (instance_number(obj_flower) < 2) {
+				
+				//Play 'Fireball' sound
+				audio_play_sound(snd_fireball, 0, false);
+				
+				//Set firing animation time
+				firing = 1;
+				
+				//Create Bubble
+	            with (instance_create_depth(x + 8 * sign(xscale), y + 8, -2, obj_flower)) {
+					
+	                xspeed = 2 * sign(other.xscale);
+					image_xscale = 0.25 * sign(other.xscale)
+				}
+			}
+			
 			//Gold Fireball
 	        else if (global.powerup == cs_gold)
 	        && (instance_number(obj_fireball_gold) < 2) {
@@ -489,6 +507,23 @@ throw_projectile_spin = function() {
 				//Create Beetroot
 	            with (instance_create_depth(x, y, -2, obj_beet))
 	                xspeed = 1.25*sign(other.dir);
+			}
+		}
+		
+		//Flower
+		else if (global.powerup == cs_flower) {
+				
+			//Play 'Fireball' sound
+			audio_play_sound(snd_fireball, 0, false);
+				
+			//Set firing animation time
+			firing = 1;
+				
+			//Create Flower
+	        with (instance_create_depth(x + 8 * sign(dir), y + 8, -2, obj_flower)) {
+					
+	            xspeed = 2 * sign(other.dir);
+				image_xscale = 0.25 * sign(other.dir);
 			}
 		}
 		

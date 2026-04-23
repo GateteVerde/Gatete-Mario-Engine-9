@@ -7,6 +7,12 @@ if (ready < 2) {
 	if (sprout[numb] == cs_bomb)
 	|| (sprout[numb] == cs_propeller)
 	    draw_sprite_part(macro_get_sprite(sprout[numb]), 0, 0, 5, 16, 21, round(x), round(y));
+		
+	//If the item shown is a Super Flower Pot
+	else if (sprout[numb] == cs_flower)
+		draw_sprite_part(macro_get_sprite(sprout[numb]), 0, 0, 4, 16, 20, round(x), round(y));
+	
+	//Otherwise
 	else {
 
 		//If the item shown is a Raccoon Leaf. Draw the _sp variant

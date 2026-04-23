@@ -171,10 +171,11 @@ dir = 1;
 wallkick = 0;
 wallready = 0;
 
-//Carrot / Bee powerup flight variables
+//Carrot / Bee / Flower powerup flight variables
 beefly = 0;
 floatnow = 0;
 isfloating = 0;
+flutter = 0;
 
 //Frog / Penguin powerup swimming variables
 swimtype = 0;

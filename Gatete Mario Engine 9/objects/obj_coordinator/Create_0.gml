@@ -2,7 +2,7 @@
 
 //Set game caption (Always between brackets)
 #macro WINDOW_CAPTION	"Gatete Mario Engine 9"
-#macro GAME_VERSION		"1.3"
+#macro GAME_VERSION		"1.4"
 window_set_caption(WINDOW_CAPTION);
 
 //Initialize global variables
@@ -179,11 +179,12 @@ init_shockwave();
 	#macro cs_lui 25
 	#macro cs_wind 26
 	#macro cs_bubble 27
-	#macro cs_tiny (cs_bubble + 1)
-	#macro cs_gold (cs_bubble + 2)
-	#macro cs_starman (cs_bubble + 3)
-	#macro cs_pwing (cs_bubble + 4)
-	#macro cs_mega (cs_bubble + 5)
+	#macro cs_flower 28
+	#macro cs_tiny (cs_flower + 1)
+	#macro cs_gold (cs_flower + 2)
+	#macro cs_starman (cs_flower + 3)
+	#macro cs_pwing (cs_flower + 4)
+	#macro cs_mega (cs_flower + 5)
 
 #endregion
 

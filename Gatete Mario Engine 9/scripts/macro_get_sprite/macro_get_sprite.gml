@@ -31,6 +31,7 @@ function macro_get_sprite() {
 		case (cs_lui): return spr_jumpinglui;
 		case (cs_wind): return spr_windflower;
 		case (cs_bubble): return (obj_coordinator.colourblind == 1) ? spr_bubbleflower_cb : spr_bubbleflower;
+		case (cs_flower): return spr_flowerpot;
 		case (cs_gold): return (obj_coordinator.colourblind == 1) ? spr_goldenflower_cb : spr_goldenflower;
 		case (cs_mega): return spr_megashroom;
 		case (cs_tiny): return spr_tinyshroom;
