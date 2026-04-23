@@ -89,6 +89,10 @@
 	//Allow net smacking
 	if (netsmack > 0)
 		netsmack--;
+		
+	//Allow flutter
+	if (flutter_delay > 0)
+		flutter_delay--;
 	
 #endregion
 

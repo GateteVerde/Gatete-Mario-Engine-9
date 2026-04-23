@@ -176,6 +176,7 @@ beefly = 0;
 floatnow = 0;
 isfloating = 0;
 flutter = 0;
+flutter_delay = 0;
 
 //Frog / Penguin powerup swimming variables
 swimtype = 0;

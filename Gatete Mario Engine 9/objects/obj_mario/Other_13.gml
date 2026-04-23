@@ -217,6 +217,9 @@ if (wallkick == 1) {
         
         //Allow variable jump
         jumping = 1;
+		
+		//Delay flutter
+		flutter_delay = 20;
         
         //Allow wallkick
 		timer(wallkick_allow, 20, false);

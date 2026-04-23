@@ -144,8 +144,8 @@ if (!flying)
 //Otherwise, if the player is flying.
 else {
 
-    //If the player is flying
-    if (flyfix == 1) {
+    //If the player is flying or flutter jumping
+    if ((flyfix == 1) || (flutter == 1)) {
     
         xspeedmax = 2;
         if (xspeed > 2)
@@ -1226,7 +1226,8 @@ if (state == playerstate.jump)
     
     //Handles carrot and bee Mario's floating
     else if ((global.powerup == cs_carrot) 
-    || ((global.powerup == cs_bee) && (beefly < 128)))
+    || ((global.powerup == cs_bee) && (beefly < 128))
+	|| ((global.powerup == cs_flower) && (flutter == 2)))
     && (!crouch)
     && (wallkick < 1)
 	&& (groundpound == 0)
@@ -1296,7 +1297,8 @@ if ((isfloating) && (!floatnow)) {
     floatnow = true;
 
     //Loop the sound
-    audio_play_sound(snd_spin, 0, 1);
+	if (global.powerup != cs_flower) 
+		audio_play_sound(snd_spin, 0, 1);
 }
 
 //If carrot or bee Mario is not floating, but the sound is playing
@@ -1385,6 +1387,70 @@ if (global.powerup == cs_wind) {
 	}
 }
 
+//Flower Mario Flutter
+if (global.powerup == cs_flower) {
+
+	//If Yoshi can flutter and it is moving down
+	if (input_check_pressed(input.action_0))
+	&& (flutter_delay == 0)
+	&& (flutter == 0)
+	&& (yspeed > 1.5)
+	&& (jumping == 2)
+	&& (wallkick == 0)
+	&& (global.mount == 0) {
+
+	    //Play 'Rise' sound
+	    audio_play_sound(snd_rise, 0, false);
+         
+	    //Allow fluttering   
+	    flutter = 1;
+	}
+            
+	//If Yoshi is fluttering
+	else if (flutter = 1)  {
+				
+		//If 'Action 0' is pressed
+		if (input_check(input.action_0)) {
+				
+		    //Increment flutter time
+		    fluttertime += 2;
+            
+		    //If flutter time is lower than 120
+		    if (fluttertime < 120) {
+            
+		        //Make Mario ascend
+		        with (obj_mario) {
+                
+		            //Disable gravity
+		            yadd = 0;
+                
+		            //Increment vertical movement
+		            if (yspeed > 0)
+		                yspeed -= 0.15;
+		            else {
+                    
+		                yspeed -= 0.05;
+		                if (yspeed < -1.5)
+		                    yspeed = -1.5;
+		            }
+		        }
+		    }
+		    else
+		        flutter = 2;
+		}
+				
+		//Otherwise, force end flutter
+		else if (obj_mario.yspeed < -1.6) 
+		|| (input_check_released(input.action_0))
+		    flutter = 2;				
+	}
+    
+	//Force end flutter if not jumping
+	if (flutter == 1)
+	&& (obj_mario.state != playerstate.jump)
+		flutter = 2;
+}
+
 #region ALLOW TWIRL
 	
 	//If Mario does have any of these powerups, exclude him from doing a twirl
@@ -1398,6 +1464,7 @@ if (global.powerup == cs_wind) {
 	|| (global.powerup == cs_fraccoon)
 	|| (global.powerup == cs_iraccoon)
 	|| (global.powerup == cs_wind)
+	|| (global.powerup == cs_flower)
 	|| (global.powerup == cs_mega)
 		allow_twirl = 0;
 	else
@@ -1410,6 +1477,7 @@ if (input_check_pressed(input.action_0))
 && ((input_check(input.up)) || (gamepad_axis_value(0, gp_axislv) < -0.5))
 && (global.special_moves == true)
 && (allow_twirl == true)
+&& (flutter < 2)
 && (twirl == 0)
 && (crouch == 0)
 && (holding == 0)

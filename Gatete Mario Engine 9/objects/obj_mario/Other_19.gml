@@ -353,11 +353,11 @@ throw_projectile = function() {
 			else if (global.powerup == cs_flower) 
 			&& (instance_number(obj_flower) < 2) {
 				
-				//Play 'Fireball' sound
-				audio_play_sound(snd_fireball, 0, false);
+				//Play 'Throw' sound
+				audio_play_sound(snd_throw, 0, false);
 				
 				//Set firing animation time
-				firing = 1;
+				firing = 9;
 				
 				//Create Bubble
 	            with (instance_create_depth(x + 8 * sign(xscale), y + 8, -2, obj_flower)) {
@@ -513,8 +513,8 @@ throw_projectile_spin = function() {
 		//Flower
 		else if (global.powerup == cs_flower) {
 				
-			//Play 'Fireball' sound
-			audio_play_sound(snd_fireball, 0, false);
+			//Play 'Throw' sound
+			audio_play_sound(snd_throw, 0, false);
 				
 			//Set firing animation time
 			firing = 1;

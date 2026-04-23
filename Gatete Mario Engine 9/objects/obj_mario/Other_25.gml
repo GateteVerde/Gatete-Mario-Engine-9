@@ -92,6 +92,10 @@ squirrelpropel = 0;
 //Reset double jump variable
 doublejump = 0;
 
+//Reset flutter time
+flutter = 0;
+fluttertime = 0;
+
 //Reset combo variable if not sliding
 if (!sliding) 
 	hitcombo = 0;

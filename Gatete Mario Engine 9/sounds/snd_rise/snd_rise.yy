@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.486259,
+  "duration":0.4862585,
   "exportDir":"",
   "name":"snd_rise",
   "parent":{

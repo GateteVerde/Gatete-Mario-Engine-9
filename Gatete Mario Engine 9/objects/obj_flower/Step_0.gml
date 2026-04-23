@@ -10,7 +10,7 @@ if (freeze == false) {
 #region SCALE / MOTION
 
 	//Hereby scale
-	image_xscale = scale;
+	image_xscale = scale * sign(xspeed);
 	image_yscale = scale;
 
 	//Increase scale

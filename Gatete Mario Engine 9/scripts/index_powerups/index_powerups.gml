@@ -3,7 +3,7 @@
 function index_powerups() {
 
 	//How many power-ups to create (the "i" created will match the enum through powerup_get_name)
-	var powerup_count = 33;
+	var powerup_count = 34;
 	
 	//Temporary variable
 	var resource =		noone;
@@ -113,7 +113,8 @@ function index_powerups() {
 		global.climb_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_climb");
 		global.climb2_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_climb2");
 		global.duck_sprite[i] =			asset_get_index(string(resource) + string(powerup_get_name(i)) + "_duck");
-		global.float_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_float");	
+		global.float_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_float");
+		global.flutter_sprite[i] =		asset_get_index(string(resource) + string(powerup_get_name(i)) + "_flutter");
 		global.goal_sprite[i] =			asset_get_index(string(resource) + string(powerup_get_name(i)) + "_goal");
 		global.hold_sprite[i] =			asset_get_index(string(resource) + string(powerup_get_name(i)) + "_hold");
 		global.hold_jump_sprite[i] =	asset_get_index(string(resource) + string(powerup_get_name(i)) + "_hold_jump");

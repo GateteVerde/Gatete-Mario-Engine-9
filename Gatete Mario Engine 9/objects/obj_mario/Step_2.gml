@@ -1,4 +1,4 @@
-/// @description Mario's animation!
+/// @description Handle Mario's Animation
 
 //Do not animate if frozen
 if (freeze == true) { image_speed = 0; }
@@ -533,6 +533,70 @@ else {
 								            else
 								                image_speed = 0.15;
 										}
+										
+										//If Mario does have the flower powerup
+	                                    else if (global.powerup == cs_flower) {
+                                    
+	                                        //If Mario is wallclimbing
+	                                        if (wallkick == 1) {
+                                        
+	                                            //Set the sprite
+	                                            sprite_index = global.walljump_sprite[global.powerup];
+                                            
+	                                            //Do not animate
+	                                            image_speed = 0;
+	                                            image_index = 0;
+	                                        }
+                                        
+	                                        //Otherwise, if it's not
+	                                        else {
+												
+												//If Mario is fluttering
+												if (flutter == 1) {
+												
+													//Set the sprite
+													sprite_index = global.flutter_sprite[global.powerup];
+													
+													//Animate
+													image_speed = 0.3;
+												}
+												
+												//Otherwise
+												else {
+												
+													//If Mario is moving up
+			                                        if (yspeed < 0)
+			                                            image_index = 0;
+													
+			                                        else {
+                                            
+			                                            if (floatnow > 0)
+			                                                image_speed = 0.3;
+			                                            else {
+                                                
+			                                                if (run)
+			                                                    image_index = 0;
+			                                                else
+			                                                    image_index = 1;
+			                                            }
+			                                        }
+													
+													//If Mario is not floating
+													if (floatnow > 0)
+														sprite_index = global.float_sprite[global.powerup];
+														
+													//Otherwise
+													else {
+                                            
+				                                        //If Mario is running
+				                                        if (!run) 
+				                                            sprite_index = global.jump_sprite[global.powerup];
+				                                        else
+															sprite_index = global.runjump_sprite[global.powerup];
+													}
+												}
+	                                        }
+	                                    }
                                     
 	                                    //Otherwise, if Mario does not have any of the above powerups
 	                                    else {

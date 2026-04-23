@@ -10,7 +10,7 @@ if (ready < 2) {
 		
 	//If the item shown is a Super Flower Pot
 	else if (sprout[numb] == cs_flower)
-		draw_sprite_part(macro_get_sprite(sprout[numb]), 0, 0, 4, 16, 20, round(x), round(y));
+		draw_sprite_part(macro_get_sprite(sprout[numb]), 0, 0, 2, 16, 18, round(x), round(y));
 	
 	//Otherwise
 	else {
