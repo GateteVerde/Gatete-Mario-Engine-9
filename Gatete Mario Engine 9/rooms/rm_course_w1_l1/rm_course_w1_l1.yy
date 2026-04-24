@@ -183,8 +183,6 @@
     {"name":"inst_9AFFA81","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_65127393","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
     {"name":"inst_4881CDF2","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
-    {"name":"inst_28776E6C","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
-    {"name":"inst_3858578","path":"rooms/rm_course_w1_l1/rm_course_w1_l1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -399,8 +397,6 @@
         {"$GMRInstance":"v4","%Name":"inst_9AFFA81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9AFFA81","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":3.0,"x":192.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_65127393","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65127393","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":4.0,"x":336.0,"y":336.0,},
         {"$GMRInstance":"v4","%Name":"inst_4881CDF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4881CDF2","objectId":{"name":"obj_piranhaplant_large","path":"objects/obj_piranhaplant_large/obj_piranhaplant_large.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":352.0,},
-        {"$GMRInstance":"v4","%Name":"inst_28776E6C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28776E6C","objectId":{"name":"obj_flowerpot","path":"objects/obj_flowerpot/obj_flowerpot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":384.0,},
-        {"$GMRInstance":"v4","%Name":"inst_3858578","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3858578","objectId":{"name":"obj_flowerpot","path":"objects/obj_flowerpot/obj_flowerpot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":384.0,},
       ],"layers":[],"name":"Main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tileset","depth":100,"effectEnabled":true,"effectType":"none","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tileset","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":27,"SerialiseWidth":196,"TileCompressedData":[
           -20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,-2147483648,-20,0,-176,
