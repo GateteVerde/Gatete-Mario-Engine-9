@@ -8,7 +8,7 @@ if (ready == 0)
 && (outside_view() == false) {
 	
 	//If the block cannot move back and forth
-	if (backnforth == false) {
+	if (movement_type == false) {
 		
 		//Allow moving
 		ready = 2;

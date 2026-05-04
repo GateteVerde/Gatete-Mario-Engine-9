@@ -5,7 +5,7 @@ if ((freeze == false) && (ready > 0)) {
 
 	//If the object is moving back and forth
 	if (ready == 1)
-	&& (backnforth == true) {
+	&& (movement_type == true) {
 
 	    //If the block is moving to the right.
 	    if (dir == 1) {

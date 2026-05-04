@@ -35,7 +35,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"sprout","filters":[],"listItems":[],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_coin","varDescription":"Sets the item this block when sprout out when hit, type \"cs_\" to see a full list of the items.","varFriendlyName":"Item","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"backnforth","filters":[],"listItems":[],"multiselect":false,"name":"backnforth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"If true, the block will move back and forth when inside the screen boundaries instead of moving in a single direction.","varFriendlyName":"Move Back and Forth","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"movement_type","filters":[],"listItems":[],"multiselect":false,"name":"movement_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varDescription":"If true, the block will move back and forth when inside the screen boundaries instead of moving in a single direction.","varFriendlyName":"Move Back and Forth","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
