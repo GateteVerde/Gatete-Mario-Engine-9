@@ -7,22 +7,22 @@ if (instance_exists(obj_mario))
     //Where the tongue should be drawn
     if (obj_yoshi.sprite_index == spr_yoshi_lick) {
     
-        tongue1x = obj_yoshi.x-3+19*obj_mario.xscale;
-        tongue2x = t2*obj_mario.xscale+tongue1x;
-        tongue3x = t3*obj_mario.xscale+tongue1x;
-        tongue4x = t4*obj_mario.xscale+tongue1x;
+        tongue1x = obj_yoshi.x - 3 + 19 * obj_mario.xscale;
+        tongue2x = t2 * obj_mario.xscale+tongue1x;
+        tongue3x = t3 * obj_mario.xscale+tongue1x;
+        tongue4x = t4 * obj_mario.xscale+tongue1x;
     }
     else {
     
-        tongue1x = obj_yoshi.x-3+13*obj_mario.xscale;
+        tongue1x = obj_yoshi.x - 3 +13 * obj_mario.xscale;
         tongue2x = t2*obj_mario.xscale+tongue1x;
         tongue3x = t3*obj_mario.xscale+tongue1x;
         tongue4x = t4*obj_mario.xscale+tongue1x;     
     }
 
     //Actual tongue location
-    x = t5 * obj_mario.xscale + tongue1x;
-	y = obj_yoshi.locked == 2 ? ceil(obj_yoshi.y + 4) : ceil(obj_yoshi.y - 7);
+    x = round(t5 * obj_mario.xscale + tongue1x);
+	y = obj_yoshi.locked == 2 ? obj_yoshi.y + 4 : obj_yoshi.y - 7;
 
     //If Yoshi is moving his tongue out
     if (ready == 0) {

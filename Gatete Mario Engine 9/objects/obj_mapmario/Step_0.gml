@@ -89,6 +89,10 @@ if (status == mapstate.idle)
 	                direct = 90;
 	                status = mapstate.walk;
 	            }
+				
+				//Otherwise, play 'Bump' sound
+				else
+					audio_play_sound(snd_bump, 0, false);
 	        }
             
 	        //Moving downwards
@@ -104,6 +108,11 @@ if (status == mapstate.idle)
 	                direct = 270;
 	                status = mapstate.walk;
 	            }
+				
+				
+				//Otherwise, play 'Bump' sound
+				else
+					audio_play_sound(snd_bump, 0, false);
 	        }
             
 	        //Moving to the left
@@ -119,6 +128,10 @@ if (status == mapstate.idle)
 	                direct = 180;
 	                status = mapstate.walk;
 	            }
+								
+				//Otherwise, play 'Bump' sound
+				else
+					audio_play_sound(snd_bump, 0, false);
 	        }
             
 	        //Moving to the right
@@ -134,6 +147,10 @@ if (status == mapstate.idle)
 	                direct = 0;
 	                status = mapstate.walk;
 	            }
+				
+				//Otherwise, play 'Bump' sound
+				else
+					audio_play_sound(snd_bump, 0, false);
 	        }
             
 	        //If there's a panel and this panel is available        

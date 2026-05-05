@@ -517,7 +517,10 @@
     {"$GMFolder":"","%Name":"Level Events","folderPath":"folders/Time Lines/Level Events.yy","name":"Level Events","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Course 2 (1-2)","folderPath":"folders/Time Lines/Level Events/Course 2 (1-2).yy","name":"Course 2 (1-2)","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_heathaze-1.0.0","name":"io.gamemaker.gm_filter_heathaze-1.0.0","path":"io.gamemaker.gm_filter_heathaze-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_ripples-1.0.0","name":"io.gamemaker.gm_filter_ripples-1.0.0","path":"io.gamemaker.gm_filter_ripples-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"GME9Music.ini","CopyToMask":3035426170322551022,"filePath":"datafiles","name":"GME9Music.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"airship.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"airship.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

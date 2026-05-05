@@ -16,8 +16,8 @@
 		}
 
 	    //Snap into Mario
-	    x = round(obj_mario.x);
-	    y = round(obj_mario.y);
+	    x = obj_mario.x;
+	    y = obj_mario.y;
     
 	    //Force Mario to be invisible
 	    obj_mario.visible = 0;
