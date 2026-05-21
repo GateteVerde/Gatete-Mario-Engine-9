@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.330156,
+  "duration":2.3301587,
   "exportDir":"",
   "name":"snd_minigame",
   "parent":{

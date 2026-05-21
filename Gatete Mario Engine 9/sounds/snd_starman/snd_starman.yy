@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.011563,
+  "duration":3.0115647,
   "exportDir":"",
   "name":"snd_starman",
   "parent":{

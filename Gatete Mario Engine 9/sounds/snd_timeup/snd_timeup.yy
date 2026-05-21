@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.365625,
+  "duration":3.3656464,
   "exportDir":"",
   "name":"snd_timeup",
   "parent":{

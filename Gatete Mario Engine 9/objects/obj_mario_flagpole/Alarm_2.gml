@@ -34,4 +34,4 @@ if (!audio_is_playing(snd_flagsong)) {
     }
 }
 else
-    alarm[2] = 1;
+    alarm[2] = 60;

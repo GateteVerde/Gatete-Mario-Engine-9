@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.728125,
+  "duration":4.7281404,
   "exportDir":"",
   "name":"snd_hawksong_clear",
   "parent":{
