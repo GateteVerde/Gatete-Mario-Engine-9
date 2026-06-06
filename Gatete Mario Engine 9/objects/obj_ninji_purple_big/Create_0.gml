@@ -9,6 +9,9 @@ vulnerable = 1;
 //How vulnerable is this enemy to Mario?
 stomp = 3;
 
+//How edible is this enemy to Yoshi?
+edible = 2;
+
 //Whether the enemy is jumping
 jumping = 0;
 

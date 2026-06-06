@@ -8,3 +8,7 @@ vulnerable = 1;
 
 //Pal
 pal = 0;
+
+//Do not blow up
+alarm[0] = -1;
+alarm[1] = -1;
