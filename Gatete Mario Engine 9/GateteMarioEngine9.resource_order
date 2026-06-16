@@ -1582,6 +1582,7 @@
     {"name":"snd_transform","order":63,"path":"sounds/snd_transform/snd_transform.yy",},
     {"name":"snd_twirl","order":29,"path":"sounds/snd_twirl/snd_twirl.yy",},
     {"name":"snd_warp","order":30,"path":"sounds/snd_warp/snd_warp.yy",},
+    {"name":"snd_wasaeda","order":6,"path":"sounds/snd_wasaeda/snd_wasaeda.yy",},
     {"name":"snd_whip","order":31,"path":"sounds/snd_whip/snd_whip.yy",},
     {"name":"snd_whistle","order":64,"path":"sounds/snd_whistle/snd_whistle.yy",},
     {"name":"snd_wind","order":23,"path":"sounds/snd_wind/snd_wind.yy",},

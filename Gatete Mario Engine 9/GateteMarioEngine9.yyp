@@ -1942,6 +1942,7 @@
     {"id":{"name":"snd_transform","path":"sounds/snd_transform/snd_transform.yy",},},
     {"id":{"name":"snd_twirl","path":"sounds/snd_twirl/snd_twirl.yy",},},
     {"id":{"name":"snd_warp","path":"sounds/snd_warp/snd_warp.yy",},},
+    {"id":{"name":"snd_wasaeda","path":"sounds/snd_wasaeda/snd_wasaeda.yy",},},
     {"id":{"name":"snd_whip","path":"sounds/snd_whip/snd_whip.yy",},},
     {"id":{"name":"snd_whistle","path":"sounds/snd_whistle/snd_whistle.yy",},},
     {"id":{"name":"snd_wind","path":"sounds/snd_wind/snd_wind.yy",},},

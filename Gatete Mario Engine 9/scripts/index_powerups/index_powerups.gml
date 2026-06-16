@@ -17,14 +17,14 @@ function index_powerups() {
 			
 			resource		= "spr_mario_";
 			sfx_resource	= "snd_mario_";
-		}break;
+		} break;
 			
 		//Luigi
 		case (1): {
 			
 			resource		= "spr_luigi_";
 			sfx_resource	= "snd_luigi_";
-		}break;
+		} break;
 	}
 	
 	#region VOICE
