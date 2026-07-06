@@ -91,8 +91,15 @@ if (status == mapstate.idle)
 	            }
 				
 				//Otherwise, play 'Bump' sound
-				else
-					audio_play_sound(snd_bump, 0, false);
+				else {
+					
+					if (noisy == 0) {
+						
+						audio_play_sound(snd_bump, 0, false);
+						noisy = 1;
+						alarm[5] = 8;
+					}
+				}
 	        }
             
 	        //Moving downwards
@@ -108,11 +115,17 @@ if (status == mapstate.idle)
 	                direct = 270;
 	                status = mapstate.walk;
 	            }
-				
-				
+								
 				//Otherwise, play 'Bump' sound
-				else
-					audio_play_sound(snd_bump, 0, false);
+				else {
+					
+					if (noisy == 0) {
+						
+						audio_play_sound(snd_bump, 0, false);
+						noisy = 1;
+						alarm[5] = 8;
+					}
+				}
 	        }
             
 	        //Moving to the left
@@ -128,10 +141,17 @@ if (status == mapstate.idle)
 	                direct = 180;
 	                status = mapstate.walk;
 	            }
-								
+				
 				//Otherwise, play 'Bump' sound
-				else
-					audio_play_sound(snd_bump, 0, false);
+				else {
+					
+					if (noisy == 0) {
+						
+						audio_play_sound(snd_bump, 0, false);
+						noisy = 1;
+						alarm[5] = 8;
+					}
+				}
 	        }
             
 	        //Moving to the right
@@ -149,8 +169,15 @@ if (status == mapstate.idle)
 	            }
 				
 				//Otherwise, play 'Bump' sound
-				else
-					audio_play_sound(snd_bump, 0, false);
+				else {
+					
+					if (noisy == 0) {
+						
+						audio_play_sound(snd_bump, 0, false);
+						noisy = 1;
+						alarm[5] = 8;
+					}
+				}
 	        }
             
 	        //If there's a panel and this panel is available        

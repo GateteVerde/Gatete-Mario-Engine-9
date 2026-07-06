@@ -51,6 +51,9 @@ step = 0;
 //Direction
 direct = 270;
 
+//Noisy
+noisy = 0;
+
 //Whether the player is climbing
 is_climbing = 0;
 
