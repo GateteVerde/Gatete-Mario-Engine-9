@@ -40,10 +40,37 @@ if (state == 0) {
 			with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
 				value = 8000;
 				        
-		//1-UP
-		else if (obj_mario.hitcombo > 6)
-			with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-				value = -1;
+		//1-UP+
+		else if (obj_mario.hitcombo > 6) {
+			
+			//If Mario has done 7 consecutive stomps, grant 1 extra life
+			if (obj_mario.hitcombo == 7) {
+				
+				with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+					value = -1;
+			}
+			
+			//Otherwise, if Mario has done 8 consecutive stomps, grant 2 extra lives
+			else if (obj_mario.hitcombo == 8) {
+			
+				with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+					value = -2;
+			}
+			
+			//Otherwise, if Mario has done 9 consecutive stomps, grant 2 extra lives
+			else if (obj_mario.hitcombo == 9) {
+			
+				with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+					value = -3;
+			}
+			
+			//Otherwise, if Mario has done 10 or more consecutive stomps, grant 2 extra lives
+			else if (obj_mario.hitcombo >= 10) {
+			
+				with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+					value = -4;
+			}
+		}
 	#endregion
                     
     //Increment combo

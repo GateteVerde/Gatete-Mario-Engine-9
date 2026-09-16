@@ -3,7 +3,7 @@
 switch (value) {
 	
 	//+ 50 Second
-	case (-6): {
+	case (-7): {
 		
 		//Set sprite
 		sprite_index = spr_score_time_50;
@@ -15,7 +15,7 @@ switch (value) {
 	} break;
 	
 	//+ 20 Second
-	case (-5): {
+	case (-6): {
 		
 		//Set sprite
 		sprite_index = spr_score_time_20;
@@ -27,7 +27,7 @@ switch (value) {
 	} break;
 	
 	//+ 10 Second
-	case (-4): {
+	case (-5): {
 		
 		//Set sprite
 		sprite_index = spr_score_time_10;
@@ -36,6 +36,41 @@ switch (value) {
 		if (obj_levelcontrol.leveltime > 0)
 		&& (global.timer > 0)
 			global.timer += 10;
+	} break;
+	
+	//5-UP
+	case (-4): {
+	
+		//Play 'Lucky Me' sound
+		play_voiceline(global.voiceline_luckyme, 0, false);
+		
+		//Set up the sprite
+		sprite_index = spr_score_5up;
+		
+		//If the game is still giving extra lives
+		if (obj_coordinator.addlives == 0) {
+			
+			//Play '1-UP' sound
+			audio_play_sound(snd_1up, 0, false);
+		
+			//Add extra lives
+			lives++;
+			
+			//With the coordinator
+			with (obj_coordinator) {
+			
+				addlives += 4;
+				alarm[2] = 30;
+			}
+		}
+		else {
+			
+			//Set up the sprite
+			sprite_index = spr_score_5up;
+			
+			//Increment additional lives
+			obj_coordinator.addlives += 5;
+		}		
 	} break;
 
 	//3-UP

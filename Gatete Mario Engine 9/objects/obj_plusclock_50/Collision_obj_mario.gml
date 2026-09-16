@@ -18,7 +18,7 @@ audio_play_sound(snd_clock, 0, false);
 	}
 	
 	//Create score
-	with (instance_create_depth(x, y + 8, -6, obj_score)) value = -6;
+	with (instance_create_depth(x, y + 8, -6, obj_score)) value = -7;
 
 	//Create ring and needle
 	instance_create_depth(x + 8, y + 8, -2, obj_needle);

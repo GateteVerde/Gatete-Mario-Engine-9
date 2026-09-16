@@ -2,7 +2,7 @@
 
 //Set game caption (Always between brackets)
 #macro WINDOW_CAPTION	"Gatete Mario Engine 9"
-#macro GAME_VERSION		"1.3.4"
+#macro GAME_VERSION		"1.5"
 window_set_caption(WINDOW_CAPTION);
 
 //Initialize global variables
@@ -41,6 +41,16 @@ init_shockwave();
 	//0: Default movement (They bounce higher)
 	//1: Straight line (They destroy at slopes)
 	global.fireballtype = 0;
+	
+	//Enable/Disable Invincibility Combos (If disabled, all enemies will only give 200 points per kill)
+	//false: Enabled
+	//true: Disabled
+	global.no_starman_combo = false;
+	
+	//Enable/Disable Butt-Sliding Combos (If disabled, all enemies will only give 200 points per kill)
+	//false: Enabled
+	//true: Disabled
+	global.no_sliding_combo = false;
 	
 	//Resets combo when getting a 1-UP (Default: false)
 	//false: Disabled

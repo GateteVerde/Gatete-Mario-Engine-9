@@ -24,7 +24,7 @@ else if (berry != noone) {
     
         //Extend time
         with (instance_create_depth(x-8, y-15, -6, obj_score)) 
-			value = -5;       
+			value = -6;       
     }
     
     //Otherwise if the berry eaten is a red one, increment count till 5 berries are eaten.

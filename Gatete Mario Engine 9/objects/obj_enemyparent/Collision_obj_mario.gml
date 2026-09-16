@@ -12,56 +12,71 @@ if (stomp != -1)
     //If the player is sliding down a slope
     if ((other.sliding) || ((global.powerup == cs_football) && (other.run == true)))
     && (vulnerable < 99) {
+		
+		//If no consecutive points can be earnt
+		if (global.no_sliding_combo == true) {
+			
+	        audio_play_sound(snd_kick, 0, false);
+	        with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	            value = 200;
+		}
+		
+		//Otherwise
+		else {
 
-        //Get points based on combo
-        if (other.hitcombo == 0) { //200 points
+	        //Get points based on combo
+	        if (other.hitcombo == 0) { //200 points
         
-            audio_play_sound(snd_kick_2, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = 200;
-        }
-        else if (other.hitcombo == 1) { //400 points
+	            audio_play_sound(snd_kick_2, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = 200;
+	        }
+	        else if (other.hitcombo == 1) { //400 points
         
-            audio_play_sound(snd_kick_3, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = 400;
-        }
-        else if (other.hitcombo == 2) { //800 points
+	            audio_play_sound(snd_kick_3, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = 400;
+	        }
+	        else if (other.hitcombo == 2) { //800 points
         
-            audio_play_sound(snd_kick_4, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = 800;
-        }
-        else if (other.hitcombo == 3) { //1000 points
+	            audio_play_sound(snd_kick_4, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = 800;
+	        }
+	        else if (other.hitcombo == 3) { //1000 points
         
-            audio_play_sound(snd_kick_5, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = 1000;
-        }
-        else if (other.hitcombo == 4) { //2000 points
+	            audio_play_sound(snd_kick_5, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = 1000;
+	        }
+	        else if (other.hitcombo == 4) { //2000 points
         
-            audio_play_sound(snd_kick_6, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = 2000;
-        }
-        else if (other.hitcombo == 5) { //4000 points
+	            audio_play_sound(snd_kick_6, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = 2000;
+	        }
+	        else if (other.hitcombo == 5) { //4000 points
         
-            audio_play_sound(snd_kick_7, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = 4000;
-        }
-        else if (other.hitcombo == 6) { //8000 points
+	            audio_play_sound(snd_kick_7, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = 4000;
+	        }
+	        else if (other.hitcombo == 6) { //8000 points
         
-            audio_play_sound(snd_kick_8, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = 8000;
-        }
-        else if (other.hitcombo > 6) { //1-UP
+	            audio_play_sound(snd_kick_8, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = 8000;
+	        }
+	        else if (other.hitcombo > 6) { //1-UP
     
-            audio_play_sound(snd_kick, 0, false);
-            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
-                value = -1;
-        }
+	            audio_play_sound(snd_kick, 0, false);
+	            with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
+	                value = -1;
+	        }
+			
+			//Increment combo
+			other.hitcombo++;
+		}
     
         //Kill the enemy
 		killer_id = obj_mario;
@@ -69,9 +84,6 @@ if (stomp != -1)
         
         //Create 'Spinthump' effect
         with (instance_create_depth(round(bbox_left + bbox_right) / 2, round(bbox_top + bbox_bottom)/2, -6, obj_smoke)) sprite_index = spr_spinthump;
-                
-        //Increment hitcombo but only when sliding
-        other.hitcombo++;
 		
 		//Reset if dashing thru as Football Mario
 		if ((global.powerup == cs_football) && (other.run))

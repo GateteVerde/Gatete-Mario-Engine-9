@@ -3900,6 +3900,7 @@
     {"id":{"name":"spr_score_1up","path":"sprites/spr_score_1up/spr_score_1up.yy",},},
     {"id":{"name":"spr_score_2up","path":"sprites/spr_score_2up/spr_score_2up.yy",},},
     {"id":{"name":"spr_score_3up","path":"sprites/spr_score_3up/spr_score_3up.yy",},},
+    {"id":{"name":"spr_score_5up","path":"sprites/spr_score_5up/spr_score_5up.yy",},},
     {"id":{"name":"spr_score_big","path":"sprites/spr_score_big/spr_score_big.yy",},},
     {"id":{"name":"spr_score_minigame","path":"sprites/spr_score_minigame/spr_score_minigame.yy",},},
     {"id":{"name":"spr_score_redcoin","path":"sprites/spr_score_redcoin/spr_score_redcoin.yy",},},
