@@ -26,7 +26,7 @@ display = 0;
 //Text
 text = @"< CREATED BY >
 
-GREEN BARON GAMES
+WASAEDA GAMES
 
 
 

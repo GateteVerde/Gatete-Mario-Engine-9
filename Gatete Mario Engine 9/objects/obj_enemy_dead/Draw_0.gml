@@ -16,6 +16,12 @@ if (sprite_index != -1) {
 			|| (sprite_index == spr_wiggler_body)
 			|| (sprite_index == spr_wiggler_mad)
 			|| (sprite_index == spr_wiggler_mad_body)
+			|| (sprite_index == spr_flamechomp)
+			|| (sprite_index == spr_fireball)
+			|| (sprite_index == spr_firesnake)
+			|| (sprite_index == spr_firesnake_body)
+			|| (sprite_index == spr_chainchomp)
+			|| (sprite_index == spr_chainchomp_chain)
 				draw_sprite_custom_origin(sprite_index, image_index, screen_round(x), screen_round(y), sprite_get_width(sprite_index) / 2, sprite_get_height(sprite_index) / 2, image_xscale, -1, 0, c_white, 1);
 			else
 				draw_sprite_custom_origin(sprite_index, image_index, screen_round(x), screen_round(y), sprite_get_width(sprite_index) / 2, sprite_get_height(sprite_index) / 2, image_xscale, 1, angle, c_white, 1);

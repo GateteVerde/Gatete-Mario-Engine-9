@@ -19,8 +19,8 @@
     "path":"folders/Objects/Special/Do Not Use!/Enemies/Land/Bros.yy",
   },
   "parentObjectId":{
-    "name":"obj_fireball",
-    "path":"objects/obj_fireball/obj_fireball.yy",
+    "name":"obj_firebro_fireball",
+    "path":"objects/obj_firebro_fireball/obj_firebro_fireball.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
