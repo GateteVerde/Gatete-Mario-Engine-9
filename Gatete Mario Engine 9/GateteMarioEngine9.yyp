@@ -2571,6 +2571,7 @@
     {"id":{"name":"spr_levelpanel_switch_g","path":"sprites/spr_levelpanel_switch_g/spr_levelpanel_switch_g.yy",},},
     {"id":{"name":"spr_levelpanel_switch_r","path":"sprites/spr_levelpanel_switch_r/spr_levelpanel_switch_r.yy",},},
     {"id":{"name":"spr_levelpanel_switch_y","path":"sprites/spr_levelpanel_switch_y/spr_levelpanel_switch_y.yy",},},
+    {"id":{"name":"spr_levelpanel_yellow","path":"sprites/spr_levelpanel_yellow/spr_levelpanel_yellow.yy",},},
     {"id":{"name":"spr_levelpanel","path":"sprites/spr_levelpanel/spr_levelpanel.yy",},},
     {"id":{"name":"spr_light_area","path":"sprites/spr_light_area/spr_light_area.yy",},},
     {"id":{"name":"spr_light_disco","path":"sprites/spr_light_disco/spr_light_disco.yy",},},

@@ -1401,6 +1401,13 @@ if (global.powerup == cs_flower) {
 
 	    //Play 'Rise' sound
 	    audio_play_sound(snd_rise, 0, false);
+		
+		//Force end triple jump
+		triplejump = 0;
+		
+		//Force end somersault
+		somersault = 0;
+		angle = 0;
          
 	    //Allow fluttering   
 	    flutter = 1;

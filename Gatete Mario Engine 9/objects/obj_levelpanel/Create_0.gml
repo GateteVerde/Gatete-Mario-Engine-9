@@ -21,24 +21,42 @@ image_alpha = 0;
 
 //Check map value
 if (ds_map_find_value(global.worldmap, id) > 0) {
-
-	image_alpha = 1;
-	if (ds_map_find_value(global.worldmap, id) == 2) {
-
+	
+	//If the game has been completed at 100 percent
+	if (global.gameclear == 100) {
+		
+		//Set the alpha
+		image_alpha = 1;
+		
 		//Set the sprite
-		sprite_index = spr_levelpanel_beaten;
-		image_speed = 0;
-		image_index = 3;
+		sprite_index = spr_levelpanel_yellow;
+		image_speed = 1;
 		
 		//Mark as beaten
 		beaten = 1;
 	}
-	else {
 	
-		if (secretexit != noone)
-			sprite_index = spr_levelpanel_red;
-		else
-			sprite_index = spr_levelpanel;
+	//Otherwise
+	else {
+
+		image_alpha = 1;
+		if (ds_map_find_value(global.worldmap, id) == 2) {
+
+			//Set the sprite
+			sprite_index = spr_levelpanel_beaten;
+			image_speed = 0;
+			image_index = 3;
+		
+			//Mark as beaten
+			beaten = 1;
+		}
+		else {
+	
+			if (secretexit != noone)
+				sprite_index = spr_levelpanel_red;
+			else
+				sprite_index = spr_levelpanel;
+		}
 	}
 }
 

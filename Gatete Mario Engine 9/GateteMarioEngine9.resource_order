@@ -2163,6 +2163,7 @@
     {"name":"spr_levelpanel_switch_b","order":3,"path":"sprites/spr_levelpanel_switch_b/spr_levelpanel_switch_b.yy",},
     {"name":"spr_levelpanel_switch_g","order":1,"path":"sprites/spr_levelpanel_switch_g/spr_levelpanel_switch_g.yy",},
     {"name":"spr_levelpanel_switch_r","order":2,"path":"sprites/spr_levelpanel_switch_r/spr_levelpanel_switch_r.yy",},
+    {"name":"spr_levelpanel_yellow","order":5,"path":"sprites/spr_levelpanel_yellow/spr_levelpanel_yellow.yy",},
     {"name":"spr_levelpanel","order":1,"path":"sprites/spr_levelpanel/spr_levelpanel.yy",},
     {"name":"spr_light_area","order":2,"path":"sprites/spr_light_area/spr_light_area.yy",},
     {"name":"spr_light","order":1,"path":"sprites/spr_light/spr_light.yy",},

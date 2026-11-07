@@ -191,25 +191,22 @@ depth = -1000;
 //Award extra lives every 100 coins
 if (global.coins > 99) {
 	
+	//Play '1-UP' sound
+	audio_play_sound(snd_1up, 0, false);
+	
+	//Restart coin counter
+	global.coins -= 100;
+	
 	//If lives are maxed out
 	if (lives == 99)
 		addlives = 0;
 	
 	//Otherwise
 	else {
-
-		//Restart coin counter
-		global.coins -= 100;
 	
 		//If the game is still giving extra lives
-		if (addlives == 0) {
-			
-			//Play '1-UP' sound
-			audio_play_sound(snd_1up, 0, false);
-		
-			//Add extra lives
+		if (addlives == 0)
 			lives++;
-		}
 		else
 			addlives++;
 	}
