@@ -82,6 +82,10 @@ if (enable_control == true) { //If the player's controls are not disabled.
     && (yspeed == 0) 
     && (state != playerstate.jump) { //If the 'Shift' key is pressed and the player is not jumping.
 		
+		//If Mario does have the penguin suit and there's no ceiling above, exit this event
+		if ((global.powerup == cs_penguin) && (collision_point(x, bbox_top-8, obj_solid, 1, 0)))
+			return;
+		
 		//Play 'Jump' sound
         audio_play_sound(snd_jump, 0, false);
                 

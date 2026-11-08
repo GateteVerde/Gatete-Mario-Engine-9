@@ -536,6 +536,7 @@
     {"$GMIncludedFile":"","%Name":"worldmap1.ogg","CopyToMask":-1,"filePath":"datafiles/music/map","name":"worldmap1.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"worldmap2.ogg","CopyToMask":-1,"filePath":"datafiles/music/map","name":"worldmap2.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"worldmap3.ogg","CopyToMask":-1,"filePath":"datafiles/music/map","name":"worldmap3.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"museum.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"museum.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"overworld.ogg","CopyToMask":3035461389054378222,"filePath":"datafiles/music","name":"overworld.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"shooting.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"shooting.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"snow.ogg","CopyToMask":-1,"filePath":"datafiles/music","name":"snow.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

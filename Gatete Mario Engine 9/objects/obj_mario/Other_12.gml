@@ -1099,7 +1099,8 @@ if ((enable_control == true) && ((input_check(input.down)) || (gamepad_axis_valu
 	&& (global.powerup != cs_bell) 
 	&& (global.special_moves == true) 
 	&& (!collision_point(x, y, obj_glider, 0, 0)) 
-	&& (!collision_point(x, y, obj_waterbubble, 0, 0)) {
+	&& (!collision_point(x, y, obj_waterbubble, 0, 0)) 
+	&& (!collision_point(x, bbox_top - 8, obj_solid, 1, 0)) {
 	
 		//Play 'Ground Pound' sound
 		audio_play_sound(snd_groundpound, 0, false);

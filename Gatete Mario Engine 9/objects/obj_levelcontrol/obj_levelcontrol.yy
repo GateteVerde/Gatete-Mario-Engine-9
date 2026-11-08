@@ -53,6 +53,7 @@
         "\"Desert\"",
         "\"Fortress\"",
         "\"Ghost\"",
+        "\"Museum\"",
         "\"Overworld\"",
         "\"Shooting\"",
         "\"Snow\"",
