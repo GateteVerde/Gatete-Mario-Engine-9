@@ -57,14 +57,14 @@ if (state == 0) {
 					value = -2;
 			}
 			
-			//Otherwise, if Mario has done 9 consecutive stomps, grant 2 extra lives
+			//Otherwise, if Mario has done 9 consecutive stomps, grant 3 extra lives
 			else if (obj_mario.hitcombo == 9) {
 			
 				with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))
 					value = -3;
 			}
 			
-			//Otherwise, if Mario has done 10 or more consecutive stomps, grant 2 extra lives
+			//Otherwise, if Mario has done 10 or more consecutive stomps, grant 5 extra lives
 			else if (obj_mario.hitcombo >= 10) {
 			
 				with (instance_create_depth(round(bbox_left + bbox_right) / 2, y, -6, obj_score))

@@ -9,7 +9,13 @@ if (ready == 0)
 	//Set state to bumped
 	ready = 1;
 	event_user(0);
-	event_user(1);
+	
+	//Destroy bricks on contact
+	if (object_index == obj_brick)
+	|| (object_index == obj_brick_big) {
+		
+		event_user(1);
+	}
 						
 	//Set horizontal speed
 	alarm[0] = 4;

@@ -10,9 +10,7 @@ draw_set_colour(c_white);
 draw_set_font(font);
 
 //If this object is giving extra lives, draw sprite
-if (value < 0)
-&& (value > -4)
-&& (sprite_index > -1) {
+if ((value < 0) && (sprite_index != -1)) {
 	
 	//Scale it up
 	scale += 0.05;
@@ -39,7 +37,7 @@ if (value < 0)
 else {
 	
 	//If this uses a bonus time sprite
-	if (value < -3) {
+	if (value < -4) {
 		
 		//Stay in view
 		if (y < camera_get_view_y(view_camera[0]) + 32)

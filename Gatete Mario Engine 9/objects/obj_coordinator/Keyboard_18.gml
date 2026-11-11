@@ -1,5 +1,6 @@
-/// @description Restart the game when both ALT+R are pressed
+/// @description Handle actions that require the 'Alt' key to be pressed with another one
 
+//If the 'R' key is held, restart the game.
 if (keyboard_check_pressed(ord("R"))) {
 
 	//Stop playing all sounds

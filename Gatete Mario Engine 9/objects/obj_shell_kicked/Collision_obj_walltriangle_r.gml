@@ -1,8 +1,7 @@
 /// @description Bounce in contact with a wall triangle
 
-if (xspeed > 0)
-&& (x >= other.x+8) {
+if ((yspeed == 0) && ((xspeed > 0) && (x > other.x))) {
 
-    yspeed = -3;
-    y -= 4;
+    yspeed = -4;
+    y--;
 }

@@ -75,8 +75,8 @@ if (other.vulnerable < 99) {
 			//1-UP / 2-UP (If Wiggler)
 			else if (hitcombo > 6) {
 		
-				//If Mario has killed 7 or more enemies and the next enemy is a wiggler, win 2 extra lifes instead.
-				if (hitcombo >= 7) 
+				//If Mario has killed 8 or more enemies and the next enemy is a wiggler, win 2 extra lifes instead.
+				if (hitcombo >= 8) 
 				&& ((other.object_index == obj_wiggler) || (other.object_index == obj_wiggler_body)) {
 			
 					audio_play_sound(snd_kick, 0, false);

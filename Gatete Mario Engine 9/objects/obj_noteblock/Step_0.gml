@@ -46,7 +46,8 @@ if (instance_exists(obj_mario)) {
 	&& (collision_rectangle(bbox_left, bbox_top-3, bbox_right, bbox_top, obj_mario, 0, 0)) {
 		
 		//Sprout out an item if there's any
-		if (sprout > cs_coin) {
+		if (sprout > cs_coin) 
+		&& (!position_meeting(x, ystart + 16, obj_semisolid)) {
 			
 			event_user(1);
 		}

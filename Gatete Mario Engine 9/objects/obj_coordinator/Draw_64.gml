@@ -35,5 +35,5 @@ gpu_set_blendenable(true);
 if (showfps) {
 	
 	draw_set_font(global.gui_font_menu);
-	draw_text(2, 2, string(fps));
+	draw_text(2, 2, string("FPS") + string(fps) + " / " + string(fps_real));
 }
