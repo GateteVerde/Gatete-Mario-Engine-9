@@ -1,5 +1,8 @@
 /// @description Get extra life
 
+//Play 'Lucky' sound
+play_voiceline(global.voiceline_lucky, 0, false);
+
 #region EFFECT
 
 	//Repeat 16 times

@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.670937,
+  "duration":2.6709523,
   "exportDir":"",
   "name":"snd_cardsong",
   "parent":{
