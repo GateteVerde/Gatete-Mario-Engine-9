@@ -1396,6 +1396,7 @@ if (global.powerup == cs_flower) {
 	&& (flutter_delay == 0)
 	&& (flutter == 0)
 	&& (yspeed > 1.5)
+	&& (crouch == 0)
 	&& (jumping == 2)
 	&& (wallkick == 0)
 	&& (global.mount == 0) {
