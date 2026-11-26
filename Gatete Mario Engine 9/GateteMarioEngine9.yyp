@@ -546,7 +546,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.1.0.27",
+    "IDEVersion":"2026.1.1.34",
   },
   "name":"GateteMarioEngine9",
   "resources":[
@@ -1181,6 +1181,8 @@
     {"id":{"name":"obj_onoffblock","path":"objects/obj_onoffblock/obj_onoffblock.yy",},},
     {"id":{"name":"obj_onoffplatform_blue","path":"objects/obj_onoffplatform_blue/obj_onoffplatform_blue.yy",},},
     {"id":{"name":"obj_onoffplatform_red","path":"objects/obj_onoffplatform_red/obj_onoffplatform_red.yy",},},
+    {"id":{"name":"obj_onoffspikes_blue","path":"objects/obj_onoffspikes_blue/obj_onoffspikes_blue.yy",},},
+    {"id":{"name":"obj_onoffspikes_red","path":"objects/obj_onoffspikes_red/obj_onoffspikes_red.yy",},},
     {"id":{"name":"obj_ostro","path":"objects/obj_ostro/obj_ostro.yy",},},
     {"id":{"name":"obj_palaceswitch","path":"objects/obj_palaceswitch/obj_palaceswitch.yy",},},
     {"id":{"name":"obj_panser_b","path":"objects/obj_panser_b/obj_panser_b.yy",},},
@@ -3658,6 +3660,8 @@
     {"id":{"name":"spr_onoffblock","path":"sprites/spr_onoffblock/spr_onoffblock.yy",},},
     {"id":{"name":"spr_onoffplatform_blue","path":"sprites/spr_onoffplatform_blue/spr_onoffplatform_blue.yy",},},
     {"id":{"name":"spr_onoffplatform_red","path":"sprites/spr_onoffplatform_red/spr_onoffplatform_red.yy",},},
+    {"id":{"name":"spr_onoffspikes_blue","path":"sprites/spr_onoffspikes_blue/spr_onoffspikes_blue.yy",},},
+    {"id":{"name":"spr_onoffspikes_red","path":"sprites/spr_onoffspikes_red/spr_onoffspikes_red.yy",},},
     {"id":{"name":"spr_opener","path":"sprites/spr_opener/spr_opener.yy",},},
     {"id":{"name":"spr_ostro","path":"sprites/spr_ostro/spr_ostro.yy",},},
     {"id":{"name":"spr_palaceswitch_b","path":"sprites/spr_palaceswitch_b/spr_palaceswitch_b.yy",},},
